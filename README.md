@@ -1,4 +1,4 @@
-# A simple blog to help me get some ideas down in written form
+# A blog to help me get some ideas down in written down 
 
 A blog using on Jekyll, a simple, blog-aware, static site generator perfect for personal, project, or organization sites. 
 
