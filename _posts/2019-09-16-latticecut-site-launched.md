@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A P Moore, latticecut, Launches Site"
+title: "A P Moore, Blog Site"
 date: 2019-09-16
 ---
 
