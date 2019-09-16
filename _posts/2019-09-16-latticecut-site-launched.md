@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SuperLattice Blog Site"
+title: "SuperLattice Blog Launched"
 date: 2019-09-16
 ---
 
