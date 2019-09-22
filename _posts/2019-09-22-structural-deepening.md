@@ -30,11 +30,11 @@ These series of posts are on the detail of transitions between different technol
 
 The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different component technologies \footnote{This is in principle done by assessing the language used to describe the technology in various corpora that refer to it, from publications, to patents, to standards bodies documentation, to marketing websites and so forth. I will write more on this in future posts.}
 
-To start with, looking at \ref{fig:component} we can see that we have a component that as it matures moves from left, the *Genesis stage* where it has been *kludged* together from existing assemblies. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) used a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
+To start with, looking at Figure 1 we can see that we have a component moves from left to right as it matures. On the left in the *Genesis stage* it has been *kludged* together from existing components or assemblies of components. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
 
-The technology, component, then begins its journey along a path of development. This is shown by arrow going left to right in a Wardley Map. 
+The technology or component (I will use these interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
 
-![Figure 1](../structural-deepening/0001_Structural_Deepening_Fig1.png)
+![Figure 1](0001_Structural_Deepening_Fig1.png)
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
