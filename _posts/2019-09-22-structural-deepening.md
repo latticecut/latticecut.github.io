@@ -18,7 +18,7 @@ In particular, I'm interested in a examining Simon Wardley's mapping framework i
 
 For those of you that don't know the background to this, begin reading to find out more [On being lost](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec). The appeal of this framework is that it views a business model as a directed graph in a metric or ordinal space - but more on that at a later date. 
 
----
+--
 
 # The structure of invention
 
