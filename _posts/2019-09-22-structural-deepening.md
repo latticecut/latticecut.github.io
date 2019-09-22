@@ -35,14 +35,34 @@ To start with, looking at Figure 1 we can see that we have a component moves fro
 The technology or component (I will use these terms interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
 
 ![Figure 1](/assets/0001_Structural_Deepening_Fig1.png)
-*Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity*
+**Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity**
 
 As the component moves between different stages of maturity we can imagine think about the 
 
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
 
 ![Figure 2](/assets/0001_Structural_Deepening_Fig2.png)
-*Figure 2. Map showing the different..*
+**Figure 2. Map showing the different..**
 
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
+![Figure 3](/assets/0001_Structural_Deepening_Fig3.png)
+**Figure 3. Map showing the different..**
+
+![Figure 4](/assets/0001_Structural_Deepening_Fig4.png)
+**Figure 4. Map showing the different..**
+
+![Figure 5](/assets/0001_Structural_Deepening_Fig5.png)
+**Figure 5. Map showing the different..**
+
+![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
+**Figure 6. Map showing the different..**
+
+![Figure 7](/assets/0001_Structural_Deepening_Fig7.png)
+**Figure 7. Map showing the different..**
+
+![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
+**Figure 8. Map showing the different..**
