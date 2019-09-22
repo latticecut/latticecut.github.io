@@ -34,7 +34,7 @@ To start with, looking at \ref{fig:component} we can see that we have a componen
 
 The technology, component, then begins its journey along a path of development. This is shown by arrow going left to right in a Wardley Map. 
 
-![Figure 1](/structural-deepening/0001_Structural_Deepening_Fig1.png)
+![Figure 1](../structural-deepening/0001_Structural_Deepening_Fig1.png)
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
