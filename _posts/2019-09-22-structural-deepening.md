@@ -14,7 +14,7 @@ This is to help me understand my own ideas about the papers I read, talks I hear
 
 As such, most of the material on this blog is just a reworking of other peoples ideas, perhaps in a different context, or with comparisons drawn with the work of others. I hope it is all referenced correctly. To this end, I am interested in feedback and input on clarifications, corrections, errata, emendations and so forth. 
 
-I work in a cross section of different fields, from machine learning, to law, and in settings that span formal education to startups. This blog is focused on my interest in the different mechanisms of invention, innovation and the evolution of technology.   
+I currently work in different fields, from machine learning, to law, and in different contexts from formal education to to working with startups. This blog is focused on my interest in the different mechanisms of invention, innovation and the evolution of technology. Most of my recent discussions in these matter have been with Dave Chapman at the UCL School of Management.    
 
 In particular, I'm interested in a examining Simon Wardley's mapping framework in greater detail. Most of these early posts are going to be about interpreting many of the other works in the (predominantly management science) literature in the context of a map. 
 
@@ -32,10 +32,17 @@ The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different 
 
 To start with, looking at Figure 1 we can see that we have a component moves from left to right as it matures. On the left in the *Genesis stage* it has been *kludged* together from existing components or assemblies of components. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
 
-The technology or component (I will use these interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
+The technology or component (I will use these terms interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
 
 ![Figure 1](/assets/0001_Structural_Deepening_Fig1.png)
 *Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity*
+
+As the component moves between different stages of maturity we can imagine think about the 
+
+
+![Figure 2](/assets/0001_Structural_Deepening_Fig2.png)
+*Figure 2. Map showing the different..*
+
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
