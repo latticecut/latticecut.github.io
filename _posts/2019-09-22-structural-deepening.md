@@ -12,7 +12,7 @@ I have been intending to write a blog for some time.
 
 This is to help me understand my own ideas about the papers I read, talks I hear, and increasingly importantly the social media threads I view. 
 
-As such, most of the material on this blog is just a reworking of other peoples ideas, perhaps in a different context, or with comparisons drawn with others work. I hope it is all referenced correctly. To this end, I am interested in feedback and input on clarifications, corrections, errata, emendations and so forth. 
+As such, most of the material on this blog is just a reworking of other peoples ideas, perhaps in a different context, or with comparisons drawn with the work of others. I hope it is all referenced correctly. To this end, I am interested in feedback and input on clarifications, corrections, errata, emendations and so forth. 
 
 I work in a cross section of different fields, from machine learning, to law, and in settings that span formal education to startups. This blog is focused on thinking about realistic mechanisms of invention, innovation and the evolution of technology.   
 
@@ -21,6 +21,7 @@ In particular, I'm interested in a examining Simon Wardley's mapping framework i
 For those of you that don't know the background to this, begin reading to find out more [On being lost](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec). 
 
 
+![Figure 1](_figures/0001_Structural_Deepening/0001_Structural_Deepening_Fig1.png)
 
 The appeal of this framework is that it views a business model as a directed graph in a metric or ordinal space - but more on that at a later date. 
 
@@ -36,16 +37,8 @@ To start with, looking at \ref{fig:component} we can see that we have a componen
 
 The technology, component, then begins its journey along a path of development. This is shown by arrow going left to right in a Wardley Map. 
 
-\begin{figure}
-    \centering
-    \includegraphics{_figures/Placeholder1.pdf}
-    \caption{Caption}
-    \label{fig:component}
-\end{figure}
-
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
 
-
-For a great short intro watch the video by [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+![A simple component](_figures/2019-09-22-structural-deepending-Fig1)
