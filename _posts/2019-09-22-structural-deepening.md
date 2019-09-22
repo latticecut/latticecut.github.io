@@ -35,6 +35,7 @@ To start with, looking at Figure 1 we can see that we have a component moves fro
 The technology or component (I will use these interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
 
 ![Figure 1](/assets/0001_Structural_Deepening_Fig1.png)
+*Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity*
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
