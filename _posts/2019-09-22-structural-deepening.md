@@ -14,13 +14,13 @@ This is to help me understand my own ideas about the papers I read, talks I hear
 
 As such, most of the material on this blog is just a reworking of other peoples ideas, perhaps in a different context, or with comparisons drawn with the work of others. I hope it is all referenced correctly. To this end, I am interested in feedback and input on clarifications, corrections, errata, emendations and so forth. 
 
-I work in a cross section of different fields, from machine learning, to law, and in settings that span formal education to startups. This blog is focused on thinking about realistic mechanisms of invention, innovation and the evolution of technology.   
+I work in a cross section of different fields, from machine learning, to law, and in settings that span formal education to startups. This blog is focused on my interest in the different mechanisms of invention, innovation and the evolution of technology.   
 
-In particular, I'm interested in a examining Simon Wardley's mapping framework in greater detail. Most of these early posts are going to be about interpreting many of the other works in the literature in the context of a map. 
+In particular, I'm interested in a examining Simon Wardley's mapping framework in greater detail. Most of these early posts are going to be about interpreting many of the other works in the (predominantly management science) literature in the context of a map. 
 
-For those of you that don't know the background to this, begin reading to find out more [On being lost](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec). 
+For those of you that don't know the background to this, begin reading  [On being lost](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec) to learn more about it. 
 
-The appeal of this framework is that it views a business model as a directed graph in a metric or ordinal space - but more on that at a later date. 
+The appeal of this mapping framework is that it views a business model as a directed graph in a metric or ordinal space - this appeals to me for several reasons - but more on that at a later date. 
 
 ***
 
@@ -33,7 +33,6 @@ The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different 
 To start with, looking at \ref{fig:component} we can see that we have a component that as it matures moves from left, the *Genesis stage* where it has been *kludged* together from existing assemblies. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) used a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
 
 The technology, component, then begins its journey along a path of development. This is shown by arrow going left to right in a Wardley Map. 
-
 
 ![Figure 1](_figures/0001_Structural_Deepening/0001_Structural_Deepening_Fig1.png)
 
