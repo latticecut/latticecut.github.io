@@ -20,9 +20,6 @@ In particular, I'm interested in a examining Simon Wardley's mapping framework i
 
 For those of you that don't know the background to this, begin reading to find out more [On being lost](https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec). 
 
-
-![Figure 1](_figures/0001_Structural_Deepening/0001_Structural_Deepening_Fig1.png)
-
 The appeal of this framework is that it views a business model as a directed graph in a metric or ordinal space - but more on that at a later date. 
 
 ***
@@ -38,7 +35,7 @@ To start with, looking at \ref{fig:component} we can see that we have a componen
 The technology, component, then begins its journey along a path of development. This is shown by arrow going left to right in a Wardley Map. 
 
 
+![Figure 1](_figures/0001_Structural_Deepening/0001_Structural_Deepening_Fig1.png)
+
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
-
-![A simple component](_figures/2019-09-22-structural-deepending-Fig1)
