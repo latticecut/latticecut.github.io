@@ -66,5 +66,5 @@ Technologies consist of parts - assemblies or sub-assemblies - that are themselv
 ![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
 **Figure 8. Map showing the different..**
 
-![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
-**Figure 8. Map showing the different..**
+![Figure 9](/assets/0001_Structural_Deepening_Fig9.png)
+**Figure 9. Map showing the different..**
