@@ -28,11 +28,17 @@ The appeal of this mapping framework is that it views a business model as a dire
 
 These series of posts are on the detail of transitions between different technologies. In future posts, this will touch on subjects such as *technical debt* or *obsolescence* but to start with I want to introduce some terminology from the work of others. 
 
-The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different component technologies \footnote{This is in principle done by assessing the language used to describe the technology in various corpora that refer to it, from publications, to patents, to standards bodies documentation, to marketing websites and so forth. I will write more on this in future posts.}
+The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different component technologies [^1].
+
+[^1]:This is in principle done by assessing the language used to describe the technology in various corpora that refer to it, from publications, to patents, to standards bodies documentation, to marketing websites and so forth. I will write more on this in future posts.
 
 To start with, looking at Figure 1 we can see that we have a component moves from left to right as it matures. On the left in the *Genesis stage* it has been *kludged* together from existing components or assemblies of components. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
 
-The technology or component (I will use these terms interchangeably) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
+The technology or component (Following Arthur 2007 [^2] I will use I will use the word technology in this blog quite simply as
+a means to fulfill a human purpose) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
+
+[^2]: The word technology has two other legitimate meanings: a body of practices and components, such as electronics or optical data transmis- sion; and “the totality of the means employed by a people to provide itself with the objects of material culture (Webster). The structure of invention W. Brian Arthur Published 2007 DOI:10.1016/j.respol.2006.11.005
+
 
 ![Figure 1](/assets/0001_Structural_Deepening_Fig1.png)
 **Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity**
