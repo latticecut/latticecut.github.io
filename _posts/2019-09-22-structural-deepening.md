@@ -72,16 +72,16 @@ Technologies consist of parts - assemblies or sub-assemblies - that are themselv
 **Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016 (2016)[^adnerKapoor2016]**
 
 ![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
-**Figure 6. Determinants of value..**
+**Figure 6. Determinants of value.**
 
 ![Figure 7](/assets/0001_Structural_Deepening_Fig7.png)
-**Figure 7. Evolution of the main assembly..**
+**Figure 7. Evolution of the main assembly.**
 
 ![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
 **Figure 8. Evolving value "as used".**
 
 ![Figure 9](/assets/0001_Structural_Deepening_Fig9.png)
-**Figure 9. Structural deepening..**
+**Figure 9. Structural deepening.**
 
 It the next post we'll look at different paths for the evolution of the main assembly to help us understand why do some new technologies emerge and quickly supplant incumbent technologies while others take years or decades to take off. We explore the framework of Adner and Kapoor (2016)[^adnerKapoor2016]that considers both the focal competing technologies as well as the ecosystems in which they are embedded.
 
@@ -91,4 +91,4 @@ It the next post we'll look at different paths for the evolution of the main ass
 
 [^arthur2009]: Arthur, W. Brian, The Nature of Technology, Penguin Books UK, 2009
 
-[^adnerKapoor2016] Adner, R. and Kapoor, R., Innovation ecosystems and the pace of substitution: Re-examining technology S-curves, Strategic Management Journal, 37: 625-648, 2016  
+[^adnerKapoor2016]: Adner, R. and Kapoor, R., Innovation ecosystems and the pace of substitution: Re-examining technology S-curves, Strategic Management Journal, 37: 625-648, 2016  
