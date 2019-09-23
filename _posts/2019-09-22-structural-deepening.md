@@ -69,7 +69,7 @@ Technologies consist of parts - assemblies or sub-assemblies - that are themselv
 ## An example of Lithography 
 
 ![Figure 5](/assets/0001_Structural_Deepening_Fig5.png)
-**Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016 (2016)[^adnerKapoor2016]**
+**Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor (2016, p. 633, Figure 4)[^adnerKapoor2016]**
 
 ![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
 **Figure 6. Determinants of value.**
