@@ -57,14 +57,14 @@ A principle by contrast (as I will use the word) is the idea of use of a phenome
 
 
 ![Figure 3](/assets/0001_Structural_Deepening_Fig3.png)
-**Figure 3. Purposed systems. All technologies **
+**Figure 3. Purposed systems. All technologies**
 
 Technologies are put together or combined from component parts or assemblies
 
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
 ![Figure 4](/assets/0001_Structural_Deepening_Fig4.png)
-**Figure 4. Sturcture of the main assembly..**
+**Figure 4. Structure of the main assembly.**
 
 ## An example of Lithography 
 
