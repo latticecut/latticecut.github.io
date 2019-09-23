@@ -64,25 +64,31 @@ Technologies are put together or combined from component parts or assemblies
 Technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. W. Brian Arthur talks about the recursive structure of technologies. In \cite{} pp. he refers to 
 
 ![Figure 4](/assets/0001_Structural_Deepening_Fig4.png)
-**Figure 4. Map showing the different..**
+**Figure 4. Sturcture of the main assembly..**
+
+## An example of Lithography 
 
 ![Figure 5](/assets/0001_Structural_Deepening_Fig5.png)
-**Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016**
+**Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016 (2016)[^adnerKapoor2016]**
 
 ![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
-**Figure 6. Map showing the different..**
+**Figure 6. Determinants of value..**
 
 ![Figure 7](/assets/0001_Structural_Deepening_Fig7.png)
-**Figure 7. Map showing the different..**
+**Figure 7. Evolution of the main assembly..**
 
 ![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
-**Figure 8. Map showing the different..**
+**Figure 8. Evolving value "as used".**
 
 ![Figure 9](/assets/0001_Structural_Deepening_Fig9.png)
-**Figure 9. Map showing the different..**
+**Figure 9. Structural deepening..**
+
+It the next post we'll look at different paths for the evolution of the main assembly to help us understand why do some new technologies emerge and quickly supplant incumbent technologies while others take years or decades to take off. We explore the framework of Adner and Kapoor (2016)[^adnerKapoor2016]that considers both the focal competing technologies as well as the ecosystems in which they are embedded.
 
 # References 
 
 [^arthur2007]: Arthur, W. Brian, The Structure of Invention, Research Policy, 36, pages 274-287, 2007 
 
 [^arthur2009]: Arthur, W. Brian, The Nature of Technology, Penguin Books UK, 2009
+
+[^adnerKapoor2016] Adner, R. and Kapoor, R., Innovation ecosystems and the pace of substitution: Re-examining technology S-curves, Strategic Management Journal, 37: 625-648, 2016  
