@@ -32,12 +32,12 @@ The x-axis of a Wardley Map (Figure 1 below) measures the maturity of different 
 
 [^1]:This is in principle done by assessing the language used to describe the technology in various corpora that refer to it, from publications, to patents, to standards bodies documentation, to marketing websites and so forth. I will write more on this in future posts.
 
-To start with, looking at Figure 1 we can see that we have a component moves from left to right as it matures. On the left in the *Genesis stage* it has been *kludged* together from existing components or assemblies of components. To give an example from \cite{Arthur page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
+To start with, looking at Figure 1 we can see that we have a component moves from left to right as it matures. On the left in the *Genesis stage* it has been *kludged* together from existing components or assemblies of components. To give an example from ([^b] page 131}, Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!  
 
-The technology or component (Following Arthur 2007 [^2] I will use I will use the word technology in this blog quite simply as
+The technology or component (Following Arthur 2007 [^a] I will use I will use the word technology in this blog quite simply as
 a means to fulfill a human purpose) then begins its journey along a path of development. This is shown by arrow going left to right in the Wardley Map. 
 
-[^2]: The word technology has two other legitimate meanings: a body of practices and components, such as electronics or optical data transmis- sion; and “the totality of the means employed by a people to provide itself with the objects of material culture (Webster). The structure of invention W. Brian Arthur Published 2007 DOI:10.1016/j.respol.2006.11.005
+[^2]: The word technology has two other legitimate meanings: a body of practices and components, such as electronics or optical data transmis- sion; and “the totality of the means employed by a people to provide itself with the objects of material culture (Webster). 
 
 
 ![Figure 1](/assets/0001_Structural_Deepening_Fig1.png)
@@ -74,3 +74,9 @@ Technologies consist of parts - assemblies or sub-assemblies - that are themselv
 
 ![Figure 9](/assets/0001_Structural_Deepening_Fig9.png)
 **Figure 9. Map showing the different..**
+
+# References 
+
+[^a]: Arthur, W. Brian, The structure of invention, Research Policy, 36, pages 274-287, 2007 DOI:10.1016/j.respol.2006.11.005
+
+[^b]: Arthur, W. Brian, The Nature of Technology, Penguin Books UK, 2009
