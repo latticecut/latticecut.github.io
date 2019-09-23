@@ -55,13 +55,16 @@ Technologies consist of parts - assemblies or sub-assemblies - that are themselv
 **Figure 4. Map showing the different..**
 
 ![Figure 5](/assets/0001_Structural_Deepening_Fig5.png)
-**Figure 5. Semiconductor lithography components. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016**
+**Figure 5. Semiconductor lithography value chain. Firms mentioned in parenthesis are only representative of the firms participating in the lithography ecosystem. Adapted from Adner & Kapoor 2016**
 
 ![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
 **Figure 6. Map showing the different..**
 
 ![Figure 7](/assets/0001_Structural_Deepening_Fig7.png)
 **Figure 7. Map showing the different..**
+
+![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
+**Figure 8. Map showing the different..**
 
 ![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
 **Figure 8. Map showing the different..**
