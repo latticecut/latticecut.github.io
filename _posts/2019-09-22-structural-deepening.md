@@ -26,13 +26,15 @@ The appeal of this mapping framework is that it views a business model as a dire
 
 # The structure of invention
 
-These series of posts are on the detail of the evolution of technologies and the transitions between different technologies in the context of a business. In future posts, this will touch on subjects such as *technical debt* or *obsolescence* but to start with I want to introduce some terminology. This first post draws heavily on the work of W. Brian Arthur with references cited below.
+These series of posts are about the evolution of technologies, and the transitions between competing technologies in the context of a business.
 
-The x-axis of a Wardley Map (Figure 1 below) measures the maturity of a technology over its life cycle. The maturity is divided into four stages; Genesis, Custom Build, Product, Utility[^stages].
+In future posts, this will touch on subjects such as *technical debt* and *obsolescence* but to start with I want to introduce some terminology. This first post draws heavily on the work of W. Brian Arthur with referenced papers at the bottom of the page.
+
+The x-axis of a Wardley Map (Figure 1 below) display the maturity of a technology over its life cycle. The maturity is divided into four stages; Genesis, Custom Build, Product, Utility[^stages].
 
 [^stages]: Following [Wardley 2016](https://medium.com/wardleymaps/finding-a-new-purpose-8c60c9484d3b), Figure 76, it is in principle possible to measure the stage of maturity of a component by assessing the language used to describe the technology in the various corpora that refer to it. From academic publications, to patents in the Genesis stage, to technical standards documentation in the early Product stage and finally to marketing collateral, sales manuals and so forth at different stages of commercial development. Not all components need pass through every stage of development. This is assumed as given for now, and I will write more on this in future posts.
 
-To start with, illustrated in Figure 1, we can see that a component moves from left to right as it matures. I will use the word *technology* and *component* interchangeably in this blog quite simply as a means to fulfill a purpose[^techdef].
+To start with, illustrated in Figure 1, we can see that a component moves from left to right as it matures. I will use the word *technology* and *component* interchangeably in this blog simply as a means to fulfill a purpose[^techdef].
 
 
 [^techdef]: Following Arthur (2007 p. 276)[^arthur2007]  The word technology has two other legitimate meanings: a body of practices and components, and “the totality of the means employed by a people to provide itself with the objects of material culture (Arthur, 2007, p. 276)[^arthur2007].
@@ -46,18 +48,21 @@ Initially, on the lefthand side in the *Genesis stage* the component has to be c
 
 At the Genesis stage, a new component might have been *kludged* together from existing components or assemblies of existing components - an [MVP](https://) if you will. For example, according to Arthur (2009 p. 131)[^arthur2009], Lawrence's first [cyclotron](https://en.wikipedia.org/wiki/Cyclotron) was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!
 
-Having proven its worth (at least in the mind of the originator(s))[^originators] the new component then begins its journey along a path of further development. This is shown by arrow going left to right in the Wardley Map. During this process the component matures, or evolves, from a working technology towards a state that is more reliable, more efficient, more robust, and in doing is often augmented in a variety of ways. For example, take a jet engine. It consists of an air intake system, a compressor system (to compress the inducted air for combustion), a combustion system (to provide high-energy gas flow for the turbine), a turbine system (to drive the compressor and provide reactive thrust), and an exhaust section.(Otis, 1997)[^otis1997]
+Having proven its worth (at least in the mind of the originator(s))[^originators] the new component then begins its journey along a path of further development. This is shown by arrow going left to right in the Wardley Map. During this process the component matures, or evolves, from a working technology towards a state that is more reliable, more efficient, more robust, and in doing is often augmented in a variety of ways.
+
+
+Consider the example of a jet engine. It consists of an air intake system, a compressor system (to compress the inducted air for combustion), a combustion system (to provide high-energy gas flow for the turbine), a turbine system (to drive the compressor and provide reactive thrust), and an exhaust section.(Otis, 1997)[^otis1997]
 
 [^originators]: Following Arthur (2007 p. 279)[^arthur2007] I will call them *originators*, to avoid the lone eccentric connotation of “inventors”.
 
 Each of these in turn is supported, supplied, monitored and controlled by other sub-components: "the compressor system requires a variable vane actuating system (to set the vane angles appropriately to airflow velocity), and an anti-stall bleed system to control pressure surges (the tendency of the compressed air to blow backwards); the turbine system requires a blade cooling system, and a complicated set of shrouds and seals to prevent high-pressure gas leakage" (Arthur (2007 p. 277)[^arthur2007]).
 
-The development of the component is ultimately driven by supply and demand competition in the market at later stages of maturity. We can therefore think of a component as existing it several different states over the duration of its evolution. This is illustrated in Figure 2, where we have a component in three states.
+The development of the component is ultimately driven by supply and demand competition in the market at different stages of maturity. We can therefore think of a component as existing in several different states over the duration of its evolution. This is illustrated in Figure 2, where we have shown a component in three states during its life-cycle.
 
 ![Figure 2](/assets/0001_Structural_Deepening_Fig2.png)
 **Figure 2. Evolution of a component from past to present through different realisations of the technology C[1] to C[3]. At each stage of development the technology must be made reliable, improved, scaled up and adapted to purposes. As we move from states 1-3, engineers can test better techniques, solve encountered problems, and create performance improvements based on different operating conditions.**
 
-The initial working technology is in state C[1], at a previous time in the Genesis stage, C[2] is the current stage of the component in a Product stage and finally C[3] is an anticipated future at the Commodity stage [^stages].  
+The initial working technology is in state C[1], at a previous time in the Genesis stage, C[2] is the current stage of the component in a Product stage and finally C[3] is an anticipated future stage in the Commodity stage [^stages].  
 
 ## Purposed systems
 
@@ -69,16 +74,16 @@ As with any map, a Wardley Map is depicted at a level of abstraction (and conseq
 
 However, following Arthur (Arthur 2007 [^arthur2007]) we can maintain that each component system, or *assembly* of components, itself has a purpose, a task that it is designed to carry out. If not, it would not exist.
 
-Consequently, technologies are put together or *combined* from component parts or assemblies[^recursive]. We can arrange these purposed systems in chain of dependancies starting with (user) needs - the reason we created the component in the first place - at the top of the y-axis and descend through the requisit components and sub-components. It is the nature of technology that, at the end of this chain, or any terminating branch, there is always a physical effect or a phenomenon that can be exploited to satisfy it. Chains (or networks) of components are required to satisfy any suitably involved set of needs in an economy and therefore other sub-principles (and therefore sub-components) are required for a technology's practical working.
+Consequently, technologies are put together or *combined* from component parts or assemblies[^recursive]. We can arrange these purposed systems in chain of dependancies starting with (user) needs - the reason we created the component in the first place - at the top of the y-axis and descend through the requisit components and sub-components. It is the nature of technology that, at the end of this chain (or terminating branch) there is always a physical effect or a phenomenon that can be exploited to satisfy it. Chains (or networks) of components are required to satisfy any suitably involved set of needs in an economy and therefore other sub-principles (and therefore sub-components) are required for a technology's practical working.
 
 [^recursive]: W. Brian Arthur talks about the recursive structure of technologies, such that technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies.
 
-To return to the example of the an aircraft jet engine (or gas turbine powerplant), the assembly of components exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. However, the phenomenon exploited at a given level of abstraction of a map need not only be physical and "any reliable or repeatable effect from nature, or logic, or behaviour, or organisation may be harnessed for use" (ibid. pp. 276).
+To return to the example of the jet engine, the assembly of components exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. However, the phenomenon exploited at a given level of abstraction of a map need not only be physical and "any reliable or repeatable effect from nature, or logic, or behaviour, or organisation may be harnessed for use" (ibid. pp. 276).
 
 Therefore, we proceed from purposes, through needs and their satisficing assembly of components, to effects and phenomena. This can been seen in Figure 3.
 
 ![Figure 3](/assets/0001_Structural_Deepening_Fig3.png)
-**Figure 3. Purposed systems. Each component system, or assembly of components, itself has a purpose that can be thought of as a chain joining purposes to a principle to phenomena.**
+**Figure 3. Purposed systems. Each component system, or assembly of components, itself has a purpose that can be thought of as a chain joining purposes to a principle to phenomena. Supporting activities and practices are included on the key for completeness but not shown.**
 
 In practise, we will frequently draw a map at a level of abstraction that does not contain purposes and phenomena (and their implied causal dependancies).
 
@@ -92,7 +97,7 @@ The method for achieving the purpose, as envisaged through some *main principle*
 ![Figure 4](/assets/0001_Structural_Deepening_Fig4.png)
 **Figure 4. Structure of the main assembly. The customer need is supported by a constellation of components and supporting activities - demarcated with a dotted line - that link it to a underlying set phenomena and effects.**
 
-In practice the *main assembly* refers to a core set of components (or methods) that successfully capture achieve the purpose – plus other assemblies hung off this to support its working, regulate its function, and feed it with energy. Following Adner and Kapoor (Adner and Kapoor 2016[^adnerKapoor2016]) we identify this smallest functional component as the *focal technology* for an analysis at the level of a specific task.
+In practice the *main assembly* refers to a core set of components (or methods) that successfully achieve the purpose – plus other assemblies hung off this to support its working, regulate its function, and feed it with energy. Following Adner and Kapoor (Adner and Kapoor 2016[^adnerKapoor2016]) we identify this smallest functional component as the *focal technology* for an analysis at the level of a specific task.
 
 The key technology is supported in turn by assemblies that require their own sub-components and sub-assemblies: controlling mechanisms, monitoring devices, input and output interfaces and so forth. We will refer to this complete set as the *main assembly*.
 
@@ -117,7 +122,7 @@ The component used to aligning the lens and the energy source is referred to at 
 
 
 ![Figure 6](/assets/0001_Structural_Deepening_Fig6.png)
-**Figure 6. Determinants of value.**
+**Figure 6. Main assembly and focal technology**
 
 
 In this post we will not pay attention to the detail of the distribution (along the x-axis) of components that make up the main assembly - rather we will focus on the evolution of the main assembly itself from left to right in a manner similar to a single component illustrated in Figure 2.
@@ -132,18 +137,18 @@ This process of increasing complexity is illustrated on the map with a node (wit
 
 ## Structure deepening
 
-One mechanism for this increasing complexity is *structural deepening* where the limitations of the original *main principle* are overcome with the addition of other sub-principles (and therefore sub-components) to improve the envelop of the technology's practical performance. For example, "developers press integrated circuits to become denser, therefore accommodating more [gates and logic]; but at some point the process that produces them, photolithography, becomes limited by the wavelength of light." (ibid p.133)[^arthur2009]
+One mechanism for this increasing complexity is *structural deepening* where the limitations of the original *main principle* are overcome with the addition of other sub-principles (and therefore sub-components) to improve the envelop of the technology's practical performance. For example, "developers press integrated circuits to become denser, therefore accommodating more [gates and logic]; but at some point the process that produces them, photolithography, becomes limited by the wavelength of light." (ibid p.133)[^arthur2009] Adding sub-systems to work around such limitations drives technologies to elaborate as they evolve - and as sub-systems or assemblies themselves are technologies, and they too develop - and are pushed to do so - so they enhance overall performance.
 
-Adding sub-systems to work around such limitations drives technologies to elaborate as they evolve - and as sub-systems or assemblies themselves are technologies, and they too develop - and are pushed to do so - so they enhance overall performance. Reverting back to the example of the jet engine, as they are pushed to perform at higher temperatures and turbine blades soften as temperatures rise, so a component is added to create new airflow to cool the blades or a component that circulates a cooling material inside the blades themselves.  
+Reverting back to the example of the jet engine, as they are pushed to perform at higher temperatures and turbine blades soften as temperatures rise, so a component is added to create new airflow to cool the blades or a component that circulates a cooling material inside the blades themselves.  
 
 Moreover, an ongoing source of improvement is that many sub-components are shared across different main assemblies, and therefore a great deal of development happens as components evolve in other adjacent assemblies.
 
-We are now in a position to revisit the distinction between the *as-developed* performance of a focal technology, and the *as-used performance*.
+We are now in a position to revisit the distinction between the *as-developed* performance of a focal technology, and the *as-used performance* of the evolving assembly. However, to do so we need to
 
-
+In Figure 8, we can see
 
 ![Figure 8](/assets/0001_Structural_Deepening_Fig8.png)
-**Figure 8. Evolving value "as used".**
+**Figure 8. Determinates of value.**
 
 ![Figure 9](/assets/0001_Structural_Deepening_Fig9.png)
 **Figure 9. Structural deepening.**
@@ -164,9 +169,4 @@ We'll explore the framework of Adner and Kapoor (2016)[^adnerKapoor2016] that co
 
 [^wardley2016]: Wardley, S., Topographical intelligence in business, 2016
 
---
-
-
-
-
-For example, the hydroelectric power generator combines several main components: a reservoir, an intake system with control gates, an intake sluice or penstock, turbines, electricity generators driven by the turbines, transformers to convert the power output to higher voltage, and an outflow system. Arthur p.276
+---
