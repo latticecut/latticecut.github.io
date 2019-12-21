@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "SuperLattice博客启动"
+title: "非常格子博客"
 lang: cn
-lang-ref: superlattice-blog-launched
+lang-ref: superlattice-blog
 date: 2019-09-16
 ---
 
