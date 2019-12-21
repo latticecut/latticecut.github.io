@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Structural Deepening"
+lang: en
+lang-ref: structural-deepening
 date: 2019-09-22
 ---
 

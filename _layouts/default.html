@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-	<html>
+	<html lang="{{ page.lang }}">
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<! <link rel="stylesheet" type="text/css" href="/css/main.css"> 
+			<! <link rel="stylesheet" type="text/css" href="/css/main.css">
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
+
 		<body>
 			<nav>
 	    		<ul>
@@ -16,9 +17,10 @@
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			{{ content }}
-			
+			{% include footer.html %}
+
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>

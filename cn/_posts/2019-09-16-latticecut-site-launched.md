@@ -2,7 +2,7 @@
 layout: post
 title: "SuperLattice博客启动"
 lang: cn
-lang-ref: superLattice-blog-launched
+lang-ref: superlattice-blog-launched
 date: 2019-09-16
 ---
 
