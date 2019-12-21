@@ -1,28 +1,32 @@
-# Welcome to Jekyll!
+# Dependencies
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+markdown:         redcarpet
 
-# Site settings
-title:
-  en: Your awesome title
-  fr: Votre titre génial
-email: your-email@domain.com
-description:
-  en: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  fr: Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.
-index:
-  en:
-  fr: accueil.html
-feed:
-  en: /feed.xml
-  fr: /flux.xml
-baseurl: "/jekyll-multilingual" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+redcarpet:
+  extensions:   ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
-# Build settings
-markdown: kramdown
+# Permalinks, default is pretty
+permalink:        pretty
+
+highlighter:       pygments
+
+paginate:       10
+paginate_path:  "/index/page:num"
+
+# Server
+host:             0.0.0.0
+port:             9001
+baseurl:          /
+url:              http://localhost:9001
+encoding:         UTF-8
+
+exclude:
+  - "tools"
+
+# Multiple languages
+gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
+
+languages:          ['en', 'cn']
+
+# If not config, the first of languages will be the default
+language_default:   'en'
