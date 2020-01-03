@@ -1,32 +1,11 @@
 # Dependencies
-#
-markdown:         redcarpet
+highlighter:      pygments
 
-redcarpet:
-  extensions:   ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-
-# Permalinks, default is pretty
+# Permalinks
 permalink:        pretty
 
-highlighter:       pygments
-
-paginate:       10
-paginate_path:  "/index/page:num"
-
-# Server
-host:             0.0.0.0
-port:             9001
+# Setup
+title:            It's a Blog
+tagline:          'In two languages'
+description:      'Have you seen enough of these yet?'
 baseurl:          /
-url:              http://localhost:9001
-encoding:         UTF-8
-
-exclude:
-  - "tools"
-
-# Multiple languages
-gems:           ['jekyll-paginate', 'jekyll-multiple-languages']
-
-languages:          ['en', 'cn']
-
-# If not config, the first of languages will be the default
-language_default:   'en'
