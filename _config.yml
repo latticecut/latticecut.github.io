@@ -12,6 +12,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jemoji
 
 # Optimize Jekyll
 exclude:
