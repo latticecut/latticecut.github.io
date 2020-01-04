@@ -1,18 +1,10 @@
 ---
-layout: home
-title: Home
+layout: default
+title: SuperLattice 非常格子
 ---
+<div class="blurb">
+	<h1>SuperLattice 非常格子</h1>
+	<p>Collected writings to help me crystalise my thoughts and ideas.</a></p>
+	<p>Hopefull, a transition from a disordered to a (slightly) more ordered state.</a></p>
 
-<h1>Select Your Language</h1>
-{% for lang in site.data.languages %}
-  {% assign langCode = lang[0] %}
-  {% if langCode == 'en' %}{% continue %}{% endif %}
-  <em>{{ site.data.translations.selectLang[langCode] }}</em><br />
-{% endfor %}
-
-<ul class="languages">
-{% for lang in site.data.languages %}
-{% assign language = lang[1] %}
-<li><a href="/{{lang[0]}}">{{language.icon}} {{ language.label }} ({{ lang[0] }})</a></li>
-{% endfor %}
-</ul>
+</div><!-- /.blurb -->
