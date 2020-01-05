@@ -1,0 +1,26 @@
+---
+layout: default
+ref: index
+lang: zh
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Articles</h1>
+
+  <ul class="post-list">
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">订阅 <a href="{{ "/馈送.xml" | prepend: site.baseurl }}">通过 RSS</a></p>
+
+</div>
