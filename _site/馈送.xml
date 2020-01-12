@@ -2,13 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SuperLattice 非常格子</title>
-    <description>收集的著作可以帮助我明确自己的思想和观念。 我们希望，从一个过渡无序到（略）更有序的状态。</description>
+    <description>收集的著作可以帮助我明确自己的思想和观念。 我们希望，从一个过渡无序到（略）更有序的状态。&lt;br&gt; &lt;br&gt; 该帖子由原始作者 A P Moore 作为“知识共享署名-相同方式共享4.0”提供。 &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/by-sa.png&quot; alt=&quot;by-sa&quot; width=&quot;88&quot; height=&quot;31&quot;/&gt;</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/馈送.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 05 Jan 2020 13:10:43 +0000</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2020 13:10:43 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Jan 2020 10:38:40 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Jan 2020 10:38:40 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
+    
+      <item>
+        <title>结构加深</title>
+        <description>&lt;hr /&gt;
+
+&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+
+&lt;p&gt;我有兴趣更详细地研究 Simon Wardley 的映射框架 &lt;sup id=&quot;fnref:wardley2016&quot;&gt;&lt;a href=&quot;#fn:wardley2016&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;。 对于那些不了解其背景的人，您可以开始阅读 &lt;a href=&quot;https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec&quot;&gt;On being lost&lt;/a&gt; 以了解更多信息。 阅读第2章和第3章仅需一个小时左右。&lt;/p&gt;
+
+&lt;p&gt;对我而言，此映射框架的吸引力在于，它将业务（模型）视为在空间（拓扑，有序，度量）中演化的有向图。 我认为，相对于我们通常称为业务模型的其他事物而言，这具有很多优势-但稍后会涉及我的各种动机-让我们从查看地图开始。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;发明的结构&quot;&gt;发明的结构&lt;/h2&gt;
+
+&lt;p&gt;这些系列文章是关于技术的演进以及在企业环境中竞争技术之间的过渡。&lt;/p&gt;
+
+&lt;p&gt;这第一篇文章主要借鉴了 W. Brian Arthur&lt;sup id=&quot;fnref:arthur2007&quot;&gt;&lt;a href=&quot;#fn:arthur2007&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;要完成的&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;参考文献&quot;&gt;参考文献&lt;/h1&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:wardley2016&quot;&gt;
+      &lt;p&gt;Wardley, S., Topographical intelligence in business, 2016 &lt;a href=&quot;#fnref:wardley2016&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:arthur2007&quot;&gt;
+      &lt;p&gt;Arthur, W. Brian, The Structure of Invention, Research Policy, 36, pages 274-287, 2007 &lt;a href=&quot;#fnref:arthur2007&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 05 Jan 2020 09:00:00 +0000</pubDate>
+        <link>http://localhost:4000/wardleymaps/2020/01/05/%E7%BB%93%E6%9E%84%E5%8A%A0%E6%B7%B1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/wardleymaps/2020/01/05/%E7%BB%93%E6%9E%84%E5%8A%A0%E6%B7%B1.html</guid>
+        
+        
+        <category>wardleymaps</category>
+        
+      </item>
     
       <item>
         <title>欢迎!</title>
