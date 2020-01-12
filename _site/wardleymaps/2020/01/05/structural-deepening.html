@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Structural Deepening</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/wardleymaps/2020/01/05/structural-deepening.html">
+  
+  <link rel="alternate" hreflang="en" href="/wardleymaps/2020/01/05/structural-deepening.html" />
+  <link rel="alternate" hreflang="zh" href="/wardleymaps/2020/01/05/%E7%BB%93%E6%9E%84%E5%8A%A0%E6%B7%B1.html" />
+  
+  <link rel="alternate" type="application/rss+xml" title="SuperLattice 非常格子" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">SuperLattice 非常格子</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+<div class="wrapper" style="text-align: right; line-height: 2em">
+  
+   <a href="/wardleymaps/2020/01/05/structural-deepening.html" class="en">en</a>  <a href="/wardleymaps/2020/01/05/%E7%BB%93%E6%9E%84%E5%8A%A0%E6%B7%B1.html" class="zh">zh</a> 
+
+  
+  
+</div>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Structural Deepening</h1>
+    <p class="post-meta"><time datetime="2020-01-05T09:00:00+00:00" itemprop="datePublished">Jan 5, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <hr />
+
+<h2 id="preamble">Preamble</h2>
+
+<p>I’m interested in examining aspects of Simon Wardley’s mapping framework<sup id="fnref:wardley2016"><a href="#fn:wardley2016" class="footnote">1</a></sup> in greater detail.</p>
+
+<p>If you that don’t know the background to this, you can begin reading <a href="https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec">On being lost</a> to learn more about it. Reading Chapters 2 and 3 will only take you an hour or so.</p>
+
+<p>To me, the appeal of this mapping framework is that it views a business (model) as a directed graph evolving in a space over time. I think this has lots of advantages over other things we commonly refer to as business models - but more on my various motivations later.</p>
+
+<p>In this first post we’re going to look at the notion of <em>structural deepening</em> - but first let’s start by having a look at a map.</p>
+
+<hr />
+
+<h2 id="the-structure-of-invention">The structure of invention</h2>
+
+<p>These series of posts are about the evolution of technologies, and the transitions between competing technologies in the context of a business.</p>
+
+<p>This first post draws heavily on the work of W. Brian Arthur<sup id="fnref:arthur2007"><a href="#fn:arthur2007" class="footnote">2</a></sup>.</p>
+
+<p>The x-axis of a Wardley Map (Figure 1 below) displays the maturity of a technology over its life cycle. The maturity is divided into four stages; <code class="highlighter-rouge">Genesis</code>, <code class="highlighter-rouge">Custom Build</code>, <code class="highlighter-rouge">Product</code>, <code class="highlighter-rouge">Utility</code><sup id="fnref:stages"><a href="#fn:stages" class="footnote">3</a></sup>.</p>
+
+<p>To start with, illustrated in Figure 1, we can see that a component moves from left to right as it matures. I will use the word <em>technology</em> and <em>component</em> interchangeably in this blog as a means to fulfill a purpose<sup id="fnref:techdef"><a href="#fn:techdef" class="footnote">4</a></sup>.</p>
+
+<p>Initially, on the lefthand side in the <code class="highlighter-rouge">Genesis stage</code> the component has to be created for the first time. At this stage we don’t have a full design but a proof of concept that demonstrates how we can create something that achieves a desired purpose.</p>
+
+<p><img src="/assets/en/2020-01-05/fig01.png" alt="Figure 1" />
+<strong>Figure 1. Map showing the evolution of a component through 4 stages, from Genesis to Commodity.</strong></p>
+
+<p>At the <code class="highlighter-rouge">Genesis</code> stage, a new component will have been <em>kludged</em> together from existing components or assemblies of existing components - a minimum viable prototype <a href="https://en.wikipedia.org/wiki/Technology_readiness_level">MVP</a> if you will. For example, according to Arthur (2009 p. 131)<sup id="fnref:arthur2009"><a href="#fn:arthur2009" class="footnote">5</a></sup>, the first <a href="https://en.wikipedia.org/wiki/Cyclotron">cyclotron</a> was assembled from parts that included a kitchen chair, a clothes tree, window glass, sealing wax and brass fittings!</p>
+
+<p>The new technology, having proven its worth (at least in the mind of the <em>originators</em>)<sup id="fnref:originators"><a href="#fn:originators" class="footnote">6</a></sup>, or having demonstrated that the harnessed principle is <em>feasible</em>, then begins its journey along a path of further development.</p>
+
+<p>This is shown by an arrow going left to right in the Wardley Map. During this process the component matures (or evolves) from an initial working technology towards a state that is more reliable, more efficient and more robust. We develop a detailed understanding of its viable operating conditions and this enables us to better understand the cost of delivery and the value it can create.</p>
+
+<p>The development (or evolution) of the component is ultimately driven by supply and demand competition in the market (or similar mechanism) at different stages of maturity. Along this journey the component technology is often altered and augmented in a variety of different ways.</p>
+
+<p>Let us, for now, ignore the details of the demand and supply pressures of different markets. We can simply think of a component as existing in several different states over the duration of its evolution. This is illustrated in Figure 2, where we have shown a component in three states during its life-cycle. The initial working technology is in state C[1], at a previous time. C[2] is the current stage of the component and finally C[3] is an anticipated future state <sup id="fnref:stages:1"><a href="#fn:stages" class="footnote">3</a></sup>.</p>
+
+<p><img src="/assets/en/2020-01-05/fig02.png" alt="Figure 2" />
+<strong>Figure 2. Evolution of a component from past to present to future through different realisations of the technology C[1] to C[3]. At each stage of development the technology must be made reliable, improved, scaled up and adapted to purposes. As we move from states 1-3, engineers can test better techniques, solve problems that have been encountered, and create performance improvements based on different operating conditions.</strong></p>
+
+<h1 id="purposed-systems">Purposed systems</h1>
+
+<p>Before discussing the behaviour of sets of components in more detail, lets us take a first look at the y-axis of the Wardley Map, labelled <em>value chain</em> <sup id="fnref:yaxis"><a href="#fn:yaxis" class="footnote">7</a></sup>.</p>
+
+<p>Consider the example of the jet engine, illustrated in Figure 3.</p>
+
+<p>The engine is designed to generate thrust to create flight to satisfy a user need. The engine enables us to harness thrust, a physical effect, caused from expanding combusting gas that creates a force we use for movement, the purpose - flying.</p>
+
+<p><img src="/assets/en/2020-01-05/fig03a.png" alt="Figure 3" />
+<strong>Figure 3. Example of a simple jet engine. a)  <a href="https://commons.wikimedia.org/wiki/File:Jet_engine.svg">Schematic of a jet engine</a> showing numbered component. The engine consists of an air intake system, a compressor system (to compress the inducted air for combustion), a combustion system (to provide high-energy gas flow for the turbine), a turbine system (to drive the compressor and provide reactive thrust), and an exhaust section (Otis, 1997)<sup id="fnref:otis1997"><a href="#fn:otis1997" class="footnote">8</a></sup>.b) A graph representation of the dependancy of different components. Note that Turbine drives the Compressor so we have cycles in the graph.</strong></p>
+
+<p>Observe that if we create a technology, we do so for a reason, a <em>purpose</em>. To achieve this purpose we harness a property of the world, a <em>phenomena</em>. Arthur’s use of the word <em>principle</em> refers to the idea of harnessing a phenomena for some purpose.(ibid. p. 2007) I interpret the y-axis of a Wardley Map as linking purposes, via principles, to phenomena. See Figure 4a.</p>
+
+<p>We can arrange purposed systems in chains of dependancies starting with (user) needs. These needs might be personally or socially perceived - but they are the reason we created the component in the first place - and they sit at the top of the y-axis supported by a set of components and sub-components.
+It is the nature of technology that, at the end of this chain (or terminating branch) there is always a physical effect or a phenomenon that can be exploited to satisfy it.</p>
+
+<p>Following Arthur (Arthur 2007 <sup id="fnref:arthur2007:1"><a href="#fn:arthur2007" class="footnote">2</a></sup>) we can maintain that each system of components, or <em>assembly</em> of components, itself has a purpose - that task that it is designed to carry out. If not, it would not exist. Consequently, technologies are put together or <em>combined</em> from component parts or assemblies in a recursive manner<sup id="fnref:recursive"><a href="#fn:recursive" class="footnote">9</a></sup>. This can be seen with Figure 4c where the engine component is comprises five further technologies and we have rearranged the graph of our engine from Figure 3b to a map in Figure 4c.</p>
+
+<p><img src="/assets/en/2020-01-05/fig04.png" alt="Figure 4" />
+<strong>Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes <sup id="fnref:stages:2"><a href="#fn:stages" class="footnote">3</a></sup>.</strong></p>
+
+<p>Chains, or networks, or graphs of components are required to satisfy any suitably involved set of needs and therefore other sub-principles (and therefore sub-components) are required for a technology’s practical working. Therefore, as we descend on the y-axis in a Wardley Map we proceed from purposes, through needs and their satisficing assembly of components, to effects and phenomena.</p>
+
+<p>Also, note that the phenomenon that are exploited need not only be physical and “any reliable or repeatable effect from nature, or logic, or behaviour, or organisation may be harnessed for use” (ibid. pp. 276).</p>
+
+<p>In practise, we will frequently draw a map at a level of abstraction that does not contain purposes and phenomena (and their implied causal inter-dependancies), but focuses on a small set of components.</p>
+
+<h1 id="systems-of-components">Systems of components</h1>
+
+<p>As with any real world map, a Wardley Map is depicted at a level of abstraction (and consequent level of detail) to be useful for a particular task. We have seen this briefly when comparing Figure 4b and 4c.</p>
+
+<p>Components are put together or <em>combined</em> from other component parts to create <em>assemblies</em><sup id="fnref:recursive:1"><a href="#fn:recursive" class="footnote">9</a></sup> of technologies. For our purposes, a map will mean looking at sets of components of specific technologies - and in any particular map some components will be included and some omitted.</p>
+
+<p>If we go down a level, each of these components is in turn supported, supplied, monitored and controlled by other sub-components: “the compressor system requires a variable vane actuating system (to set the vane angles appropriately to airflow velocity), and an anti-stall bleed system to control pressure surges (the tendency of the compressed air to blow backwards); the turbine system requires a blade cooling system, and a complicated set of shrouds and seals to prevent high-pressure gas leakage” (Arthur (2007 p. 277)<sup id="fnref:arthur2007:2"><a href="#fn:arthur2007" class="footnote">2</a></sup>).</p>
+
+<p>This is illustrated in Figure 5. Our compressor component iterates from C[0] to C[1] with the addition of anti-stall and vane actuator components and the turbine from T[0] to T[1] with the addition of blade cooling and seals. Note that the relative position of C[0] to C[1] as the component moves to the right as the technology matures.</p>
+
+<p><img src="/assets/en/2020-01-05/fig05.png" alt="Figure 5" />
+<strong>Figure 5. A slightly less simple jet engine. a) Our original representation of an engine. b) An engine at a later stage of development with additional sub-components. c) Evolution of components from left to right as the graph structure changes. For example the compressor transitions from C[0] to C[1], now including an anti-stall bleed system and a new version of the turbine design T[1]. The relative positioning of components on the x-axis and y-axis is for illustrative purposes. Note in these maps we do not distinguish between stages of development on the x-axis.</strong></p>
+
+<h1 id="focal-technologies-and-the-main-assembly">Focal technologies and the main assembly</h1>
+
+<p>Let us now turn to the question of what components to include on the map. The user <em>need</em> can be represented as a <em>customer</em> node at the top of the map. This is supported by a technology designed around the exploitation of some effect, as envisaged through some principle of use.</p>
+
+<p>The method for achieving the purpose, through some <em>main principle</em> of use, will be referred to as the <em>main assembly</em>. This is illustrated in Figure 6a - and in principle the main assembly can include activities (other forms of capital) as well as technologies.</p>
+
+<p><img src="/assets/en/2020-01-05/fig06.png" alt="Figure 6" />
+<strong>Figure 6. Purposed systems. a) Each component system has a purpose that can be thought of as a chain joining purposes to a principle to phenomena. b) Jet engine with indicative examples of the focal technology and main assembly.</strong></p>
+
+<p>In practice, the <em>main assembly</em> refers to a core set of components (or methods and activities) that successfully achieve the purpose and allows us to focus a map at the level of a specific task.  Following Adner and Kapoor (Adner and Kapoor 2016<sup id="fnref:adnerKapoor2016"><a href="#fn:adnerKapoor2016" class="footnote">10</a></sup>) we identify the smallest functional component of the main assembly as the <em>focal technology</em>. The main assembly consists of the focal technology and other assemblies that support its working, regulate its function, and feed it with energy. These supporting assemblies require their own sub-components and sub-assemblies: controlling mechanisms, monitoring devices, input and output interfaces and so forth.</p>
+
+<p>In this post we will not pay attention to the detail of the distribution (along the x-axis) of components that make up the main assembly - rather we will focus on the evolution of the main assembly itself from left to right in a manner similar to a single component illustrated in Figure 2.</p>
+
+<p>In Figure 7, we illustrate the evolution of the main assembly for our gas turbine. We can see that it goes from states E[0] to E[1] across different stages of maturity. This is summarised in Figure 7b.</p>
+
+<p><img src="/assets/en/2020-01-05/fig07.png" alt="Figure 7" />
+<strong>Figure 7. Evolution of the main assembly. a) Two versions of our gas turbine on the same map. Red dotted arrows show the evolution at a time <em>i</em> to <em>i+1</em>. b) A short hand summary of [a]. Note the size of the node representing the main assembly increases as the number of components increases.</strong></p>
+
+<p>With further maturation the technology begins to exhibit variations in deployed solutions and the assembly is subject to usual selection pressures of supply and demand. “The many versions of a technology improve in small steps by the selection of better solutions to their internal design problems… Technologies become more complex - often much more complex - as they mature.” Arthur (2009 p.132)<sup id="fnref:arthur2009:1"><a href="#fn:arthur2009" class="footnote">5</a></sup>.</p>
+
+<h1 id="structural-deepening">Structural deepening</h1>
+
+<p>One mechanism for the increasing complexity in the main assembly is <em>structural deepening</em>. This is where the performance limitations of the original <em>main principle</em> are overcome with the addition of other sub-principles (and therefore sub-components) to improve the envelop of the technology’s practical performance.</p>
+
+<p>Adding sub-systems to work around such limitations drives technologies to elaborate as they evolve - and as sub-systems or assemblies themselves are technologies, and they too develop so they enhance overall performance.</p>
+
+<p>As the engines are pushed to perform at higher temperatures the turbine blades soften as temperatures rise, so a component is added to create new airflow to cool the blades or a component that circulates a cooling material inside the blades themselves. This next stage of evolution is illustrated in Figure 8.</p>
+
+<p><img src="/assets/en/2020-01-05/fig08.png" alt="Figure 8" />
+<strong>Figure 8. Evolution of the main assembly. Three stages of development E[0]-E[1]-E[2]. The three stages of the evolution of the main assembly are show as expanded detail with in dotted circles.</strong></p>
+
+<p>In complex interconnected, interdependent, economies an ongoing source of improvement is that many sub-components are shared across different main assemblies, and therefore a great deal of development happens as components evolve in other adjacent assemblies.</p>
+
+<p>In some technology examples, the components of the main assembly are integral to the device itself. This is the for example in the case of the jet engine. In other cases, the components are external to a device but form part of the operating context or wider environment. Take the case of the alternatives to the use of the internal combustion engine for the car. Fuel cells, or similar, will not pose a real substitute until they are augmented by sufficiently rich set of complementary components that constitute a developed hydrogen infrastructure.</p>
+
+<p>Armed with the notion of a main assembly we are going to look at the dynamics of technology substitution on a Wardley Map.</p>
+
+<h1 id="summary">Summary</h1>
+
+<ul>
+  <li>Components evolve. (As do our purposes and our knowledge of phenomena.)</li>
+  <li>Components can be combined to create purposed systems</li>
+  <li>We can think of a system of technologies as chains of components from purposes, via the principles they embody, to phenomena.</li>
+  <li>We can select a level of abstraction in a Wardley Map based on the identifying the focal technology and the main assembly.</li>
+  <li>Structural deepening describes the observation that as the main assembly evolves it gets more complicated with the addition of components - left to right in a Wardley Map.</li>
+</ul>
+
+<hr />
+
+<h1 id="where-next">Where next?</h1>
+
+<p>We are interested in using a Wardley Map to look at the evolution of components. This allows us to think strategically about how a set of components can continue to provide support for a given purpose - or how they may be substituted as better alternative assemblies originate.</p>
+
+<p>Next we’ll draw a key distinction between the <strong><em>as-developed</em></strong> performance of a focal technology, and the <strong><em>as-used performance</em></strong> of the technology which depends additionally on the components which must co-develop as part of the main assembly.</p>
+
+<p>I’m going to try and use a few different technology examples, including photo-lithography and natural language processing (NLP).</p>
+
+<p>However, before we get to that we’ll have to look at the y-axis again in a bit more detail! I’ll do this is the next post.</p>
+
+<hr />
+
+<h1 id="references">References</h1>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:wardley2016">
+      <p>Wardley, S., Topographical intelligence in business, 2016 <a href="#fnref:wardley2016" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:arthur2007">
+      <p>Arthur, W. Brian, The Structure of Invention, Research Policy, 36, pages 274-287, 2007 <a href="#fnref:arthur2007" class="reversefootnote">&#8617;</a> <a href="#fnref:arthur2007:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:arthur2007:2" class="reversefootnote">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:stages">
+      <p>Following <a href="https://medium.com/wardleymaps/finding-a-new-purpose-8c60c9484d3b">Wardley 2016</a>, Figure 76, it is <em>in principle</em> possible to measure the stage of maturity of a component by assessing the language used to describe the technology in the various corpora that refer to it. From academic publications, to patents in the <code class="highlighter-rouge">Genesis</code> stage, to technical standards documentation in the early <code class="highlighter-rouge">Product</code> stage and finally to marketing collateral, sales manuals and so forth at different stages of commercial development. Not all components need pass through every stage of development and I will ignore the details of measuring the x-position from corpora. It is assumed as given for now, including the number of stages, and I will write more on this in future posts. <a href="#fnref:stages" class="reversefootnote">&#8617;</a> <a href="#fnref:stages:1" class="reversefootnote">&#8617;<sup>2</sup></a> <a href="#fnref:stages:2" class="reversefootnote">&#8617;<sup>3</sup></a></p>
+    </li>
+    <li id="fn:techdef">
+      <p>Following Arthur (2007 p. 276)<sup id="fnref:arthur2007:3"><a href="#fn:arthur2007" class="footnote">2</a></sup>  The word technology has two other legitimate meanings: a body of practices, activities and components, and “the totality of the means employed by a people to provide itself with the objects of material culture” (Arthur, 2007, p. 276)<sup id="fnref:arthur2007:4"><a href="#fn:arthur2007" class="footnote">2</a></sup>. <a href="#fnref:techdef" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:arthur2009">
+      <p>Arthur, W. Brian, The Nature of Technology, Penguin Books UK, 2009 <a href="#fnref:arthur2009" class="reversefootnote">&#8617;</a> <a href="#fnref:arthur2009:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:originators">
+      <p>Following Arthur (2007 p. 279) <sup id="fnref:arthur2007:5"><a href="#fn:arthur2007" class="footnote">2</a></sup> I will call them <em>originators</em>, to avoid the lone eccentric connotation of “inventors”. The history of science has many examples of the co-discovery or rediscovery of similar ways to harness a phenomena for a particular purpose - something we will return to in a later blog post. <a href="#fnref:originators" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:yaxis">
+      <p>There is ongoing discussion about the structure, and indeed necessity of, the y-axis in a Wardley Map (eg.<a href="https://twitter.com/swardley/status/1146769661297643521">Ditch it.</a>). Whilst there is still a lot to be figured out (and this post skips over many nuances) I think of a map as a projection (mapping) from a high-dimensional space to a lower one. Most commonly we encounter this as going from a 3D real world to 2D cartographers map. Thinking of the 2D Wardley map as a projection into a lower dimensional space is useful - and we are likely to agree in due course on a definition and measurement process for a y-axis (or potentially multiple axes) that has broad utility - I am not in favour of getting rid of it! <a href="#fnref:yaxis" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:otis1997">
+      <p>Otis, C., 1997. Aircraft Gas Turbine Powerplants. Jeppesen Sanderson Inc., Englewood, Colorado. <a href="#fnref:otis1997" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:recursive">
+      <p>W. Brian Arthur talks about the recursive structure of technologies, such that technologies consist of parts - assemblies or sub-assemblies - that are themselves technologies. <a href="#fnref:recursive" class="reversefootnote">&#8617;</a> <a href="#fnref:recursive:1" class="reversefootnote">&#8617;<sup>2</sup></a></p>
+    </li>
+    <li id="fn:adnerKapoor2016">
+      <p>Adner, R. and Kapoor, R., Innovation ecosystems and the pace of substitution: Re-examining technology S-curves, Strategic Management Journal, 37: 625-648, 2016 <a href="#fnref:adnerKapoor2016" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">SuperLattice 非常格子</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>SuperLattice 非常格子</li>
+          <li><a href="mailto:a.p.moore@ucl.ac.uk">a.p.moore@ucl.ac.uk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/latticecut"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">latticecut</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/latticecut"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">latticecut</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Collected writings to help me crystallise my thoughts and ideas. Hopefully, a transition from a disordered to a (slightly) more ordered state. <br> <br> This post is provided as Creative Commons Attribution-ShareAlike 4.0 International <br> by the original author, A P Moore. <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="/assets/by-sa.png" alt="by-sa" width="88" height="31"/></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
