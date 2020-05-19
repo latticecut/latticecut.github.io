@@ -10,7 +10,7 @@ date: 2019-10-15
 
 differential in x and y-flow capital - flow of process and flow of evolution
 
-
+https://twitter.com/swardley/status/1225846176655634432 
 
 ![Figure 8](/assets/0001_Structural_Deepening_Fig08.png)
 **Figure 8. Higher order systems. As a system moves towards later stages of maturity, it can become as supporting component for a higher order system. Here the ubiquity of A[7], with potential increase in availability and reduction in cost of consumption, enables the creation of a new component B.**
@@ -18,6 +18,7 @@ differential in x and y-flow capital - flow of process and flow of evolution
 *basically not going to get away without going back to y-axis here*
 
 *visibility as proxy for value*
+
 *high order components built 'ontop' of others*
 
 Implicitly, a higher order component is created, or revisited, at a later time
