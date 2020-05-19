@@ -71,7 +71,7 @@ The engine is designed to generate thrust to create flight to satisfy a user nee
 
 Observe that if we create a technology, we do so for a reason, a *purpose*. To achieve this purpose we harness a property of the world, a *phenomena*. Arthur's use of the word *principle* refers to the idea of harnessing a phenomena for some purpose.(ibid. p. 2007) I interpret the y-axis of a Wardley Map as linking purposes, via principles, to phenomena. See Figure 4a.
 
-We can arrange purposed systems in chains of dependancies starting with (user) needs. These needs might be personally or socially perceived - but they are the reason we created the component in the first place - and they sit at the top of the y-axis supported by a set of components and sub-components.
+We can arrange purposed systems in chains of dependencies starting with (user) needs. These needs might be personally or socially perceived - but they are the reason we created the component in the first place - and they sit at the top of the y-axis supported by a set of components and sub-components.
 It is the nature of technology that, at the end of this chain (or terminating branch) there is always a physical effect or a phenomenon that can be exploited to satisfy it.
 
 Following Arthur (Arthur 2007 [^arthur2007]) we can maintain that each system of components, or *assembly* of components, itself has a purpose - that task that it is designed to carry out. If not, it would not exist. Consequently, technologies are put together or *combined* from component parts or assemblies in a recursive manner[^recursive]. This can be seen with Figure 4c where the engine component is comprises five further technologies and we have rearranged the graph of our engine from Figure 3b to a map in Figure 4c.
@@ -80,7 +80,7 @@ Following Arthur (Arthur 2007 [^arthur2007]) we can maintain that each system of
 
 
 ![Figure 4](/assets/en/2020-01-05/fig04.png)
-**Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes [^stages].**
+**Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. It exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes [^stages].*
 
 
 Chains, or networks, or graphs of components are required to satisfy any suitably involved set of needs and therefore other sub-principles (and therefore sub-components) are required for a technology's practical working. Therefore, as we descend on the y-axis in a Wardley Map we proceed from purposes, through needs and their satisficing assembly of components, to effects and phenomena.
