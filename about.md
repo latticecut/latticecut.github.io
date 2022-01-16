@@ -34,12 +34,11 @@ Current research interests include the use of data in the practise of law, contr
 
 I am interested in creating value from science and developing relationships between commercial partners and academia.
 
-## Links:
+### Recent publications: 
+* [A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network](https://www.frontiersin.org/articles/10.3389/fphy.2021.665719/full)
+* [Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity](https://arxiv.org/abs/2104.08786)
+
+### Links:
 [^WPP]:[WPP acquires leading AI technology company Satalia](https://www.wpp.com/news/2021/08/wpp-acquires-leading-ai-technology-company-satalia)
 [^RAE]:[Royal Academy of Enigeering Enterprise Hub](https://enterprisehub.raeng.org.uk/entrepreneurs/mentors/alastair-moore/)
 [^MDR]:[MDR Research](https://mdrresearch.co.uk/)
-
-## Recent publications: 
-
-* [A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network](https://www.frontiersin.org/articles/10.3389/fphy.2021.665719/full)
-* [Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity](https://arxiv.org/abs/2104.08786)
