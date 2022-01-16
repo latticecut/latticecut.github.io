@@ -21,10 +21,10 @@ I retain active research and teaching roles. I am a jointly appointed Associate 
 
 I currently co/teach the following courses:
 
-[Predictive Analytics, MSc Business Analytics, UCL School of Management](http://www.mgmt.ucl.ac.uk/business-analytics#overview)
-[Innovation and Entrepreneurship in Europe, MBA BiMBA PKU UCL](https://www.mgmt.ucl.ac.uk/mba-peking-university)
-[Emerging Business Technologies, MBA BiMBA PKU UCL](https://en.bimba.pku.edu.cn/programmes/PKU_UCL_MBA/Curriculum_ucl/index.htm)
-[AI & Analytics, MSc Management, PKU HSBC Business School](https://www.pku.org.uk/)
+* [Predictive Analytics, MSc Business Analytics, UCL School of Management](http://www.mgmt.ucl.ac.uk/business-analytics#overview)
+* [Innovation and Entrepreneurship in Europe, MBA BiMBA PKU UCL](https://www.mgmt.ucl.ac.uk/mba-peking-university)
+* [Emerging Business Technologies, MBA BiMBA PKU UCL](https://en.bimba.pku.edu.cn/programmes/PKU_UCL_MBA/Curriculum_ucl/index.htm)
+* [AI & Analytics, MSc Management, PKU HSBC Business School](https://www.pku.org.uk/)
 
 In 2021 I was asked to mentor at the Royal Academy of Engineering, having served as a member of the Special Group for Entrepreneurship for the British Computer Society. I have mentored at the Wayra Academy and Techstars London. Previous projects include helping set up [IDEALondon](https://www.idealondon.co.uk/) innovation centre with Cisco and DC Thomson, now in its seventh year with affiliated start-ups raising upwards of £350m. 
 
@@ -34,12 +34,12 @@ Current research interests include the use of data in the practise of law, contr
 
 I am interested in creating value from science and developing relationships between commercial partners and academia.
 
-Links:
-[WPP acquires leading AI technology company Satalia](https://www.wpp.com/news/2021/08/wpp-acquires-leading-ai-technology-company-satalia)
-[Royal Academy of Enigeering Enterprise Hub](https://enterprisehub.raeng.org.uk/entrepreneurs/mentors/alastair-moore/)
-[MDR Research](https://mdrresearch.co.uk/)
+##Links:
+* [WPP acquires leading AI technology company Satalia](https://www.wpp.com/news/2021/08/wpp-acquires-leading-ai-technology-company-satalia)
+* [Royal Academy of Enigeering Enterprise Hub](https://enterprisehub.raeng.org.uk/entrepreneurs/mentors/alastair-moore/)
+* [MDR Research](https://mdrresearch.co.uk/)
 
-Recent publications: 
+##Recent publications: 
 
-[A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network](https://www.frontiersin.org/articles/10.3389/fphy.2021.665719/full)
-[Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity](https://arxiv.org/abs/2104.08786)
+* [A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network](https://www.frontiersin.org/articles/10.3389/fphy.2021.665719/full)
+* [Fantastically Ordered Prompts and Where to Find Them: Overcoming Few-Shot Prompt Order Sensitivity](https://arxiv.org/abs/2104.08786)
