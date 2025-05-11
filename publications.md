@@ -8,7 +8,7 @@ lang: en
 
 ## Book chapters 
 
-* Anil R. Doshi, A. P. Moore, "Toward a Human-AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI" [Axiv](https://arxiv.org/abs/2503.15490) 
+* Anil R. Doshi, A. P. Moore, "Toward a Human-AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI" [arXiv](https://arxiv.org/abs/2503.15490) 
 
 * C. Kerrigan and T. Hawitt, “AI Law and Regulation”, 1st ed. 2021, Book Chapter: Real Estate, A. P. Moore, C. Giannoni, N. Kirby and N. Doffman
 
@@ -18,17 +18,20 @@ lang: en
 
 ## Journal publications 
 
-* W. Hernandez, K. Tylinski, B. Kultys, A. P. Moore,  E. Nemsic,  N. Roche, J. Shangguan, N Vagdama, H. Treiblmaier,  “Trends and Trajectories for Sustainable Systems: Evolution of Distributed Ledger Taxonomies”, IEEE Access (2025), forthcoming
+* Walter Hernandez Cruz, Kamil Tylinski, Alastair Moore, Niall Roche,
+Nikhil Vadgama, Horst Treiblmaier, Jiangbo Shangguan, Paolo Tasca,
+Jiahua Xu,  “Evolution of ESG-focused DLT Research: An NLP Analysis of
+the Literature”, (2025) forthcoming
 
-* Hoadley D., Bartolo M., Chesterman R., Faus A., Hernandez W., Kultys B., Moore A. P., Nemsic E., Roche N., Shangguan J., Steer B., Tylinski K., West N. “A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network”, Frontiers in Physics (2021), 9, p.331 
+* Hoadley D., Bartolo M., Chesterman R., Faus A., Hernandez W., Kultys B., Moore A. P., Nemsic E., Roche N., Shangguan J., Steer B., Tylinski K., West N. “A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network”, Frontiers in Physics (2021), 9, p.331 [Frontiers in Physics]{https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2021.665719/full}
 
 ## Conference publications 
 
-* Y. Lu, M. Bartolo, A. P. Moore, S. Riedel, and P. Stenetorp. “Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity”, 2021, ACL 2022 (\textbf{Outstanding Paper Award})
+* Y. Lu, M. Bartolo, A. P. Moore, S. Riedel, and P. Stenetorp. “Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity”, 2021, ACL 2022 (**Outstanding Paper Award**) [arXiv]{https://arxiv.org/abs/2104.08786}
 
-* M. Bartolo, K. Tylinski and A. P. Moore, “Pre-trained Contextual Embeddings for Litigation Code Classification”, 2019 1st International Workshop on AI and Intelligent Assistance for Legal Professionals in the Digital Workplace
+* M. Bartolo, K. Tylinski and A. P. Moore, “Pre-trained Contextual Embeddings for Litigation Code Classification”, 2019 1st International Workshop on AI and Intelligent Assistance for Legal Professionals in the Digital Workplace [ceur-ws.org]{https://ceur-ws.org/Vol-2484/paper6.pdf}
 
-* A. P. Moore, S. J. D. Prince and J. Warrell, “Lattice Cut - Constructing superpixels using layer constraints”, IEEE Computer Vision and Pattern Recognition, CVPR 2010. Acceptance Rate: 26.8% 
+* A. P. Moore, S. J. D. Prince and J. Warrell, “Lattice Cut - Constructing superpixels using layer constraints”, IEEE Computer Vision and Pattern Recognition, CVPR 2010. Acceptance Rate: 26.8% [IEEE Explore]{https://ieeexplore.ieee.org/document/5539890}
 
 * J Warrell, Simon J D Prince, A P Moore, Epitomized priors for multi-labeling problems 
 IEEE International Conference of Computer Vision, 2812-2819
