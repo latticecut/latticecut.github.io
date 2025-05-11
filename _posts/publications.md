@@ -1,3 +1,11 @@
+---
+layout: post
+title: "publications"
+lang: en
+ref: publications
+categories: 
+date: 2025-04-08 09:00:00
+---
 
 ## Journal publications 
 
