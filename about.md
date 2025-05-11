@@ -11,6 +11,10 @@ I am a senior AI engineer and manager, entrepreneur, educator, and investor.
 
 I am interested in the intersection of philosophy of science, machine learning and business strategy.
 
+I am a co-founder and investor at the venture builder [The Building Blocks](https://www.thebuildingblocks.com/)
+
+I am a co-founder of [Deepflow.com](https://www.Deepflow.com) which is an orchestration layer that maps your workflows and automatically delegates tasks between humans and AI agents, letting teams scale output without adding headcount. 
+
 I was co-founder of [Satalia.com](https://www.satalia.com/), a global leader in enterprise Artificial Intelligence and one of the UK’s fastest-growing tech companies, whose clients include BT, DFS, DS Smith, PwC, Gigaclear, Tesco and Unilever. The company was acquired in 2021 by WPP Plc[^WPP], a British multinational communications, advertising, technology company headquartered in London. 
 
 I was also on the founding team of venture backed [Wearepopup.com](http://wearepopup.com/) that created the first online platform to execute a fully automated commercial real estate license in the UK. 
@@ -26,10 +30,6 @@ I currently co/teach the following courses:
 In 2021 I was asked to mentor at the Royal Academy of Engineering[^RAE], having served as a member of the Special Group for Entrepreneurship for the British Computer Society. I have mentored at the Wayra Academy and Techstars London. Previous projects include helping set up [IDEALondon](https://www.idealondon.co.uk/) innovation centre with Cisco and DC Thomson, now in its seventh year with affiliated start-ups raising upwards of £350m. 
 
 I actively advise several startups and provide executive coaching on machine learning strategy. 
-
-I am a co-founder and investor at the venture builder [The Building Blocks](https://www.thebuildingblocks.com/)
-
-I am a co-founder of [Deepflow.com](https://www.Deepflow.com) which is an orchestration layer that maps your workflows and automatically delegates tasks between humans and AI agents, letting teams scale output without adding headcount. 
 
 Current research interests include the use of data in the practise of law, contracting systems, anticipative regulation, industry mapping, data driven technology strategy and human-machine teaming.  
 
