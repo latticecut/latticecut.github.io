@@ -7,7 +7,7 @@ categories: ai
 date: 2025-05-11 09:00:00
 ---
 
-![](/assets/en/2025-04-11/ai-sovereignty.jpg) Image credit: @bluedreamvibes
+![](/assets/en/2025-05-11/ai-sovereignty.jpg) Image credit: @bluedreamvibes
 
 *** 
 
