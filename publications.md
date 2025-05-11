@@ -1,11 +1,20 @@
 ---
-layout: post
-title: "publications"
-lang: en
+layout: page
+title: Publications
+permalink: /publications/
 ref: publications
-categories: 
-date: 2025-04-08 09:00:00
+lang: en
 ---
+
+## Book chapters 
+
+* Anil R. Doshi, A. P. Moore, "Toward a Human-AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI" [Axiv](https://arxiv.org/abs/2503.15490) 
+
+* C. Kerrigan and T. Hawitt, “AI Law and Regulation”, 1st ed. 2021, Book Chapter: Real Estate, A. P. Moore, C. Giannoni, N. Kirby and N. Doffman
+
+* A P Moore,  N Roche and N Vagdama, Real Estate and the Internet of Value. Chapter 7. Enabling the Internet of Value : How Blockchain Connects Global Businesses Future of Business and Finance”, Tasca, P. Vadgama, N. Xu, J. 1st ed. 2021.
+
+* N Roche and A P Moore, Oracles and Internet of Things in the Internet of Value. Chapter 14. Enabling the Internet of Value : How Blockchain Connects Global Businesses Future of Business and Finance”, Tasca, P. Vadgama, N. Xu, J. 1st ed. 2021.
 
 ## Journal publications 
 
@@ -35,16 +44,6 @@ IEEE International Conference of Computer Vision, 2812-2819
 
 * Bartolo M., Hoadley D., Hernandez W., Kultys B., Moore A. P., Nemsic E., Roche N., Shangguan J., Tylinski K., P. Stenetorp, “VALUE: Towards Application-driven Benchmarking for Natural Language Processing” (2021), forthcoming
 
-
-## Book chapters 
-
-* Anil R. Doshi, A. P. Moore, "Toward a Human-AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI" [Axiv](https://arxiv.org/abs/2503.15490) 
-
-* C. Kerrigan and T. Hawitt, “AI Law and Regulation”, 1st ed. 2021, Book Chapter: Real Estate, A. P. Moore, C. Giannoni, N. Kirby and N. Doffman
-
-* A P Moore,  N Roche and N Vagdama, Real Estate and the Internet of Value. Chapter 7. Enabling the Internet of Value : How Blockchain Connects Global Businesses Future of Business and Finance”, Tasca, P. Vadgama, N. Xu, J. 1st ed. 2021.
-
-* N Roche and A P Moore, Oracles and Internet of Things in the Internet of Value. Chapter 14. Enabling the Internet of Value : How Blockchain Connects Global Businesses Future of Business and Finance”, Tasca, P. Vadgama, N. Xu, J. 1st ed. 2021.
 
 ## White papers 
 
