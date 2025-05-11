@@ -63,3 +63,4 @@ IEEE International Conference of Computer Vision, 2812-2819
 
 ## Media 
 
+Work is Weird [S1E8: The Mind-Blowing Impact of AI on Work (the machines are coming, like it or not...)](https://podcasts.apple.com/gb/podcast/s1e8-the-mind-blowing-impact-of-ai-on-work-the/id1794194721?i=1000700791200)
