@@ -7,7 +7,7 @@ categories: futureoffirm
 date: 2025-05-20 09:00:00
 ---
 
-![](/assets/en/2025-05-20/moving_boundaries.jpeg) Image credit: @MaxDrekker
+![](/assets/en/2025-05-20/moving-boundaries.jpg) Image credit: @MaxDrekker
 
 As we enter the age of advanced artificial intelligence (AI) – and approach the era of artificial general intelligence (AGI) – business leaders are wondering how these technologies might reshape companies. One big question is how AI will change firm boundaries – which tasks companies do in-house versus outsource. New research is starting to suggest that as AI becomes more capable, companies may bring more tasks in-house, potentially creating larger, more vertically integrated organisations that manage entire supply chains under one roof.
 
