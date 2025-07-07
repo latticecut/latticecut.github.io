@@ -26,16 +26,19 @@ Mathematicians proved something similar in principle: the Universal Approximatio
 
 Put the two ideas together, and you get a compelling narrative:
 
-Lower‑bound reality Scaling laws: bigger models + more data ⇒ steadily improving lower error. 
+**Lower‑bound reality Scaling laws**: bigger models + more data ⇒ steadily improving lower error. 
 
-Upper‑bound theory UAT: In the infinite‑size limit, a model can get the error all the way to zero - it can "Learn anything”
+**Upper‑bound theory UAT**: In the infinite‑size limit, a model can get the error all the way to zero - it can "Learn anything”
 
 ## Why I don’t think progress will stall
 
-Hardware & capital keep flowing. Capacity might begin to plateau in the classical compute paradigm, but multi‑billion‑dollar data centre plans suggest the compute pipeline is far from drying up.
-Algorithms continue to improve. Deepseek is evidence that we have a long way to go before we optimise the software stack — squeezing more capability from every FLOP. Alpha Tensor and Alpha Search are early examples of algorithms that are beginning to design new ones.
-Data supply is evolving, not exhausted. We might have exhausted the Common Crawl (I don’t think so), but we’re already seeing a mix of synthetic data, simulation traces, multimodal streams and embodied AI  to feed the models' insatiable appetite.
-Use‑value threshold passed. Tools like ChatGPT, Gemini and Claude are already making a difference (at least for the individual) today; that commercial feedback loop underwrites continued R&D and inoculates us against another AI winter.
+**Hardware & capital keep flowing.** Capacity might begin to plateau in the classical compute paradigm, but multi‑billion‑dollar data centre plans suggest the compute pipeline is far from drying up.
+
+**Algorithms continue to improve.** Deepseek is evidence that we have a long way to go before we optimise the software stack — squeezing more capability from every FLOP. Alpha Tensor and Alpha Search are early examples of algorithms that are beginning to design new ones.
+
+**Data supply is evolving, not exhausted**. We might have exhausted the Common Crawl (I don’t think so), but we’re already seeing a mix of synthetic data, simulation traces, multimodal streams and embodied AI  to feed the models' insatiable appetite.
+
+**Use‑value threshold passed**. Tools like ChatGPT, Gemini and Claude are already making a difference (at least for the individual) today; that commercial feedback loop underwrites continued R&D and inoculates us against another AI winter.
 
 None of this guarantees a specific timeline, but the increase in model capability has been surprisingly steep—hence the flurry of “AGI 2027” forecasts. Former OpenAI researcher Leopold Aschenbrenner argues in “Situational Awareness: The Decade Ahead” that another ~2‑3 orders of magnitude in “effective compute” could yield systems able to automate most of AI research itself. 
 
