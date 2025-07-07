@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cognitive Crossover - thoughts on Scaling, Universality and AI Capability"
+title: "Cognitive Crossover"
 lang: en
 ref: cognitive crossover
 categories: ai
@@ -8,6 +8,8 @@ date: 2025-07-07 09:00:00
 ---
 
 ![](/assets/en/2025-07-07/CogXOver.jpg) Image credit: "the miracle" ~ @themeloart
+
+*Thoughts on Scaling, Universality and AI Capability*
 
 Last week, my MBA students and I—prompted by reflections—discussed whether ever-bigger AI models will continue to improve, or whether we’re heading for another “AI winter.” 
 
@@ -77,16 +79,16 @@ Feel free to push back—after all, good arguments are how we test convictions. 
 
 *Theme - Title & author - Why it’s useful*
 
-**Scaling evidence** - “Scaling Laws for Neural Language Models” – Kaplan et al. (2020) The original power‑law paper. https://arxiv.org/abs/2001.08361
+**Scaling evidence** - “Scaling Laws for Neural Language Models” – Kaplan et al. (2020) The original power‑law paper. [https://arxiv.org/abs/2001.08361](https://arxiv.org/abs/2001.08361)
 
-**Compute‑data balance** - “Training Compute‑Optimal LLMs” – Hoffmann et al. (2022)- Explains the Chinchilla ratio.https://arxiv.org/abs/2203.15556 
+**Compute‑data balance** - “Training Compute‑Optimal LLMs” – Hoffmann et al. (2022)- Explains the Chinchilla ratio. [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
 
-**Philosophy of brute force** - “The Bitter Lesson” – Richard Sutton (2019) - Why scale beats hand‑engineered tricks. http://www.incompleteideas.net/IncIdeas/BitterLesson.html 
+**Philosophy of brute force** - “The Bitter Lesson” – Richard Sutton (2019) - Why scale beats hand‑engineered tricks. [http://www.incompleteideas.net/IncIdeas/BitterLesson.html](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) 
 
-**Theoretical ceiling** - Universal Approximation Theorem – Cybenko, Hornik & others - Shows any function is representable with sufficient parameters (model capacity) https://en.wikipedia.org/wiki/Universal_approximation_theorem 
+**Theoretical ceiling** - Universal Approximation Theorem – Cybenko, Hornik & others - Shows any function is representable with sufficient parameters (model capacity) [https://en.wikipedia.org/wiki/Universal_approximation_theorem](https://en.wikipedia.org/wiki/Universal_approximation_theorem) 
 
-**Near‑term AGI scenario** - “Situational Awareness: The Decade Ahead” – Leopold Aschenbrenner (2024) - A detailed AGI‑by‑2027 thesis. https://situational-awareness.ai/ 
+**Near‑term AGI scenario** - “Situational Awareness: The Decade Ahead” – Leopold Aschenbrenner (2024) - A detailed AGI‑by‑2027 thesis. [https://situational-awareness.ai/](https://situational-awareness.ai/) 
 
-**Critical commentary** - “The AGI‑in‑2027 Thesis” – Evan Armstrong, Every (2024) A balanced critique of the 2027 timeline. https://every.to/napkin-math/the-agi-in-2027-thesis 
+**Critical commentary** - “The AGI‑in‑2027 Thesis” – Evan Armstrong, Every (2024) A balanced critique of the 2027 timeline. [https://every.to/napkin-math/the-agi-in-2027-thesis](https://every.to/napkin-math/the-agi-in-2027-thesis) 
 
 **Broader policy view** - Nick Bostrom, Superintelligence (2014) - The classic on control & risk (still relevant - and I was very sceptical the first time I read this book!).
