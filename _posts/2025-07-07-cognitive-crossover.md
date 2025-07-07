@@ -7,7 +7,7 @@ categories: ai
 date: 2025-07-07 09:00:00
 ---
 
-![](/assets/en/2025-05-20/CogXOver.jpg) Image credit: "the miracle" ~ @themeloart
+![](/assets/en/2025-07-07/CogXOver.jpg) Image credit: "the miracle" ~ @themeloart
 
 Last week, my MBA students and I—prompted by reflections—discussed whether ever-bigger AI models will continue to improve, or whether we’re heading for another “AI winter.” 
 
