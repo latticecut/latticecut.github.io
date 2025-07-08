@@ -45,8 +45,8 @@ As we hand over more autonomy to machines, we’re not just training them; we're
 
 ## Recent papers:
 
-- Learning to Reason without External Rewards arXiv preprint [arXiv](https://arxiv.org/abs/2505.19590)
-- Can Large Reasoning Models Self-Train? arXiv preprint [arXiv](https://arxiv.org/abs/2505.21444)
-- Can Large Language Models Invent Algorithms to Improve Themselves? arXiv preprint [arXiv](https://arxiv.org/abs/2410.15639)
-- AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms Technical Report – DeepMind [AlphaEvolve.pdf](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
-- Darwin Gödel Machine: Open-Ended Evolution of Self-Improving AgentsarXiv preprint Zhang, Hu, Lu, Lange, Clune. May 2025 [arXiv](https://arxiv.org/abs/2505.22954)
+- **Learning to Reason without External Rewards** arXiv preprint [arXiv](https://arxiv.org/abs/2505.19590)
+- **Can Large Reasoning Models Self-Train?** arXiv preprint [arXiv](https://arxiv.org/abs/2505.21444)
+- **Can Large Language Models Invent Algorithms to Improve Themselves?** arXiv preprint [arXiv](https://arxiv.org/abs/2410.15639)
+- **AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms Technical Report** – DeepMind [AlphaEvolve.pdf](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
+- **Darwin Gödel Machine: Open-Ended Evolution of Self-Improving AgentsarXiv** preprint Zhang, Hu, Lu, Lange, Clune. May 2025 [arXiv](https://arxiv.org/abs/2505.22954)
