@@ -31,9 +31,10 @@ DeepMind’s AlphaEvolve takes this further. It evolves code over many iteration
 
 Perhaps the most dramatic recent example (prompting me to write this!) is the Darwin Gödel Machine — a system that evolves new agents by rewriting its own code. It generates versions of itself, tests each one, and keeps the best performers. Over many iterations, it creates increasingly sophisticated coding agents, each better than the last. These agents develop smarter workflows, better debugging strategies, and even internal mechanisms for evaluating their own changes. It’s a form of open-ended AI evolution, where intelligence grows not from training data — but from recursive self-improvement.
 
-
+<br>
 ___
 
+<br>
 
 We’re witnessing a shift from AI that learns from data to AI that learns from itself. This opens up new opportunities — and complex questions:
 
@@ -48,7 +49,11 @@ As we hand over more autonomy to machines, we’re not just training them; we're
 ## Recent papers:
 
 - **Learning to Reason without External Rewards** arXiv preprint [arXiv](https://arxiv.org/abs/2505.19590)
+
 - **Can Large Reasoning Models Self-Train?** arXiv preprint [arXiv](https://arxiv.org/abs/2505.21444)
+
 - **Can Large Language Models Invent Algorithms to Improve Themselves?** arXiv preprint [arXiv](https://arxiv.org/abs/2410.15639)
+
 - **AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms Technical Report** – DeepMind [AlphaEvolve.pdf](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
+
 - **Darwin Gödel Machine: Open-Ended Evolution of Self-Improving AgentsarXiv** preprint Zhang, Hu, Lu, Lange, Clune. May 2025 [arXiv](https://arxiv.org/abs/2505.22954)
