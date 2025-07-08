@@ -31,7 +31,9 @@ DeepMind’s AlphaEvolve takes this further. It evolves code over many iteration
 
 Perhaps the most dramatic recent example (prompting me to write this!) is the Darwin Gödel Machine — a system that evolves new agents by rewriting its own code. It generates versions of itself, tests each one, and keeps the best performers. Over many iterations, it creates increasingly sophisticated coding agents, each better than the last. These agents develop smarter workflows, better debugging strategies, and even internal mechanisms for evaluating their own changes. It’s a form of open-ended AI evolution, where intelligence grows not from training data — but from recursive self-improvement.
 
+
 ___
+
 
 We’re witnessing a shift from AI that learns from data to AI that learns from itself. This opens up new opportunities — and complex questions:
 
