@@ -18,14 +18,20 @@ lang: en
 
 ## Journal publications 
 
-* Walter Hernandez Cruz, Kamil Tylinski, Alastair Moore, Niall Roche,
-Nikhil Vadgama, Horst Treiblmaier, Jiangbo Shangguan, Paolo Tasca,
-Jiahua Xu,  “Evolution of ESG-focused DLT Research: An NLP Analysis of
-the Literature”, (2025) forthcoming
+* Walter Hernandez Cruz, Kamil Tylinski, Alastair Moore, Niall Roche, Nikhil Vadgama, Horst
+Treiblmaier, Jiangbo Shangguan, Paolo Tasca, and Jiahua Xu. Evolution of ESG-focused DLT2
+research: An NLP analysis of the literature. Quantitative Science Studies, 6:810–833, 2025. ISSN211
+2641-3337. doi: 10.1162/qss.a.7. URL http://dx.doi.org/10.1162/qss.a.7.212
+[arXiv](https://arxiv.org/abs/2308.12420) 
+
 
 * Hoadley D., Bartolo M., Chesterman R., Faus A., Hernandez W., Kultys B., Moore A. P., Nemsic E., Roche N., Shangguan J., Steer B., Tylinski K., West N. “A Global Community of Courts? Modelling the Use of Persuasive Authority as a Complex Network”, Frontiers in Physics (2021), 9, p.331 [Frontiers in Physics](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2021.665719/full)
 
 ## Conference publications 
+
+* Charlie Masters, Advaith Vellanki, Jiangbo Shangguan, Bart Kultys, Jonathan Gilmore, Alastair P. 
+Moore, and Stefano V. Albrecht. "Orchestrating human-ai teams: The manager agent as a unifying
+research challenge", DAI 2025. URL [arXiv](https://arxiv.org/abs/2510.02557.219) 
 
 * Y. Lu, M. Bartolo, A. P. Moore, S. Riedel, and P. Stenetorp. “Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity”, 2021, ACL 2022 (**Outstanding Paper Award**) [arXiv](https://arxiv.org/abs/2104.08786)
 
