@@ -33,3 +33,7 @@ In economic terms, this marks a subtle but real shift in the boundary of the fir
 The real story in the loss of little work isn’t automation; it’s coordination. As AI flattens the cost of producing small tasks, the remaining constraint is how quickly an organisation can align, approve and integrate them. 
 
 Firms with sluggish governance will discover that their internal bottlenecks—not their technology—limit the gains. And as more first drafts originate inside, the centre of gravity shifts from external execution to internal orchestration. The scarce talent isn’t the person who can write the copy, map the process or draft the spec, but the one who can frame the problem, judge the output and stitch it into the larger system. That’s the quiet consequence of AI: not the disappearance of small jobs, but the elevation of coordination speed and sense-making as the new sources of advantage.
+
+Further Reading:
+
+- 
