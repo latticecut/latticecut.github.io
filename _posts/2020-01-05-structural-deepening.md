@@ -100,7 +100,7 @@ If we go down a level, each of these components is in turn supported, supplied, 
 This is illustrated in Figure 5. Our compressor component iterates from C[0] to C[1] with the addition of anti-stall and vane actuator components and the turbine from T[0] to T[1] with the addition of blade cooling and seals. Note that the relative position of C[0] to C[1] as the component moves to the right as the technology matures.  
 
 ![Figure 5](/assets/en/2020-01-05/fig05.png)
-**Figure 5. A slightly less simple jet engine. a) Our original representation of an engine. b) An engine at a later stage of development with additional sub-components. c) Evolution of components from left to right as the graph structure changes. For example the compressor transitions from C[0] to C[1], now including an anti-stall bleed system and a new version of the turbine design T[1]. The relative positioning of components on the x-axis and y-axis is for illustrative purposes. Note in these maps we do not distinguish between stages of development on the x-axis.**
+**Figure 5. A slightly less simple jet engine. a) Our original representation of an engine. b) An engine at a later stage of development with additional sub-components. Note the evolution of components from left to right as the graph structure changes. For example the compressor transitions from C[0] to C[1], now including an anti-stall bleed system and a new version of the turbine design T[1]. The relative positioning of components on the x-axis and y-axis is for illustrative purposes. Note in these maps we do not distinguish between stages of development on the x-axis.**
 
 # Focal technologies and the main assembly
 
