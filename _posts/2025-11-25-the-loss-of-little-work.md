@@ -36,4 +36,6 @@ Firms with sluggish governance will discover that their internal bottlenecks—n
 
 Further Reading:
 
-- 
+- Jain, N., Suvarchala, K., & Wattal, S. (2025). Capability Joint Effects, Transaction Costs, Outsourcing Decisions, and Performance. Industrial Marketing Management (in press).
+
+This paper integrates transaction-cost economics (TCE) with the resource-based view to show how firms’ internal capabilities and coordination costs jointly shape outsourcing vs insourcing decisions and associated performance. While technology-agnostic, it gives a ready-made TCE framework for your “AI changes internal cost structure, so optimal make–buy boundary moves” story.

@@ -80,7 +80,7 @@ Following Arthur (Arthur 2007 [^arthur2007]) we can maintain that each system of
 
 
 ![Figure 4](/assets/en/2020-01-05/fig04.png)
-**Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. It exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes [^stages].*
+**Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. It exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes [^stages].**
 
 
 Chains, or networks, or graphs of components are required to satisfy any suitably involved set of needs and therefore other sub-principles (and therefore sub-components) are required for a technology's practical working. Therefore, as we descend on the y-axis in a Wardley Map we proceed from purposes, through needs and their satisficing assembly of components, to effects and phenomena.
