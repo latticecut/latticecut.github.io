@@ -33,7 +33,7 @@
           {% if zh_publications_page == nil %}
             {% assign en_publications_page = site.pages | where:"ref", "publications" | where:"lang", "en" | first %}
             {% if en_publications_page %}
-          <a class="page-link" href="{{ en_publications_page.url | relative_url }}">Publications</a>
+          <a class="page-link" href="{{ en_publications_page.url | relative_url }}">出版物</a>
             {% endif %}
           {% endif %}
         {% endif %}
