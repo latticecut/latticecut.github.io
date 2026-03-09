@@ -17,3 +17,5 @@ You can find the original source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+If you build this site locally from a path that contains spaces, use `./scripts/build-site.sh`. It mirrors the repo into a temporary no-spaces directory, installs the pinned gems there, runs Jekyll, and syncs the refreshed `_site` output back.

@@ -1,16 +1,29 @@
+{% assign page_lang = page.lang | default: "en" %}
+{% assign page_title = page.title | default: site.title[page_lang] | default: site.title.en %}
+{% assign page_description = page.excerpt | default: site.description[page_lang] | default: site.description.en %}
+{% assign feed_path = site.feed[page_lang] | default: site.feed.en %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+  <title>{{ page_title | strip_html | strip_newlines | strip | escape }}</title>
+  <meta name="description" content="{{ page_description | strip_html | strip_newlines | strip | xml_escape }}">
+  {% if page.permalink == "/404.html" %}
+  <meta name="robots" content="noindex">
+  {% endif %}
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
-  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
-  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  {% if page.ref and page.lang %}
+  {% assign translated_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
+  {% for translated_post in translated_posts %}
+  <link rel="alternate" hreflang="{{ translated_post.lang }}" href="{{ translated_post.url | absolute_url }}" />{% endfor %}
+  {% assign translated_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
+  {% for translated_page in translated_pages %}{% if translated_page.lang %}
+  <link rel="alternate" hreflang="{{ translated_page.lang }}" href="{{ translated_page.url | replace:'index.html','' | absolute_url }}" />{% endif %}{% endfor %}
+  {% endif %}
+  {% if feed_path %}
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page_lang] | default: site.title.en | escape }}" href="{{ feed_path | absolute_url }}">
+  {% endif %}
 </head>

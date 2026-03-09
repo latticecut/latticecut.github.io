@@ -1,13 +1,16 @@
+{% assign page_lang = page.lang | default: "en" %}
+{% assign site_title = site.title[page_lang] | default: site.title.en %}
+{% assign site_description = site.description[page_lang] | default: site.description.en %}
 <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title[page.lang] }}</h2>
+    <h2 class="footer-heading">{{ site_title }}</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title[page.lang] }}</li>
+          <li>{{ site_title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -29,7 +32,9 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description[page.lang] }}</p>
+        <p>{{ site_description }}</p>
+        <p><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a></p>
+        <p><img src="{{ "/assets/by-sa.png" | relative_url }}" alt="Creative Commons BY-SA 4.0" width="88" height="31"></p>
       </div>
     </div>
 

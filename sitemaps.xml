@@ -1,29 +1,34 @@
 ---
 layout:
 permalink: /sitemaps.xml
+sitemap: false
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {% for post in site.posts %}
-    {% if post.id contains "404" %}{% else %}
+    {% if post.sitemap != false %}
       <url>
-        <loc>{{site.base}}{{ post.url }}</loc>
+        <loc>{{ post.url | absolute_url }}</loc>
         {% assign versions=site.posts | where:"ref", post.ref %}
         {% for version in versions %}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+          {% if version.lang %}
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ version.url | absolute_url }}" />
+          {% endif %}
         {% endfor %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
       </url>
     {% endif %}
   {% endfor %}
-  {% for page in site.pages %}
-    {% if page.id contains "404" %}{% else %}
+  {% for sitemap_page in site.pages %}
+    {% if sitemap_page.lang and sitemap_page.sitemap != false %}
       <url>
-        <loc>{{site.base}}{{ page.url }}</loc>
-        {% assign versions=site.pages | where:"ref", page.ref %}
+        <loc>{{ sitemap_page.url | replace:'index.html','' | absolute_url }}</loc>
+        {% assign versions=site.pages | where:"ref", sitemap_page.ref %}
         {% for version in versions %}
-          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.base}}{{ version.url }}" />
+          {% if version.lang %}
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ version.url | replace:'index.html','' | absolute_url }}" />
+          {% endif %}
         {% endfor %}
         <changefreq>weekly</changefreq>
       </url>

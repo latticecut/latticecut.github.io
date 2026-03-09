@@ -4,11 +4,11 @@ title: "The Loss of Little Work"
 lang: en
 ref: lolw
 categories: ai
-date: 2025-11-125 09:00:00
+date: 2025-11-25 09:00:00
 ---
 
 
-![](/assets/en/2025-11-25/paulblow.jpeg) Image credit: Paul Y Blow - @paulyblow paulblow.com
+![](/assets/en/2025-11-25/paulblow.jpg) Image credit: Paul Y Blow - @paulyblow paulblow.com
 
 *How AI quietly pulls small jobs back inside the firm*
 

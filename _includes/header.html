@@ -1,8 +1,16 @@
+{% assign page_lang = page.lang | default: "en" %}
+{% assign site_title = site.title[page_lang] | default: site.title.en %}
+{% assign home_index = site.index[page_lang] %}
+{% if home_index %}
+  {% assign home_url = home_index | relative_url %}
+{% else %}
+  {% assign home_url = "/" | relative_url %}
+{% endif %}
 <header class="site-header">
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
+    <a class="site-title" href="{{ home_url }}">{{ site_title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -14,10 +22,10 @@
       </a>
 
       <div class="trigger">
-        {% assign pages=site.pages | where:"lang", page.lang %}
-        {% for my_page in pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% assign navigation_pages = site.pages | where:"lang", page_lang | sort: "title" %}
+        {% for my_page in navigation_pages %}
+          {% if my_page.title and my_page.url != "/404.html" %}
+          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
@@ -27,10 +35,14 @@
 
 </header>
 
+{% if page.ref and page.lang %}
+  {% assign translated_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
+  {% assign translated_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
+  {% assign translated_count = translated_posts.size | plus: translated_pages.size %}
+  {% if translated_count > 1 %}
 <div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
-
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for translated_post in translated_posts %} <a href="{{ translated_post.url | relative_url }}" class="{{ translated_post.lang }}">{{ translated_post.lang }}</a> {% endfor %}
+  {% for translated_page in translated_pages %}{% if translated_page.lang %} <a href="{{ translated_page.url | relative_url }}" class="{{ translated_page.lang }}">{{ translated_page.lang }}</a> {% endif %}{% endfor %}
 </div>
+  {% endif %}
+{% endif %}

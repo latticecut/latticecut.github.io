@@ -2,13 +2,486 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SuperLattice 非常格子</title>
-    <description>Collected writings to help me crystallise my thoughts and ideas. Hopefully, a transition from a disordered to a (slightly) more ordered state. &lt;br&gt; &lt;br&gt; This post is provided as Creative Commons Attribution-ShareAlike 4.0 International &lt;br&gt; by the original author, A P Moore. &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/by-sa.png&quot; alt=&quot;by-sa&quot; width=&quot;88&quot; height=&quot;31&quot;/&gt;</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Jan 2020 10:43:00 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Jan 2020 10:43:00 +0000</lastBuildDate>
+    <description>Collected writings to help me crystallise my thoughts and ideas, hopefully moving them from a disordered state to a slightly more ordered one.</description>
+    <link>https://www.amaams.co.uk/</link>
+    <atom:link href="https://www.amaams.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 Mar 2026 11:17:28 +0000</pubDate>
+    <lastBuildDate>Mon, 09 Mar 2026 11:17:28 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
+    
+      <item>
+        <title>The Loss of Little Work</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-11-25/paulblow.jpg&quot; alt=&quot;&quot; /&gt; Image credit: Paul Y Blow - @paulyblow paulblow.com&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;How AI quietly pulls small jobs back inside the firm&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a strange quiet settling over parts of the economy. Not in the big, high-stakes projects—those multi-year transformations and major rollouts are still moving at full tilt.&lt;/p&gt;
+
+&lt;p&gt;The quiet is in the little things. The one-page competitor snapshot you might have sent to a research firm. The quick landing-page copy your agency would have knocked out between campaigns. The minor integration fix for a niche dev shop, the lightweight explainer video for a production house, the quick customer-journey sketch for a consultant. Increasingly, this work never leaves the building. It doesn’t show up as a cancelled contract; it simply never gets briefed out. Someone inside “does a first pass with the AI,” and that first pass is often good enough.&lt;/p&gt;
+
+&lt;p&gt;This shift—the quiet loss of little work—is an early sign that AI is doing more than boosting productivity. It’s beginning to redraw the boundary between what organisations do themselves and what they hand off to others in the value chain. The change isn’t happening because AI removes market frictions, but because it lowers the internal coordination cost of getting small, well-specified tasks done.&lt;/p&gt;
+
+&lt;p&gt;By “little work,” I don’t mean low-value work. I mean the small, tightly scoped, modular tasks that sit everywhere inside an organisation: a few hours of analysis, a quick copy variant, a short script, a simple integration, a sketch of a process or customer flow. These tasks span creative, analytical, operational, customer-facing and product work. They’re easy to price and easy to brief, and every firm produces a constant drizzle of them. Historically, much of that drizzle went to agencies, consultancies, research shops and specialist vendors—not always because those suppliers were more capable, but because tapping your own organisation for one more little thing was often a distraction or not a good use of resources.&lt;/p&gt;
+
+&lt;p&gt;Internal coordination cost is the hidden friction here. To get two hours of work out of a large organisation, you rarely spend only two hours. You need to get onto someone’s radar, negotiate your way into their backlog, align on context and constraints, secure approvals, and loop in adjacent teams. By the time the job is done, the organisation has burned through time, attention, cognitive bandwidth, calendar slack and system overhead. For small jobs, that internal cost was often disproportionate, which is why the default move was to push the work to a supplier who could absorb the routing, scheduling and quality control on their side. You paid a margin, but you saved your own people from the burden of coordination.&lt;/p&gt;
+
+&lt;p&gt;These are the sort of issues we think about at DeepFlow.com, and AI changes the equation by quietly powering up the internal engine. Strip away the hype, and you see models being used for precisely the categories of work that once overflowed to suppliers. A marketer drafts copy variants in minutes. A strategist pulls together a fast, synthesised view of a new market. A CX lead generates a journey map and workshop materials. A product manager drafts a spec and has an engineer tweak a snippet of generated code. A sales enablement lead uses AI for first-cut talk tracks and objection-handling scripts. The people are the same, and the outputs are similar, but the production engine behind the work is very different.&lt;/p&gt;
+
+&lt;p&gt;The key shift is the marginal cost of asking for “one more thing.” With AI, a usable first version arrives almost instantly. Specialists become editors and approvers rather than sole producers. The coordination overhead per unit of output drops enough that the internal engine can run hotter without overheating. Once that happens, fewer small jobs spill over outside the organisation.&lt;/p&gt;
+
+&lt;p&gt;What hasn’t fallen is the coordination overhead of using external partners for tiny tasks. Suppliers still need onboarding, briefs, expectation-setting, procurement approval and, in regulated environments, risk and compliance checks. For meaningful, multi-month work, those steps are worth it. But for small, well-specified jobs, the comparison has flipped. Before AI, the internal coordination cost was so high that it made sense to send these small tasks out. Now the internal cost is low enough that doing them inside—AI-assisted—often wins.&lt;/p&gt;
+
+&lt;p&gt;In economic terms, this marks a subtle but real shift in the boundary of the firm. Classic theory says firms choose between doing work internally or through the market based on relative costs. AI is now altering the internal cost structure for small, well-defined, repeatable tasks—the kind that every function generates and that used to justify a long tail of small suppliers. These are the first tasks to be automated, the easiest to bring back inside, and the ones that historically have generated steady revenue for agencies, research shops, and boutique firms. Anecdotally, I’m now seeing firms in the market with 25-30% less revenue in 2025.&lt;/p&gt;
+
+&lt;p&gt;The real story in the loss of little work isn’t automation; it’s coordination. As AI flattens the cost of producing small tasks, the remaining constraint is how quickly an organisation can align, approve and integrate them.&lt;/p&gt;
+
+&lt;p&gt;Firms with sluggish governance will discover that their internal bottlenecks—not their technology—limit the gains. And as more first drafts originate inside, the centre of gravity shifts from external execution to internal orchestration. The scarce talent isn’t the person who can write the copy, map the process or draft the spec, but the one who can frame the problem, judge the output and stitch it into the larger system. That’s the quiet consequence of AI: not the disappearance of small jobs, but the elevation of coordination speed and sense-making as the new sources of advantage.&lt;/p&gt;
+
+&lt;p&gt;Further Reading:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jain, N., Suvarchala, K., &amp;amp; Wattal, S. (2025). Capability Joint Effects, Transaction Costs, Outsourcing Decisions, and Performance. Industrial Marketing Management (in press).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This paper integrates transaction-cost economics (TCE) with the resource-based view to show how firms’ internal capabilities and coordination costs jointly shape outsourcing vs insourcing decisions and associated performance. While technology-agnostic, it gives a ready-made TCE framework for your “AI changes internal cost structure, so optimal make–buy boundary moves” story.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Nov 2025 09:00:00 +0000</pubDate>
+        <link>https://www.amaams.co.uk/ai/2025/11/25/the-loss-of-little-work.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2025/11/25/the-loss-of-little-work.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>Machine-Managed Enterprises</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-10/MME.jpeg&quot; alt=&quot;&quot; /&gt; Image credit: Escuela de Fantasía 2024 - @Fran_nubes&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Beyond Automation: Building the Fully Machine-Managed Value Chain&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In previous posts, I explored two themes: first, that machines are now competently handling work once reserved for people - what we called the &lt;a href=&quot;/ai/2025/07/07/cognitive-crossover.html&quot;&gt;cognitive crossover&lt;/a&gt; - and second, that their capabilities are on a steep upward curve as &lt;a href=&quot;/ai/2025/05/30/when-ai-learns-without-us.html&quot;&gt;AI learns without us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;That trajectory makes it rational for any organisation to expand the role of machines, if only to free human talent for higher-value work.&lt;/p&gt;
+
+&lt;p&gt;Consider a single workflow. Specific steps might remain strictly human—for example, approving that a regulatory requirement has been met as part of a governance process. Others are already machine-exclusive, like dispatching a routine confirmation email. Many tasks fall somewhere in between: some are easy for algorithms but difficult for people, and vice versa.&lt;/p&gt;
+
+&lt;p&gt;Consequently, each workflow displays a spectrum of human-versus-machine responsibility. Near the point where AI and human performance are roughly equal, either side can execute the task adequately, but with different types of resource trade-offs; this is the delegation zone. Predicting exactly where that zone lies is challenging because AI competence rises and falls unevenly along what researchers have called the jagged frontier. Performance isn’t a simple yes-or-no—it varies within acceptable error bands— and it’s a space where algorithms are excellent at some tasks and baffled by adjacent ones, see Figure 1.&lt;/p&gt;
+
+&lt;p&gt;Working across that shifting boundary is hard. Large-language-model agents cannot yet take over every task end-to-end, so companies must actively manage the hand-offs between human expertise and machine assistance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-10/Figure1.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Figure 1 — The Jagged Frontier and Delegation Zone.&lt;/strong&gt; &lt;em&gt;The chart plots each task in an end-to-end workflow (horizontal axis) against how well humans versus machines can execute it (vertical axis). White nodes sit above the parity line—tasks still best handled by people; grey nodes fall below—tasks where machines already excel. The dashed blue curve traces the &lt;strong&gt;jagged frontier&lt;/strong&gt;, highlighting how capability varies unevenly from task to task. The shaded red band marks the &lt;strong&gt;delegation zone&lt;/strong&gt;: an overlap where performance is close enough that work can be reassigned dynamically between human and machine, depending on cost, risk, and required precision.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;automation-frontier&quot;&gt;Automation frontier&lt;/h2&gt;
+
+&lt;p&gt;By auditing every task in a firm’s value chain—each data hand-off, decision gate, or physical action—and scoring how well today’s technology could execute it, you can create a chart that orders workflows from “mostly human” to “mostly automatable”. Functions such as invoice reconciliation or route optimisation usually cluster on the right, while judgment-heavy or regulation-laden steps sit on the left.  The vertical line that separates machine-ready flows from human-held ones becomes your automation frontier, see Figure 2.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-10/Figure2.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Figure 2 — Workflow Automation.&lt;/strong&gt; &lt;em&gt;The first three squares represent an organisation’s value-chain workflows. Grey nodes mark activities machines can already perform; white nodes remain human-run. &lt;strong&gt;Org workflows&lt;/strong&gt; shows today’s mixed, unsorted state. &lt;strong&gt;Ordered&lt;/strong&gt; re-aligns tasks within each workflow so that machine-ready steps cluster. &lt;strong&gt;Sorted&lt;/strong&gt; then ranks entire workflows by their share of automatable tasks, creating a left-to-right gradient of increasing machine potential. The summary chart on the right converts that ordering into a cumulative “resource stack”: the shaded lower portion indicates capacity that could migrate to machines, while the upper contour identifies work that still relies on human expertise to meet user needs.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;machine-managed-enterprise&quot;&gt;Machine-Managed Enterprise&lt;/h2&gt;
+
+&lt;p&gt;Across any modern value chain—product development, sourcing, logistics, sales, and after-service—work involves hundreds of cognitive tasks: analysing data, planning inventory, evaluating trade-offs, managing exceptions, and making strategic and routine decisions.&lt;/p&gt;
+
+&lt;p&gt;Consultancy benchmarks suggest that, taken in aggregate, roughly half of all work activities could already be automated with technology that exists today—and that share is rising rapidly as generative AI matures.&lt;/p&gt;
+
+&lt;p&gt;Because machines are advancing fastest in data aggregation, pattern recognition and optimisation, they are beginning to shoulder not just the doing but the managing of work.  A visible case is Uber, whose software dispatches drivers, sets dynamic prices, and enforces platform rules—functions once handled by fleets of human controllers. In transport infrastructure, London’s Docklands Light Railway has carried passengers safely since 1987 under fully automated train control, demonstrating that society accepts automation when the economics and safety record are compelling.  These examples demonstrate that machine-led coordination is already operational at the metropolitan scale; with the advances in language-based AI, the question is how far it will extend within the enterprise.&lt;/p&gt;
+
+&lt;p&gt;One way to think about the journey is to view the organisation in strata.  At the base layer lie tasks that machines can mostly already execute end-to-end.  Above that sits a widening band of operational decision-making—routing trucks, scheduling staff, repricing inventory—where algorithms now rival or exceed human speed and accuracy. Satalia.com, a company I co-founded, saved Tesco 11.2 million miles in 2019, or 8% less fuel per delivery, by optimising vehicle routing. Imagine these types of savings, and even greater ones, across all aspects of business processes.&lt;/p&gt;
+
+&lt;p&gt;Higher up in the organisational strata are strategic and creative judgements that remain predominantly human—for now.&lt;/p&gt;
+
+&lt;p&gt;Over time, the automation frontier creeps upward: first, machines assist in doing the work, then machines just do the work, then they begin to manage slices of it, and eventually, they play a significant role in orchestrating most day-to-day operations. Now, Next, Future and Fully Autonomous—is a transition that is neither smooth nor uniform; capability advances in jumps, creating a shifting boundary that leaders must monitor and navigate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-10/Figure3.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Figure 3 — Evolution Toward a Machine-Managed Enterprise.&lt;/strong&gt; &lt;em&gt;The four panels illustrate successive stages of automation. &lt;strong&gt;Now&lt;/strong&gt; humans both manage and do most work; machine execution (grey area) is minimal and narrowly scoped. &lt;strong&gt;Next&lt;/strong&gt; vertically integrated AI agents expand machine execution and begin assuming discrete management functions (narrow grey band near the top), while humans still oversee the majority of coordination and perform many tasks. &lt;strong&gt;Future&lt;/strong&gt; machines handle the bulk of both execution and operational management; humans retain a shrinking slice focused on strategic oversight, model grounding and exception handling. A Fully Autonomous organisation operates end-to-end under machine control, without human involvement. The dotted vertical dividers in each panel mark how the boundary between human and machine roles shifts to the left as capability and confidence grow.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;approaching-the-transition&quot;&gt;Approaching the Transition&lt;/h2&gt;
+
+&lt;p&gt;The prudent route to a machine-managed future is to reframe work now, well before agentic systems reach full maturity.&lt;/p&gt;
+
+&lt;p&gt;When an organisation proactively revamps its management practices—mapping tasks, piloting hybrid decision‑rights, and embedding firm data‑governance guardrails—it moves ahead of the market frontier. This preparation shields it from the “Red Queen” trap—running hard just to stay in place— of later having to sprint to catch up with competitors that adopt new technologies earlier or more aggressively.&lt;/p&gt;
+
+&lt;p&gt;Early experimentation is essential. Even if today’s AI agents remain imperfect, they are improving quickly; once their capability crosses a threshold, the shift from human-managed to machine-managed workflows will accelerate with little warning.&lt;/p&gt;
+
+&lt;p&gt;Companies that re-engineer how decisions are made—changing the head of the organisation, not merely its fingers and toes—will ultimately outpace firms that string together isolated AI agents. This deeper transformation will likely reshape the technology stack itself. Rather than today’s disconnected strata, we should expect verticalised AI platforms that bundle data, models, and workflows around specific industries or problem domains. Treating machine management as an enterprise-architecture mandate, rather than a bolt-on feature, allows leaders to align governance, pipelines, and talent into a single, coherent programme.&lt;/p&gt;
+
+&lt;p&gt;Firms that adopt this holistic approach will become genuinely AI-ready and be best positioned to absorb rapid advances as they emerge, scaling them safely across the value chain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-10/Figure4.png&quot; alt=&quot;&quot; /&gt;
+&lt;strong&gt;Figure 4 — Tech Strata, Agent Models and Organisational Shape&lt;/strong&gt; 
+&lt;em&gt;&lt;strong&gt;Application Stack/Strata&lt;/strong&gt;  Today’s software layers are largely “human-managed/human-doing,” but machine execution (grey wedges) is creeping upward—from cloud infrastructure through ERP, email, and CRM—pushing a dashed automation frontier into managerial territory. &lt;strong&gt;Vertical Agents&lt;/strong&gt;  The horizontal patchwork of generic tools gives way to vertically integrated AI agents (grey bar) that own end-to-end industry workflows. However, a lot of work (“Everything Else”) will resist the development of fully agentic systems in the immediate future. &lt;strong&gt;Org Shapes&lt;/strong&gt; Each square represents a state of organisational automation. White indicates human execution; grey marks machine execution.  The circles show the transition: the upper-left cell (“Now”) is still human-dominant, whereas the lower-right cell (“Future”) is almost entirely automated—illustrating how the organisational footprint flattens and darkens as machine management scales across the enterprise.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;concluding-thoughts&quot;&gt;Concluding Thoughts&lt;/h2&gt;
+
+&lt;p&gt;There is no single blueprint; each industry, and indeed each firm, will trace its own path as the automation frontier advances. The leadership imperative is to view machine management not as a one-off project but as a strategic capability that must be cultivated ahead of time.&lt;/p&gt;
+
+&lt;p&gt;Organisations that treat the transition as an architectural redesign—integrating vertical AI platforms, transparent governance, and human oversight—will operate at algorithmic speed while reserving human capability where it creates the highest value. In doing so, they will secure a durable edge in the next era of business.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-reading&quot;&gt;Further Reading:&lt;/h2&gt;
+
+&lt;p&gt;Dell’Acqua, F., McFowland III, E., Mollick, E., Lifshitz-Assaf, H., Kellogg, K.C., Rajendran, S., Krayer, L., Candelon, F. and Lakhani, K.R. (2023) Navigating the jagged technological frontier: Field experimental evidence of the effects of AI on knowledge-worker productivity and quality. Working Paper 24-013. Boston: Harvard Business School. &lt;a href=&quot;https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf&quot;&gt;pdf&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 10 Jul 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/ai/2025/07/10/MME.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2025/07/10/MME.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>Cognitive Crossover</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-07-07/CogXOver.jpg&quot; alt=&quot;&quot; /&gt; Image credit: “the miracle” ~ @themeloart&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Thoughts on Scaling, Universality and AI Capability&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, my MBA students and I—prompted by reflections—discussed whether ever-bigger AI models will continue to improve, or whether we’re heading for another “AI winter.”&lt;/p&gt;
+
+&lt;p&gt;Someone jokingly called me an “accelerationist.” I don’t think that label fits, but I do believe the momentum behind recent progress is real, rapid and unlikely to stall. Here’s the case I made to the class…&lt;/p&gt;
+
+&lt;h2 id=&quot;why-scale-keeps-paying-off&quot;&gt;Why scale keeps paying off&lt;/h2&gt;
+
+&lt;p&gt;OpenAI’s “Scaling Laws for Neural Language Models” provided early empirical evidence that, if you increase model size, data, and compute together, then AI model error rates fall, i.e. the AI can continue to “learn more”. There is an approximate power‑law over seven orders of magnitude. No saturation is visible yet — each extra order of magnitude still creates improvement, perhaps with diminishing returns.&lt;/p&gt;
+
+&lt;p&gt;The Bitter Lesson meets the Universal Approximation Theorem
+Reinforcement‑learning pioneer Richard Sutton called progress through brute‑force learning “The Bitter Lesson”: in the long run, general methods that exploit ever‑cheaper compute outstrip clever, human‑devised learning heuristics.&lt;/p&gt;
+
+&lt;p&gt;Mathematicians proved something similar in principle: the Universal Approximation Theorem (UAT) guarantees that a model with enough parameters can approximate any function arbitrarily well. It’s an existence proof (not a guarantee of being able to actually build an AI), but it marks the theoretical ceiling to which our empirical scaling curves inch closer.&lt;/p&gt;
+
+&lt;p&gt;Put the two ideas together, and you get a compelling narrative:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lower‑bound reality Scaling laws&lt;/strong&gt;: bigger models + more data ⇒ steadily improving lower error.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Upper‑bound theory UAT&lt;/strong&gt;: In the infinite‑size limit, a model can get the error all the way to zero - it can “Learn anything”&lt;/p&gt;
+
+&lt;h2 id=&quot;why-i-dont-think-progress-will-stall&quot;&gt;Why I don’t think progress will stall&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hardware &amp;amp; capital keep flowing.&lt;/strong&gt; Capacity might begin to plateau in the classical compute paradigm, but multi‑billion‑dollar data centre plans suggest the compute pipeline is far from drying up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Algorithms continue to improve.&lt;/strong&gt; Deepseek is evidence that we have a long way to go before we optimise the software stack — squeezing more capability from every FLOP. Alpha Tensor and Alpha Search are early examples of algorithms that are beginning to design new ones.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data supply is evolving, not exhausted&lt;/strong&gt;. We might have exhausted the Common Crawl (I don’t think so), but we’re already seeing a mix of synthetic data, simulation traces, multimodal streams and embodied AI  to feed the models’ insatiable appetite.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use‑value threshold passed&lt;/strong&gt;. Tools like ChatGPT, Gemini and Claude are already making a difference (at least for the individual) today; that commercial feedback loop underwrites continued R&amp;amp;D and inoculates us against another AI winter.&lt;/p&gt;
+
+&lt;p&gt;None of this guarantees a specific timeline, but the increase in model capability has been surprisingly steep—hence the flurry of “AGI 2027” forecasts. Former OpenAI researcher Leopold Aschenbrenner argues in “Situational Awareness: The Decade Ahead” that another ~2‑3 orders of magnitude in “effective compute” could yield systems able to automate most of AI research itself.&lt;/p&gt;
+
+&lt;p&gt;Whether you buy that exact date or not, the safe prediction is improving model capability—and sooner than most planners or commentators expected.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-machines-outthink-us&quot;&gt;When machines out‑think us&lt;/h2&gt;
+
+&lt;p&gt;If models do cross the human-cognition line within a decade, the debate shifts from “can they?” to “now what”?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skill displacement&lt;/strong&gt;: Knowledge‑work tasks (coding, legal research, design) may face the kind of upheaval factory floors saw in the 20th century.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decision velocity&lt;/strong&gt;: Board‑level strategy, M&amp;amp;A due diligence or drug‑discovery cycles could compress from months to minutes—rewarding organisations that learn to delegate judgement to machines while keeping humans “on the loop.”
+Power concentration: Compute‑hungry frontier models favour firms (or states) able to finance multi‑$B clusters, raising antitrust and geopolitical stakes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alignment &amp;amp; liability&lt;/strong&gt;: When an LLM synthesises medical advice more accurately than any doctor, who signs the prescription? Legal frameworks lag far behind technical reality.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Meaning &amp;amp; identity&lt;/strong&gt;: If reasoning, expertise,  creativity and insight become commoditised utilities, what remains uniquely valuable—and fulfilling—about human work?&lt;/p&gt;
+
+&lt;p&gt;These are no longer science‑fiction hypotheticals; they’re strategic planning topics for the 2025–2035 horizon.&lt;/p&gt;
+
+&lt;h2 id=&quot;closing-note-from-the-mba-cohort&quot;&gt;Closing note from the MBA cohort&lt;/h2&gt;
+
+&lt;p&gt;Accelerationism sometimes implies “the faster the better, no matter the consequences.” That’s not my stance. I simply observe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The curve is still steep.&lt;/li&gt;
+  &lt;li&gt;There are no real signs of a plateau.&lt;/li&gt;
+  &lt;li&gt;Capital, talent and compute keep flowing in because the technology is already useful.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Believing progress will continue is not the same as cheering for reckless speed; governance and safety matter. But betting against further capability gains now feels like a losing one!&lt;/p&gt;
+
+&lt;p&gt;Scaling laws (confusingly not laws, but rather an observation) provide us with an improving lower-bound trajectory; the UAT shows that the ceiling is, in principle, unlimited.&lt;/p&gt;
+
+&lt;p&gt;Nothing I’ve seen in the data hints that we’re about to hit a wall—so the real work is to prepare for a world where machines routinely out‑think us, and to shape that future responsibly.&lt;/p&gt;
+
+&lt;p&gt;The exciting, and sometimes daunting, task for the next cohort of MBA leaders is to harness that momentum responsibly, turning ever‑better models into real‑world value without losing sight of ethics and governance.&lt;/p&gt;
+
+&lt;p&gt;Feel free to push back—after all, good arguments are how we test convictions. But if you ask me today whether model performance will keep rising toward (and eventually past) human benchmarks, my answer is—yes. (Many of the em dashes have been added by the human.)&lt;/p&gt;
+
+&lt;h2 id=&quot;suggested-reading--listening&quot;&gt;Suggested reading &amp;amp; listening&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Theme - Title &amp;amp; author - Why it’s useful&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Scaling evidence&lt;/strong&gt; - “Scaling Laws for Neural Language Models” – Kaplan et al. (2020) The original power‑law paper. &lt;a href=&quot;https://arxiv.org/abs/2001.08361&quot;&gt;https://arxiv.org/abs/2001.08361&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Compute‑data balance&lt;/strong&gt; - “Training Compute‑Optimal LLMs” – Hoffmann et al. (2022)- Explains the Chinchilla ratio. &lt;a href=&quot;https://arxiv.org/abs/2203.15556&quot;&gt;https://arxiv.org/abs/2203.15556&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Philosophy of brute force&lt;/strong&gt; - “The Bitter Lesson” – Richard Sutton (2019) - Why scale beats hand‑engineered tricks. &lt;a href=&quot;http://www.incompleteideas.net/IncIdeas/BitterLesson.html&quot;&gt;http://www.incompleteideas.net/IncIdeas/BitterLesson.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Theoretical ceiling&lt;/strong&gt; - Universal Approximation Theorem – Cybenko, Hornik &amp;amp; others - Shows any function is representable with sufficient parameters (model capacity) &lt;a href=&quot;https://en.wikipedia.org/wiki/Universal_approximation_theorem&quot;&gt;https://en.wikipedia.org/wiki/Universal_approximation_theorem&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Near‑term AGI scenario&lt;/strong&gt; - “Situational Awareness: The Decade Ahead” – Leopold Aschenbrenner (2024) - A detailed AGI‑by‑2027 thesis. &lt;a href=&quot;https://situational-awareness.ai/&quot;&gt;https://situational-awareness.ai/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Critical commentary&lt;/strong&gt; - “The AGI‑in‑2027 Thesis” – Evan Armstrong, Every (2024) A balanced critique of the 2027 timeline. &lt;a href=&quot;https://every.to/napkin-math/the-agi-in-2027-thesis&quot;&gt;https://every.to/napkin-math/the-agi-in-2027-thesis&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Broader policy view&lt;/strong&gt; - Nick Bostrom, Superintelligence (2014) - The classic on control &amp;amp; risk (still relevant - and I was very sceptical the first time I read this book!).&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Jul 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/ai/2025/07/07/cognitive-crossover.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2025/07/07/cognitive-crossover.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>When AI Learns Without Us</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-05-30/when-ai-learns-without-us.jpg&quot; alt=&quot;&quot; /&gt; Image credit: Substrata @blac_ai&lt;/p&gt;
+
+&lt;p&gt;Humans have traditionally trained artificial intelligence – we label data, design reward signals, and hand-craft the objectives. But a subtle paradigm shift is underway: AI systems are beginning to improve themselves using signals from within.&lt;/p&gt;
+
+&lt;p&gt;Instead of relying solely on human feedback or external rewards, the newest AI models learn from their own confidence, consistency, and even improving themselves by adjusting their own codebase.&lt;/p&gt;
+
+&lt;p&gt;It’s a quiet transformation that will change how AI evolves and learns in the coming years.&lt;/p&gt;
+
+&lt;h2 id=&quot;from-labels-to-self-reflection&quot;&gt;From Labels to Self-Reflection&lt;/h2&gt;
+
+&lt;p&gt;One breakthrough method, called Intuitor, enables a model to use its own self-certainty — a sense of how confident it is in an answer — as the sole feedback it requires. If it’s confident, it reinforces that behaviour. No labels. No gold-standard ground truth answers. Just the AI learning from itself.&lt;/p&gt;
+
+&lt;p&gt;Another approach builds on this idea of self-consistency. The model addresses a challenging problem in multiple ways and only trusts the results when those paths converge to the same conclusion. Over time, this builds confidence in its answers and allows it to train itself — even in complex domains like math, entirely without external supervision.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-that-writes-its-own-upgrades&quot;&gt;AI That Writes Its Own Upgrades&lt;/h2&gt;
+
+&lt;p&gt;Some models are now capable of designing better versions of themselves. One experiment gave an AI the task of generating new algorithms to improve its own performance. It wrote code, tested it, evaluated the results — and repeated the loop. The AI ultimately discovered optimisation strategies that outperformed anything designed by human researchers.&lt;/p&gt;
+
+&lt;p&gt;DeepMind’s AlphaEvolve takes this further. It evolves code over many iterations to improve infrastructure and solve complex scientific tasks. In one case, it rediscovered a faster method for multiplying matrices — breaking a mathematical record that had stood since 1969.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-evolution-of-code&quot;&gt;The Evolution of Code&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the most dramatic recent example (prompting me to write this!) is the Darwin Gödel Machine — a system that evolves new agents by rewriting its own code. It generates versions of itself, tests each one, and keeps the best performers. Over many iterations, it creates increasingly sophisticated coding agents, each better than the last. These agents develop smarter workflows, better debugging strategies, and even internal mechanisms for evaluating their own changes. It’s a form of open-ended AI evolution, where intelligence grows not from training data — but from recursive self-improvement.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+___&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;We’re witnessing a shift from AI that learns from data to AI that learns from itself. This opens up new opportunities — and complex questions:&lt;/p&gt;
+
+&lt;p&gt;What happens when AI innovates in ways we can’t predict?&lt;/p&gt;
+
+&lt;p&gt;How do we maintain control over systems that are evolving their own learning processes?&lt;/p&gt;
+
+&lt;p&gt;As these systems integrate deeply into the economy, how do we maintain structures of governance and audit to ensure safe, reliable, and resilient behaviour?&lt;/p&gt;
+
+&lt;p&gt;As we hand over more autonomy to machines, we’re not just training them; we’re also empowering them. We’re creating the conditions for intelligence to co-evolve with us.&lt;/p&gt;
+
+&lt;h2 id=&quot;recent-papers&quot;&gt;Recent papers:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Learning to Reason without External Rewards&lt;/strong&gt; arXiv preprint &lt;a href=&quot;https://arxiv.org/abs/2505.19590&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Can Large Reasoning Models Self-Train?&lt;/strong&gt; arXiv preprint &lt;a href=&quot;https://arxiv.org/abs/2505.21444&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Can Large Language Models Invent Algorithms to Improve Themselves?&lt;/strong&gt; arXiv preprint &lt;a href=&quot;https://arxiv.org/abs/2410.15639&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms Technical Report&lt;/strong&gt; – DeepMind &lt;a href=&quot;https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf&quot;&gt;AlphaEvolve.pdf&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Darwin Gödel Machine: Open-Ended Evolution of Self-Improving AgentsarXiv&lt;/strong&gt; preprint Zhang, Hu, Lu, Lange, Clune. May 2025 &lt;a href=&quot;https://arxiv.org/abs/2505.22954&quot;&gt;arXiv&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 30 May 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/ai/2025/05/30/when-ai-learns-without-us.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2025/05/30/when-ai-learns-without-us.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>The Future of the Firm - moving boundaries in the Age of AI</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-05-20/moving-boundaries.jpg&quot; alt=&quot;&quot; /&gt; Image credit: @MaxDrekker&lt;/p&gt;
+
+&lt;p&gt;As we enter the age of advanced artificial intelligence (AI) – and approach the era of artificial general intelligence (AGI) – business leaders are wondering how these technologies might reshape companies. One big question is how AI will change firm boundaries – which tasks companies do in-house versus outsource. New research is starting to suggest that as AI becomes more capable, companies may bring more tasks in-house, potentially creating larger, more vertically integrated organisations that manage entire supply chains under one roof.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-house-vs-outsourcing-the-classic-trade-off&quot;&gt;In-House vs. Outsourcing: The Classic Trade-Off&lt;/h2&gt;
+
+&lt;p&gt;Why do firms exist, and how do they decide what to do internally vs. externally? One answer goes back to economist Ronald Coase’s classic theory. Coase observed that a company will expand internally until the cost of organising one more task inside equals the cost of paying an outside supplier. Simply put, if handling something in-house is cheaper, you do it; if an outside specialist can do it for less (after accounting for contracting costs), you outsource it. This balance between internal coordination costs and external transaction costs defines a firm’s boundary.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-advanced-ai-shifts-the-balance&quot;&gt;How Advanced AI Shifts the Balance&lt;/h2&gt;
+
+&lt;p&gt;AI can tilt this balance by automating many management and coordination tasks inside a company, greatly reducing internal coordination costs. With lower internal costs, firms can handle more work themselves instead of outsourcing. Simple economic models now predicts that as AI becomes more advanced, firms will internalize more stages of production. In other words, AI could spur a wave of vertical integration – one company handling what used to require a whole chain of specialised suppliers. For example, a powerful AI might enable a single firm to manage everything from raw materials to final product delivery.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-boundary-jump-a-sudden-leap&quot;&gt;The “Boundary Jump”: A Sudden Leap&lt;/h2&gt;
+
+&lt;p&gt;Notably, this shift might not happen gradually, but as a sudden leap. Once AI crosses a certain capability threshold, the number of firms in a supply chain can plummet – a “boundary jump” . In other words, when AI becomes good enough at managing a broad range of tasks, it suddenly makes sense for one company to do far more itself; what used to be a network of many companies might collapse into a single integrated firm. You can test this hypothesis in simple models of production chains with computer simulations. The result was clear: as AI drives internal coordination costs down, firms optimally integrate more stages of production.&lt;/p&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;The prospect of entire supply chains inside one company raises big questions for business strategy and policy. We’ll explore those implications further in the full paper, but for now, it’s an eye-opening scenario to consider. As AI grows more powerful, the traditional boundaries of firms might expand in leaps rather than smaller steps.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 20 May 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/futureoffirm/2025/05/20/moving-boundaries.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/futureoffirm/2025/05/20/moving-boundaries.html</guid>
+        
+        
+        <category>futureoffirm</category>
+        
+      </item>
+    
+      <item>
+        <title>The AI Sovereignty Imperative</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-05-11/ai-sovereignty.jpg&quot; alt=&quot;&quot; /&gt; Image credit: @bluedreamvibes&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As artificial intelligence becomes the primary driver of innovation, productivity, and scientific discovery, compute infrastructure has emerged as a strategic resource—on par with oil in the 20th century or electricity in the early industrial age. The age of AI is, fundamentally, the age of compute. Models are growing in size, complexity, and capability.&lt;/p&gt;
+
+&lt;p&gt;Training them requires unprecedented levels of processing power, specialised hardware, and sustained infrastructure investment. Yet the availability of compute—and a nation’s ability to control, direct, and scale it—is rapidly becoming a key determinant of competitiveness, autonomy, and national relevance.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-competitive-compute-gap&quot;&gt;The Competitive Compute Gap&lt;/h2&gt;
+
+&lt;p&gt;Nations that fail to build and maintain sufficient compute infrastructure risk falling into a long-term trap of scientific and economic irrelevance. Access to cutting-edge AI capabilities is becoming synonymous with the ability to conduct meaningful research and development. From fundamental science to product design, from logistics optimisation to climate modelling, modern R&amp;amp;D is now inextricably linked with AI-augmented methodologies. If a country cannot access or build large-scale AI systems, it cannot participate fully in the next generation of innovation. Its researchers will fall behind. Its universities will be constrained. Its companies will depend on foreign platforms, often at high cost and under strategic vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;This is not only an academic problem. In the emerging global economy, all services—from healthcare and law to education, transportation, and finance—are being restructured around AI-assisted delivery. For instance, doctors in many systems will increasingly rely on AI triage and diagnosis tools. Educators will use AI tutors to personalise learning. Legal systems will employ AI to streamline case preparation. These systems run on compute. The faster, cheaper, and more locally available it is, the more a country can deploy these technologies equitably and securely across its society.&lt;/p&gt;
+
+&lt;h2 id=&quot;public-sector-transformation-and-ai-sovereignty&quot;&gt;Public Sector Transformation and AI Sovereignty&lt;/h2&gt;
+
+&lt;p&gt;Governments are not exempt. Public services—from tax collection and benefits processing to emergency response—stand to be transformed through AI. With AI, the state can offer radically more efficient, personalised, and dynamic public services. But to do so, it must have guaranteed sovereign access to advanced AI systems and their compute backbones.&lt;/p&gt;
+
+&lt;p&gt;Here arises the critical notion of AI sovereignty: the capacity of a nation to independently train, run, adapt, and secure its own AI systems. Sovereignty in the AI era does not just mean having a domestic tech sector. It means being able to allocate compute strategically across national priorities—security, science, welfare, economic development—without foreign dependencies or vulnerabilities. Without AI sovereignty, a country is effectively operating in a rented cognitive infrastructure, exposed to price shocks, access restrictions, or even backdoor manipulation.&lt;/p&gt;
+
+&lt;h2 id=&quot;comparative-advantage-in-the-age-of-compute&quot;&gt;Comparative Advantage in the Age of Compute&lt;/h2&gt;
+
+&lt;p&gt;Some argue that the global economy will still allow for specialization—under Ricardo’s principle of comparative advantage. That may hold true, but the axis of specialization is shifting. The question is no longer just “what industries do we have a comparative advantage in,” but “what do we choose to allocate our compute capacity toward?”&lt;/p&gt;
+
+&lt;p&gt;In this framework, compute becomes a finite, allocable national resource, not unlike energy or water. Nations will differ not just in how much compute they possess, but how wisely and strategically they deploy it. A bioengineering powerhouse may direct compute to protein folding and synthetic biology. A financial hub may channel it into real-time macroeconomic modeling. A defense-oriented nation may use it for autonomous surveillance, cyber capabilities, and tactical AI. These choices will shape national development paths and industrial profiles for decades.&lt;/p&gt;
+
+&lt;h2 id=&quot;ai-as-the-new-driver-of-science&quot;&gt;AI as the New Driver of Science&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the most transformative consequence of this compute revolution lies in the reimagination of science itself. The classic model of human-led hypothesis generation and testing is giving way to AI-driven discovery. Large models are starting to be able to propose experiments, simulate outcomes, and refine theories with minimal human intervention. What emerges is a new vision of science—not as a set of disciplines practiced by people, but as Lakatosian research programmes orchestrated and accelerated by machines.&lt;/p&gt;
+
+&lt;p&gt;As these programmes unfold, a bifurcation may occur. Countries or organisations with early access to powerful models and compute will chart radically different scientific trajectories. In less than a decade, the tools, techniques, and discoveries available to AI-rich societies may appear indistinguishable from “magic” to others—reminiscent of Clarke’s famous adage. This is not science fiction. We already see early signs in biotech, material discovery, and defense R&amp;amp;D, where machine learning models outperform entire labs of human experts.&lt;/p&gt;
+
+&lt;h2 id=&quot;from-human-capital-to-model-trajectories&quot;&gt;From Human Capital to Model Trajectories&lt;/h2&gt;
+
+&lt;p&gt;Crucially, the intellectual property of the future will not reside in patents, published papers, or even institutional know-how. It will live in model memory—in the internal representations, embeddings, and trajectories of AI systems trained on vast swathes of domain knowledge and interaction. The new “intellectual elite” will be those who control, understand, and steer the fine-tuning and evolution of large models. IP will become path-dependent: a function of training data, model updates, and reinforcement feedback loops. Owning and curating the journey of a model may be more important than owning any particular invention it generates.&lt;/p&gt;
+
+&lt;p&gt;In such a paradigm, the locus of innovation shifts from human minds to computational substrates. This does not devalue human capital—but it redefines it. The critical skillsets of the future will revolve around AI alignment, model governance, compute orchestration, and strategic data acquisition. Nations that do not invest in these domains will increasingly become consumers, not creators, of next-generation knowledge.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-call-for-strategic-investment&quot;&gt;A Call for Strategic Investment&lt;/h2&gt;
+
+&lt;p&gt;All of this points to a pressing imperative: the strategic national investment in compute infrastructure, AI expertise, and sovereign capability. Just as Cold War-era powers invested massively in space programs or nuclear deterrents, today’s leading economies must consider devoting a significant share of GDP—perhaps 4% or more—to building a national compute backbone.&lt;/p&gt;
+
+&lt;p&gt;This includes physical infrastructure (data centres, cooling systems, advanced chips), organisational capacity (AI research labs, national AI clouds, public-private partnerships), and talent pipelines (education, fellowships, and international recruitment). It must also include regulatory and ethical oversight, ensuring that AI systems are aligned with national values and serve the public interest.&lt;/p&gt;
+
+&lt;p&gt;Failing to act decisively now risks permanent dependency. The world is approaching a divergence point: a moment when state-of-the-art models become so advanced and path-locked that catching up becomes effectively impossible without having participated in their formative phases. For many countries, the 2020s-2030s will be the last chance to secure a stake in the AI future.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 11 May 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/ai/2025/05/11/ai-sovereignty-imperative.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2025/05/11/ai-sovereignty-imperative.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
+    
+      <item>
+        <title>Can AI Work an 8-Hour Day?</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-04-08/8-hour-day.jpeg&quot; alt=&quot;&quot; /&gt; Image credit: @blac.ai&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Artificial Intelligence (AI) has been making waves across industries, transforming how we work, think, and innovate. A recent post by DeepFlow on X caught my attention, sparking a deeper dive into the question: “How long until AI can work a full 8-hour day?”&lt;/p&gt;
+
+&lt;p&gt;According to the post, some experts predict that by 2027, AI could manage this feat with a 50% success rate. This bold claim is backed by METR’s latest research, which shows AI’s task endurance doubling every 7 months. Systems that currently operate for mere minutes could soon handle hours without human intervention. Let’s unpack this idea and explore what it means for the future of work, technology, and society.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-exponential-rise-of-ai-task-endurance&quot;&gt;The Exponential Rise of AI Task Endurance&lt;/h3&gt;
+
+&lt;p&gt;METR, a research group focused on measuring AI performance, has been tracking the length of tasks AI agents can complete autonomously. Their findings are striking: since 2019, AI’s ability to sustain performance on tasks has been doubling roughly every 7 months. This exponential growth mirrors trends we’ve seen in other areas of AI development, such as compute power, data availability, and algorithmic efficiency. For context, a 2023 Time article highlighted how these three pillars—compute, data, and algorithms—have fueled AI’s rapid evolution over the past decade. If METR’s projections hold, by 2027, AI systems could be capable of handling multi-hour tasks with a 50% success rate, a significant leap from today’s capabilities.&lt;/p&gt;
+
+&lt;p&gt;To put this into perspective, imagine an AI system that can currently process data or write code for 8 minutes before requiring human oversight. If its endurance doubles every 7 months, by 2027, that same system could potentially work for hours—perhaps even a full 8-hour workday—without needing us to step in.&lt;/p&gt;
+
+&lt;p&gt;This isn’t just a technical milestone; it’s a game-changer for industries that rely on repetitive, modular tasks like data processing, software development, or customer support, or well, any knowledge work really.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-broader-trends-driving-ais-growth&quot;&gt;The Broader Trends Driving AI’s Growth&lt;/h3&gt;
+
+&lt;p&gt;The exponential growth in AI task endurance doesn’t exist in a vacuum. It’s part of a larger trend in AI development that has been accelerating for years. As mentioned in the 2023 Time article, the rapid advancement of AI has been driven by three key factors:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Compute Power&lt;/strong&gt;: The amount of computational power available for AI training and inference has grown exponentially. For example, a 2025 RAND report notes that AI data centers could require 68 gigawatts of power by 2027—equivalent to the total power capacity of California in 2022. This massive demand underscores the scale of investment in AI infrastructure.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Data Availability&lt;/strong&gt;: AI systems thrive on data, and the digital age has provided an abundance of it. However, there’s a potential roadblock on the horizon. As tasks become more complex, the data required to train AI for higher-level skills may become exponentially scarcer. A comment in the METR blog post on LessWrong raises this concern, noting that while compute scales exponentially, the data needed for advanced tasks might not keep pace, potentially slowing progress by 2026.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Algorithmic Efficiency&lt;/strong&gt;: Advances in algorithms, such as transformer models and reinforcement learning, have made AI systems more capable and efficient. These improvements allow AI to tackle increasingly complex tasks with greater accuracy and endurance.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Together, these factors have created a perfect storm for AI development, enabling the kind of rapid progress METR is observing. But while the trajectory looks promising, there are challenges that could derail this timeline.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-economic-and-social-implications&quot;&gt;The Economic and Social Implications&lt;/h3&gt;
+
+&lt;p&gt;If AI can truly work an 8-hour day by 2027, the implications for the global economy are profound. A 2016 White House report on automation provides a historical perspective, estimating that automation could displace 15% of the global workforce—around 400 million workers—between 2016 and 2030. However, the same report also projected that new jobs would be created, with labour demand increasing by 21% to 33% over the same period. AI’s ability to take on full workdays could accelerate this shift, particularly in industries with clear-cut, modular tasks.&lt;/p&gt;
+
+&lt;p&gt;For example, data processing, clerical, and customer service—sectors already seeing significant automation—could be fully transformed.&lt;/p&gt;
+
+&lt;p&gt;DeepFlow.com  thread highlights that even imperfect AI can be a game-changer economically, as long as the cost of verifying its work remains manageable. However, tasks requiring ambiguity, judgment, and complex dependencies—like strategic decision-making or creative problem-solving—will likely remain a challenge for AI, at least in the near term.&lt;/p&gt;
+
+&lt;p&gt;The transition won’t be seamless. For example, legacy system integration and verification bottlenecks could slow adoption. If it takes too long to check AI’s output, the economic benefits of automation may not materialise as quickly as hoped. Moreover, the societal impact of such widespread automation will require careful management. The 2016 White House report emphasised the need for broad policy responses, including workforce retraining, education reform, and social safety nets, to address the displacement caused by automation. These recommendations are even more relevant today as AI’s capabilities continue to expand.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges-and-uncertainties-ahead&quot;&gt;Challenges and Uncertainties Ahead&lt;/h3&gt;
+
+&lt;p&gt;While the idea of AI working a full 8-hour day is exciting, it’s not without its hurdles. The potential scarcity of data for higher-level tasks, as mentioned earlier, could slow progress. If the data required to train AI for complex, judgment-heavy roles grows exponentially harder to obtain, the doubling time for task endurance might lengthen, pushing the 2027 milestone further out.&lt;/p&gt;
+
+&lt;p&gt;Finally, there’s the human element. DeepFlowAI’s thread ends with a thought-provoking question: “What part of your day would stump an AI, even if it had 8 hours to try?” For many of us, tasks involving emotional intelligence, creativity, or ethical decision-making are likely to remain human domains for the foreseeable future, although I think people will increasingly be comfortable with machine playing a significant role here too.&lt;/p&gt;
+
+&lt;p&gt;Human-AI collaboration, rather than full automation, may be the more immediate outcome, with AI acting as a powerful sidekick rather than a replacement.&lt;/p&gt;
+
+&lt;h3 id=&quot;looking-to-the-future&quot;&gt;Looking to the Future&lt;/h3&gt;
+
+&lt;p&gt;The idea of AI working a full 8-hour day by 2027 is both thrilling and daunting. On one hand, it promises unprecedented levels of productivity and efficiency, potentially revolutionising industries and economies. On the other hand, it raises important questions about the future of work, the ethical use of AI, and the societal changes we’ll need to navigate.&lt;/p&gt;
+
+&lt;p&gt;METR’s research gives us a glimpse into what’s possible, but the path forward will depend on how we address the technical, economic, and social challenges ahead. As AI continues to evolve, one thing is clear: the future of work will be a partnership between humans and machines, with each bringing their unique strengths to the table.&lt;/p&gt;
+
+&lt;p&gt;So, what do you think? Could AI handle your workday by 2027? And more importantly, what tasks do you think will remain uniquely human, no matter how advanced AI becomes? I’d love to hear your thoughts in the comments below.&lt;/p&gt;
+
+&lt;p&gt;—&lt;/p&gt;
+
+&lt;p&gt;Sources:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks&quot;&gt;https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;[https://www.rand.org/pubs/research_reports/RRA3572-1.html]&quot;&gt;https://www.rand.org/pubs/research_reports/RRA3572-1.html&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;[https://labourlaws.co.uk/automation-and-ai-impact-on-working-hours/]&quot;&gt;https://labourlaws.co.uk/automation-and-ai-impact-on-working-hours/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work&quot;&gt;https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 08 Apr 2025 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/futureofwork/2025/04/08/8-hour-day.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/futureofwork/2025/04/08/8-hour-day.html</guid>
+        
+        
+        <category>futureofwork</category>
+        
+      </item>
     
       <item>
         <title>Structural Deepening</title>
@@ -67,13 +540,13 @@
 
 &lt;p&gt;Observe that if we create a technology, we do so for a reason, a &lt;em&gt;purpose&lt;/em&gt;. To achieve this purpose we harness a property of the world, a &lt;em&gt;phenomena&lt;/em&gt;. Arthur’s use of the word &lt;em&gt;principle&lt;/em&gt; refers to the idea of harnessing a phenomena for some purpose.(ibid. p. 2007) I interpret the y-axis of a Wardley Map as linking purposes, via principles, to phenomena. See Figure 4a.&lt;/p&gt;
 
-&lt;p&gt;We can arrange purposed systems in chains of dependancies starting with (user) needs. These needs might be personally or socially perceived - but they are the reason we created the component in the first place - and they sit at the top of the y-axis supported by a set of components and sub-components.
+&lt;p&gt;We can arrange purposed systems in chains of dependencies starting with (user) needs. These needs might be personally or socially perceived - but they are the reason we created the component in the first place - and they sit at the top of the y-axis supported by a set of components and sub-components.
 It is the nature of technology that, at the end of this chain (or terminating branch) there is always a physical effect or a phenomenon that can be exploited to satisfy it.&lt;/p&gt;
 
 &lt;p&gt;Following Arthur (Arthur 2007 &lt;sup id=&quot;fnref:arthur2007:1&quot;&gt;&lt;a href=&quot;#fn:arthur2007&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;) we can maintain that each system of components, or &lt;em&gt;assembly&lt;/em&gt; of components, itself has a purpose - that task that it is designed to carry out. If not, it would not exist. Consequently, technologies are put together or &lt;em&gt;combined&lt;/em&gt; from component parts or assemblies in a recursive manner&lt;sup id=&quot;fnref:recursive&quot;&gt;&lt;a href=&quot;#fn:recursive&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;. This can be seen with Figure 4c where the engine component is comprises five further technologies and we have rearranged the graph of our engine from Figure 3b to a map in Figure 4c.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/en/2020-01-05/fig04.png&quot; alt=&quot;Figure 4&quot; /&gt;
-&lt;strong&gt;Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes &lt;sup id=&quot;fnref:stages:2&quot;&gt;&lt;a href=&quot;#fn:stages&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;strong&gt;Figure 4. Example of a simple jet engine. a) The y-axis of the value chain linking a purpose (flying) to a phenomena (thrust). b) A technology component (an engine) using the principle of combustion to create thrust. It exploits the phenomenon that a mass expelled backward produces an equal and opposite forward reaction. c) The engine at a lower level of abstraction showing numbered components and their dependancies. The x-position of these components is for illustrative purposes &lt;sup id=&quot;fnref:stages:2&quot;&gt;&lt;a href=&quot;#fn:stages&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Chains, or networks, or graphs of components are required to satisfy any suitably involved set of needs and therefore other sub-principles (and therefore sub-components) are required for a technology’s practical working. Therefore, as we descend on the y-axis in a Wardley Map we proceed from purposes, through needs and their satisficing assembly of components, to effects and phenomena.&lt;/p&gt;
 
@@ -92,7 +565,7 @@ It is the nature of technology that, at the end of this chain (or terminating br
 &lt;p&gt;This is illustrated in Figure 5. Our compressor component iterates from C[0] to C[1] with the addition of anti-stall and vane actuator components and the turbine from T[0] to T[1] with the addition of blade cooling and seals. Note that the relative position of C[0] to C[1] as the component moves to the right as the technology matures.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/en/2020-01-05/fig05.png&quot; alt=&quot;Figure 5&quot; /&gt;
-&lt;strong&gt;Figure 5. A slightly less simple jet engine. a) Our original representation of an engine. b) An engine at a later stage of development with additional sub-components. c) Evolution of components from left to right as the graph structure changes. For example the compressor transitions from C[0] to C[1], now including an anti-stall bleed system and a new version of the turbine design T[1]. The relative positioning of components on the x-axis and y-axis is for illustrative purposes. Note in these maps we do not distinguish between stages of development on the x-axis.&lt;/strong&gt;&lt;/p&gt;
+&lt;strong&gt;Figure 5. A slightly less simple jet engine. a) Our original representation of an engine. b) An engine at a later stage of development with additional sub-components. Note the evolution of components from left to right as the graph structure changes. For example the compressor transitions from C[0] to C[1], now including an anti-stall bleed system and a new version of the turbine design T[1]. The relative positioning of components on the x-axis and y-axis is for illustrative purposes. Note in these maps we do not distinguish between stages of development on the x-axis.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;focal-technologies-and-the-main-assembly&quot;&gt;Focal technologies and the main assembly&lt;/h1&gt;
 
@@ -193,8 +666,8 @@ It is the nature of technology that, at the end of this chain (or terminating br
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 05 Jan 2020 09:00:00 +0000</pubDate>
-        <link>http://localhost:4000/wardleymaps/2020/01/05/structural-deepening.html</link>
-        <guid isPermaLink="true">http://localhost:4000/wardleymaps/2020/01/05/structural-deepening.html</guid>
+        <link>https://www.amaams.co.uk/wardleymaps/2020/01/05/structural-deepening.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/wardleymaps/2020/01/05/structural-deepening.html</guid>
         
         
         <category>wardleymaps</category>
@@ -211,13 +684,15 @@ It is the nature of technology that, at the end of this chain (or terminating br
 
 &lt;p&gt;I hope it is all referenced correctly. To this end, I am interested in feedback and input on clarifications, corrections, errata, emendations and so forth.&lt;/p&gt;
 
-&lt;p&gt;This blog is focused on my interest in the different mechanisms of invention, innovation and the evolution of technology.&lt;/p&gt;
+&lt;p&gt;This blog is primarily focused on my interest in the different mechanisms of invention, innovation and the evolution of technology. Artificial Intelligence features prominently.&lt;/p&gt;
 
-&lt;p&gt;Most of my recent discussions in these matter have been with Dr Dave Chapman at the UCL School of Management where I teach courses on designing predictive systems (machine learning) and technology strategy.&lt;/p&gt;
+&lt;p&gt;Most of my recent discussions on this have been with colleagues at the UCL School of Management, where I teach courses on designing predictive systems (Machine Learning) and technology strategy.&lt;/p&gt;
+
+&lt;p&gt;As you can see from the time stamp this blog has really only been possible with the advent on LLMs!&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jan 2020 09:00:00 +0000</pubDate>
-        <link>http://localhost:4000/updates/2020/01/01/welcome.html</link>
-        <guid isPermaLink="true">http://localhost:4000/updates/2020/01/01/welcome.html</guid>
+        <link>https://www.amaams.co.uk/updates/2020/01/01/welcome.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/updates/2020/01/01/welcome.html</guid>
         
         
         <category>updates</category>
