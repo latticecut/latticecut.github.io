@@ -5,6 +5,7 @@ lang: en
 ref: moving boundaries
 categories: futureoffirm
 date: 2025-05-20 09:00:00
+thumbnail: /assets/en/2025-05-20/thumb.png
 ---
 
 ![](/assets/en/2025-05-20/moving-boundaries.jpg) Image credit: @MaxDrekker

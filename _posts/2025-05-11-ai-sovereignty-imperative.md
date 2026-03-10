@@ -5,6 +5,7 @@ lang: en
 ref: ai-sovereignty
 categories: ai
 date: 2025-05-11 09:00:00
+thumbnail: /assets/en/2025-05-11/thumb.png
 ---
 
 ![](/assets/en/2025-05-11/ai-sovereignty.jpg) Image credit: @bluedreamvibes
@@ -52,4 +53,3 @@ All of this points to a pressing imperative: the strategic national investment i
 This includes physical infrastructure (data centres, cooling systems, advanced chips), organisational capacity (AI research labs, national AI clouds, public-private partnerships), and talent pipelines (education, fellowships, and international recruitment). It must also include regulatory and ethical oversight, ensuring that AI systems are aligned with national values and serve the public interest.
 
 Failing to act decisively now risks permanent dependency. The world is approaching a divergence point: a moment when state-of-the-art models become so advanced and path-locked that catching up becomes effectively impossible without having participated in their formative phases. For many countries, the 2020s-2030s will be the last chance to secure a stake in the AI future.
-

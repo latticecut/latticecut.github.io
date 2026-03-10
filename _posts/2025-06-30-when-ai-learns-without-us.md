@@ -5,6 +5,7 @@ lang: en
 ref: when ai learns without us
 categories: ai
 date: 2025-05-30 09:00:00
+thumbnail: /assets/en/2025-05-30/thumb.png
 ---
 
 ![](/assets/en/2025-05-30/when-ai-learns-without-us.jpg) Image credit: Substrata @blac_ai

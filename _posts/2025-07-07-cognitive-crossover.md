@@ -5,6 +5,7 @@ lang: en
 ref: cognitive crossover
 categories: ai
 date: 2025-07-07 09:00:00
+thumbnail: /assets/en/2025-07-07/thumb.png
 ---
 
 ![](/assets/en/2025-07-07/CogXOver.jpg) Image credit: "the miracle" ~ @themeloart
