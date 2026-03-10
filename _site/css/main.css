@@ -112,6 +112,18 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-list > li { margin-bottom: 30px; }
 
+.post-list-item--with-thumbnail { display: flex; align-items: flex-start; gap: 15px; }
+
+.post-list-thumbnail { flex: 0 0 100px; display: block; }
+
+.post-list-thumbnail img { display: block; width: 100px; height: 100px; object-fit: cover; border-radius: 4px; }
+
+.post-list-content { min-width: 0; }
+
+@media screen and (max-width: 600px) { .post-list-item--with-thumbnail { gap: 10px; }
+  .post-list-thumbnail { flex-basis: 72px; }
+  .post-list-thumbnail img { width: 72px; height: 72px; } }
+
 .post-meta { font-size: 14px; color: #828282; }
 
 .post-link { display: block; font-size: 24px; }

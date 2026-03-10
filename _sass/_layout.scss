@@ -184,6 +184,44 @@
     }
 }
 
+.post-list-item--with-thumbnail {
+    display: flex;
+    align-items: flex-start;
+    gap: $spacing-unit / 2;
+}
+
+.post-list-thumbnail {
+    flex: 0 0 100px;
+    display: block;
+}
+
+.post-list-thumbnail img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.post-list-content {
+    min-width: 0;
+}
+
+@include media-query($on-palm) {
+    .post-list-item--with-thumbnail {
+        gap: $spacing-unit / 3;
+    }
+
+    .post-list-thumbnail {
+        flex-basis: 72px;
+    }
+
+    .post-list-thumbnail img {
+        width: 72px;
+        height: 72px;
+    }
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;

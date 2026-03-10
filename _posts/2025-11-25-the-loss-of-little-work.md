@@ -5,6 +5,7 @@ lang: en
 ref: lolw
 categories: ai
 date: 2025-11-25 09:00:00
+thumbnail: /assets/en/2025-11-25/thumb.png
 ---
 
 

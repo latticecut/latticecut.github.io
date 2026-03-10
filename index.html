@@ -11,12 +11,19 @@ lang: en
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li{% if post.thumbnail %} class="post-list-item--with-thumbnail"{% endif %}>
+        {% if post.thumbnail %}
+        <a class="post-list-thumbnail" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">
+          <img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy">
+        </a>
+        {% endif %}
+        <div class="post-list-content">
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </div>
       </li>
     {% endfor %}
   </ul>
