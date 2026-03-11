@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Future of the Firm - moving boundaries in the Age of AI"
+title: "The Future of the Firm"
 lang: en
 ref: moving boundaries
 categories: futureoffirm
