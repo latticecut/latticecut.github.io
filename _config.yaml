@@ -14,6 +14,19 @@ description:
 # Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
   en: Collected writings to help me crystallise my thoughts and ideas, hopefully moving them from a disordered state to a slightly more ordered one.
   zh: 收集的著作帮助我明确自己的思想和观念，希望把它们从无序状态带到稍微更有序的状态。
+home_intro:
+  en:
+    title: Essays on AI, firm boundaries, strategy and the changing shape of work.
+    body: Written by Alastair Moore, these posts are a working notebook on machine intelligence, philosophy of science, innovation and how organisations adapt as technology changes.
+    list_heading: Latest Essays
+    reading_label: min read
+    date_format: "%b %-d, %Y"
+  zh:
+    title: 关于 AI、企业边界、技术战略与工作形态变化的文章。
+    body: 这些文章由 Alastair Moore 撰写，围绕机器智能、科学哲学、创新，以及组织如何随着技术变化而调整自身边界与运行方式展开。
+    list_heading: 最新文章
+    reading_label: 分钟阅读
+    date_format: "%Y年%-m月%-d日"
 index:
   en:
   zh: 索引.html

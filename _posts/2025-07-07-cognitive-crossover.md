@@ -6,6 +6,7 @@ ref: cognitive crossover
 categories: ai
 date: 2025-07-07 09:00:00
 thumbnail: /assets/en/2025-07-07/thumb.png
+summary: "A case for continued AI scaling, connecting empirical scaling laws with broader arguments about universality, capability growth and the reshaping of work."
 ---
 
 ![](/assets/en/2025-07-07/CogXOver.jpg) Image credit: "the miracle" ~ @themeloart

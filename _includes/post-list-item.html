@@ -1,0 +1,32 @@
+{% assign post = include.post %}
+{% assign page_lang = post.lang | default: "en" %}
+{% assign summary = post.summary | default: post.excerpt | strip_html | strip_newlines | strip %}
+{% assign plain_content = post.content | markdownify | strip_html | strip_newlines | strip %}
+{% if page_lang == "zh" %}
+  {% assign read_units = plain_content | remove: " " | remove: "　" | size %}
+  {% assign read_time = read_units | divided_by: 320.0 | ceil %}
+{% else %}
+  {% assign read_units = plain_content | number_of_words %}
+  {% assign read_time = read_units | divided_by: 220.0 | ceil %}
+{% endif %}
+{% if read_time < 1 %}
+  {% assign read_time = 1 %}
+{% endif %}
+<li{% if post.thumbnail %} class="post-list-item--with-thumbnail"{% endif %}>
+  {% if post.thumbnail %}
+  <a class="post-list-thumbnail" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">
+    <img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="post-list-content">
+    <span class="post-meta">{{ post.date | date: include.date_format }} • {{ read_time }} {{ include.reading_label }}</span>
+
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+
+    {% if summary != "" %}
+    <p class="post-summary">{{ summary }}</p>
+    {% endif %}
+  </div>
+</li>

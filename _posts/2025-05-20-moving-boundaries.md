@@ -6,6 +6,7 @@ ref: moving boundaries
 categories: futureoffirm
 date: 2025-05-20 09:00:00
 thumbnail: /assets/en/2025-05-20/thumb.png
+summary: "How more capable AI could lower internal coordination costs, shift make-versus-buy decisions, and push firms toward greater vertical integration."
 ---
 
 ![](/assets/en/2025-05-20/moving-boundaries.jpg) Image credit: @MaxDrekker

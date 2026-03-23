@@ -6,6 +6,7 @@ ref: ai-sovereignty
 categories: ai
 date: 2025-05-11 09:00:00
 thumbnail: /assets/en/2025-05-11/thumb.png
+summary: "Why compute is becoming a strategic national resource, and how access to AI infrastructure may determine scientific capacity, public-sector power and economic relevance."
 ---
 
 ![](/assets/en/2025-05-11/ai-sovereignty.jpg) Image credit: @bluedreamvibes

@@ -6,6 +6,7 @@ ref: structural-deepening
 categories: wardleymaps
 date: 2020-01-05 09:00:00
 thumbnail: /assets/en/2020-01-05/thumb.png
+summary: "A closer look at Simon Wardley’s mapping framework and the idea of structural deepening as a way to understand invention, dependency and business evolution."
 ---
 
 ***

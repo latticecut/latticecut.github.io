@@ -3,28 +3,21 @@ layout: default
 ref: index
 lang: zh
 ---
+{% assign home_content = site.home_intro[page.lang] | default: site.home_intro.en %}
 
 <div class="home">
 
-  <h1 class="page-heading">文章</h1>
+  <section class="home-intro">
+    <h1 class="home-intro-title">{{ home_content.title }}</h1>
+    <p class="home-intro-body">{{ home_content.body }}</p>
+  </section>
+
+  <h2 class="page-heading">{{ home_content.list_heading }}</h2>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
-      <li{% if post.thumbnail %} class="post-list-item--with-thumbnail"{% endif %}>
-        {% if post.thumbnail %}
-        <a class="post-list-thumbnail" href="{{ post.url | prepend: site.baseurl }}" aria-hidden="true" tabindex="-1">
-          <img src="{{ post.thumbnail | relative_url }}" alt="" loading="lazy">
-        </a>
-        {% endif %}
-        <div class="post-list-content">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          <h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
-        </div>
-      </li>
+      {% include post-list-item.html post=post reading_label=home_content.reading_label date_format=home_content.date_format %}
     {% endfor %}
   </ul>
 
