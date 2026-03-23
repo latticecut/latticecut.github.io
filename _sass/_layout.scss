@@ -254,6 +254,22 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+    .post-hero {
+        width: 100%;
+    }
+
+    .post-hero img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .post-hero figcaption {
+        margin-top: $spacing-unit / 4;
+        color: $grey-color;
+        text-align: right;
+    }
+
     h2 {
         font-size: 32px;
 

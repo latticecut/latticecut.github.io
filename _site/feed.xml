@@ -5,14 +5,17 @@
     <description>Collected writings to help me crystallise my thoughts and ideas, hopefully moving them from a disordered state to a slightly more ordered one.</description>
     <link>https://www.amaams.co.uk/</link>
     <atom:link href="https://www.amaams.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Mar 2026 08:52:51 +0000</pubDate>
-    <lastBuildDate>Tue, 10 Mar 2026 08:52:51 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2026 17:35:51 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2026 17:35:51 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
     
       <item>
         <title>The Loss of Little Work</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-11-25/paulblow.jpg&quot; alt=&quot;&quot; /&gt; Image credit: Paul Y Blow - @paulyblow paulblow.com&lt;/p&gt;
+        <description>&lt;figure class=&quot;post-hero&quot;&gt;
+  &lt;img src=&quot;/assets/en/2025-11-25/paulblow.jpg&quot; alt=&quot;Illustration by Paul Y Blow&quot; /&gt;
+  &lt;figcaption&gt;Image credit: Paul Y Blow - @paulyblow paulblow.com&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;&lt;em&gt;How AI quietly pulls small jobs back inside the firm&lt;/em&gt;&lt;/p&gt;
 
@@ -305,7 +308,7 @@ ___&lt;/p&gt;
       </item>
     
       <item>
-        <title>The Future of the Firm - moving boundaries in the Age of AI</title>
+        <title>The Future of the Firm</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/en/2025-05-20/moving-boundaries.jpg&quot; alt=&quot;&quot; /&gt; Image credit: @MaxDrekker&lt;/p&gt;
 
 &lt;p&gt;As we enter the age of advanced artificial intelligence (AI) – and approach the era of artificial general intelligence (AGI) – business leaders are wondering how these technologies might reshape companies. One big question is how AI will change firm boundaries – which tasks companies do in-house versus outsource. New research is starting to suggest that as AI becomes more capable, companies may bring more tasks in-house, potentially creating larger, more vertically integrated organisations that manage entire supply chains under one roof.&lt;/p&gt;

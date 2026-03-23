@@ -9,7 +9,10 @@ thumbnail: /assets/en/2025-11-25/thumb.png
 ---
 
 
-![](/assets/en/2025-11-25/paulblow.jpg) Image credit: Paul Y Blow - @paulyblow paulblow.com
+<figure class="post-hero">
+  <img src="/assets/en/2025-11-25/paulblow.jpg" alt="Illustration by Paul Y Blow">
+  <figcaption>Image credit: Paul Y Blow - @paulyblow paulblow.com</figcaption>
+</figure>
 
 *How AI quietly pulls small jobs back inside the firm*
 
