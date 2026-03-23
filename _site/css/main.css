@@ -108,13 +108,13 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .home-intro { margin-bottom: 37.5px; padding-bottom: 30px; border-bottom: 1px solid #e8e8e8; }
 
-.home-intro-title { font-size: 34px; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 10px; }
+.home-intro-title { font-size: 28px; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 10px; }
 
-@media screen and (max-width: 800px) { .home-intro-title { font-size: 28px; } }
+@media screen and (max-width: 800px) { .home-intro-title { font-size: 24px; } }
 
-.home-intro-body { max-width: 42em; margin-bottom: 0; font-size: 20px; color: #424242; }
+.home-intro-body { max-width: 42em; margin-bottom: 0; font-size: 17px; color: #424242; }
 
-@media screen and (max-width: 800px) { .home-intro-body { font-size: 18px; } }
+@media screen and (max-width: 800px) { .home-intro-body { font-size: 16px; } }
 
 .page-heading { font-size: 20px; margin-bottom: 20px; }
 
