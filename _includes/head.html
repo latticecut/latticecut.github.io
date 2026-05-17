@@ -1,6 +1,6 @@
 {% assign page_lang = page.lang | default: "en" %}
 {% assign page_title = page.title | default: site.title[page_lang] | default: site.title.en %}
-{% assign page_description = page.excerpt | default: site.description[page_lang] | default: site.description.en %}
+{% assign page_description = page.description | default: page.summary | default: page.excerpt | default: site.description[page_lang] | default: site.description.en %}
 {% assign feed_path = site.feed[page_lang] | default: site.feed.en %}
 <head>
   <meta charset="utf-8">

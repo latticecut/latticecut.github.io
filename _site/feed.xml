@@ -5,10 +5,125 @@
     <description>Collected writings to help me crystallise my thoughts and ideas, hopefully moving them from a disordered state to a slightly more ordered one.</description>
     <link>https://www.amaams.co.uk/</link>
     <atom:link href="https://www.amaams.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 23 Mar 2026 11:03:42 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Mar 2026 11:03:42 +0000</lastBuildDate>
+    <pubDate>Sun, 17 May 2026 17:28:43 +0100</pubDate>
+    <lastBuildDate>Sun, 17 May 2026 17:28:43 +0100</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
+    
+      <item>
+        <title>Beyond Human-in-the-Loop: Designing AI for Coordination, Trust, and Hybrid Judgment</title>
+        <description>&lt;figure class=&quot;post-hero&quot;&gt;
+  &lt;img src=&quot;/assets/en/2026-05-17/rik-oostenbroek.png&quot; alt=&quot;Abstract color field artwork by Rik Oostenbroek&quot; /&gt;
+  &lt;figcaption&gt;Image credit: Rik Oostenbroek - @RikOostenbroek&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;AI coordination tools could help organisations align, deliberate, and collaborate more effectively. But they also change the trust signals and team dynamics that human cooperation depends on.&lt;/p&gt;
+
+&lt;p&gt;The leadership challenge is therefore not simply to deploy AI wherever it saves time, or to insist that every AI process has a human-in-the-loop. It is to deliberately design where humans, AI systems, and hybrid teams each add the most value.&lt;/p&gt;
+
+&lt;p&gt;Google DeepMind’s &lt;em&gt;Organising Intelligence&lt;/em&gt; frames this problem well in Idea 9, “AI-driven Coordination,” where it argues that research on AI collaboration is coalescing around three questions: whether AI has the social-cognitive capabilities to be a good collaborator, whether AI helps or harms human coordination, and whether human–AI hybrid teams outperform human-only teams.&lt;/p&gt;
+
+&lt;p&gt;The core argument of this article is that AI’s organisational value lies not only in automation, but in the redesign of cooperation itself.&lt;/p&gt;
+
+&lt;h2 id=&quot;from-automation-to-coordination&quot;&gt;From automation to coordination&lt;/h2&gt;
+
+&lt;p&gt;Most executive conversations about AI still begin with productivity: which tasks can be automated, how much time can be saved, and which workflows can be accelerated. That framing is useful, but incomplete. Organisations do not only fail because tasks are slow. They fail because teams misunderstand one another, incentives are misaligned, knowledge is trapped in silos, and disagreement hardens before it is productively surfaced.&lt;/p&gt;
+
+&lt;p&gt;This is why AI’s deeper organisational promise may be coordination rather than automation. Sangeet Paul Choudary captures this shift in his Harvard Business Review argument that AI’s large payoff may come from reducing coordination costs rather than merely replacing work (&lt;a href=&quot;https://hbr.org/2026/02/ais-big-payoff-is-coordination-not-automation&quot;&gt;Choudary, 2026&lt;/a&gt;). In this view, AI becomes a translation layer between teams, a mediator across disagreement, and a mechanism for making implicit assumptions explicit.&lt;/p&gt;
+
+&lt;p&gt;Recent research supports this broader coordination lens. In democratic deliberation, AI systems have been shown to help people find statements of common ground that participants collectively endorse (&lt;a href=&quot;https://doi.org/10.1126/science.adq2852&quot;&gt;Tessler et al., 2024&lt;/a&gt;). Other work suggests AI sources can increase openness to opposing views (&lt;a href=&quot;https://doi.org/10.1038/s41598-025-00791-z&quot;&gt;Lu, Tormala, &amp;amp; Duhachek, 2025&lt;/a&gt;). In organisational settings, this points to a powerful possibility: AI may help groups move beyond positional argument toward structured comparison of assumptions, evidence, and trade-offs.&lt;/p&gt;
+
+&lt;p&gt;AI can also enrich how organisations read their own social systems. Work by Amir Goldberg and Sameer Srivastava argues that AI can deepen our understanding of organisational culture by detecting patterns in language, meaning, and interaction that are otherwise difficult to observe at scale (&lt;a href=&quot;https://doi.org/10.1177/26941058241301622&quot;&gt;Goldberg &amp;amp; Srivastava, 2024&lt;/a&gt;). This matters because coordination is rarely just a formal process. It is shaped by culture: what people say, what they avoid saying, which groups translate easily across boundaries, and where shared language breaks down.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-social-cognitive-question&quot;&gt;The social-cognitive question&lt;/h2&gt;
+
+&lt;p&gt;For AI to support coordination, it must do more than retrieve information. It must participate in the social fabric of work. That requires some ability to reason about beliefs, intentions, emotions, and perspectives.&lt;/p&gt;
+
+&lt;p&gt;Research on theory of mind in large language models is therefore relevant. Street and colleagues find that LLMs can perform at adult-human levels on higher-order theory-of-mind tasks, which involve reasoning recursively about what other people know, believe, or infer (&lt;a href=&quot;https://doi.org/10.48550/arXiv.2405.18870&quot;&gt;Street et al., 2024&lt;/a&gt;). Related work on empathic communication suggests that large language models may be reliable judges of empathic communication under certain conditions (&lt;a href=&quot;https://doi.org/10.1038/s42256-025-01169-6&quot;&gt;Kumar et al., 2026&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;But this should not be read as proof that AI “understands” organisations in a human sense. Social meaning is culturally situated. Research on facial expressions across cultures shows how complex and context-dependent the interpretation of emotional signals can be (&lt;a href=&quot;https://doi.org/10.1016/j.isci.2024.109175&quot;&gt;Brooks et al., 2024&lt;/a&gt;). The leadership implication is that AI coordination tools should be treated as powerful but partial social instruments: useful for surfacing perspectives, summarising disagreement, and supporting empathy, but not as definitive interpreters of human meaning.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-hidden-trust-problem&quot;&gt;The hidden trust problem&lt;/h2&gt;
+
+&lt;p&gt;The optimistic case for AI coordination is strong. But cooperation is not only an information problem. It is also a trust problem.&lt;/p&gt;
+
+&lt;p&gt;When people collaborate, they rely on visible signals of effort, judgment, and intent. We often decide whether to trust a colleague not only by the quality of their answer, but by watching how they arrived at it: Did they wrestle with the problem? Did they consider the trade-offs? Did they understand the consequences? Did they expose their assumptions?&lt;/p&gt;
+
+&lt;p&gt;Wojtowicz and DeDeo call this “mental proof”: the observable evidence of thinking that allows others to infer otherwise invisible traits such as skill, care, and integrity (&lt;a href=&quot;https://doi.org/10.48550/arXiv.2407.14452&quot;&gt;Wojtowicz &amp;amp; DeDeo, 2024&lt;/a&gt;). AI can undermine this proof by making thinking easier, faster, and less visible. A polished AI-assisted answer may be useful, but it may also obscure whether the person presenting it has exercised judgment.&lt;/p&gt;
+
+&lt;p&gt;This is the paradox at the heart of AI coordination. AI can make collaboration easier at the task level while making cooperation harder at the social level. It can reduce friction in producing outputs while removing the visible struggle that helps people trust one another.&lt;/p&gt;
+
+&lt;p&gt;That does not mean organisations should avoid AI, quite the opposite. It means leaders need to design for trust signals deliberately. AI-supported work may need new forms of provenance: visible assumptions, audit trails, dissent logs, confidence levels, source trails, and explicit separation between human judgment and AI-generated synthesis. The point is not to slow the organisation down for its own sake. It is to preserve the social evidence that collaboration depends on.&lt;/p&gt;
+
+&lt;h2 id=&quot;hybrid-teams-are-not-automatically-better&quot;&gt;Hybrid teams are not automatically better&lt;/h2&gt;
+
+&lt;p&gt;The phrase “human-in-the-loop” is often treated as a universal safety principle. It sounds reassuring: AI can act, but humans will remain involved. Yet the evidence suggests that human involvement is not automatically additive.&lt;/p&gt;
+
+&lt;p&gt;A systematic review and meta-analysis of human–AI combinations found that hybrid teams often outperform human-only teams, but not always. In some cases, especially where the AI system already performs better than humans on a given task, adding a human can reduce performance relative to AI alone (&lt;a href=&quot;https://doi.org/10.1038/s41562-024-02024-1&quot;&gt;Vaccaro, Almaatouq, &amp;amp; Malone, 2024&lt;/a&gt;). This complicates the simplistic governance answer that every important process should include a human checkpoint.&lt;/p&gt;
+
+&lt;p&gt;The right question is not “Should there be a human in the loop?” The better question is “What is the human there to do?”&lt;/p&gt;
+
+&lt;p&gt;Sometimes, the human should decide. Sometimes, the human should audit. Sometimes, the human should set goals, values, and constraints. Sometimes, the human should monitor for exceptions. Sometimes the AI should generate options, critique assumptions, or translate between expert groups. And in some low-risk, well-bounded contexts, the AI may be best positioned to execute without continual human interruption.&lt;/p&gt;
+
+&lt;p&gt;This is where the literature on AI teaming becomes important. Schmutz and colleagues argue that AI teaming requires rethinking collaboration itself in the digital era, including roles, interdependence, trust, and team design (&lt;a href=&quot;https://doi.org/10.1016/j.copsyc.2024.101837&quot;&gt;Schmutz et al., 2024&lt;/a&gt;). AI is not merely a tool dropped into an existing team. It changes the team.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-task-tensor-a-richer-design-language&quot;&gt;The Task Tensor: a richer design language&lt;/h2&gt;
+
+&lt;p&gt;My work with Anil Doshi on the “Human–AI Task Tensor” offers a useful way to move beyond crude human-in-the-loop thinking. The framework organises human–AI work across eight dimensions: task definition, AI integration, interaction modality, audit requirement, output definition, decision-making authority, AI structure, and human persona.&lt;/p&gt;
+
+&lt;p&gt;This matters because different work requires different human–AI configurations. A high-volume, well-defined, easily auditable task may justify substantial automation. A strategic, ambiguous, politically sensitive task may require AI support but human decision authority. A creative or deliberative process may benefit from AI-generated alternatives, but still require humans to preserve accountability, interpret context, and negotiate meaning.&lt;/p&gt;
+
+&lt;p&gt;We outline 20 levels of decision authority in human–AI dyads. It distinguishes, for example, between a human giving approval “in the loop,” a human holding veto authority “on the loop,” a human observing “near the loop,” and progressively more autonomous configurations.&lt;/p&gt;
+
+&lt;p&gt;That distinction is crucial. &lt;strong&gt;Human-on-the-loop&lt;/strong&gt; is not the same as &lt;strong&gt;Human-in-the-loop&lt;/strong&gt;. In a human-in-the-loop process, the human is part of the active decision cycle. In a human-on-the-loop process, the AI may act with greater autonomy while the human supervises, intervenes, or vetoes when necessary. This gives leaders a richer design vocabulary for matching oversight to task risk, auditability, performance, and accountability.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-leaders-should-design-for&quot;&gt;What leaders should design for&lt;/h2&gt;
+
+&lt;p&gt;The practical lesson is that AI coordination should be designed, not improvised.&lt;/p&gt;
+
+&lt;p&gt;First, leaders should map tasks rather than jobs. A single role may contain tasks that require different human–AI configurations. Some tasks are suitable for automation; others need augmentation; others require deliberation, contestation, and human accountability.&lt;/p&gt;
+
+&lt;p&gt;Second, leaders should define the AI’s coordination role. Is the AI acting as a translator between functions, a mediator between disagreeing groups, a critic of assumptions, a recorder of decisions, a recommender of options, or an autonomous executor? Each role creates different risks and trust requirements.&lt;/p&gt;
+
+&lt;p&gt;Third, leaders should preserve mental proof. When AI helps generate an output, teams should still be able to see the reasoning process: assumptions, alternatives considered, sources used, judgments made, and points of uncertainty. In high-trust teams, AI may accelerate collaboration. In low-trust teams, invisible AI assistance may make people more suspicious unless the process is made legible.&lt;/p&gt;
+
+&lt;p&gt;Fourth, leaders should treat hybrid teams as teams. That means designing roles, handoffs, incentives, escalation paths, and accountability norms. The question is not whether AI is present. The question is whether the human–AI system is coordinated well.&lt;/p&gt;
+
+&lt;p&gt;Finally, leaders should resist the false binary between automation and human control. The Task Tensor points toward a more nuanced architecture: humans may define goals, AI may generate options, humans may deliberate, AI may simulate consequences, humans may decide, and AI may monitor execution. In other cases, AI may decide within boundaries while humans supervise on the loop.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The next generation of AI-enabled organisations will not be the ones that automate the most decisions. They will be the ones who best design the division of cognitive labour between humans, AI systems, and hybrid teams.&lt;/p&gt;
+
+&lt;p&gt;AI coordination tools can help organisations deliberate, align, translate, and collaborate. But they also reshape the social evidence through which people decide whether others are competent, sincere, and trustworthy. Used naively, AI may make work faster while weakening cooperation. Used thoughtfully, it can become a new coordination architecture: one that improves collective judgment while preserving the human signals that make collaboration possible.&lt;/p&gt;
+
+&lt;p&gt;The goal is not faster work by default. The goal is better-designed cooperation.&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Brooks, J. A., et al. (2024). &lt;a href=&quot;https://doi.org/10.1016/j.isci.2024.109175&quot;&gt;Deep learning reveals what facial expressions mean to people in different cultures&lt;/a&gt;. &lt;em&gt;iScience, 27&lt;/em&gt;(3), 109175.&lt;/li&gt;
+  &lt;li&gt;Choudary, S. P. (2026). &lt;a href=&quot;https://hbr.org/2026/02/ais-big-payoff-is-coordination-not-automation&quot;&gt;AI’s big payoff is coordination, not automation&lt;/a&gt;. &lt;em&gt;Harvard Business Review&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Doshi, A. R., &amp;amp; Moore, A. P. (2026). &lt;a href=&quot;https://doi.org/10.4337/9781035345885.00014&quot;&gt;Toward a Human–AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI&lt;/a&gt;. In &lt;em&gt;Handbook of Artificial Intelligence and Strategy&lt;/em&gt;. Open version: &lt;a href=&quot;https://doi.org/10.2139/ssrn.5134721&quot;&gt;SSRN&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Goldberg, A., &amp;amp; Srivastava, S. B. (2024). &lt;a href=&quot;https://doi.org/10.1177/26941058241301622&quot;&gt;How Artificial Intelligence Can Enrich Our Understanding of Organizational Culture&lt;/a&gt;. &lt;em&gt;Management and Business Review, 4&lt;/em&gt;(2), 32–37.&lt;/li&gt;
+  &lt;li&gt;Google DeepMind. (2026). &lt;em&gt;Organizing Intelligence: 16 big ideas from frontier AI research that will redefine how we build, lead, and scale&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Kumar, A., et al. (2026). &lt;a href=&quot;https://doi.org/10.1038/s42256-025-01169-6&quot;&gt;When large language models are reliable for judging empathic communication&lt;/a&gt;. &lt;em&gt;Nature Machine Intelligence, 8&lt;/em&gt;(2), 173–185.&lt;/li&gt;
+  &lt;li&gt;Lu, L., Tormala, Z. L., &amp;amp; Duhachek, A. (2025). &lt;a href=&quot;https://doi.org/10.1038/s41598-025-00791-z&quot;&gt;How AI sources can increase openness to opposing views&lt;/a&gt;. &lt;em&gt;Scientific Reports, 15&lt;/em&gt;, 17170.&lt;/li&gt;
+  &lt;li&gt;Schmutz, J. B., et al. (2024). &lt;a href=&quot;https://doi.org/10.1016/j.copsyc.2024.101837&quot;&gt;AI-teaming: Redefining collaboration in the digital era&lt;/a&gt;. &lt;em&gt;Current Opinion in Psychology, 58&lt;/em&gt;, 101837.&lt;/li&gt;
+  &lt;li&gt;Street, W., et al. (2024). &lt;a href=&quot;https://doi.org/10.48550/arXiv.2405.18870&quot;&gt;LLMs achieve adult human performance on higher-order theory of mind tasks&lt;/a&gt;. &lt;em&gt;arXiv&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Tessler, M. H., et al. (2024). &lt;a href=&quot;https://doi.org/10.1126/science.adq2852&quot;&gt;AI can help humans find common ground in democratic deliberation&lt;/a&gt;. &lt;em&gt;Science, 386&lt;/em&gt;(6719), eadq2852.&lt;/li&gt;
+  &lt;li&gt;Vaccaro, M., Almaatouq, A., &amp;amp; Malone, T. W. (2024). &lt;a href=&quot;https://doi.org/10.1038/s41562-024-02024-1&quot;&gt;When combinations of humans and AI are useful: A systematic review and meta-analysis&lt;/a&gt;. &lt;em&gt;Nature Human Behaviour, 8&lt;/em&gt;(12), 2293–2303.&lt;/li&gt;
+  &lt;li&gt;Wojtowicz, Z., &amp;amp; DeDeo, S. (2024). &lt;a href=&quot;https://doi.org/10.48550/arXiv.2407.14452&quot;&gt;Undermining mental proof: How AI can make cooperation harder by making thinking easier&lt;/a&gt;. &lt;em&gt;arXiv&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 17 May 2026 10:00:00 +0100</pubDate>
+        <link>https://www.amaams.co.uk/ai/2026/05/17/beyond-human-in-the-loop.html</link>
+        <guid isPermaLink="true">https://www.amaams.co.uk/ai/2026/05/17/beyond-human-in-the-loop.html</guid>
+        
+        
+        <category>ai</category>
+        
+      </item>
     
       <item>
         <title>The Loss of Little Work</title>
