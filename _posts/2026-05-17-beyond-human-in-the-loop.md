@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beyond Human-in-the-Loop: Designing AI for Coordination, Trust, and Hybrid Judgment"
+title: "Beyond Human-in-the-Loop"
 lang: en
 ref: beyond-human-in-the-loop
 categories: ai
@@ -18,7 +18,7 @@ AI coordination tools could help organisations align, deliberate, and collaborat
 
 The leadership challenge is therefore not simply to deploy AI wherever it saves time, or to insist that every AI process has a human-in-the-loop. It is to deliberately design where humans, AI systems, and hybrid teams each add the most value.
 
-Google DeepMind’s *Organising Intelligence* frames this problem well in Idea 9, “AI-driven Coordination,” where it argues that research on AI collaboration is coalescing around three questions: whether AI has the social-cognitive capabilities to be a good collaborator, whether AI helps or harms human coordination, and whether human–AI hybrid teams outperform human-only teams.
+Google DeepMind’s [*Organising Intelligence*](https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf) frames this problem well in Idea 9, “AI-driven Coordination,” where it argues that research on AI collaboration is coalescing around three questions: whether AI has the social-cognitive capabilities to be a good collaborator, whether AI helps or harms human coordination, and whether human–AI hybrid teams outperform human-only teams.
 
 The core argument of this article is that AI’s organisational value lies not only in automation, but in the redesign of cooperation itself.
 
@@ -102,7 +102,7 @@ The goal is not faster work by default. The goal is better-designed cooperation.
 * Choudary, S. P. (2026). [AI’s big payoff is coordination, not automation](https://hbr.org/2026/02/ais-big-payoff-is-coordination-not-automation). *Harvard Business Review*.
 * Doshi, A. R., & Moore, A. P. (2026). [Toward a Human–AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI](https://doi.org/10.4337/9781035345885.00014). In *Handbook of Artificial Intelligence and Strategy*. Open version: [SSRN](https://doi.org/10.2139/ssrn.5134721).
 * Goldberg, A., & Srivastava, S. B. (2024). [How Artificial Intelligence Can Enrich Our Understanding of Organizational Culture](https://doi.org/10.1177/26941058241301622). *Management and Business Review, 4*(2), 32–37.
-* Google DeepMind. (2026). *Organizing Intelligence: 16 big ideas from frontier AI research that will redefine how we build, lead, and scale*.
+* Google DeepMind. (2026). [*Organizing Intelligence: 16 big ideas from frontier AI research that will redefine how we build, lead, and scale*](https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf).
 * Kumar, A., et al. (2026). [When large language models are reliable for judging empathic communication](https://doi.org/10.1038/s42256-025-01169-6). *Nature Machine Intelligence, 8*(2), 173–185.
 * Lu, L., Tormala, Z. L., & Duhachek, A. (2025). [How AI sources can increase openness to opposing views](https://doi.org/10.1038/s41598-025-00791-z). *Scientific Reports, 15*, 17170.
 * Schmutz, J. B., et al. (2024). [AI-teaming: Redefining collaboration in the digital era](https://doi.org/10.1016/j.copsyc.2024.101837). *Current Opinion in Psychology, 58*, 101837.

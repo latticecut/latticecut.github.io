@@ -11,7 +11,7 @@
     
     
       <item>
-        <title>超越人在环路：面向协调、信任与混合判断的 AI 设计</title>
+        <title>超越人在环路</title>
         <description>&lt;figure class=&quot;post-hero&quot;&gt;
   &lt;img src=&quot;/assets/en/2026-05-17/rik-oostenbroek.png&quot; alt=&quot;Rik Oostenbroek 的抽象色场作品&quot; /&gt;
   &lt;figcaption&gt;图片来源: Rik Oostenbroek - @RikOostenbroek&lt;/figcaption&gt;
@@ -21,7 +21,7 @@
 
 &lt;p&gt;因此，领导者面对的挑战，不只是把 AI 部署到所有能节省时间的地方，也不是坚持每一个 AI 流程都必须有人在环路中。真正的问题，是有意识地设计人类、AI 系统和混合团队各自在何处最能创造价值。&lt;/p&gt;
 
-&lt;p&gt;Google DeepMind 的 &lt;em&gt;Organising Intelligence&lt;/em&gt; 在第 9 个观点 “AI-driven Coordination” 中很好地提出了这个问题。它认为，围绕 AI 协作的研究正在汇聚到三个问题上：AI 是否具备成为良好协作者所需的社会认知能力；AI 是帮助还是伤害人类协调；以及人类-AI 混合团队是否优于纯人类团队。&lt;/p&gt;
+&lt;p&gt;Google DeepMind 的 &lt;a href=&quot;https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf&quot;&gt;&lt;em&gt;Organising Intelligence&lt;/em&gt;&lt;/a&gt; 在第 9 个观点 “AI-driven Coordination” 中很好地提出了这个问题。它认为，围绕 AI 协作的研究正在汇聚到三个问题上：AI 是否具备成为良好协作者所需的社会认知能力；AI 是帮助还是伤害人类协调；以及人类-AI 混合团队是否优于纯人类团队。&lt;/p&gt;
 
 &lt;p&gt;本文的核心观点是：AI 的组织价值不仅在于自动化，更在于重新设计合作本身。&lt;/p&gt;
 
@@ -106,7 +106,7 @@
   &lt;li&gt;Choudary, S. P. (2026). &lt;a href=&quot;https://hbr.org/2026/02/ais-big-payoff-is-coordination-not-automation&quot;&gt;AI’s big payoff is coordination, not automation&lt;/a&gt;. &lt;em&gt;Harvard Business Review&lt;/em&gt;.&lt;/li&gt;
   &lt;li&gt;Doshi, A. R., &amp;amp; Moore, A. P. (2026). &lt;a href=&quot;https://doi.org/10.4337/9781035345885.00014&quot;&gt;Toward a Human–AI Task Tensor: A Taxonomy for Organizing Work in the Age of Generative AI&lt;/a&gt;. In &lt;em&gt;Handbook of Artificial Intelligence and Strategy&lt;/em&gt;. Open version: &lt;a href=&quot;https://doi.org/10.2139/ssrn.5134721&quot;&gt;SSRN&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Goldberg, A., &amp;amp; Srivastava, S. B. (2024). &lt;a href=&quot;https://doi.org/10.1177/26941058241301622&quot;&gt;How Artificial Intelligence Can Enrich Our Understanding of Organizational Culture&lt;/a&gt;. &lt;em&gt;Management and Business Review, 4&lt;/em&gt;(2), 32–37.&lt;/li&gt;
-  &lt;li&gt;Google DeepMind. (2026). &lt;em&gt;Organizing Intelligence: 16 big ideas from frontier AI research that will redefine how we build, lead, and scale&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Google DeepMind. (2026). &lt;a href=&quot;https://storage.googleapis.com/deepmind-media/research/organizing-intelligence/organizing-intelligence-research-primer.pdf&quot;&gt;&lt;em&gt;Organizing Intelligence: 16 big ideas from frontier AI research that will redefine how we build, lead, and scale&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Kumar, A., et al. (2026). &lt;a href=&quot;https://doi.org/10.1038/s42256-025-01169-6&quot;&gt;When large language models are reliable for judging empathic communication&lt;/a&gt;. &lt;em&gt;Nature Machine Intelligence, 8&lt;/em&gt;(2), 173–185.&lt;/li&gt;
   &lt;li&gt;Lu, L., Tormala, Z. L., &amp;amp; Duhachek, A. (2025). &lt;a href=&quot;https://doi.org/10.1038/s41598-025-00791-z&quot;&gt;How AI sources can increase openness to opposing views&lt;/a&gt;. &lt;em&gt;Scientific Reports, 15&lt;/em&gt;, 17170.&lt;/li&gt;
   &lt;li&gt;Schmutz, J. B., et al. (2024). &lt;a href=&quot;https://doi.org/10.1016/j.copsyc.2024.101837&quot;&gt;AI-teaming: Redefining collaboration in the digital era&lt;/a&gt;. &lt;em&gt;Current Opinion in Psychology, 58&lt;/em&gt;, 101837.&lt;/li&gt;
