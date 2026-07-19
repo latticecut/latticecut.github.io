@@ -2,6 +2,19 @@
 {% assign page_title = page.title | default: site.title[page_lang] | default: site.title.en %}
 {% assign page_description = page.description | default: page.summary | default: page.excerpt | default: site.description[page_lang] | default: site.description.en %}
 {% assign feed_path = site.feed[page_lang] | default: site.feed.en %}
+{% assign canonical_url = page.url | replace:'index.html','' | absolute_url %}
+{% assign social_image = page.image | default: page.thumbnail %}
+{% assign social_image_alt = page.image_alt | default: page.title | default: site.title[page_lang] | default: site.title.en %}
+{% if page.ref == "index" %}
+  {% assign localized_posts = site.posts | where:"lang", page_lang %}
+  {% for candidate in localized_posts %}
+    {% if candidate.image or candidate.thumbnail %}
+      {% assign social_image = candidate.image | default: candidate.thumbnail %}
+      {% assign social_image_alt = candidate.image_alt | default: candidate.title %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,12 +22,29 @@
 
   <title>{{ page_title | strip_html | strip_newlines | strip | escape }}</title>
   <meta name="description" content="{{ page_description | strip_html | strip_newlines | strip | xml_escape }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ page_title | strip_html | strip_newlines | strip | escape }}">
+  <meta property="og:description" content="{{ page_description | strip_html | strip_newlines | strip | xml_escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
+  <meta property="og:site_name" content="{{ site.title[page_lang] | default: site.title.en | escape }}">
+  <meta property="og:locale" content="{% if page_lang == 'zh' %}zh_CN{% else %}en_GB{% endif %}">
+  {% if social_image %}
+  <meta property="og:image" content="{{ social_image | absolute_url }}">
+  <meta property="og:image:alt" content="{{ social_image_alt | strip_html | strip_newlines | strip | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ social_image | absolute_url }}">
+  <meta name="twitter:image:alt" content="{{ social_image_alt | strip_html | strip_newlines | strip | escape }}">
+  {% else %}
+  <meta name="twitter:card" content="summary">
+  {% endif %}
+  <meta name="twitter:title" content="{{ page_title | strip_html | strip_newlines | strip | escape }}">
+  <meta name="twitter:description" content="{{ page_description | strip_html | strip_newlines | strip | xml_escape }}">
   {% if page.permalink == "/404.html" %}
   <meta name="robots" content="noindex">
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="canonical" href="{{ canonical_url }}">
   {% if page.ref and page.lang %}
   {% assign translated_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
   {% for translated_post in translated_posts %}

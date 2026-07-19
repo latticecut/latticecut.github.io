@@ -6,6 +6,8 @@ ref: beyond-human-in-the-loop
 categories: ai
 date: 2026-05-17 09:00:00
 thumbnail: /assets/en/2026-05-17/thumb.png
+image: /assets/en/2026-05-17/rik-oostenbroek.png
+image_alt: Abstract color field artwork by Rik Oostenbroek
 summary: "Why AI's organisational value depends on designing coordination, trust signals, and human-AI decision roles rather than defaulting to human-in-the-loop oversight."
 ---
 
