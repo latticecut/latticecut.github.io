@@ -385,6 +385,19 @@
   
     
       <url>
+        <loc>https://www.amaams.co.uk/projects/</loc>
+        
+        
+          
+          <xhtml:link rel="alternate" hreflang="en" href="https://www.amaams.co.uk/projects/" />
+          
+        
+        <changefreq>weekly</changefreq>
+      </url>
+    
+  
+    
+      <url>
         <loc>https://www.amaams.co.uk/</loc>
         
         

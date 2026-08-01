@@ -1,0 +1,57 @@
+---
+title: Project starter
+summary: A small interactive page demonstrating the structure available for future dashboards and media experiments.
+type: Dashboard
+status: Starter
+order: 99
+updated: 2026-08-01
+---
+<section class="dashboard-starter" aria-labelledby="starter-heading">
+  <div class="dashboard-controls">
+    <div>
+      <h2 id="starter-heading">Scenario explorer</h2>
+      <p>Select a scenario to update the illustrative indicators.</p>
+    </div>
+    <div class="scenario-switcher" role="group" aria-label="Select scenario">
+      <button type="button" class="is-active" data-scenario="baseline" aria-pressed="true">Baseline</button>
+      <button type="button" data-scenario="accelerated" aria-pressed="false">Accelerated</button>
+      <button type="button" data-scenario="constrained" aria-pressed="false">Constrained</button>
+    </div>
+  </div>
+
+  <div class="metric-grid" aria-live="polite">
+    <article class="metric-card"><span>Adoption</span><strong data-metric="adoption">42%</strong><small data-delta="adoption">+6 points</small></article>
+    <article class="metric-card"><span>Cycle time</span><strong data-metric="cycle">18 mo</strong><small data-delta="cycle">-3 months</small></article>
+    <article class="metric-card"><span>Confidence</span><strong data-metric="confidence">Medium</strong><small data-delta="confidence">Illustrative</small></article>
+  </div>
+
+  <div class="dashboard-note">
+    <h3>A reusable project surface</h3>
+    <p>Replace this content with a chart, simulation, embedded media or a complete dashboard. Project-specific styles and scripts can live alongside shared assets under <code>assets/projects/&lt;project-name&gt;/</code>.</p>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var scenarios = {
+      baseline: { adoption: "42%", cycle: "18 mo", confidence: "Medium", adoptionDelta: "+6 points", cycleDelta: "-3 months", confidenceDelta: "Illustrative" },
+      accelerated: { adoption: "68%", cycle: "11 mo", confidence: "High", adoptionDelta: "+26 points", cycleDelta: "-10 months", confidenceDelta: "Illustrative" },
+      constrained: { adoption: "27%", cycle: "26 mo", confidence: "Low", adoptionDelta: "-15 points", cycleDelta: "+5 months", confidenceDelta: "Illustrative" }
+    };
+    var buttons = document.querySelectorAll("[data-scenario]");
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        var next = scenarios[button.getAttribute("data-scenario")];
+        buttons.forEach(function (item) {
+          var active = item === button;
+          item.classList.toggle("is-active", active);
+          item.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+        ["adoption", "cycle", "confidence"].forEach(function (key) {
+          document.querySelector('[data-metric="' + key + '"]').textContent = next[key];
+          document.querySelector('[data-delta="' + key + '"]').textContent = next[key + "Delta"];
+        });
+      });
+    });
+  }());
+</script>
