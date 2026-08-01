@@ -1,18 +1,18 @@
 export default {
-  "bootstrapScriptContent": "import(\"/assets/index-BWhcACtG.js\")",
+  "bootstrapScriptContent": "import(\"/assets/index-CvKqxy27.js\")",
   "clientReferenceDeps": {
     "6efdf509a785": {
       "js": [
-        "/assets/page-Cn8RgjIF.js",
+        "/assets/page-LKpViLSl.js",
         "/assets/rolldown-runtime-S-ySWqyJ.js",
         "/assets/framework-DjPHiq1u.js",
-        "/assets/index-BWhcACtG.js"
+        "/assets/index-CvKqxy27.js"
       ],
       "css": []
     },
     "593f344dc510": {
       "js": [
-        "/assets/index-BWhcACtG.js",
+        "/assets/index-CvKqxy27.js",
         "/assets/rolldown-runtime-S-ySWqyJ.js",
         "/assets/framework-DjPHiq1u.js"
       ],
@@ -20,16 +20,16 @@ export default {
     },
     "15c18cfaeeff": {
       "js": [
-        "/assets/layout-segment-context-DSrnZgEr.js",
+        "/assets/layout-segment-context-CKxMifJf.js",
         "/assets/rolldown-runtime-S-ySWqyJ.js",
-        "/assets/index-BWhcACtG.js",
+        "/assets/index-CvKqxy27.js",
         "/assets/framework-DjPHiq1u.js"
       ],
       "css": []
     },
     "8c0f216c4604": {
       "js": [
-        "/assets/index-BWhcACtG.js",
+        "/assets/index-CvKqxy27.js",
         "/assets/rolldown-runtime-S-ySWqyJ.js",
         "/assets/framework-DjPHiq1u.js"
       ],
