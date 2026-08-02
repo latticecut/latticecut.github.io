@@ -25,3 +25,13 @@ To list a microsite hosted elsewhere, add a collection document containing the
 same metadata plus `external_url: https://example.com`. Its card will open the
 external site in a new tab. Set `listed: false` for an internal project that
 should have a working URL but should not appear on the directory page.
+
+Standalone application source can remain under `_projects/<project>/`, but add
+that directory to `_config.yaml`'s `exclude` list and the build script's rsync
+exclusions. This keeps Node dependencies and application build output out of
+the Jekyll site while the small collection document provides its directory card.
+
+The AI mathematics dashboard source package is stored in
+`_projects/ai-mathematical-proof-analysis-jekyll`. Its deployable files are
+copied to `projects/ai-math/`; the package already uses portable relative URLs
+and does not require a separate application build.

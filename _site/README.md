@@ -19,3 +19,8 @@ You can find the source code for Jekyll at
 [jekyll](https://github.com/jekyll/jekyll)
 
 If you build this site locally from a path that contains spaces, use `./scripts/build-site.sh`. It mirrors the repo into a temporary no-spaces directory, installs the pinned gems there, runs Jekyll, and syncs the refreshed `_site` output back.
+
+To preview changes locally, run `./scripts/serve-site.sh`, then open
+http://127.0.0.1:4000/. Jekyll watches the source files and rebuilds the preview
+when they change; stop the server with Control-C. Pass `--livereload` if you
+also want the browser to refresh automatically.

@@ -48,7 +48,7 @@
   {% assign translated_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
   {% assign translated_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
   {% assign translated_count = translated_posts.size | plus: translated_pages.size %}
-  {% if translated_count > 1 %}
+  {% if translated_count > 1 or page.show_language_selector %}
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {% for translated_post in translated_posts %} <a href="{{ translated_post.url | relative_url }}" class="{{ translated_post.lang }}">{{ translated_post.lang }}</a> {% endfor %}
   {% for translated_page in translated_pages %}{% if translated_page.lang %} <a href="{{ translated_page.url | relative_url }}" class="{{ translated_page.lang }}">{{ translated_page.lang }}</a> {% endif %}{% endfor %}

@@ -56,3 +56,8 @@ defaults:
     values:
       layout: project
       lang: en
+
+# Standalone applications keep their own build systems and are linked from the
+# collection rather than being processed as Jekyll content.
+exclude:
+  - _projects/ai-mathematical-proof-analysis-jekyll

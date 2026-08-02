@@ -1,0 +1,106 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[a4paper,margin=0pt]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+
+\definecolor{Ink}{HTML}{182433}
+\definecolor{Slate}{HTML}{536273}
+\definecolor{Muted}{HTML}{788696}
+\definecolor{Blue}{HTML}{2A7AE2}
+\definecolor{Purple}{HTML}{7C3AED}
+\definecolor{PaleBlue}{HTML}{F2F7FD}
+\definecolor{PaleGray}{HTML}{F6F8FA}
+\definecolor{Rule}{HTML}{DDE4EA}
+
+\hypersetup{
+  pdftitle={AI and Mathematical Proof: From a Sparse 2025 Baseline to the 2026 Take-off},
+  pdfauthor={SuperLattice},
+  pdfsubject={Automated theorem proving and AI-assisted mathematical discovery}
+}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+
+\newcommand{\metric}[2]{%
+  \textbf{\color{Ink}#1} & \color{Slate}#2\\[1.6mm]
+}
+
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+
+% Restrained masthead: one baseline, one rule, one type family.
+\noindent\colorbox{Ink}{\parbox[c][24mm][c]{\paperwidth}{%
+  \hspace*{19mm}%
+  {\fontsize{17}{20}\selectfont\bfseries\color{white}SuperLattice}%
+  \hfill
+  {\fontsize{9.5}{12}\selectfont\color{white!72}RESEARCH REPORT}%
+  \hspace*{19mm}}}
+
+\vspace{18mm}
+\begin{minipage}{\paperwidth}
+\hspace*{22mm}\begin{minipage}{167mm}
+  {\fontsize{9.5}{12}\selectfont\bfseries\color{Blue}\MakeUppercase{Research project}\hspace{2mm}%
+   \color{Muted}\textnormal{Evidence through 21 July 2026}}\par
+  \vspace{6mm}
+
+  {\RaggedRight\fontsize{31}{34}\selectfont\bfseries\color{Ink}%
+   AI and mathematical proof\par progress}\par
+  \vspace{5mm}
+
+  {\RaggedRight\fontsize{17}{21}\selectfont\color{Slate}%
+   From a sparse 2025 baseline to the 2026 take-off}\par
+  \vspace{5mm}
+
+  {\RaggedRight\fontsize{11}{16}\selectfont\color{Muted}%
+   An exploratory record of audited AI contributions to automated and semi-automated mathematical proofs, constructions, bounds and counterexamples.}\par
+
+  \vspace{10mm}
+  {\color{Rule}\rule{\linewidth}{0.6pt}}\par
+  \vspace{7mm}
+
+  \begin{minipage}[t]{103mm}
+    {\fontsize{9}{12.5}\selectfont
+    \begin{tabularx}{\linewidth}{@{}L{31mm}X@{}}
+      \metric{Evidence window}{1 January 2025 to 21 July 2026.}
+      \metric{Research ledger}{Twenty entries first reported in 2025 plus 44 entries first reported in 2026.}
+      \metric{Counting rule}{A month receives an entry only for a new public mathematical conclusion, best-known bound, counterexample, or bounded construction portfolio with a documented AI contribution and a checkable source.}
+      \metric{Zero-month rule}{Zero means that this audit found no public item meeting the threshold. It does not prove that no private, unreported, or differently classified AI-assisted work occurred.}
+    \end{tabularx}}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{52mm}
+    \vspace{1mm}
+    \colorbox{PaleBlue}{\parbox{45mm}{%
+      \vspace{4mm}\hspace{3mm}%
+      \begin{minipage}{37mm}
+      {\fontsize{8.6}{12}\selectfont\color{Ink}
+      \textbf{AI analysis disclaimer}\par\vspace{2mm}
+      \color{Slate}This is an AI-assisted analysis, not an expert-reviewed census. The evidence collection was last run through \textbf{21 July 2026} and contains \textbf{64 audited entries}. The supplied source bundle does not record which model produced the baseline collection. The dashboard and hybrid-scoring rerun were prepared with OpenAI Codex, based on GPT-5. Treat classifications as reproducible proxies and check substantive claims against the cited works.}
+      \end{minipage}\hspace{3mm}\vspace{4mm}}}
+  \end{minipage}
+
+  \vspace{8mm}
+  \colorbox{PaleGray}{\parbox{\dimexpr\linewidth-8mm\relax}{%
+    \vspace{4mm}\hspace{4mm}\begin{minipage}{\dimexpr\linewidth-16mm\relax}
+    {\fontsize{9.5}{13.5}\selectfont\color{Slate}%
+    \textbf{\color{Ink}Central finding.} January--March 2025 form a flat audited baseline. Isolated discoveries begin in April and May, June--July are flat again, and a broader August--December ramp precedes the much larger portfolio-production surge of spring 2026.}
+    \end{minipage}\hspace{4mm}\vspace{4mm}}}
+
+  \vfill
+  \vspace{8mm}
+  {\color{Rule}\rule{\linewidth}{0.6pt}}\par\vspace{3mm}
+  {\fontsize{8.5}{11}\selectfont\color{Muted}64 audited entries\hfill January 2025--21 July 2026}
+\end{minipage}
+\end{minipage}
+
+\end{titlepage}
+\end{document}

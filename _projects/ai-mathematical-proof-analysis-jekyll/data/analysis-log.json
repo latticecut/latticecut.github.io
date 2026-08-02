@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2026-07-21-baseline",
+    "collectionEnded": "2026-07-21",
+    "recordedAt": "2026-08-01",
+    "model": "Not recorded in supplied source bundle",
+    "modelStatus": "unknown",
+    "entryCount": 64,
+    "summary": "Initial audited dataset covering public AI contributions to mathematical proof and discovery from January 2025 through 21 July 2026.",
+    "changes": [
+      "Imported 64 audited result packages.",
+      "Applied the reproducible challenge-signal heuristic.",
+      "Linked ledger entries to the report bibliography."
+    ]
+  },
+  {
+    "id": "2026-07-21-hybrid-difficulty-rerun",
+    "collectionEnded": "2026-07-21",
+    "recordedAt": "2026-08-01",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 64,
+    "summary": "Reclassified the existing 64-entry ledger with the source-grounded hybrid challenge metric; the evidence window and counting rule are unchanged.",
+    "changes": [
+      "Replaced the earlier 0--3 keyword heuristic with D=P+A+S+R on a 0--5 scale.",
+      "Added entry-level component rationales and historical-duration evidence.",
+      "Applied the complete, non-provisional one-decade Superhuman override.",
+      "Required target-specific resistance evidence and a 20% controlled-comparison threshold.",
+      "Corrected source-level anchor wording and derived durations mechanically from recorded years."
+    ]
+  }
+]

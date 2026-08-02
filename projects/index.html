@@ -4,28 +4,32 @@ title: Projects
 ref: projects
 lang: en
 permalink: /projects/
+show_language_selector: true
 ---
 <section class="projects-index">
-  <header class="projects-intro">
-    <p class="projects-kicker">Projects</p>
-    <h1>Dashboards, models and interactive experiments.</h1>
-    <p>Small, self-contained tools for exploring ideas that benefit from more than prose.</p>
+  <header class="projects-intro home-intro">
+    <h1 class="home-intro-title">Data, models and experiments.</h1>
+    <p class="home-intro-body">Small, self-contained tools for exploring ideas.</p>
   </header>
 
   <div class="project-grid">
     {% assign projects = site.projects | sort: "order" %}
     {% for project in projects %}
       {% if project.listed != false %}
-        {% assign project_href = project.external_url | default: project.url %}
+        {% assign project_href = project.project_url | default: project.external_url | default: project.url %}
         <article class="project-card">
           <a class="project-card-link" href="{{ project_href | relative_url }}"{% if project.external_url %} target="_blank" rel="noopener noreferrer"{% endif %}>
-            <div class="project-card-topline">
-              <span class="project-type">{{ project.type | default: "Interactive" }}</span>
-              {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+            {% if project.thumbnail %}
+            <img class="project-card-thumbnail" src="{{ project.thumbnail | relative_url }}" alt="" loading="lazy">
+            {% endif %}
+            <div class="project-card-content">
+              <div class="project-card-topline">
+                <span class="project-type">{{ project.type | default: "Interactive" }}</span>
+                {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+              </div>
+              <h2>{{ project.title }}</h2>
+              <p>{{ project.summary | default: project.excerpt | strip_html | truncatewords: 26 }}</p>
             </div>
-            <h2>{{ project.title }}</h2>
-            <p>{{ project.summary | default: project.excerpt | strip_html | truncatewords: 26 }}</p>
-            <span class="project-card-action">Open project <span aria-hidden="true">&rarr;</span></span>
           </a>
         </article>
       {% endif %}

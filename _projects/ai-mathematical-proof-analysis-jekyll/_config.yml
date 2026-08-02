@@ -1,0 +1,10 @@
+title: AI and mathematical proof progress
+description: Explore audited AI contributions to mathematical proof.
+encoding: utf-8
+
+# The microsite uses relative URLs throughout, so it can be copied into either
+# the root of a Pages site or any subfolder without changing this file.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

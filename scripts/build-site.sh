@@ -11,7 +11,11 @@ mkdir -p "$build_root"
 
 # Build from a no-spaces temp path because older native gems in this stack
 # mis-handle compiler arguments when the workspace path contains spaces.
-rsync -a --delete --exclude "_site" --exclude "vendor" "$repo_root/" "$build_root/"
+rsync -a --delete \
+  --exclude "_site" \
+  --exclude "vendor" \
+  --exclude "_projects/ai-mathematical-proof-analysis-jekyll" \
+  "$repo_root/" "$build_root/"
 
 cd "$build_root"
 
