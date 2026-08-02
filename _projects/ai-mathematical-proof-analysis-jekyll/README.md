@@ -5,6 +5,11 @@ interactive dashboard, all datasets, images, the favicon, social-preview
 images, and the downloadable PDF report. It does not require Node.js,
 Cloudflare, OpenAI Sites, a database, or a server-side application runtime.
 
+The bundled dashboard and raw-data download contain 126 audited result
+packages through 2 August 2026. The PDF is retained as the clearly labelled
+64-entry baseline report; later additions and corrections are recorded in the
+dashboard analysis log and data files.
+
 ## Add it to an existing Jekyll site
 
 Copy this entire folder into the desired directory in the Jekyll repository.
@@ -44,7 +49,6 @@ the microsite itself.
 
 ## One optional adjustment after placement
 
-The Open Graph and X image metadata currently uses a relative image URL so the
-folder remains portable. Once the final public URL is known, replace
-`./og-data-portrait.png` in `index.html` with the full public HTTPS URL for the
-best social-link preview compatibility.
+The Open Graph and X image metadata uses the production SuperLattice URL. If
+the folder is published elsewhere, replace that image URL in `index.html` with
+the new full public HTTPS URL for the best social-link preview compatibility.

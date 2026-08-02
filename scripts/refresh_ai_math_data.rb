@@ -63,7 +63,9 @@ end
 def validate_and_normalize(rows)
   raise "Ledger is empty" if rows.empty?
   ids = rows.map { |row| row.fetch("id") }
-  duplicates = ids.tally.select { |_id, count| count > 1 }.keys
+  id_counts = Hash.new(0)
+  ids.each { |id| id_counts[id] += 1 }
+  duplicates = id_counts.select { |_id, count| count > 1 }.keys
   raise "Duplicate ledger IDs: #{duplicates.join(', ')}" unless duplicates.empty?
 
   rows.each do |row|
@@ -84,7 +86,7 @@ def validate_and_normalize(rows)
 
     framing = row["framing_year"].to_s.strip.empty? ? nil : Integer(row["framing_year"], 10)
     solution = row["solution_year"].to_s.strip.empty? ? nil : Integer(row["solution_year"], 10)
-    raise "Entry #{row['id']} has only one duration endpoint" if framing.nil? ^ solution.nil?
+    raise "Entry #{row['id']} has a framing year but no solution year" if framing && solution.nil?
     raise "Entry #{row['id']} solution predates framing" if framing && solution < framing
     age = framing && solution ? (solution - framing) / 10.0 : nil
 
@@ -111,7 +113,8 @@ def derive_monthly(rows, collection_end)
   result = []
   each_month("2025-01", collection_end.strftime("%Y-%m")) do |period|
     entries = by_period.fetch(period, [])
-    counts = entries.map { |row| row.fetch("category") }.tally
+    counts = Hash.new(0)
+    entries.each { |row| counts[row.fetch("category")] += 1 }
     total = entries.length
     non_expected = counts.fetch("Difficult", 0) + counts.fetch("Superhuman", 0)
     mean = total.zero? ? 0.0 : entries.sum { |row| Integer(row.fetch("difficulty_score"), 10) }.fdiv(total)
@@ -157,7 +160,7 @@ def data_city_svg(monthly)
   padding = 7
   shadow = 5
 
-  clusters = recent.filter_map do |row|
+  clusters = recent.map do |row|
     total = Integer(row.fetch("total"), 10)
     next if total.zero?
 
@@ -180,7 +183,7 @@ def data_city_svg(monthly)
       width: columns * tile + (columns - 1) * tile_gap,
       height: row_count * tile + (row_count - 1) * tile_gap
     }
-  end
+  end.compact
   raise "Data city has no non-empty month" if clusters.empty?
 
   city_width = clusters.sum { |cluster| cluster.fetch(:width) } + cluster_gap * (clusters.length - 1)
@@ -265,8 +268,10 @@ zip_path = File.join(PUBLIC_DATA, ZIP_NAME)
 FileUtils.rm_f(zip_path)
 ok = system("zip", "-X", "-q", ZIP_NAME, *SYNCED_NAMES, chdir: PUBLIC_DATA)
 raise "Could not create #{ZIP_NAME}" unless ok
+FileUtils.cp(zip_path, File.join(PACKAGE_DATA, ZIP_NAME))
 
-counts = rows.map { |row| row.fetch("category") }.tally
+counts = Hash.new(0)
+rows.each { |row| counts[row.fetch("category")] += 1 }
 mean = rows.sum { |row| Integer(row.fetch("difficulty_score"), 10) }.fdiv(rows.length)
 puts "Validated and regenerated #{rows.length} entries"
 puts "Expected=#{counts.fetch('Expected', 0)}, Difficult=#{counts.fetch('Difficult', 0)}, Superhuman=#{counts.fetch('Superhuman', 0)}, mean=#{format('%.2f', mean)}"

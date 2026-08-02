@@ -1,7 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
+\usepackage[scaled=0.95]{helvet}
 \usepackage{microtype}
 \usepackage[a4paper,margin=0pt]{geometry}
 \usepackage[table]{xcolor}
@@ -10,97 +10,101 @@
 \usepackage{ragged2e}
 \usepackage{hyperref}
 
-\definecolor{Ink}{HTML}{182433}
-\definecolor{Slate}{HTML}{536273}
-\definecolor{Muted}{HTML}{788696}
+% The microsite palette.
+\definecolor{Ink}{HTML}{111111}
+\definecolor{Charcoal}{HTML}{424242}
+\definecolor{Text}{HTML}{333333}
+\definecolor{Muted}{HTML}{828282}
 \definecolor{Blue}{HTML}{2A7AE2}
-\definecolor{Purple}{HTML}{7C3AED}
-\definecolor{PaleBlue}{HTML}{F2F7FD}
-\definecolor{PaleGray}{HTML}{F6F8FA}
-\definecolor{Rule}{HTML}{DDE4EA}
+\definecolor{Soft}{HTML}{F6F6F6}
+\definecolor{Rule}{HTML}{E8E8E8}
 
 \hypersetup{
+  colorlinks=true,
+  urlcolor=Blue,
   pdftitle={AI and Mathematical Proof: From a Sparse 2025 Baseline to the 2026 Take-off},
   pdfauthor={SuperLattice},
   pdfsubject={Automated theorem proving and AI-assisted mathematical discovery}
 }
+\renewcommand{\familydefault}{\sfdefault}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\fboxsep}{0pt}
-\renewcommand{\familydefault}{\sfdefault}
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
 
-\newcommand{\metric}[2]{%
-  \textbf{\color{Ink}#1} & \color{Slate}#2\\[1.6mm]
+\newcommand{\factrow}[2]{%
+  {\fontsize{9.5}{13}\selectfont\color{Charcoal}\bfseries #1} &
+  {\fontsize{9.5}{13}\selectfont\color{Text}#2}\\[2.4mm]
 }
 
 \begin{document}
 \begin{titlepage}
 \thispagestyle{empty}
 
-% Restrained masthead: one baseline, one rule, one type family.
-\noindent\colorbox{Ink}{\parbox[c][24mm][c]{\paperwidth}{%
-  \hspace*{19mm}%
-  {\fontsize{17}{20}\selectfont\bfseries\color{white}SuperLattice}%
-  \hfill
-  {\fontsize{9.5}{12}\selectfont\color{white!72}RESEARCH REPORT}%
-  \hspace*{19mm}}}
-
-\vspace{18mm}
-\begin{minipage}{\paperwidth}
-\hspace*{22mm}\begin{minipage}{167mm}
-  {\fontsize{9.5}{12}\selectfont\bfseries\color{Blue}\MakeUppercase{Research project}\hspace{2mm}%
-   \color{Muted}\textnormal{Evidence through 21 July 2026}}\par
+% Same narrow charcoal top rule and restrained header as the microsite.
+{\color{Charcoal}\rule{\paperwidth}{3.5pt}}\par
+\hspace*{22mm}\begin{minipage}{166mm}
   \vspace{6mm}
+  {\fontsize{18}{22}\selectfont\color{Charcoal}\fontseries{l}\selectfont SuperLattice}
+  \hfill
+  {\fontsize{10}{13}\selectfont\color{Charcoal}Research report}
+  \par\vspace{6mm}
+\end{minipage}\par
+{\color{Rule}\rule{\paperwidth}{0.6pt}}\par
 
-  {\RaggedRight\fontsize{31}{34}\selectfont\bfseries\color{Ink}%
-   AI and mathematical proof\par progress}\par
-  \vspace{5mm}
-
-  {\RaggedRight\fontsize{17}{21}\selectfont\color{Slate}%
-   From a sparse 2025 baseline to the 2026 take-off}\par
-  \vspace{5mm}
-
-  {\RaggedRight\fontsize{11}{16}\selectfont\color{Muted}%
-   An exploratory record of audited AI contributions to automated and semi-automated mathematical proofs, constructions, bounds and counterexamples.}\par
-
-  \vspace{10mm}
-  {\color{Rule}\rule{\linewidth}{0.6pt}}\par
-  \vspace{7mm}
-
-  \begin{minipage}[t]{103mm}
-    {\fontsize{9}{12.5}\selectfont
-    \begin{tabularx}{\linewidth}{@{}L{31mm}X@{}}
-      \metric{Evidence window}{1 January 2025 to 21 July 2026.}
-      \metric{Research ledger}{Twenty entries first reported in 2025 plus 44 entries first reported in 2026.}
-      \metric{Counting rule}{A month receives an entry only for a new public mathematical conclusion, best-known bound, counterexample, or bounded construction portfolio with a documented AI contribution and a checkable source.}
-      \metric{Zero-month rule}{Zero means that this audit found no public item meeting the threshold. It does not prove that no private, unreported, or differently classified AI-assisted work occurred.}
-    \end{tabularx}}
+\vspace{16mm}
+\hspace*{22mm}\begin{minipage}{166mm}
+  \begin{minipage}[b]{103mm}
+    {\fontsize{10}{14}\selectfont\color{Muted}Research project \textperiodcentered\ Evidence through 21 July 2026}\par
+    \vspace{3mm}
+    {\RaggedRight\fontsize{29}{34}\selectfont\color{Charcoal}\fontseries{m}\selectfont
+      AI and mathematical proof progress\par}
+    \vspace{4mm}
+    {\RaggedRight\fontsize{13.5}{19}\selectfont\color{Text}
+      From a sparse 2025 baseline to the 2026 take-off\par}
+    \vspace{4mm}
+    {\RaggedRight\fontsize{10.5}{15.5}\selectfont\color{Text}
+      An exploratory record of audited AI contributions to automated and semi-automated mathematical proofs, constructions, bounds and counterexamples.\par}
   \end{minipage}\hfill
-  \begin{minipage}[t]{52mm}
-    \vspace{1mm}
-    \colorbox{PaleBlue}{\parbox{45mm}{%
-      \vspace{4mm}\hspace{3mm}%
-      \begin{minipage}{37mm}
-      {\fontsize{8.6}{12}\selectfont\color{Ink}
-      \textbf{AI analysis disclaimer}\par\vspace{2mm}
-      \color{Slate}This is an AI-assisted analysis, not an expert-reviewed census. The evidence collection was last run through \textbf{21 July 2026} and contains \textbf{64 audited entries}. The supplied source bundle does not record which model produced the baseline collection. The dashboard and hybrid-scoring rerun were prepared with OpenAI Codex, based on GPT-5. Treat classifications as reproducible proxies and check substantive claims against the cited works.}
-      \end{minipage}\hspace{3mm}\vspace{4mm}}}
+  \begin{minipage}[b]{52mm}
+    \centering
+    \includegraphics[width=52mm,trim=0 1120 0 0,clip]{data-city-cover.png}
   \end{minipage}
 
-  \vspace{8mm}
-  \colorbox{PaleGray}{\parbox{\dimexpr\linewidth-8mm\relax}{%
-    \vspace{4mm}\hspace{4mm}\begin{minipage}{\dimexpr\linewidth-16mm\relax}
-    {\fontsize{9.5}{13.5}\selectfont\color{Slate}%
-    \textbf{\color{Ink}Central finding.} January--March 2025 form a flat audited baseline. Isolated discoveries begin in April and May, June--July are flat again, and a broader August--December ramp precedes the much larger portfolio-production surge of spring 2026.}
-    \end{minipage}\hspace{4mm}\vspace{4mm}}}
+  \vspace{11mm}
+  \colorbox{Soft}{\parbox{\linewidth}{%
+    \hspace{0pt}\begin{minipage}{3pt}\color{Muted}\rule{3pt}{31mm}\end{minipage}%
+    \hspace{5mm}\begin{minipage}{151mm}
+      {\fontsize{9.2}{13.4}\selectfont\color{Text}
+      \textbf{\color{Ink}AI analysis disclaimer}\par\vspace{1.7mm}
+      This is an AI-assisted analysis, not an expert-reviewed census. The evidence collection was last run through \textbf{21 July 2026} and contains \textbf{64 audited entries}. The supplied source bundle does not record which model produced the baseline collection. This dashboard and hybrid-scoring rerun were prepared with \textbf{OpenAI Codex, based on GPT-5}. Treat the classifications as reproducible proxies and check substantive claims against the cited works.}
+    \end{minipage}\hspace{0pt}}}
+
+  \vspace{10mm}
+  {\fontsize{17}{22}\selectfont\color{Charcoal}Report at a glance}\par
+  \vspace{3mm}
+  {\color{Rule}\rule{\linewidth}{0.6pt}}\par
+  \vspace{5mm}
+
+  \begin{tabularx}{\linewidth}{@{}L{38mm}X@{}}
+    \factrow{Evidence window}{1 January 2025 to 21 July 2026.}
+    \factrow{Research ledger}{Twenty entries first reported in 2025 plus 44 entries first reported in 2026.}
+    \factrow{Counting rule}{A month receives an entry only for a new public mathematical conclusion, best-known bound, counterexample, or bounded construction portfolio with a documented AI contribution and a checkable source.}
+    \factrow{Zero-month rule}{Zero means that this audit found no public item meeting the threshold. It does not prove that no private, unreported, or differently classified AI-assisted work occurred.}
+  \end{tabularx}
+
+  \vspace{5mm}
+  \colorbox{Soft}{\parbox{\linewidth}{%
+    \hspace{0pt}\begin{minipage}{3pt}\color{Blue}\rule{3pt}{20mm}\end{minipage}%
+    \hspace{5mm}\begin{minipage}{151mm}
+      {\fontsize{9.5}{13.5}\selectfont\color{Text}
+      \textbf{\color{Ink}Central finding.} January--March 2025 form a flat audited baseline. Isolated discoveries begin in April and May, June--July are flat again, and a broader August--December ramp precedes the much larger portfolio-production surge of spring 2026.}
+    \end{minipage}\hspace{0pt}}}
 
   \vfill
-  \vspace{8mm}
   {\color{Rule}\rule{\linewidth}{0.6pt}}\par\vspace{3mm}
   {\fontsize{8.5}{11}\selectfont\color{Muted}64 audited entries\hfill January 2025--21 July 2026}
+  \vspace{8mm}
 \end{minipage}
-\end{minipage}
-
 \end{titlepage}
 \end{document}

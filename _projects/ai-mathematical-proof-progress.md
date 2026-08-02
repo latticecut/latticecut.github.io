@@ -5,6 +5,6 @@ thumbnail: /assets/projects/ai-math/data-city-thumbnail.png
 type: Interactive dashboard
 status: Live
 order: 1
-updated: 2026-07-21
+updated: 2026-08-02
 project_url: /projects/ai-math/
 ---

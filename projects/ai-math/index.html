@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI and mathematical proof progress | SuperLattice</title>
-    <meta name="description" content="Explore 64 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
+    <meta name="description" content="Explore 126 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
     <meta property="og:title" content="AI and mathematical proof progress | SuperLattice" />
-    <meta property="og:description" content="Explore 64 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
+    <meta property="og:description" content="Explore 126 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://latticecut.github.io/projects/ai-math/assets/og-data-portrait-DHcvDkpo.png" />
+    <meta property="og:image" content="https://latticecut.github.io/projects/ai-math/assets/og-data-portrait-d2bec58a.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="AI and mathematical proof progress | SuperLattice" />
-    <meta name="twitter:description" content="Explore 64 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
-    <meta name="twitter:image" content="https://latticecut.github.io/projects/ai-math/assets/og-data-portrait-DHcvDkpo.png" />
+    <meta name="twitter:description" content="Explore 126 audited AI contributions to mathematical proof using a transparent hybrid challenge score and three evidence-grounded categories." />
+    <meta name="twitter:image" content="https://latticecut.github.io/projects/ai-math/assets/og-data-portrait-d2bec58a.png" />
     <link rel="icon" href="./assets/favicon-B13FBozU.svg" />
-    <script type="module" crossorigin src="./assets/index-CmD8taSL.js"></script>
+    <script type="module" crossorigin src="./assets/index-8eaa617c.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DgmCWThy.css">
     <style>
       .usageNote { display: none; }
@@ -181,6 +181,21 @@
         }
       }
       @media (max-width: 600px) {
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+          min-height: 104px;
+          padding-bottom: 13px;
+        }
+        .brand {
+          line-height: 56px;
+          white-space: nowrap;
+        }
+        .topbar nav {
+          gap: 20px;
+          width: 100%;
+        }
+        body::before { top: 108px; }
         .dashboard { padding-top: 22px; padding-bottom: 24px; }
         .dashboard > .metricGrid { margin: 12px 0; }
         .dashboard > .filterPanel { padding: 12px 0; }
@@ -202,13 +217,23 @@
     <div id="root"></div>
     <script>
       window.addEventListener("DOMContentLoaded", function () {
-        var nav = document.querySelector(".topbar nav");
-        if (nav && !nav.querySelector('[href="/projects/"]')) {
-          var projectsLink = document.createElement("a");
-          projectsLink.href = "/projects/";
-          projectsLink.textContent = "Projects";
-          nav.insertBefore(projectsLink, nav.firstChild);
+        function enhanceNavigation() {
+          var nav = document.querySelector(".topbar nav");
+          if (nav && !nav.querySelector('[href="/projects/"]')) {
+            var projectsLink = document.createElement("a");
+            projectsLink.href = "/projects/";
+            projectsLink.textContent = "Projects";
+            nav.insertBefore(projectsLink, nav.firstChild);
+          }
+          if (nav && !nav.querySelector('[href="/"]')) {
+            var articlesLink = document.createElement("a");
+            articlesLink.href = "/";
+            articlesLink.textContent = "Articles";
+            nav.insertBefore(articlesLink, nav.firstChild);
+          }
         }
+
+        enhanceNavigation();
 
         function enhanceLogEntries() {
           document.querySelectorAll(".runEntry:not([data-disclosure])").forEach(function (entry) {
@@ -375,6 +400,7 @@
         }
 
         function enhanceProject() {
+          enhanceNavigation();
           enhanceLogEntries();
           enhanceChartLegend();
           enhanceRawData();

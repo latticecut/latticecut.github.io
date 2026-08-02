@@ -113,6 +113,7 @@ log << {
   "changes" => [
     "Added #{added_count} newly audited result packages, separating pre-cutoff backfill from post-cutoff discoveries in the private collection record.",
     "Removed IDs 23 and 32 because refreshed novelty evidence showed that they were rediscoveries already established in 1947 and 2024 respectively.",
+    "Retained the three Werner-state packages and two Feige-bound packages as independently generated contributions under the package-counting rule; later support or verification alone was not recounted.",
     "Upgraded the Cycle Double Cover and three-dimensional Jacobian entries from provisional Difficult to non-provisional Superhuman after formal or independent exact checks and specialist expositions.",
     "Corrected ID 12's publication month and changed its anchor from decidable to undecidable.",
     "Recomputed every component total, category, historical duration, monthly aggregate, cumulative count, website visual, and downloadable data bundle."
