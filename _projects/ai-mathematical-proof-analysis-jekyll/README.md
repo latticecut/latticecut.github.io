@@ -5,8 +5,14 @@ interactive dashboard, all datasets, images, the favicon, social-preview
 images, and the downloadable PDF report. It does not require Node.js,
 Cloudflare, OpenAI Sites, a database, or a server-side application runtime.
 
-The bundled dashboard and raw-data download contain 126 audited result
-packages through 2 August 2026. The PDF is retained as the clearly labelled
+The current package contains 127 audited result records through 4 August 2026,
+corpus-wide taxonomy v0.2 data, controlled registries and colours, the taxonomy
+specification and coding manual, and an explicitly separate legacy challenge
+classification. AI-assisted taxonomy codings remain unreviewed pending the
+published two-human-coder reliability study.
+
+The bundled dashboard and raw-data download contain 127 audited result
+packages through 4 August 2026. The PDF is retained as the clearly labelled
 64-entry baseline report; later additions and corrections are recorded in the
 dashboard analysis log and data files.
 

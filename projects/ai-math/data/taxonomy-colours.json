@@ -1,0 +1,226 @@
+{
+  "mapId": "mathematics-progress-colour-inheritance",
+  "version": "0.2.0",
+  "taxonomyVersion": "0.2.0",
+  "issued": "2026-08-04",
+  "purpose": "A redundant structural cue for the explorer. Text, concept IDs and visible hierarchy remain authoritative.",
+  "unmappedHandling": "error",
+  "defaultText": "#222222",
+  "rules": {
+    "rootContainers": "neutral",
+    "inheritance": "Descendants retain the parent or axis hue while fill and stroke become more saturated and darker with depth.",
+    "localScope": true,
+    "colourNeverMeans": ["verification strength", "autonomy", "quality", "importance", "difficulty"],
+    "fallback": "No hash-based or automatically selected fallback is permitted. Unmapped values must fail validation; explicit unknown states use the neutral unknown style."
+  },
+  "unknown": {
+    "fill": "#EBEBEB",
+    "stroke": "#949494",
+    "text": "#222222",
+    "outline": "dashed",
+    "label": "Unknown / not reported / not applicable"
+  },
+  "neutralRoot": {
+    "fill": "#F6F6F6",
+    "stroke": "#BEBEBE",
+    "text": "#202020",
+    "outline": "solid"
+  },
+  "depthProfiles": {
+    "D1": { "fillSaturationFactor": 0.58, "fillLightness": 92, "strokeSaturationFactor": 0.85, "strokeLightness": 58 },
+    "D2": { "fillSaturationFactor": 0.72, "fillLightness": 86, "strokeSaturationFactor": 0.95, "strokeLightness": 52 },
+    "D3": { "fillSaturationFactor": 0.86, "fillLightness": 80, "strokeSaturationFactor": 1.0, "strokeLightness": 46 },
+    "D4": { "fillSaturationFactor": 1.0, "fillLightness": 74, "strokeSaturationFactor": 1.0, "strokeLightness": 40 }
+  },
+  "palettes": {
+    "foundations": {
+      "base": "#59636F",
+      "depths": {
+        "D1": { "fill": "#E9EAEC", "stroke": "#8A939E" },
+        "D2": { "fill": "#D8DBDE", "stroke": "#788391" },
+        "D3": { "fill": "#C7CCD1", "stroke": "#687482" },
+        "D4": { "fill": "#B5BCC4", "stroke": "#5B6571" }
+      }
+    },
+    "discrete": {
+      "base": "#009E73",
+      "depths": {
+        "D1": { "fill": "#DFF6F0", "stroke": "#39EFBD" },
+        "D2": { "fill": "#C2F5E7", "stroke": "#10F9BA" },
+        "D3": { "fill": "#A0F8E0", "stroke": "#00EBAB" },
+        "D4": { "fill": "#7AFFDB", "stroke": "#00CC94" }
+      }
+    },
+    "number": {
+      "base": "#C98200",
+      "depths": {
+        "D1": { "fill": "#F6EEDF", "stroke": "#EFAF39" },
+        "D2": { "fill": "#F5E3C2", "stroke": "#F9A710" },
+        "D3": { "fill": "#F8D9A0", "stroke": "#EB9800" },
+        "D4": { "fill": "#FFD07A", "stroke": "#CC8400" }
+      }
+    },
+    "algebra": {
+      "base": "#7651A5",
+      "depths": {
+        "D1": { "fill": "#EAE7EF", "stroke": "#9075B3" },
+        "D2": { "fill": "#DAD3E4", "stroke": "#805DAC" },
+        "D3": { "fill": "#CABDDB", "stroke": "#714D9D" },
+        "D4": { "fill": "#BAA6D3", "stroke": "#624389" }
+      }
+    },
+    "analysis": {
+      "base": "#0072B2",
+      "depths": {
+        "D1": { "fill": "#DFEEF6", "stroke": "#39ADEF" },
+        "D2": { "fill": "#C2E3F5", "stroke": "#10A5F9" },
+        "D3": { "fill": "#A0D8F8", "stroke": "#0096EB" },
+        "D4": { "fill": "#7ACFFF", "stroke": "#0083CC" }
+      }
+    },
+    "geometry": {
+      "base": "#B54B78",
+      "depths": {
+        "D1": { "fill": "#F0E6EA", "stroke": "#BA6E8E" },
+        "D2": { "fill": "#E6D1DA", "stroke": "#B5547D" },
+        "D3": { "fill": "#DEBAC9", "stroke": "#A6446E" },
+        "D4": { "fill": "#D8A1B9", "stroke": "#913B60" }
+      }
+    },
+    "probability": {
+      "base": "#4B8B57",
+      "depths": {
+        "D1": { "fill": "#E7EEE8", "stroke": "#79AF83" },
+        "D2": { "fill": "#D4E3D6", "stroke": "#62A76F" },
+        "D3": { "fill": "#BFD9C4", "stroke": "#52985F" },
+        "D4": { "fill": "#A9D1B0", "stroke": "#478553" }
+      }
+    },
+    "computation": {
+      "base": "#0089A7",
+      "depths": {
+        "D1": { "fill": "#DFF2F6", "stroke": "#39CEEF" },
+        "D2": { "fill": "#C2ECF5", "stroke": "#10CFF9" },
+        "D3": { "fill": "#A0E8F8", "stroke": "#00C0EB" },
+        "D4": { "fill": "#7AE7FF", "stroke": "#00A7CC" }
+      }
+    },
+    "physical": {
+      "base": "#D55E00",
+      "depths": {
+        "D1": { "fill": "#F6E9DF", "stroke": "#EF8939" },
+        "D2": { "fill": "#F5D8C2", "stroke": "#F97710" },
+        "D3": { "fill": "#F8C7A0", "stroke": "#EB6800" },
+        "D4": { "fill": "#FFB57A", "stroke": "#CC5A00" }
+      }
+    },
+    "applied": {
+      "base": "#7B7928",
+      "depths": {
+        "D1": { "fill": "#F1F0E5", "stroke": "#C2C066" },
+        "D2": { "fill": "#E8E8CE", "stroke": "#C0BD49" },
+        "D3": { "fill": "#E2E1B6", "stroke": "#B1AE3A" },
+        "D4": { "fill": "#DEDD9B", "stroke": "#9A9732" }
+      }
+    }
+  },
+  "axes": {
+    "mathematics": {
+      "M-MACRO-FOUNDATIONS": { "label": "Foundations", "mscBroadCodes": ["00", "01", "03"], "paletteKey": "foundations", "depth": "D1" },
+      "M-MACRO-DISCRETE": { "label": "Discrete", "mscBroadCodes": ["05", "06"], "paletteKey": "discrete", "depth": "D1" },
+      "M-MACRO-NUMBER": { "label": "Number", "mscBroadCodes": ["11"], "paletteKey": "number", "depth": "D1" },
+      "M-MACRO-ALGEBRA": { "label": "Algebra", "mscBroadCodes": ["08", "12", "13", "14", "15", "16", "17", "18", "19", "20", "22"], "paletteKey": "algebra", "depth": "D1" },
+      "M-MACRO-ANALYSIS": { "label": "Analysis", "mscBroadCodes": ["26", "28", "30", "31", "32", "33", "34", "35", "37", "39", "40", "41", "42", "43", "44", "45", "46", "47", "49"], "paletteKey": "analysis", "depth": "D1" },
+      "M-MACRO-GEOMETRY": { "label": "Geometry", "mscBroadCodes": ["51", "52", "53", "54", "55", "57", "58"], "paletteKey": "geometry", "depth": "D1" },
+      "M-MACRO-PROBABILITY": { "label": "Probability", "mscBroadCodes": ["60", "62"], "paletteKey": "probability", "depth": "D1" },
+      "M-MACRO-COMPUTATION": { "label": "Computation", "mscBroadCodes": ["65", "68"], "paletteKey": "computation", "depth": "D1" },
+      "M-MACRO-PHYSICAL": { "label": "Physical", "mscBroadCodes": ["70", "74", "76", "78", "80", "81", "82", "83", "85", "86"], "paletteKey": "physical", "depth": "D1" },
+      "M-MACRO-APPLIED": { "label": "Applied", "mscBroadCodes": ["90", "91", "92", "93", "94", "97"], "paletteKey": "applied", "depth": "D1" }
+    },
+    "resultR1R2": {
+      "R1-MATHEMATICAL-RESULT": { "paletteKey": "physical", "depth": "D1" },
+      "R2-AFFIRMATIVE-RESOLUTION": { "paletteKey": "physical", "depth": "D2" },
+      "R2-NEGATIVE-RESOLUTION": { "paletteKey": "physical", "depth": "D2" },
+      "R2-UNDECIDABILITY-OR-IMPOSSIBILITY": { "paletteKey": "physical", "depth": "D2" },
+      "R2-PARTIAL-PROGRESS": { "paletteKey": "physical", "depth": "D2" },
+      "R2-IMPROVED-BOUND": { "paletteKey": "physical", "depth": "D2" },
+      "R2-IMPROVED-ALGORITHM": { "paletteKey": "physical", "depth": "D2" },
+      "R2-CONSTRUCTION-OR-WITNESS": { "paletteKey": "physical", "depth": "D2" },
+      "R2-EXACT-VALUE-OR-CLASSIFICATION": { "paletteKey": "physical", "depth": "D2" },
+      "R1-FORMALISATION": { "paletteKey": "algebra", "depth": "D1" },
+      "R2-NEW-FORMALISATION": { "paletteKey": "algebra", "depth": "D2" },
+      "R2-FORMAL-LIBRARY-OR-INFRASTRUCTURE": { "paletteKey": "algebra", "depth": "D2" },
+      "R1-SYSTEM-OR-TOOL": { "paletteKey": "computation", "depth": "D1" },
+      "R2-DISCOVERY-OR-PROVING-SYSTEM": { "paletteKey": "computation", "depth": "D2" },
+      "R1-BENCHMARK-OR-EVALUATION": { "paletteKey": "geometry", "depth": "D1" },
+      "R2-CAPABILITY-EVALUATION": { "paletteKey": "geometry", "depth": "D2" },
+      "R1-SURVEY-OR-SYNTHESIS": { "paletteKey": "applied", "depth": "D1" },
+      "R2-EVIDENCE-SYNTHESIS": { "paletteKey": "applied", "depth": "D2" }
+    },
+    "resultR3": {
+      "paletteKey": "analysis",
+      "depth": "D2",
+      "conceptIds": ["R3-DIRECT-PROOF", "R3-PROOF-BY-CONTRADICTION", "R3-COUNTEREXAMPLE", "R3-CONSTRUCTED-EXISTENCE", "R3-NONCONSTRUCTIVE-EXISTENCE", "R3-REDUCTION-OR-CHARACTERISATION", "R3-INDUCTION-OR-RECURSION", "R3-PROBABILISTIC-EXISTENCE", "R3-EXHAUSTIVE-FINITE-SEARCH", "R3-CERTIFICATE-BACKED-COMPUTATION", "R3-FORMAL-PROOF-SYNTHESIS", "R3-EXPERIMENTAL-EVIDENCE-ONLY"]
+    },
+    "resultR4": {
+      "paletteKey": "discrete",
+      "depth": "D2",
+      "conceptIds": ["R4-DISCHARGING", "R4-FLAG-ALGEBRAS", "R4-PRESCRIBED-COMPLETION", "R4-GENERIC-FORMAL-FIBRE-CONTROL", "R4-POLYNOMIAL-METHOD", "R4-SAT-ENCODING", "R4-LINEAR-PROGRAMMING-DUAL-CERTIFICATE", "R4-TRANSFINITE-RECURSION"]
+    },
+    "productionP1": {
+      "paletteKey": "analysis",
+      "depth": "D2",
+      "conceptIds": ["P1-HUMAN-LED-AI-ASSISTED", "P1-SHARED-HUMAN-AI", "P1-AI-LED", "P1-SOURCE-CLAIMED-AUTONOMOUS", "P1-HUMAN-ONLY-CONTROL"],
+      "neutralConceptIds": ["P1-UNCLEAR-OR-NOT-REPORTED"]
+    },
+    "productionP2": {
+      "paletteKey": "algebra",
+      "depth": "D2",
+      "conceptIds": ["P2-INFORMAL-NATURAL-LANGUAGE", "P2-EXECUTABLE-COMPUTATION-OR-PROGRAM-SEARCH", "P2-FORMAL-THEOREM-PROVING", "P2-HYBRID-INFORMAL-TO-FORMAL", "P2-HYBRID-COMPUTATION-TO-FORMAL-CERTIFICATE"],
+      "neutralConceptIds": ["P2-MIXED-OR-NOT-REPORTED"]
+    },
+    "productionP3": {
+      "paletteKey": "physical",
+      "depth": "D2",
+      "conceptIds": ["P3-DIRECT-MODEL-INTERACTION", "P3-ITERATIVE-SINGLE-AGENT", "P3-MULTI-AGENT", "P3-PROGRAM-OR-EVOLUTIONARY-SEARCH", "P3-NEURAL-SYMBOLIC", "P3-COMPOUND-PIPELINE"]
+    },
+    "productionP4": {
+      "paletteKey": "discrete",
+      "depth": "D2",
+      "conceptIds": ["P4-RETRIEVAL-AUGMENTED", "P4-GENERATOR-CRITIC", "P4-GENERATOR-VERIFIER", "P4-PLANNING-AND-TASK-DECOMPOSITION", "P4-PERSISTENT-MEMORY", "P4-PARALLEL-CANDIDATE-SEARCH", "P4-HUMAN-IN-THE-LOOP"]
+    },
+    "verification": {
+      "VF-INTERNAL": { "paletteKey": "geometry", "depth": "D1", "methodDepth": "D2" },
+      "VF-HUMAN": { "paletteKey": "analysis", "depth": "D1", "methodDepth": "D2" },
+      "VF-COMPUTATIONAL": { "paletteKey": "computation", "depth": "D1", "methodDepth": "D2" },
+      "VF-CERTIFICATE": { "paletteKey": "number", "depth": "D1", "methodDepth": "D2" },
+      "VF-FORMAL": { "paletteKey": "algebra", "depth": "D1", "methodDepth": "D2" },
+      "VF-EXTERNAL": { "paletteKey": "discrete", "depth": "D1", "methodDepth": "D2" },
+      "VF-PUBLICATION": { "paletteKey": "physical", "depth": "D1", "methodDepth": "D2" }
+    },
+    "systems": {
+      "SF-OPENAI": { "paletteKey": "analysis", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-ANTHROPIC": { "paletteKey": "physical", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-GOOGLE": { "paletteKey": "discrete", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-LEAN": { "paletteKey": "algebra", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-ISABELLE": { "paletteKey": "geometry", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-RETHLAS": { "paletteKey": "computation", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-ALETHEIA": { "paletteKey": "number", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-MIXED-MODEL-PORTFOLIO": { "paletteKey": "applied", "depth": "D1", "exactSystemDepth": "D2" },
+      "SF-UNCLASSIFIED": { "style": "unknown" }
+    },
+    "candidateTerms": { "style": "unknown", "note": "Uncatalogued R4 candidates remain visible but neutral until admitted to the registry." }
+  },
+  "statusColours": {
+    "provisional": { "fill": "#FFF7E6", "stroke": "#C98200", "text": "#6B4300" },
+    "review_required": { "fill": "#FFF5F5", "stroke": "#B54B78", "text": "#702742" },
+    "deprecated": { "fill": "#F0F0F0", "stroke": "#707070", "text": "#555555", "outline": "dashed" },
+    "confirmed": { "fill": "#EFF8F1", "stroke": "#4B8B57", "text": "#295331" }
+  },
+  "analyticalCategories": {
+    "Expected": { "fill": "#B8B8B8", "text": "#222222" },
+    "Difficult": { "fill": "#276FCE", "text": "#FFFFFF" },
+    "Superhuman": { "fill": "#7B2CBF", "text": "#FFFFFF" },
+    "note": "These colours encode a derived analytical category, not taxonomy structure."
+  }
+}

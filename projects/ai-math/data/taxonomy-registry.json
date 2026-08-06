@@ -1,0 +1,3284 @@
+{
+  "_meta": {
+    "taxonomyVersion": "0.2.0",
+    "registryVersion": "0.2.0"
+  },
+  "registries": {
+    "mathematics-progress-result-approach": {
+      "registryId": "mathematics-progress-result-approach",
+      "version": "0.2.0",
+      "taxonomyVersion": "0.2.0",
+      "issued": "2026-08-04",
+      "changePolicy": {
+        "stableIds": true,
+        "allowedOperations": [
+          "add",
+          "split",
+          "merge",
+          "deprecate"
+        ],
+        "r3Cardinality": "multi-valued; a primary value is a browsing convenience, not a claim that other forms are subordinate",
+        "r4Admission": "One evidenced use, a definition and reviewer approval creates a provisional concept. A second independent use and review may promote it to stable."
+      },
+      "concepts": [
+        {
+          "id": "R1-MATHEMATICAL-RESULT",
+          "level": "R1",
+          "preferredLabel": "Mathematical result",
+          "definition": "A new theorem, counterexample, construction, exact computation, bound, algorithmic guarantee or classification is the principal contribution.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R1-FORMALISATION",
+          "level": "R1",
+          "preferredLabel": "Formalisation",
+          "definition": "Encoding and machine-checking mathematical content or building reusable formal infrastructure is the principal contribution.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Formalization"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R1-SYSTEM-OR-TOOL",
+          "level": "R1",
+          "preferredLabel": "System or tool",
+          "definition": "A reusable AI, search, computation or formalisation system is the principal contribution.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "System/tool"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R1-BENCHMARK-OR-EVALUATION",
+          "level": "R1",
+          "preferredLabel": "Benchmark or evaluation",
+          "definition": "Capability measurement or system comparison on a defined mathematical task set is the principal contribution.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Benchmark/evaluation"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R1-SURVEY-OR-SYNTHESIS",
+          "level": "R1",
+          "preferredLabel": "Survey or synthesis",
+          "definition": "Existing evidence is organised, reviewed or quantitatively mapped without a new target theorem as the main contribution.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Survey/synthesis"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-AFFIRMATIVE-RESOLUTION",
+          "level": "R2",
+          "preferredLabel": "Affirmative resolution",
+          "definition": "A stated target or implication is proved in its intended scope.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Affirmative proof"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-NEGATIVE-RESOLUTION",
+          "level": "R2",
+          "preferredLabel": "Negative resolution",
+          "definition": "A conjecture, universal assertion or proposed implication is disproved.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Disproof"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-UNDECIDABILITY-OR-IMPOSSIBILITY",
+          "level": "R2",
+          "preferredLabel": "Undecidability or impossibility",
+          "definition": "A decision, approximation or construction task is shown impossible under stated assumptions.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Impossibility",
+            "Undecidability"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-PARTIAL-PROGRESS",
+          "level": "R2",
+          "preferredLabel": "Partial progress",
+          "definition": "A meaningful case, direction or conditional result is established without settling the target.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Partial result"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-IMPROVED-BOUND",
+          "level": "R2",
+          "preferredLabel": "Improved bound",
+          "definition": "A previous numerical, asymptotic or extremal bound is strengthened but not shown sharp.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Bound improvement"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-IMPROVED-ALGORITHM",
+          "level": "R2",
+          "preferredLabel": "Improved algorithm",
+          "definition": "A complexity, approximation or resource guarantee is improved without a matching optimality result.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Algorithm improvement"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-CONSTRUCTION-OR-WITNESS",
+          "level": "R2",
+          "preferredLabel": "Construction or witness",
+          "definition": "The main contribution is an explicit or existential mathematical object.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Constructive theorem",
+            "Construction"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "level": "R2",
+          "preferredLabel": "Exact value or classification",
+          "definition": "A quantity is determined exactly, or all objects in the stated class are characterised.",
+          "broaderId": "R1-MATHEMATICAL-RESULT",
+          "status": "stable",
+          "aliases": [
+            "Exact value",
+            "Classification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-NEW-FORMALISATION",
+          "level": "R2",
+          "preferredLabel": "New formalisation",
+          "definition": "An existing or newly produced mathematical result is encoded and checked in a proof assistant.",
+          "broaderId": "R1-FORMALISATION",
+          "status": "stable",
+          "aliases": [
+            "New formalization"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-FORMAL-LIBRARY-OR-INFRASTRUCTURE",
+          "level": "R2",
+          "preferredLabel": "Formal library or infrastructure",
+          "definition": "Reusable definitions, lemmas or interfaces are the primary contribution.",
+          "broaderId": "R1-FORMALISATION",
+          "status": "stable",
+          "aliases": [
+            "Formal infrastructure"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-DISCOVERY-OR-PROVING-SYSTEM",
+          "level": "R2",
+          "preferredLabel": "Discovery or proving system",
+          "definition": "A reusable AI, search or formalisation system is introduced or materially extended.",
+          "broaderId": "R1-SYSTEM-OR-TOOL",
+          "status": "stable",
+          "aliases": [
+            "Discovery system",
+            "Proving system"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-CAPABILITY-EVALUATION",
+          "level": "R2",
+          "preferredLabel": "Capability evaluation",
+          "definition": "Systems are compared on a defined set of mathematical tasks.",
+          "broaderId": "R1-BENCHMARK-OR-EVALUATION",
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R2-EVIDENCE-SYNTHESIS",
+          "level": "R2",
+          "preferredLabel": "Evidence synthesis",
+          "definition": "Prior work is organised, reviewed or quantitatively mapped without a new target theorem.",
+          "broaderId": "R1-SURVEY-OR-SYNTHESIS",
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R1–R2 controlled vocabulary"
+            }
+          ]
+        },
+        {
+          "id": "R3-DIRECT-PROOF",
+          "level": "R3",
+          "preferredLabel": "Direct proof",
+          "definition": "Establishes the target without making negation of the conclusion the organising strategy.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-PROOF-BY-CONTRADICTION",
+          "level": "R3",
+          "preferredLabel": "Proof by contradiction",
+          "definition": "Uses an assumed negation of the target as the principal global strategy.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Contradiction"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-COUNTEREXAMPLE",
+          "level": "R3",
+          "preferredLabel": "Counterexample",
+          "definition": "Refutes a universal assertion by providing an object satisfying the assumptions and violating the conclusion.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Explicit counterexample"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-CONSTRUCTED-EXISTENCE",
+          "level": "R3",
+          "preferredLabel": "Constructed existence",
+          "definition": "Establishes existence through a construction, including long recursive or prescribed-object constructions.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Explicit construction"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-NONCONSTRUCTIVE-EXISTENCE",
+          "level": "R3",
+          "preferredLabel": "Nonconstructive existence",
+          "definition": "Establishes existence without producing a usable witness or construction procedure.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-REDUCTION-OR-CHARACTERISATION",
+          "level": "R3",
+          "preferredLabel": "Reduction or characterisation",
+          "definition": "Converts the target to an equivalent or sufficient condition that can be resolved.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Reduction",
+            "Characterization",
+            "Characterisation"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-INDUCTION-OR-RECURSION",
+          "level": "R3",
+          "preferredLabel": "Induction or recursion",
+          "definition": "Uses induction, structural recursion, transfinite recursion or a related iterative construction as a principal method.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Induction",
+            "Recursion"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-PROBABILISTIC-EXISTENCE",
+          "level": "R3",
+          "preferredLabel": "Probabilistic existence",
+          "definition": "Uses random choice or a probabilistic estimate to establish existence.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Probabilistic method"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-EXHAUSTIVE-FINITE-SEARCH",
+          "level": "R3",
+          "preferredLabel": "Exhaustive finite search",
+          "definition": "Proves a finite claim by complete enumeration of the relevant search space.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Exhaustive search"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-CERTIFICATE-BACKED-COMPUTATION",
+          "level": "R3",
+          "preferredLabel": "Certificate-backed computation",
+          "definition": "Produces a result whose correctness is checked by a separate deterministic verifier or certificate checker.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Certified computation"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-FORMAL-PROOF-SYNTHESIS",
+          "level": "R3",
+          "preferredLabel": "Formal proof synthesis",
+          "definition": "Search directly produces a proof term or script accepted by a formal prover.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Formal proof search"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R3-EXPERIMENTAL-EVIDENCE-ONLY",
+          "level": "R3",
+          "preferredLabel": "Experimental evidence only",
+          "definition": "Reports computational or empirical support that does not establish the mathematical claim as a theorem.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Experimental evidence"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R3 argument forms"
+            }
+          ]
+        },
+        {
+          "id": "R4-DISCHARGING",
+          "level": "R4",
+          "preferredLabel": "Discharging",
+          "definition": "Redistributes a conserved combinatorial charge according to local rules to rule out all minimal counterexamples.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-FLAG-ALGEBRAS",
+          "level": "R4",
+          "preferredLabel": "Flag algebras",
+          "definition": "Uses Razborov's flag-algebra framework to convert asymptotic density constraints into semidefinite inequalities.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [
+            "Flag algebra method"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-PRESCRIBED-COMPLETION",
+          "level": "R4",
+          "preferredLabel": "Prescribed completion",
+          "definition": "Constructs a local or topological algebraic object while controlling its completion to a specified target.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-GENERIC-FORMAL-FIBRE-CONTROL",
+          "level": "R4",
+          "preferredLabel": "Generic formal-fibre control",
+          "definition": "Controls generic formal fibres in a completion or local-ring construction to obtain the required prime-spectrum behaviour.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [
+            "Generic formal fiber control"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-POLYNOMIAL-METHOD",
+          "level": "R4",
+          "preferredLabel": "Polynomial method",
+          "definition": "Encodes combinatorial or geometric information in polynomials and derives the target from their algebraic properties.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-SAT-ENCODING",
+          "level": "R4",
+          "preferredLabel": "SAT encoding",
+          "definition": "Translates the mathematical constraints into Boolean satisfiability for search or certified unsatisfiability checking.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [
+            "SAT reduction"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-LINEAR-PROGRAMMING-DUAL-CERTIFICATE",
+          "level": "R4",
+          "preferredLabel": "Linear programming dual certificate",
+          "definition": "Uses a feasible dual solution as a checkable certificate for a linear-programming bound.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [
+            "LP dual certificate"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        },
+        {
+          "id": "R4-TRANSFINITE-RECURSION",
+          "level": "R4",
+          "preferredLabel": "Transfinite recursion",
+          "definition": "Defines objects along a well-order beyond the finite ordinals, using earlier stages to construct each successor or limit stage.",
+          "broaderId": null,
+          "status": "provisional",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet II: R4 examples"
+            }
+          ]
+        }
+      ]
+    },
+    "mathematics-progress-production": {
+      "registryId": "mathematics-progress-production",
+      "version": "0.2.0",
+      "taxonomyVersion": "0.2.0",
+      "issued": "2026-08-04",
+      "changePolicy": {
+        "stableIds": true,
+        "axesAreSiblings": true,
+        "note": "P1–P4 are independent production dimensions, not one parent–child path. P1 remains qualified by stage-specific evidence."
+      },
+      "concepts": [
+        {
+          "id": "P1-HUMAN-LED-AI-ASSISTED",
+          "level": "P1",
+          "preferredLabel": "Human-led, AI-assisted",
+          "definition": "Humans own the principal strategy or proof; AI supplies bounded assistance such as search, examples, algebra, checking or editing.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Human-led AI-assisted"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P1-SHARED-HUMAN-AI",
+          "level": "P1",
+          "preferredLabel": "Shared human–AI",
+          "definition": "Humans and systems make interdependent substantive contributions at the decisive mathematical stage, with neither cleanly described as merely assisting.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Shared human-AI",
+            "Human–AI collaboration",
+            "Human-AI collaboration"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P1-AI-LED",
+          "level": "P1",
+          "preferredLabel": "AI-led",
+          "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. Use source-claimed autonomous instead when its stricter evidence rule is satisfied.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "AI-led discovery",
+            "AI-led one-shot proof",
+            "Human-prompted, AI-led"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P1-SOURCE-CLAIMED-AUTONOMOUS",
+          "level": "P1",
+          "preferredLabel": "Source-claimed autonomous",
+          "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This summary takes precedence over AI-led when the evidence rule is satisfied and is never treated as an audited project-wide fact.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Autonomous (source-claimed)"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P1-HUMAN-ONLY-CONTROL",
+          "level": "P1",
+          "preferredLabel": "Human-only control",
+          "definition": "A comparison or verification artifact is produced without AI involvement.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Human-only"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P1-UNCLEAR-OR-NOT-REPORTED",
+          "level": "P1",
+          "preferredLabel": "Unclear or not reported",
+          "definition": "The available sources do not support a defensible allocation of substantive work.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Unclear",
+            "Not reported"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P1"
+            }
+          ]
+        },
+        {
+          "id": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "level": "P2",
+          "preferredLabel": "Informal natural-language reasoning",
+          "definition": "The substantive reasoning is represented primarily in informal mathematical language.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Informal reasoning"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P2-EXECUTABLE-COMPUTATION-OR-PROGRAM-SEARCH",
+          "level": "P2",
+          "preferredLabel": "Executable computation or program search",
+          "definition": "Executable programs, symbolic computation or generated code carry the substantive search or reasoning.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Executable computation",
+            "Program search"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P2-FORMAL-THEOREM-PROVING",
+          "level": "P2",
+          "preferredLabel": "Formal theorem proving",
+          "definition": "The substantive reasoning is represented as formal definitions and proof terms or scripts checked by a prover.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Formal proving"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "level": "P2",
+          "preferredLabel": "Hybrid informal-to-formal",
+          "definition": "Informal mathematical reasoning is translated into, repaired against or paired with a formal proof representation.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Informal-to-formal"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P2-HYBRID-COMPUTATION-TO-FORMAL-CERTIFICATE",
+          "level": "P2",
+          "preferredLabel": "Hybrid computation-to-formal-certificate",
+          "definition": "Computation or search produces an object or certificate subsequently checked in a formal or independently specified checker.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Computation-to-formal certificate"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P2-MIXED-OR-NOT-REPORTED",
+          "level": "P2",
+          "preferredLabel": "Mixed or not reported",
+          "definition": "Multiple representations are used without a defensible primary representation, or the representation is not reported.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Mixed representation"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P2"
+            }
+          ]
+        },
+        {
+          "id": "P3-DIRECT-MODEL-INTERACTION",
+          "level": "P3",
+          "preferredLabel": "Direct model interaction",
+          "definition": "One or more bounded prompts without an autonomous iterative controller.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Direct one-shot generation"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P3-ITERATIVE-SINGLE-AGENT",
+          "level": "P3",
+          "preferredLabel": "Iterative single-agent",
+          "definition": "One agent plans or revises across multiple steps using feedback or tools.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Single-agent iterative"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P3-MULTI-AGENT",
+          "level": "P3",
+          "preferredLabel": "Multi-agent",
+          "definition": "Distinct agents or contexts have specialised roles such as planning, generation, criticism or formal proving.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Multiagent"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P3-PROGRAM-OR-EVOLUTIONARY-SEARCH",
+          "level": "P3",
+          "preferredLabel": "Program or evolutionary search",
+          "definition": "Candidate programs or mathematical objects are generated, evaluated and selected over repeated generations.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Evolutionary search",
+            "Program search"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P3-NEURAL-SYMBOLIC",
+          "level": "P3",
+          "preferredLabel": "Neural-symbolic",
+          "definition": "A learned component is coupled to a symbolic deduction, constraint or proof engine.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Neuro-symbolic"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P3-COMPOUND-PIPELINE",
+          "level": "P3",
+          "preferredLabel": "Compound pipeline",
+          "definition": "Distinct informal, computational or formal systems operate in a defined sequence.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Compound multi-agent pipeline"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-RETRIEVAL-AUGMENTED",
+          "level": "P4",
+          "preferredLabel": "Retrieval-augmented",
+          "definition": "The workflow retrieves mathematical statements, literature, library lemmas or examples during the run.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Retrieval augmented",
+            "Source and library retrieval"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-GENERATOR-CRITIC",
+          "level": "P4",
+          "preferredLabel": "Generator–critic",
+          "definition": "A critic gives qualitative feedback to a generator.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Generator-critic"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-GENERATOR-VERIFIER",
+          "level": "P4",
+          "preferredLabel": "Generator–verifier",
+          "definition": "A verifier applies a defined acceptance check and returns repair feedback or a pass/fail decision.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Generator-verifier",
+            "Generator–verifier–reviser agent"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-PLANNING-AND-TASK-DECOMPOSITION",
+          "level": "P4",
+          "preferredLabel": "Planning and task decomposition",
+          "definition": "A controller constructs or revises subgoals, modules or proof obligations.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Task decomposition"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-PERSISTENT-MEMORY",
+          "level": "P4",
+          "preferredLabel": "Persistent memory",
+          "definition": "State survives context compression, sessions or independent agent calls.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-PARALLEL-CANDIDATE-SEARCH",
+          "level": "P4",
+          "preferredLabel": "Parallel candidate search",
+          "definition": "Multiple candidate proofs, programs or obligations are explored concurrently.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Parallel search"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        },
+        {
+          "id": "P4-HUMAN-IN-THE-LOOP",
+          "level": "P4",
+          "preferredLabel": "Human-in-the-loop",
+          "definition": "Human approval, selection, hints or corrections occur at recorded intervention points.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Human in the loop"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: P3–P4"
+            }
+          ]
+        }
+      ],
+      "legacyMappings": [
+        {
+          "label": "Architecture not reported",
+          "targetConceptIds": [],
+          "mappingType": "not_reported",
+          "note": "Store the explicit state, not a concept ID."
+        },
+        {
+          "label": "Agentic compile–diagnose–repair",
+          "targetConceptIds": [
+            "P3-ITERATIVE-SINGLE-AGENT",
+            "P4-GENERATOR-VERIFIER"
+          ],
+          "mappingType": "composite"
+        },
+        {
+          "label": "AutoMath queue-and-audit workflow",
+          "targetConceptIds": [
+            "P3-ITERATIVE-SINGLE-AGENT",
+            "P4-GENERATOR-VERIFIER"
+          ],
+          "mappingType": "composite"
+        },
+        {
+          "label": "Customized Rethlas workflow",
+          "targetConceptIds": [],
+          "mappingType": "requires_recoding"
+        },
+        {
+          "label": "Generator–verifier agent",
+          "targetConceptIds": [
+            "P3-ITERATIVE-SINGLE-AGENT",
+            "P4-GENERATOR-VERIFIER"
+          ],
+          "mappingType": "composite"
+        },
+        {
+          "label": "Multi-agent evolutionary proof search",
+          "targetConceptIds": [
+            "P3-MULTI-AGENT",
+            "P3-PROGRAM-OR-EVOLUTIONARY-SEARCH"
+          ],
+          "mappingType": "multi_axis_review_required"
+        }
+      ]
+    },
+    "mathematics-progress-verification": {
+      "registryId": "mathematics-progress-verification",
+      "version": "0.2.0",
+      "taxonomyVersion": "0.2.0",
+      "issued": "2026-08-04",
+      "changePolicy": {
+        "stableIds": true,
+        "eventBased": true,
+        "notAStrengthScale": true,
+        "note": "Families and methods describe what happened. Assurance summaries, if shown, are lossy derived labels and never replace events."
+      },
+      "concepts": [
+        {
+          "id": "VF-INTERNAL",
+          "level": "family",
+          "preferredLabel": "Internal",
+          "definition": "A check performed inside the originating model workflow or team with limited independence.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Internal verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-HUMAN",
+          "level": "family",
+          "preferredLabel": "Human",
+          "definition": "A person reviews a specified scope of the mathematics or its correspondence to an intended claim.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Human verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-COMPUTATIONAL",
+          "level": "family",
+          "preferredLabel": "Computational",
+          "definition": "Executable tests, symbolic calculations, numerical checks or finite enumeration check a specified scope.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Computational verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-CERTIFICATE",
+          "level": "family",
+          "preferredLabel": "Certificate",
+          "definition": "A compact artifact is checked against an independently specified checker or verification condition.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Certificate verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-FORMAL",
+          "level": "family",
+          "preferredLabel": "Formal",
+          "definition": "A proof assistant or formal comparison process checks a precisely represented statement.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Formal verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-EXTERNAL",
+          "level": "family",
+          "preferredLabel": "External",
+          "definition": "A party independent of the originating workflow replays or independently establishes the claim.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "External verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VF-PUBLICATION",
+          "level": "family",
+          "preferredLabel": "Publication",
+          "definition": "A venue process or publication status is recorded separately from mathematical, computational and formal checks.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Publication verification"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-INTERNAL-MODEL-SELF-CHECK",
+          "level": "method",
+          "preferredLabel": "Model self-check",
+          "definition": "A model or agent judges its own output; useful feedback but minimal independence.",
+          "broaderId": "VF-INTERNAL",
+          "status": "stable",
+          "aliases": [
+            "AI grading",
+            "Same-system AI verifier"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-INTERNAL-DIFFERENT-MODEL-CHECK",
+          "level": "method",
+          "preferredLabel": "Different-model check",
+          "definition": "Another model checks the output; independence depends on harness, data and team.",
+          "broaderId": "VF-INTERNAL",
+          "status": "stable",
+          "aliases": [
+            "Cross-model check"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "level": "method",
+          "preferredLabel": "Expert mathematical review",
+          "definition": "A qualified person checks a stated scope of the mathematics; identity, procedure and independence are recorded where known.",
+          "broaderId": "VF-HUMAN",
+          "status": "stable",
+          "aliases": [
+            "Expert review",
+            "Author review",
+            "Author check and edit",
+            "Author expert review",
+            "Expert-author proof and reference check",
+            "Internal and external specialist review",
+            "Additional blueprint and specialist review"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-COMPUTATIONAL-DETERMINISTIC-TESTS",
+          "level": "method",
+          "preferredLabel": "Deterministic tests",
+          "definition": "Code passes specified tests; this establishes only the tested behaviour.",
+          "broaderId": "VF-COMPUTATIONAL",
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-COMPUTATIONAL-NUMERICAL-OR-CAS-CHECK",
+          "level": "method",
+          "preferredLabel": "Numerical or CAS check",
+          "definition": "Symbolic or numerical calculations support stated identities or cases.",
+          "broaderId": "VF-COMPUTATIONAL",
+          "status": "stable",
+          "aliases": [
+            "Exact symbolic evaluation",
+            "CAS check",
+            "Numerical check"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-COMPUTATIONAL-EXHAUSTIVE-FINITE-SEARCH",
+          "level": "method",
+          "preferredLabel": "Exhaustive finite search",
+          "definition": "All cases in a defined finite space are checked.",
+          "broaderId": "VF-COMPUTATIONAL",
+          "status": "stable",
+          "aliases": [
+            "Complete enumeration"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-CERTIFICATE-SEPARATELY-CHECKED",
+          "level": "method",
+          "preferredLabel": "Separately checked certificate",
+          "definition": "A small or independently checkable artifact establishes the result relative to checker correctness.",
+          "broaderId": "VF-CERTIFICATE",
+          "status": "stable",
+          "aliases": [
+            "Checked certificate"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "level": "method",
+          "preferredLabel": "Proof-assistant kernel check",
+          "definition": "The formal theorem is accepted relative to its definitions, imports and allowed axioms.",
+          "broaderId": "VF-FORMAL",
+          "status": "stable",
+          "aliases": [
+            "Lean kernel check",
+            "Isabelle/HOL kernel check",
+            "Lean check with trusted native computation",
+            "SafeVerify"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-FORMAL-STATEMENT-CORRESPONDENCE-REVIEW",
+          "level": "method",
+          "preferredLabel": "Statement-correspondence review",
+          "definition": "A human or comparison tool checks that the formal statement represents the intended informal claim, including any weakened scope or altered assumptions.",
+          "broaderId": "VF-FORMAL",
+          "status": "stable",
+          "aliases": [
+            "Statement correspondence review",
+            "Statement-correspondence check"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-EXTERNAL-INDEPENDENT-REPLAY",
+          "level": "method",
+          "preferredLabel": "Independent replay",
+          "definition": "A different party reruns supplied artifacts in a supplied or equivalent environment.",
+          "broaderId": "VF-EXTERNAL",
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+          "level": "method",
+          "preferredLabel": "Independent replication",
+          "definition": "A different party establishes the claim using independently created artifacts or a new proof or formalisation.",
+          "broaderId": "VF-EXTERNAL",
+          "status": "stable",
+          "aliases": [
+            "Independent formalisation",
+            "Separate Lean formalisation",
+            "Independent specialist reconstruction",
+            "Human-digested companion proof"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        },
+        {
+          "id": "VM-PUBLICATION-PEER-REVIEW-OR-PUBLICATION",
+          "level": "method",
+          "preferredLabel": "Peer review or publication",
+          "definition": "The work has passed a venue process; this does not by itself establish mathematical or formal correctness.",
+          "broaderId": "VF-PUBLICATION",
+          "status": "stable",
+          "aliases": [
+            "Peer review",
+            "Publication"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1",
+              "location": "Facet III: Verification hierarchy"
+            }
+          ]
+        }
+      ],
+      "legacyMappings": [
+        {
+          "label": "Published prior result",
+          "targetConceptIds": [],
+          "mappingType": "requires_recoding",
+          "note": "This records reliance on prior literature, not verification of the new result; retain it as source-role metadata unless a specific verification event is documented."
+        }
+      ]
+    },
+    "mathematics-progress-system-families": {
+      "registryId": "mathematics-progress-system-families",
+      "version": "0.2.0",
+      "taxonomyVersion": "0.2.0",
+      "issued": "2026-08-04",
+      "changePolicy": {
+        "stableIds": true,
+        "classificationScope": "Searchable system metadata, not a browse-facet hierarchy.",
+        "matchingRule": "Prefer explicit source attribution. Aliases support deterministic matching but never infer an exact snapshot, role or configuration. Mixed families must be recorded when one displayed label intentionally represents more than one provider family."
+      },
+      "concepts": [
+        {
+          "id": "SF-OPENAI",
+          "level": "system_family",
+          "preferredLabel": "OpenAI / GPT / Codex",
+          "definition": "OpenAI model and agent products, including GPT-branded models and Codex.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "OpenAI",
+            "GPT",
+            "Codex",
+            "GPT-5.4",
+            "GPT-5.5",
+            "GPT-5.6",
+            "GPT-5.6 Sol",
+            "GPT-5.6 Sol Ultra",
+            "OpenAI Codex agent"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-ANTHROPIC",
+          "level": "system_family",
+          "preferredLabel": "Anthropic / Claude",
+          "definition": "Anthropic Claude models and Claude Code.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Anthropic",
+            "Claude",
+            "Claude Code",
+            "Claude Fable",
+            "Claude Opus"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-GOOGLE",
+          "level": "system_family",
+          "preferredLabel": "Google / Gemini / AlphaProof",
+          "definition": "Google and Google DeepMind model or proof systems, including Gemini and AlphaProof.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Google",
+            "Google DeepMind",
+            "Gemini",
+            "Gemini Deep Think",
+            "AlphaProof",
+            "AlphaProof Nexus Agent D"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-LEAN",
+          "level": "system_family",
+          "preferredLabel": "Lean / Mathlib",
+          "definition": "Lean proof-assistant environments and the Mathlib library.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Lean",
+            "Lean 4",
+            "Mathlib",
+            "Lean 4 / Mathlib"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-ISABELLE",
+          "level": "system_family",
+          "preferredLabel": "Isabelle",
+          "definition": "Isabelle proof-assistant environments, including Isabelle/HOL.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Isabelle/HOL"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-RETHLAS",
+          "level": "system_family",
+          "preferredLabel": "Rethlas / Matlas",
+          "definition": "The Rethlas mathematical discovery workflow and Matlas retrieval component.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Rethlas",
+            "Customized Rethlas",
+            "Matlas"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-ALETHEIA",
+          "level": "system_family",
+          "preferredLabel": "Aletheia",
+          "definition": "The Aletheia mathematical reasoning or formal proof system family.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-MIXED-MODEL-PORTFOLIO",
+          "level": "system_family",
+          "preferredLabel": "Mixed model portfolio",
+          "definition": "A single displayed system entry intentionally combines models from more than one provider family and cannot be split from the available evidence.",
+          "broaderId": null,
+          "status": "stable",
+          "aliases": [
+            "Claude Code and Codex",
+            "Claude and GPT portfolio",
+            "Mixed provider portfolio"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        },
+        {
+          "id": "SF-UNCLASSIFIED",
+          "level": "system_family",
+          "preferredLabel": "Unclassified system family",
+          "definition": "A system is identified, but the available family registry does not yet provide a defensible family assignment.",
+          "broaderId": null,
+          "status": "stable",
+          "isUnknownBucket": true,
+          "aliases": [
+            "Unknown family",
+            "Undisclosed AI grading pipeline",
+            "Undisclosed internal reasoning model"
+          ],
+          "provenance": [
+            {
+              "source": "taxonomy-0.1.1-colour-map",
+              "location": "System metadata"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "concepts": [
+    {
+      "id": "R1-MATHEMATICAL-RESULT",
+      "level": "R1",
+      "preferredLabel": "Mathematical result",
+      "definition": "A new theorem, counterexample, construction, exact computation, bound, algorithmic guarantee or classification is the principal contribution.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R1-FORMALISATION",
+      "level": "R1",
+      "preferredLabel": "Formalisation",
+      "definition": "Encoding and machine-checking mathematical content or building reusable formal infrastructure is the principal contribution.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Formalization"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R1-SYSTEM-OR-TOOL",
+      "level": "R1",
+      "preferredLabel": "System or tool",
+      "definition": "A reusable AI, search, computation or formalisation system is the principal contribution.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "System/tool"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R1-BENCHMARK-OR-EVALUATION",
+      "level": "R1",
+      "preferredLabel": "Benchmark or evaluation",
+      "definition": "Capability measurement or system comparison on a defined mathematical task set is the principal contribution.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Benchmark/evaluation"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R1-SURVEY-OR-SYNTHESIS",
+      "level": "R1",
+      "preferredLabel": "Survey or synthesis",
+      "definition": "Existing evidence is organised, reviewed or quantitatively mapped without a new target theorem as the main contribution.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Survey/synthesis"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-AFFIRMATIVE-RESOLUTION",
+      "level": "R2",
+      "preferredLabel": "Affirmative resolution",
+      "definition": "A stated target or implication is proved in its intended scope.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Affirmative proof"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-NEGATIVE-RESOLUTION",
+      "level": "R2",
+      "preferredLabel": "Negative resolution",
+      "definition": "A conjecture, universal assertion or proposed implication is disproved.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Disproof"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-UNDECIDABILITY-OR-IMPOSSIBILITY",
+      "level": "R2",
+      "preferredLabel": "Undecidability or impossibility",
+      "definition": "A decision, approximation or construction task is shown impossible under stated assumptions.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Impossibility",
+        "Undecidability"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-PARTIAL-PROGRESS",
+      "level": "R2",
+      "preferredLabel": "Partial progress",
+      "definition": "A meaningful case, direction or conditional result is established without settling the target.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Partial result"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-IMPROVED-BOUND",
+      "level": "R2",
+      "preferredLabel": "Improved bound",
+      "definition": "A previous numerical, asymptotic or extremal bound is strengthened but not shown sharp.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Bound improvement"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-IMPROVED-ALGORITHM",
+      "level": "R2",
+      "preferredLabel": "Improved algorithm",
+      "definition": "A complexity, approximation or resource guarantee is improved without a matching optimality result.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Algorithm improvement"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-CONSTRUCTION-OR-WITNESS",
+      "level": "R2",
+      "preferredLabel": "Construction or witness",
+      "definition": "The main contribution is an explicit or existential mathematical object.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Constructive theorem",
+        "Construction"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+      "level": "R2",
+      "preferredLabel": "Exact value or classification",
+      "definition": "A quantity is determined exactly, or all objects in the stated class are characterised.",
+      "broaderId": "R1-MATHEMATICAL-RESULT",
+      "status": "stable",
+      "aliases": [
+        "Exact value",
+        "Classification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-NEW-FORMALISATION",
+      "level": "R2",
+      "preferredLabel": "New formalisation",
+      "definition": "An existing or newly produced mathematical result is encoded and checked in a proof assistant.",
+      "broaderId": "R1-FORMALISATION",
+      "status": "stable",
+      "aliases": [
+        "New formalization"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-FORMAL-LIBRARY-OR-INFRASTRUCTURE",
+      "level": "R2",
+      "preferredLabel": "Formal library or infrastructure",
+      "definition": "Reusable definitions, lemmas or interfaces are the primary contribution.",
+      "broaderId": "R1-FORMALISATION",
+      "status": "stable",
+      "aliases": [
+        "Formal infrastructure"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-DISCOVERY-OR-PROVING-SYSTEM",
+      "level": "R2",
+      "preferredLabel": "Discovery or proving system",
+      "definition": "A reusable AI, search or formalisation system is introduced or materially extended.",
+      "broaderId": "R1-SYSTEM-OR-TOOL",
+      "status": "stable",
+      "aliases": [
+        "Discovery system",
+        "Proving system"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-CAPABILITY-EVALUATION",
+      "level": "R2",
+      "preferredLabel": "Capability evaluation",
+      "definition": "Systems are compared on a defined set of mathematical tasks.",
+      "broaderId": "R1-BENCHMARK-OR-EVALUATION",
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R2-EVIDENCE-SYNTHESIS",
+      "level": "R2",
+      "preferredLabel": "Evidence synthesis",
+      "definition": "Prior work is organised, reviewed or quantitatively mapped without a new target theorem.",
+      "broaderId": "R1-SURVEY-OR-SYNTHESIS",
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R1–R2 controlled vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "R3-DIRECT-PROOF",
+      "level": "R3",
+      "preferredLabel": "Direct proof",
+      "definition": "Establishes the target without making negation of the conclusion the organising strategy.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-PROOF-BY-CONTRADICTION",
+      "level": "R3",
+      "preferredLabel": "Proof by contradiction",
+      "definition": "Uses an assumed negation of the target as the principal global strategy.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Contradiction"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-COUNTEREXAMPLE",
+      "level": "R3",
+      "preferredLabel": "Counterexample",
+      "definition": "Refutes a universal assertion by providing an object satisfying the assumptions and violating the conclusion.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Explicit counterexample"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-CONSTRUCTED-EXISTENCE",
+      "level": "R3",
+      "preferredLabel": "Constructed existence",
+      "definition": "Establishes existence through a construction, including long recursive or prescribed-object constructions.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Explicit construction"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-NONCONSTRUCTIVE-EXISTENCE",
+      "level": "R3",
+      "preferredLabel": "Nonconstructive existence",
+      "definition": "Establishes existence without producing a usable witness or construction procedure.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-REDUCTION-OR-CHARACTERISATION",
+      "level": "R3",
+      "preferredLabel": "Reduction or characterisation",
+      "definition": "Converts the target to an equivalent or sufficient condition that can be resolved.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Reduction",
+        "Characterization",
+        "Characterisation"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-INDUCTION-OR-RECURSION",
+      "level": "R3",
+      "preferredLabel": "Induction or recursion",
+      "definition": "Uses induction, structural recursion, transfinite recursion or a related iterative construction as a principal method.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Induction",
+        "Recursion"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-PROBABILISTIC-EXISTENCE",
+      "level": "R3",
+      "preferredLabel": "Probabilistic existence",
+      "definition": "Uses random choice or a probabilistic estimate to establish existence.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Probabilistic method"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-EXHAUSTIVE-FINITE-SEARCH",
+      "level": "R3",
+      "preferredLabel": "Exhaustive finite search",
+      "definition": "Proves a finite claim by complete enumeration of the relevant search space.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Exhaustive search"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-CERTIFICATE-BACKED-COMPUTATION",
+      "level": "R3",
+      "preferredLabel": "Certificate-backed computation",
+      "definition": "Produces a result whose correctness is checked by a separate deterministic verifier or certificate checker.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Certified computation"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-FORMAL-PROOF-SYNTHESIS",
+      "level": "R3",
+      "preferredLabel": "Formal proof synthesis",
+      "definition": "Search directly produces a proof term or script accepted by a formal prover.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Formal proof search"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R3-EXPERIMENTAL-EVIDENCE-ONLY",
+      "level": "R3",
+      "preferredLabel": "Experimental evidence only",
+      "definition": "Reports computational or empirical support that does not establish the mathematical claim as a theorem.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Experimental evidence"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R3 argument forms"
+        }
+      ]
+    },
+    {
+      "id": "R4-DISCHARGING",
+      "level": "R4",
+      "preferredLabel": "Discharging",
+      "definition": "Redistributes a conserved combinatorial charge according to local rules to rule out all minimal counterexamples.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-FLAG-ALGEBRAS",
+      "level": "R4",
+      "preferredLabel": "Flag algebras",
+      "definition": "Uses Razborov's flag-algebra framework to convert asymptotic density constraints into semidefinite inequalities.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [
+        "Flag algebra method"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-PRESCRIBED-COMPLETION",
+      "level": "R4",
+      "preferredLabel": "Prescribed completion",
+      "definition": "Constructs a local or topological algebraic object while controlling its completion to a specified target.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-GENERIC-FORMAL-FIBRE-CONTROL",
+      "level": "R4",
+      "preferredLabel": "Generic formal-fibre control",
+      "definition": "Controls generic formal fibres in a completion or local-ring construction to obtain the required prime-spectrum behaviour.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [
+        "Generic formal fiber control"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-POLYNOMIAL-METHOD",
+      "level": "R4",
+      "preferredLabel": "Polynomial method",
+      "definition": "Encodes combinatorial or geometric information in polynomials and derives the target from their algebraic properties.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-SAT-ENCODING",
+      "level": "R4",
+      "preferredLabel": "SAT encoding",
+      "definition": "Translates the mathematical constraints into Boolean satisfiability for search or certified unsatisfiability checking.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [
+        "SAT reduction"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-LINEAR-PROGRAMMING-DUAL-CERTIFICATE",
+      "level": "R4",
+      "preferredLabel": "Linear programming dual certificate",
+      "definition": "Uses a feasible dual solution as a checkable certificate for a linear-programming bound.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [
+        "LP dual certificate"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "R4-TRANSFINITE-RECURSION",
+      "level": "R4",
+      "preferredLabel": "Transfinite recursion",
+      "definition": "Defines objects along a well-order beyond the finite ordinals, using earlier stages to construct each successor or limit stage.",
+      "broaderId": null,
+      "status": "provisional",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet II: R4 examples"
+        }
+      ]
+    },
+    {
+      "id": "P1-HUMAN-LED-AI-ASSISTED",
+      "level": "P1",
+      "preferredLabel": "Human-led, AI-assisted",
+      "definition": "Humans own the principal strategy or proof; AI supplies bounded assistance such as search, examples, algebra, checking or editing.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Human-led AI-assisted"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P1-SHARED-HUMAN-AI",
+      "level": "P1",
+      "preferredLabel": "Shared human–AI",
+      "definition": "Humans and systems make interdependent substantive contributions at the decisive mathematical stage, with neither cleanly described as merely assisting.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Shared human-AI",
+        "Human–AI collaboration",
+        "Human-AI collaboration"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P1-AI-LED",
+      "level": "P1",
+      "preferredLabel": "AI-led",
+      "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. Use source-claimed autonomous instead when its stricter evidence rule is satisfied.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "AI-led discovery",
+        "AI-led one-shot proof",
+        "Human-prompted, AI-led"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P1-SOURCE-CLAIMED-AUTONOMOUS",
+      "level": "P1",
+      "preferredLabel": "Source-claimed autonomous",
+      "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This summary takes precedence over AI-led when the evidence rule is satisfied and is never treated as an audited project-wide fact.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Autonomous (source-claimed)"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P1-HUMAN-ONLY-CONTROL",
+      "level": "P1",
+      "preferredLabel": "Human-only control",
+      "definition": "A comparison or verification artifact is produced without AI involvement.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Human-only"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P1-UNCLEAR-OR-NOT-REPORTED",
+      "level": "P1",
+      "preferredLabel": "Unclear or not reported",
+      "definition": "The available sources do not support a defensible allocation of substantive work.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Unclear",
+        "Not reported"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P1"
+        }
+      ]
+    },
+    {
+      "id": "P2-INFORMAL-NATURAL-LANGUAGE",
+      "level": "P2",
+      "preferredLabel": "Informal natural-language reasoning",
+      "definition": "The substantive reasoning is represented primarily in informal mathematical language.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Informal reasoning"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P2-EXECUTABLE-COMPUTATION-OR-PROGRAM-SEARCH",
+      "level": "P2",
+      "preferredLabel": "Executable computation or program search",
+      "definition": "Executable programs, symbolic computation or generated code carry the substantive search or reasoning.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Executable computation",
+        "Program search"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P2-FORMAL-THEOREM-PROVING",
+      "level": "P2",
+      "preferredLabel": "Formal theorem proving",
+      "definition": "The substantive reasoning is represented as formal definitions and proof terms or scripts checked by a prover.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Formal proving"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P2-HYBRID-INFORMAL-TO-FORMAL",
+      "level": "P2",
+      "preferredLabel": "Hybrid informal-to-formal",
+      "definition": "Informal mathematical reasoning is translated into, repaired against or paired with a formal proof representation.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Informal-to-formal"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P2-HYBRID-COMPUTATION-TO-FORMAL-CERTIFICATE",
+      "level": "P2",
+      "preferredLabel": "Hybrid computation-to-formal-certificate",
+      "definition": "Computation or search produces an object or certificate subsequently checked in a formal or independently specified checker.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Computation-to-formal certificate"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P2-MIXED-OR-NOT-REPORTED",
+      "level": "P2",
+      "preferredLabel": "Mixed or not reported",
+      "definition": "Multiple representations are used without a defensible primary representation, or the representation is not reported.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Mixed representation"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P2"
+        }
+      ]
+    },
+    {
+      "id": "P3-DIRECT-MODEL-INTERACTION",
+      "level": "P3",
+      "preferredLabel": "Direct model interaction",
+      "definition": "One or more bounded prompts without an autonomous iterative controller.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Direct one-shot generation"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P3-ITERATIVE-SINGLE-AGENT",
+      "level": "P3",
+      "preferredLabel": "Iterative single-agent",
+      "definition": "One agent plans or revises across multiple steps using feedback or tools.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Single-agent iterative"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P3-MULTI-AGENT",
+      "level": "P3",
+      "preferredLabel": "Multi-agent",
+      "definition": "Distinct agents or contexts have specialised roles such as planning, generation, criticism or formal proving.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Multiagent"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P3-PROGRAM-OR-EVOLUTIONARY-SEARCH",
+      "level": "P3",
+      "preferredLabel": "Program or evolutionary search",
+      "definition": "Candidate programs or mathematical objects are generated, evaluated and selected over repeated generations.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Evolutionary search",
+        "Program search"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P3-NEURAL-SYMBOLIC",
+      "level": "P3",
+      "preferredLabel": "Neural-symbolic",
+      "definition": "A learned component is coupled to a symbolic deduction, constraint or proof engine.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Neuro-symbolic"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P3-COMPOUND-PIPELINE",
+      "level": "P3",
+      "preferredLabel": "Compound pipeline",
+      "definition": "Distinct informal, computational or formal systems operate in a defined sequence.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Compound multi-agent pipeline"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-RETRIEVAL-AUGMENTED",
+      "level": "P4",
+      "preferredLabel": "Retrieval-augmented",
+      "definition": "The workflow retrieves mathematical statements, literature, library lemmas or examples during the run.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Retrieval augmented",
+        "Source and library retrieval"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-GENERATOR-CRITIC",
+      "level": "P4",
+      "preferredLabel": "Generator–critic",
+      "definition": "A critic gives qualitative feedback to a generator.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Generator-critic"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-GENERATOR-VERIFIER",
+      "level": "P4",
+      "preferredLabel": "Generator–verifier",
+      "definition": "A verifier applies a defined acceptance check and returns repair feedback or a pass/fail decision.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Generator-verifier",
+        "Generator–verifier–reviser agent"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-PLANNING-AND-TASK-DECOMPOSITION",
+      "level": "P4",
+      "preferredLabel": "Planning and task decomposition",
+      "definition": "A controller constructs or revises subgoals, modules or proof obligations.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Task decomposition"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-PERSISTENT-MEMORY",
+      "level": "P4",
+      "preferredLabel": "Persistent memory",
+      "definition": "State survives context compression, sessions or independent agent calls.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-PARALLEL-CANDIDATE-SEARCH",
+      "level": "P4",
+      "preferredLabel": "Parallel candidate search",
+      "definition": "Multiple candidate proofs, programs or obligations are explored concurrently.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Parallel search"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "P4-HUMAN-IN-THE-LOOP",
+      "level": "P4",
+      "preferredLabel": "Human-in-the-loop",
+      "definition": "Human approval, selection, hints or corrections occur at recorded intervention points.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Human in the loop"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: P3–P4"
+        }
+      ]
+    },
+    {
+      "id": "VF-INTERNAL",
+      "level": "family",
+      "preferredLabel": "Internal",
+      "definition": "A check performed inside the originating model workflow or team with limited independence.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Internal verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-HUMAN",
+      "level": "family",
+      "preferredLabel": "Human",
+      "definition": "A person reviews a specified scope of the mathematics or its correspondence to an intended claim.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Human verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-COMPUTATIONAL",
+      "level": "family",
+      "preferredLabel": "Computational",
+      "definition": "Executable tests, symbolic calculations, numerical checks or finite enumeration check a specified scope.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Computational verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-CERTIFICATE",
+      "level": "family",
+      "preferredLabel": "Certificate",
+      "definition": "A compact artifact is checked against an independently specified checker or verification condition.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Certificate verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-FORMAL",
+      "level": "family",
+      "preferredLabel": "Formal",
+      "definition": "A proof assistant or formal comparison process checks a precisely represented statement.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Formal verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-EXTERNAL",
+      "level": "family",
+      "preferredLabel": "External",
+      "definition": "A party independent of the originating workflow replays or independently establishes the claim.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "External verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VF-PUBLICATION",
+      "level": "family",
+      "preferredLabel": "Publication",
+      "definition": "A venue process or publication status is recorded separately from mathematical, computational and formal checks.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Publication verification"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-INTERNAL-MODEL-SELF-CHECK",
+      "level": "method",
+      "preferredLabel": "Model self-check",
+      "definition": "A model or agent judges its own output; useful feedback but minimal independence.",
+      "broaderId": "VF-INTERNAL",
+      "status": "stable",
+      "aliases": [
+        "AI grading",
+        "Same-system AI verifier"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-INTERNAL-DIFFERENT-MODEL-CHECK",
+      "level": "method",
+      "preferredLabel": "Different-model check",
+      "definition": "Another model checks the output; independence depends on harness, data and team.",
+      "broaderId": "VF-INTERNAL",
+      "status": "stable",
+      "aliases": [
+        "Cross-model check"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+      "level": "method",
+      "preferredLabel": "Expert mathematical review",
+      "definition": "A qualified person checks a stated scope of the mathematics; identity, procedure and independence are recorded where known.",
+      "broaderId": "VF-HUMAN",
+      "status": "stable",
+      "aliases": [
+        "Expert review",
+        "Author review",
+        "Author check and edit",
+        "Author expert review",
+        "Expert-author proof and reference check",
+        "Internal and external specialist review",
+        "Additional blueprint and specialist review"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-COMPUTATIONAL-DETERMINISTIC-TESTS",
+      "level": "method",
+      "preferredLabel": "Deterministic tests",
+      "definition": "Code passes specified tests; this establishes only the tested behaviour.",
+      "broaderId": "VF-COMPUTATIONAL",
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-COMPUTATIONAL-NUMERICAL-OR-CAS-CHECK",
+      "level": "method",
+      "preferredLabel": "Numerical or CAS check",
+      "definition": "Symbolic or numerical calculations support stated identities or cases.",
+      "broaderId": "VF-COMPUTATIONAL",
+      "status": "stable",
+      "aliases": [
+        "Exact symbolic evaluation",
+        "CAS check",
+        "Numerical check"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-COMPUTATIONAL-EXHAUSTIVE-FINITE-SEARCH",
+      "level": "method",
+      "preferredLabel": "Exhaustive finite search",
+      "definition": "All cases in a defined finite space are checked.",
+      "broaderId": "VF-COMPUTATIONAL",
+      "status": "stable",
+      "aliases": [
+        "Complete enumeration"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-CERTIFICATE-SEPARATELY-CHECKED",
+      "level": "method",
+      "preferredLabel": "Separately checked certificate",
+      "definition": "A small or independently checkable artifact establishes the result relative to checker correctness.",
+      "broaderId": "VF-CERTIFICATE",
+      "status": "stable",
+      "aliases": [
+        "Checked certificate"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+      "level": "method",
+      "preferredLabel": "Proof-assistant kernel check",
+      "definition": "The formal theorem is accepted relative to its definitions, imports and allowed axioms.",
+      "broaderId": "VF-FORMAL",
+      "status": "stable",
+      "aliases": [
+        "Lean kernel check",
+        "Isabelle/HOL kernel check",
+        "Lean check with trusted native computation",
+        "SafeVerify"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-FORMAL-STATEMENT-CORRESPONDENCE-REVIEW",
+      "level": "method",
+      "preferredLabel": "Statement-correspondence review",
+      "definition": "A human or comparison tool checks that the formal statement represents the intended informal claim, including any weakened scope or altered assumptions.",
+      "broaderId": "VF-FORMAL",
+      "status": "stable",
+      "aliases": [
+        "Statement correspondence review",
+        "Statement-correspondence check"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-EXTERNAL-INDEPENDENT-REPLAY",
+      "level": "method",
+      "preferredLabel": "Independent replay",
+      "definition": "A different party reruns supplied artifacts in a supplied or equivalent environment.",
+      "broaderId": "VF-EXTERNAL",
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+      "level": "method",
+      "preferredLabel": "Independent replication",
+      "definition": "A different party establishes the claim using independently created artifacts or a new proof or formalisation.",
+      "broaderId": "VF-EXTERNAL",
+      "status": "stable",
+      "aliases": [
+        "Independent formalisation",
+        "Separate Lean formalisation",
+        "Independent specialist reconstruction",
+        "Human-digested companion proof"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "VM-PUBLICATION-PEER-REVIEW-OR-PUBLICATION",
+      "level": "method",
+      "preferredLabel": "Peer review or publication",
+      "definition": "The work has passed a venue process; this does not by itself establish mathematical or formal correctness.",
+      "broaderId": "VF-PUBLICATION",
+      "status": "stable",
+      "aliases": [
+        "Peer review",
+        "Publication"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1",
+          "location": "Facet III: Verification hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "SF-OPENAI",
+      "level": "system_family",
+      "preferredLabel": "OpenAI / GPT / Codex",
+      "definition": "OpenAI model and agent products, including GPT-branded models and Codex.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "OpenAI",
+        "GPT",
+        "Codex",
+        "GPT-5.4",
+        "GPT-5.5",
+        "GPT-5.6",
+        "GPT-5.6 Sol",
+        "GPT-5.6 Sol Ultra",
+        "OpenAI Codex agent"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-ANTHROPIC",
+      "level": "system_family",
+      "preferredLabel": "Anthropic / Claude",
+      "definition": "Anthropic Claude models and Claude Code.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Anthropic",
+        "Claude",
+        "Claude Code",
+        "Claude Fable",
+        "Claude Opus"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-GOOGLE",
+      "level": "system_family",
+      "preferredLabel": "Google / Gemini / AlphaProof",
+      "definition": "Google and Google DeepMind model or proof systems, including Gemini and AlphaProof.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Google",
+        "Google DeepMind",
+        "Gemini",
+        "Gemini Deep Think",
+        "AlphaProof",
+        "AlphaProof Nexus Agent D"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-LEAN",
+      "level": "system_family",
+      "preferredLabel": "Lean / Mathlib",
+      "definition": "Lean proof-assistant environments and the Mathlib library.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Lean",
+        "Lean 4",
+        "Mathlib",
+        "Lean 4 / Mathlib"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-ISABELLE",
+      "level": "system_family",
+      "preferredLabel": "Isabelle",
+      "definition": "Isabelle proof-assistant environments, including Isabelle/HOL.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Isabelle/HOL"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-RETHLAS",
+      "level": "system_family",
+      "preferredLabel": "Rethlas / Matlas",
+      "definition": "The Rethlas mathematical discovery workflow and Matlas retrieval component.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Rethlas",
+        "Customized Rethlas",
+        "Matlas"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-ALETHEIA",
+      "level": "system_family",
+      "preferredLabel": "Aletheia",
+      "definition": "The Aletheia mathematical reasoning or formal proof system family.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-MIXED-MODEL-PORTFOLIO",
+      "level": "system_family",
+      "preferredLabel": "Mixed model portfolio",
+      "definition": "A single displayed system entry intentionally combines models from more than one provider family and cannot be split from the available evidence.",
+      "broaderId": null,
+      "status": "stable",
+      "aliases": [
+        "Claude Code and Codex",
+        "Claude and GPT portfolio",
+        "Mixed provider portfolio"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    },
+    {
+      "id": "SF-UNCLASSIFIED",
+      "level": "system_family",
+      "preferredLabel": "Unclassified system family",
+      "definition": "A system is identified, but the available family registry does not yet provide a defensible family assignment.",
+      "broaderId": null,
+      "status": "stable",
+      "isUnknownBucket": true,
+      "aliases": [
+        "Unknown family",
+        "Undisclosed AI grading pipeline",
+        "Undisclosed internal reasoning model"
+      ],
+      "provenance": [
+        {
+          "source": "taxonomy-0.1.1-colour-map",
+          "location": "System metadata"
+        }
+      ]
+    }
+  ]
+}

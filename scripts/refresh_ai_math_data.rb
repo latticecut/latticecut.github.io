@@ -21,7 +21,10 @@ SYNCED_NAMES = [
   TAKEOFF_NAME,
   "difficulty_method.txt",
   "reference-map.json",
-  "analysis-log.json"
+  "analysis-log.json",
+  "taxonomy-map.json",
+  "taxonomy-registry.json",
+  "taxonomy-colours.json"
 ].freeze
 SCORE_FIELDS = %w[prior_target advance scope resistance].freeze
 OUTPUT_FIELDS = %w[
@@ -29,6 +32,7 @@ OUTPUT_FIELDS = %w[
   difficulty_score category framing_year solution_year age_decades provisional
   description anchor_claim prior_rationale advance_rationale scope_rationale
   resistance_rationale age_rationale coding_confidence
+  challenge_policy_version challenge_audit_status
 ].freeze
 
 def truthy?(value)
@@ -69,6 +73,8 @@ def validate_and_normalize(rows)
   raise "Duplicate ledger IDs: #{duplicates.join(', ')}" unless duplicates.empty?
 
   rows.each do |row|
+    row["challenge_policy_version"] = "0.1.0" if row["challenge_policy_version"].to_s.strip.empty?
+    row["challenge_audit_status"] = "pending_v1_audit" if row["challenge_audit_status"].to_s.strip.empty?
     missing = OUTPUT_FIELDS.select { |field| !row.key?(field) }
     raise "Entry #{row['id']} is missing fields: #{missing.join(', ')}" unless missing.empty?
 

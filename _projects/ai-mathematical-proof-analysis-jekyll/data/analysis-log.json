@@ -45,5 +45,36 @@
       "Corrected ID 12's publication month and changed its anchor from decidable to undecidable.",
       "Recomputed every component total, category, historical duration, monthly aggregate, cumulative count, website visual, and downloadable data bundle."
     ]
+  },
+  {
+    "id": "2026-08-04-paper-addition",
+    "collectionEnded": "2026-08-04",
+    "recordedAt": "2026-08-05",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 127,
+    "summary": "Added Alexander Perry's ChatGPT-assisted counterexample to the period-index conjecture, submitted on 4 August 2026, and advanced the evidence window through that date.",
+    "changes": [
+      "Added ID 109 for The period-index conjecture is false (arXiv:2608.03684).",
+      "Recorded the paper's AI disclosure: a flawed initial ChatGPT construction supplied features that were refined through further discussion into the final theorem; Perry wrote the paper and is responsible for correctness.",
+      "Scored the result Superhuman under the hybrid metric because it completely disproves the precise 2001 conjecture over a general family after 2.5 decades.",
+      "Recomputed the August monthly aggregate and cumulative audited count, refreshed the website metadata, and rebuilt the downloadable data bundle."
+    ]
+  },
+  {
+    "id": "2026-08-04-taxonomy-v0.2-full-corpus",
+    "collectionEnded": "2026-08-04",
+    "recordedAt": "2026-08-06",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 127,
+    "summary": "Applied Mathematics Progress taxonomy v0.2 across the complete current 127-result corpus and rebuilt the main-site explorer.",
+    "changes": [
+      "Retained ten existing Full-profile records and completed evidence-backed Minimal-profile coding for the remaining 117 records.",
+      "Reconciled the taxonomy to the current corpus: retained the removals of IDs 23 and 32 and included IDs 45--109, including the 4 August ID 109 addition.",
+      "Separated Mathematics, Result and approach, Production, verification events, and versioned challenge context; preserved legacy challenge tiers without silent recategorisation.",
+      "Marked every AI-assisted coding unreviewed and retained the pending two-human-coder reliability release gate.",
+      "Added a portable Jekyll taxonomy explorer, specification, coding manual, and complete raw-data bundle."
+    ]
   }
 ]

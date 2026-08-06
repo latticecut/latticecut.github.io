@@ -1155,5 +1155,12 @@
       "title": "Lean certificates accompanying proofs in mathematics and theoretical computer science",
       "url": "https://github.com/openai/ten-proofs"
     }
+  ],
+  "109": [
+    {
+      "key": "Perry2026PeriodIndex",
+      "title": "The period-index conjecture is false",
+      "url": "https://doi.org/10.48550/arXiv.2608.03684"
+    }
   ]
 }

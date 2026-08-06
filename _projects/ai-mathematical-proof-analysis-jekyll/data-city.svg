@@ -325,11 +325,14 @@
     <rect x="1500" y="354" width="50" height="50" rx="4" fill="#e6e6e6"/>
     <rect x="1495" y="349" width="50" height="50" rx="3" fill="#7b2cbf"/>
     <path d="M1501 355H1539" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
-    <rect x="1386" y="297" width="50" height="50" rx="4" fill="#e6e6e6"/>
-    <rect x="1381" y="292" width="50" height="50" rx="3" fill="#7b2cbf"/>
-    <path d="M1387 298H1425" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
-    <rect x="1443" y="297" width="50" height="50" rx="4" fill="#e6e6e6"/>
-    <rect x="1438" y="292" width="50" height="50" rx="3" fill="#7b2cbf"/>
-    <path d="M1444 298H1482" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
+    <rect x="1357.5" y="297" width="50" height="50" rx="4" fill="#e6e6e6"/>
+    <rect x="1352.5" y="292" width="50" height="50" rx="3" fill="#7b2cbf"/>
+    <path d="M1358.5 298H1396.5" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
+    <rect x="1414.5" y="297" width="50" height="50" rx="4" fill="#e6e6e6"/>
+    <rect x="1409.5" y="292" width="50" height="50" rx="3" fill="#7b2cbf"/>
+    <path d="M1415.5 298H1453.5" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
+    <rect x="1471.5" y="297" width="50" height="50" rx="4" fill="#e6e6e6"/>
+    <rect x="1466.5" y="292" width="50" height="50" rx="3" fill="#7b2cbf"/>
+    <path d="M1472.5 298H1510.5" stroke="#9149cc" stroke-width="3" stroke-linecap="round"/>
   </g>
 </svg>

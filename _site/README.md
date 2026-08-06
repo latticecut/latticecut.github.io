@@ -24,3 +24,12 @@ To preview changes locally, run `./scripts/serve-site.sh`, then open
 http://127.0.0.1:4000/. Jekyll watches the source files and rebuilds the preview
 when they change; stop the server with Control-C. Pass `--livereload` if you
 also want the browser to refresh automatically.
+
+The AI mathematics project is generated from the source application in the
+Mathematics Progress workspace. Its portable static build is exported to both
+`projects/ai-math/` and `_projects/ai-mathematical-proof-analysis-jekyll/`.
+After an export, run `ruby scripts/refresh_ai_math_data.rb` to validate the
+current corpus, synchronize the two data copies, rebuild the data-city graphic
+and create the downloadable bundle. Do not use the older
+`update_ai_math_site_shell_2026_08_02.rb` minified-bundle patcher for taxonomy
+changes.
