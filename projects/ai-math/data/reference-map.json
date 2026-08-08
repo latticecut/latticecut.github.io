@@ -1162,5 +1162,181 @@
       "title": "The period-index conjecture is false",
       "url": "https://doi.org/10.48550/arXiv.2608.03684"
     }
+  ],
+  "110": [
+    {
+      "key": "LiStDizier2026Schubitopes",
+      "title": "Schubitopes are not Ehrhart positive",
+      "url": "https://arxiv.org/abs/2608.00377v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "111": [
+    {
+      "key": "Liu2026EhrhartEquality",
+      "title": "The equality case of Ehrhart's volume conjecture",
+      "url": "https://arxiv.org/abs/2608.01040v2",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "112": [
+    {
+      "key": "Benjamini2026GromovHausdorffGap",
+      "title": "The Uniform Gromov Hausdorff Gap Problem for Approximating Spheres by Finite Homogeneous Spaces",
+      "url": "https://arxiv.org/abs/2608.01156v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "113": [
+    {
+      "key": "Wang2026SparseSupports",
+      "title": "Sparse supports of lattice eigenfunctions: quantitative growth and algebraic rigidity",
+      "url": "https://arxiv.org/abs/2608.01673v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "114": [
+    {
+      "key": "Xu2026ForbiddenFamily",
+      "title": "A finite forbidden family with superlinear surplus and non-join extremal graphs",
+      "url": "https://arxiv.org/abs/2608.02115v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "115": [
+    {
+      "key": "Zhou2026ICCPropertyT",
+      "title": "ICC property(T) groups without W*-superrigidity",
+      "url": "https://arxiv.org/abs/2608.02327v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "116": [
+    {
+      "key": "Prasad2026DenjoySharpness",
+      "title": "On the sharpness of Denjoy's theorem",
+      "url": "https://arxiv.org/abs/2608.02380v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "117": [
+    {
+      "key": "FengFuGuo2026Reliability",
+      "title": "Approximating two-terminal network reliability",
+      "url": "https://arxiv.org/abs/2608.02523v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "118": [
+    {
+      "key": "Steiner2026OddCyclesRamsey",
+      "title": "Multicolor Ramsey numbers of odd cycles are superexponential",
+      "url": "https://arxiv.org/abs/2608.02537v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "119": [
+    {
+      "key": "LinMirrokniWoodruff2026Dithering",
+      "title": "Pairwise-Independent Dithering for Single-Stage Hadamard Quantization",
+      "url": "https://arxiv.org/abs/2608.02564v2",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "120": [
+    {
+      "key": "LinMirrokniWoodruff2026ConditionNumber",
+      "title": "The Condition-Number Barrier in Sparse Least Squares",
+      "url": "https://arxiv.org/abs/2608.02588v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "121": [
+    {
+      "key": "Li2026DiscreteUniqueContinuation",
+      "title": "Discrete Unique Continuation on Simplex",
+      "url": "https://arxiv.org/abs/2608.02707v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "122": [
+    {
+      "key": "McLeod2026CoxeterPolytopes",
+      "title": "Compact Hyperbolic Coxeter Six-dimensional Polytopes With Ten Facets",
+      "url": "https://arxiv.org/abs/2608.02894v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "123": [
+    {
+      "key": "LiuWang2026KltGeneralizedPair",
+      "title": "A klt generalized pair with infinitely generated canonical ring",
+      "url": "https://arxiv.org/abs/2608.03258v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "124": [
+    {
+      "key": "Nill2026LatticeWidth",
+      "title": "Lattice polytopes of large width have real-rooted Ehrhart h*-polynomials",
+      "url": "https://arxiv.org/abs/2608.03635v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "125": [
+    {
+      "key": "Lee2026AlgebraicTori",
+      "title": "An upper bound for counting algebraic tori over Q by Artin conductor",
+      "url": "https://arxiv.org/abs/2608.03651v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "126": [
+    {
+      "key": "LiEtAl2026QROM",
+      "title": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
+      "url": "https://arxiv.org/abs/2608.03824v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "127": [
+    {
+      "key": "Davila2026HavelHakimi",
+      "title": "The Havel-Hakimi Residue of Common-Divisor Graphs: Resolving and Extending a Problem of Graffiti and Erdos",
+      "url": "https://arxiv.org/abs/2608.04040v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "128": [
+    {
+      "key": "WangLannan2026ChipFiring",
+      "title": "All parallel chip-firing games with 2|E|-|V|<|sigma|<2|E| have period 2",
+      "url": "https://arxiv.org/abs/2608.04153v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "129": [
+    {
+      "key": "BevinsBidav2026AME",
+      "title": "Symmetry-guided construction and exact certification of absolutely maximally entangled states",
+      "url": "https://arxiv.org/abs/2608.05781v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "130": [
+    {
+      "key": "GuoZhang2026PlanarSpin",
+      "title": "Approximating spin systems on planar graphs",
+      "url": "https://arxiv.org/abs/2608.06172v1",
+      "accessed": "2026-08-08"
+    }
+  ],
+  "131": [
+    {
+      "key": "CooksonShahVerma2026BalancedAllocations",
+      "title": "Fair and Efficient Balanced Allocations for Additive Valuations",
+      "url": "https://arxiv.org/abs/2608.06325v1",
+      "accessed": "2026-08-08"
+    }
   ]
 }

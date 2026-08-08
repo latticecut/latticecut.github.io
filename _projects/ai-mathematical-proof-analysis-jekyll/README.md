@@ -5,16 +5,17 @@ interactive dashboard, all datasets, images, the favicon, social-preview
 images, and the downloadable PDF report. It does not require Node.js,
 Cloudflare, OpenAI Sites, a database, or a server-side application runtime.
 
-The current package contains 127 audited result records through 4 August 2026,
-corpus-wide taxonomy v0.2 data, controlled registries and colours, the taxonomy
+The current package contains the complete live audited corpus, corpus-wide
+taxonomy v0.2 data, controlled registries and colours, the taxonomy
 specification and coding manual, and an explicitly separate legacy challenge
-classification. AI-assisted taxonomy codings remain unreviewed pending the
-published two-human-coder reliability study.
+classification. The exact record count and evidence cutoff are recorded in the
+dashboard analysis log. AI-assisted taxonomy codings remain unreviewed pending
+the published two-human-coder reliability study.
 
-The bundled dashboard and raw-data download contain 127 audited result
-packages through 4 August 2026. The PDF is retained as the clearly labelled
-64-entry baseline report; later additions and corrections are recorded in the
-dashboard analysis log and data files.
+The bundled dashboard and raw-data download contain the current audited result
+packages. The PDF is retained as the clearly labelled 64-entry baseline report;
+later additions and corrections are recorded in the dashboard analysis log and
+data files.
 
 ## Add it to an existing Jekyll site
 

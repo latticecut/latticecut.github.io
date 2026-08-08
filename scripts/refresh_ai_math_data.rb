@@ -241,7 +241,13 @@ rows = validate_and_normalize(CSV.read(ledger_path, headers: true).map(&:to_h))
 log_path = File.join(PUBLIC_DATA, "analysis-log.json")
 analysis_log = JSON.parse(File.read(log_path, encoding: "UTF-8"))
 raise "Analysis log is empty" if analysis_log.empty?
-latest_run = analysis_log.last
+latest_run = analysis_log.max_by do |run|
+  [
+    Date.iso8601(run.fetch("collectionEnded")),
+    Date.iso8601(run.fetch("recordedAt")),
+    run.fetch("id")
+  ]
+end
 collection_end = Date.iso8601(latest_run.fetch("collectionEnded"))
 raise "Latest analysis-log entry count does not match ledger" unless latest_run.fetch("entryCount") == rows.length
 

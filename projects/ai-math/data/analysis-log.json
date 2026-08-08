@@ -76,5 +76,22 @@
       "Marked every AI-assisted coding unreviewed and retained the pending two-human-coder reliability release gate.",
       "Added a portable Jekyll taxonomy explorer, specification, coding manual, and complete raw-data bundle."
     ]
+  },
+  {
+    "id": "2026-08-08-daily-evidence-refresh",
+    "collectionEnded": "2026-08-08",
+    "recordedAt": "2026-08-08",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 149,
+    "summary": "Systematic daily evidence refresh for 1--8 August 2026, closing the gap beyond the prior 4 August cutoff and adding 22 source-audited AI-assisted mathematical result packages.",
+    "changes": [
+      "Added IDs 110--131 for 22 papers first made public from 1 through 6 August 2026, spanning counterexamples, exact classifications, constructions, algorithms, lower and upper bounds, and complete conjecture resolutions.",
+      "Counted the independently and concurrently developed Connes-rigidity counterexample as a separate proof package, and kept the Ehrhart equality classification separate from the existing sharp-inequality record.",
+      "Held four attribution-scope cases for human review rather than adding them automatically: arXiv:2608.04451, 2608.04947, 2608.05767, and the 2 February backfill arXiv:2602.02450 surfaced by its August revision.",
+      "Excluded empirical or benchmark-only work, formalisation of already-known mathematics, papers with no documented material AI role, and duplicate or update-only evidence events.",
+      "Rechecked recent IDs 99--109 and all provisional records; no correction, retraction, novelty, verification, category, or provisional-status change was warranted.",
+      "Recorded that OpenAI's ten-proofs repository became public and its source PDF was editorially rebuilt, without treating either same-team event as independent verification."
+    ]
   }
 ]
