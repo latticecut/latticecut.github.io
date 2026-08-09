@@ -11,17 +11,29 @@
 }
 
 .site-title {
+    display: inline-flex;
+    align-items: center;
+    column-gap: 4px;
+    min-height: 56px;
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 1;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    white-space: nowrap;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+}
+
+.site-logo-mark {
+    display: block;
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
 }
 
 .site-nav {
