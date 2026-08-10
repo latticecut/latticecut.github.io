@@ -6,28 +6,28 @@
     "legacyChallengePolicyVersion": "0.1.0",
     "classificationUnit": "mathematical result",
     "scope": "Current-corpus v0.2 coding with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "recordCount": 149,
+    "recordCount": 156,
     "fullRecordCount": 10,
-    "minimalRecordCount": 139,
+    "minimalRecordCount": 146,
     "pendingTaxonomyCount": 0,
-    "substantivelyCodedRecordCount": 149,
-    "sourceCorpusCollectionEnded": "2026-08-08",
+    "substantivelyCodedRecordCount": 156,
+    "sourceCorpusCollectionEnded": "2026-08-09",
     "sourceSnapshot": {
-      "scoredLedgerSha256": "f3b8103a9d4ecbe88bdbdbbecd32e5b66fa8b147db2bdc79ef1c118a52beb427",
-      "referenceMapSha256": "ac2b9939aa6210cf87307affeff250fba2c1260c581d6b412fd22bdd28277a8d",
-      "analysisLogSha256": "d59bdd653e56b8bb443b0d038ba9e38b834b6087763035c6d4535574c8c0f44a"
+      "scoredLedgerSha256": "deb0f4c3434cfd4d6979435de3b2acbd42e1a94e868ed440addf7484ab73d9aa",
+      "referenceMapSha256": "6edfb871083800d09000a323f47d31a8bf5775b2f168fbb7a0240af5c2a00692",
+      "analysisLogSha256": "af5dfb0429c6adb491dc504a7634fa026e5820cf50bbd2a1b938f4cc9f10bcaa"
     },
     "defaultLeadingIds": [
+      "138",
+      "136",
       "131",
       "130",
       "129",
-      "128",
-      "126",
-      "125",
-      "124",
-      "123",
-      "109",
-      "127"
+      "137",
+      "134",
+      "133",
+      "132",
+      "128"
     ],
     "migrationBoundary": "Legacy challenge categories remain visible; record-level policy 1.0.0 is shown separately and no historical row is silently recategorised.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -4874,6 +4874,331 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "The verification event deliberately exposes partial formal scope rather than labelling the full theorem as formally verified."
+    }
+  },
+  "135": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-135",
+    "claim": "Every finite simple graph satisfies the stated degree-product lower bound for its multivariate independence polynomial, with equality characterization, and the analogous two-proper-colour semiproper partition function satisfies its stated multivariate lower bound.",
+    "sources": [
+      {
+        "sourceId": "LeeSeo2026IndependencePolynomialsV1",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Lower bounds for multivariate independence polynomials and their generalisations (v1)",
+        "url": "https://arxiv.org/abs/2602.02450v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "LeeSeo2026IndependencePolynomialsV2",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Lower bounds for multivariate independence polynomials and their generalisations (v2)",
+        "url": "https://arxiv.org/abs/2602.02450v2",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "DeepMind2026LeeSeoAletheia",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Aletheia provenance for Lee and Seo",
+        "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia/LeeSeo26",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Seo2026IndependenceLean",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Lean formalization of Theorem 1.4 of Lee-Seo",
+        "url": "https://github.com/thegreatseo/multivar-indep-formalize",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "05",
+            "label": "Combinatorics"
+          },
+          {
+            "code": "05C",
+            "label": "Graph theory"
+          },
+          {
+            "code": "05C35",
+            "label": "Extremal problems in graph theory"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "Both counted theorems establish lower bounds and equality structure for graph polynomials under degree constraints.",
+        "evidenceSourceIds": [
+          "LeeSeo2026IndependencePolynomialsV1",
+          "LeeSeo2026IndependencePolynomialsV2",
+          "DeepMind2026LeeSeoAletheia",
+          "Seo2026IndependenceLean"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The paper proves degree-product lower bounds, with equality information, for multivariate independence polynomials and the analogous two-colour semiproper polynomial; it advances the broader extremal programme without claiming a universal final classification.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-PARTIAL-PROGRESS",
+          "rationale": "The paper proves degree-product lower bounds, with equality information, for multivariate independence polynomials and the analogous two-colour semiproper polynomial; it advances the broader extremal programme without claiming a universal final classification.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-INDUCTION-OR-RECURSION",
+          "additionalConceptIds": [
+            "R3-DIRECT-PROOF",
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The paper proves degree-product lower bounds, with equality information, for multivariate independence polynomials and the analogous two-colour semiproper polynomial; it advances the broader extremal programme without claiming a universal final classification.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-SHARED-HUMAN-AI",
+          "rationale": "Aletheia, built on Gemini Deep Think, supplied an exact key lemma and significant reductions; the authors completed the proofs, and a later revision reported a Lean formalization of Theorem 1.4.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "Aletheia, built on Gemini Deep Think, supplied an exact key lemma and significant reductions; the authors completed the proofs, and a later revision reported a Lean formalization of Theorem 1.4.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-COMPOUND-PIPELINE",
+          "rationale": "Aletheia, built on Gemini Deep Think, supplied an exact key lemma and significant reductions; the authors completed the proofs, and a later revision reported a Lean formalization of Theorem 1.4.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-VERIFIER",
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "Aletheia, built on Gemini Deep Think, supplied an exact key lemma and significant reductions; the authors completed the proofs, and a later revision reported a Lean formalization of Theorem 1.4.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-135-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "Theorem 1.4, the two-colour semiproper-polynomial lower bound",
+          "verifier": "The source-reported Lean formalization",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "equivalent",
+            "rationale": "The revision identifies the formalized theorem specifically as Theorem 1.4; Theorem 1.1 is not included in this verification event.",
+            "evidenceSourceIds": [
+              "LeeSeo2026IndependencePolynomialsV1",
+              "LeeSeo2026IndependencePolynomialsV2",
+              "DeepMind2026LeeSeoAletheia",
+              "Seo2026IndependenceLean"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ],
+          "notes": "This is source-reported formal verification; the artifact was not executed or independently replayed during this evidence refresh."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "Every finite simple graph satisfies the stated degree-product lower bound for its multivariate independence polynomial, with equality characterization, and the analogous two-proper-colour semiproper partition function satisfies its stated multivariate lower bound.",
+      "inputs": {
+        "priorTarget": {
+          "value": 0,
+          "rationale": "The prior univariate inequality motivates the extension, but no qualifying predating source is established for the exact multivariate and two-colour package.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        },
+        "advance": {
+          "value": 1,
+          "rationale": "The package gives two material new general lower-bound theorems but does not settle the authors' broader conjecture for every antiferromagnetic model.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "Both inequalities hold for every finite simple graph and all nonnegative vertex weights.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "No qualifying independent pre-solution attempts at the exact two-theorem package are documented.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No precise predating framing date is established for the bounded package, so no duration override is applied.",
+        "evidenceSourceIds": [
+          "LeeSeo2026IndependencePolynomialsV1",
+          "LeeSeo2026IndependencePolynomialsV2",
+          "DeepMind2026LeeSeoAletheia",
+          "Seo2026IndependenceLean"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "LeeSeo2026IndependencePolynomialsV1",
+          "LeeSeo2026IndependencePolynomialsV2",
+          "DeepMind2026LeeSeoAletheia",
+          "Seo2026IndependenceLean"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "not_established",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "LeeSeo2026IndependencePolynomialsV1",
+            "LeeSeo2026IndependencePolynomialsV2",
+            "DeepMind2026LeeSeoAletheia",
+            "Seo2026IndependenceLean"
+          ]
+        }
+      },
+      "derived": {
+        "score": 2,
+        "baseCategory": "Expected",
+        "category": "Expected",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The first public version supplies theorem-specific Aletheia provenance and complete human-finished proofs; the later version adds a bounded formal-verification event rather than a new result.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Theorems 1.1 and 1.4 are treated as one coupled paper-level package. Formal verification covers Theorem 1.4 only."
     }
   },
   "21": {
@@ -35005,6 +35330,15 @@
         "url": "https://arxiv.org/abs/2608.02327v1",
         "accessed": "2026-08-08",
         "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Utensil2026ConnesRigidityAutoformalization",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Experimental autoformalization attempt of arXiv:2608.02327",
+        "url": "https://github.com/utensil/connes-rigidity",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -35029,7 +35363,8 @@
         "secondaryPaths": [],
         "rationale": "The claim asks whether ICC property-(T) groups are determined by their group von Neumann algebras, so von Neumann algebra theory is primary.",
         "evidenceSourceIds": [
-          "Zhou2026ICCPropertyT"
+          "Zhou2026ICCPropertyT",
+          "Utensil2026ConnesRigidityAutoformalization"
         ],
         "confidence": "high"
       },
@@ -35039,7 +35374,8 @@
           "conceptId": "R1-MATHEMATICAL-RESULT",
           "rationale": "Two explicit nonisomorphic ICC property-(T) groups with isomorphic group von Neumann algebras refute Connes' rigidity conjecture.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35048,7 +35384,8 @@
           "conceptId": "R2-NEGATIVE-RESOLUTION",
           "rationale": "Two explicit nonisomorphic ICC property-(T) groups with isomorphic group von Neumann algebras refute Connes' rigidity conjecture.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35060,7 +35397,8 @@
           ],
           "rationale": "Two explicit nonisomorphic ICC property-(T) groups with isomorphic group von Neumann algebras refute Connes' rigidity conjecture.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35068,7 +35406,8 @@
           "status": "not_reported",
           "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "unknown"
         }
@@ -35079,7 +35418,8 @@
           "conceptId": "P1-AI-LED",
           "rationale": "The fuller source states that the decisive counterexample was found mainly by GPT/Codex/Danus under human guidance and that part of the result was translated into Lean, supporting an AI-led hybrid workflow.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35088,7 +35428,8 @@
           "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
           "rationale": "The fuller source states that the decisive counterexample was found mainly by GPT/Codex/Danus under human guidance and that part of the result was translated into Lean, supporting an AI-led hybrid workflow.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35097,7 +35438,8 @@
           "conceptId": "P3-COMPOUND-PIPELINE",
           "rationale": "The fuller source states that the decisive counterexample was found mainly by GPT/Codex/Danus under human guidance and that part of the result was translated into Lean, supporting an AI-led hybrid workflow.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         },
@@ -35108,7 +35450,8 @@
           ],
           "rationale": "The fuller source states that the decisive counterexample was found mainly by GPT/Codex/Danus under human guidance and that part of the result was translated into Lean, supporting an AI-led hybrid workflow.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "confidence": "high"
         }
@@ -35130,13 +35473,15 @@
             "relation": "translation_uncertain",
             "rationale": "The source reports accepted Lean declarations but does not identify enough declaration-level scope to establish complete correspondence with the informal theorem.",
             "evidenceSourceIds": [
-              "Zhou2026ICCPropertyT"
+              "Zhou2026ICCPropertyT",
+              "Utensil2026ConnesRigidityAutoformalization"
             ]
           },
           "eventDate": "not_reported",
           "assumptions": [],
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "notes": "Formal verification is limited to the reported encoded portion, not the entire counterexample theorem."
         },
@@ -35153,15 +35498,42 @@
             "relation": "not_applicable",
             "rationale": "The authors checked the complete informal theorem; the partial Lean representation is recorded separately.",
             "evidenceSourceIds": [
-              "Zhou2026ICCPropertyT"
+              "Zhou2026ICCPropertyT",
+              "Utensil2026ConnesRigidityAutoformalization"
             ]
           },
           "eventDate": "not_reported",
           "assumptions": [],
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ],
           "notes": "The author review closes the parts not covered by the reported partial formalisation only at the informal-review level."
+        },
+        {
+          "eventId": "verification-115-3",
+          "familyId": "VF-EXTERNAL",
+          "methodId": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+          "target": "An independent Lean autoformalisation attempt of the complete Connes-rigidity counterexample",
+          "verifier": "The independent utensil/connes-rigidity project",
+          "independence": "independent_party",
+          "scope": "partial_claim",
+          "outcome": "inconclusive",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "The public repository describes an experimental attempt and does not supply a completed end-to-end statement correspondence on its default branch.",
+            "evidenceSourceIds": [
+              "Zhou2026ICCPropertyT",
+              "Utensil2026ConnesRigidityAutoformalization"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
+          ],
+          "notes": "Recorded as work in progress; this is not a completed formal verification or a status upgrade."
         }
       ]
     },
@@ -35173,28 +35545,32 @@
           "value": 1,
           "rationale": "Connes's rigidity question dates to his 1982 work and was later stated explicitly as a reconstruction problem for ICC property-(T) group factors.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         },
         "advance": {
           "value": 2,
           "rationale": "One explicit nonisomorphic pair with isomorphic factors completely disproves the uniqueness conjecture.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         },
         "scope": {
           "value": 0,
           "rationale": "The decisive witness is one pair of groups; the independently released OpenAI package supplies the separate infinite-family result.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         },
         "resistance": {
           "value": 1,
           "rationale": "Connes rigidity, deformation-rigidity, and W*-superrigidity programs provide multiple independent approaches to reconstruction from group factors.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         }
       },
@@ -35204,7 +35580,8 @@
         "precision": "year",
         "rationale": "The 1982 target was independently countered in 2026, an elapsed 44 years or 4.4 decades, satisfying the legacy duration override.",
         "evidenceSourceIds": [
-          "Zhou2026ICCPropertyT"
+          "Zhou2026ICCPropertyT",
+          "Utensil2026ConnesRigidityAutoformalization"
         ]
       },
       "solutionDate": {
@@ -35213,7 +35590,8 @@
         "precision": "year",
         "rationale": "The audited ledger records the first solution report.",
         "evidenceSourceIds": [
-          "Zhou2026ICCPropertyT"
+          "Zhou2026ICCPropertyT",
+          "Utensil2026ConnesRigidityAutoformalization"
         ]
       },
       "provisional": false,
@@ -35222,14 +35600,16 @@
           "value": "probable",
           "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         },
         "substantivePriorAttempts": {
           "value": "unknown",
           "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
           "evidenceSourceIds": [
-            "Zhou2026ICCPropertyT"
+            "Zhou2026ICCPropertyT",
+            "Utensil2026ConnesRigidityAutoformalization"
           ]
         }
       },
@@ -38486,6 +38866,1140 @@
       "notes": "No production mechanism beyond direct interaction is inferred."
     }
   },
+  "132": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-132",
+    "claim": "Twelve distinct time-frequency shifts of one nonzero Schwartz function are linearly dependent, disproving the HRT conjecture and its Schwartz-class formulation.",
+    "sources": [
+      {
+        "sourceId": "FaulhuberEtAl2026HRTCounterexample",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Linear dependence of time-frequency shifts of a Schwartz function",
+        "url": "https://arxiv.org/abs/2608.05044v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "HeilRamanathanTopiwala1996",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Linear independence of time-frequency translates",
+        "url": "https://doi.org/10.1090/S0002-9939-96-03346-1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Tao2026HRTDigestion",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "A partial digestion of the HRT counterexample",
+        "url": "https://terrytao.wordpress.com/2026/08/06/a-partial-digestion-of-the-hrt-counterexample/",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "42",
+            "label": "Harmonic analysis on Euclidean spaces"
+          },
+          {
+            "code": "42C",
+            "label": "Nontrigonometric harmonic analysis"
+          },
+          {
+            "code": "42C15",
+            "label": "General harmonic expansions, frames"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result concerns linear dependence among time-frequency shifts and directly resolves a finite-instance form of the HRT conjecture.",
+        "evidenceSourceIds": [
+          "FaulhuberEtAl2026HRTCounterexample",
+          "HeilRamanathanTopiwala1996",
+          "Tao2026HRTDigestion"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "An explicit nonzero Schwartz function and twelve distinct time-frequency shifts form a linearly dependent family, refuting the HRT conjecture in the Schwartz class; a rigorous interval certificate establishes the decisive numerical inequality.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-NEGATIVE-RESOLUTION",
+          "rationale": "An explicit nonzero Schwartz function and twelve distinct time-frequency shifts form a linearly dependent family, refuting the HRT conjecture in the Schwartz class; a rigorous interval certificate establishes the decisive numerical inequality.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-COUNTEREXAMPLE",
+          "additionalConceptIds": [
+            "R3-CONSTRUCTED-EXISTENCE",
+            "R3-CERTIFICATE-BACKED-COMPUTATION"
+          ],
+          "rationale": "An explicit nonzero Schwartz function and twelve distinct time-frequency shifts form a linearly dependent family, refuting the HRT conjecture in the Schwartz class; a rigorous interval certificate establishes the decisive numerical inequality.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-SHARED-HUMAN-AI",
+          "rationale": "GPT-5.6 Pro developed the counterexample and proof strategy in dialogue with the authors; the authors strengthened it to a Schwartz construction, repaired an error, rewrote and independently checked the LLM-influenced material, and produced a rigorous Arb interval certificate.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-COMPUTATION-TO-FORMAL-CERTIFICATE",
+          "rationale": "GPT-5.6 Pro developed the counterexample and proof strategy in dialogue with the authors; the authors strengthened it to a Schwartz construction, repaired an error, rewrote and independently checked the LLM-influenced material, and produced a rigorous Arb interval certificate.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-COMPOUND-PIPELINE",
+          "rationale": "GPT-5.6 Pro developed the counterexample and proof strategy in dialogue with the authors; the authors strengthened it to a Schwartz construction, repaired an error, rewrote and independently checked the LLM-influenced material, and produced a rigorous Arb interval certificate.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-VERIFIER",
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "GPT-5.6 Pro developed the counterexample and proof strategy in dialogue with the authors; the authors strengthened it to a Schwartz construction, repaired an error, rewrote and independently checked the LLM-influenced material, and produced a rigorous Arb interval certificate.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-132-1",
+          "familyId": "VF-COMPUTATIONAL",
+          "methodId": "VM-COMPUTATIONAL-NUMERICAL-OR-CAS-CHECK",
+          "target": "Theorem 5.1's rigorous bound establishing delta less than one third",
+          "verifier": "The authors' Arb/FLINT interval-arithmetic certificate",
+          "independence": "different_system_same_team",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The certificate rigorously verifies the decisive numerical inequality, while the construction and reduction to that inequality remain in the mathematical proof.",
+            "evidenceSourceIds": [
+              "FaulhuberEtAl2026HRTCounterexample",
+              "HeilRamanathanTopiwala1996",
+              "Tao2026HRTDigestion"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "notes": "The source reports a rigorous interval certificate rather than floating-point evidence alone."
+        },
+        {
+          "eventId": "verification-132-2",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "All LLM-influenced arguments in the complete counterexample proof",
+          "verifier": "The paper's human author team",
+          "independence": "human_author_team",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The authors checked and rewrote the same informal theorem and proof presented in the paper.",
+            "evidenceSourceIds": [
+              "FaulhuberEtAl2026HRTCounterexample",
+              "HeilRamanathanTopiwala1996",
+              "Tao2026HRTDigestion"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "notes": "This is source-reported author-team verification, not independent replication."
+        },
+        {
+          "eventId": "verification-132-3",
+          "familyId": "VF-EXTERNAL",
+          "methodId": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+          "target": "A partial reconstruction and digestion of the twelve-shift HRT counterexample",
+          "verifier": "Terence Tao",
+          "independence": "independent_party",
+          "scope": "specified_components",
+          "outcome": "inconclusive",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The public note reconstructs selected mechanisms of the argument but explicitly presents itself as a partial digestion rather than a complete independent verification.",
+            "evidenceSourceIds": [
+              "FaulhuberEtAl2026HRTCounterexample",
+              "HeilRamanathanTopiwala1996",
+              "Tao2026HRTDigestion"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ],
+          "notes": "No full independent validation is inferred from the partial note."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "Twelve distinct time-frequency shifts of one nonzero Schwartz function are linearly dependent, disproving the HRT conjecture and its Schwartz-class formulation.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Heil, Ramanathan, and Topiwala formulated the universal linear-independence conjecture for finite time-frequency shifts in 1996.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The explicit twelve-shift Schwartz construction completely disproves the universal HRT conjecture.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        },
+        "scope": {
+          "value": 0,
+          "rationale": "The decisive witness is one fixed finite phase-space configuration and one Schwartz function rather than a uniform counterexample family.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Decades of cited special-case theorems, lattice results, and near-counterexample programs provide multiple independent substantive attacks on the exact conjecture.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "1996",
+        "precision": "year",
+        "rationale": "The 1996 conjecture was disproved in 2026, an elapsed 30 years or 3.0 decades, satisfying the legacy duration override.",
+        "evidenceSourceIds": [
+          "FaulhuberEtAl2026HRTCounterexample",
+          "HeilRamanathanTopiwala1996",
+          "Tao2026HRTDigestion"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "FaulhuberEtAl2026HRTCounterexample",
+          "HeilRamanathanTopiwala1996",
+          "Tao2026HRTDigestion"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "FaulhuberEtAl2026HRTCounterexample",
+            "HeilRamanathanTopiwala1996",
+            "Tao2026HRTDigestion"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 30.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The primary preprint states the explicit counterexample, describes the shared human-AI development history and error repair, and supplies a rigorous certificate for the critical bound.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The external Tao note is recorded only as partial and inconclusive."
+    }
+  },
+  "133": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-133",
+    "claim": "For every prime p at least 5, open positive-probability sets yield selection-independent multifrequency limits, with analogous failures for ReLU'(0)=0, smooth activations having an exact dead half-line, and every fixed gradient-descent step size.",
+    "sources": [
+      {
+        "sourceId": "Memana2026FourierAlignmentV1",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A Counterexample to Fourier Alignment in Single-Neuron Modular Addition",
+        "url": "https://arxiv.org/abs/2608.04451v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "MAIS2026O60",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Open problem MAIS-O60: does a single ReLU neuron align to one frequency?",
+        "url": "https://github.com/lionellevine/MAIS/blob/main/open-problems/MAIS-O60.md",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "68",
+            "label": "Computer science"
+          },
+          {
+            "code": "68T",
+            "label": "Artificial intelligence"
+          },
+          {
+            "code": "68T07",
+            "label": "Artificial neural networks and deep learning"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The counted Appendix A result is a counterexample about optimization dynamics and Fourier alignment in a single-neuron learning model.",
+        "evidenceSourceIds": [
+          "Memana2026FourierAlignmentV1",
+          "MAIS2026O60"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "Appendix A constructs initial conditions and activations for which the proposed Fourier-alignment behaviour fails across every Clarke trajectory and the stated fixed-step full-batch gradient-descent setting.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-NEGATIVE-RESOLUTION",
+          "rationale": "Appendix A constructs initial conditions and activations for which the proposed Fourier-alignment behaviour fails across every Clarke trajectory and the stated fixed-step full-batch gradient-descent setting.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-COUNTEREXAMPLE",
+          "additionalConceptIds": [
+            "R3-CONSTRUCTED-EXISTENCE"
+          ],
+          "rationale": "Appendix A constructs initial conditions and activations for which the proposed Fourier-alignment behaviour fails across every Clarke trajectory and the stated fixed-step full-batch gradient-descent setting.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-AI-LED",
+          "rationale": "The author states that the strengthened Appendix A package was developed through conversations with GPT-5.6 Sol and initially drafted by the model, followed by author review and editing.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "The author states that the strengthened Appendix A package was developed through conversations with GPT-5.6 Sol and initially drafted by the model, followed by author review and editing.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-DIRECT-MODEL-INTERACTION",
+          "rationale": "The author states that the strengthened Appendix A package was developed through conversations with GPT-5.6 Sol and initially drafted by the model, followed by author review and editing.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The author states that the strengthened Appendix A package was developed through conversations with GPT-5.6 Sol and initially drafted by the model, followed by author review and editing.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-133-1",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The complete Appendix A strengthening package",
+          "verifier": "The paper's author",
+          "independence": "human_author_team",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The author reviewed and edited the same informal statements and proofs included in Appendix A.",
+            "evidenceSourceIds": [
+              "Memana2026FourierAlignmentV1",
+              "MAIS2026O60"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ],
+          "notes": "No independent, formal or computational verification is reported."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For every prime p at least 5, open positive-probability sets yield selection-independent multifrequency limits, with analogous failures for ReLU'(0)=0, smooth activations having an exact dead half-line, and every fixed gradient-descent step size.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "MAIS-O60 publicly asked whether a single ReLU neuron trained on modular addition aligns to one Fourier frequency.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        },
+        "advance": {
+          "value": 1,
+          "rationale": "The appendix materially strengthens the human-authored main counterexample but is not credited with resolving the original problem independently.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The package is uniform over every prime p at least 5, open sets of initial conditions, every Clarke trajectory in the main strengthening, and every fixed step size in the discrete variant.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "No two independent pre-solution attempts at the appendix's exact strengthened variants are documented.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The public target and strengthened counterexamples both date to 2026, giving 0.0 recorded decades.",
+        "evidenceSourceIds": [
+          "Memana2026FourierAlignmentV1",
+          "MAIS2026O60"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Memana2026FourierAlignmentV1",
+          "MAIS2026O60"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Memana2026FourierAlignmentV1",
+            "MAIS2026O60"
+          ]
+        }
+      },
+      "derived": {
+        "score": 3,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 0.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The primary source gives claim-specific AI attribution for Appendix A and a complete proof of the strengthened counterexample package.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Only Appendix A is counted: the separate main theorem is author-developed. The scope does not include softplus, all smooth activations, momentum, Adam or minibatch training."
+    }
+  },
+  "134": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-134",
+    "claim": "For every alpha in [1/2,1), the optimized Petz and sandwiched Renyi conditional entropies have the stated sharp trace-distance modulus with effective dimension D=d_A min(d_A,d_B), attained by isotropic pairs for every distance.",
+    "sources": [
+      {
+        "sourceId": "ChengLiu2026RenyiContinuity",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Sharp Continuity of Petz and Sandwiched Renyi Conditional Entropies",
+        "url": "https://arxiv.org/abs/2608.04947v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "81",
+            "label": "Quantum theory"
+          },
+          {
+            "code": "81P",
+            "label": "Foundations, quantum information and its processing, quantum axioms, and philosophy"
+          },
+          {
+            "code": "81P45",
+            "label": "Quantum information, communication, networks (quantum-theoretic aspects)"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The theorem determines sharp continuity moduli for quantum conditional entropies defined by Petz and sandwiched Renyi divergences.",
+        "evidenceSourceIds": [
+          "ChengLiu2026RenyiContinuity"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The paper proves the exact trace-distance continuity modulus for both optimized conditional entropies for alpha in [1/2,1), with the sharp dimension factor and equality cases.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "rationale": "The paper proves the exact trace-distance continuity modulus for both optimized conditional entropies for alpha in [1/2,1), with the sharp dimension factor and equality cases.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The paper proves the exact trace-distance continuity modulus for both optimized conditional entropies for alpha in [1/2,1), with the sharp dimension factor and equality cases.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-SHARED-HUMAN-AI",
+          "rationale": "The authors attribute a proof-critical noncommutative calibration estimate to assistance from ChatGPT 5.6 Sol while retaining responsibility for the complete theorem package and exposition.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "The authors attribute a proof-critical noncommutative calibration estimate to assistance from ChatGPT 5.6 Sol while retaining responsibility for the complete theorem package and exposition.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "none_reported",
+      "events": [],
+      "rationale": "The primary preprint reports no distinct independent, formal, peer-review or computational verification event for the complete sharp theorem package."
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For every alpha in [1/2,1), the optimized Petz and sandwiched Renyi conditional entropies have the stated sharp trace-distance modulus with effective dimension D=d_A min(d_A,d_B), attained by isotropic pairs for every distance.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Marwah and Dupuis's 2022 fully quantum continuity bound and subsequent work establish the predating quantitative frontier for sandwiched Renyi conditional entropy.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The two theorems determine the exact sharp modulus and equality family for both optimized conditional Renyi entropies throughout the stated order range.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The bounds hold uniformly for arbitrary finite-dimensional bipartite states, every trace-distance constraint, and every alpha in the full interval [1/2,1).",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "The evidence does not establish two independent pre-solution attempts at this exact joint sharp modulus.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2022",
+        "precision": "year",
+        "rationale": "The traced fully quantum frontier dates to 2022, four years or 0.4 decades before the 2026 sharp result.",
+        "evidenceSourceIds": [
+          "ChengLiu2026RenyiContinuity"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "ChengLiu2026RenyiContinuity"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "ChengLiu2026RenyiContinuity"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 4.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The primary source states the exact bounds and equality cases and identifies the model's proof-critical contribution.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The result is source-reported in a first-version preprint; no independent validation is inferred."
+    }
+  },
+  "137": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-137",
+    "claim": "For all nonnegative n, i, and j, an explicit computable bijection matches strict partitions with i odd parts in odd-indexed positions and j in even-indexed positions to strict partitions with i parts congruent to 1 and j congruent to 3 modulo 4.",
+    "sources": [
+      {
+        "sourceId": "MogielnickiEtAl2026BerkovichUncu",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A bijective proof of a partition theorem of Berkovich and Uncu",
+        "url": "https://arxiv.org/abs/2608.05142v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "BerkovichUncu2015",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "On partitions with fixed number of even-indexed and odd-indexed odd parts",
+        "url": "https://arxiv.org/abs/1510.07301",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "AxiomMath2026BerkovichUncu",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Lean certificate for the Berkovich--Uncu bijection",
+        "url": "https://github.com/AxiomMath/BerkovichUncu/commit/3410c88f27332dfc9386b6224521d23752689700",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "05",
+            "label": "Combinatorics"
+          },
+          {
+            "code": "05A",
+            "label": "Enumerative combinatorics"
+          },
+          {
+            "code": "05A17",
+            "label": "Partitions of integers"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result constructs a bijection between two partition families with prescribed parity-position and congruence statistics.",
+        "evidenceSourceIds": [
+          "MogielnickiEtAl2026BerkovichUncu",
+          "BerkovichUncu2015",
+          "AxiomMath2026BerkovichUncu"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "An explicit computable four-map bijection, with inverse, supplies the requested combinatorial proof of the Berkovich-Uncu partition identity; a conditional formalization checks the statistic-transfer framework.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "An explicit computable four-map bijection, with inverse, supplies the requested combinatorial proof of the Berkovich-Uncu partition identity; a conditional formalization checks the statistic-transfer framework.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-CONSTRUCTED-EXISTENCE",
+          "additionalConceptIds": [
+            "R3-DIRECT-PROOF",
+            "R3-FORMAL-PROOF-SYNTHESIS"
+          ],
+          "rationale": "An explicit computable four-map bijection, with inverse, supplies the requested combinatorial proof of the Berkovich-Uncu partition identity; a conditional formalization checks the statistic-transfer framework.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The authors state that humans developed all of the mathematics and wrote the paper, after which AxiomProver autonomously produced the Lean formalization and verification artifact.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "The authors state that humans developed all of the mathematics and wrote the paper, after which AxiomProver autonomously produced the Lean formalization and verification artifact.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-COMPOUND-PIPELINE",
+          "rationale": "The authors state that humans developed all of the mathematics and wrote the paper, after which AxiomProver autonomously produced the Lean formalization and verification artifact.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-VERIFIER"
+          ],
+          "rationale": "The authors state that humans developed all of the mathematics and wrote the paper, after which AxiomProver autonomously produced the Lean formalization and verification artifact.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-137-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The statistic-transfer equivalence and cardinality consequence for the four-map Berkovich-Uncu bijection",
+          "verifier": "The source-reported AxiomProver Lean certificate",
+          "independence": "different_system_same_team",
+          "scope": "partial_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The formal result assumes sixteen component-map properties, including bijectivity and statistic preservation, so it does not kernel-check the complete informal bijection proof end to end.",
+            "evidenceSourceIds": [
+              "MogielnickiEtAl2026BerkovichUncu",
+              "BerkovichUncu2015",
+              "AxiomMath2026BerkovichUncu"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ],
+          "notes": "The pinned certificate was inspected as untrusted evidence but not executed or replayed."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For all nonnegative n, i, and j, an explicit computable bijection matches strict partitions with i odd parts in odd-indexed positions and j in even-indexed positions to strict partitions with i parts congruent to 1 and j congruent to 3 modulo 4.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Berkovich and Uncu's 2015 preprint proved the identity analytically and explicitly requested a combinatorial proof.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The construction supplies the requested explicit bijection, computable in both directions, rather than another coefficient identity.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The bijection applies uniformly to all nonnegative n, i, and j.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "Prior coefficient-extraction work does not establish two independent failed attempts at this exact explicit-bijection target.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2015",
+        "precision": "year",
+        "rationale": "The 2015 request was answered in 2026, an elapsed 11 years or 1.1 decades; the resistance requirement for a stronger override is not met.",
+        "evidenceSourceIds": [
+          "MogielnickiEtAl2026BerkovichUncu",
+          "BerkovichUncu2015",
+          "AxiomMath2026BerkovichUncu"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "MogielnickiEtAl2026BerkovichUncu",
+          "BerkovichUncu2015",
+          "AxiomMath2026BerkovichUncu"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "MogielnickiEtAl2026BerkovichUncu",
+            "BerkovichUncu2015",
+            "AxiomMath2026BerkovichUncu"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 11.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The primary preprint gives the explicit bidirectional bijection and documents the separate autonomous formalization role with a public companion artifact.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The new result is the explicit correspondence, not a newly discovered partition identity; formal verification is conditional on the component-map hypotheses."
+    }
+  },
   "129": {
     "schemaVersion": "0.2.0",
     "profile": "minimal",
@@ -39231,6 +40745,599 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Guidance does not displace AI-led coding because the source attributes all proofs to the model."
+    }
+  },
+  "136": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-136",
+    "claim": "For every b greater than 3 and coprime to 3, the normalized point-count series for X^3=Y^b, the HJO series, and the explicit theta product coincide, producing a level-(b+3) modular Rogers-Ramanujan identity.",
+    "sources": [
+      {
+        "sourceId": "LauOno2026PointCounts",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Modularity of Point Counts for the Curves X^a=Y^b: New Rogers--Ramanujan Identities",
+        "url": "https://arxiv.org/abs/2608.05480v1",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "AxiomMath2026RRA3",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Formal Certificate for New Rogers--Ramanujan Identities",
+        "url": "https://github.com/AxiomMath/RR_a3/commit/1e11ae28f4f34c40d0fc1bc9562b243866cce565",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Caltech2025HJOConjecture",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Quot schemes of points on torus knot singularities",
+        "url": "https://www.caltech.edu/campus-life-events/calendar/caltechusc-joint-algebra-and-geometry-seminar-3",
+        "accessed": "2026-08-09",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "11",
+            "label": "Number theory"
+          },
+          {
+            "code": "11P",
+            "label": "Additive number theory; partitions"
+          },
+          {
+            "code": "11P84",
+            "label": "Partition identities; identities of Rogers-Ramanujan type"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The theorem proves the a=3 layer of a conjectural family of point-count identities yielding Rogers-Ramanujan-type modular identities.",
+        "evidenceSourceIds": [
+          "LauOno2026PointCounts",
+          "AxiomMath2026RRA3",
+          "Caltech2025HJOConjecture"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "For every b greater than three and coprime to three, the paper proves the complete a=3 HJO point-count identity package; the general a at least four case remains open.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "For every b greater than three and coprime to three, the paper proves the complete a=3 HJO point-count identity package; the general a at least four case remains open.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-REDUCTION-OR-CHARACTERISATION",
+          "additionalConceptIds": [
+            "R3-DIRECT-PROOF",
+            "R3-FORMAL-PROOF-SYNTHESIS"
+          ],
+          "rationale": "For every b greater than three and coprime to three, the paper proves the complete a=3 HJO point-count identity package; the general a at least four case remains open.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The human authors developed the mathematical proof; AxiomProver then generated the Lean certificate for the stated subset of Theorem 1.1, making the AI role formalization and verification rather than discovery.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "The human authors developed the mathematical proof; AxiomProver then generated the Lean certificate for the stated subset of Theorem 1.1, making the AI role formalization and verification rather than discovery.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-COMPOUND-PIPELINE",
+          "rationale": "The human authors developed the mathematical proof; AxiomProver then generated the Lean certificate for the stated subset of Theorem 1.1, making the AI role formalization and verification rather than discovery.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-VERIFIER"
+          ],
+          "rationale": "The human authors developed the mathematical proof; AxiomProver then generated the Lean certificate for the stated subset of Theorem 1.1, making the AI role formalization and verification rather than discovery.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-136-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "Theorem 1.1 parts (2) and (3) for the a=3 HJO point-count identities",
+          "verifier": "The source-reported AxiomProver Lean certificate",
+          "independence": "different_system_same_team",
+          "scope": "partial_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The certificate covers only parts (2) and (3) and is conditional on results imported from the cited literature, not the complete informal theorem package end to end.",
+            "evidenceSourceIds": [
+              "LauOno2026PointCounts",
+              "AxiomMath2026RRA3",
+              "Caltech2025HJOConjecture"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ],
+          "notes": "The pinned public certificate was inspected as evidence but not executed or replayed."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For every b greater than 3 and coprime to 3, the normalized point-count series for X^3=Y^b, the HJO series, and the explicit theta product coincide, producing a level-(b+3) modular Rogers-Ramanujan identity.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "A 2025 institutional seminar abstract publicly described the conjectured Dyck-path sum and product identity of modulus a+b for the same torus-knot curve family.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The theorem completely settles the bounded a=3 layer, while the HJO conjecture for a at least 4 remains open.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The result is uniform for every integer b greater than 3 that is coprime to 3.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "No evidence of two independent pre-solution attempts at the exact a=3 layer is documented.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2025",
+        "precision": "year",
+        "rationale": "The public 2025 target was settled in 2026, an elapsed one year or 0.1 decades.",
+        "evidenceSourceIds": [
+          "LauOno2026PointCounts",
+          "AxiomMath2026RRA3",
+          "Caltech2025HJOConjecture"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "LauOno2026PointCounts",
+          "AxiomMath2026RRA3",
+          "Caltech2025HJOConjecture"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "LauOno2026PointCounts",
+            "AxiomMath2026RRA3",
+            "Caltech2025HJOConjecture"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 1.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-09",
+      "confidence": "high",
+      "rationale": "The primary paper proves a bounded, complete a=3 layer and the companion source documents an AI-generated formal certificate with explicit limitations.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The a at least four conjecture remains open; the formal verification is partial and conditional."
+    }
+  },
+  "138": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-138",
+    "claim": "For the square Gaussian binary MIMO model, rounded linear MMSE followed by steepest single-bit descent recovers every transmitted word with uniformly vanishing error for every SNR rho at least 2 log N using O(N^3) unit-cost exact-real operations; below 2 log N minus log log N minus s_N, even maximum-likelihood detection fails uniformly, so the statistical and polynomial-time exact-recovery thresholds coincide to first order.",
+    "sources": [
+      {
+        "sourceId": "Papailiopoulos2026MIMODetectionInitial",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold (first public version)",
+        "url": "https://github.com/anadim/anadim.github.io/blob/965571126aa4e7c4d7cba9451b3ef5e77a89fafb/MIMO_Detection.pdf",
+        "accessed": "2026-08-10",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Papailiopoulos2026MIMOInitialCommit",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "First public commit of Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold",
+        "url": "https://github.com/anadim/anadim.github.io/commit/965571126aa4e7c4d7cba9451b3ef5e77a89fafb",
+        "accessed": "2026-08-10",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Papailiopoulos2026MIMODetectionCurrent",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold (current 8 August correction)",
+        "url": "https://github.com/anadim/anadim.github.io/blob/db3be5fd7bb5807ce7ec1d5b8ff2c4b6dcc416f4/MIMO_Detection.pdf",
+        "accessed": "2026-08-10",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "94",
+            "label": "Information and communication theory, circuits"
+          },
+          {
+            "code": "94A",
+            "label": "Communication, information"
+          },
+          {
+            "code": "94A13",
+            "label": "Detection theory in information and communication theory"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The theorem determines the sharp first-order signal-to-noise threshold for exact detection in a square Gaussian binary MIMO channel.",
+        "evidenceSourceIds": [
+          "Papailiopoulos2026MIMODetectionInitial",
+          "Papailiopoulos2026MIMOInitialCommit",
+          "Papailiopoulos2026MIMODetectionCurrent"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The paper constructs and analyses a polynomial-time detector attaining the first-order maximum-likelihood threshold, and proves a matching lower-regime converse that identifies the common coefficient 2.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "rationale": "The paper constructs and analyses a polynomial-time detector attaining the first-order maximum-likelihood threshold, and proves a matching lower-regime converse that identifies the common coefficient 2.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-CONSTRUCTED-EXISTENCE",
+          "additionalConceptIds": [
+            "R3-DIRECT-PROOF",
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The paper constructs and analyses a polynomial-time detector attaining the first-order maximum-likelihood threshold, and proves a matching lower-regime converse that identifies the common coefficient 2.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-AI-LED",
+          "rationale": "The title-page disclosure states that GPT-5.6 and Claude Fable 5 proved the results and drafted the initial manuscript; Dimitris Papailiopoulos posed the problem, directed several rounds of simplification, verified every argument, edited the manuscript, and accepts responsibility. The source does not report enough architecture detail to distinguish a multi-agent from another multi-model workflow.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "The title-page disclosure states that GPT-5.6 and Claude Fable 5 proved the results and drafted the initial manuscript; Dimitris Papailiopoulos posed the problem, directed several rounds of simplification, verified every argument, edited the manuscript, and accepts responsibility. The source does not report enough architecture detail to distinguish a multi-agent from another multi-model workflow.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The title-page disclosure states that GPT-5.6 and Claude Fable 5 proved the results and drafted the initial manuscript; Dimitris Papailiopoulos posed the problem, directed several rounds of simplification, verified every argument, edited the manuscript, and accepts responsibility. The source does not report enough architecture detail to distinguish a multi-agent from another multi-model workflow.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-138-1",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The complete Theorem 2.1 package, including the polynomial-time achievability proof and maximum-likelihood converse",
+          "verifier": "Dimitris Papailiopoulos",
+          "independence": "human_author_team",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The author reports checking every mathematical argument in the same informal manuscript; no separate formal representation is claimed.",
+            "evidenceSourceIds": [
+              "Papailiopoulos2026MIMODetectionInitial",
+              "Papailiopoulos2026MIMOInitialCommit",
+              "Papailiopoulos2026MIMODetectionCurrent"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ],
+          "notes": "This is source-reported author-team verification. No independent replication, formal check, peer review, arXiv record, or DOI was located during the corrective audit."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For the square Gaussian binary MIMO model, rounded linear MMSE followed by steepest single-bit descent recovers every transmitted word with uniformly vanishing error for every SNR rho at least 2 log N using O(N^3) unit-cost exact-real operations; below 2 log N minus log log N minus s_N, even maximum-likelihood detection fails uniformly, so the statistical and polynomial-time exact-recovery thresholds coincide to first order.",
+      "inputs": {
+        "priorTarget": {
+          "value": 0,
+          "rationale": "No dated pre-solution source located in this audit formulates the exact square-system first-order threshold target; the paper reconstructs the gap from prior detectors but is the first precise public statement counted.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The theorem closes the stated first-order computational-statistical gap with a constructive polynomial-time detector and matching maximum-likelihood converse; it explicitly leaves the lower-order transition window and finite-precision bit complexity unresolved.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The guarantee is uniform over every deterministic transmitted word and every SNR at or above the threshold in the square Gaussian binary MIMO model, with a uniform converse throughout the stated lower regime.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "No two independent pre-solution attempts at the exact first-order threshold target and no qualifying controlled comparison are documented.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No precise predating framing date is established for the bounded target, so no duration override is applied.",
+        "evidenceSourceIds": [
+          "Papailiopoulos2026MIMODetectionInitial",
+          "Papailiopoulos2026MIMOInitialCommit",
+          "Papailiopoulos2026MIMODetectionCurrent"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Papailiopoulos2026MIMODetectionInitial",
+          "Papailiopoulos2026MIMOInitialCommit",
+          "Papailiopoulos2026MIMODetectionCurrent"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "not_established",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Papailiopoulos2026MIMODetectionInitial",
+            "Papailiopoulos2026MIMOInitialCommit",
+            "Papailiopoulos2026MIMODetectionCurrent"
+          ]
+        }
+      },
+      "derived": {
+        "score": 3,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-10",
+      "confidence": "high",
+      "rationale": "A dated PDF in the verified author's public repository supplies a complete theorem and proof, precise material AI attribution, and explicit author verification.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The result fixes the first-order threshold only. The lower-order transition window remains open, and the runtime is measured in unit-cost exact-real arithmetic rather than finite-precision bit complexity."
     }
   }
 }

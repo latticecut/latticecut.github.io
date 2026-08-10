@@ -1209,6 +1209,12 @@
       "title": "ICC property(T) groups without W*-superrigidity",
       "url": "https://arxiv.org/abs/2608.02327v1",
       "accessed": "2026-08-08"
+    },
+    {
+      "key": "Utensil2026ConnesRigidityAutoformalization",
+      "title": "Experimental autoformalization attempt of arXiv:2608.02327",
+      "url": "https://github.com/utensil/connes-rigidity",
+      "accessed": "2026-08-09"
     }
   ],
   "116": [
@@ -1337,6 +1343,134 @@
       "title": "Fair and Efficient Balanced Allocations for Additive Valuations",
       "url": "https://arxiv.org/abs/2608.06325v1",
       "accessed": "2026-08-08"
+    }
+  ],
+  "132": [
+    {
+      "key": "FaulhuberEtAl2026HRTCounterexample",
+      "title": "Linear dependence of time-frequency shifts of a Schwartz function",
+      "url": "https://arxiv.org/abs/2608.05044v1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "HeilRamanathanTopiwala1996",
+      "title": "Linear independence of time-frequency translates",
+      "url": "https://doi.org/10.1090/S0002-9939-96-03346-1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "Tao2026HRTDigestion",
+      "title": "A partial digestion of the HRT counterexample",
+      "url": "https://terrytao.wordpress.com/2026/08/06/a-partial-digestion-of-the-hrt-counterexample/",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "133": [
+    {
+      "key": "Memana2026FourierAlignmentV1",
+      "title": "A Counterexample to Fourier Alignment in Single-Neuron Modular Addition",
+      "url": "https://arxiv.org/abs/2608.04451v1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "MAIS2026O60",
+      "title": "Open problem MAIS-O60: does a single ReLU neuron align to one frequency?",
+      "url": "https://github.com/lionellevine/MAIS/blob/main/open-problems/MAIS-O60.md",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "134": [
+    {
+      "key": "ChengLiu2026RenyiContinuity",
+      "title": "Sharp Continuity of Petz and Sandwiched Renyi Conditional Entropies",
+      "url": "https://arxiv.org/abs/2608.04947v1",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "135": [
+    {
+      "key": "LeeSeo2026IndependencePolynomialsV1",
+      "title": "Lower bounds for multivariate independence polynomials and their generalisations (v1)",
+      "url": "https://arxiv.org/abs/2602.02450v1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "LeeSeo2026IndependencePolynomialsV2",
+      "title": "Lower bounds for multivariate independence polynomials and their generalisations (v2)",
+      "url": "https://arxiv.org/abs/2602.02450v2",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "DeepMind2026LeeSeoAletheia",
+      "title": "Aletheia provenance for Lee and Seo",
+      "url": "https://github.com/google-deepmind/superhuman/tree/main/aletheia/LeeSeo26",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "Seo2026IndependenceLean",
+      "title": "Lean formalization of Theorem 1.4 of Lee-Seo",
+      "url": "https://github.com/thegreatseo/multivar-indep-formalize",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "136": [
+    {
+      "key": "LauOno2026PointCounts",
+      "title": "Modularity of Point Counts for the Curves X^a=Y^b: New Rogers--Ramanujan Identities",
+      "url": "https://arxiv.org/abs/2608.05480v1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "AxiomMath2026RRA3",
+      "title": "Formal Certificate for New Rogers--Ramanujan Identities",
+      "url": "https://github.com/AxiomMath/RR_a3/commit/1e11ae28f4f34c40d0fc1bc9562b243866cce565",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "Caltech2025HJOConjecture",
+      "title": "Quot schemes of points on torus knot singularities",
+      "url": "https://www.caltech.edu/campus-life-events/calendar/caltechusc-joint-algebra-and-geometry-seminar-3",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "137": [
+    {
+      "key": "MogielnickiEtAl2026BerkovichUncu",
+      "title": "A bijective proof of a partition theorem of Berkovich and Uncu",
+      "url": "https://arxiv.org/abs/2608.05142v1",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "BerkovichUncu2015",
+      "title": "On partitions with fixed number of even-indexed and odd-indexed odd parts",
+      "url": "https://arxiv.org/abs/1510.07301",
+      "accessed": "2026-08-09"
+    },
+    {
+      "key": "AxiomMath2026BerkovichUncu",
+      "title": "Lean certificate for the Berkovich--Uncu bijection",
+      "url": "https://github.com/AxiomMath/BerkovichUncu/commit/3410c88f27332dfc9386b6224521d23752689700",
+      "accessed": "2026-08-09"
+    }
+  ],
+  "138": [
+    {
+      "key": "Papailiopoulos2026MIMODetectionInitial",
+      "title": "Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold (first public version)",
+      "url": "https://github.com/anadim/anadim.github.io/blob/965571126aa4e7c4d7cba9451b3ef5e77a89fafb/MIMO_Detection.pdf",
+      "accessed": "2026-08-10"
+    },
+    {
+      "key": "Papailiopoulos2026MIMOInitialCommit",
+      "title": "First public commit of Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold",
+      "url": "https://github.com/anadim/anadim.github.io/commit/965571126aa4e7c4d7cba9451b3ef5e77a89fafb",
+      "accessed": "2026-08-10"
+    },
+    {
+      "key": "Papailiopoulos2026MIMODetectionCurrent",
+      "title": "Polynomial-Time MIMO Detection at the Maximum-Likelihood Threshold (current 8 August correction)",
+      "url": "https://github.com/anadim/anadim.github.io/blob/db3be5fd7bb5807ce7ec1d5b8ff2c4b6dcc416f4/MIMO_Detection.pdf",
+      "accessed": "2026-08-10"
     }
   ]
 }
