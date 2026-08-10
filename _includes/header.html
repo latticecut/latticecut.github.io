@@ -10,7 +10,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ home_url }}">{{ site_title }}</a>
+    <a class="site-title" href="{{ home_url }}" aria-label="{{ site_title }} home">
+      <img
+        class="site-logo-mark"
+        src="{{ "/assets/superlattice-mark.png" | relative_url }}"
+        alt=""
+        width="40"
+        height="40">
+      <span>{{ site_title }}</span>
+    </a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
