@@ -6,28 +6,28 @@
     "legacyChallengePolicyVersion": "0.1.0",
     "classificationUnit": "mathematical result",
     "scope": "Current-corpus v0.2 coding with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "recordCount": 156,
+    "recordCount": 159,
     "fullRecordCount": 10,
-    "minimalRecordCount": 146,
+    "minimalRecordCount": 149,
     "pendingTaxonomyCount": 0,
-    "substantivelyCodedRecordCount": 156,
+    "substantivelyCodedRecordCount": 159,
     "sourceCorpusCollectionEnded": "2026-08-09",
     "sourceSnapshot": {
-      "scoredLedgerSha256": "deb0f4c3434cfd4d6979435de3b2acbd42e1a94e868ed440addf7484ab73d9aa",
-      "referenceMapSha256": "6edfb871083800d09000a323f47d31a8bf5775b2f168fbb7a0240af5c2a00692",
-      "analysisLogSha256": "af5dfb0429c6adb491dc504a7634fa026e5820cf50bbd2a1b938f4cc9f10bcaa"
+      "scoredLedgerSha256": "0f77f499db609ff43ddbb642b7579df323bf5c328d5650348979e7465ed2519c",
+      "referenceMapSha256": "dbb56d6da7a5867fe95f31860350810021da0d41fdb203b9e809409ae8183191",
+      "analysisLogSha256": "22ca2e679b566e45fce3da81e3ab0cecbc086710e00df244a45756d4a7eb8ace"
     },
     "defaultLeadingIds": [
+      "141",
       "138",
+      "140",
       "136",
       "131",
       "130",
       "129",
       "137",
       "134",
-      "133",
-      "132",
-      "128"
+      "133"
     ],
     "migrationBoundary": "Legacy challenge categories remain visible; record-level policy 1.0.0 is shown separately and no historical row is silently recategorised.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -34350,6 +34350,272 @@
       "notes": "No correctness assessment is inferred from arXiv posting alone."
     }
   },
+  "139": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-139",
+    "claim": "The paper reports that for every dimension n at least three there are a nonzero real smooth function u and a real smooth bounded potential V with -Delta u + Vu = 0 and |u(x)| at most C_n exp(-c_n|x|^(4/3)), giving counterexamples to the real-valued Landis conjecture.",
+    "sources": [
+      {
+        "sourceId": "FrankIvanisvili2026Landis",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Counterexamples to the Landis conjecture in dimensions three and higher",
+        "url": "https://arxiv.org/abs/2608.00802v1",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "FernandezBertolinEtAl2024LandisSurvey",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Landis' conjecture: a survey",
+        "url": "https://arxiv.org/abs/2412.00788",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "35",
+            "label": "Partial differential equations"
+          },
+          {
+            "code": "35J",
+            "label": "Elliptic equations and systems"
+          },
+          {
+            "code": "35J10",
+            "label": "Schrödinger operator, Schrödinger equation"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The construction concerns rapidly decaying real solutions of stationary Schrodinger equations with smooth bounded real potentials.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Landis",
+          "FernandezBertolinEtAl2024LandisSurvey"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The paper constructs a real smooth counterexample in every dimension at least three and proves the claimed bounded-potential equation and decay estimate.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-NEGATIVE-RESOLUTION",
+          "rationale": "The paper constructs a real smooth counterexample in every dimension at least three and proves the claimed bounded-potential equation and decay estimate.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-COUNTEREXAMPLE",
+          "additionalConceptIds": [
+            "R3-CONSTRUCTED-EXISTENCE",
+            "R3-DIRECT-PROOF"
+          ],
+          "rationale": "The paper constructs a real smooth counterexample in every dimension at least three and proves the claimed bounded-potential equation and decay estimate.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-UNCLEAR-OR-NOT-REPORTED",
+          "rationale": "The primary source acknowledges AI tools but does not identify a model, task, workflow, or material contribution. It separately states that the authors checked and wrote all final mathematical arguments and proofs.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The primary source acknowledges AI tools but does not identify a model, task, workflow, or material contribution. It separately states that the authors checked and wrote all final mathematical arguments and proofs.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-139-1",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The complete counterexample construction and proof in the final manuscript",
+          "verifier": "The paper's authors",
+          "independence": "human_author_team",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The authors report checking and writing the same informal mathematical arguments and proofs presented in the manuscript.",
+            "evidenceSourceIds": [
+              "FrankIvanisvili2026Landis",
+              "FernandezBertolinEtAl2024LandisSurvey"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ],
+          "notes": "This is source-reported author-team checking, not independent review. No formal, computational, peer-review, or independent verification event was located."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "The paper reports that for every dimension n at least three there are a nonzero real smooth function u and a real smooth bounded potential V with -Delta u + Vu = 0 and |u(x)| at most C_n exp(-c_n|x|^(4/3)), giving counterexamples to the real-valued Landis conjecture.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "The earliest printed formulation identified by the paper is Landis's 1982 question asking whether sufficiently rapid decay forces a bounded-potential Schrodinger solution to vanish.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The construction gives a complete negative answer in every dimension n at least three, rather than only a weaker decay estimate or complex-valued example.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The theorem supplies a counterexample construction for the unbounded family of all dimensions n at least three.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Meshkov's complex-valued construction, subsequent quantitative unique-continuation work, real-valued special cases, and the recent two-dimensional program provide multiple substantive approaches to the same Landis question.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "1982",
+        "precision": "year",
+        "rationale": "The 1982 printed question was answered in dimensions at least three in 2026, an elapsed 44 years or 4.4 decades, but provisional status prevents the Superhuman override while the paper's exact AI contribution remains unspecified.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Landis",
+          "FernandezBertolinEtAl2024LandisSurvey"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Landis",
+          "FernandezBertolinEtAl2024LandisSurvey"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Landis",
+            "FernandezBertolinEtAl2024LandisSurvey"
+          ]
+        }
+      },
+      "derived": {
+        "score": 5,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 44.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-12",
+      "confidence": "medium",
+      "rationale": "The primary paper states a precise mathematical counterexample and author checking, but its generic AI acknowledgement does not establish the model or the materiality of the AI contribution.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: the primary source acknowledges AI tools but does not identify the model, tasks, or whether the AI contribution was material to the mathematical result. The theorem covers dimensions at least three and does not settle the two-dimensional case."
+    }
+  },
   "111": {
     "schemaVersion": "0.2.0",
     "profile": "minimal",
@@ -41045,6 +41311,558 @@
       "notes": "The a at least four conjecture remains open; the formal verification is partial and conditional."
     }
   },
+  "140": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-140",
+    "claim": "Unconditionally, the optimized test family gives liminf proportions at least 0.6725 for distinct zeros on the critical line, 0.6725 for simple zeros on the critical line, and 0.83625 for distinct zeros of the Riemann zeta function.",
+    "sources": [
+      {
+        "sourceId": "Claude2026ZetaTwoThirds",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "More than two thirds of the zeros of the Riemann zeta function lie on the critical line",
+        "url": "https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Anthropic2026RiemannZeta",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Claude finds new result in theoretical mathematics",
+        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "FurmanAlpoge2026ZetaNote",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "67% of the zeroes are on the line",
+        "url": "https://www-cdn.anthropic.com/23455459f8832d06bb175cc0f88d019aed962ef8.pdf",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Anthropic2026ZetaLeanInitialCommit",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Initial public release of the Zeta-23 Lean 4 formalization",
+        "url": "https://github.com/anthropics/zeta-23-lean/commit/cac1c55684ee31ed76a4c0573e974c01794851c5",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Anthropic2026ZetaRepositoryEvents",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "GitHub public and main-branch events for the Zeta-23 repository",
+        "url": "https://api.github.com/repos/anthropics/zeta-23-lean/events?per_page=100&page=2",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Anthropic2026ZetaLean",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Zeta-23 Lean 4 formalization, public source snapshot",
+        "url": "https://github.com/anthropics/zeta-23-lean/tree/3635e74826a4c1fcece7d1cd2b6fa75e43a00510",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Anthropic2026ZetaIssue7",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Zeta-23 issue 7: reported equality-case wording",
+        "url": "https://github.com/anthropics/zeta-23-lean/issues/7",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Anthropic2026ZetaIssue8",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Zeta-23 issue 8: request for the ancillary PairCeiling certificate",
+        "url": "https://github.com/anthropics/zeta-23-lean/issues/8",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "11",
+            "label": "Number theory"
+          },
+          {
+            "code": "11M",
+            "label": "Zeta and L-functions: analytic theory"
+          },
+          {
+            "code": "11M06",
+            "label": "ζ(s) and L(s, χ)"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result proves new unconditional asymptotic lower bounds for distinct and simple zeros of the Riemann zeta function on the critical line and for distinct zeros overall.",
+        "evidenceSourceIds": [
+          "Claude2026ZetaTwoThirds",
+          "Anthropic2026RiemannZeta",
+          "FurmanAlpoge2026ZetaNote",
+          "Anthropic2026ZetaLeanInitialCommit",
+          "Anthropic2026ZetaRepositoryEvents",
+          "Anthropic2026ZetaLean",
+          "Anthropic2026ZetaIssue7",
+          "Anthropic2026ZetaIssue8"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test family prove materially stronger unconditional lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-IMPROVED-BOUND",
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test family prove materially stronger unconditional lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test family prove materially stronger unconditional lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-AI-LED",
+          "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-MULTI-AGENT",
+          "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-CRITIC",
+            "P4-GENERATOR-VERIFIER",
+            "P4-PLANNING-AND-TASK-DECOMPOSITION",
+            "P4-PARALLEL-CANDIDATE-SEARCH",
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-140-1",
+          "familyId": "VF-INTERNAL",
+          "methodId": "VM-INTERNAL-MODEL-SELF-CHECK",
+          "target": "The complete informal headline theorem package and its proof strategy",
+          "verifier": "Anthropic's adversarial Claude critic and verifier agents",
+          "independence": "same_system",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The internal agents reviewed the same informal result package rather than a separately translated formal statement.",
+            "evidenceSourceIds": [
+              "Claude2026ZetaTwoThirds",
+              "Anthropic2026RiemannZeta",
+              "FurmanAlpoge2026ZetaNote",
+              "Anthropic2026ZetaLeanInitialCommit",
+              "Anthropic2026ZetaRepositoryEvents",
+              "Anthropic2026ZetaLean",
+              "Anthropic2026ZetaIssue7",
+              "Anthropic2026ZetaIssue8"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "notes": "This is source-reported internal model checking and is not treated as independent verification."
+        },
+        {
+          "eventId": "verification-140-2",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The complete Riemann-zeta zero-proportion theorem package",
+          "verifier": "Ralph Furman and Levent Alpöge",
+          "independence": "independent_party",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The expert note and official report concern the same informal mathematical theorem package.",
+            "evidenceSourceIds": [
+              "Claude2026ZetaTwoThirds",
+              "Anthropic2026RiemannZeta",
+              "FurmanAlpoge2026ZetaNote",
+              "Anthropic2026ZetaLeanInitialCommit",
+              "Anthropic2026ZetaRepositoryEvents",
+              "Anthropic2026ZetaLean",
+              "Anthropic2026ZetaIssue7",
+              "Anthropic2026ZetaIssue8"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "notes": "The source reports expert checking on short notice; this is not peer review."
+        },
+        {
+          "eventId": "verification-140-3",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The public Lean 4 statements corresponding to headline Theorems A through E",
+          "verifier": "The source-reported Lean kernel check",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "equivalent",
+            "rationale": "The companion repository maps its no-hypothesis Lean declarations to the paper's named headline theorems and reports a sorry-free build.",
+            "evidenceSourceIds": [
+              "Claude2026ZetaTwoThirds",
+              "Anthropic2026RiemannZeta",
+              "FurmanAlpoge2026ZetaNote",
+              "Anthropic2026ZetaLeanInitialCommit",
+              "Anthropic2026ZetaRepositoryEvents",
+              "Anthropic2026ZetaLean",
+              "Anthropic2026ZetaIssue7",
+              "Anthropic2026ZetaIssue8"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "notes": "The public tagged source was inspected as untrusted evidence, but this automation did not download, execute, or independently replay the formal artifact."
+        },
+        {
+          "eventId": "verification-140-4",
+          "familyId": "VF-COMPUTATIONAL",
+          "methodId": "VM-COMPUTATIONAL-NUMERICAL-OR-CAS-CHECK",
+          "target": "The optimized constants and designated symbolic identities used in the final bounds",
+          "verifier": "The source-reported symbolic and numerical checks",
+          "independence": "different_system_same_team",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The computations check the specified constants and algebraic components, not the full asymptotic proof or its error estimates.",
+            "evidenceSourceIds": [
+              "Claude2026ZetaTwoThirds",
+              "Anthropic2026RiemannZeta",
+              "FurmanAlpoge2026ZetaNote",
+              "Anthropic2026ZetaLeanInitialCommit",
+              "Anthropic2026ZetaRepositoryEvents",
+              "Anthropic2026ZetaLean",
+              "Anthropic2026ZetaIssue7",
+              "Anthropic2026ZetaIssue8"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ],
+          "notes": "No full-claim computational verification is inferred from component checks."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "Unconditionally, the optimized test family gives liminf proportions at least 0.6725 for distinct zeros on the critical line, 0.6725 for simple zeros on the critical line, and 0.83625 for distinct zeros of the Riemann zeta function.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "The paper targets documented lower-bound frontiers: 5/12 for zeros on the critical line, the corresponding longstanding simple-zero problem, and 0.6603 for distinct zeros.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        },
+        "advance": {
+          "value": 1,
+          "rationale": "The theorem materially raises all three unconditional lower bounds but does not prove the Riemann hypothesis or determine the sharp proportions.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The claims are asymptotic lower bounds as the zero height tends to infinity, so they apply over an unbounded family of height windows.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Independent Levinson-mollifier refinements and the Montgomery pair-correlation program produced a long sequence of published attacks and successive records on these zero-proportion targets.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2020",
+        "precision": "year",
+        "rationale": "Using the 2020 critical-line frontier as the central package baseline, the improvement follows after six years or 0.6 decades; the duration override does not apply because this is a bound improvement rather than a complete settlement.",
+        "evidenceSourceIds": [
+          "Claude2026ZetaTwoThirds",
+          "Anthropic2026RiemannZeta",
+          "FurmanAlpoge2026ZetaNote",
+          "Anthropic2026ZetaLeanInitialCommit",
+          "Anthropic2026ZetaRepositoryEvents",
+          "Anthropic2026ZetaLean",
+          "Anthropic2026ZetaIssue7",
+          "Anthropic2026ZetaIssue8"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Claude2026ZetaTwoThirds",
+          "Anthropic2026RiemannZeta",
+          "FurmanAlpoge2026ZetaNote",
+          "Anthropic2026ZetaLeanInitialCommit",
+          "Anthropic2026ZetaRepositoryEvents",
+          "Anthropic2026ZetaLean",
+          "Anthropic2026ZetaIssue7",
+          "Anthropic2026ZetaIssue8"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 6.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-12",
+      "confidence": "high",
+      "rationale": "The official paper and announcement provide claim-specific Claude attribution, bounded theorem statements, and several explicitly scoped verification routes, with a public formal companion.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The exact research-model snapshot is not surfaced. The automation did not execute downloaded proof artifacts. Issue 7's proposed equality-case wording already appears in the current paper and does not affect the headline theorem. Issue 8 concerns an unavailable external certificate for the ancillary PairCeiling claim, which is excluded from this record's anchor."
+    }
+  },
   "138": {
     "schemaVersion": "0.2.0",
     "profile": "minimal",
@@ -41338,6 +42156,271 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "The result fixes the first-order threshold only. The lower-order transition window remains open, and the runtime is measured in unit-cost exact-real arithmetic rather than finite-precision bit complexity."
+    }
+  },
+  "141": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-141",
+    "claim": "The paper reports that i[arctan(P),arctan(Q)] is a nonnegative, nonzero trace-class operator with trace pi/2, while the arctangent functions fail the strip condition required by the conjectured converse, so the Kato conjecture is false.",
+    "sources": [
+      {
+        "sourceId": "FrankIvanisvili2026Kato",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A counterexample to the Kato conjecture for positive commutators",
+        "url": "https://arxiv.org/abs/2608.07805v1",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "HerbstKriete2018HowlandKato",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "The Howland-Kato commutator problem",
+        "url": "https://arxiv.org/abs/1804.05227",
+        "accessed": "2026-08-12",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "47",
+            "label": "Operator theory"
+          },
+          {
+            "code": "47B",
+            "label": "Special classes of linear operators"
+          },
+          {
+            "code": "47B47",
+            "label": "Commutators, derivations, elementary operators, etc."
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result concerns positivity and trace properties of an explicit commutator of functions of the momentum and position operators.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Kato",
+          "HerbstKriete2018HowlandKato"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The paper proves positivity, nonzero trace-class status, and trace pi/2 for one explicit arctangent commutator, while proving the strip condition fails, thereby refuting the proposed converse.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-NEGATIVE-RESOLUTION",
+          "rationale": "The paper proves positivity, nonzero trace-class status, and trace pi/2 for one explicit arctangent commutator, while proving the strip condition fails, thereby refuting the proposed converse.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-COUNTEREXAMPLE",
+          "additionalConceptIds": [
+            "R3-DIRECT-PROOF"
+          ],
+          "rationale": "The paper proves positivity, nonzero trace-class status, and trace pi/2 for one explicit arctangent commutator, while proving the strip condition fails, thereby refuting the proposed converse.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-UNCLEAR-OR-NOT-REPORTED",
+          "rationale": "The primary source acknowledges AI tools but does not identify a model, task, workflow, or material contribution. It separately states that the authors checked and wrote all final mathematical arguments and proofs.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The primary source acknowledges AI tools but does not identify a model, task, workflow, or material contribution. It separately states that the authors checked and wrote all final mathematical arguments and proofs.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-141-1",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The complete explicit commutator counterexample and proof in the final manuscript",
+          "verifier": "The paper's authors",
+          "independence": "human_author_team",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "not_applicable",
+            "rationale": "The authors report checking and writing the same informal mathematical arguments and proofs presented in the manuscript.",
+            "evidenceSourceIds": [
+              "FrankIvanisvili2026Kato",
+              "HerbstKriete2018HowlandKato"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ],
+          "notes": "This is source-reported author-team checking, not independent review. No formal, computational, peer-review, or independent verification event was located."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "The paper reports that i[arctan(P),arctan(Q)] is a nonnegative, nonzero trace-class operator with trace pi/2, while the arctangent functions fail the strip condition required by the conjectured converse, so the Kato conjecture is false.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Herbst and Kriete publicly formulated the converse as the Kato conjecture in 2018, building on Kato's 1991 positive-commutator criterion.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The explicit arctangent pair is a complete counterexample to the universal converse, not merely a new sufficient case or structural restriction.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        },
+        "scope": {
+          "value": 0,
+          "rationale": "The disproof is witnessed by one fixed pair of functions and operators, so it does not receive the separate general-class scope point.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Kato's rank-one analysis, Herbst and Kriete's structural program, and Froese and Herbst's later absolute-continuity and conditional strip results are multiple substantive pre-solution approaches to the same converse problem.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2018",
+        "precision": "year",
+        "rationale": "The public 2018 formulation was disproved in 2026, an elapsed eight years or 0.8 decades; provisional status separately records that the paper does not specify the AI tools' contribution.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Kato",
+          "HerbstKriete2018HowlandKato"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "FrankIvanisvili2026Kato",
+          "HerbstKriete2018HowlandKato"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "FrankIvanisvili2026Kato",
+            "HerbstKriete2018HowlandKato"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 8.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-12",
+      "confidence": "medium",
+      "rationale": "The primary paper states a precise mathematical counterexample and author checking, but its generic AI acknowledgement does not establish the model or the materiality of the AI contribution.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: the primary source acknowledges AI tools but does not identify the model, tasks, or whether the AI contribution was material to the mathematical result. The result refutes the Herbst-Kriete converse, not Kato's positive sufficient criterion."
     }
   }
 }
