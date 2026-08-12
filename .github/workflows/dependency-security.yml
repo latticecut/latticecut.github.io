@@ -22,6 +22,7 @@ jobs:
     runs-on: ubuntu-22.04
     timeout-minutes: 15
     env:
+      BUNDLE_FORCE_RUBY_PLATFORM: "true"
       BUNDLE_FROZEN: "true"
     steps:
       - name: Check out repository
