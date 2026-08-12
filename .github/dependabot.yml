@@ -1,0 +1,35 @@
+version: 2
+
+updates:
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Atlantic/Canary"
+    open-pull-requests-limit: 5
+    groups:
+      ruby-version-updates:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+      ruby-security-updates:
+        applies-to: "security-updates"
+        patterns:
+          - "*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:15"
+      timezone: "Atlantic/Canary"
+    groups:
+      github-actions:
+        patterns:
+          - "*"

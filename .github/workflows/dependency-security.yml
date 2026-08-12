@@ -1,0 +1,46 @@
+name: Dependency security
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dependency-security-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit-and-build:
+    name: Audit and build locked bundle
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    env:
+      BUNDLE_FORCE_RUBY_PLATFORM: "true"
+      BUNDLE_FROZEN: "true"
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Ruby and install locked bundle
+        uses: ruby/setup-ruby@95ef2b042f9d7a56d8268cba8559e2842e2ad01b # v1.321.0
+        with:
+          # Keep this aligned with the legacy Jekyll/SassC toolchain until the
+          # Ruby, Bundler, Jekyll, and local scripts are modernized together.
+          ruby-version: "2.6.10"
+          bundler-cache: true
+
+      - name: Install dependency auditor
+        run: gem install bundler-audit --version 0.9.3 --no-document
+
+      - name: Audit locked dependencies
+        run: bundle-audit check --update
+
+      - name: Build site with locked dependencies
+        run: bundle exec jekyll build --destination "${RUNNER_TEMP}/site"

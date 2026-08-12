@@ -61,5 +61,9 @@ defaults:
 # collection rather than being processed as Jekyll content.
 exclude:
   - _projects/ai-mathematical-proof-analysis-jekyll
+  - .bundle
+  - Gemfile
+  - Gemfile.lock
   - scripts
   - tmp
+  - vendor
