@@ -12,6 +12,9 @@ mkdir -p "$build_root"
 # Build from a no-spaces temp path because older native gems in this stack
 # mis-handle compiler arguments when the workspace path contains spaces.
 rsync -a --delete \
+  --exclude ".bundle" \
+  --exclude ".git" \
+  --exclude ".jekyll-cache" \
   --exclude "_site" \
   --exclude "vendor" \
   --exclude "_projects/ai-mathematical-proof-analysis-jekyll" \
@@ -20,11 +23,15 @@ rsync -a --delete \
 cd "$build_root"
 
 BUNDLE_FORCE_RUBY_PLATFORM=true \
+BUNDLE_FROZEN=true \
+BUNDLE_PATH="$build_root/vendor/bundle" \
 SDKROOT="$sdk_root" \
 CPLUS_INCLUDE_PATH="$sdk_root/usr/include/c++/v1" \
-"${bundle_cmd[@]}" install --path vendor/bundle
+"${bundle_cmd[@]}" install
 
 BUNDLE_FORCE_RUBY_PLATFORM=true \
+BUNDLE_FROZEN=true \
+BUNDLE_PATH="$build_root/vendor/bundle" \
 SDKROOT="$sdk_root" \
 CPLUS_INCLUDE_PATH="$sdk_root/usr/include/c++/v1" \
 "${bundle_cmd[@]}" exec jekyll build
@@ -70,5 +77,4 @@ for asset_ref in "${asset_refs[@]}"; do
   fi
 done
 
-rsync -a "$build_root/Gemfile.lock" "$repo_root/Gemfile.lock"
 rsync -a --delete "$build_root/_site/" "$repo_root/_site/"
