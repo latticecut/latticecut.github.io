@@ -126,5 +126,23 @@
       "Bounded the claim to the first-order threshold: the lower-order transition window and finite-precision bit complexity remain unresolved, and no independent, formal, peer-review, arXiv, or DOI validation was located.",
       "Pinned both the first-public PDF and its current same-day typographical correction; the two versions differ only by removal of a duplicated word."
     ]
+  },
+  {
+    "id": "2026-08-12-targeted-corpus-additions",
+    "collectionEnded": "2026-08-09",
+    "recordedAt": "2026-08-12",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 159,
+    "summary": "Targeted addition of three already-discovered mathematical result packages before the next scheduled sweep: one confirmed Claude result and two visibly provisional papers whose exact AI contribution remains unspecified; the systematic evidence cutoff remains 9 August 2026.",
+    "changes": [
+      "Added ID 139 for Frank and Ivanisvili's counterexamples to the real-valued Landis conjecture in every dimension at least three, first public on 1 August 2026.",
+      "Added ID 140 for Claude's unconditional Riemann-zeta zero-proportion improvements, first publicly available with the companion repository on 7 August 2026 and officially announced on 10 August.",
+      "Added ID 141 for Frank and Ivanisvili's explicit counterexample to the Herbst-Kriete converse in the Kato positive-commutator problem, first public on 8 August 2026.",
+      "Marked IDs 139 and 141 provisional because their papers acknowledge unspecified AI tools but do not identify the model, tasks, or materiality; their authors state that they wrote and checked the final mathematical arguments and proofs.",
+      "Recorded the Riemann-zeta package as non-provisional on the strength of claim-specific Claude attribution, source-reported human and symbolic checks, and a public sorry-free Lean companion for the headline theorems; this automation did not execute the proof artifact.",
+      "Excluded the ancillary PairCeiling claim from ID 140's anchor because its external certificate is not public, and did not treat the separate equality-case issue as affecting the current paper text or headline theorem.",
+      "Preserved the 9 August systematic collection cutoff because this was a targeted corrective publication rather than a complete rolling-window search."
+    ]
   }
 ]

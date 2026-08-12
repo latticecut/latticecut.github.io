@@ -1472,5 +1472,83 @@
       "url": "https://github.com/anadim/anadim.github.io/blob/db3be5fd7bb5807ce7ec1d5b8ff2c4b6dcc416f4/MIMO_Detection.pdf",
       "accessed": "2026-08-10"
     }
+  ],
+  "139": [
+    {
+      "key": "FrankIvanisvili2026Landis",
+      "title": "Counterexamples to the Landis conjecture in dimensions three and higher",
+      "url": "https://arxiv.org/abs/2608.00802v1",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "FernandezBertolinEtAl2024LandisSurvey",
+      "title": "Landis' conjecture: a survey",
+      "url": "https://arxiv.org/abs/2412.00788",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "140": [
+    {
+      "key": "Claude2026ZetaTwoThirds",
+      "title": "More than two thirds of the zeros of the Riemann zeta function lie on the critical line",
+      "url": "https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026RiemannZeta",
+      "title": "Claude finds new result in theoretical mathematics",
+      "url": "https://www.anthropic.com/research/riemann-zeta",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "FurmanAlpoge2026ZetaNote",
+      "title": "67% of the zeroes are on the line",
+      "url": "https://www-cdn.anthropic.com/23455459f8832d06bb175cc0f88d019aed962ef8.pdf",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026ZetaLeanInitialCommit",
+      "title": "Initial public release of the Zeta-23 Lean 4 formalization",
+      "url": "https://github.com/anthropics/zeta-23-lean/commit/cac1c55684ee31ed76a4c0573e974c01794851c5",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026ZetaRepositoryEvents",
+      "title": "GitHub public and main-branch events for the Zeta-23 repository",
+      "url": "https://api.github.com/repos/anthropics/zeta-23-lean/events?per_page=100&page=2",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026ZetaLean",
+      "title": "Zeta-23 Lean 4 formalization, public source snapshot",
+      "url": "https://github.com/anthropics/zeta-23-lean/tree/3635e74826a4c1fcece7d1cd2b6fa75e43a00510",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026ZetaIssue7",
+      "title": "Zeta-23 issue 7: reported equality-case wording",
+      "url": "https://github.com/anthropics/zeta-23-lean/issues/7",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "Anthropic2026ZetaIssue8",
+      "title": "Zeta-23 issue 8: request for the ancillary PairCeiling certificate",
+      "url": "https://github.com/anthropics/zeta-23-lean/issues/8",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "141": [
+    {
+      "key": "FrankIvanisvili2026Kato",
+      "title": "A counterexample to the Kato conjecture for positive commutators",
+      "url": "https://arxiv.org/abs/2608.07805v1",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "HerbstKriete2018HowlandKato",
+      "title": "The Howland-Kato commutator problem",
+      "url": "https://arxiv.org/abs/1804.05227",
+      "accessed": "2026-08-12"
+    }
   ]
 }
