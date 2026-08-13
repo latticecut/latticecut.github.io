@@ -746,33 +746,6 @@
       "url": "https://doi.org/10.48550/arXiv.2601.19879"
     }
   ],
-  "74": [
-    {
-      "key": "Rybin2026DGGShare",
-      "title": "Public GPT-5.6 Pro counterexample conversation for the Dinitz--Garg--Goemans cost conjecture",
-      "url": "https://chatgpt.com/share/6a60b2eb-0b64-83ee-9c76-7931ca1de063"
-    },
-    {
-      "key": "Rybin2026DGGAnnouncement",
-      "title": "Public announcement of the Dinitz--Garg--Goemans counterexample",
-      "url": "https://x.com/dmitryrybin1/status/2079904005652893709"
-    },
-    {
-      "key": "DinitzGargGoemans1999",
-      "title": "On the Single-Source Unsplittable Flow Problem",
-      "url": "https://doi.org/10.1007/s004930050043"
-    },
-    {
-      "key": "MartensSalazarSkutella2007",
-      "title": "Convex Combinations of Single Source Unsplittable Flows",
-      "url": "https://doi.org/10.1007/978-3-540-75520-3_36"
-    },
-    {
-      "key": "SwamyEtAl2026UnsplittableCostFlows",
-      "title": "Unsplittable Cost Flows from Unweighted Error-Bounded Variants",
-      "url": "https://doi.org/10.1137/1.9781611978964.42"
-    }
-  ],
   "75": [
     {
       "key": "FuGaoPark2026Werner",
@@ -1324,9 +1297,9 @@
   "129": [
     {
       "key": "BevinsBidav2026AME",
-      "title": "Symmetry-guided construction and exact certification of absolutely maximally entangled states",
-      "url": "https://arxiv.org/abs/2608.05781v1",
-      "accessed": "2026-08-08"
+      "title": "Symmetry-guided constructions of absolutely maximally entangled states in five open cases",
+      "url": "https://arxiv.org/abs/2608.05781v2",
+      "accessed": "2026-08-12"
     }
   ],
   "130": [
@@ -1525,6 +1498,12 @@
       "accessed": "2026-08-12"
     },
     {
+      "key": "Anthropic2026XiPrimeLeanCommit",
+      "title": "Lean 4 formalization update adding six xi-prime comparator statements",
+      "url": "https://github.com/anthropics/zeta-23-lean/commit/c77974d8e94e3f1fd0e18de966a523b062e91563",
+      "accessed": "2026-08-12"
+    },
+    {
       "key": "Anthropic2026ZetaIssue7",
       "title": "Zeta-23 issue 7: reported equality-case wording",
       "url": "https://github.com/anthropics/zeta-23-lean/issues/7",
@@ -1548,6 +1527,148 @@
       "key": "HerbstKriete2018HowlandKato",
       "title": "The Howland-Kato commutator problem",
       "url": "https://arxiv.org/abs/1804.05227",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "142": [
+    {
+      "key": "BulanekEtAl2026MatrixFactorization",
+      "title": "A Matrix Factorization Approach in Turnstile Streaming",
+      "url": "https://arxiv.org/abs/2607.28819v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "143": [
+    {
+      "key": "CharikarEtAl2026PessimalElections",
+      "title": "Pessimal Elections for Approximately Dominating Sets",
+      "url": "https://arxiv.org/abs/2608.06872v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "144": [
+    {
+      "key": "Pakhomov2026LevyMontagueReflection",
+      "title": "Levy-Montague reflection is Pi^1_1-conservative over WKL_0",
+      "url": "https://arxiv.org/abs/2608.07050v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "145": [
+    {
+      "key": "FredslundHansenEtAl2026FacialDistancePatterns",
+      "title": "A Tight Bound for Facial Distance Patterns in Planar Graphs",
+      "url": "https://arxiv.org/abs/2608.07187v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "146": [
+    {
+      "key": "Wu2026AnsteeSaliCounterexample",
+      "title": "A Counterexample to the Anstee-Sali's Conjecture",
+      "url": "https://arxiv.org/abs/2608.07646v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "147": [
+    {
+      "key": "SekaSzeider2026AlgebraicGraphConstructions",
+      "title": "Neurosymbolic Discovery of Algebraic Graph Constructions",
+      "url": "https://arxiv.org/abs/2608.08118v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "148": [
+    {
+      "key": "Greenfeld2026AmenabilityBaseField",
+      "title": "Amenability is not sensitive to the base field",
+      "url": "https://arxiv.org/abs/2608.08161v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "149": [
+    {
+      "key": "DuHuang2026CriticalSKOverlap",
+      "title": "Overlap distribution of the critical Sherrington-Kirkpatrick model",
+      "url": "https://arxiv.org/abs/2608.08752v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "150": [
+    {
+      "key": "Jin2026BoundedGradientNoiseLowerBound",
+      "title": "A Tight Lower Bound for Smooth Nonconvex Stochastic Optimization with Bounded Gradient Noise",
+      "url": "https://arxiv.org/abs/2608.09004v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "151": [
+    {
+      "key": "Li2026RossConjecture",
+      "title": "A proof of Ross's conjecture for two-site moving-target search",
+      "url": "https://arxiv.org/abs/2608.09368v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "152": [
+    {
+      "key": "DupreLaTour2026BalancedFairDivision",
+      "title": "Balanced Fair Division for Three Agents under General Valuations and Laminar Constraints",
+      "url": "https://arxiv.org/abs/2608.09437v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "153": [
+    {
+      "key": "HodorMicek2026RowPathwidth",
+      "title": "Row pathwidth of complete binary trees",
+      "url": "https://arxiv.org/abs/2608.09495v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "154": [
+    {
+      "key": "MaChen2026StepsizeAccelerationLowerBound",
+      "title": "A lower bound for stepsize-based acceleration of gradient descent",
+      "url": "https://arxiv.org/abs/2608.10418v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "155": [
+    {
+      "key": "ElHayekEtAl2026SimplerAlgorithms",
+      "title": "Can LLMs be Used to Simplify Algorithms? Simpler Algorithms for Vertex Coloring and Edge Connectivity",
+      "url": "https://arxiv.org/abs/2608.10753v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "156": [
+    {
+      "key": "ElHayekEtAl2026SimplerAlgorithms",
+      "title": "Can LLMs be Used to Simplify Algorithms? Simpler Algorithms for Vertex Coloring and Edge Connectivity",
+      "url": "https://arxiv.org/abs/2608.10753v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "157": [
+    {
+      "key": "Palvolgyi2026KneserShift",
+      "title": "A nearcircumsphere-Ramsey Theorem for Solvable Transitive Configurations",
+      "url": "https://arxiv.org/abs/2608.10865v1",
+      "accessed": "2026-08-12"
+    }
+  ],
+  "158": [
+    {
+      "key": "SahaEtAl2026GrothendieckBounds",
+      "title": "New Lower and Upper Bounds for the Grothendieck Constant",
+      "url": "https://arxiv.org/abs/2608.11158v2",
+      "accessed": "2026-08-12"
+    },
+    {
+      "key": "LiEtAl2026GrothendieckCaseStudy",
+      "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+      "url": "https://arxiv.org/abs/2608.11195v1",
       "accessed": "2026-08-12"
     }
   ]

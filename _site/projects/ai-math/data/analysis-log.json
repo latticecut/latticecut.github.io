@@ -144,5 +144,25 @@
       "Excluded the ancillary PairCeiling claim from ID 140's anchor because its external certificate is not public, and did not treat the separate equality-case issue as affecting the current paper text or headline theorem.",
       "Preserved the 9 August systematic collection cutoff because this was a targeted corrective publication rather than a complete rolling-window search."
     ]
+  },
+  {
+    "id": "2026-08-12-daily-evidence-refresh",
+    "collectionEnded": "2026-08-12",
+    "recordedAt": "2026-08-12",
+    "model": "OpenAI Codex, based on GPT-5",
+    "modelStatus": "recorded",
+    "entryCount": 175,
+    "summary": "Systematic daily evidence refresh for 6--12 August 2026, completing the 10--12 August gap after the prior cutoff, adding fourteen confirmed and three flagged-provisional result packages including one earlier missed paper, withdrawing one source-retracted record, and updating four recent records.",
+    "changes": [
+      "Added confirmed IDs 142--150, 152, 154--156 and 158 for the AI-generated prefix-matrix factorization lower bound in arXiv:2607.28819; pessimal elections; Levy--Montague reflection; the tight planar facial-distance-pattern bound; the Anstee--Sali counterexample; an exact algebraic construction of the already-known 16-vertex Bernhart--Kainen counterexample; base-field invariance of amenability; the critical Sherrington--Kirkpatrick overlap law; the sharp bounded-gradient-noise stochastic-optimization lower bound; balanced fair division for three agents; the gradient-descent lower bound for every exponent p strictly between sqrt(2+sqrt(3)) and 2, whose endpoint is expressly not established; separate vertex-palette and global-min-cut algorithmic results from arXiv:2608.10753; and the Grothendieck-constant bound package.",
+      "Added flagged-provisional ID 151 for the Ross two-site moving-target conjecture because the paper documents GPT assistance and independent author checking but does not identify which decisive final proof steps, if any, originated with the model.",
+      "Added flagged-provisional ID 153 for the complete-binary-tree row-pathwidth theorem because the paper attributes the proof to GPT-5.6 Sol Pro but reports no distinct verification event beyond ordinary authorship.",
+      "Added flagged-provisional ID 157 only for arXiv:2608.10865's Kneser-shift theorem and quantitative bounds, which the author attributes to substantial joint ChatGPT brainstorming; the paper expressly says that none of the main ideas behind its headline near-circumsphere Ramsey theorem came from ChatGPT, so that headline is outside this record.",
+      "Removed ID 74 after its cited primary ChatGPT share explicitly withdrew the claimed Dinitz--Garg--Goemans counterexample: after accounting for all source--terminal paths, the proposed constructions gained an additional unsplittable routing and exact separation returned zero.",
+      "Updated ID 129 to arXiv:2608.05781v2 and its expanded primary-source AI-use statement without changing its mathematical claim or status; extended ID 140 with the source-reported xi-prime zero-proportion bounds and linked formalization update, while continuing to omit the ancillary PairCeiling claim whose certificate is not public.",
+      "Corrected IDs 139 and 141 to arXiv's public announcement dates, 3 and 10 August respectively, rather than their earlier private submission-receipt dates; both remain provisional because their papers acknowledge unspecified AI tools without identifying a model or material task.",
+      "Excluded arXiv:2608.08238 because its weaker prefix-matrix lower bound was dominated when first public by the already-public AI-generated arXiv:2607.28819 and non-AI arXiv:2607.28703 results; excluded arXiv:2608.08154 and 2608.07275 for lack of a primary-source AI connection, arXiv:2608.08421 as formalization of an already computer-derived result, and arXiv:2608.11211 as incomplete. Deferred arXiv:2608.11517 and 2608.11941 because their first public arXiv listing was 13 August, outside this run's cutoff; the latter appears to be duplicate benchmark evidence for ID 34 and will be rechecked in the next run.",
+      "Completed the mathematics and relevant computer-science arXiv feeds and the mandatory Anthropic, Kato, Landis, author, laboratory and repository rechecks through 12 August. One social-author surface remained inaccessible behind sign-in, but that affects only the already-visible attribution questions on IDs 139 and 141 and did not prevent bounded publication of independently supported records."
+    ]
   }
 ]
