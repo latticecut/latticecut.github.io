@@ -245,7 +245,20 @@
     {
       "key": "TsoukalasEtAl2026AlphaProofNexus",
       "title": "Advancing Mathematics Research with AI-Driven Formal Proof Search",
-      "url": "https://doi.org/10.48550/arXiv.2605.22763"
+      "url": "https://arxiv.org/abs/2605.22763v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "GoogleDeepMind2026AlphaProofNexusA051293",
+      "title": "Released Lean proof for OEIS A051293",
+      "url": "https://github.com/google-deepmind/alphaproof-nexus-results/blob/0647711a71183c1ea492ad60860776617ce1ea88/APNOutputs/OEIS/oeis_51293_conjecture_0.lean",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Adamczewski2026OEISOpen",
+      "title": "OEIS Open: How many conjectures can language models turn into theorems?",
+      "url": "https://arxiv.org/abs/2608.11941v1",
+      "accessed": "2026-08-13"
     }
   ],
   "35": [
@@ -1671,5 +1684,391 @@
       "url": "https://arxiv.org/abs/2608.11195v1",
       "accessed": "2026-08-12"
     }
+  ],
+  "159": [
+    {
+      "key": "ChodoshGianocca2026LiquidDropV1",
+      "title": "No compromise in the liquid drop model",
+      "url": "https://arxiv.org/abs/2608.11517v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "ChodoshGianocca2026LiquidDropHTMLV1",
+      "title": "No compromise in the liquid drop model (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11517v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "160": [
+    {
+      "key": "FilmusLiMinzer2026BinaryGrassmannFKNV1",
+      "title": "An FKN Theorem for the Binary Grassmann Scheme",
+      "url": "https://arxiv.org/abs/2608.11320v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "FilmusLiMinzer2026BinaryGrassmannFKNHTMLV1",
+      "title": "An FKN Theorem for the Binary Grassmann Scheme (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11320v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "161": [
+    {
+      "key": "FilmusLiMinzer2026BinaryGrassmannFKNV1",
+      "title": "An FKN Theorem for the Binary Grassmann Scheme",
+      "url": "https://arxiv.org/abs/2608.11320v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "FilmusLiMinzer2026BinaryGrassmannFKNHTMLV1",
+      "title": "An FKN Theorem for the Binary Grassmann Scheme (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11320v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "162": [
+    {
+      "key": "ChenEtAl2026HalfspaceTestingV1",
+      "title": "Distribution-Free Halfspace Testing with Samples",
+      "url": "https://arxiv.org/abs/2608.11346v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "ChenEtAl2026HalfspaceTestingHTMLV1",
+      "title": "Distribution-Free Halfspace Testing with Samples (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11346v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "163": [
+    {
+      "key": "BryantTupper2026SubmodularDiversitiesV1",
+      "title": "Submodular and strongly submodular functions and diversities",
+      "url": "https://arxiv.org/abs/2608.11468v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "BryantTupper2026SubmodularDiversitiesHTMLV1",
+      "title": "Submodular and strongly submodular functions and diversities (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11468v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "164": [
+    {
+      "key": "Davis2026SpinDualStiefelWhitneyV1",
+      "title": "Spin manifolds with nonzero dual Stiefel-Whitney classes of large grading",
+      "url": "https://arxiv.org/abs/2608.11527v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Davis2026SpinDualStiefelWhitneyHTMLV1",
+      "title": "Spin manifolds with nonzero dual Stiefel-Whitney classes of large grading (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11527v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "165": [
+    {
+      "key": "Davis2026SpinDualStiefelWhitneyV1",
+      "title": "Spin manifolds with nonzero dual Stiefel-Whitney classes of large grading",
+      "url": "https://arxiv.org/abs/2608.11527v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Davis2026SpinDualStiefelWhitneyHTMLV1",
+      "title": "Spin manifolds with nonzero dual Stiefel-Whitney classes of large grading (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11527v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "166": [
+    {
+      "key": "Brukhman2026DenseSeymourV1",
+      "title": "A dense-case theorem for Seymour's second neighborhood conjecture",
+      "url": "https://arxiv.org/abs/2608.11530v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Brukhman2026DenseSeymourHTMLV1",
+      "title": "A dense-case theorem for Seymour's second neighborhood conjecture (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11530v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "167": [
+    {
+      "key": "Garcia2026FermatStarInvariantV1",
+      "title": "Fermat's Last Theorem in star-invariant subspaces: capacity-zero boundary spectrum",
+      "url": "https://arxiv.org/abs/2608.11653v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Garcia2026FermatStarInvariantHTMLV1",
+      "title": "Fermat's Last Theorem in star-invariant subspaces: capacity-zero boundary spectrum (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11653v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "168": [
+    {
+      "key": "CoiteuxRoyEtAl2026QuantumCycleColoringV1",
+      "title": "Distributed Quantum Algorithms Cannot Color Cycles with Probability 1",
+      "url": "https://arxiv.org/abs/2608.11720v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "CoiteuxRoyEtAl2026QuantumCycleColoringHTMLV1",
+      "title": "Distributed Quantum Algorithms Cannot Color Cycles with Probability 1 (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11720v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "169": [
+    {
+      "key": "BestPeres2026EditDistanceRotationsV1",
+      "title": "Edit distance exponents for irrational rotations",
+      "url": "https://arxiv.org/abs/2608.11763v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "BestPeres2026EditDistanceRotationsHTMLV1",
+      "title": "Edit distance exponents for irrational rotations (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11763v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "170": [
+    {
+      "key": "NikzadDeninger2026PadicCoronaIIV1",
+      "title": "Invariant Functions on p-divisible Groups and the p-adic Corona Problem II",
+      "url": "https://arxiv.org/abs/2608.11943v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "NikzadDeninger2026PadicCoronaIIHTMLV1",
+      "title": "Invariant Functions on p-divisible Groups and the p-adic Corona Problem II (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11943v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "171": [
+    {
+      "key": "Frembs2026PauliContextualityV1",
+      "title": "Contextuality in the n-qubit Pauli group",
+      "url": "https://arxiv.org/abs/2608.11993v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Frembs2026PauliContextualityHTMLV1",
+      "title": "Contextuality in the n-qubit Pauli group (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.11993v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "172": [
+    {
+      "key": "Klisse2026WordLengthSpectralTriplesV1",
+      "title": "Word-Length Spectral Triples of (Z/2Z) wr F_d Are Not Metric",
+      "url": "https://arxiv.org/abs/2608.12080v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Klisse2026WordLengthSpectralTriplesHTMLV1",
+      "title": "Word-Length Spectral Triples of (Z/2Z) wr F_d Are Not Metric (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12080v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "173": [
+    {
+      "key": "AnLiu2026ComplexityRankRealRankV1",
+      "title": "Complexity rank one implies real rank zero",
+      "url": "https://arxiv.org/abs/2608.12089v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "AnLiu2026ComplexityRankRealRankHTMLV1",
+      "title": "Complexity rank one implies real rank zero (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12089v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "174": [
+    {
+      "key": "DinamarcaEtAl2026PLCircleActionsV1",
+      "title": "Hyperbolicity and obstructions to PL actions of the circle",
+      "url": "https://arxiv.org/abs/2608.12168v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "DinamarcaEtAl2026PLCircleActionsHTMLV1",
+      "title": "Hyperbolicity and obstructions to PL actions of the circle (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12168v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "175": [
+    {
+      "key": "KarczmarzPilarski2026ParallelMaxFlowV1",
+      "title": "Strongly Polynomial Parallel Maximum Flow Revisited",
+      "url": "https://arxiv.org/abs/2608.12171v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "KarczmarzPilarski2026ParallelMaxFlowHTMLV1",
+      "title": "Strongly Polynomial Parallel Maximum Flow Revisited (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12171v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "176": [
+    {
+      "key": "PengTang2026HarmonicRankingV1",
+      "title": "Harmonic Ranking for Edge-Weighted Oblivious Matching",
+      "url": "https://arxiv.org/abs/2608.12176v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "PengTang2026HarmonicRankingHTMLV1",
+      "title": "Harmonic Ranking for Edge-Weighted Oblivious Matching (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12176v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "177": [
+    {
+      "key": "Pejic2026TuranDensityC10V1",
+      "title": "On the Turan Density of C10 in the Hypercube",
+      "url": "https://arxiv.org/abs/2608.12237v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Pejic2026TuranDensityC10HTMLV1",
+      "title": "On the Turan Density of C10 in the Hypercube (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12237v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "178": [
+    {
+      "key": "LiehrTaylorYu2026GrothendieckBesselV1",
+      "title": "Grothendieck's theorem for Bessel sequences",
+      "url": "https://arxiv.org/abs/2608.12280v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "LiehrTaylorYu2026GrothendieckBesselHTMLV1",
+      "title": "Grothendieck's theorem for Bessel sequences (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12280v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "179": [
+    {
+      "key": "AgazziEtAl2026MorreyCounterexamplesV1",
+      "title": "Morrey's problem in R^(2x4) and R^(3x3)_sym",
+      "url": "https://arxiv.org/abs/2608.12298v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "AgazziEtAl2026MorreyCounterexamplesHTMLV1",
+      "title": "Morrey's problem in R^(2x4) and R^(3x3)_sym (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12298v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "180": [
+    {
+      "key": "Rodgers2026WeightedHilbertConstantV1",
+      "title": "On the optimal constant in the Montgomery-Vaughan weighted Hilbert inequality",
+      "url": "https://arxiv.org/abs/2608.12315v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "Rodgers2026WeightedHilbertConstantHTMLV1",
+      "title": "On the optimal constant in the Montgomery-Vaughan weighted Hilbert inequality (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12315v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "181": [
+    {
+      "key": "CushmanDemeterWu2026ConvexCurveEnergyV1",
+      "title": "Near optimal three-fold additive energy bound for points on convex curves",
+      "url": "https://arxiv.org/abs/2608.12316v1",
+      "accessed": "2026-08-13"
+    },
+    {
+      "key": "CushmanDemeterWu2026ConvexCurveEnergyHTMLV1",
+      "title": "Near optimal three-fold additive energy bound for points on convex curves (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12316v1",
+      "accessed": "2026-08-13"
+    }
+  ],
+  "182": [
+    {"key": "DanielewskaKolodziejek2026GraphicalCountV1", "title": "Graphical Models for Multivariate Count Data", "url": "https://arxiv.org/abs/2608.11366v1", "accessed": "2026-08-13"},
+    {"key": "DanielewskaKolodziejek2026GraphicalCountHTMLV1", "title": "Graphical Models for Multivariate Count Data (HTML, v1)", "url": "https://arxiv.org/html/2608.11366v1", "accessed": "2026-08-13"}
+  ],
+  "183": [
+    {"key": "Hadfield2026QAOAEvaluationV1", "title": "Evaluating QAOA expectation values can be as hard as counting optimal solutions", "url": "https://arxiv.org/abs/2608.11385v1", "accessed": "2026-08-13"},
+    {"key": "Hadfield2026QAOAEvaluationHTMLV1", "title": "Evaluating QAOA expectation values can be as hard as counting optimal solutions (HTML, v1)", "url": "https://arxiv.org/html/2608.11385v1", "accessed": "2026-08-13"}
+  ],
+  "184": [
+    {"key": "Teh2026FJRPlusV1", "title": "Strengthening Full Justified Representation: Efficient Verification and Computation", "url": "https://arxiv.org/abs/2608.11500v1", "accessed": "2026-08-13"},
+    {"key": "Teh2026FJRPlusHTMLV1", "title": "Strengthening Full Justified Representation: Efficient Verification and Computation (HTML, v1)", "url": "https://arxiv.org/html/2608.11500v1", "accessed": "2026-08-13"}
+  ],
+  "185": [
+    {"key": "GuoKangXiong2026ButlerV1", "title": "A solution to Butler's positivity conjecture", "url": "https://arxiv.org/abs/2608.11543v1", "accessed": "2026-08-13"},
+    {"key": "GuoKangXiong2026ButlerHTMLV1", "title": "A solution to Butler's positivity conjecture (HTML, v1)", "url": "https://arxiv.org/html/2608.11543v1", "accessed": "2026-08-13"}
+  ],
+  "186": [
+    {"key": "NguyenTruong2026GradientRegularityV1", "title": "Higher Regularity of Homogeneous Gradient Compositions for p-Laplace-Type Equations", "url": "https://arxiv.org/abs/2608.11586v1", "accessed": "2026-08-13"},
+    {"key": "NguyenTruong2026GradientRegularityHTMLV1", "title": "Higher Regularity of Homogeneous Gradient Compositions for p-Laplace-Type Equations (HTML, v1)", "url": "https://arxiv.org/html/2608.11586v1", "accessed": "2026-08-13"}
+  ],
+  "187": [
+    {"key": "LiuShiZhang2026QuantitativeUniqueContinuationV1", "title": "Quantitative Unique Continuation on Simplex and Z^n", "url": "https://arxiv.org/abs/2608.11602v1", "accessed": "2026-08-13"},
+    {"key": "LiuShiZhang2026QuantitativeUniqueContinuationHTMLV1", "title": "Quantitative Unique Continuation on Simplex and Z^n (HTML, v1)", "url": "https://arxiv.org/html/2608.11602v1", "accessed": "2026-08-13"}
+  ],
+  "188": [
+    {"key": "BauerMemoliNeedhamNishino2026MetricGeometryV1", "title": "Metric Geometry of Lebesgue, Wasserstein, and Gromov-Wasserstein Spaces: Submetries, Curvature, and Geodesics", "url": "https://arxiv.org/abs/2608.11680v1", "accessed": "2026-08-13"},
+    {"key": "BauerMemoliNeedhamNishino2026MetricGeometryHTMLV1", "title": "Metric Geometry of Lebesgue, Wasserstein, and Gromov-Wasserstein Spaces: Submetries, Curvature, and Geodesics (HTML, v1)", "url": "https://arxiv.org/html/2608.11680v1", "accessed": "2026-08-13"}
+  ],
+  "189": [
+    {"key": "ChangChangPan2026AntimagicV1", "title": "Every 2-Subdivision of a Cubic Graph Is Antimagic", "url": "https://arxiv.org/abs/2608.11723v1", "accessed": "2026-08-13"},
+    {"key": "ChangChangPan2026AntimagicHTMLV1", "title": "Every 2-Subdivision of a Cubic Graph Is Antimagic (HTML, v1)", "url": "https://arxiv.org/html/2608.11723v1", "accessed": "2026-08-13"}
+  ],
+  "190": [
+    {"key": "ZhuWang2026WeylHeisenbergV1", "title": "Uniformly Stable Minimal Weyl-Heisenberg Measurements Approaching the SIC Benchmark", "url": "https://arxiv.org/abs/2608.11850v1", "accessed": "2026-08-13"},
+    {"key": "ZhuWang2026WeylHeisenbergHTMLV1", "title": "Uniformly Stable Minimal Weyl-Heisenberg Measurements Approaching the SIC Benchmark (HTML, v1)", "url": "https://arxiv.org/html/2608.11850v1", "accessed": "2026-08-13"}
+  ],
+  "191": [
+    {"key": "FangChenChenZong2026ConifoldGapV1", "title": "Conifold Gap Theorem for Topological Recursion", "url": "https://arxiv.org/abs/2608.11960v1", "accessed": "2026-08-13"},
+    {"key": "FangChenChenZong2026ConifoldGapHTMLV1", "title": "Conifold Gap Theorem for Topological Recursion (HTML, v1)", "url": "https://arxiv.org/html/2608.11960v1", "accessed": "2026-08-13"}
+  ],
+  "192": [
+    {"key": "ZhangYang2026LeechAuxiliaryV1", "title": "The 196560 auxiliary-function conjecture for the Leech lattice", "url": "https://arxiv.org/abs/2608.12094v1", "accessed": "2026-08-13"},
+    {"key": "ZhangYang2026LeechAuxiliaryHTMLV1", "title": "The 196560 auxiliary-function conjecture for the Leech lattice (HTML, v1)", "url": "https://arxiv.org/html/2608.12094v1", "accessed": "2026-08-13"}
+  ],
+  "193": [
+    {"key": "Glasner2026TameGroupsV1", "title": "Tame Topological Groups are precompact", "url": "https://arxiv.org/abs/2608.12106v1", "accessed": "2026-08-13"},
+    {"key": "Glasner2026TameGroupsHTMLV1", "title": "Tame Topological Groups are precompact (HTML, v1)", "url": "https://arxiv.org/html/2608.12106v1", "accessed": "2026-08-13"}
+  ],
+  "194": [
+    {"key": "Kitagawa2026FreeIntegrabilityV1", "title": "Integrability of Freely Infinitely Divisible Distributions and Levy Measures", "url": "https://arxiv.org/abs/2608.12188v1", "accessed": "2026-08-13"},
+    {"key": "Kitagawa2026FreeIntegrabilityHTMLV1", "title": "Integrability of Freely Infinitely Divisible Distributions and Levy Measures (HTML, v1)", "url": "https://arxiv.org/html/2608.12188v1", "accessed": "2026-08-13"}
+  ],
+  "195": [
+    {"key": "Zhao2026CorrelationLogDetV1", "title": "Sharp Berry-Esseen Bounds for the Log Determinant of a Gaussian Sample Correlation Matrix", "url": "https://arxiv.org/abs/2608.12242v1", "accessed": "2026-08-13"},
+    {"key": "Zhao2026CorrelationLogDetHTMLV1", "title": "Sharp Berry-Esseen Bounds for the Log Determinant of a Gaussian Sample Correlation Matrix (HTML, v1)", "url": "https://arxiv.org/html/2608.12242v1", "accessed": "2026-08-13"}
+  ],
+  "196": [
+    {"key": "Abreu2026IsospectralMajorizationV1", "title": "Isospectral majorization and isoperimetric inequalities for coherent states on the Bloch sphere", "url": "https://arxiv.org/abs/2608.12248v1", "accessed": "2026-08-13"},
+    {"key": "Abreu2026IsospectralMajorizationHTMLV1", "title": "Isospectral majorization and isoperimetric inequalities for coherent states on the Bloch sphere (HTML, v1)", "url": "https://arxiv.org/html/2608.12248v1", "accessed": "2026-08-13"}
+  ],
+  "197": [
+    {"key": "SchaferNamekiZhengAntinucci2026AnyonProliferationV1", "title": "Proliferation Transitions for Non-Abelian Anyons", "url": "https://arxiv.org/abs/2608.12303v1", "accessed": "2026-08-13"},
+    {"key": "SchaferNamekiZhengAntinucci2026AnyonProliferationHTMLV1", "title": "Proliferation Transitions for Non-Abelian Anyons (HTML, v1)", "url": "https://arxiv.org/html/2608.12303v1", "accessed": "2026-08-13"}
   ]
 }
