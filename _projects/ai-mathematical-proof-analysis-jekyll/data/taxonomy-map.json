@@ -6,18 +6,19 @@
     "legacyChallengePolicyVersion": "0.1.0",
     "classificationUnit": "mathematical result",
     "scope": "Current-corpus v0.2 coding with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "recordCount": 285,
+    "recordCount": 291,
     "fullRecordCount": 10,
-    "minimalRecordCount": 275,
+    "minimalRecordCount": 281,
     "pendingTaxonomyCount": 0,
-    "substantivelyCodedRecordCount": 285,
-    "sourceCorpusCollectionEnded": "2026-08-14",
+    "substantivelyCodedRecordCount": 291,
+    "sourceCorpusCollectionEnded": "2026-08-15",
     "sourceSnapshot": {
-      "scoredLedgerSha256": "8c8d04afed707666c667105090cc00d8fd2912cfc8197ab6bfead41ef4b11c7c",
-      "referenceMapSha256": "41160c8ec7d2c501c52d79d13d5e319bf3a45fc5f2018b284eefcd8e70219630",
-      "analysisLogSha256": "6eefbc447feae58e2f9e0c11f7ee08e48eb535c78a53ba75c392d9e1fd8bbdf4"
+      "scoredLedgerSha256": "7341dfb1ad12e66f797a60038c172dd66726d93ff0494ab427831a8010b173d7",
+      "referenceMapSha256": "c781be64111aefc2d5521e26a1c95112f5da7bf72d41d23697fd94d68ec3b9fb",
+      "analysisLogSha256": "deb581ca014d082d4090a3f89d8f59e07e097075fd509b827403ccad245074eb"
     },
     "defaultLeadingIds": [
+      "272",
       "269",
       "268",
       "267",
@@ -26,8 +27,7 @@
       "264",
       "263",
       "262",
-      "261",
-      "260"
+      "261"
     ],
     "migrationBoundary": "Legacy challenge categories remain visible; record-level policy 1.0.0 is shown separately and no historical row is silently recategorised.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -17483,6 +17483,248 @@
       "resourceClass": "not_reported"
     }
   },
+  "274": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-274",
+    "claim": "Every permutation of [18] has a monotone 2-additive subsequence of length three, while the displayed permutation (8,10,12,14,3,5,16,1,7,11,4,17,13,2,9,6,15) shows that 18 is the least possible threshold: g(3,2)=18.",
+    "sources": [
+      {
+        "sourceId": "Arxiv260529011V2",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Subsequence sums in permutations (arXiv v2)",
+        "url": "https://arxiv.org/abs/2605.29011v2",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Arxiv260529011V2HTML",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Subsequence sums in permutations (HTML, v2)",
+        "url": "https://arxiv.org/html/2605.29011v2",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "05",
+            "label": "Combinatorics"
+          },
+          {
+            "code": "05A",
+            "label": "Enumerative combinatorics"
+          },
+          {
+            "code": "05A05",
+            "label": "Permutations, words, matrices"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result exactly classifies a finite extremal threshold for an additive pattern in permutations.",
+        "evidenceSourceIds": [
+          "Arxiv260529011V2",
+          "Arxiv260529011V2HTML"
+        ],
+        "confidence": "medium"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "A universal case analysis at n=18 and an explicit avoiding permutation at n=17 determine g(3,2) exactly.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "rationale": "A universal case analysis at n=18 and an explicit avoiding permutation at n=17 determine g(3,2) exactly.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-CONSTRUCTED-EXISTENCE"
+          ],
+          "rationale": "A universal case analysis at n=18 and an explicit avoiding permutation at n=17 determine g(3,2) exactly.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The authors report SageMath experiments and counterexample searches and say some Sage code was developed with Google AI tools, without assigning that code to the exact threshold proof or witness.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-EXECUTABLE-COMPUTATION-OR-PROGRAM-SEARCH",
+          "rationale": "The authors report SageMath experiments and counterexample searches and say some Sage code was developed with Google AI tools, without assigning that code to the exact threshold proof or witness.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-PROGRAM-OR-EVOLUTIONARY-SEARCH",
+          "rationale": "The authors report SageMath experiments and counterexample searches and say some Sage code was developed with Google AI tools, without assigning that code to the exact threshold proof or witness.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The authors report SageMath experiments and counterexample searches and say some Sage code was developed with Google AI tools, without assigning that code to the exact threshold proof or witness.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "none_reported",
+      "events": [],
+      "rationale": "The paper gives a human proof and explicit witness but reports no distinct human, model, formal, computational replay, certificate, peer-review or independent verification event for g(3,2)=18."
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "Every permutation of [18] has a monotone 2-additive subsequence of length three, while the displayed permutation (8,10,12,14,3,5,16,1,7,11,4,17,13,2,9,6,15) shows that 18 is the least possible threshold: g(3,2)=18.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "The paper treats the exact finite threshold for monotone 2-additive triples as a determinate classification target.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The matching universal upper result and explicit 17-point lower witness determine the threshold exactly.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        },
+        "scope": {
+          "value": 0,
+          "rationale": "The anchor is a fixed finite classification rather than an unbounded substantive family.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "The coded sources do not establish the strict resistance criterion for this exact target.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking required: determine whether AI-assisted Sage code found or verified the 17-point witness or supported the universal case analysis; inspect and independently replay the exact program and verify novelty. Keep provisional and do not assign the Superhuman override.",
+        "evidenceSourceIds": [
+          "Arxiv260529011V2",
+          "Arxiv260529011V2HTML"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Arxiv260529011V2",
+          "Arxiv260529011V2HTML"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Arxiv260529011V2",
+            "Arxiv260529011V2HTML"
+          ]
+        }
+      },
+      "derived": {
+        "score": 3,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "medium",
+      "rationale": "The source supports a bounded exact result and direct AI-assisted-code acknowledgement but does not map AI to the load-bearing result.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: determine whether AI-assisted Sage code found or verified the 17-point witness or supported the universal case analysis; inspect and independently replay the exact program and verify novelty. Keep provisional, leave reviewStatus unreviewed, and do not assign the Superhuman override."
+    }
+  },
   "40": {
     "schemaVersion": "0.2.0",
     "profile": "full",
@@ -24694,6 +24936,422 @@
       "notes": "The record remains unreviewed; ordinary authorship is not converted into a verification event."
     }
   },
+  "270": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-270",
+    "claim": "For every n-by-n complex matrix A, every polynomial p satisfies ||p(A)|| at most 2 max over z in W(A) of |p(z)|; the same estimate holds for functions holomorphic near W(A), so W(A) is a 2-spectral set and the universal constant 2 is sharp.",
+    "sources": [
+      {
+        "sourceId": "Jin2026CrouzeixInitialCommit",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Crouzeix Conjecture: initial public candidate-proof project status",
+        "url": "https://github.com/jinshanmu/CrouzeixConjecture/commit/df001051d58e2e897038ad849ef0cc8a7b88b349",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Jin2026CrouzeixV1",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "The Numerical Range Is a 2-Spectral Set (Preprints.org v1)",
+        "url": "https://www.preprints.org/manuscript/202607.1919/v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Jin2026CrouzeixV4",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "The Numerical Range Is a 2-Spectral Set (Preprints.org v4)",
+        "url": "https://www.preprints.org/manuscript/202607.1919/v4",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Jin2026CrouzeixCurrentREADME",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Crouzeix project status, audit and formalization notes",
+        "url": "https://github.com/jinshanmu/CrouzeixConjecture/blob/9df07838327b988e3924453daa29c8cd726d34b0/README.md",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Jin2026CrouzeixFormalizationCommit",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Crouzeix project v4 proof and formalization commit",
+        "url": "https://github.com/jinshanmu/CrouzeixConjecture/commit/595f6fc702a77978c589e4f02fdc324996f9d39c",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "LoristSchwenninger2026CrouzeixIndependent",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "A solution to Crouzeix's conjecture: independent alternative proof",
+        "url": "https://arxiv.org/abs/2608.03841v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "47",
+            "label": "Operator theory"
+          },
+          {
+            "code": "47A",
+            "label": "General theory of linear operators"
+          },
+          {
+            "code": "47A25",
+            "label": "Spectral sets of linear operators"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result determines the sharp universal spectral-set constant for the numerical range of an operator.",
+        "evidenceSourceIds": [
+          "Jin2026CrouzeixInitialCommit",
+          "Jin2026CrouzeixV1",
+          "Jin2026CrouzeixV4",
+          "Jin2026CrouzeixCurrentREADME",
+          "Jin2026CrouzeixFormalizationCommit",
+          "LoristSchwenninger2026CrouzeixIndependent"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The source reports a positive-real-completion and Herglotz-kernel argument proving the sharp constant-2 Crouzeix theorem for complex matrices; a separate paper supplies an independent bounded-operator proof.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "The source reports a positive-real-completion and Herglotz-kernel argument proving the sharp constant-2 Crouzeix theorem for complex matrices; a separate paper supplies an independent bounded-operator proof.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The source reports a positive-real-completion and Herglotz-kernel argument proving the sharp constant-2 Crouzeix theorem for complex matrices; a separate paper supplies an independent bounded-operator proof.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-AI-LED",
+          "rationale": "Jin specifically attributes the central scaled-conjugate-eigenvalue and origin-sampling cancellation idea in the proof to OpenAI ChatGPT; the human author developed and released the proof and accepts responsibility.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "Jin specifically attributes the central scaled-conjugate-eigenvalue and origin-sampling cancellation idea in the proof to OpenAI ChatGPT; the human author developed and released the proof and accepts responsibility.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-DIRECT-MODEL-INTERACTION",
+          "rationale": "Jin specifically attributes the central scaled-conjugate-eigenvalue and origin-sampling cancellation idea in the proof to OpenAI ChatGPT; the human author developed and released the proof and accepts responsibility.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "Jin specifically attributes the central scaled-conjugate-eigenvalue and origin-sampling cancellation idea in the proof to OpenAI ChatGPT; the human author developed and released the proof and accepts responsibility.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "confidence": "high"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-270-1",
+          "familyId": "VF-EXTERNAL",
+          "methodId": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+          "target": "Jin's finite-dimensional sharp constant-2 Crouzeix theorem for complex matrices",
+          "verifier": "Emiel Lorist and Felix L. Schwenninger",
+          "independence": "independent_party",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "stronger",
+            "rationale": "Their independently developed arXiv proof establishes the bounded-operator theorem, which implies and strictly generalizes Jin's finite-dimensional anchor, though it does not audit Jin's proof steps.",
+            "evidenceSourceIds": [
+              "Jin2026CrouzeixInitialCommit",
+              "Jin2026CrouzeixV1",
+              "Jin2026CrouzeixV4",
+              "Jin2026CrouzeixCurrentREADME",
+              "Jin2026CrouzeixFormalizationCommit",
+              "LoristSchwenninger2026CrouzeixIndependent"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "notes": "This is an independent alternative proof of the mathematical claim, not peer review of Jin's manuscript."
+        },
+        {
+          "eventId": "verification-270-2",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The source-reported Lean formalization accompanying the v4 finite-dimensional proof",
+          "verifier": "The source-reported Lean 4 and Mathlib kernel check",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "The repository reports formal coverage and an axiom audit, but this automation did not replay the artifact or independently audit complete manuscript-to-formal correspondence.",
+            "evidenceSourceIds": [
+              "Jin2026CrouzeixInitialCommit",
+              "Jin2026CrouzeixV1",
+              "Jin2026CrouzeixV4",
+              "Jin2026CrouzeixCurrentREADME",
+              "Jin2026CrouzeixFormalizationCommit",
+              "LoristSchwenninger2026CrouzeixIndependent"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ],
+          "notes": "The formal files were treated as untrusted evidence and were not executed."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For every n-by-n complex matrix A, every polynomial p satisfies ||p(A)|| at most 2 max over z in W(A) of |p(z)|; the same estimate holds for functions holomorphic near W(A), so W(A) is a 2-spectral set and the universal constant 2 is sharp.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Crouzeix formulated the exact universal constant-2 numerical-range spectral-set conjecture in 2004.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The source reports a complete affirmative resolution with the conjectured sharp universal constant.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The theorem applies uniformly to complex matrices of every finite dimension and the stated holomorphic functional calculus.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Multiple published special-class results and successive universal bounds document independent sustained attacks on the exact conjecture.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2004",
+        "precision": "year",
+        "rationale": "The 2004 conjecture is reported solved in 2026 after 22 years or 2.2 decades; under legacy policy 0.1.0 the nonprovisional P1/A2 record receives the duration override.",
+        "evidenceSourceIds": [
+          "Jin2026CrouzeixInitialCommit",
+          "Jin2026CrouzeixV1",
+          "Jin2026CrouzeixV4",
+          "Jin2026CrouzeixCurrentREADME",
+          "Jin2026CrouzeixFormalizationCommit",
+          "LoristSchwenninger2026CrouzeixIndependent"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Jin2026CrouzeixInitialCommit",
+          "Jin2026CrouzeixV1",
+          "Jin2026CrouzeixV4",
+          "Jin2026CrouzeixCurrentREADME",
+          "Jin2026CrouzeixFormalizationCommit",
+          "LoristSchwenninger2026CrouzeixIndependent"
+        ]
+      },
+      "provisional": false,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Jin2026CrouzeixInitialCommit",
+            "Jin2026CrouzeixV1",
+            "Jin2026CrouzeixV4",
+            "Jin2026CrouzeixCurrentREADME",
+            "Jin2026CrouzeixFormalizationCommit",
+            "LoristSchwenninger2026CrouzeixIndependent"
+          ]
+        }
+      },
+      "derived": {
+        "score": 5,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 22.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [
+          "verification-270-1"
+        ]
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "high",
+      "rationale": "A dated first-public source and current preprint support the bounded theorem and specific central AI contribution, while an independent proof establishes the same mathematical claim.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "First public on GitHub on 2026-07-18; first formal Preprints.org posting was 2026-07-27. The v4 record supplies the finite-dimensional theorem and holomorphic extension; Lorist and Schwenninger independently prove the bounded-operator generalization. Source-reported formal and adversarial audits were not independently replayed."
+    }
+  },
   "44": {
     "schemaVersion": "0.2.0",
     "profile": "full",
@@ -27119,6 +27777,303 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "The cited earlier upper bound is evidence needed for exactness, not a verification event for the new lower construction."
+    }
+  },
+  "273": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-273",
+    "claim": "The candidate manuscript reports, with convergence of every fixed moment, a t^-1/4 Gaussian current limit for homogeneous biased data, a t^-1/4 half-normal limit for biased domain-wall data, and a t^-1/8 two-sided-Brownian-at-an-independent-Gaussian limit at zero magnetization.",
+    "sources": [
+      {
+        "sourceId": "Pozsgay2026XNORCandidateProof",
+        "sourceType": "paper",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Current fluctuations in the stochastic XNOR hopping process (An AI-generated candidate proof)",
+        "url": "https://zenodo.org/records/21496322",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Pozsgay2026XNORPhysicsV1",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Anomalous current fluctuations in the stochastic XNOR hopping model (arXiv v1)",
+        "url": "https://arxiv.org/abs/2608.10536v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Pozsgay2026XNORPhysicsV1HTML",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Anomalous current fluctuations in the stochastic XNOR hopping model (HTML, v1)",
+        "url": "https://arxiv.org/html/2608.10536v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "60",
+            "label": "Probability theory and stochastic processes"
+          },
+          {
+            "code": "60K",
+            "label": "Special processes"
+          },
+          {
+            "code": "60K35",
+            "label": "Interacting random processes; statistical mechanics type models; percolation theory"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The candidate theorems concern asymptotic current laws in an interacting stochastic particle system.",
+        "evidenceSourceIds": [
+          "Pozsgay2026XNORCandidateProof",
+          "Pozsgay2026XNORPhysicsV1",
+          "Pozsgay2026XNORPhysicsV1HTML"
+        ],
+        "confidence": "medium"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The candidate proof reduces the XNOR current to tracer and exclusion-process limits and claims the three normalized distributional and moment conclusions.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "The candidate proof reduces the XNOR current to tracer and exclusion-process limits and claims the three normalized distributional and moment conclusions.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The candidate proof reduces the XNOR current to tracer and exclusion-process limits and claims the three normalized distributional and moment conclusions.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-AI-LED",
+          "rationale": "The companion is explicitly described as substantially AI-generated with ChatGPT 5.5 and 5.6 Sol; the author selected the problem and reviewed the global strategy and selected calculations.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "The companion is explicitly described as substantially AI-generated with ChatGPT 5.5 and 5.6 Sol; the author selected the problem and reviewed the global strategy and selected calculations.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-ITERATIVE-SINGLE-AGENT",
+          "rationale": "The companion is explicitly described as substantially AI-generated with ChatGPT 5.5 and 5.6 Sol; the author selected the problem and reviewed the global strategy and selected calculations.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The companion is explicitly described as substantially AI-generated with ChatGPT 5.5 and 5.6 Sol; the author selected the problem and reviewed the global strategy and selected calculations.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-273-1",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The global proof strategy, principal reductions and selected calculations in the candidate companion",
+          "verifier": "Balázs Pozsgay",
+          "independence": "human_author_team",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The author explicitly reports only global and selected-component review rather than independent line-by-line checking of the complete proofs.",
+            "evidenceSourceIds": [
+              "Pozsgay2026XNORCandidateProof",
+              "Pozsgay2026XNORPhysicsV1",
+              "Pozsgay2026XNORPhysicsV1HTML"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ],
+          "notes": "The source says some technical arguments remain outside the author's expertise and unverified."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "The candidate manuscript reports, with convergence of every fixed moment, a t^-1/4 Gaussian current limit for homogeneous biased data, a t^-1/4 half-normal limit for biased domain-wall data, and a t^-1/8 two-sided-Brownian-at-an-independent-Gaussian limit at zero magnetization.",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "The companion addresses three explicitly formulated stochastic-XNOR current-fluctuation conjectures and their normalizations.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The manuscript claims complete proofs of all three stated limit laws and fixed-moment conclusions.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The claims range over the stated magnetization families and asymptotic time limit rather than isolated instances.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "The sources do not document two independent complete attempts at these exact normalized statements.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "Further checking required: independently verify the reductions and selected calculations, constants, external tagged-particle/current estimates, hypotheses and normalizations; reconcile the companion theorems with the conjectural framing in arXiv:2608.10536. Keep provisional and do not assign the Superhuman override.",
+        "evidenceSourceIds": [
+          "Pozsgay2026XNORCandidateProof",
+          "Pozsgay2026XNORPhysicsV1",
+          "Pozsgay2026XNORPhysicsV1HTML"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Pozsgay2026XNORCandidateProof",
+          "Pozsgay2026XNORPhysicsV1",
+          "Pozsgay2026XNORPhysicsV1HTML"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Pozsgay2026XNORCandidateProof",
+            "Pozsgay2026XNORPhysicsV1",
+            "Pozsgay2026XNORPhysicsV1HTML"
+          ]
+        }
+      },
+      "derived": {
+        "score": 4,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 0.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "medium",
+      "rationale": "The dated Zenodo manuscript supplies bounded theorem identities and direct AI attribution, but explicitly identifies incomplete verification.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: independently verify reductions, calculations, constants, external estimates, hypotheses and normalizations, and reconcile the companion theorems with the conjectural framing in arXiv:2608.10536. Keep provisional, leave reviewStatus unreviewed, and do not assign the Superhuman override."
     }
   },
   "75": {
@@ -43464,6 +44419,303 @@
       "notes": "The new result is the explicit correspondence, not a newly discovered partition identity; formal verification is conditional on the component-map hypotheses."
     }
   },
+  "271": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-271",
+    "claim": "The paper reports that for every bounded operator A, W(A) is a 2-spectral set, so ||f(A)|| is at most 2 sup over W(A) of |f| for every rational f with poles off the closure of W(A).",
+    "sources": [
+      {
+        "sourceId": "Arxiv260803841V1",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A solution to Crouzeix's conjecture (arXiv v1)",
+        "url": "https://arxiv.org/abs/2608.03841v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Arxiv260803841V1HTML",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "A solution to Crouzeix's conjecture (HTML, v1)",
+        "url": "https://arxiv.org/html/2608.03841v1",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Jin2026CrouzeixV4Independent",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "The Numerical Range Is a 2-Spectral Set: earlier independent proof (v4)",
+        "url": "https://www.preprints.org/manuscript/202607.1919/v4",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "47",
+            "label": "Operator theory"
+          },
+          {
+            "code": "47A",
+            "label": "General theory of linear operators"
+          },
+          {
+            "code": "47A25",
+            "label": "Spectral sets of linear operators"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result is an independent operator-theoretic proof of the sharp numerical-range spectral-set theorem.",
+        "evidenceSourceIds": [
+          "Arxiv260803841V1",
+          "Arxiv260803841V1HTML",
+          "Jin2026CrouzeixV4Independent"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "A perturbation lemma for 2-dilations is combined with the double-layer-potential representation to prove the sharp Crouzeix bound.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "A perturbation lemma for 2-dilations is combined with the double-layer-potential representation to prove the sharp Crouzeix bound.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "A perturbation lemma for 2-dilations is combined with the double-layer-potential representation to prove the sharp Crouzeix bound.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The authors report using ChatGPT 5.6 Pro to explore proof strategies, but wrote the note themselves; the exact contribution to the final proof is not identified.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-INFORMAL-NATURAL-LANGUAGE",
+          "rationale": "The authors report using ChatGPT 5.6 Pro to explore proof strategies, but wrote the note themselves; the exact contribution to the final proof is not identified.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-DIRECT-MODEL-INTERACTION",
+          "rationale": "The authors report using ChatGPT 5.6 Pro to explore proof strategies, but wrote the note themselves; the exact contribution to the final proof is not identified.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The authors report using ChatGPT 5.6 Pro to explore proof strategies, but wrote the note themselves; the exact contribution to the final proof is not identified.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-271-1",
+          "familyId": "VF-EXTERNAL",
+          "methodId": "VM-EXTERNAL-INDEPENDENT-REPLICATION",
+          "target": "The finite-dimensional restriction of the bounded-operator constant-2 Crouzeix theorem",
+          "verifier": "Shanmu Jin's independently developed proof package",
+          "independence": "independent_party",
+          "scope": "partial_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "weaker",
+            "rationale": "Jin's earlier proof establishes the sharp finite-dimensional matrix restriction by a different function-theoretic mechanism, but does not cover the full bounded-operator anchor.",
+            "evidenceSourceIds": [
+              "Arxiv260803841V1",
+              "Arxiv260803841V1HTML",
+              "Jin2026CrouzeixV4Independent"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ],
+          "notes": "This checks the result identity, not the detailed perturbation proof or the materiality of ChatGPT's role."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "The paper reports that for every bounded operator A, W(A) is a 2-spectral set, so ||f(A)|| is at most 2 sup over W(A) of |f| for every rational f with poles off the closure of W(A).",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "Crouzeix's 2004 conjecture is the exact named target of this independent proof package.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The paper reports a complete affirmative resolution at the conjectured sharp constant.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The theorem applies uniformly to bounded operators and the full stated rational functional calculus.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "Multiple published special-class results and successive universal bounds document independent sustained attacks on the exact conjecture.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2004",
+        "precision": "year",
+        "rationale": "Further checking required: determine which AI-suggested steps, if any, entered Lemma 1 or Theorem 3 and obtain a distinct verification of this proof package. Keep provisional and do not assign the Superhuman override.",
+        "evidenceSourceIds": [
+          "Arxiv260803841V1",
+          "Arxiv260803841V1HTML",
+          "Jin2026CrouzeixV4Independent"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Arxiv260803841V1",
+          "Arxiv260803841V1HTML",
+          "Jin2026CrouzeixV4Independent"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Arxiv260803841V1",
+            "Arxiv260803841V1HTML",
+            "Jin2026CrouzeixV4Independent"
+          ]
+        }
+      },
+      "derived": {
+        "score": 5,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 22.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "medium",
+      "rationale": "The paper provides a dated complete theorem and direct AI acknowledgement, but leaves a material claim-specific attribution question.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: determine which AI-suggested steps, if any, entered Lemma 1 or Theorem 3 and obtain a distinct verification of this proof package. Keep provisional, leave reviewStatus unreviewed, and do not assign the Superhuman override."
+    }
+  },
   "129": {
     "schemaVersion": "0.2.0",
     "profile": "minimal",
@@ -44539,7 +45791,7 @@
     "recordRevision": 1,
     "recordType": "result",
     "resultId": "result-140",
-    "claim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall; for xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
+    "claim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
     "sources": [
       {
         "sourceId": "Claude2026ZetaTwoThirds",
@@ -44547,7 +45799,7 @@
         "role": "Primary result and challenge-context evidence",
         "title": "More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line",
         "url": "https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf",
-        "accessed": "2026-08-14",
+        "accessed": "2026-08-15",
         "evidenceRelation": "primary_source"
       },
       {
@@ -44643,7 +45895,7 @@
           }
         ],
         "secondaryPaths": [],
-        "rationale": "The result proves new unconditional asymptotic lower bounds for distinct and simple zeros of the Riemann zeta function and its completed xi-function derivative, both on the critical line and overall.",
+        "rationale": "The result proves new unconditional asymptotic lower bounds for distinct and simple zeros of the Riemann zeta function, extends the same constants to every fixed primitive Dirichlet L-function, and proves corresponding bounds for the completed xi-function derivative, both on the critical line and overall.",
         "evidenceSourceIds": [
           "Claude2026ZetaTwoThirds",
           "Anthropic2026RiemannZeta",
@@ -44661,7 +45913,7 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -44678,7 +45930,7 @@
         "r2Outcome": {
           "status": "coded",
           "conceptId": "R2-IMPROVED-BOUND",
-          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -44698,7 +45950,7 @@
           "additionalConceptIds": [
             "R3-REDUCTION-OR-CHARACTERISATION"
           ],
-          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds without claiming the Riemann hypothesis or sharp proportions.",
+          "rationale": "A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -44891,7 +46143,7 @@
           "eventId": "verification-140-3",
           "familyId": "VF-FORMAL",
           "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
-          "target": "The replacement-paper Theorems A and B, the Montgomery-Taylor variants, and six xi-prime comparator statements",
+          "target": "Theorem A zeta bounds, Theorem B fixed-primitive-Dirichlet-L extension, Montgomery–Taylor variants, and six xi-prime comparator statements",
           "verifier": "The source-reported Lean kernel check",
           "independence": "different_system_same_team",
           "scope": "formal_statement",
@@ -44969,7 +46221,7 @@
     },
     "challengeContext": {
       "policyVersion": "1.0.0",
-      "anchorClaim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall; for xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
+      "anchorClaim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
       "inputs": {
         "priorTarget": {
           "value": 1,
@@ -44988,7 +46240,7 @@
         },
         "advance": {
           "value": 1,
-          "rationale": "The theorem materially raises the unconditional lower bounds for both zeta and xi-prime zero proportions but does not prove the Riemann hypothesis or determine the sharp proportions.",
+          "rationale": "The theorem materially raises the unconditional lower bounds for both zeta and xi-prime zero proportions and extends the zeta constants verbatim to every fixed primitive Dirichlet character but does not prove the Riemann hypothesis or determine the sharp proportions.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -45110,12 +46362,12 @@
     },
     "coding": {
       "coder": "Mathematics Progress v0.2 corpus coding",
-      "assignmentDate": "2026-08-14",
+      "assignmentDate": "2026-08-15",
       "confidence": "high",
-      "rationale": "The official paper and announcement provide claim-specific Claude attribution, bounded zeta and xi-prime theorem statements, and several explicitly scoped verification routes, with a public formal companion.",
+      "rationale": "The official paper and announcement provide claim-specific Claude attribution, bounded zeta, primitive-Dirichlet-L and xi-prime theorem statements, and several explicitly scoped verification routes, with a public formal companion.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Remark 7.3 supplies the xi-prime bounds 0.85838/0.92919 and the quartic 0.86864/0.93432 refinement; commit c77974d adds six associated Lean comparator statements. The exact research-model snapshot is not surfaced. The automation did not execute downloaded proof artifacts. The August 13 replacement paper narrows Lemma 3.2 to the c=2 form used in the proof and supplies a corrected, clearer derivation; the headline bounds are unchanged. Issue 8 concerns an unavailable external certificate for the ancillary PairCeiling claim, which remains excluded from this record's anchor."
+      "notes": "Theorem B extends every Theorem A zeta proportion and optimized constant verbatim to L(s,χ) for each fixed primitive Dirichlet character. Remark 7.3 supplies the xi-prime bounds 0.85838/0.92919 and the quartic 0.86864/0.93432 refinement; commit c77974d adds six associated Lean comparator statements. The exact research-model snapshot is not surfaced. The automation did not execute downloaded proof artifacts. The August 13 replacement paper narrows Lemma 3.2 to the c=2 form used in the proof and supplies a corrected, clearer derivation; the headline bounds are unchanged. Issue 8 concerns an unavailable external certificate for the ancillary PairCeiling claim, which remains excluded from this record's anchor."
     }
   },
   "138": {
@@ -59934,6 +61186,304 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Further checking required: identify which computations were performed or checked by each named system, connect them to the bounded headline construction, and establish whether the relevant claims received complete human or independent verification. Never describe the result as AI-found on current evidence. Keep provisional and do not assign the Superhuman override."
+    }
+  },
+  "275": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-275",
+    "claim": "For every square-free 1<D≡23 (mod 24), the values p((Dm^2+1)/24) with (m,6)=1 contain infinitely many of each parity; moreover m_odd≤12h(-D)+2 and m_even≤(12h(-D)+2) product over primes l dividing D of (l+1).",
+    "sources": [
+      {
+        "sourceId": "Arxiv250909553V3",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Parity of the partition function in quadratic progressions (arXiv v3)",
+        "url": "https://arxiv.org/abs/2509.09553v3",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Arxiv250909553V3HTML",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Parity of the partition function in quadratic progressions (HTML, v3)",
+        "url": "https://arxiv.org/html/2509.09553v3",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Axiom2026SelectedPublications",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Axiom selected publications: partition-parity theorem",
+        "url": "https://axiommath.ai/selected-publications",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "05",
+            "label": "Combinatorics"
+          },
+          {
+            "code": "05A",
+            "label": "Enumerative combinatorics"
+          },
+          {
+            "code": "05A17",
+            "label": "Combinatorial aspects of partitions of integers"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The theorem concerns the parity distribution of the partition function along quadratic progressions.",
+        "evidenceSourceIds": [
+          "Arxiv250909553V3",
+          "Arxiv250909553V3HTML",
+          "Axiom2026SelectedPublications"
+        ],
+        "confidence": "medium"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "CM-point geometry, Borcherds products and a Galois-representation propagation argument resolve the stated parity conjecture with effective first-occurrence bounds.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "rationale": "CM-point geometry, Borcherds products and a Galois-representation propagation argument resolve the stated parity conjecture with effective first-occurrence bounds.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "CM-point geometry, Borcherds products and a Galois-representation propagation argument resolve the stated parity conjecture with effective first-occurrence bounds.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The paper reports that AxiomProver formalized and verified central algebraic identities in Lean, but does not say whether the system also contributed to the strengthened mathematical proof.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "The paper reports that AxiomProver formalized and verified central algebraic identities in Lean, but does not say whether the system also contributed to the strengthened mathematical proof.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-NEURAL-SYMBOLIC",
+          "rationale": "The paper reports that AxiomProver formalized and verified central algebraic identities in Lean, but does not say whether the system also contributed to the strengthened mathematical proof.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-GENERATOR-VERIFIER",
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The paper reports that AxiomProver formalized and verified central algebraic identities in Lean, but does not say whether the system also contributed to the strengthened mathematical proof.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-275-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The algebraic identities described as being at the heart of the v3 proof",
+          "verifier": "The source-reported AxiomProver and Lean kernel check",
+          "independence": "different_system_same_team",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The paper reports verification of core identities, not a formalization of the complete all-D infinitude theorem and effective bounds.",
+            "evidenceSourceIds": [
+              "Arxiv250909553V3",
+              "Arxiv250909553V3HTML",
+              "Axiom2026SelectedPublications"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ],
+          "notes": "The artifact was not retrieved or replayed by this automation."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "For every square-free 1<D≡23 (mod 24), the values p((Dm^2+1)/24) with (m,6)=1 contain infinitely many of each parity; moreover m_odd≤12h(-D)+2 and m_even≤(12h(-D)+2) product over primes l dividing D of (l+1).",
+      "inputs": {
+        "priorTarget": {
+          "value": 1,
+          "rationale": "The theorem resolves Ono's explicitly stated 2010 conjecture for the full square-free congruence class.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        },
+        "advance": {
+          "value": 2,
+          "rationale": "The v3 theorem supplies a complete all-D resolution and effective bounds for the first occurrence of each parity.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The result applies uniformly over every square-free D in the stated congruence class and infinitely many admissible m.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        },
+        "resistance": {
+          "value": 1,
+          "rationale": "The paper documents prior partial progress and a long-standing parity problem with multiple substantive approaches.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "coded",
+        "value": "2010",
+        "precision": "year",
+        "rationale": "Further checking required: obtain and independently replay the AxiomProver artifact; map the formalized identities to the complete all-D theorem and effective bounds; clarify whether AxiomProver contributed to the strengthened proof or only formalized author identities. Keep provisional and do not assign the Superhuman override.",
+        "evidenceSourceIds": [
+          "Arxiv250909553V3",
+          "Arxiv250909553V3HTML",
+          "Axiom2026SelectedPublications"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Arxiv250909553V3",
+          "Arxiv250909553V3HTML",
+          "Axiom2026SelectedPublications"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "probable",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Arxiv250909553V3",
+            "Arxiv250909553V3HTML",
+            "Axiom2026SelectedPublications"
+          ]
+        }
+      },
+      "derived": {
+        "score": 5,
+        "baseCategory": "Difficult",
+        "category": "Difficult",
+        "elapsedYears": 16.0,
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "medium",
+      "rationale": "The primary paper states a complete bounded theorem and direct AxiomProver role, while the exact formal scope and discovery contribution remain unresolved.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: obtain and independently replay the AxiomProver artifact; map the formalized identities to the complete all-D theorem and bounds; clarify whether AxiomProver contributed to the strengthened proof or only formalized author identities. Keep provisional, leave reviewStatus unreviewed, and do not assign the Superhuman override."
     }
   },
   "203": {
@@ -74806,6 +76356,357 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Further checking required: Conduct an independent timestamp/priority/literature audit; independently replay and obtain specialist review; verify the narrow HasValueTemperature alignment and general thermograph invariance; confirm the page build was not rerun. Keep provisional, leave reviewStatus unreviewed in generated data, and do not assign the Superhuman override."
+    }
+  },
+  "272": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 1,
+    "recordType": "result",
+    "resultId": "result-272",
+    "claim": "On the explicit active, non-null, simple-spectrum finite-jet configuration, the complete order-three channels have exact free real-shear fibers and no function of the common metric three-jet identifies a^2; one derivative higher recovers B and a^2, and the fixed fourth-order outputs for a and b agree exactly when a=±b.",
+    "sources": [
+      {
+        "sourceId": "Kehoe2026EMDInitialCommit",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Initial public release of the EMD coupling-identifiability package",
+        "url": "https://github.com/jimpeebles/emd-coupling-identifiability/commit/b8e80b7363d99c39e795c622da05278ae4c43cf2",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Kehoe2026EMDManuscript",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "The exact order-three ambiguity of the Einstein-Maxwell-dilaton coupling in metric jets, and its fourth-order collapse",
+        "url": "https://github.com/jimpeebles/emd-coupling-identifiability/blob/d43785dc98a214eb4058dd972bed2c5d79f49bb7/paper/MANUSCRIPT.md",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Kehoe2026EMDClaimBoundary",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "EMD coupling-identifiability claim boundary",
+        "url": "https://github.com/jimpeebles/emd-coupling-identifiability/blob/d43785dc98a214eb4058dd972bed2c5d79f49bb7/paper/CLAIMS.md",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Kehoe2026AIMethodology",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Rainich-Kaluza reconstruction methodology and AI disclosure",
+        "url": "https://github.com/jimpeebles/rainich-kaluza-reconstruction/blob/33a5fc9ae279c1cc5b0dad9b6517d2d026c7cc54/docs/METHODOLOGY.md",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Kehoe2026EMDCI",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Lean verification workflow run for the tagged EMD package",
+        "url": "https://github.com/jimpeebles/emd-coupling-identifiability/actions/runs/31831235239",
+        "accessed": "2026-08-15",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "83",
+            "label": "Relativity and gravitational theory"
+          },
+          {
+            "code": "83C",
+            "label": "General relativity"
+          },
+          {
+            "code": "83C22",
+            "label": "Einstein-Maxwell equations"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The package studies finite-jet identifiability of the coupling in Einstein-Maxwell-dilaton theory.",
+        "evidenceSourceIds": [
+          "Kehoe2026EMDInitialCommit",
+          "Kehoe2026EMDManuscript",
+          "Kehoe2026EMDClaimBoundary",
+          "Kehoe2026AIMethodology",
+          "Kehoe2026EMDCI"
+        ],
+        "confidence": "medium"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "The formal package classifies the complete order-three fibers, supplies an explicit all-coupling collision, and proves exact order-four recovery on the stated branch.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "conceptId": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "rationale": "The formal package classifies the complete order-three fibers, supplies an explicit all-coupling collision, and proves exact order-four recovery on the stated branch.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-COUNTEREXAMPLE",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION",
+            "R3-DIRECT-PROOF"
+          ],
+          "rationale": "The formal package classifies the complete order-three fibers, supplies an explicit all-coupling collision, and proves exact order-four recovery on the stated branch.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-UNCLEAR-OR-NOT-REPORTED",
+          "rationale": "The same-owner parent methodology says the mathematics was developed with heavy AI assistance, but neither source maps models or tasks to the advertised theorem surface.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        },
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The same-owner parent methodology says the mathematics was developed with heavy AI assistance, but neither source maps models or tasks to the advertised theorem surface.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The same-owner parent methodology says the mathematics was developed with heavy AI assistance, but neither source maps models or tasks to the advertised theorem surface.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-272-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The P1-P6 finite-jet fiber, collision, non-identifiability and fourth-order recovery theorem surface",
+          "verifier": "The tagged repository's source-reported Lean 4 and Mathlib CI run",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "The manuscript names formal anchors, but this automation did not replay the build or independently audit statement-to-physics correspondence.",
+            "evidenceSourceIds": [
+              "Kehoe2026EMDInitialCommit",
+              "Kehoe2026EMDManuscript",
+              "Kehoe2026EMDClaimBoundary",
+              "Kehoe2026AIMethodology",
+              "Kehoe2026EMDCI"
+            ]
+          },
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ],
+          "notes": "The analytic solution-germ upgrade is explicitly excluded and remains pending specialist audit."
+        }
+      ]
+    },
+    "challengeContext": {
+      "policyVersion": "1.0.0",
+      "anchorClaim": "On the explicit active, non-null, simple-spectrum finite-jet configuration, the complete order-three channels have exact free real-shear fibers and no function of the common metric three-jet identifies a^2; one derivative higher recovers B and a^2, and the fixed fourth-order outputs for a and b agree exactly when a=±b.",
+      "inputs": {
+        "priorTarget": {
+          "value": 0,
+          "rationale": "No separately dated exact prior target is coded for this bounded finite-jet result.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        },
+        "advance": {
+          "value": 1,
+          "rationale": "The source reports a material exact classification and recovery threshold without a fully settled prior target.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        },
+        "scope": {
+          "value": 1,
+          "rationale": "The result ranges over every real coupling in the explicit active family and classifies the complete channel fibers.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        },
+        "resistance": {
+          "value": 0,
+          "rationale": "The coded sources do not establish the strict resistance criterion for this exact target.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking required: establish the exact AI-to-theorem and model/task mapping; independently replay the Lean package and audit statement correspondence; obtain specialist novelty and physical-relevance review. Exclude analytic solution germs, covariance, degenerate branches and detector claims. Keep provisional and do not assign the Superhuman override.",
+        "evidenceSourceIds": [
+          "Kehoe2026EMDInitialCommit",
+          "Kehoe2026EMDManuscript",
+          "Kehoe2026EMDClaimBoundary",
+          "Kehoe2026AIMethodology",
+          "Kehoe2026EMDCI"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The audited ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Kehoe2026EMDInitialCommit",
+          "Kehoe2026EMDManuscript",
+          "Kehoe2026EMDClaimBoundary",
+          "Kehoe2026AIMethodology",
+          "Kehoe2026EMDCI"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "not_established",
+          "rationale": "The legacy prior-target assessment is retained, but v0.2 independent target-correspondence review is pending.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "not_reported",
+          "rationale": "The legacy resistance component does not distinguish attempt-count evidence from the benchmark route; v0.2 audit is pending.",
+          "evidenceSourceIds": [
+            "Kehoe2026EMDInitialCommit",
+            "Kehoe2026EMDManuscript",
+            "Kehoe2026EMDClaimBoundary",
+            "Kehoe2026AIMethodology",
+            "Kehoe2026EMDCI"
+          ]
+        }
+      },
+      "derived": {
+        "score": 2,
+        "baseCategory": "Expected",
+        "category": "Expected",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": []
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-08-15",
+      "confidence": "medium",
+      "rationale": "The source supports an identifiable bounded formal result and direct package-level AI connection, while exact AI allocation and specialist review remain open.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking required: identify which mathematical ideas, proofs and Lean formalizations came from AI; independently replay the Lean package and audit correspondence; obtain specialist novelty and physical-relevance review. Exclude analytic solution germs, general detectors, covariance, degenerate branches and priority. Keep provisional, leave reviewStatus unreviewed, and do not assign the Superhuman override."
     }
   }
 }

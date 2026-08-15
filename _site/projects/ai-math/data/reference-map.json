@@ -1486,7 +1486,7 @@
       "key": "Claude2026ZetaTwoThirds",
       "title": "More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line",
       "url": "https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf",
-      "accessed": "2026-08-14"
+      "accessed": "2026-08-15"
     },
     {
       "key": "Anthropic2026RiemannZeta",
@@ -3083,6 +3083,150 @@
       "title": "A Rectangle-Reachable Counterexample to Berlekamp's Domineering Temperature Bound (supporting source 3)",
       "url": "https://www.proofatlas.ai/data/releases/berlekamp-domineering-temperature-counterexample.json",
       "accessed": "2026-08-14"
+    }
+  ],
+  "270": [
+    {
+      "key": "Jin2026CrouzeixInitialCommit",
+      "title": "Crouzeix Conjecture: initial public candidate-proof project status",
+      "url": "https://github.com/jinshanmu/CrouzeixConjecture/commit/df001051d58e2e897038ad849ef0cc8a7b88b349",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Jin2026CrouzeixV1",
+      "title": "The Numerical Range Is a 2-Spectral Set (Preprints.org v1)",
+      "url": "https://www.preprints.org/manuscript/202607.1919/v1",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Jin2026CrouzeixV4",
+      "title": "The Numerical Range Is a 2-Spectral Set (Preprints.org v4)",
+      "url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Jin2026CrouzeixCurrentREADME",
+      "title": "Crouzeix project status, audit and formalization notes",
+      "url": "https://github.com/jinshanmu/CrouzeixConjecture/blob/9df07838327b988e3924453daa29c8cd726d34b0/README.md",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Jin2026CrouzeixFormalizationCommit",
+      "title": "Crouzeix project v4 proof and formalization commit",
+      "url": "https://github.com/jinshanmu/CrouzeixConjecture/commit/595f6fc702a77978c589e4f02fdc324996f9d39c",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "LoristSchwenninger2026CrouzeixIndependent",
+      "title": "A solution to Crouzeix's conjecture: independent alternative proof",
+      "url": "https://arxiv.org/abs/2608.03841v1",
+      "accessed": "2026-08-15"
+    }
+  ],
+  "271": [
+    {
+      "key": "Arxiv260803841V1",
+      "title": "A solution to Crouzeix's conjecture (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.03841v1",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Arxiv260803841V1HTML",
+      "title": "A solution to Crouzeix's conjecture (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.03841v1",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Jin2026CrouzeixV4Independent",
+      "title": "The Numerical Range Is a 2-Spectral Set: earlier independent proof (v4)",
+      "url": "https://www.preprints.org/manuscript/202607.1919/v4",
+      "accessed": "2026-08-15"
+    }
+  ],
+  "272": [
+    {
+      "key": "Kehoe2026EMDInitialCommit",
+      "title": "Initial public release of the EMD coupling-identifiability package",
+      "url": "https://github.com/jimpeebles/emd-coupling-identifiability/commit/b8e80b7363d99c39e795c622da05278ae4c43cf2",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Kehoe2026EMDManuscript",
+      "title": "The exact order-three ambiguity of the Einstein-Maxwell-dilaton coupling in metric jets, and its fourth-order collapse",
+      "url": "https://github.com/jimpeebles/emd-coupling-identifiability/blob/d43785dc98a214eb4058dd972bed2c5d79f49bb7/paper/MANUSCRIPT.md",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Kehoe2026EMDClaimBoundary",
+      "title": "EMD coupling-identifiability claim boundary",
+      "url": "https://github.com/jimpeebles/emd-coupling-identifiability/blob/d43785dc98a214eb4058dd972bed2c5d79f49bb7/paper/CLAIMS.md",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Kehoe2026AIMethodology",
+      "title": "Rainich-Kaluza reconstruction methodology and AI disclosure",
+      "url": "https://github.com/jimpeebles/rainich-kaluza-reconstruction/blob/33a5fc9ae279c1cc5b0dad9b6517d2d026c7cc54/docs/METHODOLOGY.md",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Kehoe2026EMDCI",
+      "title": "Lean verification workflow run for the tagged EMD package",
+      "url": "https://github.com/jimpeebles/emd-coupling-identifiability/actions/runs/31831235239",
+      "accessed": "2026-08-15"
+    }
+  ],
+  "273": [
+    {
+      "key": "Pozsgay2026XNORCandidateProof",
+      "title": "Current fluctuations in the stochastic XNOR hopping process (An AI-generated candidate proof)",
+      "url": "https://zenodo.org/records/21496322",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Pozsgay2026XNORPhysicsV1",
+      "title": "Anomalous current fluctuations in the stochastic XNOR hopping model (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.10536v1",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Pozsgay2026XNORPhysicsV1HTML",
+      "title": "Anomalous current fluctuations in the stochastic XNOR hopping model (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.10536v1",
+      "accessed": "2026-08-15"
+    }
+  ],
+  "274": [
+    {
+      "key": "Arxiv260529011V2",
+      "title": "Subsequence sums in permutations (arXiv v2)",
+      "url": "https://arxiv.org/abs/2605.29011v2",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Arxiv260529011V2HTML",
+      "title": "Subsequence sums in permutations (HTML, v2)",
+      "url": "https://arxiv.org/html/2605.29011v2",
+      "accessed": "2026-08-15"
+    }
+  ],
+  "275": [
+    {
+      "key": "Arxiv250909553V3",
+      "title": "Parity of the partition function in quadratic progressions (arXiv v3)",
+      "url": "https://arxiv.org/abs/2509.09553v3",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Arxiv250909553V3HTML",
+      "title": "Parity of the partition function in quadratic progressions (HTML, v3)",
+      "url": "https://arxiv.org/html/2509.09553v3",
+      "accessed": "2026-08-15"
+    },
+    {
+      "key": "Axiom2026SelectedPublications",
+      "title": "Axiom selected publications: partition-parity theorem",
+      "url": "https://axiommath.ai/selected-publications",
+      "accessed": "2026-08-15"
     }
   ]
 }
