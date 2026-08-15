@@ -257,8 +257,8 @@
     {
       "key": "Adamczewski2026OEISOpen",
       "title": "OEIS Open: How many conjectures can language models turn into theorems?",
-      "url": "https://arxiv.org/abs/2608.11941v1",
-      "accessed": "2026-08-13"
+      "url": "https://arxiv.org/abs/2608.11941v2",
+      "accessed": "2026-08-14"
     }
   ],
   "35": [
@@ -642,17 +642,25 @@
     {
       "key": "Chojecki2026Strongly2Primitive",
       "title": "The Second Term for Strongly 2-Primitive Sets",
-      "url": "https://doi.org/10.48550/arXiv.2607.15306"
+      "url": "https://arxiv.org/abs/2607.15306v1",
+      "accessed": "2026-08-14"
     },
     {
       "key": "ErdosProblems793",
       "title": "Erdős Problem 793",
-      "url": "https://www.erdosproblems.com/793"
+      "url": "https://www.erdosproblems.com/793",
+      "accessed": "2026-08-14"
     },
     {
       "key": "StarFleetMath2026Erdos793",
       "title": "Star Fleet Math Erdős 793 formal-verification bundle",
       "url": "https://pub-23f3a588e04a481196ed22d7e3a6f48d.r2.dev/verify/erdos-793/erdos-793-solution.zip"
+    },
+    {
+      "key": "Woett2026Erdos793Lean",
+      "title": "Lean formalization of Erdős Problem 793",
+      "url": "https://github.com/Woett/Lean-files/blob/ce4bcdac98415c60c7a7d7f78ce54c9adb79bc47/ErdosProblem793.lean",
+      "accessed": "2026-08-14"
     }
   ],
   "62": [
@@ -1476,15 +1484,15 @@
   "140": [
     {
       "key": "Claude2026ZetaTwoThirds",
-      "title": "More than two thirds of the zeros of the Riemann zeta function lie on the critical line",
-      "url": "https://www-cdn.anthropic.com/564f962e60643842f5fcb4a17c9dbc8f608f1c37.pdf",
-      "accessed": "2026-08-12"
+      "title": "More than two thirds of the zeros of the Riemann zeta function are simple and on the critical line",
+      "url": "https://www-cdn.anthropic.com/95c246936988e43127bc6b2ceb7077c1dad2d68e.pdf",
+      "accessed": "2026-08-14"
     },
     {
       "key": "Anthropic2026RiemannZeta",
       "title": "Claude finds new result in theoretical mathematics",
       "url": "https://www.anthropic.com/research/riemann-zeta",
-      "accessed": "2026-08-12"
+      "accessed": "2026-08-14"
     },
     {
       "key": "FurmanAlpoge2026ZetaNote",
@@ -1520,7 +1528,7 @@
       "key": "Anthropic2026ZetaIssue7",
       "title": "Zeta-23 issue 7: reported equality-case wording",
       "url": "https://github.com/anthropics/zeta-23-lean/issues/7",
-      "accessed": "2026-08-12"
+      "accessed": "2026-08-14"
     },
     {
       "key": "Anthropic2026ZetaIssue8",
@@ -1681,8 +1689,8 @@
     {
       "key": "LiEtAl2026GrothendieckCaseStudy",
       "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
-      "url": "https://arxiv.org/abs/2608.11195v1",
-      "accessed": "2026-08-12"
+      "url": "https://arxiv.org/abs/2608.11195v2",
+      "accessed": "2026-08-14"
     }
   ],
   "159": [
@@ -2070,5 +2078,1011 @@
   "197": [
     {"key": "SchaferNamekiZhengAntinucci2026AnyonProliferationV1", "title": "Proliferation Transitions for Non-Abelian Anyons", "url": "https://arxiv.org/abs/2608.12303v1", "accessed": "2026-08-13"},
     {"key": "SchaferNamekiZhengAntinucci2026AnyonProliferationHTMLV1", "title": "Proliferation Transitions for Non-Abelian Anyons (HTML, v1)", "url": "https://arxiv.org/html/2608.12303v1", "accessed": "2026-08-13"}
+  ],
+  "198": [
+    {
+      "key": "XiaEtAl2026AgenticNeurosymbolicV2",
+      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
+      "url": "https://arxiv.org/abs/2603.08322v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "XiaEtAl2026AgenticNeurosymbolicHTMLV2",
+      "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery (HTML, v2)",
+      "url": "https://arxiv.org/html/2603.08322v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "199": [
+    {
+      "key": "Watanabe2026GeometryPulseV2",
+      "title": "Geometry-induced pulse dynamics in a bulk-surface reaction-diffusion system for cell polarization",
+      "url": "https://arxiv.org/abs/2605.10006v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Watanabe2026GeometryPulseHTMLV2",
+      "title": "Geometry-induced pulse dynamics in a bulk-surface reaction-diffusion system for cell polarization (HTML, v2)",
+      "url": "https://arxiv.org/html/2605.10006v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "201": [
+    {
+      "key": "Andreakis2026DualWriteV4",
+      "title": "Machine-Checked Dual-Write Recovery from a Committed Log",
+      "url": "https://arxiv.org/abs/2608.00501v4",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Andreakis2026DualWriteHTMLV4",
+      "title": "Machine-Checked Dual-Write Recovery from a Committed Log (HTML, v4)",
+      "url": "https://arxiv.org/html/2608.00501v4",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "202": [
+    {
+      "key": "Adesso2026GaussianEoFV2",
+      "title": "Optimality of Gaussian Entanglement of Formation",
+      "url": "https://arxiv.org/abs/2608.01909v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Adesso2026GaussianEoFHTMLV2",
+      "title": "Optimality of Gaussian Entanglement of Formation (HTML, v2)",
+      "url": "https://arxiv.org/html/2608.01909v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "203": [
+    {
+      "key": "BhattacharjeeEtAl2026LengthSquaredV1",
+      "title": "Fast Length-Squared Sampling for Positive-Semidefinite Matrices",
+      "url": "https://arxiv.org/abs/2608.12503v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "BhattacharjeeEtAl2026LengthSquaredHTMLV1",
+      "title": "Fast Length-Squared Sampling for Positive-Semidefinite Matrices (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12503v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "204": [
+    {
+      "key": "Clark2026LommelV1",
+      "title": "Lommel polynomials and explicitly solvable prediction problems on the unit circle",
+      "url": "https://arxiv.org/abs/2608.12588v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Clark2026LommelHTMLV1",
+      "title": "Lommel polynomials and explicitly solvable prediction problems on the unit circle (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12588v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "205": [
+    {
+      "key": "BarceloEtAl2026BooleanReLUV1",
+      "title": "The Boolean Power of ReLU",
+      "url": "https://arxiv.org/abs/2608.12617v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "BarceloEtAl2026BooleanReLUHTMLV1",
+      "title": "The Boolean Power of ReLU (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12617v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "206": [
+    {
+      "key": "Wan2026SVPV1",
+      "title": "Euclidean SVP is deterministically NP-hard to approximate within any constant factor",
+      "url": "https://arxiv.org/abs/2608.12664v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Wan2026SVPHTMLV1",
+      "title": "Euclidean SVP is deterministically NP-hard to approximate within any constant factor (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12664v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "207": [
+    {
+      "key": "BrownKhare2026HyperVV1",
+      "title": "Hyper-V uniform ergodicity of Markov chains",
+      "url": "https://arxiv.org/abs/2608.12738v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "BrownKhare2026HyperVHTMLV1",
+      "title": "Hyper-V uniform ergodicity of Markov chains (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12738v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "208": [
+    {
+      "key": "GeffenHuaKranz2026DynamicalComparisonV1",
+      "title": "Dynamical comparison for local homeomorphisms",
+      "url": "https://arxiv.org/abs/2608.13000v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "GeffenHuaKranz2026DynamicalComparisonHTMLV1",
+      "title": "Dynamical comparison for local homeomorphisms (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13000v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "209": [
+    {
+      "key": "Lavi2026TiePointV1",
+      "title": "A counterexample to the Foregger-Sinkhorn tie-point conjecture",
+      "url": "https://arxiv.org/abs/2608.13025v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Lavi2026TiePointHTMLV1",
+      "title": "A counterexample to the Foregger-Sinkhorn tie-point conjecture (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13025v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "210": [
+    {
+      "key": "Milman2026FlatToriV1",
+      "title": "Spectral and Isoperimetric Bounds on Flat Tori — sharp covariance bound",
+      "url": "https://arxiv.org/abs/2608.13052v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Milman2026FlatToriHTMLV1",
+      "title": "Spectral and Isoperimetric Bounds on Flat Tori — sharp covariance bound (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13052v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "211": [
+    {
+      "key": "Milman2026FlatToriV1",
+      "title": "Spectral and Isoperimetric Bounds on Flat Tori — converse counterexamples",
+      "url": "https://arxiv.org/abs/2608.13052v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Milman2026FlatToriHTMLV1",
+      "title": "Spectral and Isoperimetric Bounds on Flat Tori — converse counterexamples (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13052v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "212": [
+    {
+      "key": "Zheng2026ComputerAssistedProofAuditV1",
+      "title": "Computer-assisted Proof Under Audit: Typos, Certificate Errors, and Reproducible Exact Checks for a Symbolic Invertibility Proof",
+      "url": "https://arxiv.org/abs/2608.13067v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Zheng2026ComputerAssistedProofAuditHTMLV1",
+      "title": "Computer-assisted Proof Under Audit (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13067v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "213": [
+    {
+      "key": "Cao2026QuantumSDPITensorizationV1",
+      "title": "Counter-examples for Tensorization Property of Strong Data Processing Inequality for Quantum Divergences",
+      "url": "https://arxiv.org/abs/2608.13204v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Cao2026QuantumSDPITensorizationHTMLV1",
+      "title": "Counter-examples for Tensorization Property of Strong Data Processing Inequality for Quantum Divergences (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13204v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "214": [
+    {
+      "key": "Havlovec2026NullPolynomialsV1",
+      "title": "Null polynomials over a finite ring need not form a two-sided ideal",
+      "url": "https://arxiv.org/abs/2608.13251v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Havlovec2026NullPolynomialsPDFV1",
+      "title": "Null polynomials over a finite ring need not form a two-sided ideal (PDF, v1)",
+      "url": "https://arxiv.org/pdf/2608.13251v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "215": [
+    {
+      "key": "VerschtEtAl2026MultiobjectivePreexpectationV1",
+      "title": "Multiobjective Preexpectation Reasoning for Probabilistic Programs",
+      "url": "https://arxiv.org/abs/2608.13268v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "VerschtEtAl2026MultiobjectivePreexpectationHTMLV1",
+      "title": "Multiobjective Preexpectation Reasoning for Probabilistic Programs (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13268v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "216": [
+    {
+      "key": "Chernikov2026SOP2SOP3V1",
+      "title": "SOP_2=SOP_3",
+      "url": "https://arxiv.org/abs/2608.13291v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Chernikov2026SOP2SOP3HTMLV1",
+      "title": "SOP_2=SOP_3 (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13291v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "217": [
+    {
+      "key": "ChenRosu2026BasicMatchingLogicV1",
+      "title": "Completeness and incompleteness of basic matching logic",
+      "url": "https://arxiv.org/abs/2608.13306v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "ChenRosu2026BasicMatchingLogicHTMLV1",
+      "title": "Completeness and incompleteness of basic matching logic (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13306v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "218": [
+    {
+      "key": "Shavit2026MinimumGraphBalancingWitnessV1",
+      "title": "A minimum witness for the 3/2 configuration-linear-program gap in two-weight graph balancing, unique at its size",
+      "url": "https://arxiv.org/abs/2608.13318v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Shavit2026MinimumGraphBalancingWitnessHTMLV1",
+      "title": "A minimum witness for the 3/2 configuration-linear-program gap in two-weight graph balancing, unique at its size (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13318v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "219": [
+    {
+      "key": "FeldmanWilce2026CompactnessCliqueSizeV1",
+      "title": "A Note on Compactness and Clique Size",
+      "url": "https://arxiv.org/abs/2608.13320v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "FeldmanWilce2026CompactnessCliqueSizeHTMLV1",
+      "title": "A Note on Compactness and Clique Size (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13320v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "220": [
+    {
+      "key": "CortinesEtAl2026LogarithmicSpinGlassAgingV1",
+      "title": "Aging in a spin glass with a logarithmic potential",
+      "url": "https://arxiv.org/abs/2608.13361v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "CortinesEtAl2026LogarithmicSpinGlassAgingHTMLV1",
+      "title": "Aging in a spin glass with a logarithmic potential (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13361v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "221": [
+    {
+      "key": "LeSunTran2026UnboundedVariationEllipticV1",
+      "title": "Unbounded variation solutions for uniformly elliptic equations in nondivergence form in dimension three",
+      "url": "https://arxiv.org/abs/2608.13380v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "LeSunTran2026UnboundedVariationEllipticHTMLV1",
+      "title": "Unbounded variation solutions for uniformly elliptic equations in nondivergence form in dimension three (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13380v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "222": [
+    {
+      "key": "CurticapeanEtAl2026DenseWeisfeilerLemanV1",
+      "title": "A Dense Weisfeiler-Leman Algorithm for Deciding Bounded-Cliquewidth Homomorphism Indistinguishability",
+      "url": "https://arxiv.org/abs/2608.13382v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "CurticapeanEtAl2026DenseWeisfeilerLemanHTMLV1",
+      "title": "A Dense Weisfeiler-Leman Algorithm for Deciding Bounded-Cliquewidth Homomorphism Indistinguishability (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13382v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "223": [
+    {
+      "key": "Zhang2026IntersectiveDivisorProfilesV1",
+      "title": "Intersective polynomials and universal separation of divisor profiles",
+      "url": "https://arxiv.org/abs/2608.13388v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Zhang2026IntersectiveDivisorProfilesHTMLV1",
+      "title": "Intersective polynomials and universal separation of divisor profiles (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13388v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "224": [
+    {
+      "key": "Park2026PPTFiniteEntanglementBreakingIndexV1",
+      "title": "Every PPT channel has finite entanglement-breaking index",
+      "url": "https://arxiv.org/abs/2608.13551v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Park2026PPTFiniteEntanglementBreakingIndexHTMLV1",
+      "title": "Every PPT channel has finite entanglement-breaking index (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13551v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "225": [
+    {
+      "key": "Arxiv250201380V5",
+      "title": "Metric Distortion of Small-group Deliberation (arXiv v5)",
+      "url": "https://arxiv.org/abs/2502.01380v5",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv250201380V5HTML",
+      "title": "Metric Distortion of Small-group Deliberation (HTML, v5)",
+      "url": "https://arxiv.org/html/2502.01380v5",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "226": [
+    {
+      "key": "Arxiv260408215V3",
+      "title": "Ramsey numbers for regular induced subgraphs (arXiv v3)",
+      "url": "https://arxiv.org/abs/2604.08215v3",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260408215V3HTML",
+      "title": "Ramsey numbers for regular induced subgraphs (HTML, v3)",
+      "url": "https://arxiv.org/html/2604.08215v3",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "227": [
+    {
+      "key": "Arxiv260417905V5",
+      "title": "Ropelength-Filtered Knot Spaces (arXiv v5)",
+      "url": "https://arxiv.org/abs/2604.17905v5",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260417905V5HTML",
+      "title": "Ropelength-Filtered Knot Spaces (HTML, v5)",
+      "url": "https://arxiv.org/html/2604.17905v5",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "228": [
+    {
+      "key": "Arxiv260514817V2",
+      "title": "Reducibility of spectral curves of finite Jacobi pencils (arXiv v2)",
+      "url": "https://arxiv.org/abs/2605.14817v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260514817V2HTML",
+      "title": "Reducibility of spectral curves of finite Jacobi pencils (HTML, v2)",
+      "url": "https://arxiv.org/html/2605.14817v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "229": [
+    {
+      "key": "Arxiv260711391V5",
+      "title": "Performance evaluation of branch-free fused multiply-add algorithms (arXiv v5)",
+      "url": "https://arxiv.org/abs/2607.11391v5",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260711391V5HTML",
+      "title": "Performance evaluation of branch-free fused multiply-add algorithms (HTML, v5)",
+      "url": "https://arxiv.org/html/2607.11391v5",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "230": [
+    {
+      "key": "Arxiv260713169V2",
+      "title": "On some structural properties of graphs with non-negative resistance curvature (arXiv v2)",
+      "url": "https://arxiv.org/abs/2607.13169v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260713169V2HTML",
+      "title": "On some structural properties of graphs with non-negative resistance curvature (HTML, v2)",
+      "url": "https://arxiv.org/html/2607.13169v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "231": [
+    {
+      "key": "Arxiv260727605V2",
+      "title": "Radial Hyperbolic Measures (arXiv v2)",
+      "url": "https://arxiv.org/abs/2607.27605v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260727605V2HTML",
+      "title": "Radial Hyperbolic Measures (HTML, v2)",
+      "url": "https://arxiv.org/html/2607.27605v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "232": [
+    {
+      "key": "Arxiv260800840V2",
+      "title": "Sublinear Time Eigenvector Approximation via Column Sampling (arXiv v2)",
+      "url": "https://arxiv.org/abs/2608.00840v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260800840V2HTML",
+      "title": "Sublinear Time Eigenvector Approximation via Column Sampling (HTML, v2)",
+      "url": "https://arxiv.org/html/2608.00840v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "233": [
+    {
+      "key": "Arxiv260809361V2",
+      "title": "Stein structures not determined by the contact boundary (arXiv v2)",
+      "url": "https://arxiv.org/abs/2608.09361v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260809361V2HTML",
+      "title": "Stein structures not determined by the contact boundary (HTML, v2)",
+      "url": "https://arxiv.org/html/2608.09361v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "234": [
+    {
+      "key": "Arxiv260809879V2",
+      "title": "Maximizing algebraic connectivity: a proof of the Kolokolnikov conjecture (arXiv v2)",
+      "url": "https://arxiv.org/abs/2608.09879v2",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260809879V2HTML",
+      "title": "Maximizing algebraic connectivity: a proof of the Kolokolnikov conjecture (HTML, v2)",
+      "url": "https://arxiv.org/html/2608.09879v2",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "235": [
+    {
+      "key": "Arxiv260812379V1",
+      "title": "Fisher-KPP dynamics on the half-line (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12379v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812379V1HTML",
+      "title": "Fisher-KPP dynamics on the half-line (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12379v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "236": [
+    {
+      "key": "Arxiv260812410V1",
+      "title": "Cospectral mates over a number field (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12410v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812410V1HTML",
+      "title": "Cospectral mates over a number field (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12410v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "237": [
+    {
+      "key": "Arxiv260812432V1",
+      "title": "Finite groups with coprime-index conditions (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12432v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812432V1HTML",
+      "title": "Finite groups with coprime-index conditions (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12432v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "238": [
+    {
+      "key": "Arxiv260812492V1",
+      "title": "Classification of limits in Wiener chaos (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12492v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812492V1HTML",
+      "title": "Classification of limits in Wiener chaos (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12492v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "239": [
+    {
+      "key": "Arxiv260812507V1",
+      "title": "Virasoro recursions for simplicially stable curves (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12507v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812507V1HTML",
+      "title": "Virasoro recursions for simplicially stable curves (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12507v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "240": [
+    {
+      "key": "Arxiv260812543V1",
+      "title": "Keller maps and a counterexample related to Zhao (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12543v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812543V1HTML",
+      "title": "Keller maps and a counterexample related to Zhao (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12543v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "241": [
+    {
+      "key": "Arxiv260812604V1",
+      "title": "Density bounds for permutations (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12604v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812604V1HTML",
+      "title": "Density bounds for permutations (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12604v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "242": [
+    {
+      "key": "Arxiv260812607V1",
+      "title": "A quantum Latin square of order 6 with cardinality 29 (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12607v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812607V1HTML",
+      "title": "A quantum Latin square of order 6 with cardinality 29 (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12607v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "243": [
+    {
+      "key": "Arxiv260812642V1",
+      "title": "Noetherian Bayart power-series result (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12642v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812642V1HTML",
+      "title": "Noetherian Bayart power-series result (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12642v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "244": [
+    {
+      "key": "Arxiv260812678V1",
+      "title": "On the Gap of Finite Posets (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12678v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812678V1HTML",
+      "title": "On the Gap of Finite Posets (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12678v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "245": [
+    {
+      "key": "Arxiv260812678V1",
+      "title": "On the Gap of Finite Posets (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12678v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812678V1HTML",
+      "title": "On the Gap of Finite Posets (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12678v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "246": [
+    {
+      "key": "Arxiv260812678V1",
+      "title": "On the Gap of Finite Posets (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12678v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812678V1HTML",
+      "title": "On the Gap of Finite Posets (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12678v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "247": [
+    {
+      "key": "Arxiv260812681V1",
+      "title": "Zonoids and the Courtade conjecture (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12681v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812681V1HTML",
+      "title": "Zonoids and the Courtade conjecture (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12681v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "248": [
+    {
+      "key": "Arxiv260812690V1",
+      "title": "Point sequences with quasi-uniform two-dimensional projections (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12690v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812690V1HTML",
+      "title": "Point sequences with quasi-uniform two-dimensional projections (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12690v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "249": [
+    {
+      "key": "Arxiv260812749V1",
+      "title": "gd-sets and qm-spaces (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12749v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812749V1HTML",
+      "title": "gd-sets and qm-spaces (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12749v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "250": [
+    {
+      "key": "Arxiv260812891V1",
+      "title": "Nonderivability of Euclidean division principles (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12891v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812891V1HTML",
+      "title": "Nonderivability of Euclidean division principles (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12891v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "251": [
+    {
+      "key": "Arxiv260812985V1",
+      "title": "Minimal nilpotent orbit closures for G2, F4 and E8 (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.12985v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260812985V1HTML",
+      "title": "Minimal nilpotent orbit closures for G2, F4 and E8 (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.12985v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "252": [
+    {
+      "key": "Arxiv260813080V1",
+      "title": "IRF cellular automata (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13080v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813080V1HTML",
+      "title": "IRF cellular automata (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13080v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "253": [
+    {
+      "key": "Arxiv260813170V1",
+      "title": "Counterexamples to Markovity in a ternary broadcast setting (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13170v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813170V1HTML",
+      "title": "Counterexamples to Markovity in a ternary broadcast setting (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13170v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "254": [
+    {
+      "key": "Arxiv260813170V1",
+      "title": "Counterexamples to Markovity in a ternary broadcast setting (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13170v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813170V1HTML",
+      "title": "Counterexamples to Markovity in a ternary broadcast setting (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13170v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "255": [
+    {
+      "key": "Arxiv260813176V1",
+      "title": "An improved (p,q) theorem for s-convex sets (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13176v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813176V1HTML",
+      "title": "An improved (p,q) theorem for s-convex sets (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13176v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "256": [
+    {
+      "key": "Arxiv260813264V1",
+      "title": "Gromov-Hausdorff distance between consecutive spheres (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13264v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813264V1HTML",
+      "title": "Gromov-Hausdorff distance between consecutive spheres (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13264v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "257": [
+    {
+      "key": "Arxiv260813278V1",
+      "title": "Genus-two DAHA categorification (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13278v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813278V1HTML",
+      "title": "Genus-two DAHA categorification (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13278v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "258": [
+    {
+      "key": "Arxiv260813314V1",
+      "title": "Weighted Sobolev estimates for the Laplacian (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13314v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813314V1HTML",
+      "title": "Weighted Sobolev estimates for the Laplacian (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13314v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "259": [
+    {
+      "key": "Arxiv260813371V1",
+      "title": "Gross vectors modulo two (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13371v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813371V1HTML",
+      "title": "Gross vectors modulo two (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13371v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "260": [
+    {
+      "key": "Arxiv260813374V1",
+      "title": "Sharp stability for sliced Wasserstein distance (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13374v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813374V1HTML",
+      "title": "Sharp stability for sliced Wasserstein distance (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13374v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "261": [
+    {
+      "key": "Arxiv260813451V1",
+      "title": "Morse index and nullity of Karcher towers (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13451v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813451V1HTML",
+      "title": "Morse index and nullity of Karcher towers (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13451v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "262": [
+    {
+      "key": "Arxiv260813468V1",
+      "title": "Fourier-invariant functions with dense zeros (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13468v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813468V1HTML",
+      "title": "Fourier-invariant functions with dense zeros (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13468v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "263": [
+    {
+      "key": "Arxiv260813487V1",
+      "title": "Improved hit-and-run mixing (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13487v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813487V1HTML",
+      "title": "Improved hit-and-run mixing (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13487v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "264": [
+    {
+      "key": "Arxiv260813514V1",
+      "title": "Bagging robustly learns VC classes (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13514v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813514V1HTML",
+      "title": "Bagging robustly learns VC classes (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13514v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "265": [
+    {
+      "key": "Arxiv260813536V1",
+      "title": "The Banach isometric conjecture (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13536v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813536V1HTML",
+      "title": "The Banach isometric conjecture (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13536v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "266": [
+    {
+      "key": "Arxiv260813539V1",
+      "title": "HRT counterexamples with exponential tails (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13539v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813539V1HTML",
+      "title": "HRT counterexamples with exponential tails (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13539v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "267": [
+    {
+      "key": "Arxiv260813554V1",
+      "title": "Defensive boosting (arXiv v1)",
+      "url": "https://arxiv.org/abs/2608.13554v1",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Arxiv260813554V1HTML",
+      "title": "Defensive boosting (HTML, v1)",
+      "url": "https://arxiv.org/html/2608.13554v1",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "268": [
+    {
+      "key": "Mazur2026Sendov1",
+      "title": "A Simplified Proof Candidate for Sendov's Conjecture with Exact Rational Certificates",
+      "url": "https://www.proofatlas.ai/papers/sendov-conjecture-proof-candidate/Mazur_Sendov_Conjecture_Proof_Candidate_Revision_14.pdf",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Mazur2026Sendov2",
+      "title": "A Simplified Proof Candidate for Sendov's Conjecture with Exact Rational Certificates (supporting source 2)",
+      "url": "https://proofatlas.ai/formalizations/sendov-conjecture/",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Mazur2026Sendov3",
+      "title": "A Simplified Proof Candidate for Sendov's Conjecture with Exact Rational Certificates (supporting source 3)",
+      "url": "https://www.proofatlas.ai/papers/sendov-conjecture/SENDOV_CONJECTURE_PROOF_AUGUST_5_2026.pdf",
+      "accessed": "2026-08-14"
+    }
+  ],
+  "269": [
+    {
+      "key": "Mazur2026Berlekamp1",
+      "title": "A Rectangle-Reachable Counterexample to Berlekamp's Domineering Temperature Bound",
+      "url": "https://proofatlas.ai/research/berlekamp-domineering-temperature-counterexample/",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Mazur2026Berlekamp2",
+      "title": "A Rectangle-Reachable Counterexample to Berlekamp's Domineering Temperature Bound (supporting source 2)",
+      "url": "https://www.proofatlas.ai/papers/berlekamp-domineering-temperature-counterexample/domineering_temperature_counterexample.pdf",
+      "accessed": "2026-08-14"
+    },
+    {
+      "key": "Mazur2026Berlekamp3",
+      "title": "A Rectangle-Reachable Counterexample to Berlekamp's Domineering Temperature Bound (supporting source 3)",
+      "url": "https://www.proofatlas.ai/data/releases/berlekamp-domineering-temperature-counterexample.json",
+      "accessed": "2026-08-14"
+    }
   ]
 }
