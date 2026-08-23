@@ -165,6 +165,12 @@ However, before we get to that we'll have to look at the y-axis again in a bit m
 
 ***
 
+# Download the figures
+
+[Download the standalone all-vector Wardley-TikZ reconstruction, including the LaTeX source (PDF, 21 pages)](/assets/en/2020-01-05/structural-deepening-wardley-tikz.pdf).
+
+***
+
 # References
 
 [^adnerKapoor2016]: Adner, R. and Kapoor, R., Innovation ecosystems and the pace of substitution: Re-examining technology S-curves, Strategic Management Journal, 37: 625-648, 2016
