@@ -301,7 +301,7 @@
     letter-spacing: -1px;
 }
 
-.project-header > div > p:last-child {
+.project-summary {
     color: $grey-color-dark;
     font-size: 18px;
 }
@@ -374,6 +374,42 @@
 .project-header > div { max-width: 760px; }
 .project-updated { flex: 0 0 auto; padding-top: $spacing-unit / 3; color: $grey-color; font-size: $small-font-size; }
 
+.project-header-with-media {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+    align-items: end;
+    gap: $spacing-unit * 2;
+    padding-bottom: $spacing-unit * 1.25;
+    border-bottom: 1px solid $grey-color-light;
+}
+
+.project-header-with-media .project-header-copy { max-width: 650px; }
+.project-header-with-media .project-summary { max-width: 620px; margin-bottom: 0; line-height: 1.55; }
+
+.project-hero-figure {
+    align-self: end;
+    width: 100%;
+    margin: 0;
+}
+
+.project-hero-image { display: block; width: 100%; height: auto; }
+.project-hero-figure figcaption { margin-top: 8px; color: $grey-color; font-size: 11px; line-height: 1.45; }
+
+.wardley-introduction {
+    max-width: 760px;
+    padding: $spacing-unit * 0.75 0 $spacing-unit * 1.5;
+}
+
+.wardley-introduction h2 {
+    margin-bottom: $spacing-unit / 2;
+    font-size: 28px;
+    line-height: 1.25;
+    letter-spacing: -0.4px;
+}
+
+.wardley-introduction p { color: $grey-color-dark; font-size: 18px; line-height: 1.65; }
+.wardley-resource-note { margin-top: $spacing-unit; padding-top: $spacing-unit * 0.65; border-top: 1px solid $grey-color-light; }
+
 .dashboard-starter { padding: $spacing-unit; border: 1px solid $grey-color-light; border-radius: 8px; background: #f7f9fc; }
 .dashboard-controls { display: flex; align-items: flex-start; justify-content: space-between; gap: $spacing-unit; }
 .dashboard-controls h2 { margin-bottom: 4px; font-size: 24px; }
@@ -397,6 +433,11 @@
     .project-updated { padding-top: 0; }
     .scenario-switcher { overflow-x: auto; margin-top: $spacing-unit / 2; }
     .project-header h1 { font-size: 30px; }
+    .project-header-with-media { display: block; }
+    .project-hero-figure { width: 88%; max-width: 420px; margin-top: $spacing-unit; margin-left: auto; }
+    .wardley-introduction { padding-top: $spacing-unit / 2; }
+    .wardley-introduction h2 { font-size: 24px; }
+    .wardley-introduction p { font-size: 17px; }
     .project-card-link { gap: $spacing-unit / 3; padding: $spacing-unit * 0.7 0; }
     .project-card-thumbnail { flex-basis: 72px; width: 72px; height: 72px; }
 }
