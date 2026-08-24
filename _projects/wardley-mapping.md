@@ -11,7 +11,6 @@ hero_image_height: 2330
 hero_image_credit: Adapted from Simon Wardley, Finding a path (CC BY-SA 4.0), rendered with Wardley-TikZ and tikz-network.
 hide_hero_caption: true
 type: Toolkit
-status: Live
 order: 2
 updated: 2026-08-24
 ---
