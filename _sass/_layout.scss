@@ -341,10 +341,16 @@
 }
 
 .project-status {
+    margin-left: auto;
     padding: 1px 8px;
     border-radius: 999px;
     background: lighten($brand-color, 43%);
     color: darken($brand-color, 12%);
+}
+
+.project-status-coming-soon {
+    background: #fbe7f1;
+    color: #9c2f67;
 }
 
 .project-card h2 { margin-bottom: $spacing-unit / 8; color: $brand-color; font-size: 24px; }
@@ -358,7 +364,7 @@
     object-fit: cover;
 }
 
-.project-card-content { min-width: 0; }
+.project-card-content { flex: 1 1 auto; min-width: 0; }
 
 .project-main { padding: $spacing-unit 0 $spacing-unit * 2; }
 .project-wrapper { max-width: 1180px; margin: 0 auto; padding: 0 $spacing-unit; }
