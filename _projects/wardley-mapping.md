@@ -22,3 +22,57 @@ updated: 2026-08-24
   <p class="wardley-resource-note">This toolkit brings together practical resources for drawing maps, reconstructing them from source material and exploring what they reveal.</p>
   <p class="wardley-artwork-credit">Hero artwork adapted from Simon Wardley, <cite>Finding a path</cite> (CC BY-SA 4.0), rendered with Wardley-TikZ and tikz-network.</p>
 </section>
+
+<section class="wardley-resources" aria-labelledby="wardley-resources-heading">
+  <header class="wardley-section-header">
+    <p class="wardley-section-kicker">Resources</p>
+    <h2 id="wardley-resources-heading">Wardley-TikZ</h2>
+    <p>The drawing toolkit, its manual and the project source will come together here as each part is released.</p>
+  </header>
+
+  <ul class="wardley-resource-list">
+    <li class="wardley-resource-item">
+      <div>
+        <p class="wardley-resource-format">Toolkit</p>
+        <h3>Wardley-TikZ toolkit</h3>
+        <p>A LaTeX toolkit for drawing Wardley maps from structured, reusable source.</p>
+      </div>
+      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+    </li>
+
+    <li class="wardley-resource-item">
+      <div>
+        <p class="wardley-resource-format">PDF</p>
+        <h3>Wardley-TikZ manual</h3>
+        <p>A guide to installing the toolkit and building, styling and adapting maps.</p>
+      </div>
+      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+    </li>
+
+    <li class="wardley-resource-item">
+      <div>
+        <p class="wardley-resource-format">Git</p>
+        <h3>Toolkit repository</h3>
+        <p>Source code, examples and release files will appear here once the project is public.</p>
+      </div>
+      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+    </li>
+  </ul>
+</section>
+
+{% assign wardley_posts = site.categories.wardleymaps | where: "lang", "en" %}
+{% if wardley_posts.size > 0 %}
+<section class="wardley-writing" aria-labelledby="wardley-writing-heading">
+  <header class="wardley-section-header">
+    <p class="wardley-section-kicker">Writing</p>
+    <h2 id="wardley-writing-heading">Wardley Mapping essays</h2>
+    <p>Essays that examine particular ideas from Wardley Mapping in more detail.</p>
+  </header>
+
+  <ul class="post-list wardley-writing-list">
+    {% for post in wardley_posts %}
+      {% include post-list-item.html post=post reading_label="min read" date_format="%b %-d, %Y" %}
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
