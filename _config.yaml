@@ -27,6 +27,13 @@ home_intro:
     list_heading: 最新文章
     reading_label: 分钟阅读
     date_format: "%Y年%-m月%-d日"
+post_pdf:
+  en:
+    label: Download this essay as a PDF
+    detail: A standalone copy for reading offline
+  zh:
+    label: 下载本文 PDF
+    detail: 独立版本，便于离线阅读
 index:
   en:
   zh: 索引.html
