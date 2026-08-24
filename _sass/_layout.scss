@@ -378,7 +378,7 @@
 .project-header-with-media {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 290px;
-    align-items: end;
+    align-items: start;
     gap: 32px;
     padding-bottom: $spacing-unit * 1.25;
     border-bottom: 1px solid $grey-color-light;
