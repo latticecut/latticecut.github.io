@@ -368,6 +368,7 @@
 
 .project-main { padding: $spacing-unit 0 $spacing-unit * 2; }
 .project-wrapper { max-width: 1180px; margin: 0 auto; padding: 0 $spacing-unit; }
+.project-body-with-media .project-wrapper { box-sizing: border-box; max-width: 800px; }
 .project-breadcrumb { margin-bottom: $spacing-unit; color: $grey-color; font-size: $small-font-size; }
 .project-breadcrumb span { margin-left: 7px; }
 .project-header { display: flex; justify-content: space-between; gap: $spacing-unit; margin-bottom: $spacing-unit; }
@@ -376,19 +377,21 @@
 
 .project-header-with-media {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(320px, 420px);
+    grid-template-columns: minmax(0, 1fr) 250px;
     align-items: end;
-    gap: $spacing-unit * 2;
+    gap: 36px;
     padding-bottom: $spacing-unit * 1.25;
     border-bottom: 1px solid $grey-color-light;
 }
 
 .project-header-with-media .project-header-copy { max-width: 650px; }
+.project-header-with-media h1 { font-size: 36px; line-height: 1.18; }
 .project-header-with-media .project-summary { max-width: 620px; margin-bottom: 0; line-height: 1.55; }
 
 .project-hero-figure {
     align-self: end;
     width: 100%;
+    max-width: 250px;
     margin: 0;
 }
 
@@ -434,7 +437,7 @@
     .scenario-switcher { overflow-x: auto; margin-top: $spacing-unit / 2; }
     .project-header h1 { font-size: 30px; }
     .project-header-with-media { display: block; }
-    .project-hero-figure { width: 88%; max-width: 420px; margin-top: $spacing-unit; margin-left: auto; }
+    .project-hero-figure { width: 76%; max-width: 360px; margin-top: $spacing-unit; margin-left: auto; }
     .wardley-introduction { padding-top: $spacing-unit / 2; }
     .wardley-introduction h2 { font-size: 24px; }
     .wardley-introduction p { font-size: 17px; }
