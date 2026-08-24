@@ -573,3 +573,9 @@
         }
     }
 }
+
+@media print {
+    .article-pdf-download {
+        display: none !important;
+    }
+}

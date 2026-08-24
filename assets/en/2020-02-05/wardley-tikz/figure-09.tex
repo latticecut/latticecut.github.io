@@ -1,0 +1,111 @@
+% Proximal Value, Figure 1: the same dependency order with different gaps.
+\documentclass[border=8pt,varwidth=20cm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{wardley-tikz}
+\input{proximal-common.tex}
+
+\begin{document}
+\begingroup
+\centering
+
+% The three sibling maps deliberately share topology and maturity positions.
+% Only B's visibility changes. The gaps are schematic, not calibrated values.
+\begin{wardleymap}[
+  width=4.05cm,height=7.05cm,
+  style=structural,format=structural,canvas=white,
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=false,show stage labels=false,
+  minor stage guides={},
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVVerticalFrame
+  \PVProximityLabel
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {a)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Same dependency order};
+  \WardleyAnchor[id=pv09a-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv09a-a,label position=above right]
+    {A}[.74,.50]
+  \WardleyComponent[id=pv09a-b,label position=right]
+    {B}[.47,.50]
+  \WardleyComponent[id=pv09a-c,label position=below right]
+    {C}[.20,.50]
+  \WardleyLink{pv09a-purpose}{pv09a-a}
+  \WardleyLink{pv09a-a}{pv09a-b}
+  \WardleyLink{pv09a-b}{pv09a-c}
+\end{wardleymap}%
+\hspace{.48cm}%
+\begin{wardleymap}[
+  width=4.05cm,height=7.05cm,
+  style=structural,format=structural,canvas=white,
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=false,show stage labels=false,
+  minor stage guides={},
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVVerticalFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {b)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Tightly coupled A--B};
+
+  \WardleyAnchor[id=pv09b-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv09b-a,label position=above right]
+    {A}[.74,.50]
+  \WardleyComponent[id=pv09b-b,label position=below right]
+    {B}[.67,.50]
+  \WardleyComponent[id=pv09b-c,label position=below right]
+    {C}[.20,.50]
+  \WardleyLink{pv09b-purpose}{pv09b-a}
+  \WardleyLink{pv09b-a}{pv09b-b}
+  \WardleyLink{pv09b-b}{pv09b-c}
+
+  % This double arrow marks the vertical projection only; the dependency's
+  % diagonal or Euclidean length has no map meaning.
+  \PVGapGuide{.73}{.675}{.735}
+  \node[pv architecture note,anchor=west] at (.76,.705)
+    {short vertical gap\\tight coupling};
+  \node[pv architecture note,anchor=west] at (.63,.43)
+    {larger gap\\functional separation};
+\end{wardleymap}%
+\hspace{.48cm}%
+\begin{wardleymap}[
+  width=4.05cm,height=7.05cm,
+  style=structural,format=structural,canvas=white,
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=false,show stage labels=false,
+  minor stage guides={},
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVVerticalFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {c)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Tightly coupled B--C};
+
+  \WardleyAnchor[id=pv09c-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv09c-a,label position=above right]
+    {A}[.74,.50]
+  \WardleyComponent[id=pv09c-b,label position=above right]
+    {B}[.27,.50]
+  \WardleyComponent[id=pv09c-c,label position=below right]
+    {C}[.20,.50]
+  \WardleyLink{pv09c-purpose}{pv09c-a}
+  \WardleyLink{pv09c-a}{pv09c-b}
+  \WardleyLink{pv09c-b}{pv09c-c}
+
+  \PVGapGuide{.73}{.205}{.265}
+  \node[pv architecture note,anchor=west] at (.76,.235)
+    {short vertical gap\\tight coupling};
+\end{wardleymap}
+
+\par
+\endgroup
+\end{document}

@@ -1,0 +1,112 @@
+% Proximal Value, Figure 4: expanding and contracting an engine assembly.
+\documentclass[border=8pt,varwidth=19cm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{wardley-tikz}
+\input{proximal-common.tex}
+
+\begin{document}
+\pagecolor{white}
+\begingroup
+\centering
+
+% Both panels keep Flight and Aeroplane at the same coordinates. The expanded
+% assembly boundary and the contracted Engine node share the exact map
+% coordinate [visibility=.50,maturity=.48], so contraction changes only the
+% level of detail rather than the assembly's x- or y-position.
+\begin{wardleymap}[
+  width=7.45cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \PVProximityLabel
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {a)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Engine assembly expanded};
+
+  % This is an abstraction boundary, not a team ownership region. Its physical
+  % size and the relative positions of the five components reproduce the engine
+  % assembly in Structural Deepening, Figure 4c. The cluster is translated as
+  % one rigid group so its boundary centre coincides with the contracted Engine
+  % node at raw map coordinate (maturity=.48,visibility=.50).
+  \begin{pgfonlayer}{wardley regions}
+    \node[pv assembly circle,minimum size=26mm,inner sep=0pt]
+      at (.480,.500) {};
+  \end{pgfonlayer}
+
+  \WardleyAnchor[id=pv12a-flight,show marker,
+    style={pv purpose anchor},label position=above]
+    {Flight}[.94,.22]
+  \WardleyComponent[id=pv12a-aeroplane,label position=above right]
+    {Aeroplane}[.80,.26]
+  \WardleyComponent[id=pv12a-turbine,label position=right]
+    {Turbine}[.717,.499]
+  \WardleyComponent[id=pv12a-combustion,label position=left]
+    {Combustion}[.575,.412]
+  \WardleyComponent[id=pv12a-compressor,label position=left]
+    {Compressor}[.439,.412]
+  \WardleyComponent[id=pv12a-intake,label position=left]
+    {Air Intake}[.303,.412]
+  \WardleyComponent[id=pv12a-exhaust,label position=right]
+    {Exhaust}[.568,.605]
+
+  \WardleyLink{pv12a-flight}{pv12a-aeroplane}
+  \WardleyLink{pv12a-aeroplane}{pv12a-turbine}
+  \WardleyLink{pv12a-turbine}{pv12a-combustion}
+  \WardleyLink{pv12a-turbine}{pv12a-compressor}
+  \WardleyLink{pv12a-turbine}{pv12a-exhaust}
+  \WardleyLink{pv12a-combustion}{pv12a-compressor}
+  \WardleyLink{pv12a-compressor}{pv12a-intake}
+
+  % Preserve the numbered component convention and external assembly label
+  % from Structural Deepening, Figure 4c.
+  \node[anchor=center,font=\sffamily\tiny] at (.412,.303) {1};
+  \node[anchor=center,font=\sffamily\tiny] at (.412,.439) {2};
+  \node[anchor=center,font=\sffamily\tiny] at (.412,.575) {3};
+  \node[anchor=center,font=\sffamily\tiny] at (.499,.717) {4};
+  \node[anchor=center,font=\sffamily\tiny] at (.605,.568) {5};
+  \WardleyMapLabel[at={.351,.668},anchor=west,
+    style={pv assembly label}]{Engine}
+
+\end{wardleymap}%
+\hspace{.65cm}%
+\begin{wardleymap}[
+  width=7.45cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {b)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Engine assembly contracted};
+
+  \begin{pgfonlayer}{wardley regions}
+    \node[pv assembly circle,minimum size=13mm,inner sep=0pt]
+      at (.480,.500) {};
+  \end{pgfonlayer}
+
+  \WardleyAnchor[id=pv12b-flight,show marker,
+    style={pv purpose anchor},label position=above]
+    {Flight}[.94,.22]
+  \WardleyComponent[id=pv12b-aeroplane,label position=above right]
+    {Aeroplane}[.80,.26]
+  \WardleyComponent[
+    id=pv12b-engine,label position=right,label distance=7mm
+  ]
+    {Engine}[.500,.480]
+  \WardleyLink{pv12b-flight}{pv12b-aeroplane}
+  \WardleyLink{pv12b-aeroplane}{pv12b-engine}
+
+\end{wardleymap}
+
+\par
+\endgroup
+\end{document}

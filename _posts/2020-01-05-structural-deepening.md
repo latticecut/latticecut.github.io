@@ -161,7 +161,7 @@ Next we'll draw a key distinction between the ***as-developed*** performance of 
 
 I'm going to try and use a few different technology examples, including photo-lithography and natural language processing (NLP).
 
-However, before we get to that we'll have to look at the y-axis again in a bit more detail! I'll do this is the next post.  
+However, before we get to that we'll have to look at the y-axis again in a bit more detail. We do this in the next post, [Proximal Value]({% post_url 2020-02-05-proximal-value %}).
 
 ***
 

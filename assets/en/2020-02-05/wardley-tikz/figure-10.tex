@@ -1,0 +1,228 @@
+% Proximal Value, Figure 2: four possible states of an evolving assembly.
+\documentclass[border=8pt,varwidth=34cm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{wardley-tikz}
+\input{proximal-common.tex}
+
+\begin{document}
+% Give the whole composed figure an opaque page background. The individual
+% Wardley canvases are already white, but titles and labels extend into the
+% standalone page margin and otherwise inherit a viewer's background colour.
+\pagecolor{white}
+\begingroup
+\centering
+\noindent
+\begin{minipage}[c]{16.8cm}
+\centering
+\makebox[\linewidth][c]{%
+
+% Coupling is a relationship across an interface, so each time slice keeps
+% the selected Purpose, the purpose-facing Offer, and component A visible.
+\begin{wardleymap}[
+  width=6.75cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \PVProximityLabel
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {a)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Initial assembly};
+  \WardleyAnchor[id=pv10a-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv10a-offer,label position=above left]
+    {Offer}[.74,.16]
+  \WardleyComponent[id=pv10a-component,label position=below right]
+    {A[1]}[.55,.16]
+  \WardleyLink{pv10a-purpose}{pv10a-offer}
+  \WardleyLink{pv10a-offer}{pv10a-component}
+  \WardleyMapLabel[at={.33,.50},style={pv architecture note}]
+    {coupled interface}
+\end{wardleymap}%
+\hspace{.6cm}%
+\begin{wardleymap}[
+  width=6.75cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {b)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Maturation; interface unchanged};
+  \WardleyAnchor[id=pv10b-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv10b-offer,label position=above left]
+    {Offer}[.74,.36]
+  \WardleyComponent[id=pv10b-component,label position=below right]
+    {A[2]}[.55,.36]
+  \WardleyLink{pv10b-purpose}{pv10b-offer}
+  \WardleyLink{pv10b-offer}{pv10b-component}
+  \WardleyMapLabel[at={.33,.50},style={pv diagnostic note}]
+    {same vertical gap}
+\end{wardleymap}%
+}
+
+\par\vspace{.62cm}
+
+\makebox[\linewidth][c]{%
+\begin{wardleymap}[
+  width=6.75cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \PVProximityLabel
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {c)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Stable interface; greater separation};
+  \WardleyAnchor[id=pv10c-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv10c-offer,label position=above left]
+    {Offer}[.74,.58]
+  \WardleyComponent[id=pv10c-component,label position=below right]
+    {A[3]}[.34,.58]
+  \WardleyLink{pv10c-purpose}{pv10c-offer}
+  \WardleyLink{pv10c-offer}{pv10c-component}
+  \WardleyMapLabel[at={.51,.64},style={pv architecture note}]
+    {abstraction insulates A}
+\end{wardleymap}%
+\hspace{.6cm}%
+\begin{wardleymap}[
+  width=6.75cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {d)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Renewed integration and co-development};
+  \WardleyAnchor[id=pv10d-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.50]
+  \WardleyComponent[id=pv10d-offer,label position=above left]
+    {Offer}[.74,.80]
+  \WardleyComponent[id=pv10d-component,label position=below right]
+    {A[4]}[.60,.80]
+  \WardleyLink{pv10d-purpose}{pv10d-offer}
+  \WardleyLink{pv10d-offer}{pv10d-component}
+  \WardleyMapLabel[at={.42,.63},style={pv architecture note}]
+    {shorter vertical gap}
+\end{wardleymap}%
+}
+
+\end{minipage}%
+\hspace{.6cm}%
+\begin{minipage}[c]{16cm}
+\centering
+
+% Panel (e) superimposes the four time slices. Offer and A are each one
+% logical component; states 1--3 are historical state markers and state 4 is
+% the current endpoint of this illustration. Historical rungs are a visual
+% summary of the dependency in each earlier configuration, not extra current
+% topology. Red dotted arrows are temporal movement, never dependencies.
+\begin{wardleymap}[
+  width=14.1cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \node[rotate=90,anchor=south,font=\sffamily\small]
+    at (-.055,.50) {Proximity to the same selected purpose};
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {e)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {Successive configurations, summarised};
+
+  \WardleyComponent[id=pv10e-offer,show label=false]
+    {Offer}[.74,.80]
+  \WardleyComponent[id=pv10e-a,show label=false]
+    {A}[.60,.80]
+  \WardleyLink{pv10e-offer}{pv10e-a}
+
+  \WardleyState[id=pv10e-offer-1,kind=past,show label=false]
+    {pv10e-offer}[.74,.16]
+  \WardleyState[id=pv10e-offer-2,kind=past,show label=false]
+    {pv10e-offer}[.74,.36]
+  \WardleyState[id=pv10e-offer-3,kind=past,show label=false]
+    {pv10e-offer}[.74,.58]
+  \WardleyState[id=pv10e-offer-4,kind=current,
+    show marker=false,show label=false]{pv10e-offer}
+
+  \WardleyState[id=pv10e-a-1,kind=past,show label=false]
+    {pv10e-a}[.55,.16]
+  \WardleyState[id=pv10e-a-2,kind=past,show label=false]
+    {pv10e-a}[.55,.36]
+  \WardleyState[id=pv10e-a-3,kind=past,show label=false]
+    {pv10e-a}[.34,.58]
+  \WardleyState[id=pv10e-a-4,kind=current,
+    show marker=false,show label=false]{pv10e-a}
+
+  \begin{pgfonlayer}{background}
+    % Historical dependency rungs. The final black rung is the semantic
+    % WardleyLink above; these three grey rungs show earlier configurations.
+    \draw[pv historical dependency] (.16,.55) -- (.16,.74);
+    \draw[pv historical dependency] (.36,.55) -- (.36,.74);
+    \draw[pv historical dependency] (.58,.34) -- (.58,.74);
+
+    % Offer and A histories are temporal overlays, drawn piecewise so every
+    % transition has an arrowhead and no smooth life-cycle is implied.
+    \draw[pv offer history] (.16,.74) -- (.36,.74);
+    \draw[pv offer history] (.36,.74) -- (.58,.74);
+    \draw[pv offer history] (.58,.74) -- (.80,.74);
+    \draw[pv component history] (.16,.55) -- (.36,.55);
+    \draw[pv component history] (.36,.55) -- (.58,.34);
+    \draw[pv component history] (.58,.34) -- (.80,.60);
+  \end{pgfonlayer}
+
+  \WardleyMapLabel[at={.91,.06},anchor=west,
+    style={pv fixed-purpose note}]
+    {purpose held fixed}
+  \WardleyMapLabel[at={.91,.94},anchor=east,
+    style={pv temporal note}]
+    {successive states $t_1 \rightarrow t_4$}
+
+  \WardleyMapLabel[at={.79,.16},anchor=south,
+    style={pv state label}]{Offer[1]}
+  \WardleyMapLabel[at={.79,.36},anchor=south,
+    style={pv state label}]{Offer[2]}
+  \WardleyMapLabel[at={.79,.58},anchor=south,
+    style={pv state label}]{Offer[3]}
+  \WardleyMapLabel[at={.79,.80},anchor=south,
+    style={pv state label}]{Offer[4]}
+
+  \WardleyMapLabel[at={.50,.16},anchor=north,
+    style={pv state label}]{A[1]}
+  \WardleyMapLabel[at={.50,.36},anchor=north,
+    style={pv state label}]{A[2]}
+  \WardleyMapLabel[at={.29,.58},anchor=north,
+    style={pv state label}]{A[3]}
+  \WardleyMapLabel[at={.55,.80},anchor=north,
+    style={pv state label}]{A[4]}
+\end{wardleymap}
+\end{minipage}
+
+\par
+\endgroup
+\end{document}
