@@ -25,7 +25,7 @@ show_language_selector: true
             <div class="project-card-content">
               <div class="project-card-topline">
                 <span class="project-type">{{ project.type | default: "Interactive" }}</span>
-                {% if project.status %}<span class="project-status">{{ project.status }}</span>{% endif %}
+                {% if project.status %}<span class="project-status project-status-{{ project.status | slugify }}">{{ project.status }}</span>{% endif %}
               </div>
               <h2>{{ project.title }}</h2>
               <p>{{ project.summary | default: project.excerpt | strip_html | truncatewords: 26 }}</p>
