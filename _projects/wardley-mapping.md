@@ -11,7 +11,7 @@ hero_image_height: 2330
 hero_image_credit: Adapted from Simon Wardley, Finding a path (CC BY-SA 4.0), rendered with Wardley-TikZ and tikz-network.
 hide_hero_caption: true
 type: Toolkit
-status: Coming soon
+status: Live
 order: 2
 updated: 2026-08-24
 ---
@@ -27,7 +27,7 @@ updated: 2026-08-24
   <header class="wardley-section-header">
     <p class="wardley-section-kicker">Resources</p>
     <h2 id="wardley-resources-heading">Wardley-TikZ</h2>
-    <p>The drawing toolkit, its manual and the project source will come together here as each part is released.</p>
+    <p>The drawing toolkit, its manual and the complete project source are available here.</p>
   </header>
 
   <ul class="wardley-resource-list">
@@ -37,7 +37,7 @@ updated: 2026-08-24
         <h3>Wardley-TikZ toolkit</h3>
         <p>A LaTeX toolkit for drawing Wardley maps from structured, reusable source.</p>
       </div>
-      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+      <a class="project-status wardley-resource-action" href="https://github.com/latticecut/wardley-tikz#readme">View toolkit</a>
     </li>
 
     <li class="wardley-resource-item">
@@ -46,16 +46,16 @@ updated: 2026-08-24
         <h3>Wardley-TikZ manual</h3>
         <p>A guide to installing the toolkit and building, styling and adapting maps.</p>
       </div>
-      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+      <a class="project-status wardley-resource-action" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download PDF</a>
     </li>
 
     <li class="wardley-resource-item">
       <div>
         <p class="wardley-resource-format">Git</p>
         <h3>Toolkit repository</h3>
-        <p>Source code, examples and release files will appear here once the project is public.</p>
+        <p>Source code, examples, tests and the portable Wardley Map agent skill.</p>
       </div>
-      <span class="project-status project-status-coming-soon wardley-placeholder-status">Coming soon</span>
+      <a class="project-status wardley-resource-action" href="https://github.com/latticecut/wardley-tikz">Browse source</a>
     </li>
   </ul>
 </section>
