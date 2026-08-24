@@ -30,7 +30,7 @@
               {% if page.hero_image_height %}height="{{ page.hero_image_height }}"{% endif %}
               loading="eager"
               fetchpriority="high">
-            {% if page.hero_image_credit %}<figcaption>{{ page.hero_image_credit }}</figcaption>{% endif %}
+            {% if page.hero_image_credit %}{% unless page.hide_hero_caption %}<figcaption>{{ page.hero_image_credit }}</figcaption>{% endunless %}{% endif %}
           </figure>
           {% elsif page.updated %}
           <p class="project-updated">Updated {{ page.updated | date: "%B %Y" }}</p>
