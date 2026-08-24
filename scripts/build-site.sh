@@ -24,10 +24,24 @@ SDKROOT="$sdk_root" \
 CPLUS_INCLUDE_PATH="$sdk_root/usr/include/c++/v1" \
 "${bundle_cmd[@]}" install --path vendor/bundle
 
-BUNDLE_FORCE_RUBY_PLATFORM=true \
-SDKROOT="$sdk_root" \
-CPLUS_INCLUDE_PATH="$sdk_root/usr/include/c++/v1" \
-"${bundle_cmd[@]}" exec jekyll build
+run_jekyll_build() {
+  BUNDLE_FORCE_RUBY_PLATFORM=true \
+  SDKROOT="$sdk_root" \
+  CPLUS_INCLUDE_PATH="$sdk_root/usr/include/c++/v1" \
+  "${bundle_cmd[@]}" exec jekyll build
+}
+
+run_jekyll_build
+
+# Generate standalone copies from the fully rendered post pages, then rebuild
+# so the PDFs become ordinary static assets in the published site.
+node scripts/generate-essay-pdfs.mjs \
+  --site "$build_root/_site" \
+  --source "$build_root"
+run_jekyll_build
+node scripts/generate-essay-pdfs.mjs \
+  --site "$build_root/_site" \
+  --verify-only
 
 required_project_files=(
   index.html
@@ -70,5 +84,7 @@ for asset_ref in "${asset_refs[@]}"; do
   fi
 done
 
+mkdir -p "$repo_root/assets/essay-pdfs"
+rsync -a --delete "$build_root/assets/essay-pdfs/" "$repo_root/assets/essay-pdfs/"
 rsync -a "$build_root/Gemfile.lock" "$repo_root/Gemfile.lock"
 rsync -a --delete "$build_root/_site/" "$repo_root/_site/"

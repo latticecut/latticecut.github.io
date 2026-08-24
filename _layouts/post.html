@@ -12,4 +12,23 @@ layout: default
     {{ content }}
   </div>
 
+  {% assign post_pdf_copy = site.post_pdf[page.lang] | default: site.post_pdf.en %}
+  {% assign post_pdf_key = page.ref | default: page.slug %}
+  {% assign post_pdf_name = post_pdf_key | slugify %}
+  {% capture post_pdf_path %}/assets/essay-pdfs/{{ post_pdf_name }}-{{ page.lang }}.pdf{% endcapture %}
+  <footer class="post-download">
+    <a class="post-download-link"
+       href="{{ post_pdf_path | relative_url }}"
+       type="application/pdf"
+       download
+       data-essay-pdf
+       data-essay-source="{{ page.path | escape }}">
+      <span class="post-download-copy">
+        <strong>{{ post_pdf_copy.label }}</strong>
+        <span>{{ post_pdf_copy.detail }}</span>
+      </span>
+      <span class="post-download-format" aria-hidden="true">PDF ↓</span>
+    </a>
+  </footer>
+
 </article>
