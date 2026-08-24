@@ -38,6 +38,11 @@ updated: 2026-08-24
     </li>
 
     <li class="wardley-resource-item">
+      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-reader-draft.pdf' | relative_url }}">Download the Wardley Reader draft</a>
+      <span class="wardley-resource-meta">PDF &middot; 310 pages</span>
+    </li>
+
+    <li class="wardley-resource-item">
       <a class="wardley-resource-link" href="https://github.com/latticecut/wardley-tikz">Browse the source repository</a>
       <span class="wardley-resource-meta">GitHub</span>
     </li>
