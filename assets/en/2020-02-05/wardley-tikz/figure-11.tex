@@ -1,0 +1,80 @@
+% Proximal Value, Figure 3: diagnosing a long horizontal dependency.
+\documentclass[border=8pt,varwidth=24cm]{standalone}
+\usepackage[T1]{fontenc}
+\usepackage{wardley-tikz}
+\input{proximal-common.tex}
+
+\begin{document}
+\begingroup
+\centering
+
+\begin{wardleymap}[
+  width=7.45cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \PVProximityLabel
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {a)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {A strong architectural claim};
+
+  \WardleyAnchor[id=pv11a-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.16]
+  \WardleyComponent[id=pv11a-app,label position=above right]
+    {Application}[.70,.18]
+  \WardleyComponent[id=pv11a-db,label position=below left]
+    {Database utility}[.63,.85]
+  \WardleyLink{pv11a-purpose}{pv11a-app}
+  \WardleyLink{pv11a-app}{pv11a-db}
+
+  % Only the vertical projection is annotated as coupling distance.
+  \PVGapGuide{.93}{.635}{.695}
+  \node[pv architecture note,anchor=south east] at (.91,.715)
+    {short vertical gap};
+  \WardleyNote[
+    at={.35,.52},anchor=center,width=46mm,
+    style={pv diagnostic note}
+  ]{Omitted component, classification problem,\\or genuine coupling?}
+\end{wardleymap}%
+\hspace{.65cm}%
+\begin{wardleymap}[
+  width=7.45cm,aspect ratio=1.414,
+  style=structural,format=structural,canvas=white,
+  stages={\PVStages},stage boundaries={.18,.40,.70},
+  show evolution axis=false,show value chain axis=false,
+  show stage separators=true,show stage labels=false,
+  show chart labels=false,show visibility labels=false,
+  trace=true
+]
+  \PVMapFrame
+  \node[pv panel letter,anchor=north east] at (-.015,.02) {b)};
+  \node[pv panel title,anchor=south] at (.50,1.025)
+    {One possible diagnosis};
+
+  \WardleyAnchor[id=pv11b-purpose,show marker,
+    style={pv purpose anchor},label position=above]
+    {Purpose}[.94,.16]
+  \WardleyComponent[id=pv11b-app,label position=above right]
+    {Application}[.70,.18]
+  \WardleyComponent[id=pv11b-integration,label position=above right]
+    {Custom integration}[.62,.30]
+  \WardleyComponent[id=pv11b-db,label position=below left]
+    {Database utility}[.25,.85]
+  \WardleyLink{pv11b-purpose}{pv11b-app}
+  \WardleyLink{pv11b-app}{pv11b-integration}
+  \WardleyLink{pv11b-integration}{pv11b-db}
+
+  \PVGapGuide{.43}{.255}{.615}
+  \node[pv architecture note,anchor=east] at (.42,.435)
+    {greater functional\\separation};
+\end{wardleymap}
+
+\par
+\endgroup
+\end{document}
