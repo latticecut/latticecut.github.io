@@ -421,8 +421,7 @@
 }
 
 .wardley-section-header { max-width: 620px; margin-bottom: $spacing-unit * 0.75; }
-.wardley-section-kicker,
-.wardley-resource-format { margin-bottom: $spacing-unit / 6; color: $grey-color; font-size: $small-font-size; }
+.wardley-section-kicker { margin-bottom: $spacing-unit / 6; color: $grey-color; font-size: $small-font-size; }
 
 .wardley-section-header h2 {
     margin-bottom: $spacing-unit / 3;
@@ -432,28 +431,43 @@
 }
 
 .wardley-section-header > p:last-child { margin-bottom: 0; color: $grey-color-dark; font-size: 17px; line-height: 1.55; }
-.wardley-resource-list { margin: 0; border-bottom: 1px solid $grey-color-light; list-style: none; }
 
-.wardley-resource-item {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: start;
-    gap: $spacing-unit;
-    padding: $spacing-unit * 0.75 0;
-    border-top: 1px solid $grey-color-light;
-}
-
-.wardley-resource-item h3 { margin-bottom: $spacing-unit / 6; font-size: 22px; line-height: 1.3; }
-.wardley-resource-item > div > p:last-child { max-width: 570px; margin-bottom: 0; color: $grey-color-dark; line-height: 1.55; }
-
-.wardley-resource-action {
-    margin-left: 0;
-    margin-top: 2px;
-    white-space: nowrap;
+.wardley-toolkit-action {
+    display: inline-block;
+    margin: -8px 0 20px;
+    padding: 9px 13px;
+    border: 1px solid lighten($brand-color, 32%);
+    border-radius: 3px;
+    background: lighten($brand-color, 43%);
+    color: darken($brand-color, 12%);
+    font-size: $small-font-size;
     text-decoration: none;
 }
 
-.wardley-resource-action:hover { color: darken($brand-color, 20%); }
+.wardley-toolkit-action:hover { color: darken($brand-color, 20%); }
+.wardley-resource-list { margin: 0; border-top: 1px solid $grey-color-light; list-style: none; }
+
+.wardley-resource-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content;
+    align-items: baseline;
+    gap: 20px;
+    min-width: 0;
+    padding: 12px 0;
+    border-bottom: 1px solid $grey-color-light;
+}
+
+.wardley-resource-link {
+    font-size: 16px;
+    line-height: 1.45;
+    text-decoration: none;
+}
+
+.wardley-resource-meta {
+    color: $grey-color;
+    font-size: 11px;
+    white-space: nowrap;
+}
 
 .wardley-writing { padding-bottom: 0; }
 .wardley-writing-list { margin-bottom: 0; }
@@ -489,8 +503,8 @@
     .wardley-resources,
     .wardley-writing { padding-top: $spacing-unit; }
     .wardley-section-header h2 { font-size: 24px; }
-    .wardley-resource-item { grid-template-columns: 1fr; gap: $spacing-unit / 3; }
-    .wardley-resource-action { justify-self: start; }
+    .wardley-resource-item { grid-template-columns: 1fr; gap: 4px; padding: 15px 0; }
+    .wardley-resource-meta { white-space: normal; }
     .project-card-link { gap: $spacing-unit / 3; padding: $spacing-unit * 0.7 0; }
     .project-card-thumbnail { flex-basis: 72px; width: 72px; height: 72px; }
 }
