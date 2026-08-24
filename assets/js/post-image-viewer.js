@@ -74,11 +74,13 @@
     var figureCaption = figure ? figure.querySelector("figcaption") : null;
     var paragraph = image.closest("p");
     var strongCaption = paragraph ? paragraph.querySelector("strong") : null;
+    var paragraphCaption = paragraph ? paragraph.textContent.trim() : "";
 
     return (
       (figureCaption && figureCaption.textContent.trim()) ||
       (strongCaption && strongCaption.textContent.trim()) ||
-      image.alt.trim()
+      image.alt.trim() ||
+      paragraphCaption
     );
   }
 
@@ -103,6 +105,7 @@
     var openLabel = dialog.getAttribute("data-open-label") || "Open image full screen";
     var loadingLabel = dialog.getAttribute("data-loading-label") || "Loading…";
     var errorLabel = dialog.getAttribute("data-error-label") || "Unable to load image";
+    var imageLabel = dialog.getAttribute("data-image-label") || "Image";
     var lastTrigger = null;
     var currentScale = 1;
     var fitScale = 1;
@@ -212,7 +215,7 @@
       scaleOutput.textContent = errorLabel;
     });
 
-    document.querySelectorAll(".post-content img:not([data-no-lightbox])").forEach(function (image) {
+    document.querySelectorAll(".post-content img:not([data-no-lightbox])").forEach(function (image, index) {
       if (image.closest("[data-post-image-viewer], button")) {
         return;
       }
@@ -226,7 +229,8 @@
 
       var trigger = linkedImage || image;
       var imageCaption = captionFor(image);
-      var triggerDescription = image.alt.trim() || imageCaption;
+      var conciseCaption = imageCaption.length <= 120 ? imageCaption : "";
+      var triggerDescription = image.alt.trim() || image.title.trim() || conciseCaption || imageLabel + " " + (index + 1);
       var accessibleLabel = triggerDescription ? openLabel + ": " + triggerDescription : openLabel;
 
       trigger.classList.add("post-image-viewer-trigger");

@@ -10,6 +10,9 @@
   {% assign viewer_original_label = "原图" %}
   {% assign viewer_loading_label = "正在载入…" %}
   {% assign viewer_error_label = "无法载入图片" %}
+  {% assign viewer_viewport_label = "缩放后的图片；使用方向键或触摸拖动查看" %}
+  {% assign viewer_zoom_level_label = "缩放比例" %}
+  {% assign viewer_image_label = "图片" %}
 {% else %}
   {% assign viewer_label = "Full-screen image viewer" %}
   {% assign viewer_open_label = "Open image full screen" %}
@@ -21,6 +24,9 @@
   {% assign viewer_original_label = "Original" %}
   {% assign viewer_loading_label = "Loading…" %}
   {% assign viewer_error_label = "Unable to load image" %}
+  {% assign viewer_viewport_label = "Zoomed image; use arrow keys or touch to pan" %}
+  {% assign viewer_zoom_level_label = "Zoom level" %}
+  {% assign viewer_image_label = "Image" %}
 {% endif %}
 
 <dialog
@@ -30,10 +36,10 @@
   data-open-label="{{ viewer_open_label }}"
   data-loading-label="{{ viewer_loading_label }}"
   data-error-label="{{ viewer_error_label }}"
+  data-image-label="{{ viewer_image_label }}"
   aria-label="{{ viewer_label }}"
-  aria-describedby="post-image-viewer-caption"
 >
-  <div class="post-image-viewer__viewport" data-viewer-viewport tabindex="0">
+  <div class="post-image-viewer__viewport" data-viewer-viewport role="region" aria-label="{{ viewer_viewport_label }}" tabindex="0">
     <div class="post-image-viewer__stage" data-viewer-stage>
       <img class="post-image-viewer__image" data-viewer-image alt="" draggable="false">
     </div>
@@ -42,9 +48,9 @@
   <div class="post-image-viewer__toolbar">
     <p class="post-image-viewer__caption" id="post-image-viewer-caption" data-viewer-caption></p>
 
-    <div class="post-image-viewer__controls" role="toolbar" aria-label="{{ viewer_label }}">
+    <div class="post-image-viewer__controls" role="group" aria-label="{{ viewer_label }}">
       <button type="button" class="post-image-viewer__control" data-viewer-zoom-out aria-label="{{ viewer_zoom_out_label }}" title="{{ viewer_zoom_out_label }}">−</button>
-      <output class="post-image-viewer__scale" data-viewer-scale aria-live="polite">—</output>
+      <output class="post-image-viewer__scale" data-viewer-scale aria-label="{{ viewer_zoom_level_label }}" aria-live="polite">—</output>
       <button type="button" class="post-image-viewer__control" data-viewer-zoom-in aria-label="{{ viewer_zoom_in_label }}" title="{{ viewer_zoom_in_label }}">+</button>
       <button type="button" class="post-image-viewer__control post-image-viewer__control--text" data-viewer-fit aria-pressed="true">{{ viewer_fit_label }}</button>
       <button type="button" class="post-image-viewer__control post-image-viewer__control--text" data-viewer-actual aria-label="{{ viewer_actual_label }}" title="{{ viewer_actual_label }}" aria-pressed="false">1:1</button>

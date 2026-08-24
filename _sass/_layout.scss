@@ -619,6 +619,7 @@ body.post-image-viewer-open {
     overflow: auto;
     overscroll-behavior: contain;
     scrollbar-color: #777 #222;
+    touch-action: pan-x pan-y;
 }
 
 .post-image-viewer__viewport:focus {
