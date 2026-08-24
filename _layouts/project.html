@@ -14,13 +14,27 @@
           <span>{{ page.title }}</span>
         </nav>
 
-        <header class="project-header">
-          <div>
+        <header class="project-header{% if page.hero_image %} project-header-with-media{% endif %}">
+          <div class="project-header-copy">
             <p class="projects-kicker">{{ page.type | default: "Interactive project" }}</p>
             <h1>{{ page.title }}</h1>
-            {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+            {% if page.summary %}<p class="project-summary">{{ page.summary }}</p>{% endif %}
           </div>
-          {% if page.updated %}<p class="project-updated">Updated {{ page.updated | date: "%B %Y" }}</p>{% endif %}
+          {% if page.hero_image %}
+          <figure class="project-hero-figure">
+            <img
+              class="project-hero-image"
+              src="{{ page.hero_image | relative_url }}"
+              alt="{{ page.hero_image_alt | default: page.title | escape }}"
+              {% if page.hero_image_width %}width="{{ page.hero_image_width }}"{% endif %}
+              {% if page.hero_image_height %}height="{{ page.hero_image_height }}"{% endif %}
+              loading="eager"
+              fetchpriority="high">
+            {% if page.hero_image_credit %}<figcaption>{{ page.hero_image_credit }}</figcaption>{% endif %}
+          </figure>
+          {% elsif page.updated %}
+          <p class="project-updated">Updated {{ page.updated | date: "%B %Y" }}</p>
+          {% endif %}
         </header>
 
         <div class="project-content">
