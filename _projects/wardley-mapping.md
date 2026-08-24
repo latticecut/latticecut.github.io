@@ -25,37 +25,21 @@ updated: 2026-08-24
 
 <section class="wardley-resources" aria-labelledby="wardley-resources-heading">
   <header class="wardley-section-header">
-    <p class="wardley-section-kicker">Resources</p>
-    <h2 id="wardley-resources-heading">Wardley-TikZ</h2>
-    <p>The drawing toolkit, its manual and the complete project source are available here.</p>
+    <h2 id="wardley-resources-heading">Wardley-TikZ Resources</h2>
+    <p>A LaTeX toolkit for drawing Wardley maps from structured, reusable source.</p>
   </header>
+
+  <a class="wardley-toolkit-action" href="https://github.com/latticecut/wardley-tikz#readme">View the Wardley-TikZ toolkit &rarr;</a>
 
   <ul class="wardley-resource-list">
     <li class="wardley-resource-item">
-      <div>
-        <p class="wardley-resource-format">Toolkit</p>
-        <h3>Wardley-TikZ toolkit</h3>
-        <p>A LaTeX toolkit for drawing Wardley maps from structured, reusable source.</p>
-      </div>
-      <a class="project-status wardley-resource-action" href="https://github.com/latticecut/wardley-tikz#readme">View toolkit</a>
+      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download the manual</a>
+      <span class="wardley-resource-meta">PDF &middot; 55 pages</span>
     </li>
 
     <li class="wardley-resource-item">
-      <div>
-        <p class="wardley-resource-format">PDF</p>
-        <h3>Wardley-TikZ manual</h3>
-        <p>A guide to installing the toolkit and building, styling and adapting maps.</p>
-      </div>
-      <a class="project-status wardley-resource-action" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download PDF</a>
-    </li>
-
-    <li class="wardley-resource-item">
-      <div>
-        <p class="wardley-resource-format">Git</p>
-        <h3>Toolkit repository</h3>
-        <p>Source code, examples, tests and the portable Wardley Map agent skill.</p>
-      </div>
-      <a class="project-status wardley-resource-action" href="https://github.com/latticecut/wardley-tikz">Browse source</a>
+      <a class="wardley-resource-link" href="https://github.com/latticecut/wardley-tikz">Browse the source repository</a>
+      <span class="wardley-resource-meta">GitHub</span>
     </li>
   </ul>
 </section>
