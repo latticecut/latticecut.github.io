@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}">
   {% include head.html %}
-  <body class="project-body">
+  <body class="project-body{% if page.hero_image %} project-body-with-media{% endif %}">
     {% include header.html %}
 
     <main class="project-main" id="main-content">
