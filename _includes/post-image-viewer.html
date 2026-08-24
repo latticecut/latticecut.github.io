@@ -1,0 +1,63 @@
+{% assign viewer_lang = page.lang | default: "en" %}
+{% if viewer_lang == "zh" %}
+  {% assign viewer_label = "全屏图片查看器" %}
+  {% assign viewer_open_label = "全屏查看图片" %}
+  {% assign viewer_close_label = "关闭图片查看器" %}
+  {% assign viewer_zoom_in_label = "放大" %}
+  {% assign viewer_zoom_out_label = "缩小" %}
+  {% assign viewer_fit_label = "适合" %}
+  {% assign viewer_actual_label = "原始尺寸" %}
+  {% assign viewer_original_label = "原图" %}
+  {% assign viewer_loading_label = "正在载入…" %}
+  {% assign viewer_error_label = "无法载入图片" %}
+  {% assign viewer_viewport_label = "缩放后的图片；使用方向键或触摸拖动查看" %}
+  {% assign viewer_zoom_level_label = "缩放比例" %}
+  {% assign viewer_image_label = "图片" %}
+{% else %}
+  {% assign viewer_label = "Full-screen image viewer" %}
+  {% assign viewer_open_label = "Open image full screen" %}
+  {% assign viewer_close_label = "Close image viewer" %}
+  {% assign viewer_zoom_in_label = "Zoom in" %}
+  {% assign viewer_zoom_out_label = "Zoom out" %}
+  {% assign viewer_fit_label = "Fit" %}
+  {% assign viewer_actual_label = "Actual size" %}
+  {% assign viewer_original_label = "Original" %}
+  {% assign viewer_loading_label = "Loading…" %}
+  {% assign viewer_error_label = "Unable to load image" %}
+  {% assign viewer_viewport_label = "Zoomed image; use arrow keys or touch to pan" %}
+  {% assign viewer_zoom_level_label = "Zoom level" %}
+  {% assign viewer_image_label = "Image" %}
+{% endif %}
+
+<dialog
+  id="post-image-viewer"
+  class="post-image-viewer"
+  data-post-image-viewer
+  data-open-label="{{ viewer_open_label }}"
+  data-loading-label="{{ viewer_loading_label }}"
+  data-error-label="{{ viewer_error_label }}"
+  data-image-label="{{ viewer_image_label }}"
+  aria-label="{{ viewer_label }}"
+>
+  <div class="post-image-viewer__viewport" data-viewer-viewport role="region" aria-label="{{ viewer_viewport_label }}" tabindex="0">
+    <div class="post-image-viewer__stage" data-viewer-stage>
+      <img class="post-image-viewer__image" data-viewer-image alt="" draggable="false">
+    </div>
+  </div>
+
+  <div class="post-image-viewer__toolbar">
+    <p class="post-image-viewer__caption" id="post-image-viewer-caption" data-viewer-caption></p>
+
+    <div class="post-image-viewer__controls" role="group" aria-label="{{ viewer_label }}">
+      <button type="button" class="post-image-viewer__control" data-viewer-zoom-out aria-label="{{ viewer_zoom_out_label }}" title="{{ viewer_zoom_out_label }}">−</button>
+      <output class="post-image-viewer__scale" data-viewer-scale aria-label="{{ viewer_zoom_level_label }}" aria-live="polite">—</output>
+      <button type="button" class="post-image-viewer__control" data-viewer-zoom-in aria-label="{{ viewer_zoom_in_label }}" title="{{ viewer_zoom_in_label }}">+</button>
+      <button type="button" class="post-image-viewer__control post-image-viewer__control--text" data-viewer-fit aria-pressed="true">{{ viewer_fit_label }}</button>
+      <button type="button" class="post-image-viewer__control post-image-viewer__control--text" data-viewer-actual aria-label="{{ viewer_actual_label }}" title="{{ viewer_actual_label }}" aria-pressed="false">1:1</button>
+      <a class="post-image-viewer__control post-image-viewer__control--text" data-viewer-original target="_blank" rel="noopener">{{ viewer_original_label }} ↗</a>
+      <button type="button" class="post-image-viewer__control post-image-viewer__control--close" data-viewer-close aria-label="{{ viewer_close_label }}" title="{{ viewer_close_label }}">×</button>
+    </div>
+  </div>
+</dialog>
+
+<script src="{{ '/assets/js/post-image-viewer.js' | relative_url }}" defer></script>
