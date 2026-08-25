@@ -72,3 +72,5 @@ IEEE International Conference of Computer Vision, 2812-2819
 * Channel 4 News (13 February 2026), [“Courts tool shut down by government after data allegedly shared with AI company”](https://www.channel4.com/news/courts-tool-shut-down-by-government-after-data-allegedly-shared-with-ai-company) — interview on my work with Courts Data and the Ministry of Justice’s response to concerns about court-data sharing with an AI company.
 
 * Work is Weird, [S1E8: The Mind-Blowing Impact of AI on Work (the machines are coming, like it or not...)](https://podcasts.apple.com/gb/podcast/s1e8-the-mind-blowing-impact-of-ai-on-work-the/id1794194721?i=1000700791200)
+
+* The Irish Times (26 October 2023), [“Rate of AI improvement has taken world ‘by surprise’, UK expert says”](https://www.irishtimes.com/technology/2023/10/26/rate-of-ai-improvement-has-taken-world-by-surprise-uk-expert-says/) — coverage of my comments on the pace of AI progress and the implications for human oversight.
