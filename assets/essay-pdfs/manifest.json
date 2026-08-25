@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "entries": {
+    "/assets/essay-pdfs/8-hour-day-en.pdf": {
+      "input": "1f1c9bf65b8514a6e5a2223b40b766c8cc4e50b8a392cbb61f1247a52660600f",
+      "output": "012beeda652250a6a07da37dc2bde4dcb78c3cc690c37074f1035573c8e79862"
+    },
+    "/assets/essay-pdfs/8-hour-day-zh.pdf": {
+      "input": "4e28a2a7f0d1d3c91716e85207d2b4422ddf9633e6cee05fe62aeb6efed9c09d",
+      "output": "06c5ee0bf72aa929e96893d3bf24c7184b55f67703accda32f77594d7e661e22"
+    },
+    "/assets/essay-pdfs/ai-sovereignty-en.pdf": {
+      "input": "6d46735e79e5aa94307084d4b73271939c136ed638baf2daf2879391186d1dde",
+      "output": "0a11f7728748e60198c8dd6937b2d164b182271a02d2c5820ce9b2f77fce2d96"
+    },
+    "/assets/essay-pdfs/ai-sovereignty-zh.pdf": {
+      "input": "ae2b9bf580d44b12de2d0c4e6e6f31733e3b7c34588364bdc2949fd77b5cc672",
+      "output": "18cc10f0f9ae5c1628f2144202e6ab843cb75dca107dbf96bdd6c523e8fd56c9"
+    },
+    "/assets/essay-pdfs/beyond-human-in-the-loop-en.pdf": {
+      "input": "160888e8612ca359efe67686a4681f939c833d3b61d3526c2dbf7d258987067f",
+      "output": "eb446cabe5543e8079692d9d06eec399320c868b6dc9114f75472825a4a388fb"
+    },
+    "/assets/essay-pdfs/beyond-human-in-the-loop-zh.pdf": {
+      "input": "85a2e48dff8310d525065d8903d9442b2cc40ab7c13fbac57c74fed84c85e567",
+      "output": "021bab5513b500449836e9a455a7e838631e40c2dbd266a687fdf952150bdb85"
+    },
+    "/assets/essay-pdfs/cognitive-crossover-en.pdf": {
+      "input": "923f59a59c13b51ad88c7cc7cefb2b2e6d99a65c2076a7c57796d977d0c21312",
+      "output": "849533efac47292b191ec9a93483617102f651b876f95cbec3255a2f44df10e4"
+    },
+    "/assets/essay-pdfs/cognitive-crossover-zh.pdf": {
+      "input": "c38a130a510dec736a93d2958b48ff08dae499ab1546e0b6c89c0b26e176d329",
+      "output": "dab0fe20adc4fc4e6f7bc57f74f8ce6b865648f7b157be00755e8a72db713de0"
+    },
+    "/assets/essay-pdfs/lolw-en.pdf": {
+      "input": "c28923daa3b678b9fa1c0ba1fccf0df869ac4425ba541f88cef42db6aa896cdd",
+      "output": "ed3abf54e2b6cece9ad3e8492752b5fb0dba7760b01edc525241987581d5aa20"
+    },
+    "/assets/essay-pdfs/lolw-zh.pdf": {
+      "input": "4936f3db757018f0cf3a875df5ab37a6156fc91ed35edd4bf502a6b0ad6e5e9a",
+      "output": "46496fc906abb490faaf35b9288902264d999e0a265a6f0542d2f1ba2e53a8f8"
+    },
+    "/assets/essay-pdfs/mme-en.pdf": {
+      "input": "168bdffda454926134f17816faf89221b34c9694fa5e659a7a15aa4e31615512",
+      "output": "0d67a07fcc0458b9236d9ec0127b4b8965ca86cc1c880cace904a91eaa6fe895"
+    },
+    "/assets/essay-pdfs/mme-zh.pdf": {
+      "input": "77109d45e2a54f9072ff51a177e808d258865efa9ab9b825adbb387aeb5015a5",
+      "output": "29ece5638091b79eb7ceec30380de4908b9705f6e652af89cbcf80687e5da45c"
+    },
+    "/assets/essay-pdfs/moving-boundaries-en.pdf": {
+      "input": "c5a2122421e2497375620bf4479e19f8953455d7199d806c83d9da756cd8454c",
+      "output": "a98bdbdb42ed67ca7066828c7dac8524bb5b56bc3d8a0e9179985f19c0c7966b"
+    },
+    "/assets/essay-pdfs/moving-boundaries-zh.pdf": {
+      "input": "c3287c938c6aae988b88c2c528d108dc926575fbd0746976e0f3caf639dbdf51",
+      "output": "15a181ba46b0f82b9b0c7c68d976a5c4e815ab44828af61606f706f9636e0913"
+    },
+    "/assets/essay-pdfs/proximal-value-en.pdf": {
+      "input": "8144ff62c456dccd13bc1c3425a1f0f4379bc915dfae4ab0ec6a325bae51070f",
+      "output": "3b45a46ee38a1b3dcf8a936d447734d5ca6a3af15e355efdb913eec932047119"
+    },
+    "/assets/essay-pdfs/structural-deepening-en.pdf": {
+      "input": "6db27db08cace0f62bf718211c2503ffa016578e0235c04f9c935dbd65573e27",
+      "output": "2e5d52033b627366d2978a38294f151c6e435349f3faa1f26fc183e6c0561569"
+    },
+    "/assets/essay-pdfs/structural-deepening-zh.pdf": {
+      "input": "773a3f8890a6accc77212af5dc4544b058fb0499ffde38b139e3542a1a623a18",
+      "output": "e801fd756ceaf8556a60d6769a21e052a4d49f68e258139e7b8776dbf5371ae6"
+    },
+    "/assets/essay-pdfs/welcome-en.pdf": {
+      "input": "8b93ea74fe41a27456e76279f25f0bd66e42689ebe4cbdcd3caa4f4c387266f2",
+      "output": "b5c2cb4d2e0b4eac49c4e36bbc8947462e2ad67f26aa85af69071664401ca3e8"
+    },
+    "/assets/essay-pdfs/welcome-zh.pdf": {
+      "input": "5539cc61eb787451af6c8f8219d0f526f837f5726f9de263ab2833c4a2c59aa0",
+      "output": "143115b9d4e0d06abae523cc713bcceb3050bccdd9acb1ba2168b59c4bd92b26"
+    },
+    "/assets/essay-pdfs/when-ai-learns-without-us-en.pdf": {
+      "input": "c42c601355d6cd5469fe9abf7198992d917df842b908e9c005cb932d3d5954c0",
+      "output": "807dc33937c9c553b348710ad6048e1792640d044f9d28d644c5736c45a344a1"
+    },
+    "/assets/essay-pdfs/when-ai-learns-without-us-zh.pdf": {
+      "input": "99e914f29500d9e7805adc262bcab420d51b4477911740180265889c48ae045d",
+      "output": "ab0a748fcd4c9c784a6b8f7ffaa18976d7947218514b54e513aea21960386cec"
+    }
+  }
+}
