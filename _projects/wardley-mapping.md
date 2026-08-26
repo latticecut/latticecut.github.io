@@ -12,7 +12,7 @@ hero_image_credit: Adapted from Simon Wardley, Finding a path (CC BY-SA 4.0), re
 hide_hero_caption: true
 type: Toolkit
 order: 2
-updated: 2026-08-24
+updated: 2026-08-26
 ---
 
 <section class="wardley-introduction" aria-labelledby="wardley-introduction-heading">
@@ -30,6 +30,11 @@ updated: 2026-08-24
   <a class="wardley-toolkit-action" href="https://github.com/latticecut/wardley-tikz#readme">View the Wardley-TikZ toolkit &rarr;</a>
 
   <ul class="wardley-resource-list">
+    <li class="wardley-resource-item">
+      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-owm-round-trip.pdf' | relative_url }}">From OnlineWardleyMaps to Wardley-TikZ and Back</a>
+      <span class="wardley-resource-meta">PDF tutorial &middot; 9 pages</span>
+    </li>
+
     <li class="wardley-resource-item">
       <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download the manual</a>
       <span class="wardley-resource-meta">PDF &middot; 55 pages</span>
