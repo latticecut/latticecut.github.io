@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Four stages of capital on a dark measurement grid</title>
+  <desc id="desc">Four white circular cut-outs rise from lower left to upper right on a dark graph-paper grid.</desc>
+  <defs>
+    <clipPath id="paper">
+      <rect width="1024" height="1024" rx="96"/>
+    </clipPath>
+    <pattern id="minor-grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#29434A" stroke-width="4"/>
+    </pattern>
+    <pattern id="major-grid" width="256" height="256" patternUnits="userSpaceOnUse">
+      <path d="M256 0H0V256" fill="none" stroke="#46666E" stroke-width="6"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#paper)">
+    <rect width="1024" height="1024" fill="#101820"/>
+    <rect width="1024" height="1024" fill="url(#minor-grid)"/>
+    <rect width="1024" height="1024" fill="url(#major-grid)"/>
+    <g fill="#F7FBFB">
+      <circle cx="205" cy="740" r="100"/>
+      <circle cx="390" cy="630" r="120"/>
+      <circle cx="625" cy="415" r="145"/>
+      <circle cx="825" cy="240" r="165"/>
+    </g>
+  </g>
+</svg>
