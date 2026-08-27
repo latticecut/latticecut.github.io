@@ -69,7 +69,15 @@ IEEE International Conference of Computer Vision, 2812-2819
 
 ## Media 
 
+* Yap the Gap (14 August 2026), [“Dr. Alastair Moore on AI, agency and purpose”](https://www.instagram.com/reel/DcB46O0uJtr/) — Instagram interview with Emiliano on the societal impact of AI, the future of work, and what remains of human agency and purpose as more daily tasks are automated or orchestrated.
+
+* Peace One Day (15 May 2026), [“Spotlight on Alastair Moore and Deepflow”](https://www.instagram.com/reel/DYXcP35xnMj/) — Instagram reel highlighting my work at Deepflow and my talks and leadership on AI, technology and the future of innovation.
+
+* Cape Capital (11 March 2026), [“AI Uncovered: Alastair Moore on the distant future that lies just around the corner”](https://www.capecapital.com/cape-conversations/the-distant-future-that-lies-just-around-the-corner) — interview with Tian Xia on the current state of AI, advances in machine learning and common public misconceptions about the technology.
+
 * Channel 4 News (13 February 2026), [“Courts tool shut down by government after data allegedly shared with AI company”](https://www.channel4.com/news/courts-tool-shut-down-by-government-after-data-allegedly-shared-with-ai-company) — interview on my work with Courts Data and the Ministry of Justice’s response to concerns about court-data sharing with an AI company.
+
+* The Being Human Podcast with Richard Atherton (19 January 2026), [“#354 Most Human Knowledge Work Gone by 2030 - Alastair Moore \| Being Human”](https://www.youtube.com/watch?v=kMgpOnEaRHM) — conversation on AI at the scientific frontier, the automation of knowledge work, organisational readiness and human–machine collaboration.
 
 * Work is Weird, [S1E8: The Mind-Blowing Impact of AI on Work (the machines are coming, like it or not...)](https://podcasts.apple.com/gb/podcast/s1e8-the-mind-blowing-impact-of-ai-on-work-the/id1794194721?i=1000700791200)
 
