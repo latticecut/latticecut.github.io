@@ -31,7 +31,7 @@ research: An NLP analysis of the literature. Quantitative Science Studies, 6:810
 
 * Charlie Masters, Advaith Vellanki, Jiangbo Shangguan, Bart Kultys, Jonathan Gilmore, Alastair P. 
 Moore, and Stefano V. Albrecht. "Orchestrating human-ai teams: The manager agent as a unifying
-research challenge", DAI 2025. URL [arXiv](https://arxiv.org/abs/2510.02557.219) 
+research challenge", DAI 2025. URL [arXiv](https://arxiv.org/abs/2510.02557)
 
 * Y. Lu, M. Bartolo, A. P. Moore, S. Riedel, and P. Stenetorp. “Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity”, 2021, ACL 2022 (**Outstanding Paper Award**) [arXiv](https://arxiv.org/abs/2104.08786)
 
