@@ -41,7 +41,7 @@ updated: 2026-08-26
     </li>
 
     <li class="wardley-resource-item">
-      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-reader-draft.pdf' | relative_url }}">Download the Wardley Reader draft</a>
+      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-reader-draft.pdf' | relative_url }}">Download -<strong>Wardley Maps: Topographical Intelligence in Business</strong>- Simon Wardley Chapters 1-10 (Edited)&#x20;</a>
       <span class="wardley-resource-meta">PDF &middot; 310 pages</span>
     </li>
 
