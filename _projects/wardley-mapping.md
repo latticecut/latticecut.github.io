@@ -1,6 +1,8 @@
 ---
 title: Wardley Mapping
 summary: A growing collection of resources for drawing, reconstructing and exploring Wardley maps.
+ref: wardley-mapping
+lang: en
 thumbnail: /assets/projects/wardley-mapping/wardley-map-layers-hero-font-firasans-square.png
 image: /assets/projects/wardley-mapping/wardley-map-layers-hero-font-firasans.png
 image_alt: Three bold, exploded and aligned Wardley Map planes show the landscape, team ownership and strategic movement.
@@ -31,17 +33,26 @@ updated: 2026-08-26
 
   <ul class="wardley-resource-list">
     <li class="wardley-resource-item">
-      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-owm-round-trip.pdf' | relative_url }}">From OnlineWardleyMaps to Wardley-TikZ and Back</a>
+      <div class="wardley-resource-copy">
+        <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-owm-round-trip.pdf' | relative_url }}">From OnlineWardleyMaps to Wardley-TikZ and Back</a>
+        <span class="wardley-resource-translation">Simplified Chinese PDF &middot; Coming soon</span>
+      </div>
       <span class="wardley-resource-meta">PDF tutorial &middot; 9 pages</span>
     </li>
 
     <li class="wardley-resource-item">
-      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download the manual</a>
+      <div class="wardley-resource-copy">
+        <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-tikz-manual.pdf' | relative_url }}">Download the manual</a>
+        <span class="wardley-resource-translation">Simplified Chinese PDF &middot; Coming soon</span>
+      </div>
       <span class="wardley-resource-meta">PDF &middot; 55 pages</span>
     </li>
 
     <li class="wardley-resource-item">
-      <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-reader-draft.pdf' | relative_url }}">Download the Wardley Reader draft</a>
+      <div class="wardley-resource-copy">
+        <a class="wardley-resource-link" href="{{ '/assets/projects/wardley-mapping/wardley-reader-draft.pdf' | relative_url }}">Download -<strong>Wardley Maps: Topographical Intelligence in Business</strong>- Simon Wardley Chapters 1-10 (Edited)&#x20;</a>
+        <span class="wardley-resource-translation">Simplified Chinese PDF &middot; Coming soon</span>
+      </div>
       <span class="wardley-resource-meta">PDF &middot; 310 pages</span>
     </li>
 

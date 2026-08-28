@@ -35,3 +35,19 @@ The AI mathematics dashboard source package is stored in
 `_projects/ai-mathematical-proof-analysis-jekyll`. Its deployable files are
 copied to `projects/ai-math/`; the package already uses portable relative URLs
 and does not require a separate application build.
+
+## Translating selected projects
+
+Only projects with an authored translation should appear in another language.
+Give the English and translated collection documents the same `ref`, set an
+explicit `lang` on each, and give the translated document its own permalink.
+The language selector then pairs those project pages, while each language's
+Projects index lists only collection documents in that language.
+
+For example:
+
+```yaml
+ref: example-project
+lang: zh
+permalink: /项目/示例项目/
+```

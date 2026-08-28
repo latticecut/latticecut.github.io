@@ -8,8 +8,15 @@
 
     <main class="project-main" id="main-content">
       <div class="project-wrapper">
-        <nav class="project-breadcrumb" aria-label="Breadcrumb">
-          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        {% assign project_page_lang = page.lang | default: "en" %}
+        {% assign project_index_candidates = site.pages | where: "ref", "projects" | where: "lang", project_page_lang %}
+        {% assign project_index_page = project_index_candidates | first %}
+        <nav class="project-breadcrumb" aria-label="{% if project_page_lang == "zh" %}面包屑导航{% else %}Breadcrumb{% endif %}">
+          {% if project_index_page %}
+          <a href="{{ project_index_page.url | relative_url }}">{{ project_index_page.title }}</a>
+          {% else %}
+          <a href="{{ '/projects/' | relative_url }}">{% if project_page_lang == "zh" %}项目{% else %}Projects{% endif %}</a>
+          {% endif %}
           <span aria-hidden="true">/</span>
           <span>{{ page.title }}</span>
         </nav>
@@ -33,7 +40,7 @@
             {% if page.hero_image_credit %}{% unless page.hide_hero_caption %}<figcaption>{{ page.hero_image_credit }}</figcaption>{% endunless %}{% endif %}
           </figure>
           {% elsif page.updated %}
-          <p class="project-updated">Updated {{ page.updated | date: "%B %Y" }}</p>
+          <p class="project-updated">{% if project_page_lang == "zh" %}更新于 {{ page.updated | date: "%Y年%-m月" }}{% else %}Updated {{ page.updated | date: "%B %Y" }}{% endif %}</p>
           {% endif %}
         </header>
 

@@ -54,6 +54,9 @@
   {% assign translated_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
   {% for translated_page in translated_pages %}{% if translated_page.lang %}
   <link rel="alternate" hreflang="{{ translated_page.lang }}" href="{{ translated_page.url | replace:'index.html','' | absolute_url }}" />{% endif %}{% endfor %}
+  {% assign translated_projects = site.projects | where:"ref", page.ref | sort: "lang" %}
+  {% for translated_project in translated_projects %}{% if translated_project.lang %}
+  <link rel="alternate" hreflang="{{ translated_project.lang }}" href="{{ translated_project.url | absolute_url }}" />{% endif %}{% endfor %}
   {% endif %}
   {% if feed_path %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page_lang] | default: site.title.en | escape }}" href="{{ feed_path | absolute_url }}">
