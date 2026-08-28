@@ -34,4 +34,23 @@ sitemap: false
       </url>
     {% endif %}
   {% endfor %}
+  {% for sitemap_project in site.projects %}
+    {% if sitemap_project.sitemap != false and sitemap_project.external_url == nil %}
+      {% assign sitemap_project_url = sitemap_project.project_url | default: sitemap_project.url %}
+      <url>
+        <loc>{{ sitemap_project_url | absolute_url }}</loc>
+        {% if sitemap_project.ref %}
+          {% assign versions=site.projects | where:"ref", sitemap_project.ref %}
+          {% for version in versions %}
+            {% if version.lang %}
+              {% assign version_url = version.project_url | default: version.url %}
+          <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{ version_url | absolute_url }}" />
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if sitemap_project.updated %}<lastmod>{{ sitemap_project.updated | date_to_xmlschema }}</lastmod>{% endif %}
+        <changefreq>weekly</changefreq>
+      </url>
+    {% endif %}
+  {% endfor %}
   </urlset>

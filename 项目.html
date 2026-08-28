@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Projects
+title: 项目
 ref: projects
-lang: en
-permalink: /projects/
+lang: zh
+permalink: /项目/
 show_language_selector: true
 ---
 <section class="projects-index">
   <header class="projects-intro home-intro">
-    <h1 class="home-intro-title">Data, models and experiments.</h1>
-    <p class="home-intro-body">Small, self-contained tools for exploring ideas.</p>
+    <h1 class="home-intro-title">数据、模型与实验。</h1>
+    <p class="home-intro-body">用于探索想法的小型独立工具。</p>
   </header>
 
   <div class="project-grid">
@@ -24,7 +24,7 @@ show_language_selector: true
             {% endif %}
             <div class="project-card-content">
               <div class="project-card-topline">
-                <span class="project-type">{{ project.type | default: "Interactive" }}</span>
+                <span class="project-type">{{ project.type | default: "互动项目" }}</span>
                 {% if project.status %}<span class="project-status project-status-{{ project.status | slugify }}">{{ project.status }}</span>{% endif %}
               </div>
               <h2>{{ project.title }}</h2>
@@ -34,7 +34,7 @@ show_language_selector: true
         </article>
       {% endif %}
     {% else %}
-      <p class="projects-empty">The first project is in development.</p>
+      <p class="projects-empty">首个项目正在开发中。</p>
     {% endfor %}
   </div>
 </section>

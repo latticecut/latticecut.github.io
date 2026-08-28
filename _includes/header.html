@@ -10,7 +10,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ home_url }}" aria-label="{{ site_title }} home">
+    <a class="site-title" href="{{ home_url }}" aria-label="{{ site_title }} {% if page_lang == 'zh' %}首页{% else %}home{% endif %}">
       <img
         class="site-logo-mark"
         src="{{ "/assets/superlattice-mark.png" | relative_url }}"
@@ -30,7 +30,7 @@
       </a>
 
       <div class="trigger">
-        <a class="page-link" href="{{ home_url }}">Articles</a>
+        <a class="page-link" href="{{ home_url }}">{% if page_lang == "zh" %}文章{% else %}Articles{% endif %}</a>
         {% assign navigation_pages = site.pages | where:"lang", page_lang | sort: "title" %}
         {% for my_page in navigation_pages %}
           {% if my_page.title and my_page.url != "/404.html" %}
@@ -56,11 +56,13 @@
 {% if page.ref and page.lang %}
   {% assign translated_posts = site.posts | where:"ref", page.ref | sort: "lang" %}
   {% assign translated_pages = site.pages | where:"ref", page.ref | sort: "lang" %}
-  {% assign translated_count = translated_posts.size | plus: translated_pages.size %}
+  {% assign translated_projects = site.projects | where:"ref", page.ref | sort: "lang" %}
+  {% assign translated_count = translated_posts.size | plus: translated_pages.size | plus: translated_projects.size %}
   {% if translated_count > 1 or page.show_language_selector %}
-<div class="wrapper" style="text-align: right; line-height: 2em">
-  {% for translated_post in translated_posts %} <a href="{{ translated_post.url | relative_url }}" class="{{ translated_post.lang }}">{{ translated_post.lang }}</a> {% endfor %}
-  {% for translated_page in translated_pages %}{% if translated_page.lang %} <a href="{{ translated_page.url | relative_url }}" class="{{ translated_page.lang }}">{{ translated_page.lang }}</a> {% endif %}{% endfor %}
-</div>
+<nav class="wrapper" aria-label="{% if page_lang == 'zh' %}语言{% else %}Language{% endif %}" style="text-align: right; line-height: 2em">
+  {% for translated_post in translated_posts %}{% include language-link.html translation=translated_post current_lang=page.lang %}{% endfor %}
+  {% for translated_page in translated_pages %}{% if translated_page.lang %}{% include language-link.html translation=translated_page current_lang=page.lang %}{% endif %}{% endfor %}
+  {% for translated_project in translated_projects %}{% if translated_project.lang %}{% include language-link.html translation=translated_project current_lang=page.lang %}{% endif %}{% endfor %}
+</nav>
   {% endif %}
 {% endif %}

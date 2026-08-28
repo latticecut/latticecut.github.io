@@ -1,0 +1,9 @@
+{% assign translation = include.translation %}
+{% if translation.lang == "zh" %}
+  {% assign language_name = "中文" %}
+{% elsif translation.lang == "en" %}
+  {% assign language_name = "English" %}
+{% else %}
+  {% assign language_name = translation.lang %}
+{% endif %}
+<a href="{{ translation.url | relative_url }}" class="{{ translation.lang }}" lang="{{ translation.lang }}" hreflang="{{ translation.lang }}"{% if include.current_lang == translation.lang %} aria-current="page"{% endif %}>{{ language_name }}</a>

@@ -463,6 +463,23 @@
     text-decoration: none;
 }
 
+.wardley-resource-copy { min-width: 0; }
+
+.wardley-resource-translation {
+    display: block;
+    width: fit-content;
+    margin-top: 3px;
+    color: $grey-color-dark;
+    font-size: 12px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+a.wardley-resource-translation { color: darken($brand-color, 15%); }
+a.wardley-resource-translation:hover { color: darken($brand-color, 25%); }
+
+.wardley-resource-link-pending { color: $grey-color-dark; }
+
 .wardley-resource-meta {
     color: $grey-color;
     font-size: 11px;
