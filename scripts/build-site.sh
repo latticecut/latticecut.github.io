@@ -82,6 +82,12 @@ required_project_files=(
   data/challenge-context-policy.v1.1.0.json
   data/SHA256SUMS
   data/corpus-summary.json
+  data/best-assessments.json
+  data/best-assessments.csv
+  data/assessment-monthly.csv
+  data/assessment-review-queue.json
+  data/assessment-revisions.json
+  assessment-method.md
   og-v02.png
 )
 
