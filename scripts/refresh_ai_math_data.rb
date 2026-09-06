@@ -21,6 +21,8 @@ FILES = %w[
   result_claims.v0.2.csv result-reference-map.v0.2.json
   result-claims-monthly-breakdown.v0.2.csv challenge-context-policy.v1.1.0.json
   corpus-summary.json
+  best-assessments.json best-assessments.csv assessment-monthly.csv
+  assessment-review-queue.json assessment-revisions.json
 ].freeze
 def read_json(name)
   JSON.parse(File.read(File.join(DATA, name), encoding: "UTF-8"))
@@ -58,6 +60,24 @@ same_ids("Taxonomy owners", records.values.map { |r| r.fetch("sourceIncludedId")
 claims = read_csv("result_claims.v0.2.csv")
 same_ids("Claims", claims.map { |r| r.fetch("id") }, records.keys)
 same_ids("Claim references", read_json("result-reference-map.v0.2.json").keys, records.keys)
+assessments = read_json("best-assessments.json")
+same_ids("Best assessments", assessments.fetch("records").keys, records.keys)
+raise "Assessment count mismatch" unless assessments.fetch("_meta").fetch("recordCount") == claims.length
+assessment_rows = read_csv("best-assessments.csv")
+same_ids("Assessment CSV", assessment_rows.map { |row| row.fetch("id") }, records.keys)
+assessment_rows.each do |row|
+  estimate = assessments.fetch("records").fetch(row.fetch("id"))
+  raise "Assessment CSV mismatch" unless row.fetch("category") == estimate.fetch("category") && row.fetch("confidence") == estimate.fetch("confidence")
+end
+estimate_months = read_csv("assessment-monthly.csv")
+raise "Assessment monthly coverage mismatch" unless estimate_months.sum { |month| Integer(month.fetch("total"), 10) } == claims.length
+estimate_months.each do |month|
+  selected = assessment_rows.select { |row| row.fetch("period") == month.fetch("period") }
+  raise "Assessment month mismatch" unless selected.length == Integer(month.fetch("total"), 10)
+  %w[Expected Difficult Superhuman Unassessed].each do |category|
+    raise "Assessment category mismatch" unless selected.count { |row| row.fetch("category") == category } == Integer(month.fetch(category.downcase), 10)
+  end
+end
 claims.each do |row|
   record = records.fetch(row.fetch("id"))
   raise "Claim owner mismatch" unless record.fetch("sourceIncludedId") == row.fetch("source_included_id")

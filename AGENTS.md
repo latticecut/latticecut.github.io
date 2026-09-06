@@ -29,3 +29,13 @@ redesign the parent site or other projects. The user confirmed these on
   checks for the title and unannotated hero.
 - Use the existing checked GitHub Pages publication workflow and preserve
   unrelated work. Do not switch hosting providers.
+
+The user approved a best-current assessment layer on 6 September 2026.
+Default to likely category with high/medium/low confidence; use lighter bands
+for provisional estimates, not highest-possible outcomes. Keep the strict
+historical policy selectable and proof verification independent. Include all
+review/verification states by default. Preserve the four Volume, Lift, AI
+contribution and Collection views, shared totals, source-pinned judgments,
+revision history and the rotating review queue. Hero blue now includes all
+Difficult estimates; purple/pale-purple distinguishes high-confidence and
+provisional Superhuman estimates. Keep its icon-like, unannotated style.
