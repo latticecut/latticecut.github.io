@@ -1,299 +1,475 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 206" width="250" height="206" role="img" aria-labelledby="title description">
-  <title id="title">Difficult and Superhuman mathematical claims over time</title>
-  <desc id="description">111 selected claims: 51 Difficult, 36 Superhuman and 24 Superhuman — requires verification. Monthly counts from Jan 25 to Sept 26, including zero months. Fixed overview using the dashboard default evidence filters: unreviewed coding, no independent verification recorded. Each claim counts once; incomplete claims use their highest possible category, not a predicted outcome. Pale purple means missing challenge-evidence coding, not proof verification. Latest month may be partial. Other categories remain available in the dashboard.</desc>
-  <style>text{font:12px Helvetica,Arial,sans-serif;fill:#555}</style>
-  <path d="M2 178H248" fill="none" stroke="#aaa" stroke-width="0.75"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-labelledby="title description">
+  <title id="title">Proof of Progress: a data-tile illustration</title>
+  <desc id="description">111 selected claims: 51 Difficult, 36 Superhuman and 24 Superhuman — requires verification. Monthly counts from Jan 25 to Sept 26, including zero months. Fixed overview using the dashboard default evidence filters: unreviewed coding, no independent verification recorded. Each rounded tile is one claim, in monthly clusters from left to right; no axes or visible labels are drawn. Each claim counts once; incomplete claims use their highest possible category, not a predicted outcome. Pale purple means missing challenge-evidence coding, not proof verification. Latest month may be partial. Other categories remain available in the dashboard.</desc>
   <g data-period="2025-01" data-total="0">
     <title>Jan 25: 0 selected claims</title>
-
 
   </g>
   <g data-period="2025-02" data-total="0">
     <title>Feb 25: 0 selected claims</title>
 
-
   </g>
   <g data-period="2025-03" data-total="0">
     <title>Mar 25: 0 selected claims</title>
-
 
   </g>
   <g data-period="2025-04" data-total="1">
     <title>Apr 25: 1 selected claims</title>
     <g data-series="assigned:Difficult" data-count="1">
       <title>Difficult: 1</title>
-      <metadata data-result-id="deletion-codes-2025:binary-two-deletion"/>
-      <rect x="37.9629" y="174.6087" width="10.0743" height="3.3913" fill="#276FCE"/>
+      <rect class="tile-shadow" x="148.6551" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="deletion-codes-2025:binary-two-deletion" x="147.1594" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="148.6551" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2025-05" data-total="0">
     <title>May 25: 0 selected claims</title>
-
 
   </g>
   <g data-period="2025-06" data-total="0">
     <title>Jun 25: 0 selected claims</title>
 
-
   </g>
   <g data-period="2025-07" data-total="0">
     <title>Jul 25: 0 selected claims</title>
-
 
   </g>
   <g data-period="2025-08" data-total="2">
     <title>Aug 25: 2 selected claims</title>
     <g data-series="assigned:Difficult" data-count="2">
       <title>Difficult: 2</title>
-      <metadata data-result-id="x-evolve-2025:cap-set"/>
-      <metadata data-result-id="legone-2025:three-player-nash"/>
-      <rect x="84.82" y="171.2174" width="10.0743" height="6.7826" fill="#276FCE"/>
+      <rect class="tile-shadow" x="312.4646" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="x-evolve-2025:cap-set" x="310.9689" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="312.4646" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="329.8559" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="legone-2025:three-player-nash" x="328.3602" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="329.8559" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2025-09" data-total="1">
     <title>Sept 25: 1 selected claims</title>
     <g data-series="assigned:Difficult" data-count="1">
       <title>Difficult: 1</title>
-      <metadata data-result-id="reinforced-generation-2025:max-4-cut-hardness"/>
-      <rect x="96.5343" y="174.6087" width="10.0743" height="3.3913" fill="#276FCE"/>
+      <rect class="tile-shadow" x="353.417" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="reinforced-generation-2025:max-4-cut-hardness" x="351.9213" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="353.417" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2025-10" data-total="2">
     <title>Oct 25: 2 selected claims</title>
     <g data-series="candidate:Superhuman" data-count="1">
       <title>Superhuman — requires verification: 1</title>
-      <metadata data-result-id="nicd-2025:majority-counterexample"/>
-      <rect x="108.2486" y="174.6087" width="10.0743" height="3.3913" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="394.3694" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="nicd-2025:majority-counterexample" x="392.8737" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="394.3694" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="1">
       <title>Superhuman: 1</title>
-      <metadata data-result-id="nesterov-2025:point-convergence"/>
-      <rect x="108.2486" y="171.2174" width="10.0743" height="3.3913" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="411.7607" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="nesterov-2025:point-convergence" x="410.265" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="411.7607" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2025-11" data-total="4">
     <title>Nov 25: 4 selected claims</title>
     <g data-series="assigned:Difficult" data-count="2">
       <title>Difficult: 2</title>
-      <metadata data-result-id="gpt5-science-2025:convex-body-lower-bound"/>
-      <metadata data-result-id="thetaevolve-2025:autocorrelation"/>
-      <rect x="119.9629" y="171.2174" width="10.0743" height="6.7826" fill="#276FCE"/>
+      <rect class="tile-shadow" x="435.3217" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="gpt5-science-2025:convex-body-lower-bound" x="433.8261" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="435.3217" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="452.713" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="thetaevolve-2025:autocorrelation" x="451.2174" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="452.713" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="2">
       <title>Superhuman: 2</title>
-      <metadata data-result-id="gpt5-science-2025:erdos-848"/>
-      <metadata data-result-id="gpt5-science-2025:tree-profile"/>
-      <rect x="119.9629" y="164.4348" width="10.0743" height="6.7826" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="435.3217" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="gpt5-science-2025:erdos-848" x="433.8261" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="435.3217" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="452.713" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="gpt5-science-2025:tree-profile" x="451.2174" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="452.713" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2025-12" data-total="0">
     <title>Dec 25: 0 selected claims</title>
-
 
   </g>
   <g data-period="2026-01" data-total="0">
     <title>Jan 26: 0 selected claims</title>
 
-
   </g>
   <g data-period="2026-02" data-total="0">
     <title>Feb 26: 0 selected claims</title>
-
 
   </g>
   <g data-period="2026-03" data-total="3">
     <title>Mar 26: 3 selected claims</title>
     <g data-series="assigned:Difficult" data-count="1">
       <title>Difficult: 1</title>
-      <metadata data-result-id="43"/>
-      <rect x="166.82" y="174.6087" width="10.0743" height="3.3913" fill="#276FCE"/>
+      <rect class="tile-shadow" x="599.1313" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="43" x="597.6356" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="599.1313" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="candidate:Superhuman" data-count="1">
       <title>Superhuman — requires verification: 1</title>
-      <metadata data-result-id="14"/>
-      <rect x="166.82" y="171.2174" width="10.0743" height="3.3913" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="616.5226" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="14" x="615.0269" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="616.5226" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="1">
       <title>Superhuman: 1</title>
-      <metadata data-result-id="15"/>
-      <rect x="166.82" y="167.8261" width="10.0743" height="3.3913" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="599.1313" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="15" x="597.6356" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="599.1313" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2026-04" data-total="6">
     <title>Apr 26: 6 selected claims</title>
     <g data-series="candidate:Superhuman" data-count="2">
       <title>Superhuman — requires verification: 2</title>
-      <metadata data-result-id="3"/>
-      <metadata data-result-id="20"/>
-      <rect x="178.5343" y="171.2174" width="10.0743" height="6.7826" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="640.0836" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="3" x="638.588" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="640.0836" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="657.4749" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="20" x="655.9793" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="657.4749" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="4">
       <title>Superhuman: 4</title>
-      <metadata data-result-id="16"/>
-      <metadata data-result-id="17"/>
-      <metadata data-result-id="18"/>
-      <metadata data-result-id="19"/>
-      <rect x="178.5343" y="157.6522" width="10.0743" height="13.5652" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="640.0836" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="16" x="638.588" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="640.0836" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="657.4749" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="17" x="655.9793" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="657.4749" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="640.0836" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="18" x="638.588" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="640.0836" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="657.4749" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="19" x="655.9793" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="657.4749" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2026-05" data-total="15">
     <title>May 26: 15 selected claims</title>
     <g data-series="assigned:Difficult" data-count="1">
       <title>Difficult: 1</title>
-      <metadata data-result-id="11"/>
-      <rect x="190.2486" y="174.6087" width="10.0743" height="3.3913" fill="#276FCE"/>
+      <rect class="tile-shadow" x="681.036" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="11" x="679.5404" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="681.036" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="candidate:Superhuman" data-count="10">
       <title>Superhuman — requires verification: 10</title>
-      <metadata data-result-id="28"/>
-      <metadata data-result-id="30"/>
-      <metadata data-result-id="31"/>
-      <metadata data-result-id="33"/>
-      <metadata data-result-id="37"/>
-      <metadata data-result-id="4"/>
-      <metadata data-result-id="5"/>
-      <metadata data-result-id="6"/>
-      <metadata data-result-id="7"/>
-      <metadata data-result-id="8"/>
-      <rect x="190.2486" y="140.6957" width="10.0743" height="33.913" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="698.4273" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="28" x="696.9317" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="698.4273" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="30" x="679.5404" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="681.036" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="698.4273" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="31" x="696.9317" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="698.4273" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="33" x="679.5404" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="681.036" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="698.4273" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="37" x="696.9317" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="698.4273" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="4" x="679.5404" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="681.036" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="698.4273" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="5" x="696.9317" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="698.4273" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="6" x="679.5404" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="681.036" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="698.4273" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="7" x="696.9317" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="698.4273" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="8" x="679.5404" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="681.036" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="4">
       <title>Superhuman: 4</title>
-      <metadata data-result-id="25"/>
-      <metadata data-result-id="26"/>
-      <metadata data-result-id="27"/>
-      <metadata data-result-id="29"/>
-      <rect x="190.2486" y="127.1304" width="10.0743" height="13.5652" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="698.4273" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="25" x="696.9317" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="698.4273" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="26" x="679.5404" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="681.036" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="698.4273" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="27" x="696.9317" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="698.4273" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="681.036" y="284.8" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="29" x="679.5404" y="283.3043" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="681.036" y="284.8" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2026-06" data-total="0">
     <title>Jun 26: 0 selected claims</title>
-
 
   </g>
   <g data-period="2026-07" data-total="31">
     <title>Jul 26: 31 selected claims</title>
     <g data-series="assigned:Difficult" data-count="15">
       <title>Difficult: 15</title>
-      <metadata data-result-id="63"/>
-      <metadata data-result-id="277"/>
-      <metadata data-result-id="69"/>
-      <metadata data-result-id="70"/>
-      <metadata data-result-id="73"/>
-      <metadata data-result-id="77"/>
-      <metadata data-result-id="78"/>
-      <metadata data-result-id="79"/>
-      <metadata data-result-id="81"/>
-      <metadata data-result-id="83"/>
-      <metadata data-result-id="85"/>
-      <metadata data-result-id="89"/>
-      <metadata data-result-id="90"/>
-      <metadata data-result-id="95"/>
-      <metadata data-result-id="97"/>
-      <rect x="213.6771" y="127.1304" width="10.0743" height="50.8696" fill="#276FCE"/>
+      <rect class="tile-shadow" x="762.9408" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="63" x="761.4451" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="277" x="778.8364" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="69" x="761.4451" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="70" x="778.8364" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="73" x="761.4451" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="77" x="778.8364" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="78" x="761.4451" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="79" x="778.8364" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="81" x="761.4451" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="83" x="778.8364" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="85" x="761.4451" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="89" x="778.8364" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="90" x="761.4451" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="95" x="778.8364" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="780.3321" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="284.8" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="97" x="761.4451" y="283.3043" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="762.9408" y="284.8" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="candidate:Superhuman" data-count="5">
       <title>Superhuman — requires verification: 5</title>
-      <metadata data-result-id="46"/>
-      <metadata data-result-id="47.1"/>
-      <metadata data-result-id="47.2"/>
-      <metadata data-result-id="61"/>
-      <metadata data-result-id="68"/>
-      <rect x="213.6771" y="110.1739" width="10.0743" height="16.9565" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="780.3321" y="284.8" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="46" x="778.8364" y="283.3043" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="780.3321" y="284.8" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="267.4087" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="47.1" x="761.4451" y="265.913" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="762.9408" y="267.4087" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="267.4087" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="47.2" x="778.8364" y="265.913" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="780.3321" y="267.4087" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="250.0174" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="61" x="761.4451" y="248.5217" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="762.9408" y="250.0174" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="250.0174" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="68" x="778.8364" y="248.5217" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="780.3321" y="250.0174" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="11">
       <title>Superhuman: 11</title>
-      <metadata data-result-id="54"/>
-      <metadata data-result-id="57"/>
-      <metadata data-result-id="64"/>
-      <metadata data-result-id="72"/>
-      <metadata data-result-id="75"/>
-      <metadata data-result-id="80"/>
-      <metadata data-result-id="82"/>
-      <metadata data-result-id="87"/>
-      <metadata data-result-id="88"/>
-      <metadata data-result-id="92"/>
-      <metadata data-result-id="98"/>
-      <rect x="213.6771" y="72.8696" width="10.0743" height="37.3043" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="762.9408" y="232.6261" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="54" x="761.4451" y="231.1304" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="232.6261" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="232.6261" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="57" x="778.8364" y="231.1304" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="780.3321" y="232.6261" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="215.2348" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="64" x="761.4451" y="213.7391" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="215.2348" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="215.2348" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="72" x="778.8364" y="213.7391" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="780.3321" y="215.2348" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="197.8435" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="75" x="761.4451" y="196.3478" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="197.8435" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="197.8435" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="80" x="778.8364" y="196.3478" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="780.3321" y="197.8435" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="180.4522" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="82" x="761.4451" y="178.9565" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="180.4522" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="180.4522" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="87" x="778.8364" y="178.9565" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="780.3321" y="180.4522" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="163.0609" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="88" x="761.4451" y="161.5652" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="163.0609" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="780.3321" y="163.0609" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="92" x="778.8364" y="161.5652" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="780.3321" y="163.0609" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="762.9408" y="145.6696" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="98" x="761.4451" y="144.1739" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="762.9408" y="145.6696" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-
   </g>
   <g data-period="2026-08" data-total="46">
     <title>Aug 26: 46 selected claims</title>
     <g data-series="assigned:Difficult" data-count="28">
       <title>Difficult: 28</title>
-      <metadata data-result-id="99"/>
-      <metadata data-result-id="100"/>
-      <metadata data-result-id="103"/>
-      <metadata data-result-id="105"/>
-      <metadata data-result-id="118"/>
-      <metadata data-result-id="109"/>
-      <metadata data-result-id="126"/>
-      <metadata data-result-id="139"/>
-      <metadata data-result-id="131"/>
-      <metadata data-result-id="141"/>
-      <metadata data-result-id="158"/>
-      <metadata data-result-id="282"/>
-      <metadata data-result-id="162"/>
-      <metadata data-result-id="168"/>
-      <metadata data-result-id="176"/>
-      <metadata data-result-id="275"/>
-      <metadata data-result-id="216"/>
-      <metadata data-result-id="265"/>
-      <metadata data-result-id="268"/>
-      <metadata data-result-id="269"/>
-      <metadata data-result-id="285"/>
-      <metadata data-result-id="299"/>
-      <metadata data-result-id="312"/>
-      <metadata data-result-id="321"/>
-      <metadata data-result-id="325"/>
-      <metadata data-result-id="348"/>
-      <metadata data-result-id="399"/>
-      <metadata data-result-id="453"/>
-      <rect x="225.3914" y="83.0435" width="10.0743" height="94.9565" fill="#276FCE"/>
+      <rect class="tile-shadow" x="803.8932" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="99" x="802.3975" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="406.5391" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="100" x="819.7888" y="405.0435" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="406.5391" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="103" x="802.3975" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="389.1478" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="105" x="819.7888" y="387.6522" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="389.1478" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="118" x="802.3975" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="371.7565" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="109" x="819.7888" y="370.2609" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="371.7565" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="126" x="802.3975" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="354.3652" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="139" x="819.7888" y="352.8696" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="354.3652" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="131" x="802.3975" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="336.9739" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="141" x="819.7888" y="335.4783" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="336.9739" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="158" x="802.3975" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="319.5826" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="282" x="819.7888" y="318.087" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="319.5826" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="162" x="802.3975" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="302.1913" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="168" x="819.7888" y="300.6957" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="302.1913" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="284.8" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="176" x="802.3975" y="283.3043" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="284.8" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="284.8" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="275" x="819.7888" y="283.3043" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="284.8" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="267.4087" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="216" x="802.3975" y="265.913" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="267.4087" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="267.4087" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="265" x="819.7888" y="265.913" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="267.4087" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="250.0174" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="268" x="802.3975" y="248.5217" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="250.0174" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="250.0174" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="269" x="819.7888" y="248.5217" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="250.0174" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="232.6261" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="285" x="802.3975" y="231.1304" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="232.6261" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="232.6261" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="299" x="819.7888" y="231.1304" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="232.6261" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="215.2348" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="312" x="802.3975" y="213.7391" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="215.2348" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="215.2348" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="321" x="819.7888" y="213.7391" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="215.2348" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="197.8435" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="325" x="802.3975" y="196.3478" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="197.8435" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="197.8435" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="348" x="819.7888" y="196.3478" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="197.8435" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="180.4522" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="399" x="802.3975" y="178.9565" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="803.8932" y="180.4522" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="180.4522" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="453" x="819.7888" y="178.9565" width="14.9565" height="14.9565" rx="1.1965" fill="#276FCE"/>
+      <rect class="tile-highlight" x="821.2845" y="180.4522" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="candidate:Superhuman" data-count="5">
       <title>Superhuman — requires verification: 5</title>
-      <metadata data-result-id="114"/>
-      <metadata data-result-id="127"/>
-      <metadata data-result-id="137"/>
-      <metadata data-result-id="146"/>
-      <metadata data-result-id="221"/>
-      <rect x="225.3914" y="66.087" width="10.0743" height="16.9565" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-shadow" x="803.8932" y="163.0609" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="114" x="802.3975" y="161.5652" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="803.8932" y="163.0609" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="163.0609" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="127" x="819.7888" y="161.5652" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="821.2845" y="163.0609" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="145.6696" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="137" x="802.3975" y="144.1739" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="803.8932" y="145.6696" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="145.6696" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="146" x="819.7888" y="144.1739" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="821.2845" y="145.6696" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="128.2783" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="221" x="802.3975" y="126.7826" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF" fill-opacity="0.5"/>
+      <rect class="tile-highlight" x="803.8932" y="128.2783" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
     <g data-series="assigned:Superhuman" data-count="13">
       <title>Superhuman: 13</title>
-      <metadata data-result-id="101"/>
-      <metadata data-result-id="102"/>
-      <metadata data-result-id="104"/>
-      <metadata data-result-id="106"/>
-      <metadata data-result-id="108"/>
-      <metadata data-result-id="111"/>
-      <metadata data-result-id="116"/>
-      <metadata data-result-id="117"/>
-      <metadata data-result-id="202"/>
-      <metadata data-result-id="130"/>
-      <metadata data-result-id="159"/>
-      <metadata data-result-id="214"/>
-      <metadata data-result-id="224"/>
-      <rect x="225.3914" y="22" width="10.0743" height="44.087" fill="#7B2CBF"/>
+      <rect class="tile-shadow" x="821.2845" y="128.2783" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="101" x="819.7888" y="126.7826" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="128.2783" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="110.887" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="102" x="802.3975" y="109.3913" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="110.887" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="110.887" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="104" x="819.7888" y="109.3913" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="110.887" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="93.4957" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="106" x="802.3975" y="92" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="93.4957" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="93.4957" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="108" x="819.7888" y="92" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="93.4957" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="76.1043" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="111" x="802.3975" y="74.6087" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="76.1043" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="76.1043" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="116" x="819.7888" y="74.6087" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="76.1043" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="58.713" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="117" x="802.3975" y="57.2174" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="58.713" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="58.713" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="202" x="819.7888" y="57.2174" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="58.713" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="41.3217" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="130" x="802.3975" y="39.8261" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="41.3217" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="41.3217" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="159" x="819.7888" y="39.8261" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="41.3217" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="803.8932" y="23.9304" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="214" x="802.3975" y="22.4348" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="803.8932" y="23.9304" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
+      <rect class="tile-shadow" x="821.2845" y="23.9304" width="14.9565" height="14.9565" rx="1.1965" fill="#000" fill-opacity="0.08"/>
+      <rect data-result-id="224" x="819.7888" y="22.4348" width="14.9565" height="14.9565" rx="1.1965" fill="#7B2CBF"/>
+      <rect class="tile-highlight" x="821.2845" y="23.9304" width="11.9652" height="0.8974" rx="0.4487" fill="#fff" fill-opacity="0.22"/>
     </g>
-    <text x="230.4286" y="15" text-anchor="middle">46</text>
   </g>
   <g data-period="2026-09" data-total="0">
     <title>Sept 26: 0 selected claims</title>
 
-
   </g>
-  <text x="2" y="200">Jan 25</text>
-  <text x="248" y="200" text-anchor="end">Sept 26</text>
 </svg>
