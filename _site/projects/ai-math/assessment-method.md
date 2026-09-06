@@ -1,4 +1,4 @@
-# Proof of Progress: best-current assessment, version 1.0.0
+# Proof of Progress: best-current assessment, version 1.1.0
 
 This is a revisable AI assessment of human-comparison challenge, separate from
 the unchanged strict historical policy, AI contribution and proof verification.
@@ -6,10 +6,11 @@ It is not an expert consensus, a calibrated probability or a correctness verdict
 
 ## Comparator and categories
 
-The default comparator is a relevant specialist or small team using methods
-available immediately before the report, over an ordinary research project
-(weeks to months). It is not a comparison with the model's wall-clock runtime.
-Individual records state narrower comparisons where the source supports them.
+The comparator is the human mathematical frontier immediately before the report.
+Normal specialist research remains the Expected baseline. A reported complete
+settlement of a genuinely open, long-standing target crosses that task-specific
+historical frontier; no timed human experiment is required. Individual records
+state the target and historical comparison where the source supports them.
 
 - Expected: plausibly within normal specialist-human research. This includes
   useful technical improvements and applications of existing methods; it does
@@ -18,9 +19,10 @@ Individual records state narrower comparisons where the source supports them.
   insight/effort, but plausibly human-achievable.
 - Superhuman: a credible task-specific crossing of the previous human frontier
   in capability, speed or scale. A historical-frontier judgment is distinct from
-  a matched human-time experiment. Age alone, failed model trials, prestige and
-  proof length are not sufficient. All initial Superhuman estimates are low
-  confidence; no matched human-time comparison was established by this pass.
+  a matched human-time experiment. A reported complete resolution or disproof of
+  an exact, genuinely open, long-standing conjecture is strong evidence. An old
+  citation alone, partial progress, or a new proof of an already solved result is
+  not. This label is about the specific target, not universal AI superiority.
 - Unassessed: insufficient concrete detail for a useful estimate. This is not
   Expected, and it remains in the denominator and a neutral chart band.
 
@@ -28,6 +30,14 @@ Each record has a likely category, qualitative confidence, a reason, plausible
 alternatives, a comparator, source IDs, source hash, method and assessment date.
 High confidence concerns this judgment only. Medium/low confidence is shown as
 provisional; proof checks have their own unchanged evidence fields.
+
+High confidence means clear target history and a reported complete settlement
+of that target. Medium means credible frontier evidence with substantive
+ambiguity about history, scope or concurrent discovery. Low means the available
+detail leaves the category genuinely unclear. Neither missing independent proof
+verification nor a missing stopwatch experiment automatically lowers confidence
+in classification. Confidence remains conditional on the reported claim scope;
+a retraction or a discovered scope error can change the assessment.
 
 ## Initial assessment and repeatable triage
 
@@ -41,10 +51,13 @@ a reopening of every source document, a human review or execution of proofs.
 The remaining records use transparent automated triage:
 
 1. A current source-pinned individual judgment takes precedence.
-2. A strict Superhuman label alone defaults to a provisional Difficult estimate
-   with Superhuman as an alternative until its human comparator is assessed.
-3. Recorded exact-target resistance or complete settlement of a prior target
-   supports Difficult, usually medium confidence, without inventing human hours.
+2. Recorded complete settlement of an exact long-standing prior target supports
+   high-confidence Superhuman. A dated target at least ten years old or explicit
+   long-standing history is a repeatable triage signal; it is not a theorem about
+   difficulty. Known after-the-fact proofs/reproductions are excluded first.
+3. A strict Superhuman label supports medium-confidence Superhuman pending
+   individual clarification. Other recorded resistance or prior-target settlement
+   supports Difficult until the exact historical frontier is clear.
 4. Explicit settlement/breakthrough language supports low-confidence Difficult,
    taking precedence over the material-extension shortcut below.
 5. A coded narrow/material extension without recorded resistance supports a
@@ -81,6 +94,23 @@ discovery or first-observed qualifying-revision dates. The 519-source baseline
 has no reconstructed per-source first-collection date; its migration access
 dates must not be used. The Collection chart keeps claims in their report month
 and colours their collection timing. The source ledger's dates remain unchanged.
+
+The hero uses adjacent equal-width quarterly totals on one linear count scale.
+Empty months contribute zero to their quarter rather than blank horizontal
+slots. If a whole interior quarter is empty, every column is coarsened uniformly;
+only empty leading/trailing periods are omitted. Square tiles are a texture,
+not individual claims. The most recent period is observed-to-date, never
+extrapolated. The analytical dashboard and downloads retain monthly detail.
+
+## Historical-frontier correction, 6 September 2026
+
+Version 1.1.0 removes the initial blanket low-confidence treatment of Superhuman
+assessments. The focused follow-up records 111 individual decisions across the
+prior frontier set and additional long-standing-target candidates, bringing the
+source-pinned individual total to 534. It distinguishes complete settlements from partial
+results, later reproductions and formalization-only contributions. The public
+revision history records the old and new decisions. Proof-verification fields,
+strict historical classifications and source publication dates are unchanged.
 
 ## Refresh, selective review and revisions
 
