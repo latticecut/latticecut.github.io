@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "assessedAt": "2026-09-06",
   "samplingWeek": 2957,
   "status": "pending selective review; not completed verification",
@@ -7,7 +7,7 @@
     {
       "id": "1",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -16,7 +16,70 @@
     {
       "id": "2",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "6",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "7",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "8",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "14",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -25,7 +88,7 @@
     {
       "id": "15",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -34,7 +97,7 @@
     {
       "id": "16",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -43,7 +106,7 @@
     {
       "id": "17",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -52,7 +115,7 @@
     {
       "id": "18",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -61,7 +124,16 @@
     {
       "id": "19",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "20",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -70,7 +142,16 @@
     {
       "id": "25",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "26",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -79,7 +160,62 @@
     {
       "id": "27",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "28",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "29",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "30",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "31",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "This is an independently discovered proof of the same historical target as record 14, not a second distinct conjecture closure. Its first public forum announcement was 31 March 2026; the May preprint is a later report, so the timeline date deserves reconciliation with the first-announcement policy."
+      ]
+    },
+    {
+      "id": "33",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "37",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -88,16 +224,44 @@
     {
       "id": "44",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
       ]
     },
     {
+      "id": "46",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "47.1",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "47.2",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "The primary paper attributes the negative construction to the human authors after AI-assisted exploratory attempts. Keep that attribution visible: historical-target classification does not establish that the model itself generated this counterexample."
+      ]
+    },
+    {
       "id": "57",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -106,7 +270,16 @@
     {
       "id": "58",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "61",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -115,7 +288,43 @@
     {
       "id": "64",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "67",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "68",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "69",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "70",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -124,7 +333,16 @@
     {
       "id": "72",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "75",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -133,7 +351,34 @@
     {
       "id": "76",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "medium",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "80",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "81",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "82",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -142,7 +387,34 @@
     {
       "id": "86",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "87",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "88",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "89",
+      "category": "Superhuman",
+      "confidence": "medium",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -151,7 +423,25 @@
     {
       "id": "92",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "95",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "98",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -160,7 +450,7 @@
     {
       "id": "101",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -169,7 +459,7 @@
     {
       "id": "102",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -178,7 +468,7 @@
     {
       "id": "104",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -187,7 +477,7 @@
     {
       "id": "106",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -196,7 +486,7 @@
     {
       "id": "107",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -205,7 +495,52 @@
     {
       "id": "108",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "109",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "111",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "114",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "115",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "116",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -214,7 +549,16 @@
     {
       "id": "117",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "127",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -223,7 +567,54 @@
     {
       "id": "130",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "132",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "139",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "141",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "146",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "149",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -232,7 +623,71 @@
     {
       "id": "159",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "185",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "192",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "202",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "214",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "216",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "221",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "224",
+      "category": "Superhuman",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
@@ -241,10 +696,92 @@
     {
       "id": "270",
       "category": "Superhuman",
-      "confidence": "low",
+      "confidence": "high",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "271",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "275",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "279",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "357",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "385",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "442",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "453",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "456",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "464",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
       ]
     },
     {
@@ -257,12 +794,50 @@
       ]
     },
     {
+      "id": "500",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "501",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
       "id": "515",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 1,
       "reasons": [
         "AI use is explicitly proof checking and writing; establish a retained mathematical correction before treating this as AI-generated mathematical progress rather than AI-assisted preparation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "526",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "574",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
         "AI contribution not established"
       ]
     },
@@ -277,12 +852,32 @@
       ]
     },
     {
+      "id": "596",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
       "id": "600",
       "category": "Difficult",
       "confidence": "low",
       "priority": 1,
       "reasons": [
         "The stored AI-evidence excerpt is a bibliography, including a 1990 National Conference on Artificial Intelligence citation; no actual AI-use disclosure or mathematical contribution appears in that excerpt. Recheck inclusion against the primary paper.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "619",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
         "AI contribution not established"
       ]
     },
@@ -329,12 +924,92 @@
       ]
     },
     {
+      "id": "764",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "805",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "819",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "820",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
       "id": "840",
       "category": "Expected",
       "confidence": "low",
       "priority": 1,
       "reasons": [
         "The corpus anchor reproduces the whole abstract, while the concrete AI role is narrower. Split or narrow the AI-supported claim before crediting every theorem as AI-driven.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "854",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "979",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "991",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1007",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
         "AI contribution not established"
       ]
     },
@@ -359,36 +1034,83 @@
       ]
     },
     {
+      "id": "1120",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1125",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1136",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1205",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "gpt5-science-2025:erdos-848",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "gpt5-science-2025:tree-profile",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "nesterov-2025:point-convergence",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "nicd-2025:majority-counterexample",
+      "category": "Superhuman",
+      "confidence": "high",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
       "id": "11",
-      "category": "Difficult",
-      "confidence": "medium",
-      "priority": 2,
-      "reasons": [
-        "Rotating ordinary-result sample"
-      ]
-    },
-    {
-      "id": "29",
-      "category": "Difficult",
-      "confidence": "medium",
-      "priority": 2,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "Rotating ordinary-result sample"
-      ]
-    },
-    {
-      "id": "30",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 2,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "Rotating ordinary-result sample"
-      ]
-    },
-    {
-      "id": "115",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 2,
@@ -439,6 +1161,7 @@
       "confidence": "medium",
       "priority": 2,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "Rotating ordinary-result sample"
       ]
     },
@@ -535,16 +1258,6 @@
       "reasons": [
         "AI contribution not established",
         "Rotating ordinary-result sample"
-      ]
-    },
-    {
-      "id": "526",
-      "category": "Unassessed",
-      "confidence": "low",
-      "priority": 2,
-      "reasons": [
-        "Insufficient claim detail",
-        "AI contribution not established"
       ]
     },
     {
@@ -1010,17 +1723,7 @@
       ]
     },
     {
-      "id": "1205",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 2,
-      "reasons": [
-        "AI contribution not established",
-        "Rotating ordinary-result sample"
-      ]
-    },
-    {
-      "id": "3",
+      "id": "9",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1029,52 +1732,7 @@
       ]
     },
     {
-      "id": "4",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "5",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "6",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "7",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "8",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "14",
+      "id": "10",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1083,88 +1741,7 @@
       ]
     },
     {
-      "id": "20",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "26",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "28",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "31",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "33",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "37",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "46",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "47.1",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "47.2",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "54",
+      "id": "21",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1173,7 +1750,142 @@
       ]
     },
     {
-      "id": "61",
+      "id": "22",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "34",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "35",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "38",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "39",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "40",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "43",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "45",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "48",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "49",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "50",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "51",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "56",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "59",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "62",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "63",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1191,7 +1903,7 @@
       ]
     },
     {
-      "id": "68",
+      "id": "73",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1200,7 +1912,7 @@
       ]
     },
     {
-      "id": "75",
+      "id": "77",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1209,7 +1921,7 @@
       ]
     },
     {
-      "id": "80",
+      "id": "78",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1218,7 +1930,7 @@
       ]
     },
     {
-      "id": "82",
+      "id": "79",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1227,7 +1939,7 @@
       ]
     },
     {
-      "id": "87",
+      "id": "83",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1236,7 +1948,7 @@
       ]
     },
     {
-      "id": "88",
+      "id": "84",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1245,7 +1957,7 @@
       ]
     },
     {
-      "id": "98",
+      "id": "85",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1254,7 +1966,7 @@
       ]
     },
     {
-      "id": "111",
+      "id": "90",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1263,16 +1975,97 @@
       ]
     },
     {
-      "id": "114",
+      "id": "91",
       "category": "Difficult",
-      "confidence": "low",
+      "confidence": "medium",
       "priority": 3,
       "reasons": [
         "Possible breakthrough / disputed difficulty"
       ]
     },
     {
-      "id": "116",
+      "id": "94",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "96",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "97",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "99",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "100",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "103",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "105",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "110",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "113",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "118",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1290,16 +2083,7 @@
       ]
     },
     {
-      "id": "127",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "132",
+      "id": "122",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1308,25 +2092,115 @@
       ]
     },
     {
-      "id": "139",
+      "id": "123",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
       "reasons": [
-        "AI contribution not established"
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
-      "id": "141",
+      "id": "124",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
       "reasons": [
-        "AI contribution not established"
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
-      "id": "146",
+      "id": "126",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "128",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "129",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "131",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "134",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "136",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "140",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "145",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "148",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "150",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "151",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1341,6 +2215,96 @@
       "priority": 3,
       "reasons": [
         "Insufficient claim detail"
+      ]
+    },
+    {
+      "id": "153",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "158",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "161",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "162",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "168",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "170",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "172",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "176",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "178",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "180",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1365,15 +2329,6 @@
       "id": "184",
       "category": "Expected",
       "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "185",
-      "category": "Difficult",
-      "confidence": "medium",
       "priority": 3,
       "reasons": [
         "AI contribution not established"
@@ -1425,7 +2380,16 @@
       ]
     },
     {
-      "id": "202",
+      "id": "203",
+      "category": "Unassessed",
+      "confidence": "low",
+      "priority": 3,
+      "reasons": [
+        "Insufficient claim detail"
+      ]
+    },
+    {
+      "id": "205",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1434,12 +2398,21 @@
       ]
     },
     {
-      "id": "203",
-      "category": "Unassessed",
-      "confidence": "low",
+      "id": "206",
+      "category": "Difficult",
+      "confidence": "medium",
       "priority": 3,
       "reasons": [
-        "Insufficient claim detail"
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "209",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1461,7 +2434,7 @@
       ]
     },
     {
-      "id": "214",
+      "id": "212",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1470,7 +2443,7 @@
       ]
     },
     {
-      "id": "221",
+      "id": "213",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1479,7 +2452,25 @@
       ]
     },
     {
-      "id": "224",
+      "id": "217",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "220",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "223",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1494,6 +2485,15 @@
       "priority": 3,
       "reasons": [
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "230",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1515,6 +2515,15 @@
       ]
     },
     {
+      "id": "237",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "239",
       "category": "Difficult",
       "confidence": "low",
@@ -1524,7 +2533,97 @@
       ]
     },
     {
-      "id": "271",
+      "id": "240",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "247",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "253",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "254",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "256",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "263",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "264",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "265",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "266",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "268",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "269",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -1542,12 +2641,76 @@
       ]
     },
     {
+      "id": "273",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "274",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "276",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "277",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "278",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "281",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "282",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "283",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1560,12 +2723,93 @@
       ]
     },
     {
+      "id": "285",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "287",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "288",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "292",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "294",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "297",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "299",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "300",
       "category": "Unassessed",
       "confidence": "low",
       "priority": 3,
       "reasons": [
         "Insufficient claim detail"
+      ]
+    },
+    {
+      "id": "302",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "309",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1578,12 +2822,66 @@
       ]
     },
     {
+      "id": "312",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "313",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "315",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "321",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "323",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "324",
       "category": "Expected",
       "confidence": "low",
       "priority": 3,
       "reasons": [
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "325",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1632,6 +2930,24 @@
       ]
     },
     {
+      "id": "337",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "338",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "339",
       "category": "Expected",
       "confidence": "low",
@@ -1650,6 +2966,15 @@
       ]
     },
     {
+      "id": "343",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "345",
       "category": "Expected",
       "confidence": "low",
@@ -1659,11 +2984,21 @@
       ]
     },
     {
+      "id": "346",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "348",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },
@@ -1727,6 +3062,7 @@
       "confidence": "medium",
       "priority": 3,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },
@@ -1746,6 +3082,15 @@
       "priority": 3,
       "reasons": [
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "376",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -1785,15 +3130,6 @@
       ]
     },
     {
-      "id": "385",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
       "id": "388",
       "category": "Expected",
       "confidence": "low",
@@ -1830,6 +3166,42 @@
       ]
     },
     {
+      "id": "394",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "399",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "401",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "403",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "406",
       "category": "Expected",
       "confidence": "low",
@@ -1844,6 +3216,7 @@
       "confidence": "medium",
       "priority": 3,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },
@@ -1866,11 +3239,21 @@
       ]
     },
     {
+      "id": "414",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "415",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
       "reasons": [
+        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },
@@ -1911,6 +3294,15 @@
       ]
     },
     {
+      "id": "427",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "428",
       "category": "Difficult",
       "confidence": "low",
@@ -1948,15 +3340,6 @@
       ]
     },
     {
-      "id": "442",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
       "id": "447",
       "category": "Expected",
       "confidence": "low",
@@ -1981,15 +3364,6 @@
       "priority": 3,
       "reasons": [
         "AI contribution not established"
-      ]
-    },
-    {
-      "id": "456",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -2020,15 +3394,6 @@
       ]
     },
     {
-      "id": "464",
-      "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "466",
       "category": "Expected",
       "confidence": "low",
@@ -2044,6 +3409,15 @@
       "priority": 3,
       "reasons": [
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "472",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
@@ -2716,15 +4090,6 @@
       ]
     },
     {
-      "id": "574",
-      "category": "Difficult",
-      "confidence": "medium",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "575",
       "category": "Expected",
       "confidence": "low",
@@ -2882,15 +4247,6 @@
     {
       "id": "594",
       "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "596",
-      "category": "Expected",
       "confidence": "low",
       "priority": 3,
       "reasons": [
@@ -3065,15 +4421,6 @@
     },
     {
       "id": "618",
-      "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "619",
       "category": "Expected",
       "confidence": "low",
       "priority": 3,
@@ -4306,15 +5653,6 @@
       ]
     },
     {
-      "id": "764",
-      "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "765",
       "category": "Difficult",
       "confidence": "low",
@@ -4666,15 +6004,6 @@
       ]
     },
     {
-      "id": "805",
-      "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "806",
       "category": "Expected",
       "confidence": "low",
@@ -4777,25 +6106,6 @@
     {
       "id": "818",
       "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "819",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "820",
-      "category": "Expected",
       "confidence": "low",
       "priority": 3,
       "reasons": [
@@ -5057,15 +6367,6 @@
     },
     {
       "id": "853",
-      "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "854",
       "category": "Expected",
       "confidence": "low",
       "priority": 3,
@@ -6105,16 +7406,6 @@
       ]
     },
     {
-      "id": "979",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "980",
       "category": "Expected",
       "confidence": "low",
@@ -6208,15 +7499,6 @@
     {
       "id": "990",
       "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "991",
-      "category": "Difficult",
       "confidence": "low",
       "priority": 3,
       "reasons": [
@@ -6353,15 +7635,6 @@
     {
       "id": "1006",
       "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "1007",
-      "category": "Difficult",
       "confidence": "low",
       "priority": 3,
       "reasons": [
@@ -7308,16 +8581,6 @@
       ]
     },
     {
-      "id": "1120",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "AI contribution not established"
-      ]
-    },
-    {
       "id": "1122",
       "category": "Expected",
       "confidence": "low",
@@ -7332,16 +8595,6 @@
       "confidence": "low",
       "priority": 3,
       "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "1125",
-      "category": "Difficult",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },
@@ -7421,15 +8674,6 @@
     {
       "id": "1135",
       "category": "Expected",
-      "confidence": "low",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "1136",
-      "category": "Difficult",
       "confidence": "low",
       "priority": 3,
       "reasons": [
@@ -8221,6 +9465,15 @@
       ]
     },
     {
+      "id": "deletion-codes-2025:binary-two-deletion",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
       "id": "extremal-descendant-2025:integrals",
       "category": "Unassessed",
       "confidence": "low",
@@ -8248,7 +9501,7 @@
       ]
     },
     {
-      "id": "gpt5-science-2025:erdos-848",
+      "id": "gpt5-science-2025:convex-body-lower-bound",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -8257,7 +9510,7 @@
       ]
     },
     {
-      "id": "gpt5-science-2025:tree-profile",
+      "id": "legone-2025:three-player-nash",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -8266,7 +9519,7 @@
       ]
     },
     {
-      "id": "nesterov-2025:point-convergence",
+      "id": "qma-2025:black-box-amplification",
       "category": "Difficult",
       "confidence": "medium",
       "priority": 3,
@@ -8275,9 +9528,27 @@
       ]
     },
     {
-      "id": "nicd-2025:majority-counterexample",
+      "id": "reinforced-generation-2025:max-4-cut-hardness",
       "category": "Difficult",
-      "confidence": "low",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "thetaevolve-2025:autocorrelation",
+      "category": "Difficult",
+      "confidence": "medium",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "x-evolve-2025:cap-set",
+      "category": "Difficult",
+      "confidence": "medium",
       "priority": 3,
       "reasons": [
         "Possible breakthrough / disputed difficulty"
