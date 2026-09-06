@@ -6,9 +6,9 @@
     "completionEnvelopeRuleVersion": "1.0.0",
     "legacyChallengePolicyVersion": "0.1.0 (legacy source-history fields only)",
     "classificationUnit": "mathematical result",
-    "corpusStatus": "1237 source-included, AI-coded, unreviewed",
+    "corpusStatus": "1241 source-included, AI-coded, unreviewed",
     "scope": "Source-included, AI-coded, unreviewed v0.2 result corpus with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "sourceIncludedCount": 1237,
+    "sourceIncludedCount": 1241,
     "sourceIdAliases": {
       "25--1": "deletion-codes-2025:binary-two-deletion",
       "25--2": "alphaevolve-2025:matrix-4x4",
@@ -31,14 +31,14 @@
       "25--19": "human-ai-itp-2025:grover-retraction",
       "25--20": "extremal-descendant-2025:integrals"
     },
-    "recordCount": 1239,
+    "recordCount": 1243,
     "fullRecordCount": 10,
-    "minimalRecordCount": 1229,
+    "minimalRecordCount": 1233,
     "pendingTaxonomyCount": 851,
-    "substantivelyCodedRecordCount": 388,
+    "substantivelyCodedRecordCount": 392,
     "replayedHereCount": 0,
     "completionInvariantIncompleteCount": 180,
-    "ambiguousIncompleteCount": 959,
+    "ambiguousIncompleteCount": 963,
     "structurallyIncompleteCount": 0,
     "superhumanAssignedCount": 47,
     "superhumanReachableIncompleteCount": 24,
@@ -49,13 +49,13 @@
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
     "sourceCorpusRefreshedThrough": "2026-09-06",
-    "sourceCoverageNote": "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage.",
+    "sourceCoverageNote": "The rolling 31 August--6 September mathematics, CS, formal-methods and statistics arXiv window was rechecked through 2026-09-06T22:45:28.866Z, with no announcement delta after Friday 4 September. Primary repository, Palomar, ProofAtlas, Anthropic, Axiom, DeepMind and other mandatory-source rechecks found four independently supportable flagged additions and three existing-record updates. Direct retrieval of the OpenAI research index returned HTTP 403; the indexed same-day fallback contained no later qualifying item. The previously disclosed historical continuity gap after 20 August remains unresolved, so collectionEnded is not advanced.",
     "reviewedCorrectionSetId": "reviewed-source-corrections-2026-09-06",
     "reviewedCorrectionCount": 6,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "9232ad28fcf587595d44e5526124d89fc06c6985412ddd127f331fb0398607fe",
-      "referenceMapSha256": "f2722d83a9fd4c9742e415c4087374250267201a261619edfbbb6243c5e2cd0c",
-      "analysisLogSha256": "ca27f3856a473126b690a0b862db6606cf2f5bcc2916ed18023f791646fe5329"
+      "scoredLedgerSha256": "d65ca6b40bebc28081bc5a45d54de28d88e9b21c9a96a902bf7d514ca43fe5d3",
+      "referenceMapSha256": "d4374ece93d3f8a03ec0f9680b997b7895930b5c7cb702e9e420d577f62076cb",
+      "analysisLogSha256": "e0cb42a462f4db6a632a1e02fe0a695d861bde68b0ff40e9acd87aa07f605e99"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -66,16 +66,16 @@
       "transitionId": "source-corpus-transition-2026-08-20-519"
     },
     "defaultLeadingIds": [
+      "1230",
+      "1229",
+      "1228",
+      "1227",
       "1226",
       "1225",
       "1224",
       "1223",
       "1222",
-      "1221",
-      "1220",
-      "1219",
-      "1218",
-      "1217"
+      "1221"
     ],
     "migrationBoundary": "Legacy 0.1.0 and policy 1.0.0 categories remain labelled source history; browse output uses policy 1.1.0 mathematical-history categories with assurance displayed separately.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -176641,7 +176641,7 @@
     "recordType": "result",
     "resultId": "result-537",
     "sourceIncludedId": "537",
-    "claim": "The paper reports almost-all shortcut-Collatz descent to polylogarithmic size in ordinary natural density within logarithmically many steps, with the stated orbit ceiling, explicit exponent/rate ranges, moving-endpoint form, and stretched-logarithmic companion/exceptional-count results. Palomar v3 is a metadata correction; its inherited comparator evidence covers four selected theorem declarations and must not be read as the pointwise Collatz conjecture.",
+    "claim": "The Version 4 paper and registered Lean package report four strengthened almost-all results for shortcut and raw Collatz orbits in ordinary natural density: critical polylogarithmic common landing with arbitrary positive divergent target and height multipliers, centered trajectory tubes and actual first-passage clocks; for each fixed A>A_FP, common landing with exact upper exceptional exponent q=kappa_*A-1/2 and a balanced joint height ceiling; a reciprocal-order lower bound for failure of the joint target-and-height conclusion forced by that height ceiling; and a quantitative stretched-logarithmic common-landing theorem for every strict 0<sigma<1-delta with smaller relative-height ceilings. The selected surface does not normalize the fixed-A target constant to one, does not make the lower bound target-only or prove optimality of A_FP, does not include the stretched endpoint sigma=1-delta, and does not prove pointwise Collatz convergence or control after a selected witness. Palomar Version 4 mechanically verified four declarations; this is not independent human peer review.",
     "sources": [
       {
         "sourceId": "Refresh20260906_537",
@@ -176657,8 +176657,17 @@
         "sourceType": "paper",
         "role": "Supporting or independent evidence",
         "title": "Polylogarithmic Descent for Almost All Collatz Orbits in Natural Density — supporting source",
-        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-26-000005-v3.json",
-        "accessed": "2026-09-02",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-26-000005-v4.json",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_537_v4",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Polylogarithmic Descent for Almost All Collatz Orbits in Natural Density — Version 4 manuscript",
+        "url": "https://doi.org/10.5281/zenodo.22525724",
+        "accessed": "2026-09-06",
         "evidenceRelation": "secondary_source"
       }
     ],
@@ -176668,7 +176677,8 @@
         "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
         "evidenceSourceIds": [
           "Refresh20260906_537",
-          "Refresh20260906_537_support_0"
+          "Refresh20260906_537_support_0",
+          "Daily20260906_537_v4"
         ],
         "confidence": "unknown"
       },
@@ -176676,10 +176686,11 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: The paper reports almost-all shortcut-Collatz descent to polylogarithmic size in ordinary natural density within logarithmically many steps, with the stated orbit ceiling, explicit exponent/rate ranges, moving-endpoint form, and stretched-logarithmic companion/exceptional-count results. Palomar v3 is a metadata correction; its inherited comparator evidence covers four selected theorem declarations and must not be read as the pointwise Collatz conjecture.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The Version 4 paper and registered Lean package report four strengthened almost-all results for shortcut and raw Collatz orbits in ordinary natural density: critical polylogarithmic common landing with arbitrary positive divergent target and height multipliers, centered trajectory tubes and actual first-passage clocks; for each fixed A>A_FP, common landing with exact upper exceptional exponent q=kappa_*A-1/2 and a balanced joint height ceiling; a reciprocal-order lower bound for failure of the joint target-and-height conclusion forced by that height ceiling; and a quantitative stretched-logarithmic common-landing theorem for every strict 0<sigma<1-delta with smaller relative-height ceilings. The selected surface does not normalize the fixed-A target constant to one, does not make the lower bound target-only or prove optimality of A_FP, does not include the stretched endpoint sigma=1-delta, and does not prove pointwise Collatz convergence or control after a selected witness. Palomar Version 4 mechanically verified four declarations; this is not independent human peer review.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "low"
         },
@@ -176687,10 +176698,11 @@
           "status": "coded",
           "polarity": "settled_yes",
           "completeness": "partial",
-          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported result coding, awaiting specialist review. The paper reports almost-all shortcut-Collatz descent to polylogarithmic size in ordinary natural density within logarithmically many steps, with the stated orbit ceiling, explicit exponent/rate ranges, moving-endpoint form, and stretched-logarithmic companion/exceptional-count results. Palomar v3 is a metadata correction; its inherited comparator evidence covers four selected theorem declarations and must not be read as the pointwise Collatz conjecture.",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported result coding, awaiting specialist review. The Version 4 paper reports critical polylogarithmic common landing with arbitrary positive divergent target and height multipliers, centered trajectory tubes and actual first-passage clocks; fixed-A common landing with the exact upper exceptional exponent and a balanced height ceiling; a height-forced reciprocal-order lower bound for failure of the joint conclusion; and strict-range stretched-logarithmic common landing. It does not prove pointwise convergence, endpoint sigma=1-delta, target-only lower bounds or control after a selected witness.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "low"
         },
@@ -176698,10 +176710,11 @@
           "status": "coded",
           "primaryConceptId": "R3-DIRECT-PROOF",
           "additionalConceptIds": [],
-          "rationale": "The material argument forms are supported as follows: Conservative source-reported result coding, awaiting specialist review. The paper reports almost-all shortcut-Collatz descent to polylogarithmic size in ordinary natural density within logarithmically many steps, with the stated orbit ceiling, explicit exponent/rate ranges, moving-endpoint form, and stretched-logarithmic companion/exceptional-count results. Palomar v3 is a metadata correction; its inherited comparator evidence covers four selected theorem declarations and must not be read as the pointwise Collatz conjecture.",
+          "rationale": "The material argument forms are supported as follows: Conservative source-reported result coding, awaiting specialist review. The Version 4 paper reports critical polylogarithmic common landing with arbitrary positive divergent target and height multipliers, centered trajectory tubes and actual first-passage clocks; fixed-A common landing with the exact upper exceptional exponent and a balanced height ceiling; a height-forced reciprocal-order lower bound for failure of the joint conclusion; and strict-range stretched-logarithmic common landing. It does not prove pointwise convergence, endpoint sigma=1-delta, target-only lower bounds or control after a selected witness.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "low"
         },
@@ -176710,7 +176723,8 @@
           "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "unknown"
         }
@@ -176718,10 +176732,11 @@
       "production": {
         "p1HumanMachineMode": {
           "status": "not_reported",
-          "rationale": "Author-owned metadata says Codex materially assisted proof-interface testing, Lean proof construction, diagnostics, dependency-cone extraction, migration, and theorem-surface auditing under author direction. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh.",
+          "rationale": "Version 4 owner metadata says Codex assisted proof exploration, Lean construction and diagnosis, dependency-cone work, statement alignment, audits and package preparation under the author's direction and responsibility. The precise stage-by-stage allocation remains incomplete, so the strict production coding stays conservative.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "unknown"
         },
@@ -176733,17 +176748,21 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "Refresh20260906_537",
-              "Refresh20260906_537_support_0"
+              "Refresh20260906_537_support_0",
+              "Daily20260906_537_v4"
             ]
           },
           {
             "stage": "checking",
             "humanOperations": "not_reported",
-            "machineOperations": "not_reported",
-            "reconstructible": false,
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
             "evidenceSourceIds": [
               "Refresh20260906_537",
-              "Refresh20260906_537_support_0"
+              "Refresh20260906_537_support_0",
+              "Daily20260906_537_v4"
             ]
           },
           {
@@ -176753,17 +176772,19 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "Refresh20260906_537",
-              "Refresh20260906_537_support_0"
+              "Refresh20260906_537_support_0",
+              "Daily20260906_537_v4"
             ]
           }
         ],
         "p2ReasoningRepresentation": {
           "status": "coded",
           "conceptId": "P2-MIXED-OR-NOT-REPORTED",
-          "rationale": "Author-owned metadata says Codex materially assisted proof-interface testing, Lean proof construction, diagnostics, dependency-cone extraction, migration, and theorem-surface auditing under author direction. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh.",
+          "rationale": "Version 4 owner metadata says Codex assisted proof exploration, Lean construction and diagnosis, dependency-cone work, statement alignment, audits and package preparation under the author's direction and responsibility. The precise stage-by-stage allocation remains incomplete, so the strict production coding stays conservative.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "low"
         },
@@ -176772,7 +176793,8 @@
           "rationale": "The source material does not support a stable architecture-family assignment.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "unknown"
         },
@@ -176781,27 +176803,61 @@
           "rationale": "No controlled P4 feature is established by the Minimal source pack.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ],
           "confidence": "unknown"
         }
       }
     },
     "verification": {
-      "status": "unknown",
-      "events": [],
-      "replayedHere": false,
-      "rationale": "Source-reported verification preserved as evidence, without asserting a newly assessed event: No event-level verification metadata supplied."
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-537-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The four selected Version 4 Collatz declarations registered by Palomar",
+          "verifier": "Palomar Comparator and NanoDa workflow run 34036751151",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "Palomar reports exact comparison of four Lean declarations, but this automation did not replay the workflow or independently audit every Version 4 manuscript-to-Lean interface.",
+            "evidenceSourceIds": [
+              "Refresh20260906_537",
+              "Refresh20260906_537_support_0",
+              "Daily20260906_537_v4"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-09-06",
+          "assumptions": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "evidenceSourceIds": [
+            "Refresh20260906_537",
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
+          ],
+          "notes": "Registry verification timestamp 2026-09-06T13:50:19Z; comparator commit 575674928e239f5bc452aab72d1dd7b0f1326494; NanoDa commit 68d5ca9db226849b41a6fff59d796ff19d0a8840; mechanical report SHA-256 92fbc7e137f6e7ffbe7e58479dd645588f03289b12c6aa5932a5eadfdb161290. The registry's automated codex:gpt-5.6-sol review was neutral with no warnings. This is source-reported mechanical verification, not independent human peer review; Version 3 evidence does not cover the Version 4 additions."
+        }
+      ],
+      "replayedHere": false
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "The paper reports almost-all shortcut-Collatz descent to polylogarithmic size in ordinary natural density within logarithmically many steps, with the stated orbit ceiling, explicit exponent/rate ranges, moving-endpoint form, and stretched-logarithmic companion/exceptional-count results. Palomar v3 is a metadata correction; its inherited comparator evidence covers four selected theorem declarations and must not be read as the pointwise Collatz conjecture.",
+      "anchorClaim": "The Version 4 paper and registered Lean package report four strengthened almost-all results for shortcut and raw Collatz orbits in ordinary natural density: critical polylogarithmic common landing with arbitrary positive divergent target and height multipliers, centered trajectory tubes and actual first-passage clocks; for each fixed A>A_FP, common landing with exact upper exceptional exponent q=kappa_*A-1/2 and a balanced joint height ceiling; a reciprocal-order lower bound for failure of the joint target-and-height conclusion forced by that height ceiling; and a quantitative stretched-logarithmic common-landing theorem for every strict 0<sigma<1-delta with smaller relative-height ceilings. The selected surface does not normalize the fixed-A target constant to one, does not make the lower bound target-only or prove optimality of A_FP, does not include the stretched endpoint sigma=1-delta, and does not prove pointwise Collatz convergence or control after a selected witness. Palomar Version 4 mechanically verified four declarations; this is not independent human peer review.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
         "evidenceSourceIds": [
           "Refresh20260906_537",
-          "Refresh20260906_537_support_0"
+          "Refresh20260906_537_support_0",
+          "Daily20260906_537_v4"
         ],
         "confidence": "unknown"
       },
@@ -176812,7 +176868,8 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         },
         "advance": {
@@ -176821,7 +176878,8 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         },
         "scope": {
@@ -176830,7 +176888,8 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         },
         "resistance": {
@@ -176839,7 +176898,8 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         }
       },
@@ -176848,7 +176908,8 @@
         "rationale": "No elapsed-time override is assigned in this refresh.",
         "evidenceSourceIds": [
           "Refresh20260906_537",
-          "Refresh20260906_537_support_0"
+          "Refresh20260906_537_support_0",
+          "Daily20260906_537_v4"
         ]
       },
       "solutionDate": {
@@ -176858,7 +176919,8 @@
         "rationale": "The source ledger records the first solution report.",
         "evidenceSourceIds": [
           "Refresh20260906_537",
-          "Refresh20260906_537_support_0"
+          "Refresh20260906_537_support_0",
+          "Daily20260906_537_v4"
         ]
       },
       "provisional": true,
@@ -176868,7 +176930,8 @@
           "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         },
         "substantivePriorAttempts": {
@@ -176876,7 +176939,8 @@
           "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
           "evidenceSourceIds": [
             "Refresh20260906_537",
-            "Refresh20260906_537_support_0"
+            "Refresh20260906_537_support_0",
+            "Daily20260906_537_v4"
           ]
         }
       },
@@ -176917,10 +176981,10 @@
       "coder": "Mathematics Progress v0.2 corpus coding",
       "assignmentDate": "2026-09-06",
       "confidence": "low",
-      "rationale": "Evidence-backed discovery decision ingested with conservative automated taxonomy assignments. Evidence: 2026-09-02/sep02-mandatory-nonarxiv-evidence.json/include_flagged/2",
+      "rationale": "Version 4 is a source-supported material strengthening of the existing flagged result package. The revised bounded claim and formal-verification event are pinned to the current manuscript and Palomar registry record; uncertainty remains record-local.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Obtain independent analytic-number-theory/dynamical-systems review of the moving-endpoint, fixed-exponent, and stretched-logarithmic Collatz descent theorems; audit their novelty and relation to Terras/Korec/Tao and the companion endpoint-transport paper; verify each manuscript-to-Lean interface, especially the strict exponent ranges, fixed 6.953 clock, separate quantitative predicate, and omitted endpoint/joint claims; independently replay the pinned four-theorem proof. The author records Codex-assisted proof construction/formalization but no independent human peer review or journal acceptance. All codings remain unreviewed; no proof artifact was executed. Date basis: firstPublicDate"
+      "notes": "Obtain independent analytic-number-theory and dynamical-systems review of the Version 4 arbitrary-divergent-multiplier, centered-tube and first-passage, fixed-A exact-rate, joint height-forced lower-bound and stretched-log common-landing declarations; audit novelty and priority and their relation to Terras, Korec, Tao and the preceding versions; verify every manuscript-to-Lean interface, especially the fixed-A target constant C versus the manuscript's normalization, the joint height-forced rather than target-only or optimality lower bound, every strict sigma<1-delta, the fixed clock slacks 6953/1000 and 261/25, and all omitted endpoint and pointwise claims; independently replay the pinned Version 4 Comparator and NanoDa evidence and four-theorem proof. No independent human peer review or novelty assessment is recorded, and Version 3 does not verify these additions. All codings remain unreviewed; no proof artifact was executed. Date basis: firstPublicDate"
     }
   },
   "538": {
@@ -250151,9 +250215,9 @@
         "sourceId": "Refresh20260906_811_support_0",
         "sourceType": "paper",
         "role": "Supporting or independent evidence",
-        "title": "AI-generated criteria for Bugeaud Problem 10.61 and two quadratic instances — supporting source",
-        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-31-000013-v1.json",
-        "accessed": "2026-08-31",
+        "title": "Lean formalization toward Bugeaud Problem 10.61 — supporting source",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-31-000013-v2.json",
+        "accessed": "2026-09-06",
         "evidenceRelation": "secondary_source"
       }
     ],
@@ -361067,7 +361131,7 @@
     "recordType": "result",
     "resultId": "result-1226",
     "sourceIncludedId": "1226",
-    "claim": "The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2, and matching upper exponents up to epsilon over sufficiently large primes. The resulting sharp complement exponent is asserted over prime fields; fixed-characteristic prime-power sharpness remains open.",
+    "claim": "The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2 and, for every epsilon>0 and all sufficiently large primes q, constructions with |N| <= q^d - q^(d-2^(1-d)-epsilon). They therefore claim the sharp complement exponent d-2^(1-d) over prime fields; fixed-characteristic prime-power sharpness remains open. The current owner README states that the construction is based on Cosmin Pohoata's arXiv:2607.20422, which essentially carried out the construction in d=2, so novelty of the construction must be confined to the source-supported higher-dimensional extension rather than the dimension-two idea.",
     "sources": [
       {
         "sourceId": "Refresh20260906_1226",
@@ -361086,6 +361150,24 @@
         "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-06-000002-v1.json",
         "accessed": "2026-09-06",
         "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1226_revision",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "The sharp finite-field Nikodym exponent — 6 September prior-art revision",
+        "url": "https://github.com/ShengtongZhang-alt/Nikodym/commit/794c26d6d7c1138e4e2fd92d3e7d369493d11766",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1226_pohoata",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "The sharp exponent for the minimal distance problem",
+        "url": "https://arxiv.org/abs/2607.20422",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -361094,7 +361176,9 @@
         "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
         "evidenceSourceIds": [
           "Refresh20260906_1226",
-          "Refresh20260906_1226_support_0"
+          "Refresh20260906_1226_support_0",
+          "Daily20260906_1226_revision",
+          "Daily20260906_1226_pohoata"
         ],
         "confidence": "unknown"
       },
@@ -361102,10 +361186,12 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2, and matching upper exponents up to epsilon over sufficiently large primes. The resulting sharp complement exponent is asserted over prime fields; fixed-characteristic prime-power sharpness remains open.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2 and, for every epsilon>0 and all sufficiently large primes q, constructions with |N| <= q^d - q^(d-2^(1-d)-epsilon). They therefore claim the sharp complement exponent d-2^(1-d) over prime fields; fixed-characteristic prime-power sharpness remains open. The current owner README states that the construction is based on Cosmin Pohoata's arXiv:2607.20422, which essentially carried out the construction in d=2, so novelty of the construction must be confined to the source-supported higher-dimensional extension rather than the dimension-two idea.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "low"
         },
@@ -361113,10 +361199,12 @@
           "status": "coded",
           "polarity": "settled_yes",
           "completeness": "partial",
-          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported result coding, awaiting specialist review. The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2, and matching upper exponents up to epsilon over sufficiently large primes. The resulting sharp complement exponent is asserted over prime fields; fixed-characteristic prime-power sharpness remains open.",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported result coding, awaiting specialist review. The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2 and, for every epsilon>0 and sufficiently large prime q, matching constructions up to epsilon. The current owner README says the construction builds on Pohoata's work, which essentially carried out dimension two, so the source-supported novelty claim is confined to the higher-dimensional extension; fixed-characteristic prime-power sharpness remains open.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "low"
         },
@@ -361124,10 +361212,12 @@
           "status": "coded",
           "primaryConceptId": "R3-DIRECT-PROOF",
           "additionalConceptIds": [],
-          "rationale": "The material argument forms are supported as follows: Conservative source-reported result coding, awaiting specialist review. The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2, and matching upper exponents up to epsilon over sufficiently large primes. The resulting sharp complement exponent is asserted over prime fields; fixed-characteristic prime-power sharpness remains open.",
+          "rationale": "The material argument forms are supported as follows: Conservative source-reported result coding, awaiting specialist review. The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2 and, for every epsilon>0 and sufficiently large prime q, matching constructions up to epsilon. The current owner README says the construction builds on Pohoata's work, which essentially carried out dimension two, so the source-supported novelty claim is confined to the higher-dimensional extension; fixed-characteristic prime-power sharpness remains open.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "low"
         },
@@ -361136,7 +361226,9 @@
           "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "unknown"
         }
@@ -361147,7 +361239,9 @@
           "rationale": "The pinned owner README credits GPT-5.6 and GPT-6 Astra with mathematical ideation, and Claude Fable 5.1 and Grok 4.6 with formalization. The metadata attributes essentially all approximately 15,000 Lean proof lines to agents; the human-readable exposition is still being prepared. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "unknown"
         },
@@ -361159,7 +361253,9 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "Refresh20260906_1226",
-              "Refresh20260906_1226_support_0"
+              "Refresh20260906_1226_support_0",
+              "Daily20260906_1226_revision",
+              "Daily20260906_1226_pohoata"
             ]
           },
           {
@@ -361169,7 +361265,9 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "Refresh20260906_1226",
-              "Refresh20260906_1226_support_0"
+              "Refresh20260906_1226_support_0",
+              "Daily20260906_1226_revision",
+              "Daily20260906_1226_pohoata"
             ]
           },
           {
@@ -361181,7 +361279,9 @@
             "reconstructible": true,
             "evidenceSourceIds": [
               "Refresh20260906_1226",
-              "Refresh20260906_1226_support_0"
+              "Refresh20260906_1226_support_0",
+              "Daily20260906_1226_revision",
+              "Daily20260906_1226_pohoata"
             ]
           }
         ],
@@ -361191,7 +361291,9 @@
           "rationale": "The pinned owner README credits GPT-5.6 and GPT-6 Astra with mathematical ideation, and Claude Fable 5.1 and Grok 4.6 with formalization. The metadata attributes essentially all approximately 15,000 Lean proof lines to agents; the human-readable exposition is still being prepared. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "low"
         },
@@ -361200,7 +361302,9 @@
           "rationale": "The source material does not support a stable architecture-family assignment.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "unknown"
         },
@@ -361209,7 +361313,9 @@
           "rationale": "No controlled P4 feature is established by the Minimal source pack.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ],
           "confidence": "unknown"
         }
@@ -361223,13 +361329,15 @@
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2, and matching upper exponents up to epsilon over sufficiently large primes. The resulting sharp complement exponent is asserted over prime fields; fixed-characteristic prime-power sharpness remains open.",
+      "anchorClaim": "The authors report |N| >= q^d - (8d^2+1)q^(d-2^(1-d)) for every finite-field Nikodym set in dimension d>=2 and, for every epsilon>0 and all sufficiently large primes q, constructions with |N| <= q^d - q^(d-2^(1-d)-epsilon). They therefore claim the sharp complement exponent d-2^(1-d) over prime fields; fixed-characteristic prime-power sharpness remains open. The current owner README states that the construction is based on Cosmin Pohoata's arXiv:2607.20422, which essentially carried out the construction in d=2, so novelty of the construction must be confined to the source-supported higher-dimensional extension rather than the dimension-two idea.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
         "evidenceSourceIds": [
           "Refresh20260906_1226",
-          "Refresh20260906_1226_support_0"
+          "Refresh20260906_1226_support_0",
+          "Daily20260906_1226_revision",
+          "Daily20260906_1226_pohoata"
         ],
         "confidence": "unknown"
       },
@@ -361240,7 +361348,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         },
         "advance": {
@@ -361249,7 +361359,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         },
         "scope": {
@@ -361258,7 +361370,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         },
         "resistance": {
@@ -361267,7 +361381,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         }
       },
@@ -361276,7 +361392,9 @@
         "rationale": "No elapsed-time override is assigned in this refresh.",
         "evidenceSourceIds": [
           "Refresh20260906_1226",
-          "Refresh20260906_1226_support_0"
+          "Refresh20260906_1226_support_0",
+          "Daily20260906_1226_revision",
+          "Daily20260906_1226_pohoata"
         ]
       },
       "solutionDate": {
@@ -361286,7 +361404,9 @@
         "rationale": "The source ledger records the first solution report.",
         "evidenceSourceIds": [
           "Refresh20260906_1226",
-          "Refresh20260906_1226_support_0"
+          "Refresh20260906_1226_support_0",
+          "Daily20260906_1226_revision",
+          "Daily20260906_1226_pohoata"
         ]
       },
       "provisional": true,
@@ -361296,7 +361416,9 @@
           "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         },
         "substantivePriorAttempts": {
@@ -361304,7 +361426,9 @@
           "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
           "evidenceSourceIds": [
             "Refresh20260906_1226",
-            "Refresh20260906_1226_support_0"
+            "Refresh20260906_1226_support_0",
+            "Daily20260906_1226_revision",
+            "Daily20260906_1226_pohoata"
           ]
         }
       },
@@ -361345,10 +361469,1450 @@
       "coder": "Mathematics Progress v0.2 corpus coding",
       "assignmentDate": "2026-09-06",
       "confidence": "low",
-      "rationale": "Evidence-backed discovery decision ingested with conservative automated taxonomy assignments. Evidence: 2026-09-06/sep06-source-refresh.json/candidates/0",
+      "rationale": "The 6 September owner revision supplies a material prior-art clarification for the existing flagged result. The mathematical claim and provisional status remain unchanged, while the novelty boundary is narrowed to distinguish Pohoata's dimension-two construction from the claimed higher-dimensional extension.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Obtain independent finite-field incidence-geometry review and a complete human-readable exposition; map adopted GPT ideation to individual mathematical steps; audit the prime-field versus prime-power boundary, imported algebraic-geometric facts and manuscript-to-Lean correspondence; replay the pinned proof; and check novelty against the cited Chao-Yu and Hunter-Pohoata-Verstraete-Zhang results. Palomar mechanical verification is source-reported, not independent human peer review. All codings remain unreviewed; no proof artifact was executed. Date basis: First registered on 6 September; earlier mathematical priority is not asserted."
+      "notes": "Obtain independent finite-field incidence-geometry review and a complete human-readable exposition; distinguish Pohoata's essentially dimension-two construction in arXiv:2607.20422 from the claimed higher-dimensional sharp-exponent extension and complete a revised novelty and priority audit against Pohoata, Chao-Yu, Hunter-Pohoata-Verstraete-Zhang and the other cited work; map adopted GPT-5.6 and GPT-6 Astra ideation to individual mathematical steps; audit the all-prime-power lower bound versus large-prime upper-bound boundary, imported algebraic-geometric facts and every manuscript-to-Lean correspondence; independently replay the exact Palomar-pinned proof. The 6 September current-head change is a README prior-art correction and was not itself re-run by Palomar; no independent human peer review is recorded. All codings remain unreviewed; no proof artifact was executed. Date basis: firstPublicDate"
+    }
+  },
+  "1227": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-1227",
+    "sourceIncludedId": "1227",
+    "claim": "The paper reports a proof of the Regts-Sevenster conjecture: a complex-valued graph parameter normalized at the empty graph has exponentially bounded edge-connection rank if and only if it is a mixed partition function, with the representing model's even and odd colour counts explicitly bounded by the rank base. The source also reports the even connection-rank growth limit, minimum colour dimension and related parity and trace-zeta consequences. Palomar v2 mechanically verifies a selected seven-declaration Lean surface; this is not independent human peer review.",
+    "sources": [
+      {
+        "sourceId": "Daily20260906_1227",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank",
+        "url": "https://arxiv.org/abs/2607.27198v1",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1227_current",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank — current paper",
+        "url": "https://arxiv.org/abs/2607.27198v2",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1227_support_0",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "A proof of the Regts–Sevenster conjecture, formalized — owner source",
+        "url": "https://github.com/WillWhistler/Regts-Sevenster/commit/bb0a60543d48afac3f36938104b5c85c7c0396c7",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1227_support_1",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "A proof of the Regts–Sevenster conjecture, formalized — Palomar v2",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000003-v2.json",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "05",
+            "label": "Combinatorics"
+          },
+          {
+            "code": "05C",
+            "label": "Graph theory"
+          },
+          {
+            "code": "05C31",
+            "label": "Graph polynomials and graph invariants"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The paper concerns graph parameters, edge-connection matrices and their characterization as mixed partition functions.",
+        "evidenceSourceIds": [
+          "Daily20260906_1227",
+          "Daily20260906_1227_current",
+          "Daily20260906_1227_support_0",
+          "Daily20260906_1227_support_1"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The paper reports a proof of the Regts-Sevenster conjecture: a complex-valued graph parameter normalized at the empty graph has exponentially bounded edge-connection rank if and only if it is a mixed partition function, with the representing model's even and odd colour counts explicitly bounded by the rank base. The source also reports the even connection-rank growth limit, minimum colour dimension and related parity and trace-zeta consequences. Palomar v2 mechanically verifies a selected seven-declaration Lean surface; this is not independent human peer review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The paper reports a proof of the Regts-Sevenster conjecture, characterizing normalized graph parameters of exponentially bounded edge-connection rank as mixed partition functions and obtaining explicit colour bounds. The owner package reports a seven-target Lean formalization of the main characterization and selected consequences.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION",
+            "R3-FORMAL-PROOF-SYNTHESIS"
+          ],
+          "rationale": "The material argument forms are supported as follows: The paper reports a proof of the Regts-Sevenster conjecture, characterizing normalized graph parameters of exponentially bounded edge-connection rank as mixed partition functions and obtaining explicit colour bounds. The owner package reports a seven-target Lean formalization of the main characterization and selected consequences.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The paper says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, without assigning particular mathematical steps. The owner formalization metadata separately reports Claude Fable 5, Claude Opus 5 and GPT-6 Astra in a human-directed multi-agent Lean workflow. The exact model-to-theorem allocation remains unresolved.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1227",
+              "Daily20260906_1227_current",
+              "Daily20260906_1227_support_0",
+              "Daily20260906_1227_support_1"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20260906_1227",
+              "Daily20260906_1227_current",
+              "Daily20260906_1227_support_0",
+              "Daily20260906_1227_support_1"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1227",
+              "Daily20260906_1227_current",
+              "Daily20260906_1227_support_0",
+              "Daily20260906_1227_support_1"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "The paper says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, without assigning particular mathematical steps. The owner formalization metadata separately reports Claude Fable 5, Claude Opus 5 and GPT-6 Astra in a human-directed multi-agent Lean workflow. The exact model-to-theorem allocation remains unresolved.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-MULTI-AGENT",
+          "rationale": "The paper says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, without assigning particular mathematical steps. The owner formalization metadata separately reports Claude Fable 5, Claude Opus 5 and GPT-6 Astra in a human-directed multi-agent Lean workflow. The exact model-to-theorem allocation remains unresolved.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "low"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP",
+            "P4-PLANNING-AND-TASK-DECOMPOSITION"
+          ],
+          "rationale": "The paper says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, without assigning particular mathematical steps. The owner formalization metadata separately reports Claude Fable 5, Claude Opus 5 and GPT-6 Astra in a human-directed multi-agent Lean workflow. The exact model-to-theorem allocation remains unresolved.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "confidence": "low"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-1227-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The seven selected Regts-Sevenster declarations in the Palomar v2 challenge",
+          "verifier": "Palomar Comparator and NanoDa workflow run 34030131162",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "The registry reports successful comparison and kernel checking of seven declarations, while natural-versus-real rank scope, the paper's full theorem surface and every paper-to-Lean interface were not independently audited here.",
+            "evidenceSourceIds": [
+              "Daily20260906_1227",
+              "Daily20260906_1227_current",
+              "Daily20260906_1227_support_0",
+              "Daily20260906_1227_support_1"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-09-06",
+          "assumptions": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ],
+          "notes": "The Palomar automated review was neutral with no warnings. This automation did not execute or replay the formalization, and no independent external human review is recorded."
+        }
+      ],
+      "replayedHere": false
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The paper reports a proof of the Regts-Sevenster conjecture: a complex-valued graph parameter normalized at the empty graph has exponentially bounded edge-connection rank if and only if it is a mixed partition function, with the representing model's even and odd colour counts explicitly bounded by the rank base. The source also reports the even connection-rank growth limit, minimum colour dimension and related parity and trace-zeta consequences. Palomar v2 mechanically verifies a selected seven-declaration Lean surface; this is not independent human peer review.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20260906_1227",
+          "Daily20260906_1227_current",
+          "Daily20260906_1227_support_0",
+          "Daily20260906_1227_support_1"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The Regts-Sevenster conjecture is identified, but its full historical resistance has not been independently audited in this refresh.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The paper reports a complete resolution, while novelty, priority and exact dependence on cited categorical results require specialist review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The characterization is uniform, but the natural-rank versus real-rank and selected-formal-surface boundaries remain under review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "No strict-policy resistance score is assigned without a dedicated history audit.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No elapsed-time override is assigned in this refresh.",
+        "evidenceSourceIds": [
+          "Daily20260906_1227",
+          "Daily20260906_1227_current",
+          "Daily20260906_1227_support_0",
+          "Daily20260906_1227_support_1"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20260906_1227",
+          "Daily20260906_1227_current",
+          "Daily20260906_1227_support_0",
+          "Daily20260906_1227_support_1"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20260906_1227",
+            "Daily20260906_1227_current",
+            "Daily20260906_1227_support_0",
+            "Daily20260906_1227_support_1"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-09-06",
+      "confidence": "low",
+      "rationale": "The dated first arXiv version supplies an identifiable conjecture proof and a direct but nonspecific paper-level AI-development acknowledgment; current owner and Palomar sources permit conservative deduplication and bounded wording.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Obtain independent algebraic graph theory and tensor-category review of the Regts-Sevenster proof and sharp colour budget; determine the exact mathematical contribution of Claude Fable 5, GPT-5.6 Sol Pro and GPT-6 Astra to the paper rather than its preparation or later formalization; audit novelty and dependencies on Regts-Sevenster, Deligne, Etingof-Penneys, Schrijver and Coulembier; verify the natural-rank versus real-rank scope, polynomial dimension estimate, appendix results and every paper-to-Lean correspondence; independently replay the pinned seven-target proof. No independent external human review is recorded. Keep provisional, reviewStatus unreviewed and no Superhuman override; no proof artifact was executed. Date basis: first arXiv publication on 2026-07-29."
+    }
+  },
+  "1228": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-1228",
+    "sourceIncludedId": "1228",
+    "claim": "The owner repository reports that the first question in Erdos Problem #501 is independent of ZFC: Hechler's CH construction supplies the negative relative-consistency direction, while adding c^+ random reals supplies a positive direction by a standard transfer of a prior real-valued-measurable result. The package reports Lean proofs of both directions and statement faithfulness. The previously known closed-set second question and the earlier Hechler and Newelski-Pawlikowski-Seredynski results are not claimed as new.",
+    "sources": [
+      {
+        "sourceId": "Daily20260906_1228",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Erdos Problem #501 in Lean 4: independence of the first question",
+        "url": "https://github.com/elliotglazer/erdos501/commit/6635e91a64d431c9de74a744db360bb6357c7077",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1228_support_0",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Erdos Problem #501 — model and contribution disclosure",
+        "url": "https://github.com/elliotglazer/erdos501/commit/da2d4c5a3efcd5693c7ce91375bff19f7a94f46d",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1228_support_1",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Erdos Problem #501 in Lean 4 — Palomar v3",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000002-v3.json",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "03",
+            "label": "Mathematical logic and foundations"
+          },
+          {
+            "code": "03E",
+            "label": "Set theory"
+          },
+          {
+            "code": "03E35",
+            "label": "Consistency and independence results"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The new contribution is a relative-consistency and independence result for a set-theoretic free-set problem.",
+        "evidenceSourceIds": [
+          "Daily20260906_1228",
+          "Daily20260906_1228_support_0",
+          "Daily20260906_1228_support_1"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The owner repository reports that the first question in Erdos Problem #501 is independent of ZFC: Hechler's CH construction supplies the negative relative-consistency direction, while adding c^+ random reals supplies a positive direction by a standard transfer of a prior real-valued-measurable result. The package reports Lean proofs of both directions and statement faithfulness. The previously known closed-set second question and the earlier Hechler and Newelski-Pawlikowski-Seredynski results are not claimed as new.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "impossible",
+          "completeness": "partial",
+          "rationale": "The bounded impossibility result is established without completing the broader target. The owner reports that the first question in Erdos Problem 501 is independent of ZFC, combining a previously known negative relative-consistency direction with a positive random-real transfer that removes the earlier large-cardinal hypothesis. The closed-set second question and earlier Hechler and Newelski-Pawlikowski-Seredynski results are retained as known inputs, not new claims.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-FORMAL-PROOF-SYNTHESIS"
+          ],
+          "rationale": "The material argument forms are supported as follows: The owner reports that the first question in Erdos Problem 501 is independent of ZFC, combining a previously known negative relative-consistency direction with a positive random-real transfer that removes the earlier large-cardinal hypothesis. The closed-set second question and earlier Hechler and Newelski-Pawlikowski-Seredynski results are retained as known inputs, not new claims.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The source says Elliot Glazer chose the forcing and model-theory route and directed the work; GPT-5.6 Sol produced the positive-direction transfer argument; and Claude Fable 5 and Opus 4.8 wrote every Lean line. These interdependent mathematical, formal and human-direction stages support a shared source-reported allocation, while exact step-level responsibility remains incomplete. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1228",
+              "Daily20260906_1228_support_0",
+              "Daily20260906_1228_support_1"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20260906_1228",
+              "Daily20260906_1228_support_0",
+              "Daily20260906_1228_support_1"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": [
+              "Writing or editorial work described in the production evidence"
+            ],
+            "machineOperations": "not_reported",
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20260906_1228",
+              "Daily20260906_1228_support_0",
+              "Daily20260906_1228_support_1"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-HYBRID-INFORMAL-TO-FORMAL",
+          "rationale": "The source says Elliot Glazer chose the forcing and model-theory route and directed the work; GPT-5.6 Sol produced the positive-direction transfer argument; and Claude Fable 5 and Opus 4.8 wrote every Lean line. These interdependent mathematical, formal and human-direction stages support a shared source-reported allocation, while exact step-level responsibility remains incomplete.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "coded",
+          "conceptId": "P3-COMPOUND-PIPELINE",
+          "rationale": "The source says Elliot Glazer chose the forcing and model-theory route and directed the work; GPT-5.6 Sol produced the positive-direction transfer argument; and Claude Fable 5 and Opus 4.8 wrote every Lean line. These interdependent mathematical, formal and human-direction stages support a shared source-reported allocation, while exact step-level responsibility remains incomplete.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "coded",
+          "conceptIds": [
+            "P4-HUMAN-IN-THE-LOOP"
+          ],
+          "rationale": "The source says Elliot Glazer chose the forcing and model-theory route and directed the work; GPT-5.6 Sol produced the positive-direction transfer argument; and Claude Fable 5 and Opus 4.8 wrote every Lean line. These interdependent mathematical, formal and human-direction stages support a shared source-reported allocation, while exact step-level responsibility remains incomplete.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "confidence": "medium"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-1228-1",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "The seven selected Erdos 501 closed-case, relative-consistency, independence and statement-faithfulness declarations",
+          "verifier": "Palomar Comparator and NanoDa workflow run 32316821982",
+          "independence": "different_system_same_team",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "translation_uncertain",
+            "rationale": "Palomar reports successful checking of the seven declarations, but this automation did not replay the proof or independently verify the omega_2 versus c^+ adaptation, ZFC axiomatization and complete statement-faithfulness bridge.",
+            "evidenceSourceIds": [
+              "Daily20260906_1228",
+              "Daily20260906_1228_support_0",
+              "Daily20260906_1228_support_1"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-08-20",
+          "assumptions": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ],
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ],
+          "notes": "Palomar v3 is a bibliographic correction that removes Sol from human authorship while preserving the disclosed contribution; the inherited v2 verification is source-reported. The automated review was neutral with no warnings. No independent external human review is recorded."
+        }
+      ],
+      "replayedHere": false
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The owner repository reports that the first question in Erdos Problem #501 is independent of ZFC: Hechler's CH construction supplies the negative relative-consistency direction, while adding c^+ random reals supplies a positive direction by a standard transfer of a prior real-valued-measurable result. The package reports Lean proofs of both directions and statement faithfulness. The previously known closed-set second question and the earlier Hechler and Newelski-Pawlikowski-Seredynski results are not claimed as new.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20260906_1228",
+          "Daily20260906_1228_support_0",
+          "Daily20260906_1228_support_1"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The source identifies the 1961/1971 problem and known partial results, but a dedicated historical-frontier audit has not been completed.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The source claims the missing positive relative-consistency direction and resulting independence, subject to novelty and specialist verification.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The first-question independence result is uniform at the stated model-theoretic level, while omega_2 versus c^+ and formal faithfulness boundaries need review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "No strict-policy resistance score is assigned without a dedicated history audit.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No elapsed-time override is assigned in this refresh.",
+        "evidenceSourceIds": [
+          "Daily20260906_1228",
+          "Daily20260906_1228_support_0",
+          "Daily20260906_1228_support_1"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20260906_1228",
+          "Daily20260906_1228_support_0",
+          "Daily20260906_1228_support_1"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20260906_1228",
+            "Daily20260906_1228_support_0",
+            "Daily20260906_1228_support_1"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-09-06",
+      "confidence": "low",
+      "rationale": "Dated owner commits and the current registry identify the bounded independence package, responsible human maintainer, direct GPT and Claude contributions and formal evidence, while correctness, novelty and exact statement correspondence remain open.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Obtain independent set-theory and measure-theory review of both relative-consistency directions and especially the claimed standard transfer that drops the real-valued-measurable-cardinal hypothesis; establish novelty and priority against Hechler, Newelski-Pawlikowski-Seredynski, Sungchul Lee's forum result and the standard Pi^2_1/random-real preservation literature; verify the omega_2-versus-c^+ scope, the mirrored ZFC axiomatization, Boolean-valued-model/completeness bridge, statement faithfulness and all seven comparator targets, then independently replay the pinned proof. Distinguish the previously known closed case and negative-consistency direction from the claimed new positive-transfer contribution, and verify the v3 bibliographic-authorship correction without erasing the GPT/Claude contribution record. No independent external human review is recorded. Keep provisional, reviewStatus unreviewed and no Superhuman override; no proof artifact was executed. Date basis: first owner commit with result and direct AI coauthorship on 2026-08-17."
+    }
+  },
+  "1229": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-1229",
+    "sourceIncludedId": "1229",
+    "claim": "The repository reports an edge lemma and Gram-kernel dichotomy implying that, in the specified Weil-Hermitian-form and definite-Gram certificate class, out-of-band positivity contributes no unconditional improvement and bandwidth one is forced. It does not establish a stronger zeta-zero bound, and its field-wide generalization is not independently verified.",
+    "sources": [
+      {
+        "sourceId": "Daily20260906_1229",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Out-of-band positivity ceiling for Weil-form Gram certificates",
+        "url": "https://github.com/teal-sea/zeta-lab/commit/4b26afc4f6dd2c6d106fad5a2ec9acb48eb75e47",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1229_support_0",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Out-of-band positivity ceiling — full-paper scope check",
+        "url": "https://github.com/teal-sea/zeta-lab/commit/ca09b72e0a38f71937829809a11c59e720d4bf07",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "11",
+            "label": "Number theory"
+          },
+          {
+            "code": "11M",
+            "label": "Zeta and L-functions: analytic theory"
+          },
+          {
+            "code": "11M26",
+            "label": "Nonreal zeros of zeta-functions and L-functions; Riemann and other hypotheses"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The claim concerns positivity certificates built from Weil's Hermitian form and their bandwidth limitation in a zeta-zero method.",
+        "evidenceSourceIds": [
+          "Daily20260906_1229",
+          "Daily20260906_1229_support_0"
+        ],
+        "confidence": "medium"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The repository reports an edge lemma and Gram-kernel dichotomy implying that, in the specified Weil-Hermitian-form and definite-Gram certificate class, out-of-band positivity contributes no unconditional improvement and bandwidth one is forced. It does not establish a stronger zeta-zero bound, and its field-wide generalization is not independently verified.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "impossible",
+          "completeness": "partial",
+          "rationale": "The bounded impossibility result is established without completing the broader target. The repository reports an edge lemma and Gram-kernel dichotomy that rule out unconditional benefit from out-of-band positivity inside a specified definite-Gram certificate class. The public row excludes a general impossibility claim and any stronger zeta-zero bound.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The material argument forms are supported as follows: The repository reports an edge lemma and Gram-kernel dichotomy that rule out unconditional benefit from out-of-band positivity inside a specified definite-Gram certificate class. The public row excludes a general impossibility claim and any stronger zeta-zero bound.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The qualifying owner commit directly credits Claude Opus 5 as coauthor, but it does not reconstruct the human/model allocation for the edge lemma, certificate dichotomy or field-scope assertions.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1229",
+              "Daily20260906_1229_support_0"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1229",
+              "Daily20260906_1229_support_0"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1229",
+              "Daily20260906_1229_support_0"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The qualifying owner commit directly credits Claude Opus 5 as coauthor, but it does not reconstruct the human/model allocation for the edge lemma, certificate dichotomy or field-scope assertions.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "The same repository reports 23 guards and a later paper-scope reading, but no independently attributable mathematical review, formal proof or replayable event was established. This automation executed nothing."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The repository reports an edge lemma and Gram-kernel dichotomy implying that, in the specified Weil-Hermitian-form and definite-Gram certificate class, out-of-band positivity contributes no unconditional improvement and bandwidth one is forced. It does not establish a stronger zeta-zero bound, and its field-wide generalization is not independently verified.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20260906_1229",
+          "Daily20260906_1229_support_0"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The certificate-class ceiling is identified, but no independently dated prior target history is coded.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The source reports a negative method-class result whose completeness and novelty remain under review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The row is confined to a specified definite-Gram certificate class; the broader field-wide assertion is not adopted.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "No strict-policy resistance score is assigned without external history and scope review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No elapsed-time override is assigned in this refresh.",
+        "evidenceSourceIds": [
+          "Daily20260906_1229",
+          "Daily20260906_1229_support_0"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20260906_1229",
+          "Daily20260906_1229_support_0"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20260906_1229",
+            "Daily20260906_1229_support_0"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-09-06",
+      "confidence": "low",
+      "rationale": "A dated owner commit supplies a bounded negative method-class result and direct Claude coauthorship; conservative wording avoids the source's unsupported field-wide generalization.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Obtain independent analytic-number-theory and functional-analysis review of the edge lemma and dichotomy, the compression-to-Gram step, and the prime-side and zero-side no-upper-bound steps; verify the exact method-class scope, novelty and the repository's broader assertion about every relevant unconditional argument; do not promote this to a general impossibility theorem or a stronger zeta-zero bound; formalize or independently replay the argument if an artifact becomes available. No external mathematical review is recorded. Keep provisional, reviewStatus unreviewed and no Superhuman override; no proof artifact was executed. Date basis: first qualifying owner commit on 2026-09-06."
+    }
+  },
+  "1230": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-1230",
+    "sourceIncludedId": "1230",
+    "claim": "The repository reports, for the real primitive nonprincipal character chi modulo 3, an exact Wronskian decomposition; that both W(N) and T(N)-I(N) are O(N^(Theta+Theta_chi) log^4 N) unconditionally; and that E(N)=Omega(N^(1+2 max(Theta,Theta_chi)-epsilon)) along an unbounded sequence. Under RH for both zeta and L(s,chi), it reports T(N)=I(N)+O(N log^4 N). A later same-repository referee pass retained these bounds after repairs while withdrawing unproved equivalence, optimality and opposite-ordinate assertions.",
+    "sources": [
+      {
+        "sourceId": "Daily20260906_1230",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Character-weighted prime-pair Wronskian bounds",
+        "url": "https://github.com/teal-sea/zeta-lab/commit/37c2a53a42697d26eff51acd6f91b8e434a9943b",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20260906_1230_support_0",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Character-weighted prime-pair Wronskian bounds — repaired referee pass",
+        "url": "https://github.com/teal-sea/zeta-lab/commit/235ec137a119e6ce7247472087e09801edf9fb18",
+        "accessed": "2026-09-06",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "classified",
+        "scheme": "MSC",
+        "schemeVersion": "MSC2020",
+        "primaryPath": [
+          {
+            "code": "11",
+            "label": "Number theory"
+          },
+          {
+            "code": "11M",
+            "label": "Zeta and L-functions: analytic theory"
+          },
+          {
+            "code": "11M26",
+            "label": "Nonreal zeros of zeta-functions and L-functions; Riemann and other hypotheses"
+          }
+        ],
+        "secondaryPaths": [],
+        "rationale": "The result derives prime-pair error terms and lower bounds from zeros of the Riemann zeta function and a primitive Dirichlet L-function.",
+        "evidenceSourceIds": [
+          "Daily20260906_1230",
+          "Daily20260906_1230_support_0"
+        ],
+        "confidence": "high"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The repository reports, for the real primitive nonprincipal character chi modulo 3, an exact Wronskian decomposition; that both W(N) and T(N)-I(N) are O(N^(Theta+Theta_chi) log^4 N) unconditionally; and that E(N)=Omega(N^(1+2 max(Theta,Theta_chi)-epsilon)) along an unbounded sequence. Under RH for both zeta and L(s,chi), it reports T(N)=I(N)+O(N log^4 N). A later same-repository referee pass retained these bounds after repairs while withdrawing unproved equivalence, optimality and opposite-ordinate assertions.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "medium"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "frontier_moved",
+          "rationale": "The reported bound or algorithm is established affirmatively and moves the quantitative frontier. The repository reports an exact Wronskian decomposition, unconditional zero-supremum upper and lower bounds, and an RH-conditional O(N log^4 N) estimate. The later referee pass withdraws stronger equivalence, optimality and opposite-ordinate assertions, which are excluded from the row.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "medium"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [
+            "R3-REDUCTION-OR-CHARACTERISATION"
+          ],
+          "rationale": "The material argument forms are supported as follows: The repository reports an exact Wronskian decomposition, unconditional zero-supremum upper and lower bounds, and an RH-conditional O(N log^4 N) estimate. The later referee pass withdraws stronger equivalence, optimality and opposite-ordinate assertions, which are excluded from the row.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "medium"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The first theorem commit directly credits Claude Fable 5.1 as coauthor, but the exact human/Claude allocation for the identities, analytic proof and numerical checks is not reported.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1230",
+              "Daily20260906_1230_support_0"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20260906_1230",
+              "Daily20260906_1230_support_0"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20260906_1230",
+              "Daily20260906_1230_support_0"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The first theorem commit directly credits Claude Fable 5.1 as coauthor, but the exact human/Claude allocation for the identities, analytic proof and numerical checks is not reported.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-1230-1",
+          "familyId": "VF-INTERNAL",
+          "methodId": "VM-INTERNAL-DIFFERENT-MODEL-CHECK",
+          "target": "The repaired Theorem A and Theorem B bounds and their supporting analytic steps",
+          "verifier": "Source-reported same-repository referee pass",
+          "independence": "unknown",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "The referee pass retained the bounded upper and lower claims after repairs and withdrew stronger assertions; reviewer identity and independence are not established.",
+            "evidenceSourceIds": [
+              "Daily20260906_1230",
+              "Daily20260906_1230_support_0"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-09-06",
+          "assumptions": [
+            "RH for both zeta and L(s,chi) only for the conditional T(N)=I(N)+O(N log^4 N) consequence"
+          ],
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ],
+          "notes": "This is described by the source as an independent written-proof audit, but it is not external endorsement, formal verification or a kernel check. The automation did not execute the finite tests."
+        }
+      ],
+      "replayedHere": false
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The repository reports, for the real primitive nonprincipal character chi modulo 3, an exact Wronskian decomposition; that both W(N) and T(N)-I(N) are O(N^(Theta+Theta_chi) log^4 N) unconditionally; and that E(N)=Omega(N^(1+2 max(Theta,Theta_chi)-epsilon)) along an unbounded sequence. Under RH for both zeta and L(s,chi), it reports T(N)=I(N)+O(N log^4 N). A later same-repository referee pass retained these bounds after repairs while withdrawing unproved equivalence, optimality and opposite-ordinate assertions.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20260906_1230",
+          "Daily20260906_1230_support_0"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The source compares related prime-pair literature, but a complete priority and target-history audit remains open.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The retained bounds are source-reported advances after stronger claims were withdrawn.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "The claim is uniform in N with an unbounded-sequence lower bound and a conditional RH consequence, but exact literature overlap needs review.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "No strict-policy resistance score is assigned without an independent analytic-number-theory audit.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "No elapsed-time override is assigned in this refresh.",
+        "evidenceSourceIds": [
+          "Daily20260906_1230",
+          "Daily20260906_1230_support_0"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20260906_1230",
+          "Daily20260906_1230_support_0"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20260906_1230",
+            "Daily20260906_1230_support_0"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-09-06",
+      "confidence": "low",
+      "rationale": "Dated owner commits supply identifiable bounded results, direct Claude coauthorship and a repair history. The public row adopts only claims retained after the same-repository referee pass.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Obtain independent analytic-number-theory review of the repaired Perron endpoints, local logarithmic-derivative estimates, double-zero kernel and Omega-sequence argument; verify that all referee corrections are reflected in the retained theorems; independently replay the finite identities and numerical tests; audit priority against Bhowmik-Halupczok-Matsumoto-Suzuki, Languasco-Zaccagnini, Goldston-Yang and related work; and establish the referee's identity and independence. The source calls the same-repository referee pass a written-proof audit, not external endorsement or formal or kernel verification. Keep provisional, reviewStatus unreviewed and no Superhuman override; no proof artifact was executed. Date basis: first theorem commit on 2026-09-06."
     }
   }
 }

@@ -932,6 +932,16 @@
       ]
     },
     {
+      "id": "537",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Obtain independent mathematical review of the four Version 4 theorem families, check novelty and exact statement-to-source correspondence, and replay the registered Lean package and mechanical report rather than treating registry verification as independent proof validation."
+      ]
+    },
+    {
       "id": "574",
       "category": "Superhuman",
       "confidence": "high",
@@ -1188,6 +1198,61 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "1226",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Independently check the all-prime-power lower bound, the large-prime upper-bound scope, the exact dependence on Pohoata's dimension-two construction, novelty of the higher-dimensional extension, and correspondence between the prose statements and the Lean development.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1227",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Determine the exact theorem-level roles of Claude Fable 5 and GPT-5.6 Sol Pro; obtain specialist review of correctness and novelty, check the natural-versus-real rank formulations and dependencies, verify paper-to-Lean correspondence, and independently replay the formal development.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1228",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Obtain independent set-theory and measure-theory review; verify novelty of the positive transfer, the omega2-versus-c-plus and ZFC-axiom formulations, the Boolean-valued-model and completeness bridge, correspondence of all seven Lean targets, and a clean replay while distinguishing the known closed-set and negative-consistency components."
+      ]
+    },
+    {
+      "id": "1229",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Obtain specialist review of the edge lemma, dichotomy, compression step and no-upper-bound conclusion; establish whether the specified certificate class is complete for the claimed scope, check novelty, prevent promotion to a general zeta impossibility result, and formalize or independently replay the proof.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1230",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Obtain specialist review of the repaired Perron endpoints, logarithmic derivatives, double-zero handling and omega argument; verify that all corrections survive, replay the finite checks, establish priority against the literature, determine the referee's identity and independence, and map the exact human-versus-AI allocation.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
       ]
     },
     {
@@ -4171,16 +4236,6 @@
       "category": "Difficult",
       "confidence": "low",
       "placement": "tentative",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "537",
-      "category": "Difficult",
-      "confidence": "medium",
-      "placement": "best-estimate",
       "priority": 3,
       "reasons": [
         "AI contribution not established"
@@ -10452,16 +10507,6 @@
       "priority": 3,
       "reasons": [
         "Insufficient claim detail",
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "1226",
-      "category": "Difficult",
-      "confidence": "low",
-      "placement": "tentative",
-      "priority": 3,
-      "reasons": [
         "AI contribution not established"
       ]
     },
