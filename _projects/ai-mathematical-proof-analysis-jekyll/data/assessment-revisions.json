@@ -93912,5 +93912,283 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-09-06",
+    "snapshotHash": "dfe0beba043c8210691b5c94f908452f24d3ba9a856de594482c244c13eb4860",
+    "changes": [
+      {
+        "id": "537",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Almost-all descent to polylogarithmic size in ordinary natural density, with quantitative step and exceptional-set bounds, is a strong distributional Collatz claim beyond finite trajectory checking. The selected theorem surface is substantial even though it does not solve the pointwise conjecture.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists obtaining uniform density and exceptional-set control of shortcut-Collatz trajectories.",
+          "sourceHash": "62175bc3388d06d9792a3cd47a9d47914d70082c58aa6a1982ddd3d977c19b4b",
+          "assessedAt": "2026-09-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Author-owned metadata says Codex materially assisted proof-interface testing, Lean proof construction, diagnostics, dependency-cone extraction, migration, and theorem-surface auditing under author direction. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-02",
+            "reportedDate": "2026-08-17",
+            "dateBasis": "firstPublicDate",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Version 4's four registered theorem families strengthen the quantitative height, clock, exponent and exceptional-set surface for almost-all shortcut-Collatz descent. That is substantial distributional progress beyond finite trajectory checking, while the package still does not solve the pointwise Collatz conjecture and has not received independent mathematical review.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists obtaining uniform density and exceptional-set control of shortcut-Collatz trajectories.",
+          "sourceHash": "b5bc200dac9e6417c8f97ea41a386010d4eadf2415b832c0d0309994ba05fc7e",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Obtain independent mathematical review of the four Version 4 theorem families, check novelty and exact statement-to-source correspondence, and replay the registered Lean package and mechanical report rather than treating registry verification as independent proof validation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The Version 4 source reports that Codex materially assisted proof exploration, Lean construction and validation under the author's direction. This supports shared reported mathematical work, not independent reconstruction of step-level ownership, autonomous proof generation or external verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-02",
+            "reportedDate": "2026-08-17",
+            "dateBasis": "firstPublicDate",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "811",
+        "from": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The report connects the advance to existing research (extends): The source reports symbolic-dynamics, pressure and covering criteria for the problem and proves non-equidistribution for the quadratic values alpha=2+sqrt(5) and alpha=2+sqrt(3). It does … This provisionally fits specialist-human research within the stated baseline; it need not be easy or unimportant.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "2e43b7943749ca8e106bdf49b6d067b2acc076170454290d2978ee7b9605a7b6",
+          "assessedAt": "2026-09-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Pinned metadata says Claude Opus 5 wrote the mathematical Lean development and Claude Fable 5 wrote the informal notes under Ralf Stephan's turn-by-turn direction; the releaser cannot reconstruct or endorse the informal arguments and the Challenge surface is the record. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-08-31",
+            "reportedDate": "2026-08-29",
+            "dateBasis": "firstPublicDate",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The report connects the advance to existing research (extends): The source reports symbolic-dynamics, pressure and covering criteria for the problem and proves non-equidistribution for the quadratic values alpha=2+sqrt(5) and alpha=2+sqrt(3). It does … This provisionally fits specialist-human research within the stated baseline; it need not be easy or unimportant.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "d5ac87e7a7dd937bdb2d924d71f12bb4eb551f9faaf2e2b064d258f5d971ee86",
+          "assessedAt": "2026-09-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Pinned metadata says Claude Opus 5 wrote the mathematical Lean development and Claude Fable 5 wrote the informal notes under Ralf Stephan's turn-by-turn direction; the releaser cannot reconstruct or endorse the informal arguments and the Challenge surface is the record. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-08-31",
+            "reportedDate": "2026-08-29",
+            "dateBasis": "firstPublicDate",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1226",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The claimed sharp prime-field Nikodym complement exponent with nearly matching constructions is potentially a substantial incidence-geometry advance. Large agent-authored Lean output and missing human exposition do not establish superhuman capability, and important prime-field/prime-power scope and correspondence questions remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Finite-field incidence-geometry specialists seeking matching exponents using prior Chao-Yu and Hunter-Pohoata-Verstraete-Zhang results; no matched human resource or timing baseline is reported.",
+          "sourceHash": "99753cd06e1cda2ee9deccec2ca5ea6cdbb28ca212445fe5ee59bbbab4148039",
+          "assessedAt": "2026-09-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The pinned owner README credits GPT-5.6 and GPT-6 Astra with mathematical ideation, and Claude Fable 5.1 and Grok 4.6 with formalization. The metadata attributes essentially all approximately 15,000 Lean proof lines to agents; the human-readable exposition is still being prepared. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-06",
+            "dateBasis": "First registered on 6 September; earlier mathematical priority is not asserted.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The claimed all-prime-power lower bound and nearly matching higher-dimensional construction are potentially a substantial incidence-geometry advance. The owner's new prior-art note says Pohoata essentially supplied the two-dimensional construction, so the retained construction novelty is confined to the higher-dimensional extension. Large agent-authored Lean output and missing human exposition do not establish superhuman capability.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Finite-field incidence-geometry specialists extending the Pohoata two-dimensional construction and seeking matching exponents using the prior Chao-Yu and Hunter-Pohoata-Verstraete-Zhang results; no matched human resource or timing baseline is reported.",
+          "sourceHash": "8c5cbc4821e683abd3a23319954627eb36328e9f104c8a65bccc192aeab5b880",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Independently check the all-prime-power lower bound, the large-prime upper-bound scope, the exact dependence on Pohoata's dimension-two construction, novelty of the higher-dimensional extension, and correspondence between the prose statements and the Lean development.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The pinned owner README credits GPT-5.6 and GPT-6 Astra with mathematical ideation, and Claude Fable 5.1 and Grok 4.6 with formalization. The metadata attributes essentially all approximately 15,000 Lean proof lines to agents; the human-readable exposition is still being prepared. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-06",
+            "dateBasis": "First registered on 6 September; earlier mathematical priority is not asserted.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1227",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Proving the Regts-Sevenster characterization of exponentially bounded edge-connection rank by mixed partition functions, with explicit colour bounds and related growth and minimality results, is a substantive graph-parameter classification. The paper itself reports extensive AI use, but the exact theorem-level allocation and paper-to-Lean correspondence are not yet established.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Graph-polynomial and graph-parameter specialists proving the Regts-Sevenster characterization and its quantitative refinements.",
+          "sourceHash": "c6aa0c3ff3d14922314d2dc77a39c2c6130cbfbca471e3de74ca13a2ecca8aee",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Determine the exact theorem-level roles of Claude Fable 5 and GPT-5.6 Sol Pro; obtain specialist review of correctness and novelty, check the natural-versus-real rank formulations and dependencies, verify paper-to-Lean correspondence, and independently replay the formal development.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, without assigning particular mathematical steps. The owner formalization metadata separately reports Claude Fable 5, Claude Opus 5 and GPT-6 Astra in a human-directed multi-agent Lean workflow. The exact model-to-theorem allocation remains unresolved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-07-29",
+            "dateBasis": "The first public arXiv version dated 29 July contains both the theorem-level result and the paper's direct acknowledgement of extensive Claude Fable 5 and GPT-5.6 Sol Pro use.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "1228",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a relative-independence resolution of the first question in Erdos Problem 501, with the missing positive random-real transfer argument attributed to GPT-5.6 Sol and a seven-target Lean development attributed to Claude models under human direction. The set-theoretic transfer and formal statement correspondence are non-routine, while the known closed-set and negative-consistency inputs must remain distinct.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Set theorists and measure theorists proving the positive random-real transfer and formal-methods specialists encoding the relative-consistency argument.",
+          "sourceHash": "ed056f153d8ad8a35dcaf8fa15abf6de4ad0f91e6ffc190bb56042c096fe9b66",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Obtain independent set-theory and measure-theory review; verify novelty of the positive transfer, the omega2-versus-c-plus and ZFC-axiom formulations, the Boolean-valued-model and completeness bridge, correspondence of all seven Lean targets, and a clean replay while distinguishing the known closed-set and negative-consistency components.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner sources attribute the missing positive random-real transfer argument to GPT-5.6 Sol and every Lean line to Claude Fable 5 and Opus 4.8, while Elliot Glazer selected and directed the route and retained responsibility for the result. This supports shared reported mathematical work without independently reconstructing exact step ownership or verifying the proof."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-08-17",
+            "dateBasis": "The pinned 17 August owner-repository commit is the first located public source carrying both the result and explicit AI coauthorship; the more specific model-role disclosure followed on 19 August.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "1229",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Within the narrowly specified Weil-Hermitian-form and definite-Gram certificate class, the repository's edge lemma and dichotomy are a plausible specialist method-limit result. The source does not establish a stronger zeta bound or a general impossibility theorem, and it supplies no independent or formal verification.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Analytic-number-theory or semidefinite-certificate specialists auditing positivity constraints in the stated finite certificate class.",
+          "sourceHash": "573cb9df551889a3dde0f07e5de6d9c174c55b30d6e6f01ce46ff309ac22732c",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Obtain specialist review of the edge lemma, dichotomy, compression step and no-upper-bound conclusion; establish whether the specified certificate class is complete for the claimed scope, check novelty, prevent promotion to a general zeta impossibility result, and formalize or independently replay the proof.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The qualifying owner commit directly credits Claude Opus 5 as coauthor, but it does not reconstruct the human/model allocation for the edge lemma, certificate dichotomy or field-scope assertions."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-06",
+            "dateBasis": "The pinned owner-repository commit dated 6 September is the first located public source for the bounded definite-Gram certificate result and names Claude Opus 5 as a coauthor.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1230",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The repaired character-weighted prime-pair Wronskian decomposition retains exact conditional and unconditional estimates and an omega lower bound along an unbounded sequence. Establishing those analytic statements is non-routine, but the source is an owner repository with a same-repository referee pass and explicitly withdraws stronger earlier claims.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists deriving explicit-formula Wronskian estimates for zeta and Dirichlet L-functions under the stated zero-abscissa hypotheses.",
+          "sourceHash": "482250e178713a19947475dafcaf5d04a375c1a25854455bd27e9d841a89c114",
+          "assessedAt": "2026-09-06",
+          "inclusionConcern": "Obtain specialist review of the repaired Perron endpoints, logarithmic derivatives, double-zero handling and omega argument; verify that all corrections survive, replay the finite checks, establish priority against the literature, determine the referee's identity and independence, and map the exact human-versus-AI allocation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The first theorem commit directly credits Claude Fable 5.1 as coauthor, but the exact human/Claude allocation for the identities, analytic proof and numerical checks is not reported."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-06",
+            "dateBasis": "The pinned owner-repository theorem commit dated 6 September is the first located public source for the character-weighted Wronskian result and names Claude Fable 5.1 as a coauthor.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

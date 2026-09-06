@@ -7169,8 +7169,14 @@
     {
       "key": "Refresh20260906_537_support_0",
       "title": "Polylogarithmic Descent for Almost All Collatz Orbits in Natural Density — supporting source",
-      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-26-000005-v3.json",
-      "accessed": "2026-09-02"
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-26-000005-v4.json",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_537_v4",
+      "title": "Polylogarithmic Descent for Almost All Collatz Orbits in Natural Density — Version 4 manuscript",
+      "url": "https://doi.org/10.5281/zenodo.22525724",
+      "accessed": "2026-09-06"
     }
   ],
   "538": [
@@ -9738,9 +9744,9 @@
     },
     {
       "key": "Refresh20260906_811_support_0",
-      "title": "AI-generated criteria for Bugeaud Problem 10.61 and two quadratic instances — supporting source",
-      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-31-000013-v1.json",
-      "accessed": "2026-08-31"
+      "title": "Lean formalization toward Bugeaud Problem 10.61 — supporting source",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-31-000013-v2.json",
+      "accessed": "2026-09-06"
     }
   ],
   "812": [
@@ -13498,6 +13504,92 @@
       "key": "Refresh20260906_1226_support_0",
       "title": "The sharp finite-field Nikodym exponent — supporting source",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-06-000002-v1.json",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1226_revision",
+      "title": "The sharp finite-field Nikodym exponent — 6 September prior-art revision",
+      "url": "https://github.com/ShengtongZhang-alt/Nikodym/commit/794c26d6d7c1138e4e2fd92d3e7d369493d11766",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1226_pohoata",
+      "title": "The sharp exponent for the minimal distance problem",
+      "url": "https://arxiv.org/abs/2607.20422",
+      "accessed": "2026-09-06"
+    }
+  ],
+  "1227": [
+    {
+      "key": "Daily20260906_1227",
+      "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank",
+      "url": "https://arxiv.org/abs/2607.27198v1",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1227_current",
+      "title": "Mixed partition functions are exactly the graph parameters of exponentially bounded edge-connection rank — current paper",
+      "url": "https://arxiv.org/abs/2607.27198v2",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1227_support_0",
+      "title": "A proof of the Regts–Sevenster conjecture, formalized — owner source",
+      "url": "https://github.com/WillWhistler/Regts-Sevenster/commit/bb0a60543d48afac3f36938104b5c85c7c0396c7",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1227_support_1",
+      "title": "A proof of the Regts–Sevenster conjecture, formalized — Palomar v2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000003-v2.json",
+      "accessed": "2026-09-06"
+    }
+  ],
+  "1228": [
+    {
+      "key": "Daily20260906_1228",
+      "title": "Erdos Problem #501 in Lean 4: independence of the first question",
+      "url": "https://github.com/elliotglazer/erdos501/commit/6635e91a64d431c9de74a744db360bb6357c7077",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1228_support_0",
+      "title": "Erdos Problem #501 — model and contribution disclosure",
+      "url": "https://github.com/elliotglazer/erdos501/commit/da2d4c5a3efcd5693c7ce91375bff19f7a94f46d",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1228_support_1",
+      "title": "Erdos Problem #501 in Lean 4 — Palomar v3",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000002-v3.json",
+      "accessed": "2026-09-06"
+    }
+  ],
+  "1229": [
+    {
+      "key": "Daily20260906_1229",
+      "title": "Out-of-band positivity ceiling for Weil-form Gram certificates",
+      "url": "https://github.com/teal-sea/zeta-lab/commit/4b26afc4f6dd2c6d106fad5a2ec9acb48eb75e47",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1229_support_0",
+      "title": "Out-of-band positivity ceiling — full-paper scope check",
+      "url": "https://github.com/teal-sea/zeta-lab/commit/ca09b72e0a38f71937829809a11c59e720d4bf07",
+      "accessed": "2026-09-06"
+    }
+  ],
+  "1230": [
+    {
+      "key": "Daily20260906_1230",
+      "title": "Character-weighted prime-pair Wronskian bounds",
+      "url": "https://github.com/teal-sea/zeta-lab/commit/37c2a53a42697d26eff51acd6f91b8e434a9943b",
+      "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260906_1230_support_0",
+      "title": "Character-weighted prime-pair Wronskian bounds — repaired referee pass",
+      "url": "https://github.com/teal-sea/zeta-lab/commit/235ec137a119e6ce7247472087e09801edf9fb18",
       "accessed": "2026-09-06"
     }
   ]

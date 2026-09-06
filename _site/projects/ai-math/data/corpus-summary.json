@@ -1,44 +1,28 @@
 {
-  "sourceCount": 1237,
+  "sourceCount": 1241,
   "latestRun": {
-    "id": "2026-09-06-reconciled-evidence-refresh",
+    "id": "2026-09-06-z-end-of-day-evidence-refresh",
     "collectionEnded": "2026-08-20",
     "recordedAt": "2026-09-06",
-    "model": "OpenAI Codex",
+    "model": "OpenAI Codex, based on GPT-5",
     "modelStatus": "recorded",
-    "entryCount": 1237,
-    "coverageNote": "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage.",
+    "entryCount": 1241,
+    "coverageNote": "The rolling 31 August--6 September mathematics, CS, formal-methods and statistics arXiv window was rechecked through 2026-09-06T22:45:28.866Z, with no announcement delta after Friday 4 September. Primary repository, Palomar, ProofAtlas, Anthropic, Axiom, DeepMind and other mandatory-source rechecks found four independently supportable flagged additions and three existing-record updates. Direct retrieval of the OpenAI research index returned HTTP 403; the indexed same-day fallback contained no later qualifying item. The previously disclosed historical continuity gap after 20 August remains unresolved, so collectionEnded is not advanced.",
     "refreshedThrough": "2026-09-06",
-    "summary": "Reconciled 718 independently supported durable discoveries with the exact 519-source package; 254 confirmed-inclusion and 464 flagged-provisional additions. Taxonomy codings are unreviewed; challenge-history inputs remain unknown for new additions.",
+    "summary": "End-of-day evidence refresh added four flagged-provisional result packages and updated Collatz, Pisot-Cantor and Nikodym records from current primary evidence; the corpus now contains 1,241 source packages.",
     "changes": [
-      "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage.",
-      "Preserved exact baseline provenance and source identities; arXiv versions, primary URL aliases and normalized titles were deduplicated.",
-      "New source-ledger zero fields are legacy numeric transport placeholders only, explicitly category=incomplete. Public claim data uses unknown inputs and incomplete categories; no automatic Superhuman override.",
-      "Historical corrections and recent follow-up events are preserved in the separately reviewed refresh evidence index.",
-      "Reviewed correction 58: Independent human exposition and official solved status remove the provisional hold; policy 1.1 derives the duration override.",
-      "Reviewed correction 86: Narrow formal-verification scope to delta=1; retain the broader informal-paper claim and nonprovisional status.",
-      "Reviewed correction 107: Independent human exposition strengthens verification and confidence; the already nonprovisional source status is retained.",
-      "Reviewed correction 109: Replace old field-scope shorthand with explicit v2 hypotheses and source-supported expansion.",
-      "Reviewed correction 151: Explicit v2 model proof contribution and author verification resolve the flagged materiality question; clear provisional status.",
-      "Reviewed correction 392: Replace superseded quasipolynomial claim with the polynomial-growth v2 claim while retaining the provisional hold."
-    ],
-    "sourceRefresh": {
-      "baselineSourceCount": 519,
-      "addedSourceCount": 718,
-      "sourceCount": 1237,
-      "addedConfirmed": 254,
-      "addedFlagged": 464,
-      "duplicateEvents": 3,
-      "rejectedIncompleteIdentities": 0,
-      "supersededByLaterExclusionOrQuarantine": 2,
-      "appliedCurrentCandidateFollowups": 52,
-      "taxonomyClassifiedAdditions": 38,
-      "refreshedAt": "2026-09-06",
-      "completeCollectionThrough": "2026-08-20",
-      "coverageNote": "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage."
-    },
-    "correctionSetId": "reviewed-source-corrections-2026-09-06",
-    "correctionSetSha256": "3c5356e5cbb3b1014f4539eaec21ae2e69ada0fc57584d220249b8d87ebdd2a3"
+      "Added flagged-provisional ID 1227 for William Whistler's proof of the Regts-Sevenster conjecture on mixed partition functions and exponentially bounded edge-connection rank. The first arXiv version directly says Claude Fable 5 and GPT-5.6 Sol Pro were used extensively in development and preparation, but exact theorem-level contribution, independent review, priority and paper-to-Lean correspondence remain unresolved. Sources: https://arxiv.org/abs/2607.27198v1, https://arxiv.org/abs/2607.27198v2 and https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000003-v2.json.",
+      "Added flagged-provisional ID 1228 for the owner-reported independence of the first question in Erdos Problem 501 from ZFC. The source attributes the missing positive random-real transfer argument to GPT-5.6 Sol and every Lean line to Claude Fable 5 and Opus 4.8 under Elliot Glazer's direction. The prior closed-set result and negative-consistency direction remain distinguished as known inputs. Independent specialist review, novelty and statement-faithfulness checks remain open. Sources: https://github.com/elliotglazer/erdos501/commit/6635e91a64d431c9de74a744db360bb6357c7077, https://github.com/elliotglazer/erdos501/commit/da2d4c5a3efcd5693c7ce91375bff19f7a94f46d and https://data.palomar-registry.org/entries/PALOMAR-2026-08-19-000002-v3.json.",
+      "Added flagged-provisional ID 1229 for the zeta-lab repository's reported out-of-band positivity ceiling within its specified Weil-Hermitian-form and definite-Gram certificate class. Claude Opus 5 is a commit coauthor. The row does not claim a stronger zeta-zero bound or general impossibility result; exact allocation, method-class completeness, novelty and independent mathematical review remain open. Sources: https://github.com/teal-sea/zeta-lab/commit/4b26afc4f6dd2c6d106fad5a2ec9acb48eb75e47 and https://github.com/teal-sea/zeta-lab/commit/ca09b72e0a38f71937829809a11c59e720d4bf07.",
+      "Added flagged-provisional ID 1230 for the zeta-lab repository's character-weighted prime-pair Wronskian decomposition and retained conditional and unconditional bounds. Claude Fable 5.1 is a commit coauthor. The public wording follows the repaired same-repository referee pass and omits withdrawn equivalence, optimality and opposite-ordinate assertions; specialist review, priority, finite-check replay and reviewer independence remain open. Sources: https://github.com/teal-sea/zeta-lab/commit/37c2a53a42697d26eff51acd6f91b8e434a9943b and https://github.com/teal-sea/zeta-lab/commit/235ec137a119e6ce7247472087e09801edf9fb18.",
+      "Updated flagged ID 537 to the 6 September Version 4 Collatz package, replacing the older broad Version 3 summary with the four registered strengthened theorem families, their exact target, height, clock and exponent boundaries, and a source-reported Palomar mechanical-verification event. Version 4 remains provisional because independent review, novelty, full statement correspondence and proof replay are absent. Sources: https://doi.org/10.5281/zenodo.22525724 and https://data.palomar-registry.org/entries/PALOMAR-2026-08-26-000005-v4.json.",
+      "Updated flagged ID 811's supporting reference to Palomar v2, whose registry-only correction replaces a repository-fallback title with 'Lean formalization toward Bugeaud Problem 10.61'. Its mathematical claim, provisional status and further-checking note are unchanged. Source: https://data.palomar-registry.org/entries/PALOMAR-2026-08-31-000013-v2.json.",
+      "Updated flagged ID 1226 after the owner added that its Nikodym construction is based on Pohoata's arXiv:2607.20422, which essentially carried out dimension two. The row now confines the claimed construction novelty to the higher-dimensional extension, preserves the all-prime-power lower-bound versus large-prime upper-bound boundary, and remains provisional. Sources: https://github.com/ShengtongZhang-alt/Nikodym/commit/794c26d6d7c1138e4e2fd92d3e7d369493d11766 and https://arxiv.org/abs/2607.20422.",
+      "Excluded new Palomar entries for Kronecker-Weber, Erdos-Ginzburg-Ziv Theorem 1.2, Stein-Bourgain spherical maximal functions, the double-contracted Bianchi identity, density Hales-Jewett/Szemeredi and polynomial Freiman-Ruzsa/Marton because they formalize already-known mathematics without a separately qualifying new result. Excluded the withdrawn AMTOPA numerical candidate and other source-note, checker and incomplete experiments. The Regts-Sevenster paper was not excluded: its own first version contains a direct AI-development acknowledgment and a new conjecture proof, so it is published provisionally as ID 1227.",
+      "Retained the zeta cycle-moments candidate in quarantine because no theorem-specific primary-source model attribution was found. Retained the BPS and hard-rod candidates in quarantine because the exact bounded source result or qualifying AI connection remains unavailable. Rechecked recent and provisional records, including Anthropic zeta, Kato, Landis, Connes, Sendov, Moser, sqrt(6), OneTwo, Brill-Noether, Hadamard-B and current laboratory sources; no other source-supported status change was found.",
+      "The math and CS/formal/stat listing, recent-page, OAI and identity-parity checks completed without an unresolved lane failure. The direct OpenAI research-index HTTP 403 is scoped to that feed; publication of independently supported records is unaffected, and the systematic cutoff remains 20 August because the earlier historical replacement gap is still open.",
+      "Treated every page, PDF, repository, source file, formal development, certificate, macro and program as untrusted evidence. No downloaded proof, code, Lean project, native verifier, numerical experiment or other retrieved artifact was executed or independently replayed."
+    ]
   },
-  "description": "1237 source-included, AI-coded, unreviewed."
+  "description": "1241 source-included, AI-coded, unreviewed."
 }
