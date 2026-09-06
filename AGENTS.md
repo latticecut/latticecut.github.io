@@ -17,8 +17,13 @@ redesign the parent site or other projects. The user confirmed these on
   data and established blue / purple / pale-purple colours. Count each claim
   once, use the default evidence filters, and preserve monthly ordering and
   empty slots. Never invent lift or change classifications for appearance.
-- Preserve the full six-band controls, axes and explanations in the dashboard.
+- Preserve the full six-band controls, axes and concise help in the dashboard.
   Repeated controls must retain shared totals and selection state.
+- Show data first. Collect general disclaimers, coverage caveats, detailed chart
+  qualifications, taxonomy guidance and methodology in bottom Notes and
+  limitations, after evidence, downloads and the analysis log. Keep concise
+  operational labels and per-record assurance/evidence flags in context.
+  Move general caveats; do not hide or discard them.
 - Preserve these rules during daily data refreshes. Change the authoring source
   and generator, not only generated images or compiled assets; keep regression
   checks for the title and unannotated hero.
