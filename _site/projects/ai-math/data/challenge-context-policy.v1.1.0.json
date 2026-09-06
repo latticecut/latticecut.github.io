@@ -1,0 +1,107 @@
+{
+  "policyId": "mathematics-progress-challenge-context",
+  "version": "1.1.0",
+  "taxonomyVersion": "0.2.0",
+  "issued": "2026-08-22",
+  "supersedes": "1.0.0",
+  "applicationScope": "Active for taxonomy v0.2.0 result records. Legacy aggregate CSVs and policy-1.0.0 categories remain source-history fields only; current categories must be re-derived under this policy.",
+  "name": "Hybrid research-challenge metric",
+  "purpose": "A transparent indicator of documented prior status, scale of advance, scope and demonstrated resistance. It is not an intrinsic difficulty, assurance or mathematical-importance score.",
+  "formula": "D = P + A + S + R",
+  "range": { "minimum": 0, "maximum": 5 },
+  "inputs": {
+    "priorTarget": {
+      "symbol": "P",
+      "allowed": [0, 1],
+      "definition": "The exact question, conjecture, record or quantitative frontier is documented in a source predating the AI work.",
+      "coding": {
+        "0": "No qualifying prior target is established by the coded evidence.",
+        "1": "A qualifying prior target is established by at least one cited predating source."
+      }
+    },
+    "advance": {
+      "symbol": "A",
+      "allowed": [0, 1, 2],
+      "definition": "The mathematical advance relative to the anchor claim.",
+      "coding": {
+        "0": "Narrow or unquantified extension.",
+        "1": "Material improvement, new theorem, construction, counterexample or substantial subcase without complete settlement of the anchor claim.",
+        "2": "Complete proof or disproof, classification, matching optimum, sharp endpoint or removal of the central condition for the anchor claim."
+      }
+    },
+    "scope": {
+      "symbol": "S",
+      "allowed": [0, 1],
+      "definition": "Whether the result is uniform or worst-case over an unbounded or genuinely general class.",
+      "coding": {
+        "0": "A fixed finite instance, narrow family or otherwise non-general scope.",
+        "1": "A uniform or worst-case result over an unbounded or genuinely general class."
+      }
+    },
+    "resistance": {
+      "symbol": "R",
+      "allowed": [0, 1],
+      "definition": "Demonstrated resistance of the exact target before the tracked solution.",
+      "coding": {
+        "0": "The coded evidence does not meet the resistance rule.",
+        "1": "At least two independent pre-solution attempts at the exact target, or a predeclared target-specific comparison with at least five independent runs or systems and no more than 20 percent success."
+      }
+    }
+  },
+  "missingness": {
+    "allowedStates": ["unknown", "not_reported", "not_applicable"],
+    "rule": "Missing or inapplicable inputs are never coerced to zero. If any P/A/S/R input is non-numeric, the derived score retains an explicit state using the precedence not_applicable, unknown, not_reported; baseCategory and category are exactly incomplete; and superhumanEligible is false. Missing dates or provisional status do not change a complete P/A/S/R base category, but they prevent the Superhuman override while their explicit states remain visible."
+  },
+  "baseCategories": [
+    { "label": "Expected", "minimumScore": 0, "maximumScore": 2 },
+    { "label": "Difficult", "minimumScore": 3, "maximumScore": 5 }
+  ],
+  "superhumanOverride": {
+    "label": "Superhuman",
+    "rationale": "An operational mathematical-history category for complete settlements of precisely documented, demonstrably resistant targets that remained open for at least a decade. A minimal passed-event evidence floor keeps an unverified source assertion from receiving the override; verification strength and review status remain independent assurance dimensions.",
+    "allRequired": [
+      "all P/A/S/R inputs are numeric",
+      "priorTarget equals 1",
+      "advance equals 2",
+      "resistance equals 1",
+      "R2 completeness is settled",
+      "the claim is explicitly non-provisional",
+      "at least 10.0 elapsed years separate documented precise framing and solution",
+      "at least one recorded verification event has outcome passed"
+    ],
+    "elapsedYears": {
+      "threshold": 10.0,
+      "calculation": "Use day difference divided by 365.2425 when both dates have day precision; use month difference divided by 12 when month is the coarsest precision; otherwise use the difference between recorded calendar years. Round to three decimal places.",
+      "note": "A year-precision value is a documented calendar-year gap, not a day-exact duration. Date precision remains visible in the record."
+    },
+    "categoryIndependence": {
+      "rule": "These fields remain evidence-backed and separately displayed. Beyond the minimal requirement that some recorded verification event passed, neither their presence nor their strength changes Expected, Difficult or Superhuman category eligibility.",
+      "fields": [
+        "exact-target correspondence",
+        "substantive prior-attempt count beyond the coded resistance input",
+        "verification independence, scope, correspondence, method strength and replay beyond the passed-event floor",
+        "second-coder review or adjudication"
+      ]
+    }
+  },
+  "completionEnvelope": {
+    "ruleVersion": "1.0.0",
+    "purpose": "Describe the set of final categories reachable if missing P/A/S/R evidence were later resolved, without replacing the stored missing values or changing the authoritative incomplete category.",
+    "appliesWhen": "At least one P/A/S/R value is unknown, not_reported or not_applicable.",
+    "enumerationRule": "For unknown and not_reported inputs, enumerate the full Cartesian product of the numeric domains declared by this policy while holding all recorded nonmissing inputs, R2, dates, provisional status and verification evidence fixed.",
+    "notApplicableRule": "If any missing input is not_applicable, resolution is structurally_incomplete, scoreRange is null, category sets are empty and completionInvariantCategory is null.",
+    "authoritativeCategoryRule": "The stored category remains incomplete until all P/A/S/R inputs have numeric evidence. The envelope is counterfactual and supplies neither an imputed value, a probability nor a confidence judgment.",
+    "resolutions": {
+      "completion_invariant": "Every enumerated numeric completion produces the same final category; that category is recorded in completionInvariantCategory without replacing category=incomplete.",
+      "ambiguous": "Enumerated numeric completions produce more than one final category; completionInvariantCategory is null.",
+      "structurally_incomplete": "At least one component is not applicable to the metric, so there is no numeric completion set."
+    }
+  },
+  "exclusions": [
+    "A passed verification event is a minimal evidence floor; verification method strength, independence, scope, correspondence and replay do not add points to D or otherwise block the Superhuman override.",
+    "Statement-correspondence confidence and review status remain visible assurance fields and do not block the Superhuman override.",
+    "AI autonomy does not add points to D.",
+    "Prestige, proof length and compute do not add points to D.",
+    "The Superhuman override is a policy category and is not evidence of intrinsic importance, formal correctness or universal superiority to humans."
+  ]
+}
