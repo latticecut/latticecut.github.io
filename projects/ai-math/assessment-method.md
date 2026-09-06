@@ -1,4 +1,4 @@
-# Proof of Progress: best-current assessment, version 1.1.0
+# Proof of Progress: best-current assessment, version 1.2.0
 
 This is a revisable AI assessment of human-comparison challenge, separate from
 the unchanged strict historical policy, AI contribution and proof verification.
@@ -28,8 +28,20 @@ state the target and historical comparison where the source supports them.
 
 Each record has a likely category, qualitative confidence, a reason, plausible
 alternatives, a comparator, source IDs, source hash, method and assessment date.
-High confidence concerns this judgment only. Medium/low confidence is shown as
-provisional; proof checks have their own unchanged evidence fields.
+Confidence concerns the difficulty judgment, not whether the mathematics is
+probably hallucinated. Medium and high confidence support a solid **Best
+estimate**; low confidence remains a lighter **Tentative placement**. The
+underlying confidence levels remain available as filters and in every record.
+
+Solid Superhuman additionally requires a source-specific report of material AI
+mathematics contributing to the qualifying frontier result: a proof, argument,
+counterexample, decisive idea or retained mathematical step. Human-directed or
+shared work qualifies; autonomy, independent verification and a timed human
+comparison are not required. Generic acknowledgements, proofreading and
+formalization after a completed human proof do not establish this contribution.
+When the AI role is unclear or ancillary to a different result, the AI-frontier
+placement remains tentative while the historical difficulty and its confidence
+are preserved. Proof checks retain their separate unchanged evidence fields.
 
 High confidence means clear target history and a reported complete settlement
 of that target. Medium means credible frontier evidence with substantive
@@ -87,6 +99,14 @@ retained source attributions labeled as reported. Human-led/AI-assisting and
 unknown allocation are separate. A title, bibliography, conference name or
 generic model mention is not evidence of a decisive AI contribution.
 
+Version 1.2.0 also recognizes 33 retained source-claimed autonomous attributions
+in the broad AI-led (reported) bucket. A separate source-pinned attribution
+overlay restores 129 original shared-work descriptions whose retained rationale
+is unchanged, excluding a superseded correction, plus three individual excerpt
+readings. These restorations are not 129 new source reviews. Source-specific
+frontier contribution readings take precedence where both exist. Original
+strict allocation codes are not rewritten; stale attribution pins enter review.
+
 Collection dates are earliest supported observations in retained evidence,
 not guaranteed first-ever discoveries. Backfill means collection month exceeds
 report month. Date uncertainty takes precedence for unresolved submission,
@@ -113,6 +133,17 @@ revision history records the old and new decisions. Proof-verification fields,
 strict historical classifications and source publication dates are unchanged.
 
 ## Refresh, selective review and revisions
+
+Version 1.2.0 changes the display threshold without manufacturing new confidence:
+Difficult becomes 192 best estimates and 200 tentative placements; Expected
+becomes 30 and 616. Individual source readings of all 108 current Superhuman
+claims identify 96 with reported material frontier contributions and 12 whose
+AI-frontier placement remains tentative (10 unclear, two supporting/ancillary
+to the frontier claim). These counts are outcomes, not calibration targets.
+The reviews are source-pinned in `assessments/frontier-contributions.json`;
+source changes invalidate them. Historical category, confidence, verification
+and strict classifications are unchanged. Display-placement changes are logged
+alongside category/confidence revisions.
 
 Every build runs the assessment generator before the hero and website build.
 New records receive triage automatically. Source-pinned individual judgments

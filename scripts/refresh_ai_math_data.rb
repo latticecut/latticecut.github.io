@@ -68,7 +68,15 @@ same_ids("Assessment CSV", assessment_rows.map { |row| row.fetch("id") }, record
 assessment_rows.each do |row|
   estimate = assessments.fetch("records").fetch(row.fetch("id"))
   raise "Assessment CSV mismatch" unless row.fetch("category") == estimate.fetch("category") && row.fetch("confidence") == estimate.fetch("confidence")
+  raise "Assessment placement mismatch" unless row.fetch("placement") == estimate.fetch("placement")
+  frontier = estimate.fetch("frontierContribution", {})
+  raise "Frontier contribution mismatch" unless row.fetch("frontier_ai_status") == frontier.fetch("status", "") && row.fetch("frontier_ai_rationale") == frontier.fetch("rationale", "")
 end
+band_for = lambda do |row|
+  row.fetch("category") == "Unassessed" ? "candidate:unresolved" : "#{row.fetch('placement') == 'best-estimate' ? 'assigned' : 'candidate'}:#{row.fetch('category')}"
+end
+bands = assessments.fetch("_meta").fetch("bandCounts")
+bands.each { |key, count| raise "Assessment band mismatch: #{key}" unless assessment_rows.count { |row| band_for.call(row) == key } == count }
 estimate_months = read_csv("assessment-monthly.csv")
 raise "Assessment monthly coverage mismatch" unless estimate_months.sum { |month| Integer(month.fetch("total"), 10) } == claims.length
 estimate_months.each do |month|
@@ -76,6 +84,9 @@ estimate_months.each do |month|
   raise "Assessment month mismatch" unless selected.length == Integer(month.fetch("total"), 10)
   %w[Expected Difficult Superhuman Unassessed].each do |category|
     raise "Assessment category mismatch" unless selected.count { |row| row.fetch("category") == category } == Integer(month.fetch(category.downcase), 10)
+  end
+  bands.each_key do |key|
+    raise "Assessment monthly band mismatch: #{key}" unless selected.count { |row| band_for.call(row) == key } == Integer(month.fetch(key), 10)
   end
 end
 claims.each do |row|

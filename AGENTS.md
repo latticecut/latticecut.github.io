@@ -40,8 +40,19 @@ historical policy selectable and proof verification independent. Include all
 review/verification states by default. Preserve the four Volume, Lift, AI
 contribution and Collection views, shared totals, source-pinned judgments,
 revision history and the rotating review queue. Hero blue now includes all
-Difficult estimates; purple/pale-purple distinguishes high-confidence and
-provisional Superhuman estimates. Keep its icon-like, unannotated style.
+Difficult estimates; purple/pale-purple distinguishes best-estimate and
+tentative Superhuman placements. Keep its icon-like, unannotated style.
+
+The approved display rule includes medium/high difficulty confidence in solid
+Best estimate bands; low confidence remains a lighter Tentative placement.
+Solid Superhuman additionally needs a source-specific report of material AI
+mathematics contributing to that frontier result. Human-directed and shared
+work qualify; autonomy, independent verification and timed human comparisons
+are not gates. Unclear or ancillary AI work keeps the placement tentative while
+historical difficulty confidence remains separate. Tentative does not mean
+probably hallucinated. Never target a 50/50 quota. Retain source-pinned
+contribution readings and invalidate them on source changes; preserve reported
+AI-led/autonomous/shared roles separately from strict allocation coding.
 
 The user corrected the interpretation later on 6 September 2026: a reported
 complete resolution/disproof of an exact genuinely open long-standing target
