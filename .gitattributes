@@ -1,0 +1,2 @@
+# Preserve checksum-pinned CSV bytes, including the standard CRLF record ending.
+*.csv -text whitespace=cr-at-eol

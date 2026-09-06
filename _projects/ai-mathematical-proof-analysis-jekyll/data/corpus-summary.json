@@ -1,0 +1,44 @@
+{
+  "sourceCount": 1237,
+  "latestRun": {
+    "id": "2026-09-06-reconciled-evidence-refresh",
+    "collectionEnded": "2026-08-20",
+    "recordedAt": "2026-09-06",
+    "model": "OpenAI Codex",
+    "modelStatus": "recorded",
+    "entryCount": 1237,
+    "coverageNote": "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage.",
+    "refreshedThrough": "2026-09-06",
+    "summary": "Reconciled 718 independently supported durable discoveries with the exact 519-source package; 254 confirmed-inclusion and 464 flagged-provisional additions. Taxonomy codings are unreviewed; challenge-history inputs remain unknown for new additions.",
+    "changes": [
+      "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage.",
+      "Preserved exact baseline provenance and source identities; arXiv versions, primary URL aliases and normalized titles were deduplicated.",
+      "New source-ledger zero fields are legacy numeric transport placeholders only, explicitly category=incomplete. Public claim data uses unknown inputs and incomplete categories; no automatic Superhuman override.",
+      "Historical corrections and recent follow-up events are preserved in the separately reviewed refresh evidence index.",
+      "Reviewed correction 58: Independent human exposition and official solved status remove the provisional hold; policy 1.1 derives the duration override.",
+      "Reviewed correction 86: Narrow formal-verification scope to delta=1; retain the broader informal-paper claim and nonprovisional status.",
+      "Reviewed correction 107: Independent human exposition strengthens verification and confidence; the already nonprovisional source status is retained.",
+      "Reviewed correction 109: Replace old field-scope shorthand with explicit v2 hypotheses and source-supported expansion.",
+      "Reviewed correction 151: Explicit v2 model proof contribution and author verification resolve the flagged materiality question; clear provisional status.",
+      "Reviewed correction 392: Replace superseded quasipolynomial claim with the polynomial-growth v2 claim while retaining the provisional hold."
+    ],
+    "sourceRefresh": {
+      "baselineSourceCount": 519,
+      "addedSourceCount": 718,
+      "sourceCount": 1237,
+      "addedConfirmed": 254,
+      "addedFlagged": 464,
+      "duplicateEvents": 3,
+      "rejectedIncompleteIdentities": 0,
+      "supersededByLaterExclusionOrQuarantine": 2,
+      "appliedCurrentCandidateFollowups": 52,
+      "taxonomyClassifiedAdditions": 38,
+      "refreshedAt": "2026-09-06",
+      "completeCollectionThrough": "2026-08-20",
+      "coverageNote": "Independent durable discoveries and source rechecks through 6 September, including new 6 September results. The exact baseline is complete through 20 August; missing historical continuity is not represented as complete coverage."
+    },
+    "correctionSetId": "reviewed-source-corrections-2026-09-06",
+    "correctionSetSha256": "3c5356e5cbb3b1014f4539eaec21ae2e69ada0fc57584d220249b8d87ebdd2a3"
+  },
+  "description": "1237 source-included, AI-coded, unreviewed."
+}

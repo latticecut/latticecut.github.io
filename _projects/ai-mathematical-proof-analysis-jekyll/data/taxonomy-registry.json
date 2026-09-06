@@ -17,8 +17,53 @@
           "merge",
           "deprecate"
         ],
+        "r2AuthoritativeShape": "R2 is a polarity/completeness pair for mathematical-result records. Legacy R2 concept IDs resolve for migration only and are not valid new assignments.",
         "r3Cardinality": "multi-valued; a primary value is a browsing convenience, not a claim that other forms are subordinate",
-        "r4Admission": "One evidenced use, a definition and reviewer approval creates a provisional concept. A second independent use and review may promote it to stable."
+        "r4Admission": "A candidate remains hidden from browse until two distinct source-backed result uses and vocabulary review make it stable."
+      },
+      "r2Dimensions": {
+        "polarity": [
+          {
+            "value": "settled_yes",
+            "preferredLabel": "Settled—yes",
+            "definition": "The result establishes an affirmative answer or direction; completeness is coded separately."
+          },
+          {
+            "value": "settled_no",
+            "preferredLabel": "Settled—no",
+            "definition": "The result establishes a negative answer or counterexample direction; completeness is coded separately."
+          },
+          {
+            "value": "impossible",
+            "preferredLabel": "Impossible",
+            "definition": "The result establishes an impossibility or undecidability direction; completeness is coded separately."
+          }
+        ],
+        "completeness": [
+          {
+            "value": "settled",
+            "preferredLabel": "Settled",
+            "definition": "The anchor claim is resolved in its complete tracked scope."
+          },
+          {
+            "value": "frontier_moved",
+            "preferredLabel": "Frontier moved",
+            "definition": "A documented quantitative or algorithmic frontier is improved without a matching endpoint."
+          },
+          {
+            "value": "partial",
+            "preferredLabel": "Partial",
+            "definition": "A material subcase, direction or conditional version is established without settling or moving a quantified frontier."
+          }
+        ],
+        "combinationRule": "Polarity and completeness are independent; every polarity may be paired with settled, frontier_moved or partial when supported.",
+        "constructionRule": "Construction and witness information is coded only in R3."
+      },
+      "r4BrowsePolicy": {
+        "minimumDistinctResultUses": 2,
+        "requiresVocabularyReview": true,
+        "visibleConceptIds": [],
+        "axisStatus": "hidden_no_qualifying_codes"
       },
       "concepts": [
         {
@@ -110,7 +155,7 @@
           "preferredLabel": "Affirmative resolution",
           "definition": "A stated target or implication is proved in its intended scope.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Affirmative proof"
           ],
@@ -127,7 +172,7 @@
           "preferredLabel": "Negative resolution",
           "definition": "A conjecture, universal assertion or proposed implication is disproved.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Disproof"
           ],
@@ -144,7 +189,7 @@
           "preferredLabel": "Undecidability or impossibility",
           "definition": "A decision, approximation or construction task is shown impossible under stated assumptions.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Impossibility",
             "Undecidability"
@@ -162,7 +207,7 @@
           "preferredLabel": "Partial progress",
           "definition": "A meaningful case, direction or conditional result is established without settling the target.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Partial result"
           ],
@@ -179,7 +224,7 @@
           "preferredLabel": "Improved bound",
           "definition": "A previous numerical, asymptotic or extremal bound is strengthened but not shown sharp.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Bound improvement"
           ],
@@ -196,7 +241,7 @@
           "preferredLabel": "Improved algorithm",
           "definition": "A complexity, approximation or resource guarantee is improved without a matching optimality result.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Algorithm improvement"
           ],
@@ -213,7 +258,7 @@
           "preferredLabel": "Construction or witness",
           "definition": "The main contribution is an explicit or existential mathematical object.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Constructive theorem",
             "Construction"
@@ -231,7 +276,7 @@
           "preferredLabel": "Exact value or classification",
           "definition": "A quantity is determined exactly, or all objects in the stated class are characterised.",
           "broaderId": "R1-MATHEMATICAL-RESULT",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Exact value",
             "Classification"
@@ -249,7 +294,7 @@
           "preferredLabel": "New formalisation",
           "definition": "An existing or newly produced mathematical result is encoded and checked in a proof assistant.",
           "broaderId": "R1-FORMALISATION",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "New formalization"
           ],
@@ -266,7 +311,7 @@
           "preferredLabel": "Formal library or infrastructure",
           "definition": "Reusable definitions, lemmas or interfaces are the primary contribution.",
           "broaderId": "R1-FORMALISATION",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Formal infrastructure"
           ],
@@ -283,7 +328,7 @@
           "preferredLabel": "Discovery or proving system",
           "definition": "A reusable AI, search or formalisation system is introduced or materially extended.",
           "broaderId": "R1-SYSTEM-OR-TOOL",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Discovery system",
             "Proving system"
@@ -301,7 +346,7 @@
           "preferredLabel": "Capability evaluation",
           "definition": "Systems are compared on a defined set of mathematical tasks.",
           "broaderId": "R1-BENCHMARK-OR-EVALUATION",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [],
           "provenance": [
             {
@@ -316,7 +361,7 @@
           "preferredLabel": "Evidence synthesis",
           "definition": "Prior work is organised, reviewed or quantitatively mapped without a new target theorem.",
           "broaderId": "R1-SURVEY-OR-SYNTHESIS",
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [],
           "provenance": [
             {
@@ -656,6 +701,71 @@
             }
           ]
         }
+      ],
+      "legacyR2Mappings": [
+        {
+          "conceptId": "R2-AFFIRMATIVE-RESOLUTION",
+          "polarity": "settled_yes",
+          "mappingType": "requires_completeness_recoding"
+        },
+        {
+          "conceptId": "R2-NEGATIVE-RESOLUTION",
+          "polarity": "settled_no",
+          "mappingType": "requires_completeness_recoding"
+        },
+        {
+          "conceptId": "R2-UNDECIDABILITY-OR-IMPOSSIBILITY",
+          "polarity": "impossible",
+          "mappingType": "requires_completeness_recoding"
+        },
+        {
+          "conceptId": "R2-PARTIAL-PROGRESS",
+          "completeness": "partial",
+          "mappingType": "requires_polarity_recoding"
+        },
+        {
+          "conceptId": "R2-IMPROVED-BOUND",
+          "polarity": "settled_yes",
+          "completeness": "frontier_moved",
+          "mappingType": "default_review_required"
+        },
+        {
+          "conceptId": "R2-IMPROVED-ALGORITHM",
+          "polarity": "settled_yes",
+          "completeness": "frontier_moved",
+          "mappingType": "default_review_required"
+        },
+        {
+          "conceptId": "R2-CONSTRUCTION-OR-WITNESS",
+          "mappingType": "requires_recoding",
+          "r3ConceptId": "R3-CONSTRUCTED-EXISTENCE",
+          "note": "Construction is an R3 argument form, not an R2 outcome."
+        },
+        {
+          "conceptId": "R2-EXACT-VALUE-OR-CLASSIFICATION",
+          "mappingType": "requires_recoding",
+          "note": "Code settled_yes/settled only when the tracked anchor is completely answered; otherwise use frontier_moved or partial."
+        },
+        {
+          "conceptId": "R2-NEW-FORMALISATION",
+          "mappingType": "r2_not_applicable"
+        },
+        {
+          "conceptId": "R2-FORMAL-LIBRARY-OR-INFRASTRUCTURE",
+          "mappingType": "r2_not_applicable"
+        },
+        {
+          "conceptId": "R2-DISCOVERY-OR-PROVING-SYSTEM",
+          "mappingType": "r2_not_applicable"
+        },
+        {
+          "conceptId": "R2-CAPABILITY-EVALUATION",
+          "mappingType": "r2_not_applicable"
+        },
+        {
+          "conceptId": "R2-EVIDENCE-SYNTHESIS",
+          "mappingType": "r2_not_applicable"
+        }
       ]
     },
     "mathematics-progress-production": {
@@ -666,14 +776,21 @@
       "changePolicy": {
         "stableIds": true,
         "axesAreSiblings": true,
-        "note": "P1–P4 are independent production dimensions, not one parent–child path. P1 remains qualified by stage-specific evidence."
+        "activeP1ConceptIds": [
+          "P1-HUMAN-LED-AI-ASSISTED",
+          "P1-SHARED-HUMAN-AI",
+          "P1-AI-LED"
+        ],
+        "p1SourceClaimed": "sourceClaimed is a separate boolean evidence qualifier for a matching source attribution, not a fourth allocation mode. A conflicting source attribution remains in migration notes.",
+        "p1Precedence": "Use the conservative human-led label unless concrete operations and cited evidence make the decisive generation stage reconstructible; a bare boolean or source claim is insufficient. Use an explicit missing state when even human-led allocation is unsupported.",
+        "note": "P1–P4 are independent production dimensions, not one parent–child path. P1 is always accompanied by the Minimal generation/checking/write-up stage table."
       },
       "concepts": [
         {
           "id": "P1-HUMAN-LED-AI-ASSISTED",
           "level": "P1",
-          "preferredLabel": "Human-led, AI-assisted",
-          "definition": "Humans own the principal strategy or proof; AI supplies bounded assistance such as search, examples, algebra, checking or editing.",
+          "preferredLabel": "Human-led",
+          "definition": "Humans own the principal strategy or proof; AI may supply bounded assistance such as search, examples, algebra, checking or editing.",
           "broaderId": null,
           "status": "stable",
           "aliases": [
@@ -689,7 +806,7 @@
         {
           "id": "P1-SHARED-HUMAN-AI",
           "level": "P1",
-          "preferredLabel": "Shared human–AI",
+          "preferredLabel": "Shared",
           "definition": "Humans and systems make interdependent substantive contributions at the decisive mathematical stage, with neither cleanly described as merely assisting.",
           "broaderId": null,
           "status": "stable",
@@ -709,7 +826,7 @@
           "id": "P1-AI-LED",
           "level": "P1",
           "preferredLabel": "AI-led",
-          "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. Use source-claimed autonomous instead when its stricter evidence rule is satisfied.",
+          "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. The generation-stage evidence must be reconstructible.",
           "broaderId": null,
           "status": "stable",
           "aliases": [
@@ -728,9 +845,9 @@
           "id": "P1-SOURCE-CLAIMED-AUTONOMOUS",
           "level": "P1",
           "preferredLabel": "Source-claimed autonomous",
-          "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This summary takes precedence over AI-led when the evidence rule is satisfied and is never treated as an audited project-wide fact.",
+          "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This legacy attribution does not by itself establish the active AI-led code and is never treated as a reviewed project-wide fact.",
           "broaderId": null,
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Autonomous (source-claimed)"
           ],
@@ -747,7 +864,7 @@
           "preferredLabel": "Human-only control",
           "definition": "A comparison or verification artifact is produced without AI involvement.",
           "broaderId": null,
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Human-only"
           ],
@@ -764,7 +881,7 @@
           "preferredLabel": "Unclear or not reported",
           "definition": "The available sources do not support a defensible allocation of substantive work.",
           "broaderId": null,
-          "status": "stable",
+          "status": "deprecated",
           "aliases": [
             "Unclear",
             "Not reported"
@@ -1104,6 +1221,29 @@
       ],
       "legacyMappings": [
         {
+          "label": "Source-claimed autonomous",
+          "sourceConceptId": "P1-SOURCE-CLAIMED-AUTONOMOUS",
+          "targetConceptIds": [
+            "P1-AI-LED"
+          ],
+          "sourceClaimed": true,
+          "mappingType": "requires_stage_reconstruction",
+          "note": "Use AI-led only when concrete, cited generation-stage operations reconstruct the decisive allocation; otherwise use the conservative active mode and retain the source attribution in migration notes."
+        },
+        {
+          "label": "Human-only control",
+          "sourceConceptId": "P1-HUMAN-ONLY-CONTROL",
+          "targetConceptIds": [],
+          "mappingType": "not_applicable",
+          "note": "Human-only controls belong in verification or comparison metadata, not the result-production P1 summary."
+        },
+        {
+          "label": "Unclear or not reported",
+          "sourceConceptId": "P1-UNCLEAR-OR-NOT-REPORTED",
+          "targetConceptIds": [],
+          "mappingType": "explicit_missing_state"
+        },
+        {
           "label": "Architecture not reported",
           "targetConceptIds": [],
           "mappingType": "not_reported",
@@ -1157,6 +1297,9 @@
         "stableIds": true,
         "eventBased": true,
         "notAStrengthScale": true,
+        "replayField": "Every record and every event states replayedHere explicitly; source-reported execution is not replay here.",
+        "correspondenceRule": "Every kernel or certificate event requires an assessed statement relation. Unknown is allowed but blocks formally_verified.",
+        "formalAssuranceRule": "formally_verified requires a contributing passed kernel event with complete_claim scope and equivalent or stronger statement correspondence.",
         "note": "Families and methods describe what happened. Assurance summaries, if shown, are lossy derived labels and never replace events."
       },
       "concepts": [
@@ -1788,7 +1931,7 @@
       "preferredLabel": "Affirmative resolution",
       "definition": "A stated target or implication is proved in its intended scope.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Affirmative proof"
       ],
@@ -1805,7 +1948,7 @@
       "preferredLabel": "Negative resolution",
       "definition": "A conjecture, universal assertion or proposed implication is disproved.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Disproof"
       ],
@@ -1822,7 +1965,7 @@
       "preferredLabel": "Undecidability or impossibility",
       "definition": "A decision, approximation or construction task is shown impossible under stated assumptions.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Impossibility",
         "Undecidability"
@@ -1840,7 +1983,7 @@
       "preferredLabel": "Partial progress",
       "definition": "A meaningful case, direction or conditional result is established without settling the target.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Partial result"
       ],
@@ -1857,7 +2000,7 @@
       "preferredLabel": "Improved bound",
       "definition": "A previous numerical, asymptotic or extremal bound is strengthened but not shown sharp.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Bound improvement"
       ],
@@ -1874,7 +2017,7 @@
       "preferredLabel": "Improved algorithm",
       "definition": "A complexity, approximation or resource guarantee is improved without a matching optimality result.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Algorithm improvement"
       ],
@@ -1891,7 +2034,7 @@
       "preferredLabel": "Construction or witness",
       "definition": "The main contribution is an explicit or existential mathematical object.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Constructive theorem",
         "Construction"
@@ -1909,7 +2052,7 @@
       "preferredLabel": "Exact value or classification",
       "definition": "A quantity is determined exactly, or all objects in the stated class are characterised.",
       "broaderId": "R1-MATHEMATICAL-RESULT",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Exact value",
         "Classification"
@@ -1927,7 +2070,7 @@
       "preferredLabel": "New formalisation",
       "definition": "An existing or newly produced mathematical result is encoded and checked in a proof assistant.",
       "broaderId": "R1-FORMALISATION",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "New formalization"
       ],
@@ -1944,7 +2087,7 @@
       "preferredLabel": "Formal library or infrastructure",
       "definition": "Reusable definitions, lemmas or interfaces are the primary contribution.",
       "broaderId": "R1-FORMALISATION",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Formal infrastructure"
       ],
@@ -1961,7 +2104,7 @@
       "preferredLabel": "Discovery or proving system",
       "definition": "A reusable AI, search or formalisation system is introduced or materially extended.",
       "broaderId": "R1-SYSTEM-OR-TOOL",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Discovery system",
         "Proving system"
@@ -1979,7 +2122,7 @@
       "preferredLabel": "Capability evaluation",
       "definition": "Systems are compared on a defined set of mathematical tasks.",
       "broaderId": "R1-BENCHMARK-OR-EVALUATION",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [],
       "provenance": [
         {
@@ -1994,7 +2137,7 @@
       "preferredLabel": "Evidence synthesis",
       "definition": "Prior work is organised, reviewed or quantitatively mapped without a new target theorem.",
       "broaderId": "R1-SURVEY-OR-SYNTHESIS",
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [],
       "provenance": [
         {
@@ -2337,8 +2480,8 @@
     {
       "id": "P1-HUMAN-LED-AI-ASSISTED",
       "level": "P1",
-      "preferredLabel": "Human-led, AI-assisted",
-      "definition": "Humans own the principal strategy or proof; AI supplies bounded assistance such as search, examples, algebra, checking or editing.",
+      "preferredLabel": "Human-led",
+      "definition": "Humans own the principal strategy or proof; AI may supply bounded assistance such as search, examples, algebra, checking or editing.",
       "broaderId": null,
       "status": "stable",
       "aliases": [
@@ -2354,7 +2497,7 @@
     {
       "id": "P1-SHARED-HUMAN-AI",
       "level": "P1",
-      "preferredLabel": "Shared human–AI",
+      "preferredLabel": "Shared",
       "definition": "Humans and systems make interdependent substantive contributions at the decisive mathematical stage, with neither cleanly described as merely assisting.",
       "broaderId": null,
       "status": "stable",
@@ -2374,7 +2517,7 @@
       "id": "P1-AI-LED",
       "level": "P1",
       "preferredLabel": "AI-led",
-      "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. Use source-claimed autonomous instead when its stricter evidence rule is satisfied.",
+      "definition": "The system supplies the decisive search, strategy, proof or construction; humans may select, prompt, curate, edit or validate without materially supplying that decisive step. The generation-stage evidence must be reconstructible.",
       "broaderId": null,
       "status": "stable",
       "aliases": [
@@ -2393,9 +2536,9 @@
       "id": "P1-SOURCE-CLAIMED-AUTONOMOUS",
       "level": "P1",
       "preferredLabel": "Source-claimed autonomous",
-      "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This summary takes precedence over AI-led when the evidence rule is satisfied and is never treated as an audited project-wide fact.",
+      "definition": "A source explicitly reports no substantive human intervention during the named decisive mathematical stage, and the record preserves a supporting quotation or precise source location. This legacy attribution does not by itself establish the active AI-led code and is never treated as a reviewed project-wide fact.",
       "broaderId": null,
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Autonomous (source-claimed)"
       ],
@@ -2412,7 +2555,7 @@
       "preferredLabel": "Human-only control",
       "definition": "A comparison or verification artifact is produced without AI involvement.",
       "broaderId": null,
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Human-only"
       ],
@@ -2429,7 +2572,7 @@
       "preferredLabel": "Unclear or not reported",
       "definition": "The available sources do not support a defensible allocation of substantive work.",
       "broaderId": null,
-      "status": "stable",
+      "status": "deprecated",
       "aliases": [
         "Unclear",
         "Not reported"

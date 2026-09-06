@@ -3,6 +3,13 @@
 set -euo pipefail
 
 repo_root="${0:A:h:h}"
+ai_math_only=false
+if [[ "${1:-}" == "--ai-math-only" ]]; then
+  ai_math_only=true
+elif [[ -n "${1:-}" ]]; then
+  print -u2 "Usage: $0 [--ai-math-only]"
+  exit 1
+fi
 build_root="${TMPDIR:-/tmp}/latticecut-build"
 sdk_root="$(xcrun --show-sdk-path)"
 bundle_cmd=(bundle _2.1.3_)
@@ -42,13 +49,15 @@ run_jekyll_build
 
 # Generate standalone copies from the fully rendered post pages, then rebuild
 # so the PDFs become ordinary static assets in the published site.
-node scripts/generate-essay-pdfs.mjs \
-  --site "$build_root/_site" \
-  --source "$build_root"
-run_jekyll_build
-node scripts/generate-essay-pdfs.mjs \
-  --site "$build_root/_site" \
-  --verify-only
+if [[ "$ai_math_only" == false ]]; then
+  node scripts/generate-essay-pdfs.mjs \
+    --site "$build_root/_site" \
+    --source "$build_root"
+  run_jekyll_build
+  node scripts/generate-essay-pdfs.mjs \
+    --site "$build_root/_site" \
+    --verify-only
+fi
 
 required_project_files=(
   index.html
@@ -67,6 +76,13 @@ required_project_files=(
   data/taxonomy-registry.json
   data/taxonomy-colours.json
   data/ai-mathematical-proof-raw-data.zip
+  data/result_claims.v0.2.csv
+  data/result-reference-map.v0.2.json
+  data/result-claims-monthly-breakdown.v0.2.csv
+  data/challenge-context-policy.v1.1.0.json
+  data/SHA256SUMS
+  data/corpus-summary.json
+  og-v02.png
 )
 
 for project_file in "${required_project_files[@]}"; do
@@ -91,6 +107,8 @@ for asset_ref in "${asset_refs[@]}"; do
   fi
 done
 
-mkdir -p "$repo_root/assets/essay-pdfs"
-rsync -a --delete "$build_root/assets/essay-pdfs/" "$repo_root/assets/essay-pdfs/"
+if [[ "$ai_math_only" == false ]]; then
+  mkdir -p "$repo_root/assets/essay-pdfs"
+  rsync -a --delete "$build_root/assets/essay-pdfs/" "$repo_root/assets/essay-pdfs/"
+fi
 rsync -a --delete "$build_root/_site/" "$repo_root/_site/"

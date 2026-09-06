@@ -221,6 +221,7 @@
     "Expected": { "fill": "#B8B8B8", "text": "#222222" },
     "Difficult": { "fill": "#276FCE", "text": "#FFFFFF" },
     "Superhuman": { "fill": "#7B2CBF", "text": "#FFFFFF" },
+    "incomplete": { "fill": "#FAFBFC", "stroke": "#59636F", "text": "#222222", "outline": "dashed" },
     "note": "These colours encode a derived analytical category, not taxonomy structure."
   }
 }

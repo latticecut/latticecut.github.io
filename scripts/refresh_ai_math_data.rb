@@ -1,291 +1,112 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
-
+# The Python taxonomy builder owns classification. Preserve its exact outputs.
 require "csv"
 require "date"
+require "digest"
 require "fileutils"
 require "json"
+require "tmpdir"
 
 ROOT = File.expand_path("..", __dir__)
 PUBLIC_ROOT = File.join(ROOT, "projects", "ai-math")
 PACKAGE_ROOT = File.join(ROOT, "_projects", "ai-mathematical-proof-analysis-jekyll")
-PUBLIC_DATA = File.join(PUBLIC_ROOT, "data")
+DATA = File.join(PUBLIC_ROOT, "data")
 PACKAGE_DATA = File.join(PACKAGE_ROOT, "data")
-LEDGER_NAME = "difficulty_scored_entries.csv"
-MONTHLY_NAME = "difficulty_monthly_breakdown.csv"
-TAKEOFF_NAME = "takeoff_counts_jan2025.csv"
 ZIP_NAME = "ai-mathematical-proof-raw-data.zip"
-SYNCED_NAMES = [
-  LEDGER_NAME,
-  MONTHLY_NAME,
-  TAKEOFF_NAME,
-  "difficulty_method.txt",
-  "reference-map.json",
-  "analysis-log.json",
-  "taxonomy-map.json",
-  "taxonomy-registry.json",
-  "taxonomy-colours.json"
+FILES = %w[
+  difficulty_scored_entries.csv difficulty_monthly_breakdown.csv
+  takeoff_counts_jan2025.csv difficulty_method.txt reference-map.json
+  analysis-log.json taxonomy-map.json taxonomy-registry.json taxonomy-colours.json
+  result_claims.v0.2.csv result-reference-map.v0.2.json
+  result-claims-monthly-breakdown.v0.2.csv challenge-context-policy.v1.1.0.json
+  corpus-summary.json
 ].freeze
-SCORE_FIELDS = %w[prior_target advance scope resistance].freeze
-OUTPUT_FIELDS = %w[
-  id period publication_date prior_target advance scope resistance
-  difficulty_score category framing_year solution_year age_decades provisional
-  description anchor_claim prior_rationale advance_rationale scope_rationale
-  resistance_rationale age_rationale coding_confidence
-  challenge_policy_version challenge_audit_status
-].freeze
-
-def truthy?(value)
-  %w[1 true yes y].include?(value.to_s.strip.downcase)
+def read_json(name)
+  JSON.parse(File.read(File.join(DATA, name), encoding: "UTF-8"))
 end
-
-def natural_id_key(id)
-  id.scan(/\d+|\D+/).map { |part| part.match?(/\A\d+\z/) ? [0, part.to_i] : [1, part] }
+def read_csv(name)
+  CSV.read(File.join(DATA, name), headers: true).map(&:to_h)
 end
-
-def each_month(first_period, last_period)
-  cursor = Date.strptime("#{first_period}-01", "%Y-%m-%d")
-  finish = Date.strptime("#{last_period}-01", "%Y-%m-%d")
-  while cursor <= finish
-    yield cursor.strftime("%Y-%m")
-    cursor = cursor.next_month
-  end
+def same_ids(label, actual, expected)
+  raise "#{label}: duplicate or mismatching IDs" unless actual.uniq.length == actual.length && actual.sort == expected.sort
 end
-
-def xml_escape(value)
-  value.to_s.gsub("&", "&amp;").gsub('"', "&quot;").gsub("<", "&lt;").gsub(">", "&gt;")
+FILES.each { |name| raise "Missing #{name}" unless File.size?(File.join(DATA, name)) }
+rows = read_csv("difficulty_scored_entries.csv")
+raise "Empty ledger" if rows.empty?
+ids = rows.map { |row| row.fetch("id") }
+same_ids("Sources", ids, ids.uniq)
+rows.each do |row|
+  raise "Source period mismatch" unless Date.iso8601(row.fetch("publication_date")).strftime("%Y-%m") == row.fetch("period")
 end
-
-def category_for(row, score, age)
-  superhuman = row["prior_target"] == "1" && row["advance"] == "2" &&
-    !truthy?(row["provisional"]) && !age.nil? && age >= 1.0
-  return "Superhuman" if superhuman
-
-  score >= 3 ? "Difficult" : "Expected"
+refs = read_json("reference-map.json")
+same_ids("References", refs.keys, ids)
+raise "Empty references" unless refs.values.all? { |value| value.is_a?(Array) && !value.empty? }
+latest = read_json("analysis-log.json").max_by { |run| [run.fetch("collectionEnded"), run.fetch("recordedAt"), run.fetch("id")] }
+raise "Log count mismatch" unless latest && latest.fetch("entryCount") == rows.length
+taxonomy = read_json("taxonomy-map.json")
+meta = taxonomy.fetch("_meta")
+records = taxonomy.reject { |id, _| id == "_meta" }
+raise "Expected policy 1.1.0" unless meta.fetch("challengePolicyVersion") == "1.1.0"
+raise "Metadata count mismatch" unless meta.fetch("sourceIncludedCount") == rows.length && meta.fetch("recordCount") == records.length
+raise "Cutoff mismatch" unless meta.fetch("sourceCorpusCollectionEnded") == latest.fetch("collectionEnded")
+summary = read_json("corpus-summary.json")
+raise "Summary count mismatch" unless summary.fetch("sourceCount") == rows.length
+raise "Summary run mismatch" unless summary.fetch("latestRun") == latest
+aliases = meta.fetch("sourceIdAliases", {})
+same_ids("Taxonomy owners", records.values.map { |r| r.fetch("sourceIncludedId") }.uniq, ids.map { |id| aliases.fetch(id, id) })
+claims = read_csv("result_claims.v0.2.csv")
+same_ids("Claims", claims.map { |r| r.fetch("id") }, records.keys)
+same_ids("Claim references", read_json("result-reference-map.v0.2.json").keys, records.keys)
+claims.each do |row|
+  record = records.fetch(row.fetch("id"))
+  raise "Claim owner mismatch" unless record.fetch("sourceIncludedId") == row.fetch("source_included_id")
+  raise "Claim category mismatch" unless record.fetch("challengeContext").fetch("derived").fetch("category") == row.fetch("category")
 end
-
-def validate_and_normalize(rows)
-  raise "Ledger is empty" if rows.empty?
-  ids = rows.map { |row| row.fetch("id") }
-  id_counts = Hash.new(0)
-  ids.each { |id| id_counts[id] += 1 }
-  duplicates = id_counts.select { |_id, count| count > 1 }.keys
-  raise "Duplicate ledger IDs: #{duplicates.join(', ')}" unless duplicates.empty?
-
-  rows.each do |row|
-    row["challenge_policy_version"] = "0.1.0" if row["challenge_policy_version"].to_s.strip.empty?
-    row["challenge_audit_status"] = "pending_v1_audit" if row["challenge_audit_status"].to_s.strip.empty?
-    missing = OUTPUT_FIELDS.select { |field| !row.key?(field) }
-    raise "Entry #{row['id']} is missing fields: #{missing.join(', ')}" unless missing.empty?
-
-    date = Date.iso8601(row.fetch("publication_date"))
-    expected_period = date.strftime("%Y-%m")
-    raise "Entry #{row['id']} period #{row['period']} != #{expected_period}" unless row["period"] == expected_period
-
-    components = SCORE_FIELDS.to_h { |field| [field, Integer(row.fetch(field), 10)] }
-    raise "Entry #{row['id']} has invalid P" unless [0, 1].include?(components["prior_target"])
-    raise "Entry #{row['id']} has invalid A" unless [0, 1, 2].include?(components["advance"])
-    %w[scope resistance].each do |field|
-      raise "Entry #{row['id']} has invalid #{field}" unless [0, 1].include?(components[field])
+{"scoredLedgerSha256" => "difficulty_scored_entries.csv", "referenceMapSha256" => "reference-map.json", "analysisLogSha256" => "analysis-log.json"}.each do |key, name|
+  raise "Stale source hash: #{name}" unless meta.fetch("sourceSnapshot").fetch(key) == Digest::SHA256.file(File.join(DATA, name)).hexdigest
+end
+[["difficulty_monthly_breakdown.csv", rows], ["result-claims-monthly-breakdown.v0.2.csv", claims]].each do |name, members|
+  monthly = read_csv(name)
+  same_ids(name, monthly.map { |m| m.fetch("period") }, monthly.map { |m| m.fetch("period") }.uniq)
+  monthly.each do |month|
+    selected = members.select { |r| r.fetch("period") == month.fetch("period") }
+    raise "Monthly total mismatch: #{name}" unless Integer(month.fetch("total"), 10) == selected.length
+    %w[Expected Difficult Superhuman incomplete].each do |category|
+      next unless month.key?(category.downcase)
+      raise "Monthly category mismatch: #{name}" unless Integer(month.fetch(category.downcase), 10) == selected.count { |r| r.fetch("category") == category }
     end
-    score = components.values.sum
-
-    framing = row["framing_year"].to_s.strip.empty? ? nil : Integer(row["framing_year"], 10)
-    solution = row["solution_year"].to_s.strip.empty? ? nil : Integer(row["solution_year"], 10)
-    raise "Entry #{row['id']} has a framing year but no solution year" if framing && solution.nil?
-    raise "Entry #{row['id']} solution predates framing" if framing && solution < framing
-    age = framing && solution ? (solution - framing) / 10.0 : nil
-
-    row["difficulty_score"] = score.to_s
-    row["category"] = category_for(row, score, age)
-    row["age_decades"] = age.nil? ? "" : format("%.1f", age)
-    row["provisional"] = truthy?(row["provisional"]) ? "1" : "0"
-    row["coding_confidence"] = row["coding_confidence"].to_s.strip.downcase
-    raise "Entry #{row['id']} has no anchor claim" if row["anchor_claim"].to_s.strip.empty?
-    raise "Entry #{row['id']} has no description" if row["description"].to_s.strip.empty?
   end
-
-  rows.sort_by { |row| [row.fetch("publication_date"), natural_id_key(row.fetch("id"))] }
+  raise "Monthly coverage mismatch" unless monthly.sum { |m| Integer(m.fetch("total"), 10) } == members.length
 end
-
-def write_csv(path, rows, fields)
-  CSV.open(path, "w", write_headers: true, headers: fields, force_quotes: false) do |csv|
-    rows.each { |row| csv << fields.map { |field| row[field] } }
-  end
+cumulative = 0
+prior_period = ""
+read_csv("takeoff_counts_jan2025.csv").each do |month|
+  period = month.fetch("period")[0, 7]
+  raise "Nonchronological takeoff" unless period > prior_period
+  prior_period = period
+  count = rows.count { |r| r.fetch("period") == period }
+  cumulative += count
+  raise "Takeoff mismatch" unless Integer(month.fetch("new_audited_entries"), 10) == count && Integer(month.fetch("cumulative_audited_entries"), 10) == cumulative
 end
+raise "Takeoff coverage mismatch" unless cumulative == rows.length
+raise "Missing v0.2 chart" unless File.read(File.join(PUBLIC_ROOT, "data-city.svg")).include?("data-result-id=")
 
-def derive_monthly(rows, collection_end)
-  by_period = rows.group_by { |row| row.fetch("period") }
-  result = []
-  each_month("2025-01", collection_end.strftime("%Y-%m")) do |period|
-    entries = by_period.fetch(period, [])
-    counts = Hash.new(0)
-    entries.each { |row| counts[row.fetch("category")] += 1 }
-    total = entries.length
-    non_expected = counts.fetch("Difficult", 0) + counts.fetch("Superhuman", 0)
-    mean = total.zero? ? 0.0 : entries.sum { |row| Integer(row.fetch("difficulty_score"), 10) }.fdiv(total)
-    result << {
-      "period" => period,
-      "expected" => counts.fetch("Expected", 0).to_s,
-      "difficult" => counts.fetch("Difficult", 0).to_s,
-      "superhuman" => counts.fetch("Superhuman", 0).to_s,
-      "total" => total.to_s,
-      "non_expected_share" => format("%.6f", total.zero? ? 0.0 : non_expected.fdiv(total)),
-      "mean_score" => format("%.3f", mean)
-    }
-  end
-  result
-end
-
-def derive_takeoff(monthly, collection_end)
-  cumulative = 0
-  monthly.map do |row|
-    cumulative += Integer(row.fetch("total"), 10)
-    period = row.fetch("period")
-    if period == collection_end.strftime("%Y-%m") && collection_end.day < Date.new(collection_end.year, collection_end.month, -1).day
-      period = "#{period}-through-#{format('%02d', collection_end.day)}"
-    end
-    {
-      "period" => period,
-      "new_audited_entries" => row.fetch("total"),
-      "cumulative_audited_entries" => cumulative.to_s
-    }
-  end
-end
-
-def data_city_svg(monthly)
-  recent = monthly.last(7)
-  raise "Data city requires seven monthly rows" unless recent.length == 7
-
-  colors = { "Expected" => "#b8b8b8", "Difficult" => "#2a7ae2", "Superhuman" => "#7b2cbf" }
-  highlights = { "Expected" => "#cecece", "Difficult" => "#4c91ea", "Superhuman" => "#9149cc" }
-  fields = { "Expected" => "expected", "Difficult" => "difficult", "Superhuman" => "superhuman" }
-  tile = 50
-  tile_gap = 7
-  cluster_gap = 8
-  padding = 7
-  shadow = 5
-
-  clusters = recent.map do |row|
-    total = Integer(row.fetch("total"), 10)
-    next if total.zero?
-
-    columns = if total == 1
-                1
-              elsif total <= 4
-                2
-              elsif total <= 9
-                3
-              elsif total <= 16
-                4
-              else
-                [[Math.sqrt(total * 1.25).ceil, 5].max, 8].min
-              end
-    row_count = (total + columns - 1) / columns
-    {
-      row: row,
-      total: total,
-      columns: columns,
-      width: columns * tile + (columns - 1) * tile_gap,
-      height: row_count * tile + (row_count - 1) * tile_gap
-    }
-  end.compact
-  raise "Data city has no non-empty month" if clusters.empty?
-
-  city_width = clusters.sum { |cluster| cluster.fetch(:width) } + cluster_gap * (clusters.length - 1)
-  city_height = clusters.map { |cluster| cluster.fetch(:height) }.max
-  width = city_width + 2 * padding + shadow
-  height = city_height + 2 * padding + shadow
-  ground = padding + city_height
-  cursor_x = padding
-  block_count = 0
-  lines = [
-    '<?xml version="1.0" encoding="UTF-8"?>',
-    %(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 #{width} #{height}" width="#{width}" height="#{height}" fill="none">)
-  ]
-
-  clusters.each do |cluster|
-    row = cluster.fetch(:row)
-    total = cluster.fetch(:total)
-    columns = cluster.fetch(:columns)
-    centre_x = cursor_x + cluster.fetch(:width).fdiv(2)
-    tile_index = 0
-    lines << %(  <g data-period="#{xml_escape(row.fetch('period'))}">)
-    fields.each do |label, field|
-      Integer(row.fetch(field), 10).times do
-        grid_row = tile_index / columns
-        column = tile_index % columns
-        row_count = [columns, total - grid_row * columns].min
-        row_width = row_count * tile + [row_count - 1, 0].max * tile_gap
-        x = centre_x - row_width.fdiv(2) + column * (tile + tile_gap)
-        y = ground - tile - grid_row * (tile + tile_gap)
-        lines << format('    <rect x="%g" y="%g" width="%d" height="%d" rx="4" fill="#e6e6e6"/>', x + shadow, y + shadow, tile, tile)
-        lines << format('    <rect x="%g" y="%g" width="%d" height="%d" rx="3" fill="%s"/>', x, y, tile, tile, colors.fetch(label))
-        lines << format('    <path d="M%g %gH%g" stroke="%s" stroke-width="3" stroke-linecap="round"/>', x + 6, y + 6, x + tile - 6, highlights.fetch(label))
-        tile_index += 1
-        block_count += 1
-      end
-    end
-    lines << "  </g>"
-    cursor_x += cluster.fetch(:width) + cluster_gap
-  end
-  lines << "</svg>"
-  expected = recent.sum { |row| Integer(row.fetch("total"), 10) }
-  raise "Data-city block mismatch: #{block_count} != #{expected}" unless block_count == expected
-
-  [lines.join("\n") + "\n", width, height]
-end
-
-ledger_path = File.join(PUBLIC_DATA, LEDGER_NAME)
-rows = validate_and_normalize(CSV.read(ledger_path, headers: true).map(&:to_h))
-log_path = File.join(PUBLIC_DATA, "analysis-log.json")
-analysis_log = JSON.parse(File.read(log_path, encoding: "UTF-8"))
-raise "Analysis log is empty" if analysis_log.empty?
-latest_run = analysis_log.max_by do |run|
-  [
-    Date.iso8601(run.fetch("collectionEnded")),
-    Date.iso8601(run.fetch("recordedAt")),
-    run.fetch("id")
-  ]
-end
-collection_end = Date.iso8601(latest_run.fetch("collectionEnded"))
-raise "Latest analysis-log entry count does not match ledger" unless latest_run.fetch("entryCount") == rows.length
-
-reference_path = File.join(PUBLIC_DATA, "reference-map.json")
-reference_map = JSON.parse(File.read(reference_path, encoding: "UTF-8"))
-missing_references = rows.map { |row| row.fetch("id") }.reject { |id| reference_map[id].is_a?(Array) && !reference_map[id].empty? }
-extra_references = reference_map.keys - rows.map { |row| row.fetch("id") }
-raise "Missing references for: #{missing_references.join(', ')}" unless missing_references.empty?
-raise "References remain for removed IDs: #{extra_references.join(', ')}" unless extra_references.empty?
-
-write_csv(ledger_path, rows, OUTPUT_FIELDS)
-monthly = derive_monthly(rows, collection_end)
-write_csv(File.join(PUBLIC_DATA, MONTHLY_NAME), monthly,
-          %w[period expected difficult superhuman total non_expected_share mean_score])
-takeoff = derive_takeoff(monthly, collection_end)
-write_csv(File.join(PUBLIC_DATA, TAKEOFF_NAME), takeoff,
-          %w[period new_audited_entries cumulative_audited_entries])
-
+manifest = FILES.sort.map { |name| "#{Digest::SHA256.file(File.join(DATA, name)).hexdigest}  #{name}\n" }.join
+File.write(File.join(DATA, "SHA256SUMS"), manifest)
 FileUtils.mkdir_p(PACKAGE_DATA)
-SYNCED_NAMES.each do |name|
-  FileUtils.cp(File.join(PUBLIC_DATA, name), File.join(PACKAGE_DATA, name))
+(FILES + ["SHA256SUMS"]).each { |name| FileUtils.cp(File.join(DATA, name), File.join(PACKAGE_DATA, name)) }
+FileUtils.cp(File.join(PUBLIC_ROOT, "data-city.svg"), File.join(PACKAGE_ROOT, "data-city.svg"))
+Dir.mktmpdir("ai-math-raw-data-") do |stage|
+  names = (FILES + ["SHA256SUMS"]).sort
+  names.each do |name|
+    destination = File.join(stage, name)
+    FileUtils.cp(File.join(DATA, name), destination)
+    File.utime(Time.utc(1980, 1, 1), Time.utc(1980, 1, 1), destination)
+  end
+  raise "Could not create ZIP" unless system({"TZ" => "UTC"}, "zip", "-X", "-q", ZIP_NAME, *names, chdir: stage)
+  FileUtils.cp(File.join(stage, ZIP_NAME), File.join(DATA, ZIP_NAME))
 end
-
-svg, svg_width, svg_height = data_city_svg(monthly)
-[PUBLIC_ROOT, PACKAGE_ROOT].each do |root|
-  File.write(File.join(root, "data-city.svg"), svg, encoding: "UTF-8")
-end
-
-zip_path = File.join(PUBLIC_DATA, ZIP_NAME)
-FileUtils.rm_f(zip_path)
-ok = system("zip", "-X", "-q", ZIP_NAME, *SYNCED_NAMES, chdir: PUBLIC_DATA)
-raise "Could not create #{ZIP_NAME}" unless ok
-FileUtils.cp(zip_path, File.join(PACKAGE_DATA, ZIP_NAME))
-
-counts = Hash.new(0)
-rows.each { |row| counts[row.fetch("category")] += 1 }
-mean = rows.sum { |row| Integer(row.fetch("difficulty_score"), 10) }.fdiv(rows.length)
-puts "Validated and regenerated #{rows.length} entries"
-puts "Expected=#{counts.fetch('Expected', 0)}, Difficult=#{counts.fetch('Difficult', 0)}, Superhuman=#{counts.fetch('Superhuman', 0)}, mean=#{format('%.2f', mean)}"
-puts "Data city dimensions: #{svg_width}x#{svg_height}"
-puts "Collection end: #{collection_end.iso8601}"
+FileUtils.cp(File.join(DATA, ZIP_NAME), File.join(PACKAGE_DATA, ZIP_NAME))
+puts "Validated #{rows.length} packages / #{claims.length} claims; refreshed #{latest.fetch('recordedAt')}, continuous coverage through #{latest.fetch('collectionEnded')}"
+puts "Packaged #{FILES.length} exact datasets and SHA256SUMS; classifications and chart preserved"
