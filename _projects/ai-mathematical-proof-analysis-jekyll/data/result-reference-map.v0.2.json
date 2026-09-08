@@ -978,7 +978,20 @@
     {
       "key": "Arxiv260719513",
       "title": "Constructing a complex Lie algebra isomorphic to its complex conjugate but not definable over reals",
-      "url": "https://arxiv.org/abs/2607.19513"
+      "url": "https://arxiv.org/abs/2607.19513v1",
+      "accessed": "2026-08-06"
+    },
+    {
+      "key": "Daily20260907_71_v2",
+      "title": "Constructing a complex Lie algebra isomorphic to its complex conjugate but not definable over reals — Version 2",
+      "url": "https://arxiv.org/abs/2607.19513v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_71_v2_html",
+      "title": "Constructing a complex Lie algebra isomorphic to its complex conjugate but not definable over reals — Version 2 HTML",
+      "url": "https://arxiv.org/html/2607.19513v2",
+      "accessed": "2026-09-07"
     }
   ],
   "276": [
@@ -1583,6 +1596,18 @@
       "title": "Successful comparator and kernel-replay workflow for the August 20 theorem-closure head",
       "url": "https://github.com/utensil/connes-rigidity/actions/runs/32390485314",
       "accessed": "2026-08-20"
+    },
+    {
+      "key": "Daily20260907_115_v2",
+      "title": "ICC property (T) groups without W$^*$-superrigidity — Version 2",
+      "url": "https://arxiv.org/abs/2608.02327v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_115_v2_html",
+      "title": "ICC property (T) groups without W$^*$-superrigidity — Version 2 HTML",
+      "url": "https://arxiv.org/html/2608.02327v2",
+      "accessed": "2026-09-07"
     }
   ],
   "116": [
@@ -7169,15 +7194,21 @@
   "536": [
     {
       "key": "Refresh20260906_536",
-      "title": "Quantitative Collatz Descent to Stretched-Logarithmic Scale in Natural Density (Almost all)",
-      "url": "https://doi.org/10.5281/zenodo.21982543",
-      "accessed": "2026-09-02"
+      "title": "Refined Arbitrary-Target Transport Through Collatz Endpoints",
+      "url": "https://doi.org/10.5281/zenodo.22544006",
+      "accessed": "2026-09-07"
     },
     {
       "key": "Refresh20260906_536_support_0",
-      "title": "Quantitative Collatz Descent to Stretched-Logarithmic Scale in Natural Density (Almost all) — supporting source",
-      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-27-000018-v2.json",
-      "accessed": "2026-09-02"
+      "title": "Refined Arbitrary-Target Transport Through Collatz Endpoints — Palomar version 3",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-08-27-000018-v3.json",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_536_owner_v3",
+      "title": "Refined Arbitrary-Target Transport Through Collatz Endpoints — owner version 3 commit",
+      "url": "https://github.com/shaikidris/CollatzEndpointTransport-Palomar/commit/9505e8fd59f2b49a2dad269436766319c57b4012",
+      "accessed": "2026-09-07"
     }
   ],
   "537": [
@@ -13612,6 +13643,1696 @@
       "title": "Character-weighted prime-pair Wronskian bounds — repaired referee pass",
       "url": "https://github.com/teal-sea/zeta-lab/commit/235ec137a119e6ce7247472087e09801edf9fb18",
       "accessed": "2026-09-06"
+    }
+  ],
+  "1231": [
+    {
+      "key": "Daily20260907_1231",
+      "title": "A Scalar Optimization Proof of Sendov's Conjecture with Reduced Computer Assistance",
+      "url": "https://arxiv.org/abs/2609.04246v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1231_support_0",
+      "title": "A Scalar Optimization Proof of Sendov's Conjecture with Reduced Computer Assistance — HTML",
+      "url": "https://arxiv.org/html/2609.04246v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1231_support_1",
+      "title": "A Scalar Optimization Proof of Sendov's Conjecture with Reduced Computer Assistance — PDF",
+      "url": "https://arxiv.org/pdf/2609.04246v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1232": [
+    {
+      "key": "Daily20260907_1232",
+      "title": "A Counterexample to Teschner's Bondage-Number Conjecture",
+      "url": "https://arxiv.org/abs/2609.04257v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1232_support_0",
+      "title": "A Counterexample to Teschner's Bondage-Number Conjecture — HTML",
+      "url": "https://arxiv.org/html/2609.04257v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1232_support_1",
+      "title": "A Counterexample to Teschner's Bondage-Number Conjecture — PDF",
+      "url": "https://arxiv.org/pdf/2609.04257v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1233": [
+    {
+      "key": "Daily20260907_1233",
+      "title": "Minimal-Volume Equiangular Hyperbolic $4$-Polytopes",
+      "url": "https://arxiv.org/abs/2609.04258v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1233_support_0",
+      "title": "Minimal-Volume Equiangular Hyperbolic $4$-Polytopes — HTML",
+      "url": "https://arxiv.org/html/2609.04258v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1233_support_1",
+      "title": "Minimal-Volume Equiangular Hyperbolic $4$-Polytopes — PDF",
+      "url": "https://arxiv.org/pdf/2609.04258v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1234": [
+    {
+      "key": "Daily20260907_1234",
+      "title": "An explicit non-elementary matrix over a bivariate Laurent polynomial ring",
+      "url": "https://arxiv.org/abs/2609.04275v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1234_support_0",
+      "title": "An explicit non-elementary matrix over a bivariate Laurent polynomial ring — HTML",
+      "url": "https://arxiv.org/html/2609.04275v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1234_support_1",
+      "title": "An explicit non-elementary matrix over a bivariate Laurent polynomial ring — PDF",
+      "url": "https://arxiv.org/pdf/2609.04275v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1235": [
+    {
+      "key": "Daily20260907_1235",
+      "title": "Every Closed Oriented Surface of Positive Genus Is Loewner",
+      "url": "https://arxiv.org/abs/2609.04284v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1235_support_0",
+      "title": "Every Closed Oriented Surface of Positive Genus Is Loewner — HTML",
+      "url": "https://arxiv.org/html/2609.04284v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1235_support_1",
+      "title": "Every Closed Oriented Surface of Positive Genus Is Loewner — PDF",
+      "url": "https://arxiv.org/pdf/2609.04284v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1236": [
+    {
+      "key": "Daily20260907_1236",
+      "title": "Turing universality, computability, and incompleteness in hypergraph Tur\\'an theory",
+      "url": "https://arxiv.org/abs/2609.04295v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1236_support_0",
+      "title": "Turing universality, computability, and incompleteness in hypergraph Tur\\'an theory — HTML",
+      "url": "https://arxiv.org/html/2609.04295v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1236_support_1",
+      "title": "Turing universality, computability, and incompleteness in hypergraph Tur\\'an theory — PDF",
+      "url": "https://arxiv.org/pdf/2609.04295v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1237": [
+    {
+      "key": "Daily20260907_1237",
+      "title": "Harmonic morphisms of sub-Riemannian Lie groups",
+      "url": "https://arxiv.org/abs/2609.04299v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1237_support_0",
+      "title": "Harmonic morphisms of sub-Riemannian Lie groups — HTML",
+      "url": "https://arxiv.org/html/2609.04299v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1237_support_1",
+      "title": "Harmonic morphisms of sub-Riemannian Lie groups — PDF",
+      "url": "https://arxiv.org/pdf/2609.04299v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1238": [
+    {
+      "key": "Daily20260907_1238",
+      "title": "Positivity of Smooth Currents on Singular Spaces",
+      "url": "https://arxiv.org/abs/2609.04335v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1238_support_0",
+      "title": "Positivity of Smooth Currents on Singular Spaces — HTML",
+      "url": "https://arxiv.org/html/2609.04335v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1238_support_1",
+      "title": "Positivity of Smooth Currents on Singular Spaces — PDF",
+      "url": "https://arxiv.org/pdf/2609.04335v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1239": [
+    {
+      "key": "Daily20260907_1239",
+      "title": "Computing Lewis Weights to High Precision by Fixed-Point Iteration",
+      "url": "https://arxiv.org/abs/2609.04338v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1239_support_0",
+      "title": "Computing Lewis Weights to High Precision by Fixed-Point Iteration — HTML",
+      "url": "https://arxiv.org/html/2609.04338v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1239_support_1",
+      "title": "Computing Lewis Weights to High Precision by Fixed-Point Iteration — PDF",
+      "url": "https://arxiv.org/pdf/2609.04338v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1240": [
+    {
+      "key": "Daily20260907_1240",
+      "title": "On the torsion in the Chow motive of an Enriques surface",
+      "url": "https://arxiv.org/abs/2609.04360v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1240_support_0",
+      "title": "On the torsion in the Chow motive of an Enriques surface — HTML",
+      "url": "https://arxiv.org/html/2609.04360v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1240_support_1",
+      "title": "On the torsion in the Chow motive of an Enriques surface — PDF",
+      "url": "https://arxiv.org/pdf/2609.04360v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1241": [
+    {
+      "key": "Daily20260907_1241",
+      "title": "Loss of memory in the periodic Ehrenfest model with small polyhedral scatterers",
+      "url": "https://arxiv.org/abs/2609.04371v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1241_support_0",
+      "title": "Loss of memory in the periodic Ehrenfest model with small polyhedral scatterers — HTML",
+      "url": "https://arxiv.org/html/2609.04371v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1241_support_1",
+      "title": "Loss of memory in the periodic Ehrenfest model with small polyhedral scatterers — PDF",
+      "url": "https://arxiv.org/pdf/2609.04371v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1242": [
+    {
+      "key": "Daily20260907_1242",
+      "title": "SIC dimension towers via cyclotomic polynomials",
+      "url": "https://arxiv.org/abs/2609.04431v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1242_support_0",
+      "title": "SIC dimension towers via cyclotomic polynomials — HTML",
+      "url": "https://arxiv.org/html/2609.04431v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1242_support_1",
+      "title": "SIC dimension towers via cyclotomic polynomials — PDF",
+      "url": "https://arxiv.org/pdf/2609.04431v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1243": [
+    {
+      "key": "Daily20260907_1243",
+      "title": "Consensus times for monotone aggregation dynamics",
+      "url": "https://arxiv.org/abs/2609.04468v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1243_support_0",
+      "title": "Consensus times for monotone aggregation dynamics — HTML",
+      "url": "https://arxiv.org/html/2609.04468v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1243_support_1",
+      "title": "Consensus times for monotone aggregation dynamics — PDF",
+      "url": "https://arxiv.org/pdf/2609.04468v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1244": [
+    {
+      "key": "Daily20260907_1244",
+      "title": "The Deterministic Hare Core Is Nonempty for Nine-Seat Approval Elections",
+      "url": "https://arxiv.org/abs/2609.04497v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1244_support_0",
+      "title": "The Deterministic Hare Core Is Nonempty for Nine-Seat Approval Elections — HTML",
+      "url": "https://arxiv.org/html/2609.04497v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1244_support_1",
+      "title": "The Deterministic Hare Core Is Nonempty for Nine-Seat Approval Elections — PDF",
+      "url": "https://arxiv.org/pdf/2609.04497v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1245": [
+    {
+      "key": "Daily20260907_1245",
+      "title": "Centered Permutation Prefixes for SGD with Random Reshuffling: Sharp Rates, H\\\"older Geometry, and Composite Proximal Extensions",
+      "url": "https://arxiv.org/abs/2609.04578v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1245_support_0",
+      "title": "Centered Permutation Prefixes for SGD with Random Reshuffling: Sharp Rates, H\\\"older Geometry, and Composite Proximal Extensions — HTML",
+      "url": "https://arxiv.org/html/2609.04578v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1245_support_1",
+      "title": "Centered Permutation Prefixes for SGD with Random Reshuffling: Sharp Rates, H\\\"older Geometry, and Composite Proximal Extensions — PDF",
+      "url": "https://arxiv.org/pdf/2609.04578v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1246": [
+    {
+      "key": "Daily20260907_1246",
+      "title": "Quaternary Legendre Pairs of Lengths 42, 46, 52, 58, 66, 72, and 80",
+      "url": "https://arxiv.org/abs/2609.04589v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1246_support_0",
+      "title": "Quaternary Legendre Pairs of Lengths 42, 46, 52, 58, 66, 72, and 80 — HTML",
+      "url": "https://arxiv.org/html/2609.04589v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1246_support_1",
+      "title": "Quaternary Legendre Pairs of Lengths 42, 46, 52, 58, 66, 72, and 80 — PDF",
+      "url": "https://arxiv.org/pdf/2609.04589v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1247": [
+    {
+      "key": "Daily20260907_1247",
+      "title": "Balanced Support Calibrations for Moser's Worm Problem: Exact Certificate and Bound of Triangular Cover",
+      "url": "https://arxiv.org/abs/2609.04591v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1247_support_0",
+      "title": "Balanced Support Calibrations for Moser's Worm Problem: Exact Certificate and Bound of Triangular Cover — HTML",
+      "url": "https://arxiv.org/html/2609.04591v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1247_support_1",
+      "title": "Balanced Support Calibrations for Moser's Worm Problem: Exact Certificate and Bound of Triangular Cover — PDF",
+      "url": "https://arxiv.org/pdf/2609.04591v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1248": [
+    {
+      "key": "Daily20260907_1248",
+      "title": "An Improved Upper Bound for Multicolour Ramsey Numbers",
+      "url": "https://arxiv.org/abs/2609.04596v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1248_support_0",
+      "title": "An Improved Upper Bound for Multicolour Ramsey Numbers — HTML",
+      "url": "https://arxiv.org/html/2609.04596v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1248_support_1",
+      "title": "An Improved Upper Bound for Multicolour Ramsey Numbers — PDF",
+      "url": "https://arxiv.org/pdf/2609.04596v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1249": [
+    {
+      "key": "Daily20260907_1249",
+      "title": "Local centralizer rigidity for a non-generic diagonal map",
+      "url": "https://arxiv.org/abs/2609.04643v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1249_support_0",
+      "title": "Local centralizer rigidity for a non-generic diagonal map — HTML",
+      "url": "https://arxiv.org/html/2609.04643v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1249_support_1",
+      "title": "Local centralizer rigidity for a non-generic diagonal map — PDF",
+      "url": "https://arxiv.org/pdf/2609.04643v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1250": [
+    {
+      "key": "Daily20260907_1250",
+      "title": "Random independent sets and local sparsity",
+      "url": "https://arxiv.org/abs/2609.04654v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1250_support_0",
+      "title": "Random independent sets and local sparsity — HTML",
+      "url": "https://arxiv.org/html/2609.04654v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1250_support_1",
+      "title": "Random independent sets and local sparsity — PDF",
+      "url": "https://arxiv.org/pdf/2609.04654v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1251": [
+    {
+      "key": "Daily20260907_1251",
+      "title": "A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients",
+      "url": "https://arxiv.org/abs/2609.04659v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1251_support_0",
+      "title": "A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients — HTML",
+      "url": "https://arxiv.org/html/2609.04659v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1251_support_1",
+      "title": "A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients — PDF",
+      "url": "https://arxiv.org/pdf/2609.04659v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1252": [
+    {
+      "key": "Daily20260907_1252",
+      "title": "Cohomology on Cotangent Bundles of Partial Flag Varieties in Type A",
+      "url": "https://arxiv.org/abs/2609.04670v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1252_support_0",
+      "title": "Cohomology on Cotangent Bundles of Partial Flag Varieties in Type A — HTML",
+      "url": "https://arxiv.org/html/2609.04670v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1252_support_1",
+      "title": "Cohomology on Cotangent Bundles of Partial Flag Varieties in Type A — PDF",
+      "url": "https://arxiv.org/pdf/2609.04670v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1253": [
+    {
+      "key": "Daily20260907_1253",
+      "title": "Curvature Diffusion of Inverse-weight Lin--Lu--Yau Ricci Flow on Finite Trees",
+      "url": "https://arxiv.org/abs/2609.04671v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1253_support_0",
+      "title": "Curvature Diffusion of Inverse-weight Lin--Lu--Yau Ricci Flow on Finite Trees — HTML",
+      "url": "https://arxiv.org/html/2609.04671v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1253_support_1",
+      "title": "Curvature Diffusion of Inverse-weight Lin--Lu--Yau Ricci Flow on Finite Trees — PDF",
+      "url": "https://arxiv.org/pdf/2609.04671v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1254": [
+    {
+      "key": "Daily20260907_1254",
+      "title": "The Cross-Correlation Distribution of the Niho-Type Decimation $d=4(2^m-1)+1$",
+      "url": "https://arxiv.org/abs/2609.04683v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1254_support_0",
+      "title": "The Cross-Correlation Distribution of the Niho-Type Decimation $d=4(2^m-1)+1$ — HTML",
+      "url": "https://arxiv.org/html/2609.04683v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1254_support_1",
+      "title": "The Cross-Correlation Distribution of the Niho-Type Decimation $d=4(2^m-1)+1$ — PDF",
+      "url": "https://arxiv.org/pdf/2609.04683v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1255": [
+    {
+      "key": "Daily20260907_1255",
+      "title": "On the Hausdorff measure of projections of self-similar sets",
+      "url": "https://arxiv.org/abs/2609.04684v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1255_support_0",
+      "title": "On the Hausdorff measure of projections of self-similar sets — HTML",
+      "url": "https://arxiv.org/html/2609.04684v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1255_support_1",
+      "title": "On the Hausdorff measure of projections of self-similar sets — PDF",
+      "url": "https://arxiv.org/pdf/2609.04684v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1256": [
+    {
+      "key": "Daily20260907_1256",
+      "title": "Heisenberg Equivariant Compactifications of Rational Homogeneous Varieties",
+      "url": "https://arxiv.org/abs/2609.04685v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1256_support_0",
+      "title": "Heisenberg Equivariant Compactifications of Rational Homogeneous Varieties — HTML",
+      "url": "https://arxiv.org/html/2609.04685v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1256_support_1",
+      "title": "Heisenberg Equivariant Compactifications of Rational Homogeneous Varieties — PDF",
+      "url": "https://arxiv.org/pdf/2609.04685v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1257": [
+    {
+      "key": "Daily20260907_1257",
+      "title": "Small graphs without power-of-two cycles: a lower bound of 24, a correction to a construction of Exoo, and explicit bounds for f(k)",
+      "url": "https://arxiv.org/abs/2609.04686v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1257_support_0",
+      "title": "Small graphs without power-of-two cycles: a lower bound of 24, a correction to a construction of Exoo, and explicit bounds for f(k) — HTML",
+      "url": "https://arxiv.org/html/2609.04686v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1257_support_1",
+      "title": "Small graphs without power-of-two cycles: a lower bound of 24, a correction to a construction of Exoo, and explicit bounds for f(k) — PDF",
+      "url": "https://arxiv.org/pdf/2609.04686v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1258": [
+    {
+      "key": "Daily20260907_1258",
+      "title": "A class of high-order discontinuous-Galerkin methods satisfying infinitely many entropy conditions with provable error estimates and strong convergence for general nonlinear conservation laws",
+      "url": "https://arxiv.org/abs/2609.04687v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1258_support_0",
+      "title": "A class of high-order discontinuous-Galerkin methods satisfying infinitely many entropy conditions with provable error estimates and strong convergence for general nonlinear conservation laws — HTML",
+      "url": "https://arxiv.org/html/2609.04687v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1258_support_1",
+      "title": "A class of high-order discontinuous-Galerkin methods satisfying infinitely many entropy conditions with provable error estimates and strong convergence for general nonlinear conservation laws — PDF",
+      "url": "https://arxiv.org/pdf/2609.04687v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1259": [
+    {
+      "key": "Daily20260907_1259",
+      "title": "Spectral properties of the resistance Laplacian with applications to data clustering and anomaly detection",
+      "url": "https://arxiv.org/abs/2609.04768v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1259_support_0",
+      "title": "Spectral properties of the resistance Laplacian with applications to data clustering and anomaly detection — HTML",
+      "url": "https://arxiv.org/html/2609.04768v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1259_support_1",
+      "title": "Spectral properties of the resistance Laplacian with applications to data clustering and anomaly detection — PDF",
+      "url": "https://arxiv.org/pdf/2609.04768v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1260": [
+    {
+      "key": "Daily20260907_1260",
+      "title": "Albertson's Conjecture for Chromatic Numbers at Most 29",
+      "url": "https://arxiv.org/abs/2609.04771v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1260_support_0",
+      "title": "Albertson's Conjecture for Chromatic Numbers at Most 29 — HTML",
+      "url": "https://arxiv.org/html/2609.04771v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1260_support_1",
+      "title": "Albertson's Conjecture for Chromatic Numbers at Most 29 — PDF",
+      "url": "https://arxiv.org/pdf/2609.04771v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1261": [
+    {
+      "key": "Daily20260907_1261",
+      "title": "Products in $KK$- and $E$-theory",
+      "url": "https://arxiv.org/abs/2609.04795v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1261_support_0",
+      "title": "Products in $KK$- and $E$-theory — HTML",
+      "url": "https://arxiv.org/html/2609.04795v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1261_support_1",
+      "title": "Products in $KK$- and $E$-theory — PDF",
+      "url": "https://arxiv.org/pdf/2609.04795v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1262": [
+    {
+      "key": "Daily20260907_1262",
+      "title": "Deformations of K\\\"{a}hler and Balanced Hyperbolicity",
+      "url": "https://arxiv.org/abs/2609.04816v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1262_support_0",
+      "title": "Deformations of K\\\"{a}hler and Balanced Hyperbolicity — HTML",
+      "url": "https://arxiv.org/html/2609.04816v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1262_support_1",
+      "title": "Deformations of K\\\"{a}hler and Balanced Hyperbolicity — PDF",
+      "url": "https://arxiv.org/pdf/2609.04816v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1263": [
+    {
+      "key": "Daily20260907_1263",
+      "title": "Construction of Finite Hilbert--P\\'olya Matrices from Weil's Explicit Formula",
+      "url": "https://arxiv.org/abs/2609.04908v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1263_support_0",
+      "title": "Construction of Finite Hilbert--P\\'olya Matrices from Weil's Explicit Formula — HTML",
+      "url": "https://arxiv.org/html/2609.04908v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1263_support_1",
+      "title": "Construction of Finite Hilbert--P\\'olya Matrices from Weil's Explicit Formula — PDF",
+      "url": "https://arxiv.org/pdf/2609.04908v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1264": [
+    {
+      "key": "Daily20260907_1264",
+      "title": "The fourth generalized Davenport constant of $C_5^3$",
+      "url": "https://arxiv.org/abs/2609.04950v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1264_support_0",
+      "title": "The fourth generalized Davenport constant of $C_5^3$ — HTML",
+      "url": "https://arxiv.org/html/2609.04950v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1264_support_1",
+      "title": "The fourth generalized Davenport constant of $C_5^3$ — PDF",
+      "url": "https://arxiv.org/pdf/2609.04950v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1265": [
+    {
+      "key": "Daily20260907_1265",
+      "title": "The Erd\\H{o}s-P\\'osa Property for Colorful Minors",
+      "url": "https://arxiv.org/abs/2609.04956v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1265_support_0",
+      "title": "The Erd\\H{o}s-P\\'osa Property for Colorful Minors — HTML",
+      "url": "https://arxiv.org/html/2609.04956v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1265_support_1",
+      "title": "The Erd\\H{o}s-P\\'osa Property for Colorful Minors — PDF",
+      "url": "https://arxiv.org/pdf/2609.04956v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1266": [
+    {
+      "key": "Daily20260907_1266",
+      "title": "Dimension-free $H^\\infty$-calculus of angle $<\\pi/2$ for UMD-valued Ornstein--Uhlenbeck operators",
+      "url": "https://arxiv.org/abs/2609.04974v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1266_support_0",
+      "title": "Dimension-free $H^\\infty$-calculus of angle $<\\pi/2$ for UMD-valued Ornstein--Uhlenbeck operators — HTML",
+      "url": "https://arxiv.org/html/2609.04974v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1266_support_1",
+      "title": "Dimension-free $H^\\infty$-calculus of angle $<\\pi/2$ for UMD-valued Ornstein--Uhlenbeck operators — PDF",
+      "url": "https://arxiv.org/pdf/2609.04974v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1267": [
+    {
+      "key": "Daily20260907_1267",
+      "title": "The Right Edge of the Zero Set of the Fibonacci Zeta Function",
+      "url": "https://arxiv.org/abs/2609.04993v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1267_support_0",
+      "title": "The Right Edge of the Zero Set of the Fibonacci Zeta Function — HTML",
+      "url": "https://arxiv.org/html/2609.04993v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1267_support_1",
+      "title": "The Right Edge of the Zero Set of the Fibonacci Zeta Function — PDF",
+      "url": "https://arxiv.org/pdf/2609.04993v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1268": [
+    {
+      "key": "Daily20260907_1268",
+      "title": "A Computational Obstruction to Swapping Area and Dinv: An Automata-Theoretic View of the $q,t$-Catalan Symmetry",
+      "url": "https://arxiv.org/abs/2609.05005v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1268_support_0",
+      "title": "A Computational Obstruction to Swapping Area and Dinv: An Automata-Theoretic View of the $q,t$-Catalan Symmetry — HTML",
+      "url": "https://arxiv.org/html/2609.05005v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1268_support_1",
+      "title": "A Computational Obstruction to Swapping Area and Dinv: An Automata-Theoretic View of the $q,t$-Catalan Symmetry — PDF",
+      "url": "https://arxiv.org/pdf/2609.05005v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1269": [
+    {
+      "key": "Daily20260907_1269",
+      "title": "The Molecular Species $\\mathbf{C}_{\\alpha}$: Geometric Realization and a Closed Formula for Kronecker Coefficients",
+      "url": "https://arxiv.org/abs/2609.05010v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1269_support_0",
+      "title": "The Molecular Species $\\mathbf{C}_{\\alpha}$: Geometric Realization and a Closed Formula for Kronecker Coefficients — HTML",
+      "url": "https://arxiv.org/html/2609.05010v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1269_support_1",
+      "title": "The Molecular Species $\\mathbf{C}_{\\alpha}$: Geometric Realization and a Closed Formula for Kronecker Coefficients — PDF",
+      "url": "https://arxiv.org/pdf/2609.05010v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1270": [
+    {
+      "key": "Daily20260907_1270",
+      "title": "Failure of analyticity-radius growth in energy-canceling fluid models",
+      "url": "https://arxiv.org/abs/2609.05023v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1270_support_0",
+      "title": "Failure of analyticity-radius growth in energy-canceling fluid models — HTML",
+      "url": "https://arxiv.org/html/2609.05023v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1270_support_1",
+      "title": "Failure of analyticity-radius growth in energy-canceling fluid models — PDF",
+      "url": "https://arxiv.org/pdf/2609.05023v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1271": [
+    {
+      "key": "Daily20260907_1271",
+      "title": "Reconciling Universal and Uniform Learning with $Q$-Aggregation",
+      "url": "https://arxiv.org/abs/2609.05041v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1271_support_0",
+      "title": "Reconciling Universal and Uniform Learning with $Q$-Aggregation — HTML",
+      "url": "https://arxiv.org/html/2609.05041v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1271_support_1",
+      "title": "Reconciling Universal and Uniform Learning with $Q$-Aggregation — PDF",
+      "url": "https://arxiv.org/pdf/2609.05041v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1272": [
+    {
+      "key": "Daily20260907_1272",
+      "title": "Extending Structures for $n$-Lie Algebras",
+      "url": "https://arxiv.org/abs/2609.05051v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1272_support_0",
+      "title": "Extending Structures for $n$-Lie Algebras — HTML",
+      "url": "https://arxiv.org/html/2609.05051v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1272_support_1",
+      "title": "Extending Structures for $n$-Lie Algebras — PDF",
+      "url": "https://arxiv.org/pdf/2609.05051v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1273": [
+    {
+      "key": "Daily20260907_1273",
+      "title": "Monotonicity formulas in positively curved settings with applications to two-phase free boundary problems",
+      "url": "https://arxiv.org/abs/2609.05107v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1273_support_0",
+      "title": "Monotonicity formulas in positively curved settings with applications to two-phase free boundary problems — HTML",
+      "url": "https://arxiv.org/html/2609.05107v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1273_support_1",
+      "title": "Monotonicity formulas in positively curved settings with applications to two-phase free boundary problems — PDF",
+      "url": "https://arxiv.org/pdf/2609.05107v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1274": [
+    {
+      "key": "Daily20260907_1274",
+      "title": "Parahoric motivic Hecke categories in equal and mixed characteristic",
+      "url": "https://arxiv.org/abs/2609.05123v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1274_support_0",
+      "title": "Parahoric motivic Hecke categories in equal and mixed characteristic — HTML",
+      "url": "https://arxiv.org/html/2609.05123v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1274_support_1",
+      "title": "Parahoric motivic Hecke categories in equal and mixed characteristic — PDF",
+      "url": "https://arxiv.org/pdf/2609.05123v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1275": [
+    {
+      "key": "Daily20260907_1275",
+      "title": "Parking functions, Smirnov words, and noncrossing Chow polynomials",
+      "url": "https://arxiv.org/abs/2609.05131v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1275_support_0",
+      "title": "Parking functions, Smirnov words, and noncrossing Chow polynomials — HTML",
+      "url": "https://arxiv.org/html/2609.05131v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1275_support_1",
+      "title": "Parking functions, Smirnov words, and noncrossing Chow polynomials — PDF",
+      "url": "https://arxiv.org/pdf/2609.05131v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1276": [
+    {
+      "key": "Daily20260907_1276",
+      "title": "Counting level-raising congruences using modular representation theory",
+      "url": "https://arxiv.org/abs/2609.05144v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1276_support_0",
+      "title": "Counting level-raising congruences using modular representation theory — HTML",
+      "url": "https://arxiv.org/html/2609.05144v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1276_support_1",
+      "title": "Counting level-raising congruences using modular representation theory — PDF",
+      "url": "https://arxiv.org/pdf/2609.05144v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1277": [
+    {
+      "key": "Daily20260907_1277",
+      "title": "Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms",
+      "url": "https://arxiv.org/abs/2609.05201v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1277_support_0",
+      "title": "Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms — HTML",
+      "url": "https://arxiv.org/html/2609.05201v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1277_support_1",
+      "title": "Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms — PDF",
+      "url": "https://arxiv.org/pdf/2609.05201v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1278": [
+    {
+      "key": "Daily20260907_1278",
+      "title": "Diffusion under competing bulk and surface stopping mechanisms",
+      "url": "https://arxiv.org/abs/2609.05247v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1278_support_0",
+      "title": "Diffusion under competing bulk and surface stopping mechanisms — HTML",
+      "url": "https://arxiv.org/html/2609.05247v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1278_support_1",
+      "title": "Diffusion under competing bulk and surface stopping mechanisms — PDF",
+      "url": "https://arxiv.org/pdf/2609.05247v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1279": [
+    {
+      "key": "Daily20260907_1279",
+      "title": "Coleman Isomorphisms in Syntomic Cohomology and $\\mathrm{THH}$",
+      "url": "https://arxiv.org/abs/2609.05252v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1279_support_0",
+      "title": "Coleman Isomorphisms in Syntomic Cohomology and $\\mathrm{THH}$ — HTML",
+      "url": "https://arxiv.org/html/2609.05252v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1279_support_1",
+      "title": "Coleman Isomorphisms in Syntomic Cohomology and $\\mathrm{THH}$ — PDF",
+      "url": "https://arxiv.org/pdf/2609.05252v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1280": [
+    {
+      "key": "Daily20260907_1280",
+      "title": "Asymptotics for the $k$-Hessian Eigenvalue on the Unit Ball",
+      "url": "https://arxiv.org/abs/2609.05277v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1280_support_0",
+      "title": "Asymptotics for the $k$-Hessian Eigenvalue on the Unit Ball — HTML",
+      "url": "https://arxiv.org/html/2609.05277v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1280_support_1",
+      "title": "Asymptotics for the $k$-Hessian Eigenvalue on the Unit Ball — PDF",
+      "url": "https://arxiv.org/pdf/2609.05277v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1281": [
+    {
+      "key": "Daily20260907_1281",
+      "title": "Statistical reduction before the target is known: two boundary results",
+      "url": "https://arxiv.org/abs/2609.05286v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1281_support_0",
+      "title": "Statistical reduction before the target is known: two boundary results — HTML",
+      "url": "https://arxiv.org/html/2609.05286v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1281_support_1",
+      "title": "Statistical reduction before the target is known: two boundary results — PDF",
+      "url": "https://arxiv.org/pdf/2609.05286v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1282": [
+    {
+      "key": "Daily20260907_1282",
+      "title": "On the lengths of MDS codes with a two-transitive permutation automorphism group",
+      "url": "https://arxiv.org/abs/2609.05292v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1282_support_0",
+      "title": "On the lengths of MDS codes with a two-transitive permutation automorphism group — HTML",
+      "url": "https://arxiv.org/html/2609.05292v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1282_support_1",
+      "title": "On the lengths of MDS codes with a two-transitive permutation automorphism group — PDF",
+      "url": "https://arxiv.org/pdf/2609.05292v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1283": [
+    {
+      "key": "Daily20260907_1283",
+      "title": "The oriented Kesten--McKay law for random regular digraphs",
+      "url": "https://arxiv.org/abs/2609.05297v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1283_support_0",
+      "title": "The oriented Kesten--McKay law for random regular digraphs — HTML",
+      "url": "https://arxiv.org/html/2609.05297v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1283_support_1",
+      "title": "The oriented Kesten--McKay law for random regular digraphs — PDF",
+      "url": "https://arxiv.org/pdf/2609.05297v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1284": [
+    {
+      "key": "Daily20260907_1284",
+      "title": "Replica symmetry breaking at arbitrary depth",
+      "url": "https://arxiv.org/abs/2609.05317v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1284_support_0",
+      "title": "Replica symmetry breaking at arbitrary depth — HTML",
+      "url": "https://arxiv.org/html/2609.05317v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1284_support_1",
+      "title": "Replica symmetry breaking at arbitrary depth — PDF",
+      "url": "https://arxiv.org/pdf/2609.05317v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1285": [
+    {
+      "key": "Daily20260907_1285",
+      "title": "A Log-Free $n^{1/5}$ Bound for Chowla's Cosine Problem",
+      "url": "https://arxiv.org/abs/2609.05338v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1285_support_0",
+      "title": "A Log-Free $n^{1/5}$ Bound for Chowla's Cosine Problem — HTML",
+      "url": "https://arxiv.org/html/2609.05338v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1285_support_1",
+      "title": "A Log-Free $n^{1/5}$ Bound for Chowla's Cosine Problem — PDF",
+      "url": "https://arxiv.org/pdf/2609.05338v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1286": [
+    {
+      "key": "Daily20260907_1286",
+      "title": "Bounded ratios for Lorentzian polynomials",
+      "url": "https://arxiv.org/abs/2609.05341v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1286_support_0",
+      "title": "Bounded ratios for Lorentzian polynomials — HTML",
+      "url": "https://arxiv.org/html/2609.05341v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1286_support_1",
+      "title": "Bounded ratios for Lorentzian polynomials — PDF",
+      "url": "https://arxiv.org/pdf/2609.05341v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1287": [
+    {
+      "key": "Daily20260907_1287",
+      "title": "Higher Order Unbounded Rough Drivers",
+      "url": "https://arxiv.org/abs/2609.05353v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1287_support_0",
+      "title": "Higher Order Unbounded Rough Drivers — HTML",
+      "url": "https://arxiv.org/html/2609.05353v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1287_support_1",
+      "title": "Higher Order Unbounded Rough Drivers — PDF",
+      "url": "https://arxiv.org/pdf/2609.05353v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1288": [
+    {
+      "key": "Daily20260907_1288",
+      "title": "Purely Periodic Three-move Subtraction Games",
+      "url": "https://arxiv.org/abs/2609.05358v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1288_support_0",
+      "title": "Purely Periodic Three-move Subtraction Games — HTML",
+      "url": "https://arxiv.org/html/2609.05358v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1288_support_1",
+      "title": "Purely Periodic Three-move Subtraction Games — PDF",
+      "url": "https://arxiv.org/pdf/2609.05358v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1289": [
+    {
+      "key": "Daily20260907_1289",
+      "title": "Finite-sample nonparametric mean tests: Leave-one-out duality and asymptotic optimality",
+      "url": "https://arxiv.org/abs/2609.05360v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1289_support_0",
+      "title": "Finite-sample nonparametric mean tests: Leave-one-out duality and asymptotic optimality — HTML",
+      "url": "https://arxiv.org/html/2609.05360v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1289_support_1",
+      "title": "Finite-sample nonparametric mean tests: Leave-one-out duality and asymptotic optimality — PDF",
+      "url": "https://arxiv.org/pdf/2609.05360v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1290": [
+    {
+      "key": "Daily20260907_1290",
+      "title": "Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs",
+      "url": "https://arxiv.org/abs/2609.05368v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1290_support_0",
+      "title": "Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs — HTML",
+      "url": "https://arxiv.org/html/2609.05368v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1290_support_1",
+      "title": "Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs — PDF",
+      "url": "https://arxiv.org/pdf/2609.05368v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1291": [
+    {
+      "key": "Daily20260907_1291",
+      "title": "Short arithmetic terms express the cardinality of elliptic curves in Weierstra{\\ss} normal form over finite fields",
+      "url": "https://arxiv.org/abs/2609.05371v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1291_support_0",
+      "title": "Short arithmetic terms express the cardinality of elliptic curves in Weierstra{\\ss} normal form over finite fields — HTML",
+      "url": "https://arxiv.org/html/2609.05371v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1291_support_1",
+      "title": "Short arithmetic terms express the cardinality of elliptic curves in Weierstra{\\ss} normal form over finite fields — PDF",
+      "url": "https://arxiv.org/pdf/2609.05371v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1292": [
+    {
+      "key": "Daily20260907_1292",
+      "title": "The weak-type (1,1) bound for the Hardy--Littlewood maximal function is $O(\\sqrt{n} \\log n)$",
+      "url": "https://arxiv.org/abs/2609.05377v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1292_support_0",
+      "title": "The weak-type (1,1) bound for the Hardy--Littlewood maximal function is $O(\\sqrt{n} \\log n)$ — HTML",
+      "url": "https://arxiv.org/html/2609.05377v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1292_support_1",
+      "title": "The weak-type (1,1) bound for the Hardy--Littlewood maximal function is $O(\\sqrt{n} \\log n)$ — PDF",
+      "url": "https://arxiv.org/pdf/2609.05377v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1293": [
+    {
+      "key": "Daily20260907_1293",
+      "title": "The coordinate ring of the k-fold iterated commutator locus for 2x2 matrices",
+      "url": "https://arxiv.org/abs/2609.05386v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1293_support_0",
+      "title": "The coordinate ring of the k-fold iterated commutator locus for 2x2 matrices — HTML",
+      "url": "https://arxiv.org/html/2609.05386v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1293_support_1",
+      "title": "The coordinate ring of the k-fold iterated commutator locus for 2x2 matrices — PDF",
+      "url": "https://arxiv.org/pdf/2609.05386v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1294": [
+    {
+      "key": "Daily20260907_1294",
+      "title": "Non-Hamiltonian $\\frac{3}{2}$-Tough Plane Triangulations",
+      "url": "https://arxiv.org/abs/2609.05414v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1294_support_0",
+      "title": "Non-Hamiltonian $\\frac{3}{2}$-Tough Plane Triangulations — HTML",
+      "url": "https://arxiv.org/html/2609.05414v1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1294_support_1",
+      "title": "Non-Hamiltonian $\\frac{3}{2}$-Tough Plane Triangulations — PDF",
+      "url": "https://arxiv.org/pdf/2609.05414v1",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1295": [
+    {
+      "key": "Daily20260907_1295",
+      "title": "The partition poset complex and the Goodwillie derivatives of the identity in spaces",
+      "url": "https://arxiv.org/abs/2007.05440v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1295_support_0",
+      "title": "The partition poset complex and the Goodwillie derivatives of the identity in spaces — HTML",
+      "url": "https://arxiv.org/html/2007.05440v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1295_support_1",
+      "title": "The partition poset complex and the Goodwillie derivatives of the identity in spaces — PDF",
+      "url": "https://arxiv.org/pdf/2007.05440v3",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1296": [
+    {
+      "key": "Daily20260907_1296",
+      "title": "Statistical Inference for Privatized Data with Unknown Sample Size",
+      "url": "https://arxiv.org/abs/2406.06231v4",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1296_support_0",
+      "title": "Statistical Inference for Privatized Data with Unknown Sample Size — HTML",
+      "url": "https://arxiv.org/html/2406.06231v4",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1296_support_1",
+      "title": "Statistical Inference for Privatized Data with Unknown Sample Size — PDF",
+      "url": "https://arxiv.org/pdf/2406.06231v4",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1297": [
+    {
+      "key": "Daily20260907_1297",
+      "title": "Galois groups of reciprocal polynomials and the van der Waerden-Bhargava theorem",
+      "url": "https://arxiv.org/abs/2406.18970v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1297_support_0",
+      "title": "Galois groups of reciprocal polynomials and the van der Waerden-Bhargava theorem — HTML",
+      "url": "https://arxiv.org/html/2406.18970v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1297_support_1",
+      "title": "Galois groups of reciprocal polynomials and the van der Waerden-Bhargava theorem — PDF",
+      "url": "https://arxiv.org/pdf/2406.18970v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1298": [
+    {
+      "key": "Daily20260907_1298",
+      "title": "Equivalence of sub-Laplacian on Polarized groups",
+      "url": "https://arxiv.org/abs/2501.00576v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1298_support_0",
+      "title": "Equivalence of sub-Laplacian on Polarized groups — HTML",
+      "url": "https://arxiv.org/html/2501.00576v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1298_support_1",
+      "title": "Equivalence of sub-Laplacian on Polarized groups — PDF",
+      "url": "https://arxiv.org/pdf/2501.00576v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1299": [
+    {
+      "key": "Daily20260907_1299",
+      "title": "Moment Relaxations for Data-Driven Wasserstein Distributionally Robust Optimization",
+      "url": "https://arxiv.org/abs/2505.19278v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1299_support_0",
+      "title": "Moment Relaxations for Data-Driven Wasserstein Distributionally Robust Optimization — HTML",
+      "url": "https://arxiv.org/html/2505.19278v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1299_support_1",
+      "title": "Moment Relaxations for Data-Driven Wasserstein Distributionally Robust Optimization — PDF",
+      "url": "https://arxiv.org/pdf/2505.19278v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1300": [
+    {
+      "key": "Daily20260907_1300",
+      "title": "Algorithmic Randomness, Exchangeability, and the Principal Principle",
+      "url": "https://arxiv.org/abs/2510.24054v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1300_support_0",
+      "title": "Algorithmic Randomness, Exchangeability, and the Principal Principle — HTML",
+      "url": "https://arxiv.org/html/2510.24054v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1300_support_1",
+      "title": "Algorithmic Randomness, Exchangeability, and the Principal Principle — PDF",
+      "url": "https://arxiv.org/pdf/2510.24054v3",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1301": [
+    {
+      "key": "Daily20260907_1301",
+      "title": "Polynomial-Time Near-Optimal Estimation over Certain Type-2 Convex Bodies",
+      "url": "https://arxiv.org/abs/2512.22714v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1301_support_0",
+      "title": "Polynomial-Time Near-Optimal Estimation over Certain Type-2 Convex Bodies — HTML",
+      "url": "https://arxiv.org/html/2512.22714v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1301_support_1",
+      "title": "Polynomial-Time Near-Optimal Estimation over Certain Type-2 Convex Bodies — PDF",
+      "url": "https://arxiv.org/pdf/2512.22714v3",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1302": [
+    {
+      "key": "Daily20260907_1302",
+      "title": "Computing accurate singular values using a mixed-precision one-sided Jacobi algorithm",
+      "url": "https://arxiv.org/abs/2602.18134v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1302_support_0",
+      "title": "Computing accurate singular values using a mixed-precision one-sided Jacobi algorithm — HTML",
+      "url": "https://arxiv.org/html/2602.18134v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1302_support_1",
+      "title": "Computing accurate singular values using a mixed-precision one-sided Jacobi algorithm — PDF",
+      "url": "https://arxiv.org/pdf/2602.18134v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1303": [
+    {
+      "key": "Daily20260907_1303",
+      "title": "An Improved Upper Bound for Finite Sidon Sets via Vector-Valued Smoothing",
+      "url": "https://arxiv.org/abs/2607.01169v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1303_support_0",
+      "title": "An Improved Upper Bound for Finite Sidon Sets via Vector-Valued Smoothing — HTML",
+      "url": "https://arxiv.org/html/2607.01169v3",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1303_support_1",
+      "title": "An Improved Upper Bound for Finite Sidon Sets via Vector-Valued Smoothing — PDF",
+      "url": "https://arxiv.org/pdf/2607.01169v3",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1304": [
+    {
+      "key": "Daily20260907_1304",
+      "title": "A $p = 2$ dichotomy for uniform Riesz transform bounds on stratified Lie groups",
+      "url": "https://arxiv.org/abs/2608.20267v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1304_support_0",
+      "title": "A $p = 2$ dichotomy for uniform Riesz transform bounds on stratified Lie groups — HTML",
+      "url": "https://arxiv.org/html/2608.20267v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1304_support_1",
+      "title": "A $p = 2$ dichotomy for uniform Riesz transform bounds on stratified Lie groups — PDF",
+      "url": "https://arxiv.org/pdf/2608.20267v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1305": [
+    {
+      "key": "Daily20260907_1305",
+      "title": "Four-Entropic Matroids Are Quaternary",
+      "url": "https://arxiv.org/abs/2608.20553v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1305_support_0",
+      "title": "Four-Entropic Matroids Are Quaternary — HTML",
+      "url": "https://arxiv.org/html/2608.20553v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1305_support_1",
+      "title": "Four-Entropic Matroids Are Quaternary — PDF",
+      "url": "https://arxiv.org/pdf/2608.20553v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1306": [
+    {
+      "key": "Daily20260907_1306",
+      "title": "Characterizations of subdual cones via isotonicity of the norm of the metric projection and via antitonicity of angular distance",
+      "url": "https://arxiv.org/abs/2608.21005v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1306_support_0",
+      "title": "Characterizations of subdual cones via isotonicity of the norm of the metric projection and via antitonicity of angular distance — HTML",
+      "url": "https://arxiv.org/html/2608.21005v2",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1306_support_1",
+      "title": "Characterizations of subdual cones via isotonicity of the norm of the metric projection and via antitonicity of angular distance — PDF",
+      "url": "https://arxiv.org/pdf/2608.21005v2",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1307": [
+    {
+      "key": "Daily20260907_1307",
+      "title": "Subspace embeddings with the rerandomized SRHT — first substantive owner commit",
+      "url": "https://github.com/yuningyang19/rerandSRHT_prob_5_6_simons_workshop/commit/ce20e844d75e9024a3ea41911b0ca58572a52723",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1307_support_0",
+      "title": "Subspace embeddings with the rerandomized SRHT — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000001-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1308": [
+    {
+      "key": "Daily20260907_1308",
+      "title": "A proof of the Bollobás–Nikiforov conjecture in Lean — first result owner commit",
+      "url": "https://github.com/ShengtongZhang-alt/BN/commit/d2188387e8565643cc566cf5ce933dd70d2ed2f0",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1308_support_0",
+      "title": "A proof of the Bollobás–Nikiforov conjecture in Lean — direct ai credit owner commit",
+      "url": "https://github.com/ShengtongZhang-alt/BN/commit/9697ffa6336cc1aa050c5770b9c0b31e4df93a38",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1308_support_1",
+      "title": "A proof of the Bollobás–Nikiforov conjecture in Lean — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000002-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1309": [
+    {
+      "key": "Daily20260907_1309",
+      "title": "Distance-Shell Tomography on Graphs: Integer Trades and Optimal Grid Sensing — doi record",
+      "url": "https://doi.org/10.5281/zenodo.22404456",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1309_support_0",
+      "title": "Distance-Shell Tomography on Graphs: Integer Trades and Optimal Grid Sensing — pinned owner commit",
+      "url": "https://github.com/lennrt/palomar-formalizations/commit/71bcd530fd1c2c9a02d9112c9ca05839082983de",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1309_support_1",
+      "title": "Distance-Shell Tomography on Graphs: Integer Trades and Optimal Grid Sensing — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000003-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1310": [
+    {
+      "key": "Daily20260907_1310",
+      "title": "Determining the Rearrangement Number — first result owner commit",
+      "url": "https://github.com/vo-rodrigues/rr-equals-nonmeager-paper/commit/c8ff2f4230297c7396658d40226efd034c1e59b1",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1310_support_0",
+      "title": "Determining the Rearrangement Number — direct ai disclosure owner commit",
+      "url": "https://github.com/vo-rodrigues/rr-equals-nonmeager-paper/commit/b3319f786a548cc65a4f53c663dd06ed0cda9cd9",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1310_support_1",
+      "title": "Determining the Rearrangement Number — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000004-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1311": [
+    {
+      "key": "Daily20260907_1311",
+      "title": "Dimension-independent Hlawka constants for Schatten norms — first substantive owner commit",
+      "url": "https://github.com/savarin/hlawka-schatten/commit/f0ab4a12da3c807bd79db3a47286ab2d5b8ce609",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1311_support_0",
+      "title": "Dimension-independent Hlawka constants for Schatten norms — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000005-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1312": [
+    {
+      "key": "Daily20260907_1312",
+      "title": "Ceiling orbits of rational bases are not P-recursive — first substantive owner commit",
+      "url": "https://github.com/rwst/Ceiling-Orbits/commit/2a63916633e6638b60a22cafeec346f9cf707429",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1312_support_0",
+      "title": "Ceiling orbits of rational bases are not P-recursive — doi paper",
+      "url": "https://doi.org/10.13140/RG.2.2.10727.82081",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1312_support_1",
+      "title": "Ceiling orbits of rational bases are not P-recursive — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000006-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1313": [
+    {
+      "key": "Daily20260907_1313",
+      "title": "A two-to-one executable map between Tunnell representation sets under the Tunnell balance — first public owner commit",
+      "url": "https://github.com/GrgAakash/tunnell-two-to-one-map/commit/0cee467f46f9335d78c0a1048856ec5a77b2e2ee",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1313_support_0",
+      "title": "A two-to-one executable map between Tunnell representation sets under the Tunnell balance — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000010-v2.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1314": [
+    {
+      "key": "Daily20260907_1314",
+      "title": "Moh's P3 curve is a set-theoretic complete intersection — first public owner commit",
+      "url": "https://github.com/GrgAakash/moh-p3-set-theoretic-complete-intersection/commit/d19b845e7c2c60fe1ed7587223ff0606e2bd4e73",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1314_support_0",
+      "title": "Moh's P3 curve is a set-theoretic complete intersection — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000012-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1315": [
+    {
+      "key": "Daily20260907_1315",
+      "title": "gn-lean: the Gurvich–Naumova partition conjecture — first public owner commit",
+      "url": "https://github.com/JD-Jones-ASES/gn-lean/commit/73bb87b16da8c053fd07e0d4dc43732b74335a3b",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1315_support_0",
+      "title": "gn-lean: the Gurvich–Naumova partition conjecture — palomar version",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-07-000013-v1.json",
+      "accessed": "2026-09-07"
+    }
+  ],
+  "1316": [
+    {
+      "key": "Daily20260907_1316",
+      "title": "Explicit Positive-Density Collatz Convergence in Logarithmic Time — canonical case study",
+      "url": "https://www.proofatlas.ai/formalizations/positive-density-log-time-collatz/",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1316_support_0",
+      "title": "Explicit Positive-Density Collatz Convergence in Logarithmic Time — release metadata",
+      "url": "https://www.proofatlas.ai/data/releases/positive-density-log-time-collatz.json",
+      "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20260907_1316_support_1",
+      "title": "Explicit Positive-Density Collatz Convergence in Logarithmic Time — pinned evidence",
+      "url": "https://www.proofatlas.ai/sources/positive-density-log-time-collatz/commits/830b9d3f38f2a8da8cd921bf6a9310dd69336fd0/artifact.collatz.positive_density_log_time.lean-package.v003.evidence.json",
+      "accessed": "2026-09-07"
     }
   ]
 }
