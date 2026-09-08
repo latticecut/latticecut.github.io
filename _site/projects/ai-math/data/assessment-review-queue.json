@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-06",
+  "assessedAt": "2026-09-07",
   "samplingWeek": 2957,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -369,6 +369,16 @@
       ]
     },
     {
+      "id": "71",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Independently compare v1 and v2 statement/proof scope and audit how Claude Fable 5's proof of Theorem 4.5 and suggested propositions were incorporated; verify the retained nonprovisional result wording and the improvement to Theorem 1.4."
+      ]
+    },
+    {
       "id": "72",
       "category": "Superhuman",
       "confidence": "high",
@@ -595,7 +605,8 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Compare v1 and v2 proof scope, map the expanded GPT-5.6 Sol/Codex/Danus attribution to the decisive construction, reconcile selected author-side Lean checks with the independent theorem-closure package, and preserve the explicit EJZK premise."
       ]
     },
     {
@@ -932,6 +943,16 @@
       ]
     },
     {
+      "id": "536",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Exact refined exponent/prefactor, small-D cutoff, application scope, novelty and independent replay. Further checking: Obtain independent Collatz-dynamics review of the refined arbitrary-target endpoint-pullback theorem and its relationship to Terras/Korec/Tao and later FirstPassage results; verify manuscript-to-Lean correspondence for the new C^(theta/(1+theta)) dependence, D^(-theta/(2(1+theta))) exponent, small-D cutoff, transport slope and every application claim outside the selected comparator surface; independently replay Palomar v3 and audit novelty/priority; preserve that the theorem is operator-level and proves neither pointwise convergence nor eventual descent of every orbit. No independent human peer review is recorded."
+      ]
+    },
+    {
       "id": "537",
       "category": "Difficult",
       "confidence": "medium",
@@ -1253,6 +1274,875 @@
         "Obtain specialist review of the repaired Perron endpoints, logarithmic derivatives, double-zero handling and omega argument; verify that all corrections survive, replay the finite checks, establish priority against the literature, determine the referee's identity and independence, and map the exact human-versus-AI allocation.",
         "AI contribution not established",
         "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1231",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the Sendov scalar reduction inherited from Mazur--Tao, the monotonicity and mesh reductions, every one-variable inequality in the fixed certificate, proof independence/novelty, and the correspondence between the displayed theorem, interval code, and selected Lean checks. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Sat, 22 Aug 2026 10:59:20 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1232",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently replay the exact graph verifier (297 minimum dominating sets and all 17,550 four-edge deletions), check the explicit five-edge witness, and review priority and the precise GPT-to-author generation/revision chronology. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Tue, 01 Sep 2026 19:57:46 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1233",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Minimal-Volume Equiangular Hyperbolic $4$-Polytopes; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Tue, 01 Sep 2026 20:09:34 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1234",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in An explicit non-elementary matrix over a bivariate Laurent polynomial ring; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Wed, 02 Sep 2026 22:07:45 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1235",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Every Closed Oriented Surface of Positive Genus Is Loewner; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 05:06:33 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1236",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Turing universality, computability, and incompleteness in hypergraph Tur\\'an theory; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 14:32:06 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1237",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Harmonic morphisms of sub-Riemannian Lie groups; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 16:39:02 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1238",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Positivity of Smooth Currents on Singular Spaces; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 18:04:31 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1239",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Computing Lewis Weights to High Precision by Fixed-Point Iteration; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 18:05:21 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c).",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1240",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in On the torsion in the Chow motive of an Enriques surface; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 18:20:51 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1241",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Loss of memory in the periodic Ehrenfest model with small polyhedral scatterers; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 18:37:38 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1242",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in SIC dimension towers via cyclotomic polynomials; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 19:51:19 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1243",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Consensus times for monotone aggregation dynamics; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 20:50:32 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1244",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The Deterministic Hare Core Is Nonempty for Nine-Seat Approval Elections; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 21:30:44 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1245",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Centered Permutation Prefixes for SGD with Random Reshuffling: Sharp Rates, H\\\"older Geometry, and Composite Proximal Extensions; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 00:17:04 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1246",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Quaternary Legendre Pairs of Lengths 42, 46, 52, 58, 66, 72, and 80; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 00:39:20 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1247",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain specialist convex-geometry review, check novelty against earlier triangular numerical candidates, verify the continuum reduction and selected Lambda gap, replay the one- and two-delimiter certificates, and compare the paper claim with the Lean/code scope. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 00:46:13 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1248",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in An Improved Upper Bound for Multicolour Ramsey Numbers; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 00:52:16 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1249",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Local centralizer rigidity for a non-generic diagonal map; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 02:23:38 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1250",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Random independent sets and local sparsity; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 02:36:44 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1251",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain independent numerical-analysis and dynamical-systems review; separate the prior s=2 companion and known Akaike s=1 cases; verify the s=3 structural proof, certified Hopf/interval/Sturm argument, shadowing and degree elevation, and the exact GPT/human allocation. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 02:46:48 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1252",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Cohomology on Cotangent Bundles of Partial Flag Varieties in Type A; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:02:12 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1253",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Curvature Diffusion of Inverse-weight Lin--Lu--Yau Ricci Flow on Finite Trees; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:02:13 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1254",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The Cross-Correlation Distribution of the Niho-Type Decimation $d=4(2^m-1)+1$; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:16:50 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1255",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in On the Hausdorff measure of projections of self-similar sets; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:20:03 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1256",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Heisenberg Equivariant Compactifications of Rational Homogeneous Varieties; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:20:40 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1257",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Small graphs without power-of-two cycles: a lower bound of 24, a correction to a construction of Exoo, and explicit bounds for f(k); establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:21:36 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1258",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in A class of high-order discontinuous-Galerkin methods satisfying infinitely many entropy conditions with provable error estimates and strong convergence for general nonlinear conservation laws; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 03:31:11 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1259",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Spectral properties of the resistance Laplacian with applications to data clustering and anomaly detection; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 06:00:31 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c).",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1260",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Albertson's Conjecture for Chromatic Numbers at Most 29; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 06:06:31 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1261",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Products in $KK$- and $E$-theory; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 06:48:14 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1262",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Deformations of K\\\"{a}hler and Balanced Hyperbolicity; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 07:14:40 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1263",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Construction of Finite Hilbert--P\\'olya Matrices from Weil's Explicit Formula; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 09:11:10 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1264",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The fourth generalized Davenport constant of $C_5^3$; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 09:55:44 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1265",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The Erd\\H{o}s-P\\'osa Property for Colorful Minors; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 10:02:03 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1266",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Dimension-free $H^\\infty$-calculus of angle $<\\pi/2$ for UMD-valued Ornstein--Uhlenbeck operators; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 10:25:24 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1267",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The Right Edge of the Zero Set of the Fibonacci Zeta Function; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 10:58:09 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1268",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in A Computational Obstruction to Swapping Area and Dinv: An Automata-Theoretic View of the $q,t$-Catalan Symmetry; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 11:16:34 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1269",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The Molecular Species $\\mathbf{C}_{\\alpha}$: Geometric Realization and a Closed Formula for Kronecker Coefficients; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 11:22:53 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1270",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Failure of analyticity-radius growth in energy-canceling fluid models; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 11:42:27 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1271",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Reconciling Universal and Uniform Learning with $Q$-Aggregation; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 12:02:10 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1272",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Extending Structures for $n$-Lie Algebras; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 12:14:34 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1273",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Monotonicity formulas in positively curved settings with applications to two-phase free boundary problems; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 12:57:17 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1274",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Parahoric motivic Hecke categories in equal and mixed characteristic; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 13:21:27 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1275",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Parking functions, Smirnov words, and noncrossing Chow polynomials; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 13:31:37 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1276",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Counting level-raising congruences using modular representation theory; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 13:47:32 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1277",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 14:34:56 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1278",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Diffusion under competing bulk and surface stopping mechanisms; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:13:51 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1279",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Coleman Isomorphisms in Syntomic Cohomology and $\\mathrm{THH}$; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:15:46 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1280",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Asymptotics for the $k$-Hessian Eigenvalue on the Unit Ball; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:31:48 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1281",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Statistical reduction before the target is known: two boundary results; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:42:40 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1282",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in On the lengths of MDS codes with a two-transitive permutation automorphism group; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:44:15 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1283",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The oriented Kesten--McKay law for random regular digraphs; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:49:27 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1284",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Replica symmetry breaking at arbitrary depth; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 16:11:18 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1285",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in A Log-Free $n^{1/5}$ Bound for Chowla's Cosine Problem; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 16:43:05 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1286",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Bounded ratios for Lorentzian polynomials; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 16:45:10 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1287",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Higher Order Unbounded Rough Drivers; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:00:56 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1288",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Purely Periodic Three-move Subtraction Games; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:05:05 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1289",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Finite-sample nonparametric mean tests: Leave-one-out duality and asymptotic optimality; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:05:58 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1290",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Integrality Gap Bounds for the Goemans-Linial SDP on Finite Abelian Cayley Graphs; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:12:50 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1291",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Short arithmetic terms express the cardinality of elliptic curves in Weierstra{\\ss} normal form over finite fields; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:23:03 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1292",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the O(log n) heat-maximal estimate and the resulting O(sqrt(n) log n) Hardy--Littlewood bound, reconstruct the human/LLM iteration described in the disclosure, and exclude the unverified future noncommutative extension from the record. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:28:15 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1293",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain independent commutative-algebra review; verify the general-field descent, determinantal identification, absolute primality, component count, Jacobian/Serre reasoning, and primary decomposition; and compare the main theorem with the partial Lean/Sage/Macaulay2 scope. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:38:07 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1294",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Non-Hamiltonian $\\frac{3}{2}$-Tough Plane Triangulations; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 17:58:53 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1295",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in The partition poset complex and the Goodwillie derivatives of the identity in spaces; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 20:12:27 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1296",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Statistical Inference for Privatized Data with Unknown Sample Size; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 13:44:19 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1297",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Galois groups of reciprocal polynomials and the van der Waerden-Bhargava theorem; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:24:44 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1298",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Equivalence of sub-Laplacian on Polarized groups; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 10:19:09 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1299",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Moment Relaxations for Data-Driven Wasserstein Distributionally Robust Optimization; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 06:10:26 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1300",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Algorithmic Randomness, Exchangeability, and the Principal Principle; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 04:23:59 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1301",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Polynomial-Time Near-Optimal Estimation over Certain Type-2 Convex Bodies; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 16:08:50 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1302",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Computing accurate singular values using a mixed-precision one-sided Jacobi algorithm; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 14:35:31 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1303",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in An Improved Upper Bound for Finite Sidon Sets via Vector-Valued Smoothing; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 07:26:23 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1304",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in A $p = 2$ dichotomy for uniform Riesz transform bounds on stratified Lie groups; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 15:25:02 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1305",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Four-Entropic Matroids Are Quaternary; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Thu, 03 Sep 2026 20:30:19 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1306",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the source-reported result in Characterizations of subdual cones via isotonicity of the norm of the metric projection and via antitonicity of angular distance; establish novelty and priority; verify the exact retained mathematical role described in the AI disclosure; and check statement-to-proof and any paper-to-code, computation, certificate, or formal-artifact correspondence. This source-attributed row remains provisional=1 with conservative medium confidence; taxonomy reviewStatus remains unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, or formal artifact was executed or independently replayed; first-public date is 2026-09-07, verified from the official arXiv page labelled 'Showing new listings for Monday, 7 September 2026' (qualifying-source version timestamp: Fri, 04 Sep 2026 16:45:56 GMT; saved listing SHA-256 092f1d0691cf1ac54dbec42f731493d5f71af5d45efcddd5569df930fbd6cb1c)."
+      ]
+    },
+    {
+      "id": "1307",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Exact quantifier order, two-layer sampling model, completeness of manuscript-to-Lean correspondence, novelty and theorem-level human/model allocation remain unresolved. Further checking: Obtain independent randomized-linear-algebra review of the deterministic-width and uniform-over-fixed-frames quantifier order, the double-sign and without-replacement sampling model, and the explicit constant construction; verify all 12 named manuscript results and the 50 interface/34 definition correspondence map rather than only the two selected declarations; independently replay the pinned Lean proof and audit the 359-target dependency surface; complete novelty and priority review against Simons Workshop Problem 5.6 and prior SRHT/OSE literature; and recover theorem-level human/model allocation and any omitted historical model identities. The automated correspondence reviews are not human peer review, novelty certification or an author-comprehension attestation."
+      ]
+    },
+    {
+      "id": "1308",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Correctness of the five headline results, complete manuscript/Lean correspondence, novelty and theorem-level GPT/Grok/human allocation remain unresolved. Further checking: Obtain independent spectral-graph-theory and matrix-analysis review of the Bollobás–Nikiforov inequality, weighted extension, planar complete-positivity theorem, rank-two Gram inequality and chiVec3=omega corollary; verify manuscript-to-Lean correspondence across all five headline declarations and independently replay the pinned proof; complete novelty/priority audit against Bollobás–Nikiforov, Ando–Lin, Lin–Ning–Wu, Zhang, Zeng–Zhang, Liu–Bu, Coutinho–Spier–Zhang and Elphick–Linz–Wocjan; and map the GPT-6 Astra ideation/manuscript work, Grok 4.6 proof generation and human authors’ mathematical contributions theorem by theorem. No independent third-party human review is recorded.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "1309",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Selected formal surface versus broader paper claims, absence of independent review, novelty and exact AI role. Further checking: Obtain independent graph-metric/combinatorics review of the integer-trade criterion, product-kernel/recovery theorem, all-order lower bound and n≥6 grid threshold/optimality/fibre classification; verify each of the eight selected manuscript-to-Lean statements and independently replay the pinned proof; separately assess the unformalized detector, rational-fibre, coefficient, metric-dimension and decoder claims; complete novelty/priority review against Laihonen and related resolving-set/tomography literature; and recover exact ChatGPT/Codex model versions and theorem-level allocation. The current review is self-assessed and no independent human peer review is recorded."
+      ]
+    },
+    {
+      "id": "1310",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Status of the reverse direction, full-equality wording, novelty, correspondence and the boundary between AI drafts and human correction. Further checking: Obtain independent set-theory and summability review of the block construction and lower bound non(M)≤rr; establish the status and prior proof of rr≤non(M), verify that the two directions yield the paper’s full equality, and audit novelty/priority; verify the manuscript-to-Lean correspondence for the lower bound and both minimum-attainment declarations and independently replay the pinned proof; distinguish the full paper claim from the narrower formalized surface and recover the exact mathematical contribution of GPT-6 Astra to proof drafts versus Lean. No independent peer review is recorded.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1311",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "No independent operator-theory review, replay or completed historical priority audit; sharp constants remain open. Further checking: Obtain independent operator-theory/Banach-space review of the scalar Bregman-to-Mazur comparison, dimension-uniform passage and both endpoint obstructions; independently replay the pinned Lean proof and verify correspondence to Audenaert–Kittaneh Problem 7; complete priority and novelty audit beyond the source’s survey/citation search, including whether the proof or its ideas appeared previously; distinguish the new p=1 witness from the known p=infinity witness and do not imply sharp interior constants. The proof has not been examined in depth by human experts.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "1312",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Post-paper proof repair, independent replay, novelty and exact division between author plans and AI-generated proof/prose. Further checking: Obtain independent recurrence/rational-base numeration review of the q-adic rigidity and non-P-recursiveness argument, the p/q=3/2 orbit corollary and algebraicity consequence; verify the current Lean statements against the DOI paper, including the post-paper Stanley-closure repair, and independently replay the pinned proof; complete novelty and priority review against Akiyama–Frougny–Sakarovitch and the cited recurrence literature; and reconstruct the exact division between Stephan’s proof plans and Claude Opus 4.8’s generated mathematics, Lean and prose. The author review is not independent external review and the source makes no established priority claim."
+      ]
+    },
+    {
+      "id": "1313",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Conditional hypothesis, exact correctness of all branches and inverse, novelty/significance, and AI/human allocation. Further checking: Obtain independent arithmetic/elliptic-curve and algorithmic-matching review of every branch, residual stable matching, inverse and exact two-preimage theorem; independently replay the pinned Lean proof and verify full manuscript-to-Lean correspondence; audit novelty and significance relative to Tunnell’s 1983 counting theorem and prior bijective-map attempts; preserve the explicit balance hypothesis and do not state that this package proves Tunnell’s theorem or the congruent-number criterion; and recover theorem-level roles of ChatGPT, Codex, Aristotle and the two human authors. Human and external peer review are ongoing or absent."
+      ]
+    },
+    {
+      "id": "1314",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Correctness of kernel/radical/height arguments, narrative-to-formal mismatch, novelty and theorem-level AI/human allocation. Further checking: Obtain independent commutative-algebra/algebraic-geometry review of the explicit kernel, radical-square containment, primality, height and arithmetic-rank arguments globally and after completion; verify the two selected Lean declarations against the manuscript while separately auditing the unformalized Hilbert–Burch narrative and nontrusted Macaulay2 cross-checks; independently replay the pinned proof; complete novelty/priority review against Moh, D’Cruz and González–Planas-Vilanova; and map ChatGPT/Codex exploration, Aristotle formalization and human input theorem by theorem. The manuscript remains an initial AI-assisted version and no independent human expert review is recorded."
+      ]
+    },
+    {
+      "id": "1315",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Construction correctness, exact conjecture correspondence, source-author/priority confirmation and human/agent allocation. Further checking: Obtain independent combinatorics/design-theory review of the Langford-family construction, finite certificates, contraction/complement extension and induction; verify exact correspondence to Gurvich–Naumova Conjecture 1 for m=3 and independently replay the pinned Lean proof; complete novelty/priority review, including Mor–Linek dependencies and source-author feedback; preserve that arbitrary m, optimality, uniqueness and enumeration are outside scope; and recover theorem-level division between JD Jones and GPT-6 Codex agents. No independent human expert review, source-author endorsement or completed priority survey is recorded."
+      ]
+    },
+    {
+      "id": "1316",
+      "category": "Difficult",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Independent mathematical/formal replay, exact step-clock and constants, historical priority, release chronology and model/human allocation. Further checking: Obtain independent Collatz-dynamics/analytic-number-theory review of the positive-density counting argument, explicit constants and exact ordinary-step clock; independently replay the theorem-specific Lean source, including a cold dependency build or independent checker, and verify paper-to-formal-statement correspondence beyond the four public roots; complete historical-priority review against descent, predecessor-count and positive-density literature; verify chronology across the September 5 case-study marker, September 6 manuscript v2.1 and September 7 v003 packaging correction; preserve the distinction from density-one descent, practical cutoffs, optimality and the full Collatz conjecture; and recover exact OpenAI model versions and human/model allocation. ProofAtlas acceptance is internal and no independent paper-wide review is asserted."
       ]
     },
     {
@@ -4228,16 +5118,6 @@
       "priority": 3,
       "reasons": [
         "Insufficient claim detail",
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "536",
-      "category": "Difficult",
-      "confidence": "low",
-      "placement": "tentative",
-      "priority": 3,
-      "reasons": [
         "AI contribution not established"
       ]
     },
