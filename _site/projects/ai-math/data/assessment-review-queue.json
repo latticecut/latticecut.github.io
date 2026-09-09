@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-07",
+  "assessedAt": "2026-09-08",
   "samplingWeek": 2957,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -1222,6 +1222,17 @@
       ]
     },
     {
+      "id": "1225",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking required: obtain independent Weyl-algebra/D-module specialist review and a novelty audit; verify the all-rank characteristic-zero statement, coefficient order and fixed Bernstein-degree strengthening; independently replay the Palomar-v2 pinned dependency closure; obtain the public manuscript or equivalent complete source exposition; and recover theorem-level allocation among GPT-5.5, GPT-5.6 Luna/Sol, GPT-6 Astra and Claude Fable/Haiku/Opus. The earlier tangent-limit proof-guide citation warning was resolved in Palomar v2. Keep provisional, taxonomy reviewStatus unreviewed and do not assign the Superhuman override. No source-reported proof, code, computation, certificate or formal artifact was executed or independently replayed."
+      ]
+    },
+    {
       "id": "1226",
       "category": "Difficult",
       "confidence": "low",
@@ -2143,6 +2154,230 @@
       "reasons": [
         "Possible breakthrough / disputed difficulty",
         "Independent mathematical/formal replay, exact step-clock and constants, historical priority, release chronology and model/human allocation. Further checking: Obtain independent Collatz-dynamics/analytic-number-theory review of the positive-density counting argument, explicit constants and exact ordinary-step clock; independently replay the theorem-specific Lean source, including a cold dependency build or independent checker, and verify paper-to-formal-statement correspondence beyond the four public roots; complete historical-priority review against descent, predecessor-count and positive-density literature; verify chronology across the September 5 case-study marker, September 6 manuscript v2.1 and September 7 v003 packaging correction; preserve the distinction from density-one descent, practical cutoffs, optimality and the full Collatz conjecture; and recover exact OpenAI model versions and human/model allocation. ProofAtlas acceptance is internal and no independent paper-wide review is asserted."
+      ]
+    },
+    {
+      "id": "1317",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "External Packomania acceptance and exact table values support the ten bounded best-known constructions; the row makes no optimality claim. No downloaded code or packing artifact was executed."
+      ]
+    },
+    {
+      "id": "1318",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the Section 3 quasi-polynomial algorithms and complexity analysis, verify the claimed novelty and application to connectivity interdiction, and determine the exact retained AI-versus-human contribution; keep the independently designed PTAS distinct. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1319",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the almost-laminar/Hasse-forest argument, the counting lemma, both extreme-point theorems, the separation/extended-formulation claims and the 2-approximation deduction; clarify the final AI-human proof allocation and priority. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1320",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the sparse-disapproval theorem and novelty, audit the complement-side coverage argument, replay both finite-grid verifiers only in an authorized sandbox, and map which GPT-originated ideas remain in the symbolic proof. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1321",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review all competitive-ratio upper and lower bounds, especially the bad-index reduction and proof portions explored with GPT, and clarify which model-suggested steps survived into the final proofs. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1322",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify the final single-exponential query bound and novelty, trace the transition from the GPT-generated quadratic-exponent protocol to the human improvements, and identify exactly which marks, witnesses, profiles and ranks retain AI-derived content. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1323",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the Walsh-Fourier reduction, second-moment identity, one-shot and concurrent hitting bounds, claimed generalizations and priority, and determine which ChatGPT suggestions materially affected the final mathematics. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1324",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review every noisy-entanglement theorem, with focused audits of Sections 3, 6 and Appendix A, replay numerical/code evidence only in an authorized sandbox, and establish the human/model allocation and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1325",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently check the theorem-to-numerical-verification correspondence and Appendix H calculation, and determine whether the LLM check caught or changed anything material; also review the sectorial-closure necessity/sufficiency scope and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1326",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the bounded/polynomial-rank proofs, the D=7 exponential construction and claimed novelty, verify examples without executing untrusted artifacts, and keep the open general case and separate announced square-root entropy companion result out of this record. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1327",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit every lower-bound regime and all six AI-attributed ingredients across v1/v2, verify the odd/even k scope and conditional versus unconditional frontiers, establish priority, and preserve 2026-08-10 as the first qualifying public date because v1 already disclosed material AI work. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1328",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the min-plus-convolution structure theorems and algorithms, identify the overlooked corner cases and whether they changed statements or proofs, verify v1-to-v2 differences, and assess novelty and exact materiality of the GPT check. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1329",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the WEF1 and WMMS theorems, algorithms, welfare counterexample and tightness claims; determine what proof ideas GPT supplied and establish priority. Preserve 2026-09-02 because the qualifying disclosure was already in v1. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1330",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: determine what Claude/ChatGPT discussions contributed and whether they affected a theorem, derivation or numerical result; independently review the exponent relations, exact and numerical claims, and pin the v2-to-v3 mathematical changes. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1331",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: Obtain independent Navier–Stokes specialist review of every analytic step and the exact C/D problem formulation; independently replay the pinned Lean project and Comparator/NanoDa evidence and verify paper-to-formal-statement correspondence; establish lineage and priority relative to the Córdoba–Martínez-Zoroa program and contemporaneous Alpöge–Buckmaster work; clarify internal-model identity, human interventions and agent allocation; do not describe the result as Clay-accepted or prize-eligible without Clay Mathematics Institute confirmation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1332",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: Obtain independent Euler/PDE specialist review; independently replay the pinned Lean project and verify both Euler declarations against Theorem 1.1 and its solution-class definitions; audit novelty and priority against smooth, C1-alpha, boundary and forced precedents; clarify internal-model identity, human interventions and allocation; resolve lineage separately from correctness. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1333",
+      "category": "Difficult",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Obtain independent Euler/PDE review of the theorem and exact uniqueness class; independently replay the Lean and Comparator evidence and verify statement correspondence; audit novelty and priority against Córdoba–Martínez-Zoroa and other forced-Euler work; reconcile the unsigned PDF with the dated statement and pin theorem-level human/model allocation; assess the authors' warning that exposition was rushed and substantially model-written. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1334",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Obtain independent Boussinesq/PDE review; independently replay both Boussinesq Lean projects and Comparator evidence and reconcile their differing scopes and metadata; verify correspondence to Theorem 1.1 including data, support, endpoint smoothness and uniqueness; audit novelty and priority; pin theorem-level human/model allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1335",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Obtain independent IPM/PDE review; verify every claimed distinction from the Córdoba–Martínez-Zoroa source and audit priority; locate and independently replay a theorem-specific formal artifact because the released fluid_lean tree has no plainly identified IPM project; reconcile placeholder companion hashes and preliminary announcement text with public files; pin theorem-level human/model allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1336",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Obtain independent random-matrix/graph-matrix review and a full priority audit; validate fixed-p quantifiers, edge cases, separator and floating-component definitions and report-to-Lean correspondence; independently replay the pinned proof and Palomar evidence; recover exact model/session allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1337",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Independently validate coordinates, distinctness and incidences and replay the Lean existence proof; perform a specialist priority audit; separately reproduce the unregistered v1.1 V4 census, all 5,393 exclusions, action-locus decomposition, E2 witness/self-polarity and CT1-S1 comparison; verify no C2 or trivial-collineation classification is implied; recover exact human/Codex/search/computer-algebra allocation. Palomar v1 covers only existence, not V4 classification. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1338",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Independently reproduce the PINN profile and spline/interval residual enclosures without executing untrusted artifacts; determine exactly which damping constants are rigorously certified and which remain numerical; review the conditional stability theorem and every missing finite estimate; verify source/code/Lean correspondence; audit novelty; keep wording strictly to an approximate-profile construction and conditional framework, not an Euler blowup proof. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed."
       ]
     },
     {
@@ -11376,17 +11611,6 @@
       "placement": "tentative",
       "priority": 3,
       "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "1225",
-      "category": "Unassessed",
-      "confidence": "low",
-      "placement": "unassessed",
-      "priority": 3,
-      "reasons": [
-        "Insufficient claim detail",
         "AI contribution not established"
       ]
     },

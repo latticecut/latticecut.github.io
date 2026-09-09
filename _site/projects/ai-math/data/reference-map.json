@@ -13522,6 +13522,30 @@
       "title": "Stafford's Conjecture 3.8 for Weyl algebras — supporting source",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-05-000007-v1.json",
       "accessed": "2026-09-06"
+    },
+    {
+      "key": "Daily20260908_1225_v2",
+      "title": "Stafford's Conjecture 3.8 for Weyl algebras — Palomar v2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-05-000007-v2.json",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1225_owner",
+      "title": "Stafford 3.8 exact-source owner commit",
+      "url": "https://github.com/itpplasma/stafford38-formal/commit/914d6ad0c8ac9851e782fa61302ba340996d9472",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1225_dependency",
+      "title": "Stafford 3.8 pinned AlgebraicAnalysis dependency",
+      "url": "https://github.com/itpplasma/AlgebraicAnalysis/commit/4aae47967f6ba02ffe2f639ab06564c9a9d1ecc8",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1225_workflow",
+      "title": "Palomar Stafford v2 verification workflow run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34281676524",
+      "accessed": "2026-09-08"
     }
   ],
   "1226": [
@@ -15312,6 +15336,362 @@
       "title": "Explicit Positive-Density Collatz Convergence in Logarithmic Time — pinned evidence",
       "url": "https://www.proofatlas.ai/sources/positive-density-log-time-collatz/commits/830b9d3f38f2a8da8cd921bf6a9310dd69336fd0/artifact.collatz.positive_density_log_time.lean-package.v003.evidence.json",
       "accessed": "2026-09-07"
+    }
+  ],
+  "1317": [
+    {
+      "key": "Daily20260908_1317",
+      "title": "LLM-Guided Program Evolution for Circle Packing: Breaking 10 Packomania Records for $28",
+      "url": "https://arxiv.org/abs/2609.05093v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1317_support_0",
+      "title": "LLM-Guided Program Evolution for Circle Packing: Breaking 10 Packomania Records for $28 — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05093v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1317_support_1",
+      "title": "LLM-Guided Program Evolution for Circle Packing: Breaking 10 Packomania Records for $28 — supporting source 2",
+      "url": "https://hydra.nat.uni-magdeburg.de/packing/csqv/csqv.html",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1318": [
+    {
+      "key": "Daily20260908_1318",
+      "title": "Multiobjective Hypergraph Min-Cut in Quasi-Polynomial Time",
+      "url": "https://arxiv.org/abs/2609.04389v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1318_support_0",
+      "title": "Multiobjective Hypergraph Min-Cut in Quasi-Polynomial Time — supporting source 1",
+      "url": "https://arxiv.org/html/2609.04389v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1319": [
+    {
+      "key": "Daily20260908_1319",
+      "title": "An iterative rounding 2-approximation for Feedback Vertex Set via AI-assisted proof of an extreme point property",
+      "url": "https://arxiv.org/abs/2609.04414v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1319_support_0",
+      "title": "An iterative rounding 2-approximation for Feedback Vertex Set via AI-assisted proof of an extreme point property — supporting source 1",
+      "url": "https://arxiv.org/html/2609.04414v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1320": [
+    {
+      "key": "Daily20260908_1320",
+      "title": "Sparse Disapproval Guarantees a Nonempty Hare Core",
+      "url": "https://arxiv.org/abs/2609.04537v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1320_support_0",
+      "title": "Sparse Disapproval Guarantees a Nonempty Hare Core — supporting source 1",
+      "url": "https://arxiv.org/html/2609.04537v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1321": [
+    {
+      "key": "Daily20260908_1321",
+      "title": "Online Matching in Convex Bipartite Graphs",
+      "url": "https://arxiv.org/abs/2609.05057v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1321_support_0",
+      "title": "Online Matching in Convex Bipartite Graphs — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05057v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1322": [
+    {
+      "key": "Daily20260908_1322",
+      "title": "Cutting Down the Tower: Single-Exponential Envy-Free Cake Cutting",
+      "url": "https://arxiv.org/abs/2609.05191v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1322_support_0",
+      "title": "Cutting Down the Tower: Single-Exponential Envy-Free Cake Cutting — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05191v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1323": [
+    {
+      "key": "Daily20260908_1323",
+      "title": "One-Shot and Concurrent Hitting Times for Grover-Coined Quantum Walks on Cubelike Graphs",
+      "url": "https://arxiv.org/abs/2609.04503v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1323_support_0",
+      "title": "One-Shot and Concurrent Hitting Times for Grover-Coined Quantum Walks on Cubelike Graphs — supporting source 1",
+      "url": "https://arxiv.org/html/2609.04503v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1324": [
+    {
+      "key": "Daily20260908_1324",
+      "title": "Non-local games and communication complexity with noisy entanglement",
+      "url": "https://arxiv.org/abs/2609.05122v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1324_support_0",
+      "title": "Non-local games and communication complexity with noisy entanglement — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05122v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1325": [
+    {
+      "key": "Daily20260908_1325",
+      "title": "Restricting the effects hides a nonphysical symmetry from every causal structure",
+      "url": "https://arxiv.org/abs/2609.05322v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1325_support_0",
+      "title": "Restricting the effects hides a nonphysical symmetry from every causal structure — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05322v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1326": [
+    {
+      "key": "Daily20260908_1326",
+      "title": "On the growth of operator entanglement in brickwork circuits with Yang--Baxter gates",
+      "url": "https://arxiv.org/abs/2609.05121v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1326_support_0",
+      "title": "On the growth of operator entanglement in brickwork circuits with Yang--Baxter gates — supporting source 1",
+      "url": "https://arxiv.org/html/2609.05121v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1327": [
+    {
+      "key": "Daily20260908_1327",
+      "title": "Fine-Grained AC0 Lower Bounds for k-OV, k-XOR, and k-SUM via Colored Subgraph Isomorphism",
+      "url": "https://arxiv.org/abs/2608.08578v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1327_support_0",
+      "title": "Fine-Grained AC0 Lower Bounds for k-OV, k-XOR, and k-SUM via Colored Subgraph Isomorphism — supporting source 1",
+      "url": "https://arxiv.org/html/2608.08578v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1328": [
+    {
+      "key": "Daily20260908_1328",
+      "title": "On the Structure of (min,+) Convolution",
+      "url": "https://arxiv.org/abs/2608.13310v2",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1328_support_0",
+      "title": "On the Structure of (min,+) Convolution — supporting source 1",
+      "url": "https://arxiv.org/html/2608.13310v2",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1329": [
+    {
+      "key": "Daily20260908_1329",
+      "title": "Weighted Fair Division of Indivisible Mixed Manna",
+      "url": "https://arxiv.org/abs/2609.01580v1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1329_support_0",
+      "title": "Weighted Fair Division of Indivisible Mixed Manna — supporting source 1",
+      "url": "https://arxiv.org/html/2609.01580v1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1330": [
+    {
+      "key": "Daily20260908_1330",
+      "title": "Spatial structure of multipartite entanglement at measurement induced phase transitions",
+      "url": "https://arxiv.org/abs/2509.12109v3",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1330_support_0",
+      "title": "Spatial structure of multipartite entanglement at measurement induced phase transitions — supporting source 1",
+      "url": "https://arxiv.org/html/2509.12109v3",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1331": [
+    {
+      "key": "Daily20260908_1331",
+      "title": "Finite time blowup for Navier–Stokes",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1331_support_0",
+      "title": "Finite time blowup for Navier–Stokes — supporting source 1",
+      "url": "https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1331_support_1",
+      "title": "Finite time blowup for Navier–Stokes — supporting source 2",
+      "url": "https://github.com/openai/NavierStokesAndEuler/tree/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1332": [
+    {
+      "key": "Daily20260908_1332",
+      "title": "Finite time blowup for the Euler equation",
+      "url": "https://cdn.openai.com/pdf/315b36cd-ec98-4023-8342-93345194ece1/euler.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1332_support_0",
+      "title": "Finite time blowup for the Euler equation — supporting source 1",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1332_support_1",
+      "title": "Finite time blowup for the Euler equation — supporting source 2",
+      "url": "https://github.com/openai/NavierStokesAndEuler/tree/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1333": [
+    {
+      "key": "Daily20260908_1333",
+      "title": "Blowup for the Euler equations with smooth forcing",
+      "url": "https://cims.nyu.edu/~tristanb/euler.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1333_support_0",
+      "title": "Blowup for the Euler equations with smooth forcing — supporting source 1",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1333_support_1",
+      "title": "Blowup for the Euler equations with smooth forcing — supporting source 2",
+      "url": "https://github.com/tristanbuckmaster/fluid_lean/tree/d0124689230b58b4f86e7b90ac59de06404b3b6b",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1334": [
+    {
+      "key": "Daily20260908_1334",
+      "title": "Blowup for the Boussinesq equations with smooth forcing",
+      "url": "https://cims.nyu.edu/~tristanb/boussinesq.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1334_support_0",
+      "title": "Blowup for the Boussinesq equations with smooth forcing — supporting source 1",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1334_support_1",
+      "title": "Blowup for the Boussinesq equations with smooth forcing — supporting source 2",
+      "url": "https://github.com/tristanbuckmaster/fluid_lean/tree/d0124689230b58b4f86e7b90ac59de06404b3b6b",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1335": [
+    {
+      "key": "Daily20260908_1335",
+      "title": "Extending the Córdoba–Martínez-Zoroa IPM blow-up to uniformly space-time smooth forcing",
+      "url": "https://cims.nyu.edu/~tristanb/ipm.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1335_support_0",
+      "title": "Extending the Córdoba–Martínez-Zoroa IPM blow-up to uniformly space-time smooth forcing — supporting source 1",
+      "url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1336": [
+    {
+      "key": "Daily20260908_1336",
+      "title": "Sharp Bounds for Graph Matrices",
+      "url": "https://github.com/DiarHaidary/Sharp-Bounds-for-Graph-Matrices",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1336_support_0",
+      "title": "Sharp Bounds for Graph Matrices — supporting source 1",
+      "url": "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000005&version=1",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1337": [
+    {
+      "key": "Daily20260908_1337",
+      "title": "A real affine (23_4) configuration, with same-day V4-sector classification",
+      "url": "https://github.com/wstrinz/configuration-23-4",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1337_support_0",
+      "title": "A real affine (23_4) configuration, with same-day V4-sector classification — supporting source 1",
+      "url": "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-08-000004&version=1",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1337_support_1",
+      "title": "A real affine (23_4) configuration, with same-day V4-sector classification — supporting source 2",
+      "url": "https://doi.org/10.5281/zenodo.22666118",
+      "accessed": "2026-09-08"
+    }
+  ],
+  "1338": [
+    {
+      "key": "Daily20260908_1338",
+      "title": "PINN-discovered approximate Euler profile and conditional stability framework",
+      "url": "https://anima-ai.org/2026/09/07/stable-singularity-of-the-euler-equations-on-r3-without-forcing/",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1338_support_0",
+      "title": "PINN-discovered approximate Euler profile and conditional stability framework — supporting source 1",
+      "url": "https://tensorlab.cms.caltech.edu/users/anima/euler.html",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1338_support_1",
+      "title": "PINN-discovered approximate Euler profile and conditional stability framework — supporting source 2",
+      "url": "https://tensorlab.cms.caltech.edu/users/anima/euler/Euler.pdf",
+      "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20260908_1338_support_2",
+      "title": "PINN-discovered approximate Euler profile and conditional stability framework — supporting source 3",
+      "url": "https://tensorlab.cms.caltech.edu/users/anima/euler/Euler-stability.pdf",
+      "accessed": "2026-09-08"
     }
   ]
 }

@@ -101712,5 +101712,745 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-09-08",
+    "snapshotHash": "14a4f47396e4303ce86c066bc6821ffa29275632385733de46191bd108abbe64",
+    "changes": [
+      {
+        "id": "1225",
+        "from": {
+          "category": "Unassessed",
+          "confidence": "low",
+          "placement": "unassessed",
+          "rationale": "The available claim summary does not support a useful human-effort judgment: The source reports that over every characteristic-zero field and Weyl-algebra rank n>=0, each nonzero d admits F,R,S with 1=dR+FdS. At positive rank it also reports an exact Bernstein-deg… It is retained outside the three assessed tiers pending a focused pass.",
+          "alternatives": [
+            "Expected",
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "1b8186e13f036a28bb7920c07b93ba912518978b8ac9812de36b0031d96f7e00",
+          "assessedAt": "2026-09-07",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Owner metadata names GPT-5.5, GPT-5.6 Luna/Sol, GPT-6 Astra, Claude Fable 5, Haiku 4.5 and Opus 5, used through Codex and Claude Code for research, formal development, counterexamples and review under human direction. The record does not assign each theorem to a particular model. A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-05",
+            "dateBasis": "Pinned public repository documentation and Palomar registration on 5 September; no earlier first-public date asserted.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The pinned owner and Palomar sources report material model participation in research and formal development of the all-rank Stafford 3.8 result under human direction; the exact theorem-level allocation remains unresolved.",
+            "evidenceSourceIds": [
+              "Refresh20260906_1225",
+              "Refresh20260906_1225_support_0",
+              "Daily20260908_1225_v2",
+              "Daily20260908_1225_owner",
+              "Daily20260908_1225_dependency",
+              "Daily20260908_1225_workflow"
+            ],
+            "evidenceSummary": "Primary owner metadata: multiple models materially assisted research and formal development of the reported Stafford 3.8 resolution.",
+            "sourceHash": "994000d7e0277d1ee91a0d70ecd9922148ae11f95edd012d0a80a5b969d45114",
+            "assessedAt": "2026-09-08"
+          },
+          "rationale": "The source reports a complete all-rank solution of Stafford's 1978 Conjecture 3.8 after roughly 48 years, which crosses a long-standing exact human frontier. Palomar v2 strengthens source and verification metadata but does not supply independent expert review or settle novelty.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Stafford's 1978 Weyl-algebra Conjecture 3.8 across all ranks and characteristic-zero fields.",
+          "sourceHash": "994000d7e0277d1ee91a0d70ecd9922148ae11f95edd012d0a80a5b969d45114",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking required: obtain independent Weyl-algebra/D-module specialist review and a novelty audit; verify the all-rank characteristic-zero statement, coefficient order and fixed Bernstein-degree strengthening; independently replay the Palomar-v2 pinned dependency closure; obtain the public manuscript or equivalent complete source exposition; and recover theorem-level allocation among GPT-5.5, GPT-5.6 Luna/Sol, GPT-6 Astra and Claude Fable/Haiku/Opus. The earlier tangent-limit proof-guide citation warning was resolved in Palomar v2. Keep provisional, taxonomy reviewStatus unreviewed and do not assign the Superhuman override. No source-reported proof, code, computation, certificate or formal artifact was executed or independently replayed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned owner and Palomar sources report material model participation in research and formal development of the all-rank Stafford 3.8 result under human direction; the exact theorem-level allocation remains unresolved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-06",
+            "reportedDate": "2026-09-05",
+            "dateBasis": "Pinned public repository documentation and Palomar registration on 5 September; no earlier first-public date asserted.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1317",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Ten independently accepted best-known feasible circle packings required a new optimizer and repeated exact construction improvements; this is substantial specialist computational mathematics, while no optimality theorem is claimed.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialists developing record-quality variable-radius circle packings for the Packomania tables.",
+          "sourceHash": "252ca20190bd0125379552da1de4c010c3db46cb9fccef1cf5c1ca8345c15acb",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "External Packomania acceptance and exact table values support the ten bounded best-known constructions; the row makes no optimality claim. No downloaded code or packing artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The paper identifies Claude Fable 5.1 as the model evolving the optimizer; Packomania independently records that the candidates came from an LLM-evolved optimizer and lists the accepted values. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-02",
+            "dateBasis": "The dated Packomania update of 2 September 2026 publicly credits Wes Sander/MoltFire and an LLM-evolved optimizer; arXiv v1 was announced 7 September.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1318",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports quasi-polynomial algorithms and a randomized PTAS for a multiobjective hypergraph cut frontier; the retained AI-derived Section 3 work appears non-routine, with proof and allocation review pending.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Theoretical-computer-science specialists designing exact approximation and quasi-polynomial hypergraph algorithms.",
+          "sourceHash": "c02be24257beb40053683d75266f159c0f000df0d3ee381b5641afa83b1b4ce0",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently audit the Section 3 quasi-polynomial algorithms and complexity analysis, verify the claimed novelty and application to connectivity interdiction, and determine the exact retained AI-versus-human contribution; keep the independently designed PTAS distinct. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The disclosure attributes the Section 3 quasi-polynomial algorithm and analysis to adaptations of iterative ChatGPT 5.5 Pro/Extended Pro outputs; the authors separately designed the Section 4 PTAS. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1319",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The reported proof settles Fiorini's 2021 extreme-point conjecture and yields iterative-rounding 2-approximations, a focused non-routine research target rather than a decades-old frontier.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Approximation-algorithms and polyhedral-combinatorics specialists addressing Fiorini's one-half extreme-point conjecture.",
+          "sourceHash": "660663869445c26d8cb35c6d342ff0cd415576944ee64588adf1b1454ad1f16c",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review the almost-laminar/Hasse-forest argument, the counting lemma, both extreme-point theorems, the separation/extended-formulation claims and the 2-approximation deduction; clarify the final AI-human proof allocation and priority. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: Claude Opus 4.7 and Gemini 3.1 Pro are credited with the Hasse-forest observation and a nontrivial counting lemma used to finish the extreme-point proof. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1320",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The all-size sparse-disapproval Hare-core existence theorem appears to require a non-routine structural argument and exact finite checks; novelty and retained AI content still need review.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Computational-social-choice specialists studying core stability under sparse disapproval.",
+          "sourceHash": "259790d896287adfa337c1758af940904f69373a2ed8b8800c1dd32e5c9d62da",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review the sparse-disapproval theorem and novelty, audit the complement-side coverage argument, replay both finite-grid verifiers only in an authorized sandbox, and map which GPT-originated ideas remain in the symbolic proof. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: GPT-5.6 Sol is credited with proof exploration, verifier development, literature-query formulation, and manuscript preparation; the author reports reviewing the proof and artifacts. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1321",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports tight competitive ratios and matching adversarial limitations for a structured online-matching class, which appears beyond routine specialist work but lacks independent review.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Online-algorithms specialists proving tight competitive ratios for convex bipartite matching.",
+          "sourceHash": "8452520104f9c1fdee33ea0989090c4b37eb4b724993d8e4e25c1ebc435be4fc",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review all competitive-ratio upper and lower bounds, especially the bad-index reduction and proof portions explored with GPT, and clarify which model-suggested steps survived into the final proofs. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The authors say GPT-5.6 Sol assisted exploration of part of the proofs; the algorithmic framework and bad-index reduction are expressly human-developed. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1322",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Reducing the first bounded complete envy-free cake-cutting protocol from tower-type to single-exponential query complexity is a material algorithmic frontier advance, though the AI-to-human transition needs audit.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Fair-division theorists improving complete envy-free cake-cutting query complexity.",
+          "sourceHash": "0c562c0ec80f15b84efe969d2622176e17cfee6113456d0b4f56fcd10840c5d2",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently verify the final single-exponential query bound and novelty, trace the transition from the GPT-generated quadratic-exponent protocol to the human improvements, and identify exactly which marks, witnesses, profiles and ranks retain AI-derived content. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: ChatGPT 5.5 Pro/5.6 Sol proposed replacing GoLeft and produced a complete 2^{2n(n-1)+O(n log n)}-query protocol that the authors call the conceptual backbone; the authors report the later reduction to single-exponential as human work. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1323",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The reported uniform one-shot and concurrent hitting-time results extend a hypercube phenomenon to broad cubelike families through nontrivial harmonic analysis.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Quantum-walk specialists deriving asymptotically sharp hitting guarantees on structured graphs.",
+          "sourceHash": "046fdf2bbf33eaa0734e1cb3d49edbe3ad1f5d25002e451bae3a1c75124034d0",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently audit the Walsh-Fourier reduction, second-moment identity, one-shot and concurrent hitting bounds, claimed generalizations and priority, and determine which ChatGPT suggestions materially affected the final mathematics. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: ChatGPT/GPT-5-series models are credited with mathematical brainstorming, possible generalizations, checking intermediate algebra and logic, and identifying proof gaps; exact retained contributions are not specified. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1324",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The paper reports a portfolio of nonlocal-game, communication and noisy-entanglement bounds with material model involvement in several proof sections; breadth and unresolved verification keep the estimate tentative.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Quantum-information theorists proving noisy-entanglement communication and nonlocal-game bounds.",
+          "sourceHash": "04865d9465aa4d99adbf65c9986e2f79d78bff92c152d1835f20753e5a26033b",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review every noisy-entanglement theorem, with focused audits of Sections 3, 6 and Appendix A, replay numerical/code evidence only in an authorized sandbox, and establish the human/model allocation and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The authors state that ChatGPT 5.6 Sol and Codex materially affected proofs in Sections 3, 6 and Appendix A and were also used for proof search, calculations, gap finding and code. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1325",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The generalized-probabilistic-theory construction is a legitimate research result, but the disclosed LLM role may be only an auxiliary numerical check and the human-effort difficulty is not yet well pinned.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Mathematical-physics specialists developing generalized probabilistic theories and causal-structure invariants.",
+          "sourceHash": "f65b4402a894e8049f190f05519616b5dda38ebbbb686f1649ecbf1e5a334dc1",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently check the theorem-to-numerical-verification correspondence and Appendix H calculation, and determine whether the LLM check caught or changed anything material; also review the sectorial-closure necessity/sufficiency scope and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The author says large language models performed language editing and an additional check on the numerical verification in Appendix H; whether that check materially affected the result is not stated. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1326",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper reports a broad exact growth classification plus a seven-state exponential counterexample, and attributes the proofs and examples predominantly to a model; the open general case remains outside scope.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Integrable-circuit and quantum-information specialists classifying operator-entanglement growth for Yang--Baxter gates.",
+          "sourceHash": "197b89b2356e02810117b7e06c289973990358825217c620a32fd656503404ea",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review the bounded/polynomial-rank proofs, the D=7 exponential construction and claimed novelty, verify examples without executing untrusted artifacts, and keep the open general case and separate announced square-root entropy companion result out of this record. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The primary source says ChatGPT 5.6 Sol constructed all proofs and selected examples, completely autonomously deriving the involutive dual-unitary proof and seven-state construction and sharing the permutation-gate development with the author. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1327",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The unconditional fixed-depth AC0 lower bounds span several canonical fine-grained problems and regimes, with multiple concrete model-attributed technical ingredients.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Circuit-complexity specialists proving fine-grained AC0 lower bounds through colored subgraph isomorphism.",
+          "sourceHash": "b5819137db13169ebfea899f0e8d1385414aab48f06e4126671b0ca339c1f186",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently audit every lower-bound regime and all six AI-attributed ingredients across v1/v2, verify the odd/even k scope and conditional versus unconditional frontiers, establish priority, and preserve 2026-08-10 as the first qualifying public date because v1 already disclosed material AI work. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The v1 disclosure identifies four GPT-5.5 technical contributions: selection of Beame's source bound, the Erdős-Ginzburg-Ziv degeneracy proposition, a constant-factor floor, and a depth-sensitive k-SUM exponent comparison; v2 adds two more AI-assisted ingredients. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-08-10",
+            "dateBasis": "arXiv v1 submitted Sunday 9 August 2026 and first appeared in the Monday 10 August announcement; v1 already contains four direct technical AI attributions. v2 was in the 7 September replacement batch.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "1328",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The structure theorems and width-parameterized min-plus algorithms appear non-routine, but the significance of the model-found corner cases and v1-to-v2 changes remains unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Fine-grained-algorithms specialists studying structural and algorithmic min-plus convolution.",
+          "sourceHash": "9494a82e1afcf88ff6d432989848466fd1380b40b67c5964d86cd55b833266ad",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently audit the min-plus-convolution structure theorems and algorithms, identify the overlooked corner cases and whether they changed statements or proofs, verify v1-to-v2 differences, and assess novelty and exact materiality of the GPT check. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The new v2 disclosure says GPT-5.6 checked proof details and mathematical notation and identified corner cases the author had overlooked; v1 contains no direct research-use disclosure. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v2.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1329",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports complete weighted-EF1 and exact weighted-maximin-share results across mixed manna; this appears substantial fair-division research with vague proof-idea allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Fair-division specialists proving weighted fairness guarantees for mixed goods and chores.",
+          "sourceHash": "8584ff189399ad8d75e24e3c3653e8d9cf8c03dfaf1366bb3707c9f733a62055",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: independently review the WEF1 and WMMS theorems, algorithms, welfare counterexample and tightness claims; determine what proof ideas GPT supplied and establish priority. Preserve 2026-09-02 because the qualifying disclosure was already in v1. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The version-pinned primary source reports this allocation: The v1 acknowledgement says GPT-5.6 Sol served as a research assistant while exploring proof ideas and revising exposition, while the author wrote the arguments. This preserves source attribution without treating it as an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-02",
+            "dateBasis": "arXiv v1 was submitted 1 September 2026 17:46:17 UTC and belongs to the Wednesday 2 September public announcement; v1 already contains the direct AI acknowledgement.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1330",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The exact and numerical entanglement exponents are a bounded research contribution, but the new disclosure says only useful model discussions and does not establish a material theorem-level role.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Quantum-information and statistical-mechanics specialists studying measurement-induced phase transitions.",
+          "sourceHash": "b9357fa9805393fd528a38f39b9fb105a0b8433c342f83f19f358c8e92f41133",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: determine what Claude/ChatGPT discussions contributed and whether they affected a theorem, derivation or numerical result; independently review the exponent relations, exact and numerical claims, and pin the v2-to-v3 mathematical changes. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Version 3 newly acknowledges useful discussions with generative AI through Claude and ChatGPT, but gives no task- or theorem-level allocation; v2 has no such disclosure. The exact theorem-level and stage-by-stage allocation remains source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Official arXiv Monday 7 September 2026 listing; the qualifying disclosure is in v3.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1331",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI attributes the proof to an internal approximately 10,000-agent model effort, Codex consolidation, and a reported 17-hour GPT-6 Astra Lean formalization/verification stage. The announced proof-producing and formalization roles are material mathematical contributions to the reported frontier result.",
+            "evidenceSourceIds": [
+              "Daily20260908_1331",
+              "Daily20260908_1331_support_0",
+              "Daily20260908_1331_support_1"
+            ],
+            "sourceHash": "6336f876155c568837f162d70fb77f42e8310366ddb6a7dff59dea3cbdd50d4a",
+            "assessedAt": "2026-09-08",
+            "evidenceSummary": "Primary announcement and pinned proof package attribute the mathematical proof and formal verification to coordinated OpenAI model agents."
+          },
+          "rationale": "The source reports a complete smooth finite-time forced Navier--Stokes blowup construction resolving Fefferman alternatives C and D, a defining long-standing PDE frontier; correctness and Clay status are separate from task difficulty.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The Clay/Fefferman global-regularity alternatives for three-dimensional incompressible Navier--Stokes.",
+          "sourceHash": "6336f876155c568837f162d70fb77f42e8310366ddb6a7dff59dea3cbdd50d4a",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent Navier–Stokes specialist review of every analytic step and the exact C/D problem formulation; independently replay the pinned Lean project and Comparator/NanoDa evidence and verify paper-to-formal-statement correspondence; establish lineage and priority relative to the Córdoba–Martínez-Zoroa program and contemporaneous Alpöge–Buckmaster work; clarify internal-model identity, human interventions and agent allocation; do not describe the result as Clay-accepted or prize-eligible without Clay Mathematics Institute confirmation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI attributes the proof to an internal approximately 10,000-agent model effort, Codex consolidation, and a reported 17-hour GPT-6 Astra Lean formalization/verification stage. The announced proof-producing and formalization roles are material mathematical contributions to the reported frontier result."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1332",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI reports that nearly 100 internal-model agents worked about 50 hours; the shared repository attributes formalization to GPT-6 Astra. The announced proof-producing and formalization roles are material mathematical contributions to the reported frontier result.",
+            "evidenceSourceIds": [
+              "Daily20260908_1332",
+              "Daily20260908_1332_support_0",
+              "Daily20260908_1332_support_1"
+            ],
+            "sourceHash": "287f45f05faf14152ec82b27bcb3e2e999fbe5c9483ccfe1d3191b5366cbbedf",
+            "assessedAt": "2026-09-08",
+            "evidenceSummary": "Primary announcement and pinned proof package attribute the mathematical proof and formal verification to coordinated OpenAI model agents."
+          },
+          "rationale": "The source reports smooth compactly supported finite-time blowup for unforced three-dimensional Euler, a long-standing central PDE frontier rather than an ordinary specialist result.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The long-standing smooth finite-time blowup problem for three-dimensional incompressible Euler.",
+          "sourceHash": "287f45f05faf14152ec82b27bcb3e2e999fbe5c9483ccfe1d3191b5366cbbedf",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent Euler/PDE specialist review; independently replay the pinned Lean project and verify both Euler declarations against Theorem 1.1 and its solution-class definitions; audit novelty and priority against smooth, C1-alpha, boundary and forced precedents; clarify internal-model identity, human interventions and allocation; resolve lineage separately from correctness. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI reports that nearly 100 internal-model agents worked about 50 hours; the shared repository attributes formalization to GPT-6 Astra. The announced proof-producing and formalization roles are material mathematical contributions to the reported frontier result."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1333",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "rationale": "The source reports a smooth-forcing Euler blowup theorem with detailed support and uniqueness control, a major non-routine extension of a recent blowup program even though it is distinct from unforced Euler.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "PDE specialists extending the Córdoba--Martínez-Zoroa blowup program to smooth forced Euler.",
+          "sourceHash": "b8e90ddbd209c4dee7477271b93915c6a80df4b091a70e537ac67cd9f3d92e81",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent Euler/PDE review of the theorem and exact uniqueness class; independently replay the Lean and Comparator evidence and verify statement correspondence; audit novelty and priority against Córdoba–Martínez-Zoroa and other forced-Euler work; reconcile the unsigned PDF with the dated statement and pin theorem-level human/model allocation; assess the authors' warning that exposition was rushed and substantially model-written. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The pinned primary sources report this allocation: The dated statement credits Claude and Codex, especially GPT-5.6 Sol, with material mathematical work and GPT-6 Astra with write-up and audit; released metadata says Claude wrote the Lean code under human direction. This is a reported role, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1334",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The smooth-forcing Boussinesq blowup theorem advances a technically demanding recent PDE program and includes endpoint, support and uniqueness clauses.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "PDE specialists constructing finite-time singularities for inviscid Boussinesq systems.",
+          "sourceHash": "abaf3f4b55775bc0986e00bc3c054963ed466e10d02d7a45ee869db4fd9dc1f3",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent Boussinesq/PDE review; independently replay both Boussinesq Lean projects and Comparator evidence and reconcile their differing scopes and metadata; verify correspondence to Theorem 1.1 including data, support, endpoint smoothness and uniqueness; audit novelty and priority; pin theorem-level human/model allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The pinned primary sources report this allocation: The paper and dated statement credit Claude, Codex, GPT-5.6 Sol and GPT-6 Astra with material proof, architecture, exposition and formalization work under author direction. This is a reported role, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1335",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The torus and uniformly space-time-smooth IPM forcing extension requires delicate mixed-derivative and commutator control beyond the cited predecessor.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "PDE specialists extending IPM blowup constructions to smoother forcing and periodic geometry.",
+          "sourceHash": "ee7df0855137e74abee70cc4381cc021e26c260741c67591e7c116fb6ca13207",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent IPM/PDE review; verify every claimed distinction from the Córdoba–Martínez-Zoroa source and audit priority; locate and independently replay a theorem-specific formal artifact because the released fluid_lean tree has no plainly identified IPM project; reconcile placeholder companion hashes and preliminary announcement text with public files; pin theorem-level human/model allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The pinned primary sources report this allocation: The paper says Claude identified and reproduced the earlier proof and that Claude and Codex wrote most of the text and handled delicate bookkeeping while the authors directed and implemented the adaptation. This is a reported role, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1336",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Matching upper and lower norm-moment bounds for every fixed graph shape appear technically substantial, with priority and fixed-parameter edge cases still unreviewed.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Random-matrix and graph-matrix specialists proving matching asymptotic norm bounds.",
+          "sourceHash": "2a66ff74b97a5f1abe04b278b3fdb0ac2bd283b0a355188f3a7ad1e6594e740b",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Obtain independent random-matrix/graph-matrix review and a full priority audit; validate fixed-p quantifiers, edge cases, separator and floating-component definitions and report-to-Lean correspondence; independently replay the pinned proof and Palomar evidence; recover exact model/session allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The pinned primary sources report this allocation: Provenance records an author-directed OpenAI Codex workflow with parallel proof/review agents, plus user-supplied Claude feedback correcting an earlier conjecture. This is a reported role, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1337",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "An explicit rational real affine (23_4) configuration and the same-day V4-sector classification resolve a focused incidence-geometry construction problem, while full priority remains open.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Incidence-geometry specialists constructing and classifying geometric (23_4) configurations.",
+          "sourceHash": "530581b2fca785e3b0aa1c1db1d4e10606b65c24099cb5785d21cbc41f0a3d5a",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Independently validate coordinates, distinctness and incidences and replay the Lean existence proof; perform a specialist priority audit; separately reproduce the unregistered v1.1 V4 census, all 5,393 exclusions, action-locus decomposition, E2 witness/self-polarity and CT1-S1 comparison; verify no C2 or trivial-collineation classification is implied; recover exact human/Codex/search/computer-algebra allocation. Palomar v1 covers only existence, not V4 classification. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The pinned primary sources report this allocation: Source metadata says Will Strinz directed the work and OpenAI Codex GPT-6 assisted discovery, exact arithmetic/computer-algebra checks, formalization and packaging. This is a reported role, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1338",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "A PINN-discovered approximate profile with residual enclosures and a conditional stability reduction is a substantial frontier-adjacent construction, but it is explicitly not an unconditional Euler blowup proof.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Euler singularity specialists producing rigorously controlled approximate self-similar profiles and conditional stability frameworks.",
+          "sourceHash": "2e2615c6db0a09b1b1df10d387f9b5dac891c2792423467f6f7f1466bfc356e2",
+          "assessedAt": "2026-09-08",
+          "inclusionConcern": "Further checking: Independently reproduce the PINN profile and spline/interval residual enclosures without executing untrusted artifacts; determine exactly which damping constants are rigorously certified and which remain numerical; review the conditional stability theorem and every missing finite estimate; verify source/code/Lean correspondence; audit novelty; keep wording strictly to an approximate-profile construction and conditional framework, not an Euler blowup proof. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, or formal artifact was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Physics-informed neural optimization is the central discovery mechanism; the authors say the ansatz, architecture and optimization strategy were human-developed and LLMs had limited support roles. The exact theorem-level and stage-by-stage allocation remains source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-08",
+            "reportedDate": "2026-09-07",
+            "dateBasis": "Pinned dated primary publication, immutable owner commit, repository creation metadata, or author-hosted Last-Modified timestamp, as detailed in the 8 September evidence report.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]
