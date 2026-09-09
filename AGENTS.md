@@ -68,3 +68,10 @@ The hero's stack height encodes period count on one shared linear scale. Square
 tiles are the Project-icon texture, not one tile per claim. Count each claim
 once in period metadata; never interpolate/extrapolate missing months or hide an
 interior time interval. Preserve the exact title and bottom-notes preference.
+
+On 9 September 2026 the user requested cumulative curves behind Volume bars.
+Keep independent curves per selected band, matching colours and all filters.
+Accumulate from the selected range start, retain flat empty months, and use one
+labelled cumulative scale separate from the monthly bar scale. Do not fit or
+predict an S-curve. Preserve exact cumulative counts in the expandable table.
+UI-only releases must preserve the latest daily data, hero and metadata.
