@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-08",
+  "assessedAt": "2026-09-09",
   "samplingWeek": 2957,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -672,6 +672,17 @@
       ]
     },
     {
+      "id": "140",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Independent support is scoped to the two Riemann-zeta constants; it does not verify the primitive-Dirichlet-L or xi-prime extensions."
+      ]
+    },
+    {
       "id": "141",
       "category": "Superhuman",
       "confidence": "high",
@@ -1036,6 +1047,16 @@
         "Insufficient claim detail",
         "Obtain a precise bounded mathematical claim and theorem-level AI attribution; the source excerpt supplies broad framework assertions and an uncredited 'quantum avatar' description rather than a clear contribution mapping.",
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "699",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the corrected Lemma 2.2, the entry property in Proposition 3.7, the two cone-invariance theorems in dimensions seven and eight, and the dimension-eight-only gluing, full-pinching and classification deductions; verify that no seven-dimensional gluing or classification claim remains; audit the AI-assisted polynomial computations and linear certificates, novelty and priority; and compare every retained statement with v2. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. No source-reported code, computation, certificate, proof artifact or formal artifact was executed or independently replayed."
       ]
     },
     {
@@ -2381,6 +2402,660 @@
       ]
     },
     {
+      "id": "1339",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Parity and Pattern Detection in Permutation Streams, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1340",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Deterministic Edge-Fault-Tolerant Connectivity Labeling Schemes with Nearly Optimal Label Size, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1341",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Fitting and Learning Basis-Restricted Propositional Formulas, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1342",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1343",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Strengthening Proportionality in Participatory Budgeting with Additive Utilities, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1344",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Approval-Based Multiwinner Voting with Candidate Qualities, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1345",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Solution to Bucher's density problem for context-free languages, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1346",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1347",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Stable Voting Rules on the Edge of Optimal Metric Distortion, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1348",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1349",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in The Stretch Factor of Planar Delaunay Triangulations Is Less Than 1.65, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1350",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Promises should be taken seriously: On relativization with promise problems, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1351",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Finding Representative and Approximately Efficient Committees, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1352",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Improved Randomized Approximations for Strategic Obnoxious Facility Location, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1353",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1354",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in How Well Can Strategyproof Tournament Rules Resist Pairwise Manipulation?, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1355",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Frequency Moments Beyond Equality: Streaming Cosine Density Moments, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1356",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Improved Multilayered PCPs and Hypergraph Vertex Cover, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1357",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Tight Bounds on the Cost of Adaptivity for the Meyerson Sketch, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1358",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in A Near-Linear Element Kernel for \\(d\\)-Hitting Set, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1359",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Pairwise Maximin Share Allocations Need Not Exist, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1360",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Ulam Rank Aggregation Is Hard to Approximate for Four Rankings, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1361",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1362",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Distributed Quantum Property Testing with Quantum Carrier Pigeons, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1363",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in 2-Fold Forrelation is in QAC$^0$, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1364",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Quantum Query Complexity of Persistence Statistics in Graph Zigzags, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1365",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1366",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1367",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in How Wrong Can a Rank-Based Sample-Size Calculation Be? A Sharp Bound of 16/9 for Ordinal Outcomes, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1368",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1369",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Choosing the Dictionary and Penalty for IV-LASSO, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1370",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Semidefinite extension complexity of the separable set, with applications to approximate disentanglers, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1371",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Modular commutator as a robust topological invariant and approximate Markovianity, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1372",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in On the Power of Adaptivity in Testing Quantum States in Fidelity, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1373",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Causal-Class Hierarchies in Coherence-Constrained Channel Transformation, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1374",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Power and Limits of Collective Local Measurements in Multicopy State Discrimination, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1375",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Single-tone drive-enhanced CROT gate for bosonic quantum error correction, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1376",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Error Exponents of Probabilistic Quantum Resource Distillation, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1377",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Entanglement Growth as Transport Across Schmidt Scales, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1378",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in The $I_{3322}$ Bell inequality requires infinite dimensions, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1379",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1380",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in The I3322 quantum value is attained spatially but not in finite dimension, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1381",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1382",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review correctness and novelty of the source-reported results in Matrix Holography on an Optical Lattice, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1383",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: compare v2 with v1 to establish the first public date of each added result and of the AI disclosure; independently review the conjecture proof and counterexample, verify priority and exact theorem scope, and map the detailed interaction record to the retained statements. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1384",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: audit the appendix flatness theorem and proof, establish novelty, and determine the exact retained ChatGPT-6-Astra contribution; keep this revision event distinct from the paper's earlier human-developed results. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1385",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify both parts of Theorem 1.1, the maximal-minimal-polynomial hypotheses and conjugacy classification; confirm novelty and the exact correspondence between the Aristotle/ChatGPT proofs and the final lemmas. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1386",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the determinantal-witness arguments, random-Gaussian-matrix step, discretization and convex-optimization reduction; pin all error, dimension and query-model hypotheses and verify novelty and precise model allocation. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1387",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the multiscale Cheeger aggregation argument and theorem hypotheses, compare with prior randomized-step MALA work, and audit statement correspondence of the unreplayed Lean development and simulations. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1388",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain a stable full disclosure identifying the model and its exact mathematical role; independently check the spectral-measure inequality, rational-approximation transfer principle, novelty and precise hypotheses. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1389",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: identify the AI system/model, verify the search transcript-to-retained-weight correspondence, and independently audit the quantitative certification, Carleman estimate, stability and reconstruction theorems. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1390",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: establish model identity and exact allocation, verify the historical formulation and priority of the compact-convex-hull problem, and independently audit the CAT(1) limit/cone construction and noncompactness proof. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1391",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the coupled-system argument, applicability of the cited Vol'pert--Khudyaev theorem, uniqueness scope and novelty; determine the precise retained contribution of the ChatGPT-suggested strategy. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1392",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: verify the exact formulation and status of Yau's conjecture, the construction's completeness/one-endedness/positive-Ricci properties and scalar-curvature asymptotics, priority, and the human/model allocation. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1393",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the conditional-cumulant construction, all growing-degree/uniformity hypotheses and AMP comparison, establish novelty, and reconstruct exact author/model contributions. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1394",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit every threshold, sharpness construction, global/local distinction and compactification obstruction; exclude the explicitly unverified stronger AI claims and verify exact statement correspondence and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1395",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: enumerate and independently verify each of the six theorem statements and proofs, confirm prior status and priority, and map the initial model solutions to the final human-rewritten arguments. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1396",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: replay the exact certificates and independently confirm centroid/equilibrium/nondegeneracy claims, source ownership and priority; verify the disclosed division of labour and that the public data match the stated polytopes. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1397",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently review the main tight-tree proof, exact hypotheses and tight examples, confirm the historical status of Kalai's conjecture and priority, and keep all explicitly unverified AI claims outside the record. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1398",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify the multiplicativity/divisibility construction and all Fibonacci identities, replay the certificate checker safely, establish priority relative to Spiro's question, and reconstruct the model's exact contribution. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1399",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the hereditary theorem, the recursive/terminal-pattern characterization and equivalence with pseudorigidity; establish novelty and reconstruct the exact retained AI contribution beyond broad exploratory and checking roles. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1400",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently audit the recurrence cutoff, divisibility estimate and parameter balance, compare precisely with Chase's earlier bound and method, and determine which retained simplifications or proof steps originated from GPT-5.5. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1401",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain a precise disclosure separating technical mathematical assistance from editing; independently verify the Mecke-type formula and the edge/segment/incidence distributions and assess novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1402",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain independent D-module/rings-of-differential-operators specialist review of the same-divisor theorem and source-changing local-to-global proof; verify the smoothness, integrality, finite-type, characteristic-zero, nonzero/operator-order and coefficient-order quantifiers; audit novelty and priority against Bjork, Coutinho-Holland, Bellamy and any unpublished prior work; independently replay the v2-pinned Lean/Palomar closure and verify project-proof-to-formal-statement correspondence; resolve the repository metadata that links the distinct Stafford 3.8 Palomar ID rather than PALOMAR-2026-09-09-000001; and pin exact first-public chronology and theorem-level human/Claude allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1403",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: obtain independent randomized-linear-algebra review of the fixed-frame/all-vector quantifier order, the two-sign Walsh transform and without-replacement row-sampling law, and the prescribed M and explicit delta-dependent constants; establish whether the arbitrary-delta theorem is a genuine parameter strengthening and independently developed proof package relative to ID 1307 and prior SRHT/OSE literature; independently replay the pinned Lean/Palomar result and verify technical-report-to-formal-statement correspondence; audit the withdrawn earlier submission versus the registered v1 chronology; and recover theorem-level human/GPT/Claude allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
       "id": "gpt5-science-2025:erdos-848",
       "category": "Superhuman",
       "confidence": "high",
@@ -3577,16 +4252,6 @@
     },
     {
       "id": "136",
-      "category": "Difficult",
-      "confidence": "medium",
-      "placement": "best-estimate",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty"
-      ]
-    },
-    {
-      "id": "140",
       "category": "Difficult",
       "confidence": "medium",
       "placement": "best-estimate",
@@ -6800,16 +7465,6 @@
       "priority": 3,
       "reasons": [
         "Insufficient claim detail",
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "699",
-      "category": "Expected",
-      "confidence": "low",
-      "placement": "tentative",
-      "priority": 3,
-      "reasons": [
         "AI contribution not established"
       ]
     },
