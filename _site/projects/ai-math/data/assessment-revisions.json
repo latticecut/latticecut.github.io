@@ -102452,5 +102452,2003 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-09-09",
+    "snapshotHash": "5d88ba045340a684fb3060fdec26d9ad45a7867c465ca7d8ca38dbc49fe1353f",
+    "changes": [
+      {
+        "id": "140",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "338e1e80d0ac3237760db774ac1ad7971c230f16bd9a2b8a07b211a9e7f96580",
+          "assessedAt": "2026-09-08",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The original record reports material unconditional zero-proportion improvements. Lamzouri's independently developed proof now corroborates the two Riemann-zeta constants by a different route, while the primitive-Dirichlet-L and xi-prime components retain their existing evidence scope.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function.",
+          "sourceHash": "2f9f17387b434dc2058c217db4abfe575970146e453b296330222cfd608b55ab",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Independent support is scoped to the two Riemann-zeta constants; it does not verify the primitive-Dirichlet-L or xi-prime extensions.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The original retained sources report that an unreleased Claude research system led the mathematical discovery; Lamzouri's later alternative proof is human work and changes verification evidence, not the original production attribution."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "699",
+        "from": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The report connects the advance to existing research (extending): We construct families of transversally invariant pinching cones for the Hamilton ODE dR/dt = Q(R) in dimensions n=7,8, thereby extending the pinching estimate that Brendle established for… This provisionally fits specialist-human research within the stated baseline; it need not be easy or unimportant.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "788e6fa63d51e4f1a711a85516e33bd655961fa45c5069bcd90efe939a13ed9b",
+          "assessedAt": "2026-09-08",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Outline of the pinching-cone construction. AI disclosure. 2 Preliminaries 2.1 The Böhm–Wilking transformation 2.2 Elementary consequences of weakly PIC 3 Overview of the proof A reconstructible stage-by-stage human/model allocation has not been assessed in this refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-08-28",
+            "reportedDate": "2026-08-28",
+            "dateBasis": "firstPublicDateEuropeLondon",
+            "originalPublicationDate": "2026-08-27",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The corrected source reports a non-routine pinching-cone advance in low dimensions, including full gluing, pinching and classification in dimension eight; it explicitly does not establish the corresponding gluing or classification in dimension seven.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Ricci-flow and differential-geometry specialists extending pinching-cone methods to previously excluded low dimensions.",
+          "sourceHash": "d80805ea0bf9644ca7ccad5253c001cb55f86193ae069fd038040f197bb7b67a",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review the corrected Lemma 2.2, the entry property in Proposition 3.7, the two cone-invariance theorems in dimensions seven and eight, and the dimension-eight-only gluing, full-pinching and classification deductions; verify that no seven-dimensional gluing or classification claim remains; audit the AI-assisted polynomial computations and linear certificates, novelty and priority; and compare every retained statement with v2. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. No source-reported code, computation, certificate, proof artifact or formal artifact was executed or independently replayed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The source says AI tools assisted the exact computations behind polynomial inequalities and linear certificates, plus copyediting; the author retains the mathematical argument and explicitly verifies the identities and certificate in the proofs. Exact tool identity and stage allocation remain unresolved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-08-28",
+            "reportedDate": "2026-08-28",
+            "dateBasis": "firstPublicDateEuropeLondon",
+            "originalPublicationDate": "2026-08-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1339",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Parity and Pattern Detection in Permutation Streams. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "22e806ca72fbf5568e61bc5004f354ee37efb00d2ecbce0ada5ff1d0cd8ed625",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Parity and Pattern Detection in Permutation Streams, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say the parity lower bound was human-derived, while ChatGPT mostly derived the length-three pattern upper bounds; the authors edited and verified the final text. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1340",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Deterministic Edge-Fault-Tolerant Connectivity Labeling Schemes with Nearly Optimal Label Size. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "543c3cf9dc9b4d210ce4e22f38f7504eef37a749abc2c88f3a42cdcb3d4acc4d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Deterministic Edge-Fault-Tolerant Connectivity Labeling Schemes with Nearly Optimal Label Size, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say ChatGPT 5.6 Sol initially discovered the proof, which they then verified, simplified and rewrote. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1341",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Fitting and Learning Basis-Restricted Propositional Formulas. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "c287e53638996b64c1312a1921d53cb2df042940372a656a8fcb20a2b8bade0f",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Fitting and Learning Basis-Restricted Propositional Formulas, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says Claude Fable assisted both editorially and creatively and helped obtain several technical results; no theorem-level allocation is supplied. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1342",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "e90b7d922db625f4bf7bf6f53f9e60d2b26d157fbc6af4de6a73a0bd86806902",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-6 Astra found an initial 12-good nonexistence instance and ChatGPT later found the 9-good PMMS instance and generated a proof that the author checked and entirely rewrote. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1343",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Strengthening Proportionality in Participatory Budgeting with Additive Utilities. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "cb6bc202c17ff2ee8045c3369fdc87cc8023c087e2dfc728581ad272f05d8b41",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Strengthening Proportionality in Participatory Budgeting with Additive Utilities, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT-6 was used as a research assistant to explore proof ideas and revise exposition; they checked the mathematical arguments. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1344",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Approval-Based Multiwinner Voting with Candidate Qualities. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "2866253c8410483888e0c8e210bb5e7f022bf048d54959a527d241d67b3f92db",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Approval-Based Multiwinner Voting with Candidate Qualities, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The disclosure attributes the proof of Proposition H.5 to collaboration with Claude Fable 5 and initial proof ideas/versions for Theorem 4.6, Theorem C.1 and Proposition E.4 to ChatGPT models; the authors revised and verified the material. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1345",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Solution to Bucher's density problem for context-free languages. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "0a704b89315ad5969623b7b4eaaa349e6d06dd3d5daf66346c07532ecfebc8f3",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Solution to Bucher's density problem for context-free languages, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says most ideas used to solve Bucher's density problem were generated by GPT-6 Astra and were subsequently checked and written up by the author. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1346",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "ccb3852af2c626a7fae695cb81202d9541c8d59bf617212b959bddf97d132443",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract says ChatGPT Astra found the initial NP-hardness proof, which the author verified and rewrote. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1347",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Stable Voting Rules on the Edge of Optimal Metric Distortion. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "33f6704fe581d69b474257cac1b42da6cec2fcf53c3e93e977d68b095321c2b4",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Stable Voting Rules on the Edge of Optimal Metric Distortion, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors attribute main ideas and bounds to GPT-5.6-family interactions and say GPT-6 Astra tightened the reported distortion constant from 2.13742 to 2.13713; exact human/model allocation remains incomplete. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1348",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "ca3e5642399b30acc62b9ff19df9537d42970ea86c9327ecc118b466ba5170f1",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors disclose extensive Claude, ChatGPT and GPT-6 assistance with theory, formalizations and proof development for the verified DBLog contract; exact retained theorem-level allocation is not fully reconstructed. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1349",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in The Stretch Factor of Planar Delaunay Triangulations Is Less Than 1.65. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "4bd726a5c8c3922b41a2351be2069ae5f0ead7f2673ef26870f29bf5e29aba96",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in The Stretch Factor of Planar Delaunay Triangulations Is Less Than 1.65, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say a GPT multi-agent workflow produced spline coefficients, a quadratic pair and barrier rows used in the Delaunay-stretch proof; the paper reports exact/interval checks, but no artifact was replayed here. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1350",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Promises should be taken seriously: On relativization with promise problems. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "013d3a7e66a635bd2e7f60f38d38d6b979a6b93f32f872ffaea0758ff317ca35",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Promises should be taken seriously: On relativization with promise problems, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say ChatGPT and Claude Fable were used to explore directions, find errors and simplify arguments; the exact retained contribution to individual theorems is not stated. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1351",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Finding Representative and Approximately Efficient Committees. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "796d0b1b33a566c8fadcac4714246c2444d611a53016299ec51b081f4e160938",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Finding Representative and Approximately Efficient Committees, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The disclosure credits several LLMs with proofs and examples, including a GPT-5 proof concerning local-PAV weak Pareto optimality; the authors reviewed and rewrote the material. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1352",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in Improved Randomized Approximations for Strategic Obnoxious Facility Location. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "7e917a1f27758bceaba6712467a6010685bfa0b974ce071a76b92d1e85542787",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Improved Randomized Approximations for Strategic Obnoxious Facility Location, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say AI was used for proofreading, language and checking selected numerical details; because those numerical checks touch the reported improved constants, the exact materiality remains unresolved. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1353",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "f0abd35464a7cf9aa2bc823d52ca03dd814f803c6779d6ba37384ab928e07dc1",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "In cutoff-eligible v1, the authors attribute the core lower-bound proof for approximate Nash equilibria and free games to GPT-5.6 Sol Ultra, with human verification and rewriting. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1354",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in How Well Can Strategyproof Tournament Rules Resist Pairwise Manipulation?. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "9b9d9cc290c06537da69212b0c0bf5b54ff58587153ad60388db1c27f772807d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in How Well Can Strategyproof Tournament Rules Resist Pairwise Manipulation?, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say GPT-5.6 Sol assisted parameter calculations and materially affected Section 5; they report verifying correctness and originality. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1355",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in Frequency Moments Beyond Equality: Streaming Cosine Density Moments. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "f8422c593eb2b1663ef23039ecc47178652b71ab99a46d7d218fba9a4fdc68a3",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Frequency Moments Beyond Equality: Streaming Cosine Density Moments, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The author says ChatGPT 5.5/5.6 assisted parameter optimization in gadget constructions and routine algebra; all research questions, algorithms and substantive arguments are claimed as human-developed. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1356",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Improved Multilayered PCPs and Hypergraph Vertex Cover. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "efbd22fffcdec69494d4c46080a466cb19ce5c006b4c7890b4ad3de0b87756fd",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Improved Multilayered PCPs and Hypergraph Vertex Cover, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The communicators say ChatGPT 5.6 Pro obtained the proofs, including a later single-attempt independent derivation, after which they rewrote the manuscript. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1357",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Tight Bounds on the Cost of Adaptivity for the Meyerson Sketch. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "cdfa07174a376dbe61355d096130003170ae3341c9b05a40d6353a6a7d5ad760",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Tight Bounds on the Cost of Adaptivity for the Meyerson Sketch, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say Claude, ChatGPT and Gemini produced initial argument drafts and helped formalize and audit proofs, materially affecting results and writing; they report verification. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1358",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in A Near-Linear Element Kernel for \\(d\\)-Hitting Set. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "2e07b55d3f13ed2e58cc95b77d09b965a60e98ce9d9ceb504f201ddbe781c44c",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in A Near-Linear Element Kernel for \\(d\\)-Hitting Set, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT-5.6 Sol helped simplify the retained hashing/encoding construction, test encodings and check bounds; stronger unchecked AI-suggested kernels are explicitly not part of the paper. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1359",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Pairwise Maximin Share Allocations Need Not Exist. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "3e6e947140384ab6551d006f250c325f027e7230975ca79c9ccb5b0e301904ae",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Pairwise Maximin Share Allocations Need Not Exist, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-5.6 identified the four-agent counterexample and that all arguments and calculations were independently verified by the author. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1360",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Ulam Rank Aggregation Is Hard to Approximate for Four Rankings. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "15a7dc4777434a551f303c84db50b8376bd2f6bd448cedfb42a32b2852969a03",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Ulam Rank Aggregation Is Hard to Approximate for Four Rankings, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say ChatGPT 5.6 Sol developed an initial hardness-of-approximation result and later the local gadget giving the reported constant factor. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1361",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "afeb81b583afe4c90ee3a38a1da087a2c9d68233761cc1456437bb072005c8f2",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors credit GPT-5.5 with suggesting a theorem used to bound balanced splits and the blow-up simulation extending the result to k-edge connectivity; all final content was human-written and verified. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1362",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Distributed Quantum Property Testing with Quantum Carrier Pigeons. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "cdbd2102f56e119cc2fb8388632c19238d4dfec733de9823f6f52930e8f4166d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Distributed Quantum Property Testing with Quantum Carrier Pigeons, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The disclosure says Claude Opus 4.6 aided proofs of preliminary lemmas later generalized by a coauthor; the exact correspondence to the reported state-certification bounds is incomplete. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1363",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in 2-Fold Forrelation is in QAC$^0$. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "a937387cf55c357581ec86afb32ce24d85ee4fb51efbbe5ccdc6c5e8f7b28921",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in 2-Fold Forrelation is in QAC$^0$, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-5.6 Sol identified phase-state repetition as the amplification route; the author then verified and adapted it into the proof. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1364",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Quantum Query Complexity of Persistence Statistics in Graph Zigzags. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "71890b663dd42e467aca67b2d966c7841f8cd6c6d810a0ddb10aa5f6b4c6d374",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Quantum Query Complexity of Persistence Statistics in Graph Zigzags, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say ChatGPT and Claude assisted brainstorming and proof checking across named sections and appendices; they report independently verifying all arguments. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1365",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "5c1ac5f8f42c21a5d5ef4abb288aa915c55e873296624b2074823f50bb5adfb7",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say ChatGPT and Claude assisted brainstorming and proof checking for the constructive Ramsey algorithms and lower bounds; exact theorem-level allocation is not given. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1366",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "c7d9176dca17401a80537e51765fe3406f7e75b43df0b19f6e06a53bf9af8d04",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say ChatGPT Sol models constructed illustrative examples and checked mathematical proofs, alongside simulation/code and writing help; all output was reviewed. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1367",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in How Wrong Can a Rank-Based Sample-Size Calculation Be? A Sharp Bound of 16/9 for Ordinal Outcomes. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "a6dbb6323621ffdbf16c082dbf8d725b34db4d265ca05c110ad5662f382986d6",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in How Wrong Can a Rank-Based Sample-Size Calculation Be? A Sharp Bound of 16/9 for Ordinal Outcomes, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says Claude extensively helped develop a polynomial/envelope reformulation, lemmas, decompositions and checks underlying the sharp 16/9 bound; the author reports independent verification. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1368",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "72e897c1af1007817eb7941e5330cb1815e0f48e5c924fc06f9c937a3ba3a142",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say Codex with GPT-5.6 Solar and GPT-6 Astra materially revised the chaining proof, Lemma 8, Theorem 3, Section 4 bounds and Theorem 14, with human responsibility for the final results. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1369",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Choosing the Dictionary and Penalty for IV-LASSO. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "90daeb834de5484468e9405f49dd8b6a81466a3599b4b22b315b4e2fcd76ea95",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Choosing the Dictionary and Penalty for IV-LASSO, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper says Claude Fable helped develop proofs of several technical lemmas and the accompanying implementation; exact retained lemma allocation is not fully stated. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1370",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Semidefinite extension complexity of the separable set, with applications to approximate disentanglers. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "a9e7382500313a31f7251bae3f04de7b0e8b585eddc93a1bc72db3ed6579c0f9",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Semidefinite extension complexity of the separable set, with applications to approximate disentanglers, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say generative AI was used extensively and iteratively to propose and refine key proof ideas; they critically corrected and synthesized the suggestions. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1371",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Modular commutator as a robust topological invariant and approximate Markovianity. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "1d162889c30108cab4a7cc4c989329810932f80effe2f7c796cf49ea4a17b8af",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Modular commutator as a robust topological invariant and approximate Markovianity, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-5.6 Sol played a substantial role in mathematical derivations, while the phase-equivalence argument was human-developed; the author reports checking the proofs. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1372",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in On the Power of Adaptivity in Testing Quantum States in Fidelity. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "71fe5d8f4cba37c400178d7919d767b11cd6ed725d35fbc8f6ec580a83100fee",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in On the Power of Adaptivity in Testing Quantum States in Fidelity, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say GPT-5.6 Sol Pro proof-checking found a conditioning and normalization issue in Section 7 that required modifying the argument; main ideas and results are claimed as human-derived. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1373",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Causal-Class Hierarchies in Coherence-Constrained Channel Transformation. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "f7e064126a56cb3d9a13725da1bf68979fe6f632cc13861bff9cbdc83da1adbd",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Causal-Class Hierarchies in Coherence-Constrained Channel Transformation, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say frontier LLMs assisted exploratory derivations, proof organization and symbolic checks; they independently derived and verified the final analytic results and certificates. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1374",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Power and Limits of Collective Local Measurements in Multicopy State Discrimination. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "529cafba5bcb28743d5ea0039af2b34c8a3bcc3714500de657a677af38fb8d56",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Power and Limits of Collective Local Measurements in Multicopy State Discrimination, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT-5.6 provided the proof of Lemma D1 and suggested Lemma F1's accessible-information inequality with a preliminary proof later checked and rewritten. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1375",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Single-tone drive-enhanced CROT gate for bosonic quantum error correction. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "bf0b9eae5d2c5ca6bddce9803b101edee867afd601d4ef351ad29974082a2a4f",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Single-tone drive-enhanced CROT gate for bosonic quantum error correction, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say Claude Opus verified lengthy algebraic calculations and identified typographical errors; all equations and results were checked by the authors. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1376",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Error Exponents of Probabilistic Quantum Resource Distillation. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "6fd3f569f141969e7378b432b22394012fa50566c91fbc604b5a67dca297aba2",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Error Exponents of Probabilistic Quantum Resource Distillation, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says ChatGPT 5.6 Sol proved Lemma 22 and solved Examples 4, 9 and 23. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1377",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Entanglement Growth as Transport Across Schmidt Scales. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "b1720dbc64f5e683184f133e1c5044a77626f3ffeb3a236baaf486b0eb7e36b9",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Entanglement Growth as Transport Across Schmidt Scales, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT-5.6 assisted analytical derivations and code development; all results were verified by the authors. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1378",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in The $I_{3322}$ Bell inequality requires infinite dimensions. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "0ef5e54485dfae4efb33ebef94207ccb668aa3439fa0add10072eec3fee71b8f",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in The $I_{3322}$ Bell inequality requires infinite dimensions, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-5.5 Pro produced an approximate proof containing all main ideas, later substantially revised for completeness and correctness with GPT-5.6 Sol help. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1379",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "3a154284112bd1eb44322517f82a9b74748d7097cccf05fef18a2bd095929f40",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say generative AI explored proof strategies and reviewed the manuscript, as well as helping with code and figures; the exact retained mathematical contribution is not stated. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1380",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in The I3322 quantum value is attained spatially but not in finite dimension. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "4ed38500147998e8a11c71c275ab0f3201082736837c319809e2344132f4fdf8",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in The I3322 quantum value is attained spatially but not in finite dimension, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says multiple LLM families were used throughout proof discovery, implementation, verification engineering and adversarial auditing; the paper claims exact independent reimplementations and Lean-checked cores, none replayed here. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1381",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "9013189bc947f93c3a7c49ade0b01b0532e7d9b2cbaaf685f67e5f9f4855a380",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The authors say Anthropic Fable AI checked computations and references; exact affected claims and independent checking are not specified. The retained allocation is source-reported and has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1382",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Matrix Holography on an Optical Lattice. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "266db0212f8216ea9bbd7fa5c012dd1a5bae1257a6aa68d3b76fb2d0ceec1cc9",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review correctness and novelty of the source-reported results in Matrix Holography on an Optical Lattice, verify exact statement correspondence, and establish the precise retained AI-versus-human contribution described above. No independent verification was located or replayed in this run. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say Claude Fable 5 and ChatGPT Pro 5.6 Sol assisted the n-point proof in Appendix D.1, with ChatGPT identifying a reference supplying a crucial lemma. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "Official arXiv Wednesday 9 September 2026 announcement; the qualifying disclosure is in the pinned v1 source.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1383",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Weak Order on the MacNeille Completion of Bruhat Order. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "cd59b4903073dffa0fc1299c8c7122c89f67a2954f1b899256ddef14012a27b3",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: compare v2 with v1 to establish the first public date of each added result and of the AI disclosure; independently review the conjecture proof and counterexample, verify priority and exact theorem scope, and map the detailed interaction record to the retained statements. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract says ChatGPT 5.4 Pro autonomously obtained the proof of the Escobar--Klein--Weigandt conjecture and the counterexample to the Hamaker--Reiner conjecture; other aspects were mostly human-developed with ChatGPT acceleration. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1384",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Frobenius--Witt cotangent complex for derived rings. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "398c20b97ded6d26f7f569aebeed8f86ceae93b167366a8c10fcd1a417f4c4ea",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: audit the appendix flatness theorem and proof, establish novelty, and determine the exact retained ChatGPT-6-Astra contribution; keep this revision event distinct from the paper's earlier human-developed results. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The v3 abstract and comment attribute the essential ideas for the newly added valuation-ring flatness result to ChatGPT-6 Astra. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1385",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Extremal Rota-Baxter operators on matrix algebras. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "fc730d0fdfa5e48b92a218b69a5dac5a3928d7f4d6090874b5576d97f215a880",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently verify both parts of Theorem 1.1, the maximal-minimal-polynomial hypotheses and conjugacy classification; confirm novelty and the exact correspondence between the Aristotle/ChatGPT proofs and the final lemmas. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says Aristotle generated candidate proofs for both parts of Theorem 1.1; ChatGPT 5.6 Sol found a simpler proof of part (a) and clarified Aristotle's proof of part (b), after which the author reorganized and verified the proof. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1386",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Quantum lower bounds for convex optimization and real matrix-vector query problems. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "be06b03e1b41454872cc85daff87c905a05a3f386dc52602e6ab3e1fe94a6e8f",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently audit the determinantal-witness arguments, random-Gaussian-matrix step, discretization and convex-optimization reduction; pin all error, dimension and query-model hypotheses and verify novelty and precise model allocation. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says Claude Opus 4.8/5 supplied most of the technical approach, including the determinantal-witness method and trace/determinant/inversion extensions; Claude observations enabled a proof of a Gaussian-matrix claim, and Claude plus ChatGPT 5.6 Sol helped connect the method to convex optimization. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1387",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "2dfb2f81f0df83c147af81de232588c7241d249ac2e027ce1b058d7995739e4e",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review the multiscale Cheeger aggregation argument and theorem hypotheses, compare with prior randomized-step MALA work, and audit statement correspondence of the unreplayed Lean development and simulations. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says ChatGPT proposed the uniformly randomized-step approach, developed the principal proof strategy and initial major arguments, and generated simulation and Lean code; the author reports checking the mathematics and kernel build. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1388",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in Weighted Laplace Spaces for Spectral Measures and Rational Approximation. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "14a8446e51a191d87ae02c03a1da18dd24ccb330ec4b24aa5654bb14686c826c",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: obtain a stable full disclosure identifying the model and its exact mathematical role; independently check the spectral-measure inequality, rational-approximation transfer principle, novelty and precise hypotheses. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The only primary-source attribution located is the listing comment: 'Generative AI has been used for this paper'; the exact model, stage and mathematical role are not disclosed. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1389",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Carleman Estimates for Wave Equations on the Half-Line: AI-Assisted Weights and Applications. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "ec26f18b2db313ce9c24f3f1ded1f56f5e6a0ab5e1141189d042ffa1fe1ad41e",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: identify the AI system/model, verify the search transcript-to-retained-weight correspondence, and independently audit the quantitative certification, Carleman estimate, stability and reconstruction theorems. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "An AI system proposed symbolic candidate weights under author-derived screening conditions; the logarithmic structure was retained, while the admissible range, certification, proofs and applications are reported as human-developed. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1390",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in A finite set with noncompact closed convex hull in a Hadamard space. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "73a652fa4249a22edeeaa1e29db1e56b9be488bb7b959d0feebb041e6d128c6e",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: establish model identity and exact allocation, verify the historical formulation and priority of the compact-convex-hull problem, and independently audit the CAT(1) limit/cone construction and noncompactness proof. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract and introduction call the construction AI-generated and say the solution was found using AI, but the model and detailed human/model allocation are not identified in the source text inspected. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1391",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Short-time existence for the Schouten flow. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "f75896ba7567559e8614668d36aa48927483ccf8b123ec931a16d851142eaf30",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review the coupled-system argument, applicability of the cited Vol'pert--Khudyaev theorem, uniqueness scope and novelty; determine the precise retained contribution of the ChatGPT-suggested strategy. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The listing and disclosure say ChatGPT 5.6 Pro suggested the strategy leading to the main argument; the authors say they then checked, developed and independently verified all arguments. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1392",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in A Counterexample to Yau's Conjectured Asymptotic Scalar-Curvature Integral Bound. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "1b699c0137bc08ec88b477821069e38c83a04e55bdc0a888419b90f38a305d28",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: verify the exact formulation and status of Yau's conjecture, the construction's completeness/one-endedness/positive-Ricci properties and scalar-curvature asymptotics, priority, and the human/model allocation. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say ChatGPT 5.6 Pro generated the main theorems and proofs and, after human direction to an iterative construction, generated the entire counterexample construction; the authors report verification. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1393",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Almost Sharp Equivalence between Approximate Message Passing and Low-Degree Polynomials. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "c7f332df9a6d13264191f023f641420de77faab0fc1e3b6464df3a2d99600acd",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently audit the conditional-cumulant construction, all growing-degree/uniformity hypotheses and AMP comparison, establish novelty, and reconstruct exact author/model contributions. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-6 Astra initially generated most formal arguments, identified the conditional-cumulant bound in Lemma 2.2 and completed the proof through interactive refinement; the main human strategic input was introducing an auxiliary Gaussian channel. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1394",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Curvature Sign Rigidity and Sharp Pointwise Pinching Thresholds. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "f897552cdeea441276c81d411a1cb2d4f6f4c22a51da5cfe2001ba24a8282cd4",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently audit every threshold, sharpness construction, global/local distinction and compactification obstruction; exclude the explicitly unverified stronger AI claims and verify exact statement correspondence and novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say the main proof content was generated by ChatGPT 5.6 Sol through several rounds and then verified and revised; some independent AI-agent proofs were absorbed. The source separately labels additional stronger AI claims as unverified. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1395",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Solutions to 6 problems in recurrence and Van der Corput sets. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "d6c6a85b62b22208acfc2280583fbd5020e789141e64cda6183ebca61e7df2ab",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: enumerate and independently verify each of the six theorem statements and proofs, confirm prior status and priority, and map the initial model solutions to the final human-rewritten arguments. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT Pro 5.6 Sol produced the initial solutions to all six problems; they then checked, simplified, reformulated and wrote the proofs. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1396",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in An explicit mono-monostatic polyhedron. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "57853f7bb4142b2ccf3f930fab6534f3d7eb8be561d7972fbc7358420c2afe9d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: replay the exact certificates and independently confirm centroid/equilibrium/nondegeneracy claims, source ownership and priority; verify the disclosed division of labour and that the public data match the stated polytopes. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says Claude Opus 4.8/Fable 5 designed, implemented and ran the searches, constructions and verifier under human direction, and drafted the paper; the certificates and verifier were not executed in this run. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1397",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in Kalai's Conjecture for Tight Trees. Its exact, sharp, classificatory, lower-bound, counterexample, or named-problem scope supports a non-routine research placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "c6fb830f4751c8fcfc97395b34827b34685123351d2f0ea7ff773c22f45dd8ca",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently review the main tight-tree proof, exact hypotheses and tight examples, confirm the historical status of Kalai's conjecture and priority, and keep all explicitly unverified AI claims outside the record. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say GPT-6 Astra found the main proof by extending its Erdős--Sós permutation method to tight trees; the authors checked and rewrote it. They explicitly mark additional equality and stronger counting claims as unverified, so those are not included here. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1398",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in The Fibonacci numbers are not an additive uniqueness set for multiplicative functions. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "d0d8e579dac8d4da70dd907ef62ca6510bb59ed683ca33c84e75bdf713359c3d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently verify the multiplicativity/divisibility construction and all Fibonacci identities, replay the certificate checker safely, establish priority relative to Spiro's question, and reconstruct the model's exact contribution. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper says an interactive GPT-6 Astra search found the initial example and was used in the subsequent discovery/verification workflow; it supplies a certificate checker that was not run here. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1399",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in A hereditary theorem for rigid and pseudorigid components of Lusztig's nilpotent varieties in type $A$. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "cf5400acee24805bb526d4e42621b924e3d866eb76937293fed1bf530c559bf2",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently audit the hereditary theorem, the recursive/terminal-pattern characterization and equivalence with pseudorigidity; establish novelty and reconstruct the exact retained AI contribution beyond broad exploratory and checking roles. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say Claude and ChatGPT were used extensively for exploratory computations, drafting and checking arguments, and adversarial review; all results were then verified by the authors. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1400",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in An Elementary Proof of the $\\widetilde O(n^{1/3})$ Bound for Separating Words. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "fcb9e63bfa02369bbf8a64eb478d89511a8631f78bb70e96c0281a916f7de0ce",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: independently audit the recurrence cutoff, divisibility estimate and parameter balance, compare precisely with Chase's earlier bound and method, and determine which retained simplifications or proof steps originated from GPT-5.5. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says GPT-5.5 was used interactively to explore candidate simplifications, test proof variants and help draft the new elementary proof; the author rewrote it. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1401",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in Lengths and incidences in Poisson hypersphere and spherical splitting tessellations. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "da8d4da664b3668374114fb7da8d468d7e7a87bbf7b1a7aaea6e0624cc4427ef",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: obtain a precise disclosure separating technical mathematical assistance from editing; independently verify the Mecke-type formula and the edge/segment/incidence distributions and assess novelty. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors acknowledge ChatGPT for 'technical and editorial assistance' and say all statements and proofs were independently verified, but do not identify the exact technical contribution. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1402",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a source-changing local-to-global theorem for differential-operator rings beyond the Weyl-algebra result represented by ID 1225.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded theorem under the stated hypotheses.",
+          "sourceHash": "d5b32dfc2f02ed7ee94734792dd7006b7335ff45ece82e1d8ba22d978ddaeae6",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: obtain independent D-module/rings-of-differential-operators specialist review of the same-divisor theorem and source-changing local-to-global proof; verify the smoothness, integrality, finite-type, characteristic-zero, nonzero/operator-order and coefficient-order quantifiers; audit novelty and priority against Bjork, Coutinho-Holland, Bellamy and any unpublished prior work; independently replay the v2-pinned Lean/Palomar closure and verify project-proof-to-formal-statement correspondence; resolve the repository metadata that links the distinct Stafford 3.8 Palomar ID rather than PALOMAR-2026-09-09-000001; and pin exact first-public chronology and theorem-level human/Claude allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Owner metadata names Claude Fable 5.1, Claude Opus 5, and Claude Sonnet 5 in a Claude Code workflow. A controller maintained PLAN.md and assigned work packages; implementing agents wrote Lean from signatures and proof outlines under Christopher Albert's human mathematical direction, integration, and release control. This source-reported allocation has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-08",
+            "dateBasis": "The first unambiguous public v1.0.0 release is timestamped 2026-09-08T21:18:31Z; this is a missed-result backfill.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "1403",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports an explicit arbitrary-delta fixed-frame Walsh OSE theorem, but its relationship to ID 1307 and prior SRHT bounds remains unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded theorem under the stated hypotheses.",
+          "sourceHash": "59f779ea92780ef420bc311be5658a5edaeaa50030e2ad7ce9441a2f97d4593d",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: obtain independent randomized-linear-algebra review of the fixed-frame/all-vector quantifier order, the two-sign Walsh transform and without-replacement row-sampling law, and the prescribed M and explicit delta-dependent constants; establish whether the arbitrary-delta theorem is a genuine parameter strengthening and independently developed proof package relative to ID 1307 and prior SRHT/OSE literature; independently replay the pinned Lean/Palomar result and verify technical-report-to-formal-statement correspondence; audit the withdrawn earlier submission versus the registered v1 chronology; and recover theorem-level human/GPT/Claude allocation. Keep provisional, reviewStatus unreviewed, and do not assign the Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Metadata says OpenAI Codex/GPT-6 agents wrote mathematical arguments, Lean proofs, statement review, and Palomar packaging under Diar Heidary's direction. A Claude critique of an earlier report led to corrections. The source explicitly says no independent human referee checked the full proof. This source-reported allocation has not been independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The first source commit is timestamped 2026-09-09T15:35:02Z and the Palomar v1 registration 2026-09-09T21:41:27Z.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

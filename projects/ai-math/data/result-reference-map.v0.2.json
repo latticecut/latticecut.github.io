@@ -2001,6 +2001,12 @@
       "title": "Successful independent build, axiom-audit and comparator workflow for Zeta-23 v1.0",
       "url": "https://github.com/primaryhosting/zeta-23-lean/actions/runs/31458241556",
       "accessed": "2026-08-20"
+    },
+    {
+      "key": "Lamzouri2026ZetaNewProofV1",
+      "title": "A new proof that more than two thirds of the zeros of the Riemann zeta function are simple and on the critical line (arXiv v1)",
+      "url": "https://arxiv.org/abs/2609.02882v1",
+      "accessed": "2026-09-09"
     }
   ],
   "138": [
@@ -8780,9 +8786,9 @@
   "699": [
     {
       "key": "Refresh20260906_699",
-      "title": "Pinching cones for positive isotropic curvature in dimensions seven and eight",
-      "url": "https://arxiv.org/abs/2608.26598v1",
-      "accessed": "2026-08-28"
+      "title": "Pinching cones for positive isotropic curvature in dimensions seven and eight (corrected arXiv v2)",
+      "url": "https://arxiv.org/abs/2608.26598v2",
+      "accessed": "2026-09-09"
     }
   ],
   "700": [
@@ -15713,6 +15719,940 @@
       "title": "PINN-discovered approximate Euler profile and conditional stability framework — supporting source 3",
       "url": "https://tensorlab.cms.caltech.edu/users/anima/euler/Euler-stability.pdf",
       "accessed": "2026-09-08"
+    }
+  ],
+  "1339": [
+    {
+      "key": "Daily20260909_1339",
+      "title": "Parity and Pattern Detection in Permutation Streams (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09064v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1339_support_0",
+      "title": "Parity and Pattern Detection in Permutation Streams (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09064v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1340": [
+    {
+      "key": "Daily20260909_1340",
+      "title": "Deterministic Edge-Fault-Tolerant Connectivity Labeling Schemes with Nearly Optimal Label Size (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09031v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1340_support_0",
+      "title": "Deterministic Edge-Fault-Tolerant Connectivity Labeling Schemes with Nearly Optimal Label Size (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09031v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1341": [
+    {
+      "key": "Daily20260909_1341",
+      "title": "Fitting and Learning Basis-Restricted Propositional Formulas (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08961v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1341_support_0",
+      "title": "Fitting and Learning Basis-Restricted Propositional Formulas (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08961v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1342": [
+    {
+      "key": "Daily20260909_1342",
+      "title": "PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08954v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1342_support_0",
+      "title": "PMMS Allocations Need Not Exist for 3 Agents with Additive Valuations (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08954v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1343": [
+    {
+      "key": "Daily20260909_1343",
+      "title": "Strengthening Proportionality in Participatory Budgeting with Additive Utilities (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08888v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1343_support_0",
+      "title": "Strengthening Proportionality in Participatory Budgeting with Additive Utilities (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08888v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1344": [
+    {
+      "key": "Daily20260909_1344",
+      "title": "Approval-Based Multiwinner Voting with Candidate Qualities (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08830v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1344_support_0",
+      "title": "Approval-Based Multiwinner Voting with Candidate Qualities (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08830v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1345": [
+    {
+      "key": "Daily20260909_1345",
+      "title": "Solution to Bucher's density problem for context-free languages (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08571v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1345_support_0",
+      "title": "Solution to Bucher's density problem for context-free languages (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08571v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1346": [
+    {
+      "key": "Daily20260909_1346",
+      "title": "Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08357v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1346_support_0",
+      "title": "Jointly Satisfying Pareto Optimality and Justified Representation is NP-Hard in Approval-Based Multiwinner Voting (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08357v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1347": [
+    {
+      "key": "Daily20260909_1347",
+      "title": "Stable Voting Rules on the Edge of Optimal Metric Distortion (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08259v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1347_support_0",
+      "title": "Stable Voting Rules on the Edge of Optimal Metric Distortion (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08259v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1348": [
+    {
+      "key": "Daily20260909_1348",
+      "title": "Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08160v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1348_support_0",
+      "title": "Generalized DBLog: A Verified Contract for Interleaving Database Rows with a Change Log (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08160v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1349": [
+    {
+      "key": "Daily20260909_1349",
+      "title": "The Stretch Factor of Planar Delaunay Triangulations Is Less Than 1.65 (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07979v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1349_support_0",
+      "title": "The Stretch Factor of Planar Delaunay Triangulations Is Less Than 1.65 (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07979v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1350": [
+    {
+      "key": "Daily20260909_1350",
+      "title": "Promises should be taken seriously: On relativization with promise problems (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07945v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1350_support_0",
+      "title": "Promises should be taken seriously: On relativization with promise problems (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07945v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1351": [
+    {
+      "key": "Daily20260909_1351",
+      "title": "Finding Representative and Approximately Efficient Committees (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07554v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1351_support_0",
+      "title": "Finding Representative and Approximately Efficient Committees (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07554v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1352": [
+    {
+      "key": "Daily20260909_1352",
+      "title": "Improved Randomized Approximations for Strategic Obnoxious Facility Location (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07261v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1352_support_0",
+      "title": "Improved Randomized Approximations for Strategic Obnoxious Facility Location (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07261v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1353": [
+    {
+      "key": "Daily20260909_1353",
+      "title": "The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07136v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1353_support_0",
+      "title": "The Fine-Grained Complexity of Approximate Nash Equilibrium and Free Games (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07136v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1354": [
+    {
+      "key": "Daily20260909_1354",
+      "title": "How Well Can Strategyproof Tournament Rules Resist Pairwise Manipulation? (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07062v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1354_support_0",
+      "title": "How Well Can Strategyproof Tournament Rules Resist Pairwise Manipulation? (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07062v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1355": [
+    {
+      "key": "Daily20260909_1355",
+      "title": "Frequency Moments Beyond Equality: Streaming Cosine Density Moments (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06925v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1355_support_0",
+      "title": "Frequency Moments Beyond Equality: Streaming Cosine Density Moments (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06925v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1356": [
+    {
+      "key": "Daily20260909_1356",
+      "title": "Improved Multilayered PCPs and Hypergraph Vertex Cover (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06775v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1356_support_0",
+      "title": "Improved Multilayered PCPs and Hypergraph Vertex Cover (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06775v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1357": [
+    {
+      "key": "Daily20260909_1357",
+      "title": "Tight Bounds on the Cost of Adaptivity for the Meyerson Sketch (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06669v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1357_support_0",
+      "title": "Tight Bounds on the Cost of Adaptivity for the Meyerson Sketch (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06669v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1358": [
+    {
+      "key": "Daily20260909_1358",
+      "title": "A Near-Linear Element Kernel for \\(d\\)-Hitting Set (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06512v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1358_support_0",
+      "title": "A Near-Linear Element Kernel for \\(d\\)-Hitting Set (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06512v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1359": [
+    {
+      "key": "Daily20260909_1359",
+      "title": "Pairwise Maximin Share Allocations Need Not Exist (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06282v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1359_support_0",
+      "title": "Pairwise Maximin Share Allocations Need Not Exist (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06282v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1360": [
+    {
+      "key": "Daily20260909_1360",
+      "title": "Ulam Rank Aggregation Is Hard to Approximate for Four Rankings (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05874v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1360_support_0",
+      "title": "Ulam Rank Aggregation Is Hard to Approximate for Four Rankings (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05874v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1361": [
+    {
+      "key": "Daily20260909_1361",
+      "title": "Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05795v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1361_support_0",
+      "title": "Polynomial Lower Bounds for Distributed Graph Sketching with Tiny Error: Connectivity and Spanning Tree Construction (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05795v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1362": [
+    {
+      "key": "Daily20260909_1362",
+      "title": "Distributed Quantum Property Testing with Quantum Carrier Pigeons (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08864v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1362_support_0",
+      "title": "Distributed Quantum Property Testing with Quantum Carrier Pigeons (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08864v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1363": [
+    {
+      "key": "Daily20260909_1363",
+      "title": "2-Fold Forrelation is in QAC$^0$ (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07060v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1363_support_0",
+      "title": "2-Fold Forrelation is in QAC$^0$ (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07060v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1364": [
+    {
+      "key": "Daily20260909_1364",
+      "title": "Quantum Query Complexity of Persistence Statistics in Graph Zigzags (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05813v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1364_support_0",
+      "title": "Quantum Query Complexity of Persistence Statistics in Graph Zigzags (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05813v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1365": [
+    {
+      "key": "Daily20260909_1365",
+      "title": "Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05812v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1365_support_0",
+      "title": "Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05812v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1366": [
+    {
+      "key": "Daily20260909_1366",
+      "title": "Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09039v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1366_support_0",
+      "title": "Covariate Adjustment in Randomized Experiments: A Unified Framework for Decision and Practice (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09039v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1367": [
+    {
+      "key": "Daily20260909_1367",
+      "title": "How Wrong Can a Rank-Based Sample-Size Calculation Be? A Sharp Bound of 16/9 for Ordinal Outcomes (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06575v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1367_support_0",
+      "title": "How Wrong Can a Rank-Based Sample-Size Calculation Be? A Sharp Bound of 16/9 for Ordinal Outcomes (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06575v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1368": [
+    {
+      "key": "Daily20260909_1368",
+      "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09130v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1368_support_0",
+      "title": "Nearly Tight Rademacher Bounds for Sparsely Activated Neural Networks (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09130v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1369": [
+    {
+      "key": "Daily20260909_1369",
+      "title": "Choosing the Dictionary and Penalty for IV-LASSO (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07033v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1369_support_0",
+      "title": "Choosing the Dictionary and Penalty for IV-LASSO (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07033v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1370": [
+    {
+      "key": "Daily20260909_1370",
+      "title": "Semidefinite extension complexity of the separable set, with applications to approximate disentanglers (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09033v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1370_support_0",
+      "title": "Semidefinite extension complexity of the separable set, with applications to approximate disentanglers (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09033v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1371": [
+    {
+      "key": "Daily20260909_1371",
+      "title": "Modular commutator as a robust topological invariant and approximate Markovianity (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.09019v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1371_support_0",
+      "title": "Modular commutator as a robust topological invariant and approximate Markovianity (v1, full text)",
+      "url": "https://arxiv.org/html/2609.09019v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1372": [
+    {
+      "key": "Daily20260909_1372",
+      "title": "On the Power of Adaptivity in Testing Quantum States in Fidelity (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08733v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1372_support_0",
+      "title": "On the Power of Adaptivity in Testing Quantum States in Fidelity (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08733v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1373": [
+    {
+      "key": "Daily20260909_1373",
+      "title": "Causal-Class Hierarchies in Coherence-Constrained Channel Transformation (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08639v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1373_support_0",
+      "title": "Causal-Class Hierarchies in Coherence-Constrained Channel Transformation (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08639v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1374": [
+    {
+      "key": "Daily20260909_1374",
+      "title": "Power and Limits of Collective Local Measurements in Multicopy State Discrimination (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07233v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1374_support_0",
+      "title": "Power and Limits of Collective Local Measurements in Multicopy State Discrimination (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07233v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1375": [
+    {
+      "key": "Daily20260909_1375",
+      "title": "Single-tone drive-enhanced CROT gate for bosonic quantum error correction (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07076v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1375_support_0",
+      "title": "Single-tone drive-enhanced CROT gate for bosonic quantum error correction (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07076v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1376": [
+    {
+      "key": "Daily20260909_1376",
+      "title": "Error Exponents of Probabilistic Quantum Resource Distillation (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06688v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1376_support_0",
+      "title": "Error Exponents of Probabilistic Quantum Resource Distillation (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06688v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1377": [
+    {
+      "key": "Daily20260909_1377",
+      "title": "Entanglement Growth as Transport Across Schmidt Scales (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06643v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1377_support_0",
+      "title": "Entanglement Growth as Transport Across Schmidt Scales (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06643v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1378": [
+    {
+      "key": "Daily20260909_1378",
+      "title": "The $I_{3322}$ Bell inequality requires infinite dimensions (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06038v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1378_support_0",
+      "title": "The $I_{3322}$ Bell inequality requires infinite dimensions (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06038v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1379": [
+    {
+      "key": "Daily20260909_1379",
+      "title": "Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05625v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1379_support_0",
+      "title": "Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05625v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1380": [
+    {
+      "key": "Daily20260909_1380",
+      "title": "The I3322 quantum value is attained spatially but not in finite dimension (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05555v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1380_support_0",
+      "title": "The I3322 quantum value is attained spatially but not in finite dimension (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05555v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1381": [
+    {
+      "key": "Daily20260909_1381",
+      "title": "The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06224v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1381_support_0",
+      "title": "The Wilson-line-dressed charged sector of scalar QED: superselection and the infraparticle (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06224v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1382": [
+    {
+      "key": "Daily20260909_1382",
+      "title": "Matrix Holography on an Optical Lattice (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05613v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1382_support_0",
+      "title": "Matrix Holography on an Optical Lattice (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05613v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1383": [
+    {
+      "key": "Daily20260909_1383",
+      "title": "Weak Order on the MacNeille Completion of Bruhat Order (v2, abstract page)",
+      "url": "https://arxiv.org/abs/2605.08033v2",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1383_support_0",
+      "title": "Weak Order on the MacNeille Completion of Bruhat Order (v2, full text)",
+      "url": "https://arxiv.org/html/2605.08033v2",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1384": [
+    {
+      "key": "Daily20260909_1384",
+      "title": "Frobenius--Witt cotangent complex for derived rings (v3, abstract page)",
+      "url": "https://arxiv.org/abs/2608.04487v3",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1384_support_0",
+      "title": "Frobenius--Witt cotangent complex for derived rings (v3, full text)",
+      "url": "https://arxiv.org/html/2608.04487v3",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1385": [
+    {
+      "key": "Daily20260909_1385",
+      "title": "Extremal Rota-Baxter operators on matrix algebras (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05647v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1385_support_0",
+      "title": "Extremal Rota-Baxter operators on matrix algebras (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05647v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1386": [
+    {
+      "key": "Daily20260909_1386",
+      "title": "Quantum lower bounds for convex optimization and real matrix-vector query problems (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05679v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1386_support_0",
+      "title": "Quantum lower bounds for convex optimization and real matrix-vector query problems (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05679v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1387": [
+    {
+      "key": "Daily20260909_1387",
+      "title": "A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.05847v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1387_support_0",
+      "title": "A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size (v1, full text)",
+      "url": "https://arxiv.org/html/2609.05847v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1388": [
+    {
+      "key": "Daily20260909_1388",
+      "title": "Weighted Laplace Spaces for Spectral Measures and Rational Approximation (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06243v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1388_support_0",
+      "title": "Weighted Laplace Spaces for Spectral Measures and Rational Approximation (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06243v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1389": [
+    {
+      "key": "Daily20260909_1389",
+      "title": "Carleman Estimates for Wave Equations on the Half-Line: AI-Assisted Weights and Applications (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06283v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1389_support_0",
+      "title": "Carleman Estimates for Wave Equations on the Half-Line: AI-Assisted Weights and Applications (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06283v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1390": [
+    {
+      "key": "Daily20260909_1390",
+      "title": "A finite set with noncompact closed convex hull in a Hadamard space (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06455v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1390_support_0",
+      "title": "A finite set with noncompact closed convex hull in a Hadamard space (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06455v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1391": [
+    {
+      "key": "Daily20260909_1391",
+      "title": "Short-time existence for the Schouten flow (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06503v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1391_support_0",
+      "title": "Short-time existence for the Schouten flow (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06503v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1392": [
+    {
+      "key": "Daily20260909_1392",
+      "title": "A Counterexample to Yau's Conjectured Asymptotic Scalar-Curvature Integral Bound (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06533v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1392_support_0",
+      "title": "A Counterexample to Yau's Conjectured Asymptotic Scalar-Curvature Integral Bound (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06533v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1393": [
+    {
+      "key": "Daily20260909_1393",
+      "title": "Almost Sharp Equivalence between Approximate Message Passing and Low-Degree Polynomials (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06988v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1393_support_0",
+      "title": "Almost Sharp Equivalence between Approximate Message Passing and Low-Degree Polynomials (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06988v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1394": [
+    {
+      "key": "Daily20260909_1394",
+      "title": "Curvature Sign Rigidity and Sharp Pointwise Pinching Thresholds (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07252v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1394_support_0",
+      "title": "Curvature Sign Rigidity and Sharp Pointwise Pinching Thresholds (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07252v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1395": [
+    {
+      "key": "Daily20260909_1395",
+      "title": "Solutions to 6 problems in recurrence and Van der Corput sets (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07506v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1395_support_0",
+      "title": "Solutions to 6 problems in recurrence and Van der Corput sets (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07506v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1396": [
+    {
+      "key": "Daily20260909_1396",
+      "title": "An explicit mono-monostatic polyhedron (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07827v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1396_support_0",
+      "title": "An explicit mono-monostatic polyhedron (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07827v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1397": [
+    {
+      "key": "Daily20260909_1397",
+      "title": "Kalai's Conjecture for Tight Trees (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08012v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1397_support_0",
+      "title": "Kalai's Conjecture for Tight Trees (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08012v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1398": [
+    {
+      "key": "Daily20260909_1398",
+      "title": "The Fibonacci numbers are not an additive uniqueness set for multiplicative functions (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08137v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1398_support_0",
+      "title": "The Fibonacci numbers are not an additive uniqueness set for multiplicative functions (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08137v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1399": [
+    {
+      "key": "Daily20260909_1399",
+      "title": "A hereditary theorem for rigid and pseudorigid components of Lusztig's nilpotent varieties in type $A$ (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.06601v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1399_support_0",
+      "title": "A hereditary theorem for rigid and pseudorigid components of Lusztig's nilpotent varieties in type $A$ (v1, full text)",
+      "url": "https://arxiv.org/html/2609.06601v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1400": [
+    {
+      "key": "Daily20260909_1400",
+      "title": "An Elementary Proof of the $\\widetilde O(n^{1/3})$ Bound for Separating Words (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.08191v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1400_support_0",
+      "title": "An Elementary Proof of the $\\widetilde O(n^{1/3})$ Bound for Separating Words (v1, full text)",
+      "url": "https://arxiv.org/html/2609.08191v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1401": [
+    {
+      "key": "Daily20260909_1401",
+      "title": "Lengths and incidences in Poisson hypersphere and spherical splitting tessellations (v1, abstract page)",
+      "url": "https://arxiv.org/abs/2609.07725v1",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1401_support_0",
+      "title": "Lengths and incidences in Poisson hypersphere and spherical splitting tessellations (v1, full text)",
+      "url": "https://arxiv.org/html/2609.07725v1",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1402": [
+    {
+      "key": "Daily20260909_1402",
+      "title": "Global Stafford for rings of differential operators — primary source 1",
+      "url": "https://github.com/itpplasma/global-stafford-formal/releases/tag/v1.0.0",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1402_support_0",
+      "title": "Global Stafford for rings of differential operators — primary source 2",
+      "url": "https://github.com/itpplasma/global-stafford-formal/tree/e676caed1253e5d09fc6699d5dc683febbabf7bb",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1402_support_1",
+      "title": "Global Stafford for rings of differential operators — primary source 3",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-09-000001-v2.json",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1402_support_2",
+      "title": "Global Stafford for rings of differential operators — primary source 4",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34319938905",
+      "accessed": "2026-09-09"
+    }
+  ],
+  "1403": [
+    {
+      "key": "Daily20260909_1403",
+      "title": "Rerandomized Subsampled Trigonometric Transforms — primary source 1",
+      "url": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms/commit/dded476cdb62a671ca079b6fa2007f64f50a013e",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1403_support_0",
+      "title": "Rerandomized Subsampled Trigonometric Transforms — primary source 2",
+      "url": "https://github.com/DiarHaidary/Rerandomized-Subsampled-Trigonometric-Transforms/tree/929653a019eb4910fc6efb9cb34cc3c3c2f949d4",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1403_support_1",
+      "title": "Rerandomized Subsampled Trigonometric Transforms — primary source 3",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-09-000003-v1.json",
+      "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20260909_1403_support_2",
+      "title": "Rerandomized Subsampled Trigonometric Transforms — primary source 4",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34402582360",
+      "accessed": "2026-09-09"
     }
   ]
 }
