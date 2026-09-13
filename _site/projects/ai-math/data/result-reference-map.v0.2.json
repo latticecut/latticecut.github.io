@@ -20338,5 +20338,235 @@
       "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34709856848",
       "accessed": "2026-09-12"
     }
+  ],
+  "1656": [
+    {
+      "key": "Daily20260913_1656",
+      "title": "On the Mahler measure and root distribution of the Q-polynomial of links (first qualifying v1)",
+      "url": "https://arxiv.org/abs/2609.05200v1",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1656_support_0",
+      "title": "On the Mahler measure and root distribution of the Q-polynomial of links (current v2)",
+      "url": "https://arxiv.org/abs/2609.05200v2",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1656_support_1",
+      "title": "On the Mahler measure and root distribution of the Q-polynomial of links (v1 PDF)",
+      "url": "https://arxiv.org/pdf/2609.05200v1",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1656_support_2",
+      "title": "On the Mahler measure and root distribution of the Q-polynomial of links (v2 PDF)",
+      "url": "https://arxiv.org/pdf/2609.05200v2",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1657": [
+    {
+      "key": "Daily20260913_1657",
+      "title": "Rational invariants of three frames in the split Albert algebra — initial public release",
+      "url": "https://github.com/macgregor-sudo/albert-frame-triple-invariants/commit/dd06ef5d423a0e4a5d814d2c221e999b98887ee1",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1657_support_0",
+      "title": "Rational invariants of three frames in the split Albert algebra — AI provenance",
+      "url": "https://github.com/macgregor-sudo/albert-frame-triple-invariants/blob/dd06ef5d423a0e4a5d814d2c221e999b98887ee1/docs/PROVENANCE.md",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1657_support_1",
+      "title": "Rational invariants of three frames in the split Albert algebra — Palomar v1 registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-13-000001-v1.json",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1657_support_2",
+      "title": "Rational invariants of three frames in the split Albert algebra — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34757167177",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1658": [
+    {
+      "key": "Daily20260913_1658",
+      "title": "A finitely generated surjunctive group that is not sofic — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/05a8aff7a5a8402f8e49a776384638b47a34c27d",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1658_support_0",
+      "title": "A finitely generated surjunctive group that is not sofic — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/92ad0059d60f813ad3e96a00c2345526f7c48c10",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1658_support_1",
+      "title": "A finitely generated surjunctive group that is not sofic — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1659": [
+    {
+      "key": "Daily20260913_1659",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/f375478c727bd3e49e0935001be028b6afa4e26f",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1659_support_0",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/5f9c16b7bb065416be8cd2b0fb346d4ecfb5109b",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1659_support_1",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1659_support_2",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — Palomar v1 registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-13-000002-v1.json",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1659_support_3",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — Palomar v2 registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-13-000002-v2.json",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1659_support_4",
+      "title": "An infinite simple group with property (T) that is sofic and hyperlinear — Palomar v2 verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34773548774",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1660": [
+    {
+      "key": "Daily20260913_1660",
+      "title": "A type [A2] action with a non-finitely-presented image — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/12bd1722d27bdd07dd02c343a201160e1a41d580",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1660_support_0",
+      "title": "A type [A2] action with a non-finitely-presented image — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/e8abf9a009fc5e7196763f22d9c05fb6c7bf173e",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1660_support_1",
+      "title": "A type [A2] action with a non-finitely-presented image — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1661": [
+    {
+      "key": "Daily20260913_1661",
+      "title": "Guba's equation (1 - x1)u = bv in the group ring of Thompson's group F — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/4f3e5243a14fa153df46ea19b1bec9846a0db39a",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1661_support_0",
+      "title": "Guba's equation (1 - x1)u = bv in the group ring of Thompson's group F — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/6b308147bacf378fe10982fa115a21d478c73023",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1661_support_1",
+      "title": "Guba's equation (1 - x1)u = bv in the group ring of Thompson's group F — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1662": [
+    {
+      "key": "Daily20260913_1662",
+      "title": "Commuting sofic actions that do not combine to a sofic action — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/393a096b61f33c15069d7ea8b790fadda75758df",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1662_support_0",
+      "title": "Commuting sofic actions that do not combine to a sofic action — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/3f1af7161134c535ca861205ce2620d40bb043c5",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1662_support_1",
+      "title": "Commuting sofic actions that do not combine to a sofic action — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1663": [
+    {
+      "key": "Daily20260913_1663",
+      "title": "An amenable trace that is not quasidiagonal — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/4830b808c919dc741f5d24b443f50be0c2359e39",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1663_support_0",
+      "title": "An amenable trace that is not quasidiagonal — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/0badf535c263efa9ddf8631703c5f637e235d6c2",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1663_support_1",
+      "title": "An amenable trace that is not quasidiagonal — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1664": [
+    {
+      "key": "Daily20260913_1664",
+      "title": "A uniform tracial completion with a discontinuous trace — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/0cdbec5e061051d94c74a871efd6f3532da2a8ba",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1664_support_0",
+      "title": "A uniform tracial completion with a discontinuous trace — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/8444aeb6cccfb57754b47a42ce1556f96e942d21",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1664_support_1",
+      "title": "A uniform tracial completion with a discontinuous trace — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
+  ],
+  "1665": [
+    {
+      "key": "Daily20260913_1665",
+      "title": "A properly infinite Toeplitz algebra answering Blanchard's Question 5.4 — first-public result source",
+      "url": "https://github.com/SauersML/group-approximation/commit/412dd76324226685f5af956049f50416f4882f6d",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1665_support_0",
+      "title": "A properly infinite Toeplitz algebra answering Blanchard's Question 5.4 — formal endpoint commit",
+      "url": "https://github.com/SauersML/group-approximation/commit/4caf6aea29523d4b662942638148d64a436f9998",
+      "accessed": "2026-09-13"
+    },
+    {
+      "key": "Daily20260913_1665_support_1",
+      "title": "A properly infinite Toeplitz algebra answering Blanchard's Question 5.4 — pinned AI disclosure and claim scope",
+      "url": "https://github.com/SauersML/group-approximation/blob/92c1241647c1211dc1e56d20ba75bef587be833a/README.md",
+      "accessed": "2026-09-13"
+    }
   ]
 }

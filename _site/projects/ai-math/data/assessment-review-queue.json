@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-12",
+  "assessedAt": "2026-09-13",
   "samplingWeek": 2958,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -5873,6 +5873,117 @@
       "reasons": [
         "Further checking: independently verify rk-lean: the directed construction for k-th-power-difference-free sets at every k, with the exponents 0.912145 (k = 4) and 0.950826 (k = 6)'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The source disclosure says Claude Fable 5.1 planned and assembled the general-k formalization; parallel Claude Opus agents wrote and audited the Lean modules; and Claude agents found the retained blocks using CP-SAT, tabu search, and exact search under human direction.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. Registry kernel closure is not treated as complete novelty review or full statement correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1656",
+      "category": "Unassessed",
+      "confidence": "low",
+      "placement": "unassessed",
+      "priority": 1,
+      "reasons": [
+        "Insufficient claim detail",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for On the Mahler measure and root distribution of the Q-polynomial of links; determine which retained theorem, construction, experiment, or proof step—if any—materially depended on the vague preparation-stage model use, and audit the v2 removal of a conjecture without conflating it with the retained results. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1657",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for Rational invariants of three frames in the split Albert algebra; obtain independent Albert/Jordan invariant-theory review of the degree-two field extension, the radicalized coordinate algebra, and the explicit witnesses; audit the unpublished-note dependence, Tau Ceti import boundary, and exact AI/human role. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. The Palomar kernel record supports its named formal statements but does not by itself establish novelty, the full informal claim, or complete statement-to-source correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1658",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for A finitely generated surjunctive group that is not sofic; verify the surjunctivity permanence theorem, the Kun–Thom nonsofic input, all finiteness qualifiers, and correspondence between the symmetric-double argument and the formal endpoint. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1659",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for An infinite simple group with property (T) that is sofic and hyperlinear; verify every property of the crossed-product witness, the LEF-to-sofic-to-hyperlinear chain, Brown/Ozawa/Pestov statement equivalence, novelty, and source-to-Palomar theorem correspondence. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. The Palomar kernel record supports its named formal statements but does not by itself establish novelty, the full informal claim, or complete statement-to-source correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1660",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for A type [A2] action with a non-finitely-presented image; verify the type-[A2] stabilizer and orbit conditions, action-kernel computation, non-finite-presentability argument, the switch between the research and formal witnesses, and theorem correspondence. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1661",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for Guba's equation (1 - x1)u = bv in the group ring of Thompson's group F; verify the nested-support induction, the transfer from x0 to x1, all field and nonzero qualifiers, and the exact boundary from this Ore equation to Thompson-group amenability. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1662",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for Commuting sofic actions that do not combine to a sofic action; verify the Kun–Thom pair input, coordinate-action freeness/soficity, the nonsofic diagonal orbit, and the exact equivalence to the cited Question 4.2. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1663",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for An amenable trace that is not quasidiagonal; verify the amenability and non-quasidiagonality of the canonical trace, separability and maximal-group-C*-algebra qualifiers, novelty relative to Ozawa's September preprint, and the Shrink bridge. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1664",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for A uniform tracial completion with a discontinuous trace; verify the completion and designated-trace construction, factorial tracial completeness, separability, density and restriction-bijection bridges, and the exact relationship to STW Problem XXII and Question 1.1. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1665",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Further checking: independently verify the bounded claim, novelty, priority, and correctness reported for A properly infinite Toeplitz algebra answering Blanchard's Question 5.4; verify the two orthonormal sections in E_DD tensor E_DD, the creation-operator isometries, the disappearance of the Dixmier–Douady obstruction, and exact correspondence to Blanchard's E_DD and Toeplitz-algebra definitions. Missing at cutoff are independent specialist review, an independent end-to-end replay, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
       ]
     },
     {
