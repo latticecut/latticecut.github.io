@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-10",
+  "assessedAt": "2026-09-12",
   "samplingWeek": 2958,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -4378,6 +4378,1501 @@
       "reasons": [
         "Possible breakthrough / disputed difficulty",
         "Further checking: Independently audit all three inequalities and equality characterizations, the cograph/threshold scope and nonempty convention; reproduce a wider literature search beyond the author's dated searches to test originality and priority; distinguish the 2026-08-24 v1 result from the two v2 additions; independently replay the pinned Lean/Palomar package and verify statement correspondence; and separate the human contribution from GPT-5.6 Sol/Terra development and same-family agent review. Keep provisional=1, conservative confidence, reviewStatus unreviewed, and no strict-policy Superhuman override. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed."
+      ]
+    },
+    {
+      "id": "1519",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Polynomial Lower Bounds for Anticanonical Volumes of Weak Fano Surfaces's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The v1 acknowledgement credits GPT-6 Astra with ideas for Lemma 2.1 and Propositions 3.2 and 3.4; v2 additionally reports GPT-5.6/6.0 exploratory discussions, the weighted binary-forest connection, elementary linear-algebra computations, and examples.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1520",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Coloring graphs with no long induced path's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The v1 paper says Claude Fable 5.1 found its proof after reading GPT Astra notes; v2 attributes the clique reduction to Claude Fable 5.1 after Codex Astra attempts, and the large/small split and combined proof to GPT Pro, before author rewriting.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1521",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify ry-lean: sets avoiding {x, x+y, x+y²} — Younis's two-set construction and the exponent 0.77028's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The source disclosure says Claude Fable 5.1 planned and assembled the formalization; parallel Claude Opus agents researched, audited, and wrote the Lean modules; and Claude agents found the new residue sets by CP-SAT and exact search under human direction.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. Registry kernel closure is not treated as complete novelty review or full statement correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1522",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify All-ones polynomials over GF(2) under the substitution X ↦ X² + X + 1 (OEIS A071642, TheoremDB P12771)'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The source metadata says GPT-6 Astra in Codex derived the informal proof under Brandon Yates's direction; Claude Fable 5.1 independently re-derived and checked it; and Claude agents wrote the Lean development under human direction.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. Registry kernel closure is not treated as complete novelty review or full statement correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1523",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Background results for robust minmax control of linear dynamical systems's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors acknowledge Claude (Anthropic), which reviewed the second version line by line, checked the matrix identities numerically, and drafted the corrections listed in the appendix.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1524",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Saddlepoint approximations for plug-in resampling's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the preparation of this work, the authors used OpenAI Codex and Claude Code to assist with literature search, language revision, drafting proofs of the lower bound statements in Theorems 4.3 and 5.2, and proof checking. After using these tools, the authors reviewed and edited any generated content as necessary and take full responsibility for the content of the publication.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1525",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Prediction--Loss Alignment for Sampler--Robust Flow Matching Training's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Generative AI tools were used during revision for language editing, code assistance, mathematical adversarial checking, and organization of experimental diagnostics. The authors independently re-derived the mathematical statements, reviewed all generated text, tested code changes, inspected experimental outputs, and checked cited sources. Generative AI tools were not treated as scientific sources or final arbiters of correctness. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1526",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Trust Me, I'm a Doctor?'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We wish to thank Amit Sawant, Marco Piccininni, and Inna Kleyman for helpful discussions. We used GPT-5.5 and GPT-5.6 to revise the language and to assist with technical arguments and proofs. We have reviewed and edited all text after use of the AI tool and take full responsibility for the content of the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1527",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Nearly-minimax variance estimation under rough random design's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, contributing to drafting and revision, and writing code for computational checks.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1528",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Efficient search for excitable zero-modes in constrained systems's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (I thank A. Kerschbaumer, E. Nicolau and M. Serbyn for useful discussions. This work was funded in whole or in part by the Austrian Science Fund (FWF) 10.55776/COE1 and the European Union – NextGenerationEU. Generative AI (OpenAI GPT-5.5) was used to help solve tensor equations and proofread the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1529",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Bergsma--Dassios sign covariance with ties: a nonnegative decomposition and sharp bounds's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used OpenAI’s Codex and Anthropic’s Claude during proof development and manuscript preparation. All AI-assisted material was critically reviewed, substantially revised, and independently verified by the authors, who take full responsibility for the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1530",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify On Prior-to-Posterior Stability in the Wasserstein Metric for Bayesian Inverse Problems's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author acknowledges the following use of AI tools: The numerical experiments are implemented with assistance from OpenAI GPT-5.3-codex in GitHub Copilot. Examples 5, 7, and 12 were suggested by OpenAI GPT-5.4. Conversations with OpenAI GPT-5.6 Sol Ultra were important for pinpointing the verifiable, simple regularity conditions sufficient for the Lipschitz stability estimate. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1531",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Monadic Second-Order Logic in HOL: Deep and Shallow with Automated Faithfulness (Extended Preprint)'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used generative AI assistants (Anthropic’s Claude family of models) to draft and shorten prose, to propose and shorten some proofs (in particular parts of the two-sorted Löwenheim–Skolem construction), and to maintain cross-references between the LaTeX source and the Isabelle/HOL files. The mathematical content, the theory development, and the design choices are the authors’; …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1532",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Characterizing Language Generation in the Limit: Finite Witnesses and a Separation-Width Hierarchy's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (OpenAI Codex assisted with mathematical exploration, proof development, Lean formalization, and manuscript preparation. Responsibility for the paper’s claims and interpretations rests with the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1533",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Critical emergence of quantum theory, spacetime and gravity from generalised trace dynamics's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author thanks colleagues in high-energy theory, gravitation, quantum foundations and condensed-matter physics whose questions motivated the cross-disciplinary formulation. OpenAI’s GPT-5.6 Sol was used as an aid in organising the literature, developing the effective-field-theory presentation, checking internal consistency and preparing the earlier version of the manuscript. The surrogate-ensemble calculation of Sec. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1534",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify EFX Allocations for Three Agents and Seven or Eight Chores's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author is accountable for every statement above. No language model is an author of this paper, and none is cited as a mathematical authority. Within that frame the disclosure is this: the mathematics, the software, the solver encodings and the first drafts of this manuscript were drafted by large language models working under staged directives written by the author, and were then checked to the extent itemized next.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1535",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Finite Hardy Phase Theory for Power Means: An exact analytic shooting family through the Carleman parameter's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the research and preparation of this manuscript, the author used OpenAI ChatGPT and Codex, Google Gemini, and xAI Grok as interactive tools for exploratory derivations, proof auditing, symbolic and numerical cross-checks, literature searches, and editorial revision. All AI-assisted material incorporated into the manuscript was critically reviewed and edited by the author. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1536",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Confined elastic wires of large length: the sharp second-order asymptotics's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (This paper was produced with substantial assistance from large language models; section 7 sets out in detail what they contributed and what I verified. Tools. The mathematical content of this paper was developed in collaboration with large language models developed by Anthropic, principally Claude Opus 5 (claude-opus-5) and Claude Fable 5.1 (claude-fable-5-1), used between end of July and beginning of September 2026 via claude.ai. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1537",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Real stability of layer-refined antichain polynomials for three-chain products with a two-element factor's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Declaration of generative AI and AI-assisted technologies in the manuscript preparation process. During preparation of this work, the author used OpenAI Codex for literature searches, exploratory calculations, verification-code development, and language editing. Its outputs were not used as mathematical evidence. The author checked the sources, arguments, and computations and takes full responsibility for the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1538",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The 2-Adic Valuation of the Order of the All-Ones Class in the Sandpile Group of a Square's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (After numerous experiments leading to the right conjectures, the initial proof was obtained by ChatGPT, and then simplified by the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1539",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Nonamenable groups whose reduced group C*-algebras are not pure's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI Declaration. ChatGPT-5.6 Sol was used during the preparation of this work, including identifying the wreath-product example and preparing a draft of the manuscript. The author subsequently verified the mathematical arguments and takes full responsibility for the contents of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1540",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The maximum spectral radius of outerplanar and planar $k$-uniform hypergraphs's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the preparation of this work, the authors used Claude (Anthropic) for language refinement, technical editing, and computational verification of examples. The authors reviewed and edited the output as needed and take full responsibility for the content of the published article.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1541",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Helson Inequality, Hankel Operators, and Weak Factorization on Paley-Wiener spaces of Convex Domains's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author was supported by the Research Council of Finland, project no. 371637. They are a member of the Finnish Centre of Excellence in Randomness and Structures. Furthermore, the author gratefully acknowledges the assistance of ChatGPT (GPT-5.6 Sol, OpenAI), whose suggestions helped generate some of the ideas developed in this work and contributed to sharpening and refining several of the techniques and arguments, especially in Sections 2 and 4.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1542",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Structural consequences of the Schur $p$-property for Lipschitz-free $p$-spaces's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the development and preparation of this manuscript, the authors made use of AI-assisted tools as a conversational aid for exploring ideas and possible approaches, as well as for editorial assistance. The selection, formulation, and presentation of the mathematical results are those of the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1543",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Symplecto-rigidity and bootstrap for Anosov symplectomorphisms and contact Anosov flows's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors completed the bulk of the paper in the summer of 2025 without AI assistance. While finishing the proofs of symplecto-rigidity in the summer of 2026, conversations with Claude Opus 4.8 and ChatGPT 5.6 were helpful. The paper was written by the authors, except that initial drafts of the proofs of Theorem 1.4 and Appendix A were generated by ChatGPT and subsequently edited by the authors. We also used Claude Opus 4.8 and ChatGPT 5.6 to check and proofread the paper. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1544",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify An Improved Bound for the Ovals Problem's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author acknowledges the use of AI tools. All mathematical arguments and proofs in the final manuscript were checked and written by the author.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1545",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A 50-Vertex Cubic Counterexample to the Domination-versus-Edge-Domination Conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (OpenAI ChatGPT (GPT-5.6 Sol) assisted with the ordinary-domination investigation, generation and cross-checking of verification code, literature search, and drafting of the manuscript and reproducibility materials. The AI system is not an author. All theorem-critical claims are reduced in the paper to explicit finite calculations, with reproducing code and independent verification programs provided for checking.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1546",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A General Proof of the Fong-Tsui Conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Manuscript status. This is a working manuscript prepared for mathematical review. Its arguments have received AI-assisted checks, but no human referee review or complete priority verification has been obtained.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1547",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Tight Time-Space Lower Bounds for Collision Finding and Element Distinctness under Label Symmetry's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The main ideas and proofs in this work were developed by the authors, with the exception of the connection made by ChatGPT 5.35.3 between Cs⟂∩W⊗sC_{s}^{\\perp}\\cap W^{\\otimes s} and arrangement graphs, via the deletion map DD defined in (19). AI tools were also used for supplementary verification of results, editing the manuscript and the discussing of ideas.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1548",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Quantum Overlap Gap Property and Algorithmic Hardness for the Quantum Hypergraph Max-Cut Problem's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We used Google Gemini for assistance in some routine mathematical tasks such the calculations and bounds in Section 3.2 and Appendix A. The tool was also used to generate LaTeX code for the figures in this paper. AI tools were not used in a way that materially affected any part of the research methodology, and the authors verified the correctness and originality of all content including references.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1549",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Compact Counterexample to Suárez's Berezin Approximation Question's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The GPT-5.6 Sol model with max effort, accessed through OpenAI’s Codex CLI, was used to construct the initial version of this counterexample. More precisely, the model was used intermittently over an elapsed period of approximately 19.5 hours to analyze Suárez’s higher-order Berezin approximation conjecture and search for a counterexample in full generality. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1550",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Zonoids whose polars are zonoids: the Banach--Mazur distance need not tend to one's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Grothendieck asked whether the two isometric-embedding assumptions in Theorem 1.2 force the norm to be Hilbertian. Pisier records that the infinite-dimensional real and complex cases were open [20, p. 249, immediately after Corollary 2.7]; see also [16, p. 1]. Thus our Theorem 1.2 answers the real isometric problem negatively. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1551",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Metric Geometry of the Signature Group for $p$-Variation Rough Paths's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors say standard LLMs (ChatGPT 5.0 through 5.6 Sol) were used to discuss, generate, and improve proofs and counterexamples, leading in particular to the current versions of Lemmas 3.17 and 3.24 and Propositions 4.6 and 4.9.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1552",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Connected irregular cospectral graphs with identical combinatorial invariants and distinct Lovász numbers's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used ChatGPT 5.6 (OpenAI) to assist with SageMath programming [12], which was used to compute the pair of graphs shown in Figure 2. ChatGPT was also used to double-check analytic calculations presented in this work and for language editing and stylistic refinement of the manuscript. The author assumes full responsibility for the content of the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1553",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The First Correction Term in the Asymptotic Expansion of Bohr--Sommerfeld Lagrangian States's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Acknowledgment. This work was supported by the Grant-in-Aid for Scientific Research (KAKENHI No.​ 26K06823). The author used ChatGPT for language editing and for checking some calculations.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1554",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Weak Bruhat interval modules of the 0-Hecke algebras for stable Grothendieck polynomials's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used OpenAI Codex with the GPT-5.6 Sol model in conducting this research. Codex assisted with literature searches, the development of proofs, the construction of examples, and the revision of the manuscript. The author reviewed and verified all mathematical content and takes full responsibility for the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1555",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Almost Linear Universal Point Sets for Planar Graphs's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (A point set is universal for planar graphs on nn vertices if every such graph has a straight-line drawing without crossings whose vertices belong to the set. We construct universal point sets of size n1+o⁡(1)n^{1+o(1)}, improving the previous quadratic upper bound. Our construction uses the reduction of Bannister, Cheng, Devanny, and Eppstein from universal point sets to superpatterns for 213213-avoiding permutations. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1556",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify MMS Allocation for Chores with Online Agent Arrivals's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The main algorithmic framework was developed entirely by the authors. The authors acknowledge the use of GPT-5.6 Sol to assist in exploring parts of the proofs. The manuscript was written by the authors, with ChatGPT and Codex used for language editing and literature searches. All arguments were independently verified by the authors, who take full responsibility for the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1557",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Balanced even cycles in signed graphs:Turán bounds, double covers, and parity obstructions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI-assisted tools were used to improve the language and organization of this manuscript and to assist with checking calculations and arguments. The authors take full responsibility for the contents of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1558",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Phases in a class of associative memories via hidden neurons's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The results of Appendix C.3 are exact at the integer temperature points n=β/λ∈ℤ>0n=\\beta/\\lambda\\in\\mathbb{Z}_{>0}. In this appendix we reconstruct the phase diagram from the visible representation, which is defined at every real temperature from the outset, and show that all formulas of the main text hold as stated for arbitrary real β\\beta.66 6 The results in this subsection are obtained with the help of Claude Fable 5. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1559",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Erdős-Sós for digraphs's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The proofs of all the results in this paper were found by GPT-6 Astra. The authors merely observed that the method of GPT-6 Astra’s recent proof of the Erdős-Sós conjecture (see Adamczewski and Bloom [5, Appendix B.4]) should apply in the directed setting as well and prompted GPT-6 Astra to prove the corresponding theorems for directed graphs using the same technique. The authors have checked the elegant proof for paths (Section 3) which was the motivation for this work. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1560",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Cartan-Hadamard conjecture in dimension five's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The AI tools Claude (Anthropic) and ChatGPT (OpenAI) were used in the preparation of this manuscript. The authors have reviewed all AI-assisted content and take full responsibility for the final manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1561",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Counting Near-Spanning Matchings in Latin Squares and Steiner Triple Systems's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT was used to assist with the preparation and presentation of this manuscript. The authors independently verified all arguments and references and take full responsibility for the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1562",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Bar cohomology of links: beyond Milnor invariants's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (This project has been gestating for quite some time and has benefited from many useful conversations and partial collaborations. In particular, we acknowledge the profound contributions of Aydin Ozbek, who tragically passed away during the writing of this work. We owe a debt of gratitude to Anna Cepek and Ziyal Jandrasi, who handed this project off to us in its infancy. We thank Andres Fernandez Herrero for countless useful conversations about Hopf algebras and beyond. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1563",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Discretization in covariate-adaptive randomization: gains and losses's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The original proofs and code were written by the authors, generative AI (ChatGPT 5.6-soL and Claude Fable 5) were used for checking the proofs, revising codes and language polishing.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1564",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Rankin--Selberg integrals of opposite conductor--one newforms's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors reviewed all AI-assisted contributions and take full responsibility for the final content of the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1565",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A deterministic $(1+\\varepsilon)^n$ approximation for the permanent of a nonnegative matrix's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors asked GPT 6 Astra to combine the ingredients in the proof of the (2−δ)n(\\sqrt{2}-\\delta)^{n} approximation [2, 23] with their work on sharp girth-dependent bounds for the Bethe permanent [12] in order to obtain a significant improvement over 2n\\sqrt{2}^{n}, with a view towards reaching (1+ε)n(1+\\varepsilon)^{n}. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1566",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify There is no maximal $K$-degree's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (This research is supported by National Natural Science Foundation of China grant 12471002. The proof of Theorem 1.1 is provided by AI tool, Rethlas (invoking Chatgpt 6 astra). Author read, carefully checked, somewhat simplified the proof given by AI.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1567",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Effective estimates for exponential sums with multiplicative coefficients's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Subsequently, ChatGPT Sol 5.6 was used for exposition and final revision. The author led the effort to make the implied constants effective, with its assistance. An adversarial audit of an earlier proof of the main theorem led to the effective form of the final estimates. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1568",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify On the II$_{1}$ Factors of Fuchsian Groups's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We show that von Neumann algebras of fundamental groups of closed orientable surfaces of genus g≥2g\\geq 2 are free group factors on 2​g−12g-1 generators. The key technical ingredient involves a proof that the element w=A​B​A−1​B−1w=ABA^{-1}B^{-1} of the free group 𝔽2=⟨A,B⟩\\mathbb{F}_{2}=\\langle A,B\\rangle is freely complemented in the group factor: L⁡(𝔽2)=W∗​(w)∗W∗​(v)L(\\mathbb{F}_{2})=W^{*}(w)*W^{*}(v) for some Haar unitary v∈L⁡(𝔽2)v\\in L(\\mathbb{F}_{2}) that is freely independent from ww. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1569",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A counterexample to the wrapping number conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The example KK was found autonomously by GPT-6 Astra, who essentially provided the proofs we present in Sections 2 and 3.1. AI was used to draft this manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1570",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Recursive-Line Zarankiewicz Numbers with Four Columns's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The recursive-line Zarankiewicz number maximizes the number of squares in a structured irreducible sum-of-squares representation encoded by an augmentation of an extremal C4C_{4}-free bipartite graph. We determine its four-column behavior under the strengthened recursive definition in the manuscript of Löfberg and Qi dated 9 September 2026. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1571",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The two-dimensional Matkowski--Sutô equation with holomorphic and strictly increasing generators's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Use of generative AI During the preparation of this work, the author used Claude and ChatGPT to assist with exploration, structuring, drafting, and refining the text. After using these tools, the author reviewed and edited the content as needed. The author takes full responsibility for the content and integrity of the publication.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1572",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Optimal T-Count for Block Encodings of Fermionic and Spin Hamiltonians's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT was used as an auxiliary tool in developing arguments related to the ancilla-compression theorem and the Ω⁡(n)\\Omega(n) complexity bound for the Kitaev Hamiltonian, as well as for assistance with writing and language editing.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1573",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Single-Exponential Algorithms and a Polynomial Kernel for Strong Connectivity Augmentation's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT 6 Astra proposed a proof of the unweighted kernel result (Theorem 1.4). The authors extracted from this proof the reduction to SCSS with two edge costs and used it to derive the single-exponential algorithms and the polynomial kernel for general link weights. ChatGPT 6 Astra was also used to draft the manuscript. The authors verified and revised the manuscript and take full responsibility for it.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1574",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Graded Betti numbers of general curves of large degree's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We are grateful to Gavril Farkas and Frank-Olaf Schreyer for insightful and inspiring discussions. We used ChatGPT (GPT-5.6 Sol Pro, OpenAI) to assist in managing the combinatorial computations arising after applying Hirzebruch–Riemann–Roch theorem in the proof of Theorem 1.1.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1575",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Spike Estimation from Heteroscedastic Noise via Random Splitting's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The project started in January 2026 and was largely completed in June 2026. All statistical methodology and mathematical derivations are the authors’ own. Nevertheless, since June 2026, we have used ChatGPT 5.6 to generate more simulation code, polish the writing, and check the proofs.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1576",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Hierarchical Clustering Can Jointly Satisfy Richness, Consistency, and Scale Invariance's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Whereas the conceptualization of the project underlying this paper was carried out entirely by the authors, we also used GPT-5.6 Sol to improve clarity, wording, presentation, and to assist in identifying and correcting minor errors and typos in earlier drafts. However, the vast majority of the mathematical content and proofs were generated by us. The only mathematical results for which LLMs were used to develop proof techniques are Proposition 13, Lemmas 16 and 55, and Proposition 40(iv). …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1577",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Computational Complexity of Holant Problems on 4-regular Graphs from the Stable Subgroup Sequence of $SL(2,\\mathbb{C})$'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT (OpenAI) was used to assist with language editing, LaTeX formatting, and checking and revising parts of the proofs. The authors take responsibility for the content of this manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1578",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Obstructions to Jacobi-Finiteness of Quivers with Potentials's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (For the infinite family considered in Proposition 5.6, the authors proposed studying the circulant quivers with arrows i⟶i+1i\\longrightarrow i+1 and i⟶i+2i\\longrightarrow i+2, while ChatGPT assisted with the parameter search that led to the choice ρ=2/3\\rho=2/3. The resulting arguments and calculations were subsequently checked in detail, revised, and integrated into the manuscript by the authors. ChatGPT was also used for language editing. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1579",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Polyhedral Geometry of Time-to-First-Spike Neural Networks's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used ChatGPT (OpenAI) to assist with language editing, exploration and refinement of some theoretical statements, and the development of computer code. All mathematical arguments, results, and conclusions were developed and independently verified by the authors, who take full responsibility for the content of the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1580",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Crystals and sign-reversing involutions for set-valued skew tableaux and decorated states of the five-vertex model's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (This work was supported by JSPS KAKENHI Grant Number JP26K24505. The author acknowledges the use of ChatGPT to assist with mathematical arguments.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1581",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify When is Test-Time Adaptation Identifiable From Unlabeled Evidence?'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Generative AI tools were used during the research workflow for code debugging, organization, mathematical checking, and language editing. The authors remain responsible for every theorem assumption, proof, experiment, numerical claim, citation, and manuscript statement.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1582",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The irrationality measure of π is at most 7.101862832357's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The paper says GPT-5.6 Sol and GPT-6 Astra assisted throughout parameter exploration, proof development and checking, computation, and manuscript drafting and revision.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1583",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Max Independent Set Remains NP-hard when Excluding a Planar Induced Minor's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The reduction of Theorem 5 was suggested by GPT-6 Pro after, embarrassingly, a mere 23-minute think. We simplified and improved the original complicated argument that the constructed instances exclude the 20×2020\\times 20 grid as an induced minor. The write-up is entirely due to the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1584",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Some remarks on Talagrand's convolution conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author acknowledges the use of ChatGPT-5.6 assistance to close the argument based on the supplied plan and preliminary gaussian case draft developed by the author. Furthermore, ChatGPT was used for proof-reading and numerical experiments.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1585",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify On AF- and type I-ideals in certain crossed product C$^\\ast$-algebras's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (I am grateful to my supervisor Mikael Rørdam for invaluable discussions and suggestions during the work presented here, as well as for reading early drafts of this paper. Some of this work was also done while I was visiting the Mathematical Institute at the University of Oxford during the spring of 2026. I am grateful to the institute for its hospitality and to Mehrdad Kalantar and Stuart White for hosting me. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1586",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Byzantine-tolerant distributed learning of finite mixture models under partial corruptions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI Disclosure: Illustrative icons in Figure 10 were generated using Google Gemini 3.5 Flash. The AI-generated icons were used solely for visualization purposes and do not affect the scientific content, experimental results, or conclusions of this work. OpenAI’s ChatGPT 5.6 was used to assist with editing and improving the clarity of the text and proofs.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1587",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Polynomial positivity cones for Coxeter roots and walks in trees's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used GPT-6 Astra in the preparation of this work, including the development of proof arguments, the checking of intermediate steps and external theorem applications, literature searches, and the drafting and revision of the manuscript and its LaTeX source. All mathematical results, arguments, and proofs were independently reviewed and verified by the authors, who take full responsibility for the accuracy and content of this work.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1588",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Cartesian PML truncation for the Helmholtz equation is exponentially accurate at high frequency's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT version 5.6 Sol was used in the writing of Lemma 10, and version 6 Astra was used to proofread the document and create Figure 2.1.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1589",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Tight Second-Order Converse Bound for Variable-Length Feedback Codes's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Generative-AI use disclosure: This work grew out of the author’s effort to close gaps left by his earlier research in finite-blocklength information theory. During the development and preparation of the manuscript, the author used OpenAI’s ChatGPT with GPT-5.6 Sol (Ultra mode) and Anthropic Claude Fable 5 (Max effort) to discuss and critically examine possible proof techniques. In these exchanges, ChatGPT suggested extending Burnashev’s one-step Shannon-entropy drift bound [2, Lem. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1590",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Average Chord Lengths in a Triangle's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author gratefully acknowledges the assistance of ChatGPT, developed by OpenAI, in exploring the problem, checking calculations, conducting numerical experiments, reviewing related literature, and improving the exposition. The author is responsible for the final mathematical statements and presentation.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1591",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Non-strict negativity of holomorphic bisectional curvature for compact relative Kähler fibrations's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Acknowledgments. Xueyuan Wan was supported by the National Key R&D Program of China (Grant No. 2024YFA1013200) and the National Natural Science Foundation of China (Grant No. 12671100). The author used ChatGPT 5.6 and 6 Pro as auxiliary tools in this work. The author completed and verified all mathematical arguments and takes full responsibility for the content of this paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1592",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Reversibility and its asymptotic counting in Picard group's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI declaration. The first drafts of this paper were prepared before large language model (LLM) tools became widely available. At a later stage, the authors used Claude (Anthropic) to assist in checking parts of the proofs, tightening some arguments, and correcting an error in a previous draft. All mathematical statements and proofs were independently reviewed and verified by the authors, who take full responsibility for the content of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1593",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Quantum Composition Paradox's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Acknowledgments. I thank Ian Durham, Dimitry Guskov, George Musser Jr., Cai Waegell, Guy-Philippe Nadon, and Michael McGuffin for helpful discussions, and all participants in the ÉTS-organized Des quanta aux qualia workshop, held in Montréal and Eastman, Québec, 11–15 August 2026, where this work was presented. Audio rendering uses Salamander Grand Piano recordings by Alexander Holm, licensed CC BY 3.0. The recordings render circuit-generated outcomes and do not determine the probability law. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1594",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Seifert Dichotomy for Z2-Harmonic One-Forms's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (First, the human author formulated the research questions and supplied the overall direction and main ideas. GPT-5.6 Sol was then tasked with developing the proofs, and the proposed proofs were reviewed using the Rethlas verifier. This stage consumed approximately 65% of the weekly usage allowance of a 5×5\\times Pro subscription. Rethlas reported a pass in its automated LLM review of the informal proofs. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1595",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Trace Coordinates and Local Fenchel--Nielsen Parameters in Real Hyperbolic 5-Space's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The SageMath code used for this verification was generated with the assistance of ChatGPT (OpenAI), and was subsequently checked and executed by the authors using exact arithmetic. AI declaration. The first draft of the paper was completed without AI assistance. Thereafter, the authors used ChatGPT (OpenAI) and Claude (Anthropic) in a limited capacity to verify proofs and clarify some of the mathematical arguments. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1596",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A sharp lower bound for the nodal volume of harmonic functions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used AI-assisted tools, principally ChatGPT. The author wrote and verified all theorem statements, proofs, and he takes full responsibility for the contents of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1597",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify On the bounded-conductor finiteness conjecture in equal characteristic's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Before seeking AI assistance, the authors had proved Theorem 1.5 and, while searching for representations that admit no characteristic-zero lift, had conjectured the conclusion of Theorem 1.7. They subsequently used ChatGPT (Sol 5.6) to explore this conjecture. Its initial contribution was limited to a weaker result in a special case with p=2p=2. The authors recognized that this construction could be generalized and developed the statement and proof of Theorem 1.7 in their present form. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1598",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Local decoders for fault-tolerant quantum computation and translation-invariant stabilizer codes's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We are grateful to Jeongwan Haah for suggestions on how to extend our constructions to general translation-invariant stabilizer codes using the polynomial formalism and for helping us locate a term order with the properties necessary for our proof. We thank Chris Pattison for conversations about his related, independent work [55]. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1599",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The classification of flows on $\\mathrm{II}_1$ factors and Connes' bicentralizer problem's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors report that GPT-5.6 helped them reach the relative fixed-point theorem, and that GPT-6 Astra worked out a decisive bicentralizer argument whose singular-state technical ingredient the authors attribute to the model before checking and rewriting it.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1600",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Parabolic-hyperbolic splitting in support propagation for stochastic porous media equations's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure statement. The large language model Gemini 3.1 Pro by Google was used to check the explicit integral calculation in the proof of Corollary 2.8. The authors take full responsibility for the contents of the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1601",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Global Linear Convergence of the Proximal Bundle Method under Unknown Piecewise Smoothness and Quadratic Growth's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (GPT-5.6 Pro provided substantial assistance in deriving the proximal bridge construction used in the proof. The authors verified the mathematical arguments and revised the exposition for clarity and readability. The authors take full responsibility for the final manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1602",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Stability and Area-Minimizing Property of Higher-Dimensional Helicoids's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Disclosure of AI use: The authors used AI tools, including ChatGPT 5.6 Sol and Claude Fable 5, to assist with literature searches, explore ideas, and perform symbolic calculations in the preparation of this work. All proofs and calculations, however, were independently verified by the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1603",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A positively curved metric on the Gromoll-Meyer sphere's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI usage. The main result was proved using the Rethlas agent with the GPT-5.6 and GPT-6 models. The author subsequently simplified the proof and improved the presentation, and is fully responsible for all assertions in this paper. The author also thanks Professors Hanlong Fang and Xin Fu for their help in checking the proof.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1604",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Counterexample to an Eternal Domination Conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The counterexample graph was found by GPT-6 Astra in an experiment run by the first author, Tom Adamczewski, whose contribution to this paper was limited to setting up and conducting this experiment.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1605",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Extended One-Liners for the Gamma, Poisson, and Binomial Distributions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The results in this paper stemmed from significant interaction with ChatGPT 5.5, 5.6 Sol, and Codex, which found the constructions and proofs. Codex was additionally used to verify the results in Lean and for help with typesetting; Astra was used for review. The author independently verified the results and takes full responsibility for the paper and any errors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1606",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Fourth-Order Fusion Asymptotics for $\\mathrm{Sine}_β$ Correlation Functions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (OpenAI ChatGPT assisted with exploratory calculations, symbolic checks, proof development, and drafting. This version is prepared for the author’s review.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1607",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Singular Set of Minima of Multiple Integrals's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure. In the writing of the paper the authors benefited from the use of GPT 5.6 Astra to review, improve and edit the proofs, and in the Lean formalization.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1608",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The radial part of $p$-Brownian motion's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Following the recommendations of the Leiden Declaration on Artificial Intelligence and Mathematics (https://leidendeclaration.ai), the author discloses that large language models (OpenAI’s ChatGPT in the initial stage, Anthropic’s Claude afterwards) were used in the preparation of this article. The conceptual framework, the main ideas, and the form of the central results are due to the author and were provided to the models as input. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1609",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Medvedev Logic is Not Decidable. It is π01 -complete. Who Would Have Guessed?'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (This work began as an attempt to establish the decidability of Medvedev logic. The initial investigation relied heavily on generative AI systems for proof search. During the dialogue and prompting I obtained numerous partial results and simplifications, but these eventually suggested that the project should proceed in the opposite direction, namely to prove undecidability. The initial construction, the proof sketches, and the idea of using tilings were obtained from generative AI systems. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1610",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Negative correlation for the random-cluster model below one on high-degree regular graphs's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used ChatGPT to assist with drafting and revising the manuscript, searching the literature, and exploring and checking mathematical arguments. The author reviewed the material retained in the manuscript and takes full responsibility for its contents, including the proofs and references.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1611",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Quasilinear multiplication in the real Cayley--Dickson tower's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Generative AI is a substantial part of the author’s research process. The author made use of OpenAI’s GPT-5.6 Sol and GPT-6 Astra, and Anthropic’s Claude Fable 5 and 5.1 in the development of this paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1612",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Liouville regular Jordan curves's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The starting point of this paper was a question we asked ChatGPT and Claude: can the Liouville form be integrated along a fractal curve such as the Koch curve? In reply they pointed us to Young integration, a theory of which the authors then knew very little. This paper would not exist without these AI systems. More specifically, in writing this paper, we used AI in the following ways. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1613",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Some results on Archdeacon's conjecture for rotation systems's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Acknowledgements. The mathematical content of this paper was initially produced by its human authors; we used generative AI tools to implement the algorithms and to prepare the manuscript. During manuscript preparation, ChatGPT-5.6 found a gap in the part of our proof of Theorem 1.5 that follows Lemma 4.1 and proposed a correct fix, which is its only contribution to the mathematical argument. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1614",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Multi-Threshold Sampling: Signal Space, Sampling Operators, and Crossing-Time Distributions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors thank Junhao Yu for fruitful discussions. This work was developed in collaboration with GPT.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1615",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Sharp unconditional moment bounds for products of L-functions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author also acknowledges the use of OpenAI’s ChatGPT during the development of portions of the combinatorial parts, and for assisting in writing up technical details of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1616",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Gaussians Do Not Always Maximize Mixed-Norm Strichartz Inequalities for the Schrödinger Equation's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors acknowledge the use of AI tools for computational assistance and proofreading. All mathematical ideas, arguments, and proofs in this work were developed, checked, and written by the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1617",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Stable solutions in the abelian Higgs model's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The validity of the Cauchy–Schwarz inequality for stable operators (2.2), as well as its use in the proof of Theorem 1, was suggested to the author by ChatGPT 5.6 Sol. Apart from this, ChatGPT was used solely as an auxiliary tool for language editing, improving the presentation of the manuscript, and performing basic checks. This paper does not contain AI generated text.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1618",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Elementwise Positivity of the Solution to Lyapunov Equation for Hurwitz Companion Matrices's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The proof is partly due to CODEX-5.6 Sol Ultra, and partly due to extensive, informed trainings provided by the authors. To the best of our knowledge, this appears to be the first AI-assisted theoretical result published in the open controls literature, thus witnessing potentially the birth of AI in control systems theory.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1619",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Thorpe Trick for the Bochner Technique's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure. The author used OpenAI’s ChatGPT as an assistive tool in the development of the paper. The author takes full responsibility for all mathematical arguments and the manuscript was entirely written by the author.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1620",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Near-Quartic Separation Between Certificate Complexity and Quantum Query Complexity's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We used large language model (LLM) tools at various stages of the project to assist with literature searches, code development for early computational experiments, detecting potential logical flaws in the mathematical content, and drafting and revising the manuscript. We reviewed, corrected, and independently verified all LLM-generated output and take full responsibility for the final manuscript and all its content, including its accuracy, originality and integrity.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1621",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A vanishing result for harmonic $(n-1,1)$-forms's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure. The author used OpenAI’s ChatGPT as an assistive tool in the development of the paper. The author takes full responsibility for all mathematical arguments and the manuscript was entirely written by the author.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1622",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Rigidity of the closed three dimensional regular Landsberg metrics's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI usage. This work grew out of the authors’ study of earlier approaches to the Landsberg–Berwald problem, notably Crampin’s RR-quadratic method and the rigidity theory of Minkowski indicatrices. During the preparation of this work, the authors made substantial use of ChatGPT 6 (OpenAI) as a research assistant. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1623",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Spectral bipartiteness in generalized odd graphs of diameter three's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author acknowledges the use of ChatGPT (GPT-5.6, OpenAI) as an auxiliary tool for literature retrieval, language refinement, and programming. AI tools were not used to draft the manuscript. The author retains full responsibility for the content, proofs, and conclusions of the final manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1624",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Classification of Choquet-Deny Lie groups's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure. The main ideas and constructions of this paper, including the treatment of nonsymmetric measures, were developed without the use of any AI tool, in work begun in early 2025. At a later stage, while adapting the construction to produce symmetric non-Liouville measures, we used ChatGPT as a discussion tool. All mathematical arguments and the final text were checked and written by the authors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1625",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A Proof of Füredi's Conjecture's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors proposed the exterior-algebra approach. OpenAI Codex generated draft arguments and proof details for Sections 2–4 and assisted with organization and English editing. The authors revised and independently verified the arguments and take responsibility for the final manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1626",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Fort Abundance in Zero Forcing's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the preparation of this manuscript, the authors used Anthropic’s Claude Fable 5 model to verify the results and to improve the clarity and quality of the writing.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1627",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify A model structure for cartesian 2-fibrations's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (A final draft was reviewed by Claude Opus 5, and it suggested Corollary 5.27 together with a partially incorrect proof. We include in this work this result and a modified version of the proof. This is the only result where AI was used.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1628",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Local classification of chsc Kähler metrics with cone singularities's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The main result of this paper, Theorem 1.2, was announced in [dB25]. The strategy of proof is due to the author and goes back to that paper, written at a time when the author was not using AI tools in his research. ChatGPT was used to produce the present article from an earlier draft. That draft carried polyhomogeneity as a hypothesis. The argument of Appendix A, which shows that this hypothesis is automatic, was largely developed through conversations with ChatGPT.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1629",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Strong Converse for Quantum Capacity via a Fully Quantum Blowing-Up Lemma's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (OpenAI Codex with ChatGPT 6 Astra assisted with exploring and checking of proof strategies, and with preparing the manuscript. The current organisation and exposition of the proofs is due to the authors. The authors are responsible for the mathematical claims, the final presentation, and any remaining errors.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1630",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Constant Steps Are s-Composable: An Exact Interpolation Certificate for Gradient Descent's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The proof strategy is produced by OpenAI’s GPT-5.6 Sol Ultra through Codex in response to prompts from the author. Codex was also used to revise the exposition and prepare the LaTeX manuscript. The author selected the problem, directed the interactions and revisions, and is the sole named author. The AI system is acknowledged as a reasoning and writing tool, not as an author. This disclosure is not a substitute for independent expert mathematical review.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1631",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Optimal Recursive Composition and Dyadic Phase Laws for Gradient Descent with Predetermined Stepsizes's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors acknowledge the use of AI tools throughout the research process, including manuscript preparation and proof development. The accompanying Lean 4 proof scripts were also developed with AI assistance and checked by Lean’s kernel. The AI system employed is ChatGPT, supported by harness platforms Codex and Cursor.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1632",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Small-Ball Marginals Do Not Control Restricted Eigenvalues by Euclidean Gaussian Width's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The proof strategy and counterexample were produced by OpenAI’s GPT-5.6 Sol Ultra through Codex in response to prompts from the author. Codex was also used to revise the exposition and prepare the LaTeX manuscript. The author selected the problem, directed the interactions and revisions, and is the sole named author. The AI system is acknowledged as a reasoning and writing tool, not as an author. This disclosure is not a substitute for independent expert mathematical review.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1633",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Isolation of scalar Allen-Cahn local minimizers's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The main results of this paper were achieved through a series of inquiries with OpenAI’s GPT-6 Astra. The key strategies using the analytic Lyapunov–Schmidt reduction inspired by the works of Jiang–Yu and Hirsch–Smith were obtained by ChatGPT. The author checked, reworked, and simplified all arguments and rewrote the proofs of the main results. The author takes full responsibility for the correctness and content of the paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1634",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The uniform Turán density of the tetrahedron's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Declaration of use of AI. The identity (6) was found by ChatGPT 6 Pro, following an upload of an early draft containing various ideas the author had for attacking the problem, and following a prolonged discussion in which the author guided its progress. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1635",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Generalized Frobenius Partitions Modulo Powers of $2$'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used OpenAI’s ChatGPT 5.6 Sol for the preparation of the initial version of this manuscript, and then used Anthropic’s Claude Fable 5.1 for reviewing, which then suggested Corollary 1.5. The author had a weaker version of Theorem 1.1 in that version, when we asked Fable 5.1 to search for a more general version of the result, based on computations, it gave the generalization in Theorem 1.1. Language changes and some references were also suggested by Fable 5.1. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1636",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Topology inside NC$^1$'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (A preliminary version of this work appeared as [3, 2]. However, the proof of the main theorem presented in the preliminary version is incorrect, as discussed in [4], where the task of finding a correct proof was listed as an open question. The third and fifth authors of the current article found a quite simple proof, with some assistance from ChatGPT. That is the proof that is presented in Section 3.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1637",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Oracle Separations in the Fourier Hierarchy's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We thank Uma Girish and Makrand Sinha for helpful discussion regarding [26] (personal communication, August 2026). We also thank the anonymous reviewers of FOCS 2026 for constructive feedback on an earlier version of this work, which claimed only a partial resolution of Shi’s conjecture and whose contents now form Appendix A. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1638",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Graded classification of Leavitt path algebras in terms of strong shift equivalence's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (AI disclosure statement. GPT-6 was used to explore proof strategies for this paper. More precisely, it was used to upgrade a solution of [4, Question 1] obtained by the authors to a strategy for constructing a strong shift equivalence from a graded isomorphism of Leavitt path algebras. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1639",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Free-Probabilistic State Evolution and Random Matrix Discrepancy's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors interacted extensively with AI to experiment with different proof strategies and adapt classical arguments to our setting, particularly in extending the Gaussian conditioning technique and the induction argument of [BMN20]. The stability Lemma 7.2 was suggested to us by GPT 5.6 Sol Pro. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1640",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The Chen-Yang volume conjecture for long integral fillings of fundamental shadow links's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author thanks Shuang Ming, Tian Yang, and Yilong Wang for helpful discussions. The results were obtained with assistance from GPT-6 Astra. The author has checked the results and takes full responsibility for the content of this paper.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1641",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify $β$-Skewed Maximal Spanning Forests's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (During the preparation of this work, we used generative-AI systems (OpenAI GPT 5.6 Sol and 6 Astra) to assist with presentation and polishing of the proofs. All AI-generated suggestions were carefully fleshed out and checked by the authors, who take full responsibility for the results and the correctness of the proofs.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1642",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify PPT states of almost maximal Schmidt number's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors used ChatGPT-6 Astra to obtain a first version of this proof, as well as to write an initial draft of this manuscript. The authors then verified and simplified the proof, and heavily revised the initial draft. The authors take full responsibility for the correctness, exposition, and attribution in the final manuscript. N.J. acknowledges support from NSERC Discovery Grant number RGPIN-2022-04098. B.L. acknowledges support from NSERC Discovery Grant number RGPIN-2026-05413.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1643",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify PureSuperQMA(exp) = BellPureSymQMA(poly) = QMA via Dimension-Free Bosonic Argmax's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The initial high-level question and framing was human. The technical development and execution of this idea, including substantial parts of the proof development, were carried out with assistance from ChatGPT 5.6 Pro. We also used ChatGPT 5.6 Pro for editorial assistance in preparing the manuscript. The authors take full responsibility for the results and have independently verified all claims, proofs, and references. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1644",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Chowla's non-vanishing conjecture over $\\mathbb{F}_q(T)$'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The authors report that GPT-5.5 and GPT-5.6 Sol executed parts of the proofs of Theorem 7.3 and Lemma 9.10, and attribute the interpolating-polynomial trick in Theorem 9.7 to GPT-5.6 Sol, before human rewriting and checking.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1645",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Chiral Spin(7) Sigma Models and Topological Modular Forms's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author thanks Yuji Tachikawa for valuable discussions, careful reading of the manuscript, and helpful comments. The author also thanks Arun Debray, Ying-Hsuan Lin, Brandon Rayhaun, Matthew Yu, and Hao Y. Zhang for fruitful discussions, from which the author learned some background on topological modular forms. The author also thanks Sebastian Franco, Alessandro Mininno, Alonso Perez-Lona, Eric Sharpe, and Angel Uranga for collaborations on related Spin(7) projects. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1646",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Regular hyperbolic tilings have no $\\ell^2$ eigenfunctions's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used ChatGPT 5.6 Sol in several important parts of the proof. Most significantly, the model designed the “sewing” procedure presented in Section 3, including the local modifications of the defining permutations and cocycle and the strategy of combining them so that the proof reduces to finitely many seeds. In addition, the certificates for the 1616 exceptional pairs (p,q)(p,q) listed in Section 5 were found by computational searches designed and carried out with the model. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1647",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The asymptotic in Waring's problem over function fields beyond twice the degree's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (ChatGPT 5.6 Sol and 6 Astra were used to proofread this article. They also suggested and worked out the computations in Section 5 and the proof of Proposition 2. The aggregate minor arc approach was developed by the author before this AI-assisted revision. All AI-assisted suggestions were independently checked by the author.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1648",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify EFI Pairs Without One-Way Puzzles: Oracle Separations from Communication Complexity's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We thank Keshav Bhateja and Ezekiel Cochran for useful discussions on one-way puzzles and EFI pairs. Large language models were used in preparing this paper: Claude Opus 4.8 and ChatGPT 5 throughout, and Claude Opus 5 in the later stages of writing and to check proofs and computations. Their role was most substantial in the proofs of Section 6 and Appendix B, in particular in adapting the concentration inequality of Huang and Tropp to our ensemble and in the harmonic analysis on the sphere. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1649",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify The generalised semi-Clifford conjecture is false's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (Our research process is detailed in the Section on Use of large language models. Commercially available large language models were used during the development of this research. This work builds on our prior research, which was further developed through LLM-assisted mathematical discussion over an extended period using our notes, ideas, and directions. In one such interaction, prompted using our prior notes and mathematical guidance, an LLM proposed an initial counterexample. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1650",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Global $W^{2,p}$ and $C^{2,α}$ regularity for the sigma-$2$ equation's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author is deeply grateful to Professors Dongsheng Li and Yu Yuan for their guidance and support. AI tools were used as an aid in preliminary mathematical exploration and in refining the exposition. All mathematical arguments were independently verified by the author, who takes full responsibility for the manuscript.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1651",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Existence of the Core in Approval-Based Committee Elections's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We thank Fabian Frank for insightful discussions on adaptive payment schemes. The voting rule we present and the proof that it satisfies core+ were found by GPT-6 Astra in a lengthy interactive session. We initially aimed to find an approximate core outcome. Starting from a Lindahl-equilibrium rounding approach, GPT-6 Astra quickly achieved an approximation factor around 2.0652.065. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1652",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Unfriendly partitions of locally finite Borel graphs's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The author used AI tools from Anthropic (Claude) and OpenAI (Codex) to check computations, locate and verify references, conduct exploratory finite experiments, and write the final version of this text. The proofs do not rely on these exploratory computations. The author independently verified all AI-generated output and all references, made the final mathematical and editorial decisions, and takes full responsibility for the accuracy, integrity, and originality of this article.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "1653",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Cusp restrictions and Bunke--Naumann invariants with level structure's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (We thank Yuji Tachikawa for helpful correspondence on the surrounding TMF\\mathrm{TMF} program and generously providing his lecture notes. The initial exploration, source synthesis, and drafting of this project were substantially assisted by OpenAI’s GPT-5.6 Sol and GPT-6 Astra under the authors’ direction.11 1 The authors initially used Anthropic’s Claude Fable 5 to generate an 88-page set of notes for this multi-paper project; these notes were later corrected and revised by ChatGPT. …). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+      ]
+    },
+    {
+      "id": "1654",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify Optimal Fully Dynamic Matching on the Line: Lean Upper Bound's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The manuscript and repository state that OpenAI ChatGPT and Codex helped develop the matching policy and proof, check algebra, draft and revise the manuscript, and help with the Lean development; no independent human peer review of the Lean code is claimed.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. Registry kernel closure is not treated as complete novelty review or full statement correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "1655",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: independently verify rk-lean: the directed construction for k-th-power-difference-free sets at every k, with the exponents 0.912145 (k = 4) and 0.950826 (k = 6)'s bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (The source disclosure says Claude Fable 5.1 planned and assembled the general-k formalization; parallel Claude Opus agents wrote and audited the Lean modules; and Claude agents found the retained blocks using CP-SAT, tabu search, and exact search under human direction.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. Registry kernel closure is not treated as complete novelty review or full statement correspondence. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+        "AI contribution not established"
       ]
     },
     {
