@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-09-20",
+  "assessedAt": "2026-09-21",
   "samplingWeek": 2959,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -887,6 +887,16 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "451",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Independently compare the revised AI-use wording with the affected theorem and retained earlier version, verify the bounded result and novelty, and reconstruct the exact claim-level human/model allocation. Narrow the role from 'used to search for the configuration' to the current source's more precise statement that Codex wrote scripts that searched for the configuration in Theorem 4.17; no mathematical-claim change located. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
       ]
     },
     {
@@ -8262,7 +8272,8 @@
       "placement": "tentative",
       "priority": 1,
       "reasons": [
-        "Further checking: Independently verify the stated theorem, counterexample, construction, classification, or bound and its novelty/priority; confirm source-statement-to-proof, computation, or certificate correspondence and the retained claim-level AI contribution. Missing at the cutoff are independent specialist review, an independent end-to-end replay, and a complete human/model allocation. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed."
+        "Further checking: Independently compare the revised AI-use wording with the affected theorem and retained earlier version, verify the bounded result and novelty, and reconstruct the exact claim-level human/model allocation. Replace v1's stronger wording that the counterexample and proof strategy were 'developed by ChatGPT GPT-6 Pro' with v2's narrower 'developed with assistance of ChatGPT'; retain provisional status. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
       ]
     },
     {
@@ -11929,7 +11940,7 @@
       "placement": "tentative",
       "priority": 1,
       "reasons": [
-        "Further checking: Obtain the underlying dated working note, establish first-public priority for the mathematical theorem, compare the sharp constants and equality family with the cited algebraic-curve literature, independently review statement fidelity, and replay the Lean project. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+        "Further checking: Obtain the underlying dated working note, establish first-public priority for the mathematical theorem, compare the sharp constants and equality family with the cited algebraic-curve literature, independently review statement fidelity, and independently replay the pinned Lean 4.34.0 project and axiom audit. The successful workflow is source-hosted CI, not this automation's independent replay. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
       ]
     },
     {
@@ -12047,6 +12058,1181 @@
         "Possible breakthrough / disputed difficulty",
         "Further checking: Obtain an author-level disclosure naming the systems and their mathematical contribution; have experts in sheaf cohomology/topological dimension review the quotient construction, cup-product model and Wiegand optimality step; replay the 65-module Lean development; and verify novelty relative to Aoki and Stone-space literature. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2239",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source does not delimit the exact Agent TARS research contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2240",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2241",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2242",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2243",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source characterizes AI use as auxiliary gap checking and denies AI-originated mathematical ideas; determine whether this verification role is materially corpus-qualifying. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2244",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2245",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2246",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2247",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source says only that Maple and ChatGPT were used and does not delimit ChatGPT's mathematical role. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2248",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2249",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "2250",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source does not identify which results or arguments arose from exploratory AI use. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2251",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2252",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2253",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2254",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The materiality of the exploratory mathematical-discussion role is unresolved. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2255",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2256",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2257",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The role is algebraic-consistency checking rather than disclosed proof invention; determine whether it materially qualifies. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2258",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2259",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2260",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2261",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2262",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2263",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2264",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2265",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2266",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source acknowledges discussions with Gemini but does not say which result or proof was affected. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2267",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2268",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2269",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2270",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The disclosure says the paper is based on numerous communications with ChatGPT but does not delimit the resulting contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2271",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2272",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2273",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The exact mathematical arguments affected and materiality are not delimited. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2274",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Confirm mathematical-corpus scope as well as correctness, novelty, and materiality. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2275",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2276",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2277",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2278",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The acknowledgement does not delimit a mathematical role. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2279",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2280",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: AI located errata but the author made corrections manually; determine whether this correctness contribution is materially corpus-qualifying. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2281",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2282",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Independently check the soundness theorems, their Lean-artifact parity, and the division between LLM formalization and human proof. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2283",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2284",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2285",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2286",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The paper depends in part on enumeration programs written or cross-checked with LLMs; independently reproduce the computational results and delimit AI authorship. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2287",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The disclosure says AI helped obtain results but does not delimit which steps. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2288",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2289",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2290",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2291",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The disclosure leaves the tool, role, and affected theorem completely unspecified. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2292",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2293",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2294",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The broad disclosure does not localize the mathematical proofs affected by AI writing or revision. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2295",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2296",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2297",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2298",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2299",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2300",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Only high-level brainstorming is disclosed and authors claim final proof strategies are their own; determine materiality. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2301",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Confirm mathematical-corpus scope and the exact contribution to the stochastic-bound proof. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2302",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2303",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: AI checked calculations and found mistakes, but authors independently verified the final version; determine materiality. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2304",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2305",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2306",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2307",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2308",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2309",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2310",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2311",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2312",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2313",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Confirm mathematical-corpus scope and the materiality of proof-strategy exploration. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2314",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2315",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2316",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: AI checked calculations while authors claim all underlying ideas; determine whether this verification role materially qualifies. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2317",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source discloses proof scrutiny but does not identify any affected theorem or correction. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2318",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2319",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2320",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2321",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2322",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The authors say all mathematical content is solely theirs and disclose only later proof checking; determine whether verification-only use materially qualifies. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2323",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source combines language editing with undelimited 'general consultation'; no mathematical task is identified. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2324",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2325",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2326",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: The source says only that ChatGPT was used and does not delimit a mathematical role. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2327",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Bound any inclusion to the new Observation 7.2 and independently verify its novelty and materiality. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2328",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2329",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located; independently check the bounded claim and delimit the material AI contribution. No independent correctness or novelty verification was located in this run. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2330",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2331",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2332",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2333",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2334",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2335",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "2336",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2337",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2338",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2339",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Also reconcile the official source's unusual 2608 identifier with its July 2026 v1 submission/publication history, and compare the v1 autonomous-agent claims with the materially rewritten v2 human/AI allocation. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2340",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2341",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2342",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2343",
+      "category": "Expected",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2344",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: No independent correctness or novelty verification was located. Verify the source-reported result against prior literature, independently check the affected proof or computation, and determine the exact material AI contribution described in the quoted disclosure. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "2345",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Obtain independent algebraic-geometry review of the invariant weighted-blowup construction, discrepancy and terminality calculations, uniqueness of the crepant model, and the claimed complete classification; audit novelty and priority against Yasuda and recent p-cyclic McKay literature; and reconstruct the exact claim-level split between GPT-5.5 exploration/draft proofs and the authors' corrections. Keep provisional=1, taxonomy reviewStatus unreviewed, conservative confidence, and do not assign the Superhuman override. No artifact was executed or independently replayed by this automation. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation."
+      ]
+    },
+    {
+      "id": "2346",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Further checking: Confirm accountable real-world authorship and source ownership for the authorless paper; reconstruct the exact human/model contribution beyond the pseudonymous publisher's Astra attribution; obtain independent number-theory review and adjudicate novelty and priority against Mangerel and Shusterman; preserve the independent Lean replay but distinguish technical compilation and axiom checking from mathematical peer review and AI-provenance verification. Keep provisional=1, taxonomy reviewStatus unreviewed, conservative confidence, and do not assign the Superhuman override. No artifact was executed or independently replayed by this automation. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "Rotating ordinary-result sample"
       ]
     },
     {
