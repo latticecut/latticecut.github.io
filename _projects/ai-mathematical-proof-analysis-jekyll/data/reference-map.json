@@ -13876,6 +13876,24 @@
       "title": "Palomar Stafford v2 verification workflow run",
       "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/34281676524",
       "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20261004_1225_update_0",
+      "title": "Stafford 3.8 — updated primary evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-05-000007-v3.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_1225_update_1",
+      "title": "Stafford 3.8 — updated primary evidence",
+      "url": "https://github.com/itpplasma/stafford38-formal/tree/0bb3aa929b931bf5d82d90f62d7508d3ae1dccc1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_1225_update_2",
+      "title": "Stafford 3.8 — updated primary evidence",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37154552023",
+      "accessed": "2026-10-04"
     }
   ],
   "1226": [
@@ -42350,6 +42368,18 @@
       "title": "Finite-valued invariant metrics and a classification of natural groups — versioned full text",
       "url": "https://arxiv.org/html/2609.33938v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3075_update_0",
+      "title": "Finite-valued invariant metrics and a classification of natural groups — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.33938v2",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3075_update_1",
+      "title": "Finite-valued invariant metrics and a classification of natural groups — official v2 full text",
+      "url": "https://arxiv.org/html/2609.33938v2",
+      "accessed": "2026-10-04"
     }
   ],
   "3076": [
@@ -43294,6 +43324,18 @@
       "title": "Complete classification of $7$-adic Galois images for non-CM elliptic curves over $\\Q$ — versioned full text",
       "url": "https://arxiv.org/html/2609.35460v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3133_update_0",
+      "title": "Complete classification of 7-adic Galois images for non-CM elliptic curves over Q — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.35460v2",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3133_update_1",
+      "title": "Complete classification of 7-adic Galois images for non-CM elliptic curves over Q — official v2 full text",
+      "url": "https://arxiv.org/html/2609.35460v2",
+      "accessed": "2026-10-04"
     }
   ],
   "3134": [
@@ -44556,6 +44598,18 @@
       "title": "Selfless nonnuclear crossed products — versioned full text",
       "url": "https://arxiv.org/html/2609.34011v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3212_update_0",
+      "title": "Selfless nonnuclear crossed products — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.34011v2",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3212_update_1",
+      "title": "Selfless nonnuclear crossed products — official v2 full text",
+      "url": "https://arxiv.org/html/2609.34011v2",
+      "accessed": "2026-10-04"
     }
   ],
   "3213": [
@@ -44858,6 +44912,24 @@
       "title": "Uniqueness of four-body convex central configurations for all masses — versioned full text",
       "url": "https://arxiv.org/html/2609.35632v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3231_update_0",
+      "title": "Uniqueness of four-body convex central configurations for all masses — updated primary evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-02-000011-v2.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3231_update_1",
+      "title": "Uniqueness of four-body convex central configurations for all masses — updated primary evidence",
+      "url": "https://github.com/tejasvi/lean4body-uniqueness/tree/353653eceec402c993183f240beacaa20e6f39ad",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3231_update_2",
+      "title": "Uniqueness of four-body convex central configurations for all masses — updated primary evidence",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37187361609",
+      "accessed": "2026-10-04"
     }
   ],
   "3232": [
@@ -45682,6 +45754,24 @@
       "title": "FKS Problem 1 on at most twice the dimension vertices",
       "url": "https://arxiv.org/abs/1802.03092",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3280_update_0",
+      "title": "FKS Problem 1 on at most twice the dimension vertices — updated primary evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-30-000028-v2.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3280_update_1",
+      "title": "FKS Problem 1 on at most twice the dimension vertices — updated primary evidence",
+      "url": "https://github.com/Dishah3241/FKSProblem1/tree/b0d32cb58e8f1d6e4b6e5993d6243fc46a88dd6e",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3280_update_2",
+      "title": "FKS Problem 1 on at most twice the dimension vertices — updated primary evidence",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37175314245",
+      "accessed": "2026-10-04"
     }
   ],
   "3281": [
@@ -48332,6 +48422,18 @@
       "title": "The Margolis-Rhodes Monoid of a Graph — versioned full text",
       "url": "https://arxiv.org/html/2609.39370v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3441_update_0",
+      "title": "The Margolis-Rhodes Monoid of Continuous Functions on a Graph — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.39370v2",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3441_update_1",
+      "title": "The Margolis-Rhodes Monoid of Continuous Functions on a Graph — official v2 full text",
+      "url": "https://arxiv.org/html/2609.39370v2",
+      "accessed": "2026-10-04"
     }
   ],
   "3442": [
@@ -49836,6 +49938,24 @@
       "title": "Optimality (Baek 2024) and uniqueness of Gerver's sofa, formalized in Lean 4 — primary evidence 2",
       "url": "https://github.com/vltanh/lean4-moving-sofa/commit/eb93296cd2d72d4f942e95d493784580d7365645",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261004_3539_update_0",
+      "title": "Optimality (Baek 2024) and uniqueness of Gerver's sofa, formalized in Lean 4 — updated primary evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-02-000008-v4.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3539_update_1",
+      "title": "Optimality (Baek 2024) and uniqueness of Gerver's sofa, formalized in Lean 4 — updated primary evidence",
+      "url": "https://github.com/vltanh/lean4-moving-sofa/tree/16653ae81e0e4f52a362bafae2ad3440100ad065",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3539_update_2",
+      "title": "Optimality (Baek 2024) and uniqueness of Gerver's sofa, formalized in Lean 4 — updated primary evidence",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37174738940",
+      "accessed": "2026-10-04"
     }
   ],
   "3540": [
@@ -50112,6 +50232,252 @@
       "title": "Continuous binary implementation congruence and sharp finite welfare frontier",
       "url": "https://doi.org/10.1111/1468-0262.00240",
       "accessed": "2026-10-03"
+    }
+  ],
+  "3552": [
+    {
+      "key": "Daily20261004_3552",
+      "title": "Dynamic MCS Ordering Maintenance — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-04-000009-v1.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3552_support_0",
+      "title": "Dynamic MCS Ordering Maintenance — pinned owned source tree",
+      "url": "https://github.com/thonmay/thesis-lean/tree/a872fddca7025ae0ecedd654238fa0c06729dc2e",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3552_support_1",
+      "title": "Dynamic MCS Ordering Maintenance — first-public basis",
+      "url": "https://github.com/thonmay/thesis-lean/commit/aa148b30fd8d9e4ea68eb4e94a292626a1da76c2",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3552_support_2",
+      "title": "Dynamic MCS Ordering Maintenance — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37219414317",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3552_support_3",
+      "title": "Dynamic MCS Ordering Maintenance — primary evidence 5",
+      "url": "https://github.com/thonmay/thesis-lean/commit/a872fddca7025ae0ecedd654238fa0c06729dc2e",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3553": [
+    {
+      "key": "Daily20261004_3553",
+      "title": "Long-time Korteweg-de Vries approximation for the Fermi-Pasta-Ulam-Tsingou system — versioned abstract",
+      "url": "https://arxiv.org/abs/2609.30668v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3553_support_0",
+      "title": "Long-time Korteweg-de Vries approximation for the Fermi-Pasta-Ulam-Tsingou system — versioned full text",
+      "url": "https://arxiv.org/html/2609.30668v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3553_support_1",
+      "title": "Long-time Korteweg-de Vries approximation for the Fermi-Pasta-Ulam-Tsingou system — current versioned abstract",
+      "url": "https://arxiv.org/abs/2609.30668v2",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3554": [
+    {
+      "key": "Daily20261004_3554",
+      "title": "Quadratic bounds for uncompletable words and matrix mortality — versioned abstract",
+      "url": "https://arxiv.org/abs/2609.30817v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3554_support_0",
+      "title": "Quadratic bounds for uncompletable words and matrix mortality — versioned full text",
+      "url": "https://arxiv.org/html/2609.30817v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3554_support_1",
+      "title": "Quadratic bounds for uncompletable words and matrix mortality — current versioned abstract",
+      "url": "https://arxiv.org/abs/2609.30817v2",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3555": [
+    {
+      "key": "Daily20261004_3555",
+      "title": "Riesz kernels of hyperbolic polynomials: positivity, admissible exponents and Jordan rigidity — versioned abstract",
+      "url": "https://arxiv.org/abs/2609.31592v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3555_support_0",
+      "title": "Riesz kernels of hyperbolic polynomials: positivity, admissible exponents and Jordan rigidity — versioned full text",
+      "url": "https://arxiv.org/html/2609.31592v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3555_support_1",
+      "title": "Riesz kernels of hyperbolic polynomials: positivity, admissible exponents and Jordan rigidity — current retitled versioned abstract",
+      "url": "https://arxiv.org/abs/2609.31592v2",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3556": [
+    {
+      "key": "Daily20261004_3556",
+      "title": "Semi-stable models, local heights and quadratic Chabauty for $X_0(N)^*$ — versioned abstract",
+      "url": "https://arxiv.org/abs/2609.40207v1",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3556_support_0",
+      "title": "Semi-stable models, local heights and quadratic Chabauty for $X_0(N)^*$ — versioned full text",
+      "url": "https://arxiv.org/html/2609.40207v1",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3557": [
+    {
+      "key": "Daily20261004_3557",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-04-000001-v1.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3557_support_0",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — pinned owned source tree",
+      "url": "https://github.com/lennrt/palomar-formalizations/tree/636768718796b33b36d344d04b8e5f2f840633dd/zenodo-23125523/palomar",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3557_support_1",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — first-public basis",
+      "url": "https://github.com/lennrt/palomar-formalizations/commit/f6970f2a683eee47dfbdd78b8214614d220c41eb",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3557_support_2",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37163936284",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3557_support_3",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — owned DOI record",
+      "url": "https://doi.org/10.5281/zenodo.23125523",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3557_support_4",
+      "title": "Distance-Shell Tomography: Geometric Certificates for Fault-Tolerant Sensing, Moment Compression, and Hypercube Equalization — primary evidence 6",
+      "url": "https://github.com/lennrt/palomar-formalizations/commit/636768718796b33b36d344d04b8e5f2f840633dd",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3558": [
+    {
+      "key": "Daily20261004_3558",
+      "title": "Gallai's conjecture with two exceptional even vertices — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-04-000006-v1.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3558_support_0",
+      "title": "Gallai's conjecture with two exceptional even vertices — pinned owned source tree",
+      "url": "https://github.com/shaikidris/gallai-two-exception/tree/5f4130a2e14b836cfaa86cad6ae59beb9768b9ea",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3558_support_1",
+      "title": "Gallai's conjecture with two exceptional even vertices — first-public basis",
+      "url": "https://github.com/shaikidris/gallai-two-exception/commit/f7e9a98571329c5683052023f960290f680bc338",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3558_support_2",
+      "title": "Gallai's conjecture with two exceptional even vertices — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37204340793",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3558_support_3",
+      "title": "Gallai's conjecture with two exceptional even vertices — owned DOI record",
+      "url": "https://doi.org/10.5281/zenodo.23134427",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3558_support_4",
+      "title": "Gallai's conjecture with two exceptional even vertices — primary evidence 6",
+      "url": "https://github.com/shaikidris/gallai-two-exception/commit/5f4130a2e14b836cfaa86cad6ae59beb9768b9ea",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3559": [
+    {
+      "key": "Daily20261004_3559",
+      "title": "Lower bounds for the covering numbers C(24,14,4) and C(25,15,5) — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-04-000003-v1.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3559_support_0",
+      "title": "Lower bounds for the covering numbers C(24,14,4) and C(25,15,5) — pinned owned source tree",
+      "url": "https://github.com/jamesyc/covering/tree/17bca0067a6bfa8c6c25669d97fca1190d20c8a3",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3559_support_1",
+      "title": "Lower bounds for the covering numbers C(24,14,4) and C(25,15,5) — first-public basis",
+      "url": "https://github.com/jamesyc/covering/commit/5f3334454ec729acfa2a9b212646b9bbca959084",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3559_support_2",
+      "title": "Lower bounds for the covering numbers C(24,14,4) and C(25,15,5) — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37167796386",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3559_support_3",
+      "title": "Lower bounds for the covering numbers C(24,14,4) and C(25,15,5) — primary evidence 5",
+      "url": "https://github.com/jamesyc/covering/commit/17bca0067a6bfa8c6c25669d97fca1190d20c8a3",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "3560": [
+    {
+      "key": "Daily20261004_3560",
+      "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-04-000007-v1.json",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3560_support_0",
+      "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — pinned owned source tree",
+      "url": "https://github.com/mmislan/palomar-p046-critical-window-shape-law/tree/b46f8d0747b6dfb4c00a50d386f3df4f330e861e",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3560_support_1",
+      "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — first-public basis",
+      "url": "https://github.com/mmislan/palomar-p046-critical-window-shape-law/commit/61dde483d2e96235469621003fb00dc627f40d1b",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3560_support_2",
+      "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37209613921",
+      "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261004_3560_support_3",
+      "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — primary evidence 5",
+      "url": "https://github.com/mmislan/palomar-p046-critical-window-shape-law/commit/b46f8d0747b6dfb4c00a50d386f3df4f330e861e",
+      "accessed": "2026-10-04"
     }
   ]
 }
