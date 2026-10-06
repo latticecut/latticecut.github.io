@@ -16867,6 +16867,18 @@
       "title": "A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size — 24 September evidence 2",
       "url": "https://arxiv.org/html/2609.05847v3",
       "accessed": "2026-09-24"
+    },
+    {
+      "key": "Daily20261005_1387_update_0",
+      "title": "A spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size — official v4 abstract",
+      "url": "https://arxiv.org/abs/2609.05847v4",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_1387_update_1",
+      "title": "A spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size — official v4 primary evidence",
+      "url": "https://arxiv.org/html/2609.05847v4",
+      "accessed": "2026-10-06"
     }
   ],
   "1388": [
@@ -16909,6 +16921,24 @@
       "title": "A finite set with noncompact closed convex hull in a Hadamard space (v1, full text)",
       "url": "https://arxiv.org/html/2609.06455v1",
       "accessed": "2026-09-09"
+    },
+    {
+      "key": "Daily20261005_1390_update_0",
+      "title": "A three-point set with noncompact closed convex hull in a Hadamard space — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.06455v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_1390_update_1",
+      "title": "A three-point set with noncompact closed convex hull in a Hadamard space — official v2 primary evidence",
+      "url": "https://export.arxiv.org/oai2?verb=ListRecords&metadataPrefix=arXivRaw&from=2026-09-29&until=2026-10-05&set=math",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_1390_update_2",
+      "title": "A three-point set with noncompact closed convex hull in a Hadamard space — official v2 primary evidence (retrieval failed at access)",
+      "url": "https://arxiv.org/html/2609.06455v2",
+      "accessed": "2026-10-06"
     }
   ],
   "1391": [
@@ -41065,6 +41095,18 @@
       "title": "The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates — first qualifying v1 full text",
       "url": "https://arxiv.org/html/2609.30246v1",
       "accessed": "2026-09-26"
+    },
+    {
+      "key": "Daily20261005_3004_update_0",
+      "title": "The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.30246v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3004_update_1",
+      "title": "The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates — official v2 primary evidence",
+      "url": "https://arxiv.org/html/2609.30246v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3005": [
@@ -44035,6 +44077,18 @@
       "title": "Matching algebras and their Dunkl subalgebras — versioned full text",
       "url": "https://arxiv.org/html/2609.34260v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261005_3175_update_0",
+      "title": "Matching algebras and their Dunkl subalgebras — official v2 abstract",
+      "url": "https://arxiv.org/abs/2609.34260v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3175_update_1",
+      "title": "Matching algebras and their Dunkl subalgebras — official v2 primary evidence",
+      "url": "https://arxiv.org/html/2609.34260v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3176": [
@@ -48651,6 +48705,18 @@
       "title": "An $O(4^{\\log^* n})$ Bound for the KLS Constant — versioned full text",
       "url": "https://arxiv.org/html/2610.01447v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261005_3455_update_0",
+      "title": "An O(1) Bound for the KLS Constant — updated primary evidence",
+      "url": "https://arxiv.org/abs/2610.01447v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3455_update_1",
+      "title": "An O(1) Bound for the KLS Constant — updated primary evidence",
+      "url": "https://arxiv.org/html/2610.01447v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3456": [
@@ -49215,6 +49281,18 @@
       "title": "Removing spurious minima for planar features by skip connections — versioned full text",
       "url": "https://arxiv.org/html/2610.01728v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261005_3494_update_0",
+      "title": "Removing spurious minima for planar features by skip connections — updated primary evidence",
+      "url": "https://arxiv.org/abs/2610.01728v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3494_update_1",
+      "title": "Removing spurious minima for planar features by skip connections — updated primary evidence",
+      "url": "https://arxiv.org/html/2610.01728v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3495": [
@@ -49581,6 +49659,18 @@
       "title": "Watkins's conjecture holds for all infinite groups — versioned full text",
       "url": "https://arxiv.org/html/2610.01049v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261005_3518_update_0",
+      "title": "Watkins's conjecture holds for all infinite groups — updated primary evidence",
+      "url": "https://arxiv.org/abs/2610.01049v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3518_update_1",
+      "title": "Watkins's conjecture holds for all infinite groups — updated primary evidence",
+      "url": "https://arxiv.org/html/2610.01049v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3519": [
@@ -49595,6 +49685,18 @@
       "title": "A characterization of the Ree curve — versioned full text",
       "url": "https://arxiv.org/html/2610.00189v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261005_3519_update_0",
+      "title": "A characterization of the Ree curve — updated primary evidence",
+      "url": "https://arxiv.org/abs/2610.00189v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3519_update_1",
+      "title": "A characterization of the Ree curve — updated primary evidence",
+      "url": "https://arxiv.org/html/2610.00189v2",
+      "accessed": "2026-10-06"
     }
   ],
   "3520": [
@@ -50499,6 +50601,382 @@
       "title": "Effective approximation and low-intensity flatness of RAF critical-window profiles — primary evidence 5",
       "url": "https://github.com/mmislan/palomar-p046-critical-window-shape-law/commit/b46f8d0747b6dfb4c00a50d386f3df4f330e861e",
       "accessed": "2026-10-04"
+    }
+  ],
+  "3561": [
+    {
+      "key": "Daily20261005_3561",
+      "title": "The equivalence of topological indices for U(1)⋊Z2-symmetric quantum spin chains — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.34119v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3561_support_0",
+      "title": "The equivalence of topological indices for U(1)⋊Z2-symmetric quantum spin chains — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.34119v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3562": [
+    {
+      "key": "Daily20261005_3562",
+      "title": "Hitting Sets for Polynomials with Small Partial Derivative Spaces — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.34436v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3562_support_0",
+      "title": "Hitting Sets for Polynomials with Small Partial Derivative Spaces — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.34436v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3563": [
+    {
+      "key": "Daily20261005_3563",
+      "title": "The complexity of computing the covering radius of a Euclidean lattice — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.35027v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3563_support_0",
+      "title": "The complexity of computing the covering radius of a Euclidean lattice — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.35027v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3564": [
+    {
+      "key": "Daily20261005_3564",
+      "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.35762v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3564_support_0",
+      "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.35762v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3565": [
+    {
+      "key": "Daily20261005_3565",
+      "title": "Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.35958v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3565_support_0",
+      "title": "Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.35958v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3566": [
+    {
+      "key": "Daily20261005_3566",
+      "title": "Infrared Subtraction with Artificial Intelligence — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.36007v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3566_support_0",
+      "title": "Infrared Subtraction with Artificial Intelligence — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2609.36007v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3566_support_1",
+      "title": "Infrared Subtraction with Artificial Intelligence — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.36007v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3567": [
+    {
+      "key": "Daily20261005_3567",
+      "title": "Bouncing-ball modes in ergodic billiards — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.36501v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3567_support_0",
+      "title": "Bouncing-ball modes in ergodic billiards — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.36501v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3568": [
+    {
+      "key": "Daily20261005_3568",
+      "title": "Coding Agents for Coding Theory — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.39081v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3568_support_0",
+      "title": "Coding Agents for Coding Theory — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.39081v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3569": [
+    {
+      "key": "Daily20261005_3569",
+      "title": "Efficient Online Inverse Optimization with O(d) Regret — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.13440v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3569_support_0",
+      "title": "Efficient Online Inverse Optimization with O(d) Regret — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.13440v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3569_support_1",
+      "title": "Efficient Online Inverse Optimization with O(d) Regret — versioned primary evidence 3",
+      "url": "https://arxiv.org/abs/2609.40324v2",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3570": [
+    {
+      "key": "Daily20261005_3570",
+      "title": "Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.27206v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3570_support_0",
+      "title": "Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.27206v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3570_support_1",
+      "title": "Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant — versioned primary evidence 3",
+      "url": "https://arxiv.org/abs/2609.40324v2",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3571": [
+    {
+      "key": "Daily20261005_3571",
+      "title": "Improved Revenue Guarantees for Selling Separately and Bundling — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.28873v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3571_support_0",
+      "title": "Improved Revenue Guarantees for Selling Separately and Bundling — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.28873v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3571_support_1",
+      "title": "Improved Revenue Guarantees for Selling Separately and Bundling — versioned primary evidence 3",
+      "url": "https://arxiv.org/abs/2609.40324v2",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3572": [
+    {
+      "key": "Daily20261005_3572",
+      "title": "The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets — first-public v1 source",
+      "url": "https://arxiv.org/abs/2609.27304v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3572_support_0",
+      "title": "The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2609.27304v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3572_support_1",
+      "title": "The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2609.27304v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3572_support_2",
+      "title": "The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets — versioned primary evidence 3",
+      "url": "https://arxiv.org/abs/2609.40324v2",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3573": [
+    {
+      "key": "Daily20261005_3573",
+      "title": "Shuffle squares in smooth binary words and the Kolakoski sequence — first-public v1 source",
+      "url": "https://arxiv.org/abs/2610.02262v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3573_support_0",
+      "title": "Shuffle squares in smooth binary words and the Kolakoski sequence — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.02262v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3574": [
+    {
+      "key": "Daily20261005_3574",
+      "title": "Sparse coloring for isosceles-free grids: an AI-assisted proof case study — first-public v1 source",
+      "url": "https://arxiv.org/abs/2610.04194v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3574_support_0",
+      "title": "Sparse coloring for isosceles-free grids: an AI-assisted proof case study — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.04194v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3575": [
+    {
+      "key": "Daily20261005_3575",
+      "title": "Symmetry and AI-assisted discovery of magic-state factories — first-public v1 source",
+      "url": "https://arxiv.org/abs/2610.06535v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3575_support_0",
+      "title": "Symmetry and AI-assisted discovery of magic-state factories — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.06535v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3576": [
+    {
+      "key": "Daily20261005_3576",
+      "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes — first-public v1 source",
+      "url": "https://arxiv.org/abs/2610.06623v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3576_support_0",
+      "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.06623v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3577": [
+    {
+      "key": "Daily20261005_3577",
+      "title": "An FPRAS for Counting Common Bases of Two Matroids — first-public v1 source",
+      "url": "https://arxiv.org/abs/2610.06724v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3577_support_0",
+      "title": "An FPRAS for Counting Common Bases of Two Matroids — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.06724v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3578": [
+    {
+      "key": "Daily20261005_3578",
+      "title": "Erdős 1054: sums of smallest divisors — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000005-v1.json",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3578_support_0",
+      "title": "Erdős 1054: sums of smallest divisors — pinned owned source tree",
+      "url": "https://github.com/linrock/math-proofs/tree/0917cd01090b52088aa82b09c8c84689047b8171/erdos-1054",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3578_support_1",
+      "title": "Erdős 1054: sums of smallest divisors — first-public basis",
+      "url": "https://github.com/linrock/math-proofs/commit/a18f657ced2ca416d798635800c81c3bb17d9c0b",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3578_support_2",
+      "title": "Erdős 1054: sums of smallest divisors — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37276777027",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3579": [
+    {
+      "key": "Daily20261005_3579",
+      "title": "The rank-one Dixmier conjecture for elements of mass at most six — versioned registry JSON (current at cutoff)",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000006-v2.json",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3579_support_0",
+      "title": "The rank-one Dixmier conjecture for elements of mass at most six — versioned registry JSON (prior version)",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000006-v1.json",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3579_support_1",
+      "title": "The rank-one Dixmier conjecture for elements of mass at most six — pinned owned source tree",
+      "url": "https://github.com/shaikidris/DixmierMassSix-Palomar/tree/61783d52b6ae44cd2d8d20ad6cb798e7bbbce3ff",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3579_support_2",
+      "title": "The rank-one Dixmier conjecture for elements of mass at most six — first-public basis",
+      "url": "https://github.com/shaikidris/DixmierMassSix-Palomar/commit/b2601df23b5c26969595d8546d5b58b83de4f911",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3579_support_3",
+      "title": "The rank-one Dixmier conjecture for elements of mass at most six — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37353942411",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3580": [
+    {
+      "key": "Daily20261005_3580",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — versioned registry JSON",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000007-v1.json",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_0",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — pinned owned source tree",
+      "url": "https://github.com/vltanh/lean4-markman25-hodge-abelian-fourfolds/tree/4be865ee7242c8ac4e7b7f92b192b31f9d1c3338",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_1",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — pinned audit report",
+      "url": "https://github.com/vltanh/lean4-markman25-hodge-abelian-fourfolds/blob/4be865ee7242c8ac4e7b7f92b192b31f9d1c3338/REPORT.md",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_2",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — pinned AI credits",
+      "url": "https://github.com/vltanh/lean4-markman25-hodge-abelian-fourfolds/blob/4be865ee7242c8ac4e7b7f92b192b31f9d1c3338/CREDITS.md",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_3",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — first-public consolidated audit commit",
+      "url": "https://github.com/vltanh/lean4-markman25-hodge-abelian-fourfolds/commit/b36a3b9feb8f9808a85e6254ebdccaf98cb82535",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_4",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — Palomar verification run",
+      "url": "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37324315419",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261005_3580_support_5",
+      "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — original paper formalized/audited",
+      "url": "https://arxiv.org/abs/2502.03415v2",
+      "accessed": "2026-10-06"
     }
   ]
 }

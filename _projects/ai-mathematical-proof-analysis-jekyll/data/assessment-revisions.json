@@ -173554,5 +173554,1016 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-05",
+    "snapshotHash": "cc62708f3b46ab2cc8b74485869a6ea7ae6d220e2fc1cc8b7114f96624ea0da5",
+    "changes": [
+      {
+        "id": "1387",
+        "from": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The pinned primary source reports the bounded result in A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "97142a02289a7b9d2425b84b4e40ebda3e956b4c9e98e4c3cd1cda3aad888845",
+          "assessedAt": "2026-09-24",
+          "inclusionConcern": "Further checking: No independent proof check was found; retain provisional status. Replace the old full-log formula and hypotheses with v3's exact source-qualified statement, update the named model, add v2/v3 references, and refresh assessment evidence/source hashes. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says ChatGPT proposed the uniformly randomized-step approach, developed the principal proof strategy and initial major arguments, and generated simulation and Lean code; the author reports checking the mathematics and kernel build. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in A global spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat. The 2026-10-05 refresh reviewed later primary-source evidence for A spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "b3ac08908616c52bbe9e13e4bfacf3f627a6681670d4691675bdf36eb299e531",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Align the corpus reference to v4; compare v3/v4 theorem statements; independently review proof and Lean/simulation correspondence and the precise contribution trace. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author says ChatGPT proposed the uniformly randomized-step approach, developed the principal proof strategy and initial major arguments, and generated simulation and Lean code; the author reports checking the mathematics and kernel build. This is the paper's attribution and was not independently reconstructed. Revision note: v4 says ChatGPT suggested the randomized-step approach and principal proof arguments and assisted simulations/Lean; the author reports verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "1390",
+        "from": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The pinned primary source reports the bounded result in A finite set with noncompact closed convex hull in a Hadamard space. The available source supports specialist mathematical research, without enough challenge-history evidence for a stronger placement. Correctness, novelty, exact scope, and the retained AI contribution remain subject to the record-local caveat.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "73a652fa4249a22edeeaa1e29db1e56b9be488bb7b959d0feebb041e6d128c6e",
+          "assessedAt": "2026-09-09",
+          "inclusionConcern": "Further checking: establish model identity and exact allocation, verify the historical formulation and priority of the compact-convex-hull problem, and independently audit the CAT(1) limit/cone construction and noncompactness proof. This source-attributed row remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no source-reported code, computation, certificate, proof artifact, formal artifact, PDF macro, or program was executed or independently replayed. No artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract and introduction call the construction AI-generated and say the solution was found using AI, but the model and detailed human/model allocation are not identified in the source text inspected. This is the paper's attribution and was not independently reconstructed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The later primary source reports a corrected or strengthened bounded result in A three-point set with noncompact closed convex hull in a Hadamard space. Human-comparison difficulty remains tentative while scope, correctness, novelty, and claim-level allocation are rechecked.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "38304d0104553238406e937bda7082c6f14c9d6ec65c0c2fc6f763827326f759",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Retrieve and inspect v2 full text when available; independently verify the three-point construction, CAT(1)/cone arguments and novelty; establish exact model/human attribution. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract and introduction call the construction AI-generated and say the solution was found using AI, but the model and detailed human/model allocation are not identified in the source text inspected. This is the paper's attribution and was not independently reconstructed. Revision note: The official v2 OAI record describes the construction as AI-generated; the exact full-text allocation could not be rechecked because the v2 HTML endpoint returned 404 at access."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-09",
+            "reportedDate": "2026-09-09",
+            "dateBasis": "The qualifying source/version was exposed in the official arXiv Wednesday 9 September 2026 announcement inside the exact cutoff.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3004",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates. Its specialist difficulty appears non-routine, but novelty, scope, correctness and the exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "1355add42dff5e567e265b6d8e39dc2170e254a8145bee705e0cb581b0d8da5f",
+          "assessedAt": "2026-09-25",
+          "inclusionConcern": "Further checking: Further checking required: map the contribution disclosed in '7 Open question: can the function E F λ E^{\\\\lambda}_{F} increase under selective LOCC-operations?' to the exact final theorem/proof/construction in arXiv:2609.30246, separate model output from author reconstruction, and test statement-to-source correspondence; independently verify the paper's bounded claim and novelty. Inspect any cited computation, code, certificate, formalization, transcript, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "ChatGPT-5.6 made a detail investigation of the validity of equality ( 38 ) for the simplest 2-qubit system and proved that it holds for several classes of the states ω = ∑ i p i ​ ρ i ⊗ | i ⟩ ​ ⟨ i | F \\,\\omega=\\sum_{i}p_{i}\\rho_{i}\\otimes|i\\rangle\\langle i|_{F}\\, (and showed that for these states the optimizer has the form described before!), but a general rigorous proof was not presented. At the same time, no counterexamples have been found. A complete stage-by-stage allocation is unavailable."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-25",
+            "reportedDate": "2026-09-25",
+            "dateBasis": "Official arXiv mathematics/CS listing headed Friday, 25 September 2026",
+            "originalPublicationDate": "2026-09-25",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates. Its specialist difficulty appears non-routine, but novelty, scope, correctness and the exact AI contribution remain unresolved. The 2026-10-05 refresh reviewed later primary-source evidence for The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the paper's stated assumptions.",
+          "sourceHash": "29cda4a69f339f296dad4ad5cb138bc86393a5c561aa0a9951f0e60b222784b5",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Compare v1/v2 line by line, pin exactly which special-state results involved ChatGPT and whether any result scope changed; independently review those arguments. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "ChatGPT-5.6 made a detail investigation of the validity of equality ( 38 ) for the simplest 2-qubit system and proved that it holds for several classes of the states ω = ∑ i p i ​ ρ i ⊗ | i ⟩ ​ ⟨ i | F \\,\\omega=\\sum_{i}p_{i}\\rho_{i}\\otimes|i\\rangle\\langle i|_{F}\\, (and showed that for these states the optimizer has the form described before!), but a general rigorous proof was not presented. At the same time, no counterexamples have been found. A complete stage-by-stage allocation is unavailable. Revision note: v2 states that secondary parts were written with ChatGPT-5.6; the live ledger already describes the special-state investigation, so this is a reference/version refresh."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-25",
+            "reportedDate": "2026-09-25",
+            "dateBasis": "Official arXiv mathematics/CS listing headed Friday, 25 September 2026",
+            "originalPublicationDate": "2026-09-25",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3175",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Matching algebras and their Dunkl subalgebras. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "1404fafb45807122ae9810454f7b79755dd54e54d89d264fe0efe13d4ab1f7c8",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking required: map the reported AI role in arXiv:2609.34260v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to proof or argument development/checking, manuscript drafting or technical exposition."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Matching algebras and their Dunkl subalgebras. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved. The 2026-10-05 refresh reviewed later primary-source evidence for Matching algebras and their Dunkl subalgebras; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "50951b0982c56d3d5c631a6794189b5712864d31601a2c381be39043d6b1868a",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Align the record to v2; map every section-5 proposition/proof to the disclosure; compare theorem statements with v1 and independently review proof validity and novelty. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to proof or argument development/checking, manuscript drafting or technical exposition. Revision note: v2 says the bulk was written by GPT-5.6 from an older author draft/notes and specifically attributes all proofs in section 5 to GPT-5.6."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3455",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in An $O(4^{\\log^* n})$ Bound for the KLS Constant. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "1adf94317ddb51b6a630810ceffa49544b3b187b9e4d6f22b3dea651b7c0e451",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking required: map the reported AI role in arXiv:2610.01447v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to mathematical discovery or exploration, proof or argument development/checking, formalization or proof-assistant work, calculation, computation, code, or experiment support."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The later primary source reports a corrected or strengthened bounded result in An O(1) Bound for the KLS Constant. Human-comparison difficulty remains tentative while scope, correctness, novelty, and claim-level allocation are rechecked.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "2ecba89f65ad7000c99392fab92c92c9ad5be1c87d9216b23b3046e129a03b68",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Obtain independent convex-geometry/KLS specialist verification of the complete v2 argument and universal constants; compare v1 and v2 line by line; establish novelty and priority; and reconstruct the material path from the jointly developed log^(1/6) intermediate argument to the author-described O(1) proof. Do not execute downloaded artifacts in the publication lane. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to mathematical discovery or exploration, proof or argument development/checking, formalization or proof-assistant work, calculation, computation, code, or experiment support. Revision note: The v2 disclosure names GPT-6 Astra, GPT-5.6 Sol and Claude Fable 5/5.1. It says the authors and AI systems jointly obtained a log^(1/6) intermediate bound, after which the authors found the log-star and universal bounds while understanding that intermediate result; the authors report careful verification and accept responsibility."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3494",
+        "from": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Removing spurious minima for planar features by skip connections. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "8991a25d4e828e1a110b5d866a7affe5ff999451e6d02654a73d6406a9c862d8",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking required: map the reported AI role in arXiv:2610.01728v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to formalization or proof-assistant work, calculation, computation, code, or experiment support."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Removing spurious minima for planar features by skip connections. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved. The 2026-10-05 refresh reviewed later primary-source evidence for Removing spurious minima for planar features by skip connections; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "6e1da93db10e97da834678703df8521a70b511a08f6cc504e9e8baca5464ff16",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Independently replay the pinned Lean project and verify all five advertised theorem entry points, axioms and manuscript-to-formal-statement correspondence; independently review the mathematical proofs and novelty; and obtain exact claim-level human/model allocation. Do not count the paper's own replay report as independent verification. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to formalization or proof-assistant work, calculation, computation, code, or experiment support. Revision note: The v2 manuscript explicitly maps substantial AI work to literature search, conjecture formation, proof and counterexample search, mathematical reasoning, numerical experiments, software, autoformalization and Lean proof development, naming Codex Sol, Claude Code Opus/Fable and Astra Ultra. It source-reports a complete Lean development with no sorry/admit, project axioms or unchecked shortcuts, plus exact arithmetic and statement-correspondence audits. The authors report selecting, refining, reconstructing and largely manually writing the final mathematics and accept responsibility. These are source reports, not an independent replay."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3518",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Watkins's conjecture holds for all infinite groups. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "ba9deb88c39feb843caa24c06a0e7d1c61ce88ba5431e739b41cfa6279d2b2c0",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking required: map the reported AI role in arXiv:2610.01049v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to proof or argument development/checking, formalization or proof-assistant work, calculation, computation, code, or experiment support, manuscript drafting or technical exposition."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Watkins's conjecture holds for all infinite groups. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved. The 2026-10-05 refresh reviewed later primary-source evidence for Watkins's conjecture holds for all infinite groups; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e441e82c8dd68d5f7ba880228bcffe069231f1cde3440bb374a2fbb7a25a3598",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Independently verify the infinite/transfinite construction, the Watkins conclusion, Cayley-index classification and added ORR consequence; inspect the finite programs as inert evidence before any separately authorized replay; establish claim-level allocation and v1-v2 correspondence. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to proof or argument development/checking, formalization or proof-assistant work, calculation, computation, code, or experiment support, manuscript drafting or technical exposition. Revision note: The v2 comments say exposition and notation were revised, a proof overview and an oriented-regular-representation consequence were added, quantifiers were standardized and ancillary files synchronized, with the main theorems unchanged. The disclosure says ChatGPT substantially helped develop arguments, locate references and prepare checking programs. The programs check finite examples, schedule prefixes and exact integer-matrix certificates; they do not formally verify the infinite or transfinite arguments. The author accepts responsibility."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official arXiv Atom v1 published timestamp converted to Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3519",
+        "from": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in A characterization of the Ree curve. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e8469472347dcb93d2984de85cc80cdb1f6e665a999947f55c3fa8d31b52b033",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking required: map the reported AI role in arXiv:2610.00189v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to calculation, computation, code, or experiment support, manuscript drafting or technical exposition."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-02",
+            "dateBasis": "Official arXiv recent-listing announcement date in Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in A characterization of the Ree curve. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved. The 2026-10-05 refresh reviewed later primary-source evidence for A characterization of the Ree curve; the bounded claim and human-comparison category were retained, while verification, source-version, or attribution metadata remains provisional pending the recorded further check.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "5dacb0699999090748508fa593243f9d5a59e2223484abc918cdd726b1def07b",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: Determine whether any GPT-6 or Claude contribution enters the s>=3 characterization theorem rather than only the out-of-range q0=3,9 cases; independently verify the characterization, symbolic identities, certificates and code; and establish claim-level correspondence before treating the AI contribution as material to the anchor. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "According to the paper's disclosure, AI contributed to calculation, computation, code, or experiment support, manuscript drafting or technical exposition. Revision note: The v2 disclosure says ChatGPT GPT-6 assisted language, exploration, arguments for q0=3 and q0=9, symbolic identities, pole-order arguments and verification code, while Claude Opus 5.5 assisted review, numerical certificates and editing. The author accepts responsibility. The tracked main theorem assumes q0=3^s with s>=3, hence q0>=27; the specifically disclosed small-parameter arguments therefore lie outside that theorem's parameter range. Material AI contribution to the tracked anchor is not yet established."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-10-02",
+            "dateBasis": "Official arXiv recent-listing announcement date in Europe/London",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3561",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The equivalence of topological indices for U(1)⋊Z2-symmetric quantum spin chains. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e8114c71ef500cbb944022f6484b4d9292460e05e573a782382be8d0fa2bb1d4",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Obtain specialist review of the proof and novelty; verify the exact Ogata/Tasaki hypotheses and application; reconstruct the author/model contribution boundary from any retained transcript. No proof was independently checked here. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says the author supplied the problem, one-sided idea and Ogata convergence input, while ChatGPT GPT-6 Astra Pro developed the presented proof, including the cutoff-difference/strong-limit/commutator steps."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T01:58:43Z. Source: https://arxiv.org/abs/2609.34119v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3562",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Hitting Sets for Polynomials with Small Partial Derivative Spaces. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "744a7e6e7139f4647c93215c78fc168365ca13208c4cec05f389e5ac18ec3068",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently check the PIT/algebraic-complexity proof, quantitative parameters and novelty; inspect the underlying transcript and map model versus human contributions. No artifact was executed. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The authors state that the proof was obtained in conversations with GPT-6 Astra and that the write-up was rewritten from the AI-developed proof."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T06:57:12Z. Source: https://arxiv.org/abs/2609.34436v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3563",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The complexity of computing the covering radius of a Euclidean lattice. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "177b52f17d2ea2e0e9f3fec466374c38669c44dcc25898f3f445916d1455aa29",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Have a complexity/lattice specialist verify the reductions, promise/gap and bit-complexity details and priority; identify the exact model and contribution trace. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The disclosure says generative AI worked out the cold-spots hardness argument and adapted the reduction to the covering-radius problem; the author then digested and simplified it and accepts responsibility."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T12:24:48Z. Source: https://arxiv.org/abs/2609.35027v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3564",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "6fe666b663a24a8624c8ae51714a8bcb8c3b1906490ba156aaf6397c4df1321d",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently verify all five theorem statements, tightness and novelty; safely inspect but do not execute notebooks or symbolic checks; produce a theorem-level contribution map. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says GPT-6 Astra/Peppy selected patterns and conjectured closed forms/analytic objects, while Codex-generated proofs were human-edited and symbolically checked."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T17:59:12Z. Source: https://arxiv.org/abs/2609.35762v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3565",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "d404a25b1dbcb8b0b95a80664b836aeaad6f8af198f7b7c583477acf2a9ee5ef",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Obtain algebraic-geometry/string-theory review of Theorem 4.2 and all hypotheses, novelty and formulae; inspect session artifacts without executing them and map exact human/model roles. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The source says Solver Agent was fundamental to Theorem 4.2, entirely proved it, and derived correction formulae and computations."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T18:00:00Z. Source: https://arxiv.org/abs/2609.35958v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3566",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Infrared Subtraction with Artificial Intelligence. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "6df76c61bebf1d03b33daf307010ddda597455cc8cdcb5fbdc41af0e12c2ad5e",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Restrict any publication row to demonstrated NLO/general-map results; obtain independent physics review and numerical reproduction; check novelty and exact model/human allocation. Do not count proposed NNLO work. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper attributes projections, contact formulae and numerical implementations to GPT-5.6/GPT-6 under human-supplied physics constraints. This is source-reported attribution, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Official dated primary source v1 at 2026-09-28T18:00:09Z. Source: https://arxiv.org/abs/2609.36007v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3567",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Bouncing-ball modes in ergodic billiards. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e2e79c21b64bb97281979d07c29538f50dadfc30c8eb138f82f3f3907453b72f",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Have a spectral-theory specialist verify the quasimode argument, parameter hypotheses and novelty, and reconstruct the exact author/model boundary. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The authors say ChatGPT 6 produced an essentially complete quasimode argument after they suggested varying the wings; the Hassell ingredient was author-supplied and the authors simplified the proof."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-29",
+            "dateBasis": "Official dated primary source v1 at 2026-09-29T01:55:12Z. Source: https://arxiv.org/abs/2609.36501v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3568",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Coding Agents for Coding Theory. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "12d1d384641eaee8fee3fff14fa16010d1baa57322842353ff473dd23774f66d",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently run separately authored verifiers/search in a controlled review, check all tables and priority, and distinguish classical search methodology from agent-generated engineering. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says a Claude Opus 5 coding agent wrote verifiers/search code, ran the search, and in a second session found the 120-word construction; the human chose the problem and protocol."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-30",
+            "dateBasis": "Official dated primary source v1 at 2026-09-30T06:17:28Z. Source: https://arxiv.org/abs/2609.39081v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3569",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Efficient Online Inverse Optimization with O(d) Regret. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "be17f89521bf1c13ae54c7771a25e34be9cf1a296f1d13ebf6907eddbd963296",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently review the proof, constants and novelty; separate the Cogentic core from later human extensions; verify model/version and retained run evidence. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The companion paper says its main result was obtained entirely by Cogentic using Gemini 3.1 Pro without human interaction beyond the initial prompt; authors verified and contextualized it and added extensions."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-11",
+            "dateBasis": "Official dated primary source v1 at 2026-09-11T18:55:31Z. Source: https://arxiv.org/abs/2609.13440v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "3570",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "a5457c3f2b1bed2c0582c1419aae5ddf83a2dbf1d57e6cc647f2e4f61c06529a",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently verify the regret proof, regime, constant and novelty; identify the exact model/version and retained run evidence. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The companion says the main result was obtained entirely by Cogentic using an internal Gemini model and then verified/contextualized by the authors."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-23",
+            "dateBasis": "Official dated primary source v1 at 2026-09-23T01:13:21Z. Source: https://arxiv.org/abs/2609.27206v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "3571",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Improved Revenue Guarantees for Selling Separately and Bundling. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "937804d443a425db50146d343a648df1192cad276f5007d7ecd16d79867b9405",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Obtain independent mechanism-design review of the proof and numerical constant, check priority, and verify model/version and retained run evidence. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The companion says the main result was obtained entirely by Cogentic using an internal Gemini model and then verified/contextualized by the authors."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-24",
+            "dateBasis": "Official dated primary source v1 at 2026-09-24T00:40:11Z. Source: https://arxiv.org/abs/2609.28873v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "3572",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e914ab9d16290f2786580359c648ef90bc1cd2d7bfd5abb4bf3cd447ff47bf16",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently verify both the upper and lower bounds and all mechanism assumptions; check novelty, exact model/version and retained run evidence. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The companion says its main result was obtained entirely by Cogentic using an internal Gemini model and then verified/contextualized by the authors."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-09-23",
+            "dateBasis": "Official dated primary source v1 at 2026-09-23T03:37:02Z. Source: https://arxiv.org/abs/2609.27304v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "3573",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Shuffle squares in smooth binary words and the Kolakoski sequence. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "7d5431336edca8c76cefdf2c6776bb0ad01beed5e84c3465e77f9fd5ad50263b",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently verify the combinatorial proof, exception certificate and Kolakoski deductions; check novelty and the human/model split. Do not execute the supplied verifier without controlled review. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper attributes research, computation and writing to GPT-5.6 Sol/GPT-6 Astra under human supervision and supplies a certificate/verifier. This is source-reported attribution, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Official dated primary source v1 at 2026-10-01T02:47:59Z. Source: https://arxiv.org/abs/2610.02262v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3574",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Sparse coloring for isosceles-free grids: an AI-assisted proof case study. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e15ba39d73c3e4555716a7ae8ee946afa29ebcee0932a58bf04ede75e0d1b587",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Verify applicability of the cited hypergraph-coloring result and all degree/codegree counts, check novelty and finite/asymptotic scope, and reconstruct the contribution trace. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says Codex retrieved the Cooper–Mubayi tool, proposed the application and wrote the core proof; the human chose the route and reviewed it."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-03",
+            "dateBasis": "Official dated primary source v1 at 2026-10-03T01:07:54Z. Source: https://arxiv.org/abs/2610.04194v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3575",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Symmetry and AI-assisted discovery of magic-state factories. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "0cec7c4157de0ffedcb4d3029a8ff35d19ebfbcb79ef9045e4ec523e3c1575bb",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently reproduce the catalog and verifier results, compare with prior archives, verify the leading/smallest claims, and map agent suggestions to each retained construction. Do not execute downloaded code here. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says Claude agents proposed parent constructions, symmetry groups and search directions, pruned candidates, and assisted scripts, with deterministic solvers/verifiers used for validation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official dated primary source v1 at 2026-10-05T15:36:37Z. Source: https://arxiv.org/abs/2610.06535v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3576",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "e6de3d8bba632b765e7c09ee1289141cdbfbee969925b7e1444ef9bb59255167",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Independently rerun exact distance/connectivity checks, compare against archive and random-search controls, verify all counts and priority, and produce a program/result-level contribution map. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper directly attributes proposal-generating programs and much of the discovery search to large language models, followed by exact deterministic checks."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official dated primary source v1 at 2026-10-05T16:21:27Z. Source: https://arxiv.org/abs/2610.06623v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3577",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in An FPRAS for Counting Common Bases of Two Matroids. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "77a53b16fcc89aee0611fbd13812beccd59eb98ddd9bcd15d9c28cc92de71b4c",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Obtain independent algorithms/probability review of the proof, runtime and oracle guarantees; check novelty and reconstruct the model/human contribution split. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says GPT-6 Astra supplied the integrated Bochner proof after an earlier GPT-5.6 attempt, and ChatGPT found the annealing solution and helped generalize it."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official dated primary source v1 at 2026-10-05T17:15:12Z. Source: https://arxiv.org/abs/2610.06724v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3578",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Erdős 1054: sums of smallest divisors. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "702e3b391448322deb32656daa6fa3a17bab181e4edcd9472e4e6cba95ec3808",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: independently review all 21 formal theorems and their definitions, the Goldbach bridge, second-moment and Tao–Kovač bounds; establish novelty/priority and separate new quantitative claims from adapted Principia results; obtain the exact model and claim-level AI/human allocation; and independently replay the pinned Lean package and check statement correspondence. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The earliest formalization metadata explicitly records agent-based AI-assisted proof development, the exact Nat.nth/Nat.find bridge, Goldbach composition, linear sifted-density upgrade, singleton-tail elimination, the small-ratio bound, aliquot-density equivalence, statement/axiom audits and Palomar packaging. No model name or claim-level allocation is surfaced."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Earliest located repository commit adding the Erdős 1054 package. Source: https://github.com/linrock/math-proofs/commit/a18f657ced2ca416d798635800c81c3bb17d9c0b.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3579",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The rank-one Dixmier conjecture for elements of mass at most six. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "c322501b1e452348b3e81dadaff06619479925195df41b4d70dd2e1a413e5e6f",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: obtain and review a stable manuscript that was public by the cutoff; independently verify the Weyl-algebra mathematics, novelty/priority against Guccione–Guccione–Valqui and related work, the absence of hidden bounds on Q, and formal-statement correspondence; obtain exact Codex/human allocation; and independently replay the pinned Lean package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The earliest and current formalization metadata name OpenAI Codex and state that AI assisted proof development, diagnostics, formalization, source-statement/dependency audits and packaging."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Earliest located repository commit for the exact mass-six Dixmier package. Source: https://github.com/shaikidris/DixmierMassSix-Palomar/commit/b2601df23b5c26969595d8546d5b58b83de4f911.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3580",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "60f30870ffe186450c7ee6afb0cbdad0a70d7d1598720dbcc2fdd6dafed2359e",
+          "assessedAt": "2026-10-05",
+          "inclusionConcern": "Further checking: obtain independent human/specialist review of each of the eleven corrected statements, the additional basis misprint, every claimed proof error/gap and the claim that the main results are unaffected; verify source-TeX and Lean-statement correspondence and the conditional model boundaries; determine novelty/priority and whether findings were communicated to or accepted by Eyal Markman; obtain claim-level human/Claude allocation; and independently replay the pinned package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "CREDITS.md and formalization.yaml name Claude Opus 5.5 in Claude Code, report one main session with 56 sub-agents over two rounds, and say AI agents wrote the Lean code/documents, reviewed statements against the TeX, compared proofs with the paper, and verified the audit. The human maintainer chose scope and approved eight substantive statement corrections; three obvious slips were corrected and reported."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-05",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Earliest located commit publishing REPORT.md and the consolidated audit/correction account used for this bounded record. Source: https://github.com/vltanh/lean4-markman25-hodge-abelian-fourfolds/commit/b36a3b9feb8f9808a85e6254ebdccaf98cb82535.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]
