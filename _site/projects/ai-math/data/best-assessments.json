@@ -5,7 +5,7 @@
     "recordCount": 3607,
     "sourceHash": "0dc4eb794f549cc57455d9f6bdbff156ade2a5aadff1c01d5ae002515fc8b6f2",
     "method": "Transparent batch triage plus source-pinned individual AI assessments and contribution readings; no new proof verification or human review",
-    "individuallyAssessed": 2914,
+    "individuallyAssessed": 2915,
     "frontierContributionReviews": 126,
     "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
     "counts": {
@@ -9406,8 +9406,13 @@
       ]
     },
     "275": {
+      "category": "Superhuman",
       "confidence": "high",
-      "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+      "rationale": "The later primary source reports a corrected or strengthened bounded result in Parity of the partition function in quadratic progressions. Human-comparison difficulty remains tentative while scope, correctness, novelty, and claim-level allocation are rechecked.",
+      "alternatives": [
+        "Difficult"
+      ],
+      "comparator": "Ono's 2010 conjecture for the full square-free D congruent to23 modulo24 class, at the current v4 scope.",
       "evidenceSourceIds": [
         "Arxiv250909553V3",
         "Arxiv250909553V3HTML",
@@ -9417,14 +9422,10 @@
         "Daily20261006_275_update_2",
         "Daily20261006_275_update_3"
       ],
-      "method": "transparent-batch-triage",
-      "alternatives": [
-        "Difficult"
-      ],
-      "category": "Superhuman",
-      "rationale": "The record reports complete settlement of an exact long-standing open target: For every square-free 1<D≡23 (mod 24), the values p((Dm^2+1)/24) with (m,6)=1 contain infinitely many of each parity; moreover m_odd≤12h(-D)+2 and m_even≤(12h(-D)+2) product over primes l… Target history: The theorem resolves Ono's explicitly stated 2010 conjecture for the full square-free congruence class. This supports high confidence in the historical-frontier classification, conditional on the reported scope; correctness and AI contribution remain separately recorded.",
       "sourceHash": "f46c21c430193ddf362322726fddd58bac72058f1914c3fe5e79fdf28809edf9",
+      "method": "individual-AI-assessment",
       "assessedAt": "2026-10-06",
+      "inclusionConcern": "Further checking: Independently verify Corollary 2 and replay the pinned PartitionParity and PartitionZheng Lean developments; check manuscript-to-formal-statement correspondence and all designated classical hypotheses; verify the v3-to-v4 change set; and keep clear that the Lean artifacts omit the Borcherds-lift/divisor construction, characteristic-2 geometry, parity-elimination arguments and propagation theorem. Clarify whether AxiomProver contributed to discovery or only formalized author-supplied arguments. Keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
       "placement": "tentative",
       "frontierContribution": {
         "status": "unclear",
@@ -9453,7 +9454,7 @@
       },
       "reviewReasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Source changed: previous individual assessment invalidated",
+        "Further checking: Independently verify Corollary 2 and replay the pinned PartitionParity and PartitionZheng Lean developments; check manuscript-to-formal-statement correspondence and all designated classical hypotheses; verify the v3-to-v4 change set; and keep clear that the Lean artifacts omit the Borcherds-lift/divisor construction, characteristic-2 geometry, parity-elimination arguments and propagation theorem. Clarify whether AxiomProver contributed to discovery or only formalized author-supplied arguments. Keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
         "AI contribution not established",
         "Tentative AI-frontier placement: material mathematical contribution is not established"
       ]

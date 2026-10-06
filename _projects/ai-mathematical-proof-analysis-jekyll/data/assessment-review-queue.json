@@ -856,7 +856,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Source changed: previous individual assessment invalidated",
+        "Further checking: Independently verify Corollary 2 and replay the pinned PartitionParity and PartitionZheng Lean developments; check manuscript-to-formal-statement correspondence and all designated classical hypotheses; verify the v3-to-v4 change set; and keep clear that the Lean artifacts omit the Borcherds-lift/divisor construction, characteristic-2 geometry, parity-elimination arguments and propagation theorem. Clarify whether AxiomProver contributed to discovery or only formalized author-supplied arguments. Keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
         "AI contribution not established",
         "Tentative AI-frontier placement: material mathematical contribution is not established"
       ]
