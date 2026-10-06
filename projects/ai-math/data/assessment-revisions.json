@@ -174565,5 +174565,707 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-06",
+    "snapshotHash": "6ab087f3f639fed96390f4b4419ae6bb5cf77d2ea96ffe229f9f850877d3ee39",
+    "changes": [
+      {
+        "id": "282",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper claims an exact-arithmetic certificate for 58 equilateral points in ℓ5^56, so e(ℓ5^56)≥58>57 and Kusner's conjecture is false; the construction persists for an open exponent int… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "0458683ea3615e7c5680cd36b4bcd7c5ab0c2b0bd9f914936bf1a769e9e9dd3a",
+          "assessedAt": "2026-10-05",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: Material implementation of the search that found the witness; final exact certificate is author supplied. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-12",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper claims an exact-arithmetic certificate for 58 equilateral points in ℓ5^56, so e(ℓ5^56)≥58>57 and Kusner's conjecture is false; the construction persists for an open exponent int… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "eed498c3062bda9aff448011fbcf23c1b478558225175869cbab7174ad2cd244",
+          "assessedAt": "2026-10-06",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: Material implementation of the search that found the witness; final exact certificate is author supplied. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-12",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "275",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "tentative",
+          "frontierContribution": {
+            "status": "unclear",
+            "role": "Not established",
+            "rationale": "AxiomProver is explicitly credited with formalizing and verifying central identities, but no retained source says it discovered the new geometric argument or supplied previously missing mathematics. The frontier-discovery contribution remains unclear, rather than being inferred from formal verification.",
+            "sourceHash": "167dbdf1b79e336abc847d9264fd3472291931aa997347748ebdebeb33f67f82",
+            "evidenceSourceIds": [
+              "Arxiv250909553V3",
+              "Arxiv250909553V3HTML",
+              "Axiom2026SelectedPublications"
+            ],
+            "assessedAt": "2026-09-06",
+            "evidenceSummary": "Abstract: central identities formalized and verified in Lean; discovery role not specified."
+          },
+          "rationale": "The current v3 theorem resolves Ono's 2010 conjecture for every square-free parameter in the stated congruence class and adds effective first-parity bounds. The historical-frontier label attaches to this all-parameter strengthening, not merely to formalizing previously known identities.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Ono's 2010 conjecture for the full square-free D congruent to23 modulo24 class, at the current v3 scope.",
+          "sourceHash": "167dbdf1b79e336abc847d9264fd3472291931aa997347748ebdebeb33f67f82",
+          "assessedAt": "2026-09-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "AxiomProver is explicitly credited with formalizing and verifying central identities, but no retained source says it discovered the new geometric argument or supplied previously missing mathematics. The frontier-discovery contribution remains unclear, rather than being inferred from formal verification."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-13",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "tentative",
+          "frontierContribution": {
+            "status": "unclear",
+            "role": "Not established",
+            "rationale": "AxiomProver is explicitly credited with formalizing and verifying central identities, but no retained source says it discovered the new geometric argument or supplied previously missing mathematics. The frontier-discovery contribution remains unclear, rather than being inferred from formal verification.",
+            "sourceHash": "f46c21c430193ddf362322726fddd58bac72058f1914c3fe5e79fdf28809edf9",
+            "evidenceSourceIds": [
+              "Arxiv250909553V3",
+              "Arxiv250909553V3HTML",
+              "Axiom2026SelectedPublications"
+            ],
+            "assessedAt": "2026-09-06",
+            "evidenceSummary": "Abstract: central identities formalized and verified in Lean; discovery role not specified."
+          },
+          "rationale": "The record reports complete settlement of an exact long-standing open target: For every square-free 1<D≡23 (mod 24), the values p((Dm^2+1)/24) with (m,6)=1 contain infinitely many of each parity; moreover m_odd≤12h(-D)+2 and m_even≤(12h(-D)+2) product over primes l… Target history: The theorem resolves Ono's explicitly stated 2010 conjecture for the full square-free congruence class. This supports high confidence in the historical-frontier classification, conditional on the reported scope; correctness and AI contribution remain separately recorded.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "f46c21c430193ddf362322726fddd58bac72058f1914c3fe5e79fdf28809edf9",
+          "assessedAt": "2026-10-06",
+          "contribution": {
+            "label": "Not established",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "AxiomProver is explicitly credited with formalizing and verifying central identities, but no retained source says it discovered the new geometric argument or supplied previously missing mathematics. The frontier-discovery contribution remains unclear, rather than being inferred from formal verification."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-13",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "265",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper reports completion of the odd-dimensional case and, together with Gromov's work, the full real case. This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "4b3662c4c90f1b897d863af3c13993548731a3167159bbe70c180ec7fddb98f9",
+          "assessedAt": "2026-10-05",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: After a human reduction to Theorem 3.10, GPT 5.5/5.6 developed an approach and GPT 5.6 Sol produced initial sections; authors checked and rewrote. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-14",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper reports completion of the odd-dimensional case and, together with Gromov's work, the full real case. This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "d324d6558c53b4799aee0300be81e73b091d087bcac8ed3bfeffa03c98db80e5",
+          "assessedAt": "2026-10-06",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: After a human reduction to Theorem 3.10, GPT 5.5/5.6 developed an approach and GPT 5.6 Sol produced initial sections; authors checked and rewrote. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-14",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "285",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper claims the optimal target dimension is Θ(min{d,n−1,log(2+ε²n)/ε²}) throughout the full parameter range and that the upper bound is attained by a linear map, resolving the Larsen… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "978694e0645299f31c5cf87bc720bdb6e5a247e942719792ada6d52d7d977a46",
+          "assessedAt": "2026-10-05",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: Broad, material proof/discovery/code assistance with no theorem-step allocation. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-17",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper claims the optimal target dimension is Θ(min{d,n−1,log(2+ε²n)/ε²}) throughout the full parameter range and that the upper bound is attained by a linear map, resolving the Larsen… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "2deedb170dade70de235667664ee103d92e136d454ba7390d7f6433515282aab",
+          "assessedAt": "2026-10-06",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Restored original reported source-layer shared attribution: its retained rationale is identical to the original coding overlay. Retained rationale: Broad, material proof/discovery/code assistance with no theorem-step allocation. This is provenance restoration, not a new individual review or reconstructed allocation of decisive work. Revision note: V2 reports that the author prompted GPT-5.6 Sol with the PSD formulation and SDP rank-reduction references and that the model produced the Lovett-Meka-inspired construction underlying Section 4. It also reports that Or Zamir disclosed a separate ChatGPT interaction predating v1 in which GPT-5.6 Sol produced an essentially identical proof: Zamir supplied mainly the rank-halving goal, while the model introduced the PSD formulation and found the proof first via Gaussian correlation/isoperimetry and then via the same Lovett-Meka matrix walk. Codex assisted manuscript preparation. This is source-reported independent rediscovery, not independent correctness verification."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-17",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "312",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper reports that for complete noncompact n-manifolds with Ric≥0, the paper claims (i) a uniform unit-ball volume deficit forces vol B(o,R)≤C(n,ε)R^(n−1), and (ii) Scal≥σ>0 forces vo… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "5ce8d1c6143bedaadc3f2ff5f614b6ad25778bc657a00fa85d6ae28d589d2a52",
+          "assessedAt": "2026-10-05",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-17",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The coded source describes prior resistance at the exact target: The paper reports that for complete noncompact n-manifolds with Ric≥0, the paper claims (i) a uniform unit-ball volume deficit forces vol B(o,R)≤C(n,ε)R^(n−1), and (ii) Scal≥σ>0 forces vo… This supports non-routine research; whether it settles a genuinely open long-standing target needs a focused reading.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human mathematical frontier immediately before the report. Ordinary specialist research is Expected; substantial non-routine work is Difficult; a reported complete settlement of a genuinely open long-standing target crosses that task-specific frontier. A timed human comparison is not required.",
+          "sourceHash": "3ea60512baff2d26aacab970e3e1ceb5987e6cf48c392d5f91219f7370bc98fa",
+          "assessedAt": "2026-10-06",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-17",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "3581",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in How AI Agents Discover Scientific Equations: From Hydrotope Rediscovery to New Water-Wave Amplitudes. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "09f8a00a22fc814011b5b50153d7a96fa085fdd7055d9ec959e4618d9149ef55",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "establish the formula's exact domain, novelty and priority; obtain an analytic proof or independent symbolic derivation beyond the reported finite exact tests; verify every chamber and separate the rediscovery experiments from the genuinely new three-minus expression. No supplied run record or computation was executed here. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The primary paper says the coordinating and research agents proposed, combined and checked the chamber-dependent formula; this new three-minus expression is distinct from the agents' rediscovery of the already published hydrotope formula."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-09-30",
+            "dateBasis": "Official first-public v1 source at 2026-09-30T17:16:58Z; source: https://arxiv.org/abs/2610.00435v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3582",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in A Proof of the Linear Hadwiger Conjecture. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "2539b9c05457115cdf4ba1173ddccb830e81b92bbd896e30fd63d900d6f6cbd4",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "obtain independent graph-theory review of Theorems 4 and 5 and the reduction to the full conjecture; verify novelty and all imported hypotheses; check that the reported Lean development covers the paper and every external input; reconstruct the model/author contribution trace. The Lean artifact was not executed here. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract says GPT-6 Astra found the proof following author directions; the disclosure says almost none of the authors' proposed proof ideas survived, while the authors rewrote the exposition. It also reports a full Lean formalization produced by Codex 6 Sol and Astra. This is source-reported attribution, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-04",
+            "dateBasis": "Official first-public v1 source at 2026-10-04T15:09:25Z; source: https://arxiv.org/abs/2610.05291v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3583",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in A simple construction of a simple nil ring. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "a402f5ecaf6adf81054731de349d93f9c8129c5e023fa4252098c27704ad4bb0",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify the ring construction and claimed substantial simplification; identify Aristotle (Harmonic), the exact ChatGPT model and their respective mathematical roles; check priority against other simplifications and ensure the contribution is more than a rediscovery or exposition of the 1999 proof. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The abstract attributes the simplified construction to Aristotle (Harmonic) with assistance from ChatGPT."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-04",
+            "dateBasis": "Official first-public v1 source at 2026-10-04T17:14:48Z; source: https://arxiv.org/abs/2610.05384v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3584",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in A Fraction Dimensional Kakeya Compression. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "95059d49a64c0b540ba28befcc5b6c9d8280b186072e8da0ac446c40b43aebe0",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify the Hoermander condition, failure of worst compression and both dimension bounds; compare the construction and scope with the acknowledged concurrent work; establish novelty/priority and the exact human/model allocation. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The abstract says the construction was obtained by leveraging ChatGPT 5.6 Sol and ChatGPT 6 Astra; it also notes concurrent related AI-assisted work."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-04",
+            "dateBasis": "Official first-public v1 source at 2026-10-04T17:42:15Z; source: https://arxiv.org/abs/2610.05404v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3585",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Amicable numbers. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "4bee0f588a79f258300f93378b9778f3adcd11d39ab8f97ac9e0a238fc891a0d",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify the analytic-number-theory argument, constant 1/2 and novelty; check the reported Lean theorem statement, source correspondence, dependencies and kernel result without trusting the source's self-report. The formalization was not executed here. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says ChatGPT Astra produced the proof and a Lean formalization; Paul Pollack cleaned up the argument, accepts responsibility for the mathematics and disclaims discovery credit."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official first-public v1 source at 2026-10-05T01:15:26Z; source: https://arxiv.org/abs/2610.05661v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3586",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Pathological viscosity solutions of Hamilton--Jacobi equations. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "d06efbab7d879da3cfe8be47ffafcc521b896dfe04fa853e3f6b35c75118c743",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify the construction, viscosity-solution quantifiers and dimension-four scope; check novelty and whether lower dimensions remain open; reconstruct the mathematical contribution boundary from the interaction record if one becomes public. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The primary-source disclosure says ChatGPT 6 Pro assisted in developing the pathological construction through iterative discussions guided by the authors; the authors verified and wrote the manuscript."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official first-public v1 source at 2026-10-05T03:35:49Z; source: https://arxiv.org/abs/2610.05736v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3587",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Moment estimates for chaoses with regular moment growth. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "a5b4a804a05a99dc291994c56470c47d841b3c75ed0ca09388138e71e5f094df",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify the upper bound in arbitrary order, the extension from log-concave tails to regular moment growth, constants and novelty; determine which proof steps were model-generated and whether the vague assistance statement reflects a material mathematical role. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says GPT Astra-6 assisted both exploration of arguments and preparation of the text, without a theorem-level contribution map."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official first-public v1 source at 2026-10-05T05:33:44Z; source: https://arxiv.org/abs/2610.05829v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3588",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Golod--Shafarevich for arithmetic surfaces. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "9a1ca409457a61a29f62dd148301b4440c779277c07b8a6a4779f316465cc8e1",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "obtain specialist review of the arithmetic-surface construction, obstruction estimates and all three claimed answers; compare the simultaneous/concurrent literature; verify novelty, statement correspondence and the precise contribution of each model and author. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper says GPT5.6 Sol supplied the key shift to making the tower etale over an auxiliary cover and identified consequences answering the Venkatesh, Bost-Charles and Diem-Frey questions; Fable and Gemini-powered Aletheia also participated. The authors call the work essential human-AI collaboration."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official first-public v1 source at 2026-10-05T14:58:29Z; source: https://arxiv.org/abs/2610.06461v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3589",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Poly and Raby's theorem splits in infinite dimensions. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "c067ef25e894e2d69bdaa4f538deaca73d36421a4199c169819683e049befafd",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "independently verify Example 4.1, the weak-C^k characterization, the pointwise-equicontinuity criterion and claimed novelty; inspect the interaction record if available to map the AI contribution beyond the explicit example. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The disclosure says GPT-6 Astra directly found Example 4.1, which revealed the previously unknown-to-the-author weak-smoothness notion, and supported the rest of the article before author validation and revision."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Official first-public v1 source at 2026-10-05T16:07:05Z; source: https://arxiv.org/abs/2610.06595v1.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3590",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Erdős 1139: large gaps between almost-primes. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "54dcb04e617670b538fd800e9d610c8b2a3863190d408e1fffdc3e5b66a9bed5",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "Independently establish novelty and priority of the unconditional strict limsup >1 and uniform c>1 bounds against Chojecki (Erdős 689), the June 2026 Chojecki–Price–Sherry–Tao candidate proof, and any intervening literature; obtain a claim-level account of the unidentified agent's mathematical contribution; have a number theorist check the formal/informal statement correspondence and the explicit Green–Tao–Ziegler premise; and independently replay the pinned proof package. Do not describe the full infinite-limsup conjecture as unconditionally proved. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The source metadata directly credits an agent with AI-assisted proof development, analytic and combinatorial reductions, statement/axiom audits and Palomar packaging; the model is not identified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Author-owned pinned commit dated 2026-10-05T16:24:00Z; Palomar registered 2026-10-06T00:36:59Z. at 2026-10-05T16:24:00Z. Source: not separately reported.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3591",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in S(6) ≤ 1801 if R₄(3) ≤ 61: a centred Schur bound and the structure at the frontier. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "62c681c3d8b6cb473e7f1c0493afc2654d65198200a580a7f7c479e646c244f9",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "Independently review all fourteen compared statements and the transfer from Ramsey to Schur bounds; verify the external R_4(3)≤61 claim and its certificates separately because this repository treats it only as a hypothesis; compare the claimed centred method and frontier theorems against the inaccessible full texts of Wan and Li and the wider literature; document the exact ChatGPT/Claude/human contribution split; and preserve the conditional wording and the explicit non-claim S(6)≤1800. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The source directly says ChatGPT-based agents first proposed the centred and frontier arguments; Claude audited the bound, checked and restated the frontier argument with explicit hypotheses, and wrote all Lean proofs under Adam McKenna's direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-05",
+            "dateBasis": "Author-owned pinned commit dated 2026-10-05T08:04:11Z; Palomar registered 2026-10-06T01:33:00Z. at 2026-10-05T08:04:11Z. Source: not separately reported.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3592",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in FluidSingularSets. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "7be15a4422603738482795a203e85ab5253f36345a92f9fb5f21382ebb855142",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "Obtain independent PDE-specialist review of both source manuscripts and the exact gauge and localization definitions; establish novelty/priority for the finite successive-log family and 25/23 bound; audit claim-level GPT-6 versus human contribution; check formal/informal statement correspondence and the reused CKN dependency; and independently replay the pinned package. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The source directly credits a GPT-6 Codex agent using Lean tooling, source audit and parallel proof agents to formalize the unconditional gauge family and local box bound under the human maintainer's direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "Author-owned pinned commit dated 2026-10-06T02:55:46Z; Palomar registered 2026-10-06T04:18:16Z. at 2026-10-06T02:55:46Z. Source: not separately reported.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3593",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in The Schur degree of block sums: L(4)=16 and L(5)≥49. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "332fc8964a947783c3bd67f59771b4a0919ebd136ffffa118d3f01bfcaf0e899",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "Seek independent additive-combinatorics review; reproduce the finite and group-partition checks outside this evidence lane; reconcile the paper's L(5)≤61 with the formally certified L(5)≤65 and audit the adaptation of prior source theorems; establish priority/novelty; document the exact human/Claude contribution; and independently replay and align the formal statements. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The source directly says Claude Opus 5.5 produced the sequence W, lift, proofs, programs and Lean formalization under Adam McKenna's direction; an independent Claude instance audited the argument."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "Author-owned pinned commit dated 2026-10-06T04:36:30Z; Palomar registered 2026-10-06T05:54:20Z. The linked source preprint has DOI https://doi.org/10.5281/zenodo.22987189. at 2026-10-06T04:36:30Z. Source: not separately reported.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3594",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in Structured orthogonal and unitary matrices: factorization, geometry and singularities. Human-comparison difficulty remains tentative because target history, scope, correctness, novelty, and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "f31d841826b0c0017bd5c71ca38d00e33dc1d18e2bd6cd932fc718ac6f11dc59",
+          "assessedAt": "2026-10-06",
+          "inclusionConcern": "Resolve the Palomar warning by reconciling the public build guide with the submitted toolchain and mathlib revision; independently verify the sixteen selected statements and formal/informal correspondence; determine which unitary, singularity and shared-geometry extensions are new relative to arXiv:2609.27982 and other literature; document claim-level ChatGPT/human allocation and the historical model; and independently replay the pinned package. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author-owned metadata directly credits OpenAI ChatGPT with Lean proof development, porting and source review under human direction and editing; historical model versions and costs were not recorded. This is source-reported attribution, not an independently reconstructed stage history."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-06",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "Author-owned pinned commit dated 2026-10-06T13:46:13Z; Palomar registered 2026-10-06T17:21:05Z. The source paper is https://arxiv.org/abs/2609.27982v1. at 2026-10-06T13:46:13Z. Source: not separately reported.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

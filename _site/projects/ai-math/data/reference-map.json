@@ -3314,6 +3314,18 @@
       "title": "The Banach isometric conjecture (HTML, v1)",
       "url": "https://arxiv.org/html/2608.13536v1",
       "accessed": "2026-08-14"
+    },
+    {
+      "key": "Daily20261006_265_update_0",
+      "title": "A solution to Banach's isometric conjecture — updated primary evidence",
+      "url": "https://arxiv.org/abs/2608.13536v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_265_update_1",
+      "title": "A solution to Banach's isometric conjecture — updated primary evidence",
+      "url": "https://arxiv.org/html/2608.13536v2",
+      "accessed": "2026-10-06"
     }
   ],
   "266": [
@@ -3550,6 +3562,30 @@
       "title": "Axiom selected publications: partition-parity theorem",
       "url": "https://axiommath.ai/selected-publications",
       "accessed": "2026-08-15"
+    },
+    {
+      "key": "Daily20261006_275_update_0",
+      "title": "Parity of the partition function in quadratic progressions — updated primary evidence",
+      "url": "https://arxiv.org/abs/2509.09553v4",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_275_update_1",
+      "title": "Parity of the partition function in quadratic progressions — updated primary evidence",
+      "url": "https://arxiv.org/html/2509.09553v4",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_275_update_2",
+      "title": "Parity of the partition function in quadratic progressions — updated primary evidence",
+      "url": "https://github.com/AxiomMath/PartitionParity",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_275_update_3",
+      "title": "Parity of the partition function in quadratic progressions — updated primary evidence",
+      "url": "https://github.com/AxiomMath/PartitionZheng",
+      "accessed": "2026-10-06"
     }
   ],
   "276": [
@@ -3690,6 +3726,18 @@
       "title": "A counterexample to Kusner's conjecture on equilateral sets (HTML full text)",
       "url": "https://arxiv.org/html/2608.14013v1",
       "accessed": "2026-08-20"
+    },
+    {
+      "key": "Daily20261006_282_update_0",
+      "title": "A counterexample to Kusner's conjecture on equilateral sets — updated primary evidence",
+      "url": "https://arxiv.org/abs/2608.14013v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_282_update_1",
+      "title": "A counterexample to Kusner's conjecture on equilateral sets — updated primary evidence",
+      "url": "https://arxiv.org/html/2608.14013v2",
+      "accessed": "2026-10-06"
     }
   ],
   "283": [
@@ -3732,6 +3780,18 @@
       "title": "The Sharp Dimension Bound in the Johnson–Lindenstrauss Lemma (HTML full text)",
       "url": "https://arxiv.org/html/2608.13782v1",
       "accessed": "2026-08-20"
+    },
+    {
+      "key": "Daily20261006_285_update_0",
+      "title": "The Sharp Dimension Bound in the Johnson--Lindenstrauss Lemma — updated primary evidence",
+      "url": "https://arxiv.org/abs/2608.13782v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_285_update_1",
+      "title": "The Sharp Dimension Bound in the Johnson--Lindenstrauss Lemma — updated primary evidence",
+      "url": "https://arxiv.org/html/2608.13782v2",
+      "accessed": "2026-10-06"
     }
   ],
   "286": [
@@ -4120,6 +4180,18 @@
       "title": "Positive Scalar Curvature and Volume Growth (HTML full text)",
       "url": "https://arxiv.org/html/2608.13553v1",
       "accessed": "2026-08-20"
+    },
+    {
+      "key": "Daily20261006_312_update_0",
+      "title": "Positive Scalar Curvature and Volume Growth — updated primary evidence",
+      "url": "https://arxiv.org/abs/2608.14438v2",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_312_update_1",
+      "title": "Positive Scalar Curvature and Volume Growth — updated primary evidence",
+      "url": "https://arxiv.org/html/2608.14438v2",
+      "accessed": "2026-10-06"
     }
   ],
   "313": [
@@ -50955,6 +51027,202 @@
       "key": "Daily20261005_3580_support_5",
       "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper — original paper formalized/audited",
       "url": "https://arxiv.org/abs/2502.03415v2",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3581": [
+    {
+      "key": "Daily20261006_3581",
+      "title": "How AI Agents Discover Scientific Equations: From Hydrotope Rediscovery to New Water-Wave Amplitudes — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.00435v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3581_support_0",
+      "title": "How AI Agents Discover Scientific Equations: From Hydrotope Rediscovery to New Water-Wave Amplitudes — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.00435v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3582": [
+    {
+      "key": "Daily20261006_3582",
+      "title": "A Proof of the Linear Hadwiger Conjecture — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05291v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3582_support_0",
+      "title": "A Proof of the Linear Hadwiger Conjecture — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05291v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3583": [
+    {
+      "key": "Daily20261006_3583",
+      "title": "A simple construction of a simple nil ring — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05384v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3583_support_0",
+      "title": "A simple construction of a simple nil ring — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05384v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3584": [
+    {
+      "key": "Daily20261006_3584",
+      "title": "A Fraction Dimensional Kakeya Compression — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05404v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3584_support_0",
+      "title": "A Fraction Dimensional Kakeya Compression — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05404v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3585": [
+    {
+      "key": "Daily20261006_3585",
+      "title": "Amicable numbers — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05661v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3585_support_0",
+      "title": "Amicable numbers — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05661v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3586": [
+    {
+      "key": "Daily20261006_3586",
+      "title": "Pathological viscosity solutions of Hamilton--Jacobi equations — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05736v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3586_support_0",
+      "title": "Pathological viscosity solutions of Hamilton--Jacobi equations — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05736v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3587": [
+    {
+      "key": "Daily20261006_3587",
+      "title": "Moment estimates for chaoses with regular moment growth — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.05829v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3587_support_0",
+      "title": "Moment estimates for chaoses with regular moment growth — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.05829v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3588": [
+    {
+      "key": "Daily20261006_3588",
+      "title": "Golod--Shafarevich for arithmetic surfaces — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.06461v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3588_support_0",
+      "title": "Golod--Shafarevich for arithmetic surfaces — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.06461v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3589": [
+    {
+      "key": "Daily20261006_3589",
+      "title": "Poly and Raby's theorem splits in infinite dimensions — versioned primary evidence 1",
+      "url": "https://arxiv.org/abs/2610.06595v1",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3589_support_0",
+      "title": "Poly and Raby's theorem splits in infinite dimensions — versioned primary evidence 2",
+      "url": "https://arxiv.org/html/2610.06595v1",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3590": [
+    {
+      "key": "Daily20261006_3590",
+      "title": "Erdős 1139: large gaps between almost-primes — primary evidence 1",
+      "url": "https://github.com/linrock/math-proofs/commit/38ad7ea8de1efe526f665c2b5204465e5ed879fe",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3590_support_0",
+      "title": "Erdős 1139: large gaps between almost-primes — primary evidence 2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000001-v1.json",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3591": [
+    {
+      "key": "Daily20261006_3591",
+      "title": "S(6) ≤ 1801 if R₄(3) ≤ 61: a centred Schur bound and the structure at the frontier — primary evidence 1",
+      "url": "https://github.com/mysticflounder/schur-centred-bound/commit/6b1c69732d73428042efce8d563f67604320cad4",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3591_support_0",
+      "title": "S(6) ≤ 1801 if R₄(3) ≤ 61: a centred Schur bound and the structure at the frontier — primary evidence 2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000003-v1.json",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3592": [
+    {
+      "key": "Daily20261006_3592",
+      "title": "FluidSingularSets — primary evidence 1",
+      "url": "https://github.com/CoolRmal/FluidSingularSets/commit/dd3ae61ce421a634818f52a6e11a8b78dd1bfc97",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3592_support_0",
+      "title": "FluidSingularSets — primary evidence 2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000006-v1.json",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3593": [
+    {
+      "key": "Daily20261006_3593",
+      "title": "The Schur degree of block sums: L(4)=16 and L(5)≥49 — primary evidence 1",
+      "url": "https://github.com/mysticflounder/schur-degree-block-sums/commit/933000c135141347835300ca13b3a15ff050d03a",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3593_support_0",
+      "title": "The Schur degree of block sums: L(4)=16 and L(5)≥49 — primary evidence 2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000007-v1.json",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "3594": [
+    {
+      "key": "Daily20261006_3594",
+      "title": "Structured orthogonal and unitary matrices: factorization, geometry and singularities — primary evidence 1",
+      "url": "https://github.com/alialiev78/gs_Lean_formalization/commit/1270ba6cf3050f53a4beb98f0d65ab7459d4494b",
+      "accessed": "2026-10-06"
+    },
+    {
+      "key": "Daily20261006_3594_support_0",
+      "title": "Structured orthogonal and unitary matrices: factorization, geometry and singularities — primary evidence 2",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000011-v1.json",
       "accessed": "2026-10-06"
     }
   ]

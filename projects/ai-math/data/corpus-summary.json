@@ -1,48 +1,39 @@
 {
-  "sourceCount": 3591,
+  "sourceCount": 3605,
   "latestRun": {
-    "id": "2026-10-05-evidence-refresh",
+    "id": "2026-10-06-evidence-refresh",
     "collectionEnded": "2026-08-20",
-    "recordedAt": "2026-10-05",
-    "model": "OpenAI Codex, based on GPT-5",
+    "recordedAt": "2026-10-06",
+    "model": "OpenAI Codex, based on GPT-6.1-sol",
     "modelStatus": "recorded",
-    "entryCount": 3591,
-    "correctionSetId": "reviewed-source-corrections-2026-10-05",
-    "correctionSetSha256": "856a6a6de801227dab53bf2499af25e7404cbf2e57266b7cc0c95c58af98c92e",
-    "coverageNote": "Rolling 29 September–5 October 2026 primary-source refresh through the exact 2026-10-05T22:45:42.282Z cutoff, retaining 28 September for indexing lag. The complete arXiv mathematics and relevant CS/formal-methods window was searched (4,647 unique recent submissions and 4,996 math OAI revision records), alongside Palomar, mandatory sources, targeted primary searches, and recent/provisional records. One record-local retrieval failure remains: the arXiv:2609.06455v2 HTML endpoint returned HTTP 404, while official OAI metadata supported the conservative three-point update. The systematic collectionEnded cutoff remains 2026-08-20 solely because inherited post-cutoff continuity gaps remain; the record-local HTML failure does not block other independently supported records. No downloaded artifact was executed.",
-    "refreshedThrough": "2026-10-05",
-    "summary": "Evidence refresh added 0 confirmed and 20 flagged-provisional result packages, applied 8 unique existing-record updates, quarantined 4 candidates, excluded 60, and brought the corpus to 3591 source packages.",
+    "entryCount": 3605,
+    "correctionSetId": "reviewed-source-corrections-2026-10-06",
+    "correctionSetSha256": "38f0a1bf0dc1205c4b7d3f3430d8a7af1e124778791acd1a9d90ac67325f7a5b",
+    "coverageNote": "Rolling 30 September–6 October 2026 primary-source refresh through the exact 2026-10-06T22:46:05.163Z cutoff. The complete arXiv mathematics and relevant computer-science/formal-methods window was searched (1,738 mathematics records and 4,414 CS records, including 4,201 CS-only records), alongside Palomar, the mandatory primary sources, targeted searches, and recent/provisional records. Nine arXiv records are overlapping-window recoveries that were public before the prior exact cutoff but absent from the corpus. The arXiv:2609.06455v2 HTML endpoint remains unavailable while its official abstract/PDF evidence remains accessible; this retrieval gap is scoped to corpus ID 1390. The systematic collectionEnded cutoff remains 2026-08-20 because inherited post-cutoff continuity gaps remain. No downloaded artifact was executed.",
+    "refreshedThrough": "2026-10-06",
+    "summary": "Evidence refresh added 0 confirmed and 14 flagged-provisional result packages, applied 5 unique existing-record updates, quarantined 0 candidates, excluded 45, and brought the corpus to 3605 source packages.",
     "changes": [
-      "Added flagged-provisional ID 3561 for The equivalence of topological indices for U(1)⋊Z2-symmetric quantum spin chains. The source reports: Proves equivalence of the Ogata operator-algebraic index and Tasaki twist index for the stated integer-spin-chain setting, via a strong-limit half-chain rotation construction and an exact commutator identity with an explicit error bound. Primary source: https://arxiv.org/abs/2609.34119v1. Further checking: Obtain specialist review of the proof and novelty; verify the exact Ogata/Tasaki hypotheses and application; reconstruct the author/model contribution boundary from any retained transcript. No proof was independently checked here.",
-      "Added flagged-provisional ID 3562 for Hitting Sets for Polynomials with Small Partial Derivative Spaces. The source reports: Gives an explicit polynomial-size hitting set in characteristic zero for polynomials whose partial-derivative space has small dimension, with an application to depth-three powering circuits. Primary source: https://arxiv.org/abs/2609.34436v1. Further checking: Independently check the PIT/algebraic-complexity proof, quantitative parameters and novelty; inspect the underlying transcript and map model versus human contributions. No artifact was executed.",
-      "Added flagged-provisional ID 3563 for The complexity of computing the covering radius of a Euclidean lattice. The source reports: Establishes completeness of the Euclidean-lattice covering-radius problem for the second level of the polynomial hierarchy. Primary source: https://arxiv.org/abs/2609.35027v1. Further checking: Have a complexity/lattice specialist verify the reductions, promise/gap and bit-complexity details and priority; identify the exact model and contribution trace.",
-      "Added flagged-provisional ID 3564 for Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms. The source reports: Reports analytic tight convergence bounds resolving the stated Taylor-et-al. conjectures for FGM and OGM and related rational FGM/FISTA cases (Theorems 5.1–5.5). Primary source: https://arxiv.org/abs/2609.35762v1. Further checking: Independently verify all five theorem statements, tightness and novelty; safely inspect but do not execute notebooks or symbolic checks; produce a theorem-level contribution map.",
-      "Added flagged-provisional ID 3565 for Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds. The source reports: Reports sufficient conditions for global F-theory Weierstrass uplifts with terminal quotient singularities and associated correction formulae/local D3 charges, including the stated broader Jefferson–Kim-conjecture result. Primary source: https://arxiv.org/abs/2609.35958v1. Further checking: Obtain algebraic-geometry/string-theory review of Theorem 4.2 and all hypotheses, novelty and formulae; inspect session artifacts without executing them and map exact human/model roles.",
-      "Added flagged-provisional ID 3566 for Infrared Subtraction with Artificial Intelligence. The source reports: Develops and demonstrates an AI-assisted local infrared-subtraction/P2B+EFT construction, including explicit fixed-Born maps/contact formulae and NLO three- and four-jet reconstruction; proposed NNLO extensions are not counted as completed results. Primary source: https://arxiv.org/abs/2609.36007v1. Further checking: Restrict any publication row to demonstrated NLO/general-map results; obtain independent physics review and numerical reproduction; check novelty and exact model/human allocation. Do not count proposed NNLO work.",
-      "Added flagged-provisional ID 3567 for Bouncing-ball modes in ergodic billiards. The source reports: Shows that for almost every horizontal stretch in the stated billiard family there are eigenfunctions concentrating in the rectangular region, while an open parameter set remains ergodic. Primary source: https://arxiv.org/abs/2609.36501v1. Further checking: Have a spectral-theory specialist verify the quasimode argument, parameter hypotheses and novelty, and reconstruct the exact author/model boundary.",
-      "Added flagged-provisional ID 3568 for Coding Agents for Coding Theory. The source reports: Reports E4(6,3)≥120 and twelve additional improvements to lower bounds for edit-distance codes. Primary source: https://arxiv.org/abs/2609.39081v1. Further checking: Independently run separately authored verifiers/search in a controlled review, check all tables and priority, and distinguish classical search methodology from agent-generated engineering.",
-      "Added flagged-provisional ID 3569 for Efficient Online Inverse Optimization with O(d) Regret. The source reports: Gives a deterministic proper anytime online inverse-optimization algorithm with O(d) regret, uniform over the horizon, and O(d²) work per round. Primary source: https://arxiv.org/abs/2609.13440v1. Further checking: Independently review the proof, constants and novelty; separate the Cogentic core from later human extensions; verify model/version and retained run evidence.",
-      "Added flagged-provisional ID 3570 for Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant. The source reports: Provides an anytime prediction-with-expert-advice regret bound whose leading constant asymptotically matches the fixed-time constant in the stated many-expert regime. Primary source: https://arxiv.org/abs/2609.27206v1. Further checking: Independently verify the regret proof, regime, constant and novelty; identify the exact model/version and retained run evidence.",
-      "Added flagged-provisional ID 3571 for Improved Revenue Guarantees for Selling Separately and Bundling. The source reports: Proves OPT≤3.52·max(SREV,BREV) for the stated multi-item revenue setting, improving the earlier 5.2 guarantee. Primary source: https://arxiv.org/abs/2609.28873v1. Further checking: Obtain independent mechanism-design review of the proof and numerical constant, check priority, and verify model/version and retained run evidence.",
-      "Added flagged-provisional ID 3572 for The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets. The source reports: Shows that recruiting two additional traders on the smaller side suffices for the stated two-sided-market guarantee, while one does not under the stated DSIC/IR/WBB constraints. Primary source: https://arxiv.org/abs/2609.27304v1. Further checking: Independently verify both the upper and lower bounds and all mechanism assumptions; check novelty, exact model/version and retained run evidence.",
-      "Added flagged-provisional ID 3573 for Shuffle squares in smooth binary words and the Kolakoski sequence. The source reports: Proves the stated shuffle-square theorem for smooth even-Parikh binary words of length at least 18, enumerates 34 shorter exceptions, and derives the stated Kolakoski consequences. Primary source: https://arxiv.org/abs/2610.02262v1. Further checking: Independently verify the combinatorial proof, exception certificate and Kolakoski deductions; check novelty and the human/model split. Do not execute the supplied verifier without controlled review.",
-      "Added flagged-provisional ID 3574 for Sparse coloring for isosceles-free grids: an AI-assisted proof case study. The source reports: Proves C(n)=Ω(n·sqrt(log log n/log n)) for the stated isosceles-free grid coloring problem. Primary source: https://arxiv.org/abs/2610.04194v1. Further checking: Verify applicability of the cited hypergraph-coloring result and all degree/codegree counts, check novelty and finite/asymptotic scope, and reconstruct the contribution trace.",
-      "Added flagged-provisional ID 3575 for Symmetry and AI-assisted discovery of magic-state factories. The source reports: Reports a classified catalog of 699 factory classes (564 described as new), explicit leading factories, and the stated smallest-known pure-T factory with suppression exponent below one. Primary source: https://arxiv.org/abs/2610.06535v1. Further checking: Independently reproduce the catalog and verifier results, compare with prior archives, verify the leading/smallest claims, and map agent suggestions to each retained construction. Do not execute downloaded code here.",
-      "Added flagged-provisional ID 3576 for Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes. The source reports: Reports 1,142 weight-five bivariate-bicycle-code proposals, 1,081 attributed to LLM-generated programs, with exact connected CSS realizations and the stated strongest PBB example [[216,4,10]]. Primary source: https://arxiv.org/abs/2610.06623v1. Further checking: Independently rerun exact distance/connectivity checks, compare against archive and random-search controls, verify all counts and priority, and produce a program/result-level contribution map.",
-      "Added flagged-provisional ID 3577 for An FPRAS for Counting Common Bases of Two Matroids. The source reports: Gives the first claimed FPRAS for counting common bases of two matroids and almost-uniform sampling in the stated oracle setting, via generalized Hadamard-product measures. Primary source: https://arxiv.org/abs/2610.06724v1. Further checking: Obtain independent algorithms/probability review of the proof, runtime and oracle guarantees; check novelty and reconstruct the model/human contribution split.",
-      "Added flagged-provisional ID 3578 for Erdős 1054: sums of smallest divisors. The source reports complete Lean proofs of all three answers to Erdős problem 1054 for the least f(n) representable as a sum of the k smallest divisors: f(n) is not o(n), is not o(n) on any natural-density-one subtype, and limsup f(n)/n is infinite even on every density-one subtype. It additionally reports a uniform lower-density bound c/[A^3(1+log A)^4] for odd n with f(n)>An, an O(delta^3 X) small-ratio upper bound, zero liminf on represented integers, and a two-way density equivalence with even aliquot values. Primary source: https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000005-v1.json. Further checking: independently review all 21 formal theorems and their definitions, the Goldbach bridge, second-moment and Tao–Kovač bounds; establish novelty/priority and separate new quantitative claims from adapted Principia results; obtain the exact model and claim-level AI/human allocation; and independently replay the pinned Lean package and check statement correspondence. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override.",
-      "Added flagged-provisional ID 3579 for The rank-one Dixmier conjecture for elements of mass at most six. The source reports that over every characteristic-zero field, if P and Q in the first Weyl algebra satisfy QP-PQ=1 and P has at most six nonzero homogeneous components for the grading deg X=1 and deg Y=-1, then P and Q generate the algebra; Q is not restricted in degree, order or mass. Primary source: https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000006-v2.json. Further checking: obtain and review a stable manuscript that was public by the cutoff; independently verify the Weyl-algebra mathematics, novelty/priority against Guccione–Guccione–Valqui and related work, the absence of hidden bounds on Q, and formal-statement correspondence; obtain exact Codex/human allocation; and independently replay the pinned Lean package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override.",
-      "Added flagged-provisional ID 3580 for AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper. The source reports: The maintainer reports an AI-produced formal audit of arXiv:2502.03415v2 that identifies eleven statements as false or misprinted as printed and formalizes the closest corrected versions: Proposition 1.3.1; the odd-n case of Lemma 2.2.1; the Spin/GL image claim; Remark 2.2.5; signs in Remark 2.3.1 and Lemma 6.3.2; equation (8.1.2), which needs End_Q(X)=Q; the involution and a coefficient in section 8.1; a group in Lemma 2.2.2; and Remark 10.1.2(1) for d=0. The source also reports a misprinted basis in Example 10.2.2, documents wrong proof steps and named gaps, supplies corrected or alternative arguments, and says none of these changes affects Theorems 1.4.1 or 1.5.1 or Corollary 1.6.1. Primary source: https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000007-v1.json. Further checking: obtain independent human/specialist review of each of the eleven corrected statements, the additional basis misprint, every claimed proof error/gap and the claim that the main results are unaffected; verify source-TeX and Lean-statement correspondence and the conditional model boundaries; determine novelty/priority and whether findings were communicated to or accepted by Eyal Markman; obtain claim-level human/Claude allocation; and independently replay the pinned package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override.",
-      "Updated existing ID 1387 (A spectral gap for Metropolis-adjusted Langevin algorithm with a uniformly randomized step size): ai_attribution_and_reference_version_refresh. Further checking: Align the corpus reference to v4; compare v3/v4 theorem statements; independently review proof and Lean/simulation correspondence and the precise contribution trace. Primary source: https://arxiv.org/abs/2609.05847v4.",
-      "Updated existing ID 1390 (A three-point set with noncompact closed convex hull in a Hadamard space): major_claim_strengthening_and_ai_attribution_refresh. Further checking: Retrieve and inspect v2 full text when available; independently verify the three-point construction, CAT(1)/cone arguments and novelty; establish exact model/human attribution. Primary source: https://arxiv.org/abs/2609.06455v2.",
-      "Updated existing ID 3004 (The Moreau-Yosida approximation of the Entanglement of Formation: basic properties and accuracy estimates): reference_version_refresh. Further checking: Compare v1/v2 line by line, pin exactly which special-state results involved ChatGPT and whether any result scope changed; independently review those arguments. Primary source: https://arxiv.org/abs/2609.30246v2.",
-      "Updated existing ID 3175 (Matching algebras and their Dunkl subalgebras): ai_attribution_and_reference_version_refresh. Further checking: Align the record to v2; map every section-5 proposition/proof to the disclosure; compare theorem statements with v1 and independently review proof validity and novelty. Primary source: https://arxiv.org/abs/2609.34260v2.",
-      "Updated existing ID 3455 (An O(1) Bound for the KLS Constant): major_claim_and_title_strengthening. Further checking: Obtain independent convex-geometry/KLS specialist verification of the complete v2 argument and universal constants; compare v1 and v2 line by line; establish novelty and priority; and reconstruct the material path from the jointly developed log^(1/6) intermediate argument to the author-described O(1) proof. Do not execute downloaded artifacts in the publication lane. Primary source: https://arxiv.org/abs/2610.01447v2.",
-      "Updated existing ID 3494 (Removing spurious minima for planar features by skip connections): ai_attribution_and_source_reported_formal_verification_refresh. Further checking: Independently replay the pinned Lean project and verify all five advertised theorem entry points, axioms and manuscript-to-formal-statement correspondence; independently review the mathematical proofs and novelty; and obtain exact claim-level human/model allocation. Do not count the paper's own replay report as independent verification. Primary source: https://arxiv.org/abs/2610.01728v2.",
-      "Updated existing ID 3518 (Watkins's conjecture holds for all infinite groups): ai_attribution_and_revision_metadata_refresh. Further checking: Independently verify the infinite/transfinite construction, the Watkins conclusion, Cayley-index classification and added ORR consequence; inspect the finite programs as inert evidence before any separately authorized replay; establish claim-level allocation and v1-v2 correspondence. Primary source: https://arxiv.org/abs/2610.01049v2.",
-      "Updated existing ID 3519 (A characterization of the Ree curve): ai_attribution_scope_correction. Further checking: Determine whether any GPT-6 or Claude contribution enters the s>=3 characterization theorem rather than only the out-of-range q0=3,9 cases; independently verify the characterization, symbolic identities, certificates and code; and establish claim-level correspondence before treating the AI contribution as material to the anchor. Primary source: https://arxiv.org/abs/2610.00189v2.",
-      "Quarantined 4 deduplicated candidates; see candidateDecisions.quarantine for record-local reasons and primary links.",
-      "Excluded 60 deduplicated candidates under corpus rules; see candidateDecisions.exclude for primary links and reasons.",
+      "Added include_flagged ID 3581 for How AI Agents Discover Scientific Equations: From Hydrotope Rediscovery to New Water-Wave Amplitudes. The source reports: a PI/two-student agent team produced a new independent analytic expression for the six-point, three-negative-wavenumber deep-water surface-wave amplitude; the expression passed 140 exact tests in 58 chambers, but the paper supplies no analytic proof. Primary source: https://arxiv.org/abs/2610.00435v1. Further checking: establish the formula's exact domain, novelty and priority; obtain an analytic proof or independent symbolic derivation beyond the reported finite exact tests; verify every chamber and separate the rediscovery experiments from the genuinely new three-minus expression. No supplied run record or computation was executed here.",
+      "Added include_flagged ID 3582 for A Proof of the Linear Hadwiger Conjecture. The source reports: a proof of the Linear Hadwiger Conjecture: there is an absolute integer C such that every K_t-minor-free graph is Ct-colorable. Primary source: https://arxiv.org/abs/2610.05291v1. Further checking: obtain independent graph-theory review of Theorems 4 and 5 and the reduction to the full conjecture; verify novelty and all imported hypotheses; check that the reported Lean development covers the paper and every external input; reconstruct the model/author contribution trace. The Lean artifact was not executed here.",
+      "Added include_flagged ID 3583 for A simple construction of a simple nil ring. The source reports: The paper presents a substantially simplified construction/proof that over every countable field there exists a simple associative nil algebra, a theorem first established by Smoktunowicz. Primary source: https://arxiv.org/abs/2610.05384v1. Further checking: independently verify the ring construction and claimed substantial simplification; identify Aristotle (Harmonic), the exact ChatGPT model and their respective mathematical roles; check priority against other simplifications and ensure the contribution is more than a rediscovery or exposition of the 1999 proof.",
+      "Added include_flagged ID 3584 for A Fraction Dimensional Kakeya Compression. The source reports: an explicit curved-Kakeya family in R^3 satisfying the Hoermander condition and failing worst compression whose union has Hausdorff and upper box dimension 5/2, answering a question in arXiv:2607.27629. Primary source: https://arxiv.org/abs/2610.05404v1. Further checking: independently verify the Hoermander condition, failure of worst compression and both dimension bounds; compare the construction and scope with the acknowledged concurrent work; establish novelty/priority and the exact human/model allocation.",
+      "Added include_flagged ID 3585 for Amicable numbers. The source reports: the upper bound A(x) <= x exp{-(1/2+o(1)) log x log_3 x / log_2 x} for the count of amicable numbers up to x, described as the first bound of the expected shape. Primary source: https://arxiv.org/abs/2610.05661v1. Further checking: independently verify the analytic-number-theory argument, constant 1/2 and novelty; check the reported Lean theorem statement, source correspondence, dependencies and kernel result without trusting the source's self-report. The formalization was not executed here.",
+      "Added include_flagged ID 3586 for Pathological viscosity solutions of Hamilton--Jacobi equations. The source reports: a continuous u on the closed unit ball in R^4 and a smooth autonomous H:R^4->[1,2] for which the same u is a viscosity solution of H(Du)=c for every c in [1,2]. Primary source: https://arxiv.org/abs/2610.05736v1. Further checking: independently verify the construction, viscosity-solution quantifiers and dimension-four scope; check novelty and whether lower dimensions remain open; reconstruct the mathematical contribution boundary from the interaction record if one becomes public.",
+      "Added include_flagged ID 3587 for Moment estimates for chaoses with regular moment growth. The source reports: two-sided moment estimates for decoupled chaoses of arbitrary order with independent symmetric variables of regular moment growth, plus tail bounds and explicit Rademacher and Weibull formulae. Primary source: https://arxiv.org/abs/2610.05829v1. Further checking: independently verify the upper bound in arbitrary order, the extension from log-concave tails to regular moment growth, constants and novelty; determine which proof steps were model-generated and whether the vague assistance statement reflects a material mathematical role.",
+      "Added include_flagged ID 3588 for Golod--Shafarevich for arithmetic surfaces. The source reports: Golod-Shafarevich towers of arithmetic surfaces over the integers, yielding an arithmetic surface with section and infinite geometric etale fundamental group, curves over Q with infinite geometric etale towers in which a rational point splits completely, and a sequence with logarithmic conductor growing at most linearly with genus. Primary source: https://arxiv.org/abs/2610.06461v1. Further checking: obtain specialist review of the arithmetic-surface construction, obstruction estimates and all three claimed answers; compare the simultaneous/concurrent literature; verify novelty, statement correspondence and the precise contribution of each model and author.",
+      "Added include_flagged ID 3589 for Poly and Raby's theorem splits in infinite dimensions. The source reports: in infinite-dimensional Hilbert spaces C^k smoothness of squared distance characterizes weakly C^k submanifolds, while C^k submanifolds require an additional pointwise equicontinuity condition; it supplies a tight counterexample separating the notions. Primary source: https://arxiv.org/abs/2610.06595v1. Further checking: independently verify Example 4.1, the weak-C^k characterization, the pointwise-equicontinuity criterion and claimed novelty; inspect the interaction record if available to map the AI contribution beyond the explicit example.",
+      "Added include_flagged ID 3590 for Erdős 1139: large gaps between almost-primes. The source reports: unconditional Lean proofs that the normalized gap limsup for consecutive P_2 almost-primes is at least a constant A>1 and that every sufficiently large X contains a P_2-free interval of length at least c log X for a fixed c>1, plus the stated CRT, primorial and squared-core reductions. The full infinite-limsup conjecture is only conditional on an explicit Green–Tao–Ziegler linear-forms premise, and the repository also proves a reverse implication from that premise to prime arithmetic progressions of arbitrary length. Primary source: https://github.com/linrock/math-proofs/commit/38ad7ea8de1efe526f665c2b5204465e5ed879fe. Further checking: Independently establish novelty and priority of the unconditional strict limsup >1 and uniform c>1 bounds against Chojecki (Erdős 689), the June 2026 Chojecki–Price–Sherry–Tao candidate proof, and any intervening literature; obtain a claim-level account of the unidentified agent's mathematical contribution; have a number theorist check the formal/informal statement correspondence and the explicit Green–Tao–Ziegler premise; and independently replay the pinned proof package. Do not describe the full infinite-limsup conjecture as unconditionally proved.",
+      "Added include_flagged ID 3591 for S(6) ≤ 1801 if R₄(3) ≤ 61: a centred Schur bound and the structure at the frontier. The source reports: a general centred implication R_k(3)≤r => S(k+1)≤2(k+1) floor((r-1)/2)+1, giving S(3)≤13 and, under the explicit unproved premise R_4(3)≤61, S(6)≤1801, together with exact frontier-structure theorems. It explicitly does not prove R_4(3)≤61 or S(6)≤1800. Primary source: https://github.com/mysticflounder/schur-centred-bound/commit/6b1c69732d73428042efce8d563f67604320cad4. Further checking: Independently review all fourteen compared statements and the transfer from Ramsey to Schur bounds; verify the external R_4(3)≤61 claim and its certificates separately because this repository treats it only as a hypothesis; compare the claimed centred method and frontier theorems against the inaccessible full texts of Wan and Li and the wider literature; document the exact ChatGPT/Claude/human contribution split; and preserve the conditional wording and the explicit non-claim S(6)≤1800.",
+      "Added include_flagged ID 3592 for FluidSingularSets. The source reports: Hausdorff nullity for every finite product of squared successive-logarithm gauges and an upper parabolic box-dimension bound 25/23 for compact interior singular sets of unforced three-dimensional suitable weak Navier–Stokes solutions. Primary source: https://github.com/CoolRmal/FluidSingularSets/commit/dd3ae61ce421a634818f52a6e11a8b78dd1bfc97. Further checking: Obtain independent PDE-specialist review of both source manuscripts and the exact gauge and localization definitions; establish novelty/priority for the finite successive-log family and 25/23 bound; audit claim-level GPT-6 versus human contribution; check formal/informal statement correspondence and the reused CKN dependency; and independently replay the pinned package.",
+      "Added include_flagged ID 3593 for The Schur degree of block sums: L(4)=16 and L(5)≥49. The source reports: Lean proofs L(4)=16 and 49≤L(5)≤65, a lift from sumfree group partitions to block-sum sequences, and thereby counterexamples at n=4 and n=5 to Eliahou–Revuelta's conjecture L(n)=S(n-1)+1. The paper's external upper bound is 61, while the Lean development proves only 65 via R_4(3)≤66. Primary source: https://github.com/mysticflounder/schur-degree-block-sums/commit/933000c135141347835300ca13b3a15ff050d03a. Further checking: Seek independent additive-combinatorics review; reproduce the finite and group-partition checks outside this evidence lane; reconcile the paper's L(5)≤61 with the formally certified L(5)≤65 and audit the adaptation of prior source theorems; establish priority/novelty; document the exact human/Claude contribution; and independently replay and align the formal statements.",
+      "Added include_flagged ID 3594 for Structured orthogonal and unitary matrices: factorization, geometry and singularities. The source reports: two- and three-layer orthogonal/unitary factorization results, explicit four-layer counterexamples, exact two-factor cell-rank and cosine-sine exhaustion results, shared-orbit differential geometry, and genuine topological singularities for all real q≥3 and odd unitary q≥3. It excludes experimental special-unitary drafts and the listed remaining problems. Primary source: https://github.com/alialiev78/gs_Lean_formalization/commit/1270ba6cf3050f53a4beb98f0d65ab7459d4494b. Further checking: Resolve the Palomar warning by reconciling the public build guide with the submitted toolchain and mathlib revision; independently verify the sixteen selected statements and formal/informal correspondence; determine which unitary, singularity and shared-geometry extensions are new relative to arXiv:2609.27982 and other literature; document claim-level ChatGPT/human allocation and the historical model; and independently replay the pinned package.",
+      "Updated existing ID 265 (A solution to Banach's isometric conjecture): references_only_current_version_refresh. Further checking: Independently verify the major theorem and novelty and pin model contribution after the human reduction. Primary source: https://arxiv.org/abs/2608.13536v2.",
+      "Updated existing ID 275 (Parity of the partition function in quadratic progressions): claim_and_formalization_scope_expansion. Further checking: Independently verify Corollary 2 and replay the pinned PartitionParity and PartitionZheng Lean developments; check manuscript-to-formal-statement correspondence and all designated classical hypotheses; verify the v3-to-v4 change set; and keep clear that the Lean artifacts omit the Borcherds-lift/divisor construction, characteristic-2 geometry, parity-elimination arguments and propagation theorem. Clarify whether AxiomProver contributed to discovery or only formalized author-supplied arguments. Keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Primary source: https://arxiv.org/abs/2509.09553v4.",
+      "Updated existing ID 282 (A counterexample to Kusner's conjecture on equilateral sets): references_only_current_version_refresh. Further checking: Independently replay the exact verifier, audit the certificate/configuration and search provenance, establish novelty and priority, and resolve the remaining open interval; keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Primary source: https://arxiv.org/abs/2608.14013v2.",
+      "Updated existing ID 285 (The Sharp Dimension Bound in the Johnson--Lindenstrauss Lemma): ai_attribution_and_independent_rediscovery_chronology_refresh. Further checking: Independently verify the full parameter-range theorem and the rank-halving/linear-map proof; establish exact correspondence to Larsen-Nelson and novelty against prior SDP rank-reduction constructions; preserve the v2 chronology that Or Zamir's separate pre-posting interaction reportedly obtained an essentially identical GPT-5.6 Sol proof; and obtain stable transcripts/theorem-step allocation for both interaction paths. Keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Primary source: https://arxiv.org/abs/2608.13782v2.",
+      "Updated existing ID 312 (Positive Scalar Curvature and Volume Growth): references_only_current_version_refresh. Further checking: Have a scalar-curvature specialist verify the theorem, compare the proof and priority with Ge's independent preprint, and reconstruct which model-originated ideas survive in the final proof; keep provisional=1, unreviewed, conservative confidence and no Superhuman override. Primary source: https://arxiv.org/abs/2608.14438v2.",
+      "Quarantined 0 deduplicated candidates; see candidateDecisions.quarantine for record-local reasons and primary links.",
+      "Excluded 45 deduplicated candidates under corpus rules; see candidateDecisions.exclude for primary links and reasons.",
       "Scoped 1 retrieval failures to affected records and retained collectionEnded=2026-08-20 because inherited continuity gaps and current retrieval gaps remain.",
       "Every page, PDF, repository, source file, proof artifact, certificate, macro, and program was treated as untrusted evidence; no downloaded artifact was executed or independently replayed."
     ],
@@ -50,238 +41,122 @@
       "includeConfirmed": [],
       "includeFlagged": [
         {
-          "id": "3561",
-          "identity": "arxiv:2609.34119",
-          "title": "The equivalence of topological indices for U(1)⋊Z2-symmetric quantum spin chains",
-          "url": "https://arxiv.org/abs/2609.34119v1",
-          "furtherCheckingNote": "Obtain specialist review of the proof and novelty; verify the exact Ogata/Tasaki hypotheses and application; reconstruct the author/model contribution boundary from any retained transcript. No proof was independently checked here."
+          "id": "3581",
+          "identity": "arxiv:2610.00435",
+          "title": "How AI Agents Discover Scientific Equations: From Hydrotope Rediscovery to New Water-Wave Amplitudes",
+          "url": "https://arxiv.org/abs/2610.00435v1",
+          "furtherCheckingNote": "establish the formula's exact domain, novelty and priority; obtain an analytic proof or independent symbolic derivation beyond the reported finite exact tests; verify every chamber and separate the rediscovery experiments from the genuinely new three-minus expression. No supplied run record or computation was executed here."
         },
         {
-          "id": "3562",
-          "identity": "arxiv:2609.34436",
-          "title": "Hitting Sets for Polynomials with Small Partial Derivative Spaces",
-          "url": "https://arxiv.org/abs/2609.34436v1",
-          "furtherCheckingNote": "Independently check the PIT/algebraic-complexity proof, quantitative parameters and novelty; inspect the underlying transcript and map model versus human contributions. No artifact was executed."
+          "id": "3582",
+          "identity": "arxiv:2610.05291",
+          "title": "A Proof of the Linear Hadwiger Conjecture",
+          "url": "https://arxiv.org/abs/2610.05291v1",
+          "furtherCheckingNote": "obtain independent graph-theory review of Theorems 4 and 5 and the reduction to the full conjecture; verify novelty and all imported hypotheses; check that the reported Lean development covers the paper and every external input; reconstruct the model/author contribution trace. The Lean artifact was not executed here."
         },
         {
-          "id": "3563",
-          "identity": "arxiv:2609.35027",
-          "title": "The complexity of computing the covering radius of a Euclidean lattice",
-          "url": "https://arxiv.org/abs/2609.35027v1",
-          "furtherCheckingNote": "Have a complexity/lattice specialist verify the reductions, promise/gap and bit-complexity details and priority; identify the exact model and contribution trace."
+          "id": "3583",
+          "identity": "arxiv:2610.05384",
+          "title": "A simple construction of a simple nil ring",
+          "url": "https://arxiv.org/abs/2610.05384v1",
+          "furtherCheckingNote": "independently verify the ring construction and claimed substantial simplification; identify Aristotle (Harmonic), the exact ChatGPT model and their respective mathematical roles; check priority against other simplifications and ensure the contribution is more than a rediscovery or exposition of the 1999 proof."
         },
         {
-          "id": "3564",
-          "identity": "arxiv:2609.35762",
-          "title": "Peppy: An AI-Assisted Workflow for Tight Convergence Analysis of Optimization Algorithms",
-          "url": "https://arxiv.org/abs/2609.35762v1",
-          "furtherCheckingNote": "Independently verify all five theorem statements, tightness and novelty; safely inspect but do not execute notebooks or symbolic checks; produce a theorem-level contribution map."
+          "id": "3584",
+          "identity": "arxiv:2610.05404",
+          "title": "A Fraction Dimensional Kakeya Compression",
+          "url": "https://arxiv.org/abs/2610.05404v1",
+          "furtherCheckingNote": "independently verify the Hoermander condition, failure of worst compression and both dimension bounds; compare the construction and scope with the acknowledged concurrent work; establish novelty/priority and the exact human/model allocation."
         },
         {
-          "id": "3565",
-          "identity": "arxiv:2609.35958",
-          "title": "Solver Agent: an Agentic AI Framework for Theoretical Physics Computations Applied to F-theory Uplifts of O3-planes and S-folds",
-          "url": "https://arxiv.org/abs/2609.35958v1",
-          "furtherCheckingNote": "Obtain algebraic-geometry/string-theory review of Theorem 4.2 and all hypotheses, novelty and formulae; inspect session artifacts without executing them and map exact human/model roles."
+          "id": "3585",
+          "identity": "arxiv:2610.05661",
+          "title": "Amicable numbers",
+          "url": "https://arxiv.org/abs/2610.05661v1",
+          "furtherCheckingNote": "independently verify the analytic-number-theory argument, constant 1/2 and novelty; check the reported Lean theorem statement, source correspondence, dependencies and kernel result without trusting the source's self-report. The formalization was not executed here."
         },
         {
-          "id": "3566",
-          "identity": "arxiv:2609.36007",
-          "title": "Infrared Subtraction with Artificial Intelligence",
-          "url": "https://arxiv.org/abs/2609.36007v1",
-          "furtherCheckingNote": "Restrict any publication row to demonstrated NLO/general-map results; obtain independent physics review and numerical reproduction; check novelty and exact model/human allocation. Do not count proposed NNLO work."
+          "id": "3586",
+          "identity": "arxiv:2610.05736",
+          "title": "Pathological viscosity solutions of Hamilton--Jacobi equations",
+          "url": "https://arxiv.org/abs/2610.05736v1",
+          "furtherCheckingNote": "independently verify the construction, viscosity-solution quantifiers and dimension-four scope; check novelty and whether lower dimensions remain open; reconstruct the mathematical contribution boundary from the interaction record if one becomes public."
         },
         {
-          "id": "3567",
-          "identity": "arxiv:2609.36501",
-          "title": "Bouncing-ball modes in ergodic billiards",
-          "url": "https://arxiv.org/abs/2609.36501v1",
-          "furtherCheckingNote": "Have a spectral-theory specialist verify the quasimode argument, parameter hypotheses and novelty, and reconstruct the exact author/model boundary."
+          "id": "3587",
+          "identity": "arxiv:2610.05829",
+          "title": "Moment estimates for chaoses with regular moment growth",
+          "url": "https://arxiv.org/abs/2610.05829v1",
+          "furtherCheckingNote": "independently verify the upper bound in arbitrary order, the extension from log-concave tails to regular moment growth, constants and novelty; determine which proof steps were model-generated and whether the vague assistance statement reflects a material mathematical role."
         },
         {
-          "id": "3568",
-          "identity": "arxiv:2609.39081",
-          "title": "Coding Agents for Coding Theory",
-          "url": "https://arxiv.org/abs/2609.39081v1",
-          "furtherCheckingNote": "Independently run separately authored verifiers/search in a controlled review, check all tables and priority, and distinguish classical search methodology from agent-generated engineering."
+          "id": "3588",
+          "identity": "arxiv:2610.06461",
+          "title": "Golod--Shafarevich for arithmetic surfaces",
+          "url": "https://arxiv.org/abs/2610.06461v1",
+          "furtherCheckingNote": "obtain specialist review of the arithmetic-surface construction, obstruction estimates and all three claimed answers; compare the simultaneous/concurrent literature; verify novelty, statement correspondence and the precise contribution of each model and author."
         },
         {
-          "id": "3569",
-          "identity": "arxiv:2609.13440",
-          "title": "Efficient Online Inverse Optimization with O(d) Regret",
-          "url": "https://arxiv.org/abs/2609.13440v1",
-          "furtherCheckingNote": "Independently review the proof, constants and novelty; separate the Cogentic core from later human extensions; verify model/version and retained run evidence."
+          "id": "3589",
+          "identity": "arxiv:2610.06595",
+          "title": "Poly and Raby's theorem splits in infinite dimensions",
+          "url": "https://arxiv.org/abs/2610.06595v1",
+          "furtherCheckingNote": "independently verify Example 4.1, the weak-C^k characterization, the pointwise-equicontinuity criterion and claimed novelty; inspect the interaction record if available to map the AI contribution beyond the explicit example."
         },
         {
-          "id": "3570",
-          "identity": "arxiv:2609.27206",
-          "title": "Prediction with Expert Advice: Anytime Regret with Many Experts Matches the Fixed-Time Constant",
-          "url": "https://arxiv.org/abs/2609.27206v1",
-          "furtherCheckingNote": "Independently verify the regret proof, regime, constant and novelty; identify the exact model/version and retained run evidence."
+          "id": "3590",
+          "identity": "PALOMAR-2026-10-06-000001",
+          "title": "Erdős 1139: large gaps between almost-primes",
+          "url": "https://github.com/linrock/math-proofs/commit/38ad7ea8de1efe526f665c2b5204465e5ed879fe",
+          "furtherCheckingNote": "Independently establish novelty and priority of the unconditional strict limsup >1 and uniform c>1 bounds against Chojecki (Erdős 689), the June 2026 Chojecki–Price–Sherry–Tao candidate proof, and any intervening literature; obtain a claim-level account of the unidentified agent's mathematical contribution; have a number theorist check the formal/informal statement correspondence and the explicit Green–Tao–Ziegler premise; and independently replay the pinned proof package. Do not describe the full infinite-limsup conjecture as unconditionally proved."
         },
         {
-          "id": "3571",
-          "identity": "arxiv:2609.28873",
-          "title": "Improved Revenue Guarantees for Selling Separately and Bundling",
-          "url": "https://arxiv.org/abs/2609.28873v1",
-          "furtherCheckingNote": "Obtain independent mechanism-design review of the proof and numerical constant, check priority, and verify model/version and retained run evidence."
+          "id": "3591",
+          "identity": "PALOMAR-2026-10-06-000003",
+          "title": "S(6) ≤ 1801 if R₄(3) ≤ 61: a centred Schur bound and the structure at the frontier",
+          "url": "https://github.com/mysticflounder/schur-centred-bound/commit/6b1c69732d73428042efce8d563f67604320cad4",
+          "furtherCheckingNote": "Independently review all fourteen compared statements and the transfer from Ramsey to Schur bounds; verify the external R_4(3)≤61 claim and its certificates separately because this repository treats it only as a hypothesis; compare the claimed centred method and frontier theorems against the inaccessible full texts of Wan and Li and the wider literature; document the exact ChatGPT/Claude/human contribution split; and preserve the conditional wording and the explicit non-claim S(6)≤1800."
         },
         {
-          "id": "3572",
-          "identity": "arxiv:2609.27304",
-          "title": "The Power of Recruiting the Smaller Side: Two Additional Traders Suffice in Two-Sided Markets",
-          "url": "https://arxiv.org/abs/2609.27304v1",
-          "furtherCheckingNote": "Independently verify both the upper and lower bounds and all mechanism assumptions; check novelty, exact model/version and retained run evidence."
+          "id": "3592",
+          "identity": "PALOMAR-2026-10-06-000006",
+          "title": "FluidSingularSets",
+          "url": "https://github.com/CoolRmal/FluidSingularSets/commit/dd3ae61ce421a634818f52a6e11a8b78dd1bfc97",
+          "furtherCheckingNote": "Obtain independent PDE-specialist review of both source manuscripts and the exact gauge and localization definitions; establish novelty/priority for the finite successive-log family and 25/23 bound; audit claim-level GPT-6 versus human contribution; check formal/informal statement correspondence and the reused CKN dependency; and independently replay the pinned package."
         },
         {
-          "id": "3573",
-          "identity": "arxiv:2610.02262",
-          "title": "Shuffle squares in smooth binary words and the Kolakoski sequence",
-          "url": "https://arxiv.org/abs/2610.02262v1",
-          "furtherCheckingNote": "Independently verify the combinatorial proof, exception certificate and Kolakoski deductions; check novelty and the human/model split. Do not execute the supplied verifier without controlled review."
+          "id": "3593",
+          "identity": "PALOMAR-2026-10-06-000007",
+          "title": "The Schur degree of block sums: L(4)=16 and L(5)≥49",
+          "url": "https://github.com/mysticflounder/schur-degree-block-sums/commit/933000c135141347835300ca13b3a15ff050d03a",
+          "furtherCheckingNote": "Seek independent additive-combinatorics review; reproduce the finite and group-partition checks outside this evidence lane; reconcile the paper's L(5)≤61 with the formally certified L(5)≤65 and audit the adaptation of prior source theorems; establish priority/novelty; document the exact human/Claude contribution; and independently replay and align the formal statements."
         },
         {
-          "id": "3574",
-          "identity": "arxiv:2610.04194",
-          "title": "Sparse coloring for isosceles-free grids: an AI-assisted proof case study",
-          "url": "https://arxiv.org/abs/2610.04194v1",
-          "furtherCheckingNote": "Verify applicability of the cited hypergraph-coloring result and all degree/codegree counts, check novelty and finite/asymptotic scope, and reconstruct the contribution trace."
-        },
-        {
-          "id": "3575",
-          "identity": "arxiv:2610.06535",
-          "title": "Symmetry and AI-assisted discovery of magic-state factories",
-          "url": "https://arxiv.org/abs/2610.06535v1",
-          "furtherCheckingNote": "Independently reproduce the catalog and verifier results, compare with prior archives, verify the leading/smallest claims, and map agent suggestions to each retained construction. Do not execute downloaded code here."
-        },
-        {
-          "id": "3576",
-          "identity": "arxiv:2610.06623",
-          "title": "Large Language Model-Guided Discovery of Weight-Five Bivariate Bicycle Codes",
-          "url": "https://arxiv.org/abs/2610.06623v1",
-          "furtherCheckingNote": "Independently rerun exact distance/connectivity checks, compare against archive and random-search controls, verify all counts and priority, and produce a program/result-level contribution map."
-        },
-        {
-          "id": "3577",
-          "identity": "arxiv:2610.06724",
-          "title": "An FPRAS for Counting Common Bases of Two Matroids",
-          "url": "https://arxiv.org/abs/2610.06724v1",
-          "furtherCheckingNote": "Obtain independent algorithms/probability review of the proof, runtime and oracle guarantees; check novelty and reconstruct the model/human contribution split."
-        },
-        {
-          "id": "3578",
-          "identity": "PALOMAR-2026-10-05-000005",
-          "title": "Erdős 1054: sums of smallest divisors",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000005-v1.json",
-          "furtherCheckingNote": "independently review all 21 formal theorems and their definitions, the Goldbach bridge, second-moment and Tao–Kovač bounds; establish novelty/priority and separate new quantitative claims from adapted Principia results; obtain the exact model and claim-level AI/human allocation; and independently replay the pinned Lean package and check statement correspondence. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override."
-        },
-        {
-          "id": "3579",
-          "identity": "PALOMAR-2026-10-05-000006",
-          "title": "The rank-one Dixmier conjecture for elements of mass at most six",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000006-v2.json",
-          "furtherCheckingNote": "obtain and review a stable manuscript that was public by the cutoff; independently verify the Weyl-algebra mathematics, novelty/priority against Guccione–Guccione–Valqui and related work, the absence of hidden bounds on Q, and formal-statement correspondence; obtain exact Codex/human allocation; and independently replay the pinned Lean package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override."
-        },
-        {
-          "id": "3580",
-          "identity": "PALOMAR-2026-10-05-000007",
-          "title": "AI-assisted formal audit and corrected statements for Markman’s Weil-classes paper",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000007-v1.json",
-          "furtherCheckingNote": "obtain independent human/specialist review of each of the eleven corrected statements, the additional basis misprint, every claimed proof error/gap and the claim that the main results are unaffected; verify source-TeX and Lean-statement correspondence and the conditional model boundaries; determine novelty/priority and whether findings were communicated to or accepted by Eyal Markman; obtain claim-level human/Claude allocation; and independently replay the pinned package. Keep provisional=1, unreviewed, low/conservative confidence, and no strict-policy Superhuman override."
+          "id": "3594",
+          "identity": "PALOMAR-2026-10-06-000011",
+          "title": "Structured orthogonal and unitary matrices: factorization, geometry and singularities",
+          "url": "https://github.com/alialiev78/gs_Lean_formalization/commit/1270ba6cf3050f53a4beb98f0d65ab7459d4494b",
+          "furtherCheckingNote": "Resolve the Palomar warning by reconciling the public build guide with the submitted toolchain and mathlib revision; independently verify the sixteen selected statements and formal/informal correspondence; determine which unitary, singularity and shared-geometry extensions are new relative to arXiv:2609.27982 and other literature; document claim-level ChatGPT/human allocation and the historical model; and independently replay the pinned package."
         }
       ],
-      "quarantine": [
-        {
-          "lane": "broad",
-          "lanes": [
-            "broad",
-            "recheck"
-          ],
-          "identity": "PALOMAR-2026-09-30-000025",
-          "title": "Unistationarity of Type II_l and Type V normal forms with nonnegative degradation",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-30-000025-v1.json",
-          "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-09-30-000025-v1.json"
-          ],
-          "disposition": "quarantine",
-          "reason": "Retained quarantine: same-lineage update versus sibling/new result relative to corpus ID 2909 is unresolved, and the formal Type V all-pattern scope still does not cleanly align with the companion manuscript's source-minimal wording. No new version or lineage evidence appeared by the cutoff. It remains unsafe to decide whether this revises corpus ID 2909, forms a sibling package or requires a separate row; the Type V scope remains unreconciled with the companion wording.",
-          "reasons": [
-            "Retained quarantine: same-lineage update versus sibling/new result relative to corpus ID 2909 is unresolved, and the formal Type V all-pattern scope still does not cleanly align with the companion manuscript's source-minimal wording.",
-            "No new version or lineage evidence appeared by the cutoff. It remains unsafe to decide whether this revises corpus ID 2909, forms a sibling package or requires a separate row; the Type V scope remains unreconciled with the companion wording."
-          ]
-        },
-        {
-          "lane": "broad",
-          "lanes": [
-            "broad"
-          ],
-          "identity": "fks-problem-one-c9-square",
-          "title": "A d=4 counterexample to the Frankl–Kalai–Szegedy problem from the square of C9",
-          "url": "https://github.com/anshM123/FKS-Problem-One/tree/447a137e86d85e72ae472078021a387730c20f6a",
-          "urls": [
-            "https://github.com/anshM123/FKS-Problem-One/tree/447a137e86d85e72ae472078021a387730c20f6a"
-          ],
-          "disposition": "quarantine",
-          "reason": "Retained external quarantine: the repository still reports the bounded counterexample/smallest-order claim, but no direct primary-source AI acknowledgment was found, so the minimum AI-evidence floor is not met.",
-          "reasons": [
-            "Retained external quarantine: the repository still reports the bounded counterexample/smallest-order claim, but no direct primary-source AI acknowledgment was found, so the minimum AI-evidence floor is not met."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "cogentic:generalized-proportional-first-price-auctions",
-          "title": "Efficiency of generalized proportional first-price auctions under auto-bidding",
-          "url": "https://arxiv.org/abs/2609.40324v2",
-          "urls": [
-            "https://arxiv.org/abs/2609.40324v2",
-            "https://arxiv.org/html/2609.40324v2",
-            "https://arxiv.org/abs/2609.40324v1"
-          ],
-          "disposition": "quarantine",
-          "reason": "Locate a dated public companion or authors’ primary result page; confirm author identity, exact theorem statement and constants, hypotheses, novelty, and the retained run evidence before inclusion.",
-          "reasons": [
-            "Locate a dated public companion or authors’ primary result page; confirm author identity, exact theorem statement and constants, hypotheses, novelty, and the retained run evidence before inclusion."
-          ]
-        },
-        {
-          "lane": "recheck",
-          "lanes": [
-            "recheck"
-          ],
-          "identity": "arxiv:2606.13628",
-          "title": "AI-assisted quadratic determinantal-complexity lower-bound claim",
-          "url": "https://arxiv.org/abs/2606.13628",
-          "urls": [
-            "https://arxiv.org/abs/2606.13628"
-          ],
-          "disposition": "quarantine",
-          "reason": "Exclude arXiv:2609.34462 as a new AI-result row. Separately quarantine arXiv:2606.13628 as a possible backfill/status-review lead; compare its exact theorem and proof with the human result and seek independent specialist review before any inclusion or status statement.",
-          "reasons": [
-            "Exclude arXiv:2609.34462 as a new AI-result row. Separately quarantine arXiv:2606.13628 as a possible backfill/status-review lead; compare its exact theorem and proof with the human result and seek independent specialist review before any inclusion or status statement."
-          ]
-        }
-      ],
+      "quarantine": [],
       "exclude": [
         {
           "lane": "broad",
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000001",
-          "title": "Fundamental Groups of Arbitrary Higher-Cell Attachments",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000001-v1.json",
+          "identity": "PALOMAR-2026-10-06-000002",
+          "title": "Sierpinski Closed Partitions of Continua",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000002-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000001-v1.json",
-            "https://github.com/Arthur742Ramos/higher-cell-attachment-lean/tree/bcf788e349b4969f4d8379ee9cb4df7a28352af1",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37252822696"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000002-v1.json",
+            "https://github.com/Arthur742Ramos/sierpinski-closed-partition-lean/commit/406069edac48c4845bbf303ecc83ee9ef000b99a"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "Formalization of a classical theorem from cited Washington University topology notes (a countable disjoint closed cover of a nonempty compact connected Hausdorff space has a whole-space piece), plus standard corollaries; no separately qualifying new mathematical result.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
+            "Formalization of a classical theorem from cited Washington University topology notes (a countable disjoint closed cover of a nonempty compact connected Hausdorff space has a whole-space piece), plus standard corollaries; no separately qualifying new mathematical result."
           ]
         },
         {
@@ -289,18 +164,17 @@
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000002",
-          "title": "Erdős 2: minimum modulus of distinct covering systems",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000002-v1.json",
+          "identity": "PALOMAR-2026-10-06-000004",
+          "title": "Erdős 575: bipartite extremal-graph compactness",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000004-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000002-v1.json",
-            "https://github.com/linrock/math-proofs/tree/7caa4144741e10f96cf79d6f7313a0efd9a18b67",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37260288416"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000004-v1.json",
+            "https://github.com/linrock/math-proofs/commit/b135fd8f6e5ee25129c4855e06c93739dd80651d"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "The cyclic-family component is an exact duplicate/port of the live corpus portfolio ID 108, whose claim already records a finite connected bipartite cyclic family violating extremal-number compactness with the same O(n^(21/16)) versus Ω(n^(4/3)) gap. The forest family F_0={K_{1,2},2K_2} formalizes the already public Wigderson/Lefkowitz counterexample. No independently new qualifying mathematical result or status change was isolated.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
+            "The cyclic-family component is an exact duplicate/port of the live corpus portfolio ID 108, whose claim already records a finite connected bipartite cyclic family violating extremal-number compactness with the same O(n^(21/16)) versus Ω(n^(4/3)) gap. The forest family F_0={K_{1,2},2K_2} formalizes the already public Wigderson/Lefkowitz counterexample. No independently new qualifying mathematical result or status change was isolated."
           ]
         },
         {
@@ -308,18 +182,17 @@
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000003",
-          "title": "Linear-Time Triangulation of Simple Polygons (Chazelle's Algorithm) in Lean 4",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000003-v2.json",
+          "identity": "PALOMAR-2026-10-06-000005",
+          "title": "Non-Cut Points of Hausdorff Continua",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000005-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000003-v2.json",
-            "https://github.com/RBarish-UTokyo/LinearTimeTriangulation-ChazelleAlgorithm-Lean4/tree/92cc7745aa026aad3e80e7a72fe88cfbd909614a",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37274336860"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000005-v1.json",
+            "https://github.com/Arthur742Ramos/non-cut-points-lean/commit/b1d0ed0338d098a4c84622828390cc84027df8dc"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "Formalization of classical propositions from Bankston's Metric Topology concerning two non-cut points and the hull of all non-cut points; no separately qualifying new result.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
+            "Formalization of classical propositions from Bankston's Metric Topology concerning two non-cut points and the hull of all non-cut points; no separately qualifying new result."
           ]
         },
         {
@@ -327,18 +200,17 @@
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000004",
-          "title": "Erdős 958: planar point sets with distance multiplicities {1, ..., n - 1}",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000004-v1.json",
+          "identity": "PALOMAR-2026-10-06-000008",
+          "title": "A Hausdorff–packing criterion for self-pinned distance sets",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000008-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000004-v1.json",
-            "https://github.com/linrock/math-proofs/tree/08152671ab394392fd941b18654daba734c26518",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37273363894"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000008-v1.json",
+            "https://github.com/CoolRmal/falconer-packing/commit/70140ccedfb6de71342299523a21b1550df69ab9"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "The bounded Falconer-type theorem is identifiable and original, but the source explicitly limits Codex's documented role to preparing an already existing formalization for Palomar, statement/source audits, module migration and dependency compatibility, without changing the mathematical claim. It expressly lacks a historical AI contribution log for the original proof development. On the available primary evidence the AI role is ancillary submission/migration work rather than a material contribution to the result, so this falls under generic preparation rather than corpus inclusion. Reclassify only if a dated primary source later attributes material AI work on the theorem or proof.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
+            "The bounded Falconer-type theorem is identifiable and original, but the source explicitly limits Codex's documented role to preparing an already existing formalization for Palomar, statement/source audits, module migration and dependency compatibility, without changing the mathematical claim. It expressly lacks a historical AI contribution log for the original proof development. On the available primary evidence the AI role is ancillary submission/migration work rather than a material contribution to the result, so this falls under generic preparation rather than corpus inclusion. Reclassify only if a dated primary source later attributes material AI work on the theorem or proof."
           ]
         },
         {
@@ -346,18 +218,17 @@
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000008",
-          "title": "Superdiffusive central limit theorem for a Brownian particle in a critically-correlated incompressible random drift",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000008-v1.json",
+          "identity": "PALOMAR-2026-10-06-000009",
+          "title": "A Lean 4 formalization of Catalan's conjecture (Mihăilescu's theorem)",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000009-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000008-v1.json",
-            "https://github.com/scottnarmstrong/SuperdiffusionCLT/tree/b407c97da6af47b63f8067aaf531e2e255bfc78d",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37350029816"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000009-v1.json",
+            "https://github.com/cadamcat/catalan-lean4/commit/597469e8eba93909efc94892e6f7df5ea4951fe3"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "Complete AI-assisted Lean formalization of Mihăilescu's already known theorem and cited classical proof, with no separately qualifying new mathematical result. Formalization-only known mathematics is outside the corpus rules.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
+            "Complete AI-assisted Lean formalization of Mihăilescu's already known theorem and cited classical proof, with no separately qualifying new mathematical result. Formalization-only known mathematics is outside the corpus rules."
           ]
         },
         {
@@ -365,324 +236,17 @@
           "lanes": [
             "broad"
           ],
-          "identity": "PALOMAR-2026-10-05-000009",
-          "title": "Boundary Bumping for Closed Subsets of Continua",
-          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000009-v1.json",
+          "identity": "PALOMAR-2026-10-06-000010",
+          "title": "Monotone-Light Factorization of Compact Hausdorff Surjections",
+          "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000010-v1.json",
           "urls": [
-            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-05-000009-v1.json",
-            "https://github.com/Arthur742Ramos/boundary-bumping-lean/tree/58831416a12f73312ac01cdaec19c060a6d4b142",
-            "https://github.com/PalomarRegistry/PalomarSubmission/actions/runs/37380243854"
+            "https://data.palomar-registry.org/entries/PALOMAR-2026-10-06-000010-v1.json",
+            "https://github.com/Arthur742Ramos/monotone-light-factorization-lean/commit/759906c53ae14a660ab0e473dcf075d859c5a5a9"
           ],
           "disposition": "exclude",
-          "reason": "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution.",
+          "reason": "Formalization of Daverman's classical monotone–light factorization and uniqueness theorem for compact Hausdorff surjections; no separately qualifying new mathematical result.",
           "reasons": [
-            "Excluded under the standing rule for formalization of already-known mathematics; the direct AI acknowledgment does not by itself create a separately qualifying mathematical contribution."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.34099",
-          "title": "Constrained Nonconvex Stochastic Optimization with One Projection",
-          "url": "https://arxiv.org/abs/2609.34099v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.34099v1"
-          ],
-          "disposition": "exclude",
-          "reason": "AI/LLM appears only as an application context; no direct AI contribution to the mathematical result.",
-          "reasons": [
-            "AI/LLM appears only as an application context; no direct AI contribution to the mathematical result."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.34193",
-          "title": "A proper dg algebra which does not cogenerate",
-          "url": "https://arxiv.org/abs/2609.34193v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.34193v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3112; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3112; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.34462",
-          "title": "A Quadratic Lower Bound on Determinantal Complexity",
-          "url": "https://arxiv.org/abs/2609.34462v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.34462v1"
-          ],
-          "disposition": "exclude",
-          "reason": "The new proof is human-authored; AI involvement belongs to a prior paper that this note could not verify.",
-          "reasons": [
-            "The new proof is human-authored; AI involvement belongs to a prior paper that this note could not verify."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.34676",
-          "title": "A new proof of two-color partition regularity of Pythagorean triples",
-          "url": "https://arxiv.org/abs/2609.34676v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.34676v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3105; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3105; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.34960",
-          "title": "ProofLoom: Proof-Obligation-Driven Theory Construction for Autoformalizing Research-Level Stochastic Optimization",
-          "url": "https://arxiv.org/abs/2609.34960v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.34960v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Autoformalization workflow/system evaluation rather than a new AI-originated mathematical result.",
-          "reasons": [
-            "Autoformalization workflow/system evaluation rather than a new AI-originated mathematical result."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.35334",
-          "title": "Leiden Declaration on Artificial Intelligence and Mathematics",
-          "url": "https://arxiv.org/abs/2609.35334v2",
-          "urls": [
-            "https://arxiv.org/abs/2609.35334v2"
-          ],
-          "disposition": "exclude",
-          "reason": "Declaration/position paper, not a bounded new mathematical result.",
-          "reasons": [
-            "Declaration/position paper, not a bounded new mathematical result."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.35361",
-          "title": "Disproof of the dominating Hadwiger conjecture",
-          "url": "https://arxiv.org/abs/2609.35361v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.35361v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3145; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3145; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.35632",
-          "title": "Uniqueness of four-body convex central configurations for all masses",
-          "url": "https://arxiv.org/abs/2609.35632v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.35632v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3231; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3231; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.36230",
-          "title": "The Role of Feed-Forward Layers in Transformer Dynamics",
-          "url": "https://arxiv.org/abs/2609.36230v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.36230v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Mathematical analysis of transformer dynamics, not AI participation in mathematical discovery.",
-          "reasons": [
-            "Mathematical analysis of transformer dynamics, not AI participation in mathematical discovery."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.36505",
-          "title": "BRIDGE: Bilevel Retrieval-Credit-Aware Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2609.36505v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.36505v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Machine-learning method paper, not an AI-originated mathematical result.",
-          "reasons": [
-            "Machine-learning method paper, not an AI-originated mathematical result."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.36945",
-          "title": "Fine-Tuning on Self-Generated and Reward-Weighted Data: Learning Dynamics, Convergence Rates, and Benefits of Off-Policyness",
-          "url": "https://arxiv.org/abs/2609.36945v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.36945v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Learning-dynamics theory about model training, not AI participation in mathematical discovery.",
-          "reasons": [
-            "Learning-dynamics theory about model training, not AI participation in mathematical discovery."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.37356",
-          "title": "Teaching LLMs to Generate Challenging MILP Instances via Solver Feedback",
-          "url": "https://arxiv.org/abs/2609.37356v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.37356v1"
-          ],
-          "disposition": "exclude",
-          "reason": "MILP-instance generation benchmark, not a new mathematical proof/result.",
-          "reasons": [
-            "MILP-instance generation benchmark, not a new mathematical proof/result."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.37562",
-          "title": "Every countable group embeds in a group of type $\\mathrm{FP}_n$",
-          "url": "https://arxiv.org/abs/2609.37562v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.37562v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3274; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3274; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.38025",
-          "title": "Dr. OPD: Learning What to Follow for Optimal On-Policy Distillation of Large Language Models",
-          "url": "https://arxiv.org/abs/2609.38025v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.38025v1"
-          ],
-          "disposition": "exclude",
-          "reason": "LLM distillation method, outside the result-level AI-in-mathematics scope.",
-          "reasons": [
-            "LLM distillation method, outside the result-level AI-in-mathematics scope."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.38035",
-          "title": "The finite-horizon five-expert prediction problem",
-          "url": "https://arxiv.org/abs/2609.38035v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.38035v1"
-          ],
-          "disposition": "exclude",
-          "reason": "No direct generative-AI contribution to the new mathematical result was established.",
-          "reasons": [
-            "No direct generative-AI contribution to the new mathematical result was established."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.38417",
-          "title": "The List Total Colouring Conjecture is False",
-          "url": "https://arxiv.org/abs/2609.38417v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.38417v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3334; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3334; no separate row."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.38434",
-          "title": "TACIT: Optimization Models that Learn from Their Mistakes",
-          "url": "https://arxiv.org/abs/2609.38434v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.38434v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Optimization/agent framework paper, not a bounded AI-originated mathematical theorem.",
-          "reasons": [
-            "Optimization/agent framework paper, not a bounded AI-originated mathematical theorem."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2609.38442",
-          "title": "Complex structures on $S^6$",
-          "url": "https://arxiv.org/abs/2609.38442v1",
-          "urls": [
-            "https://arxiv.org/abs/2609.38442v1"
-          ],
-          "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3267; no separate row.",
-          "reasons": [
-            "Exact duplicate of live-corpus record 3267; no separate row."
+            "Formalization of Daverman's classical monotone–light factorization and uniqueness theorem for compact Hausdorff surjections; no separately qualifying new mathematical result."
           ]
         },
         {
@@ -697,9 +261,9 @@
             "https://arxiv.org/abs/2609.38676v1"
           ],
           "disposition": "exclude",
-          "reason": "The authors explicitly state that no generative AI was used for mathematical ideas, results or proofs.",
+          "reason": "The source explicitly says no generative AI was used for the mathematical ideas, results or proofs.",
           "reasons": [
-            "The authors explicitly state that no generative AI was used for mathematical ideas, results or proofs."
+            "The source explicitly says no generative AI was used for the mathematical ideas, results or proofs."
           ]
         },
         {
@@ -714,9 +278,9 @@
             "https://arxiv.org/abs/2610.00364v1"
           ],
           "disposition": "exclude",
-          "reason": "ChatGPT assisted only some prose; no material AI role in the mathematical result was claimed.",
+          "reason": "ChatGPT is acknowledged only for writing parts of the text.",
           "reasons": [
-            "ChatGPT assisted only some prose; no material AI role in the mathematical result was claimed."
+            "ChatGPT is acknowledged only for writing parts of the text."
           ]
         },
         {
@@ -731,9 +295,9 @@
             "https://arxiv.org/abs/2609.39114v1"
           ],
           "disposition": "exclude",
-          "reason": "Theory of an LLM optimizer, not AI participation in mathematical discovery.",
+          "reason": "Mathematical analysis of an LLM optimizer, not AI participation in mathematical discovery.",
           "reasons": [
-            "Theory of an LLM optimizer, not AI participation in mathematical discovery."
+            "Mathematical analysis of an LLM optimizer, not AI participation in mathematical discovery."
           ]
         },
         {
@@ -748,9 +312,9 @@
             "https://arxiv.org/abs/2609.39904v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3406; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3406.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3406; no separate row."
+            "Exact arXiv duplicate of corpus record 3406."
           ]
         },
         {
@@ -765,9 +329,9 @@
             "https://arxiv.org/abs/2609.39917v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3398; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3398.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3398; no separate row."
+            "Exact arXiv duplicate of corpus record 3398."
           ]
         },
         {
@@ -782,9 +346,9 @@
             "https://arxiv.org/abs/2609.40296v1"
           ],
           "disposition": "exclude",
-          "reason": "LLM-assisted supply-chain application/system evaluation, not a new mathematical proof.",
+          "reason": "LLM supply-chain application/framework, not a bounded mathematical discovery.",
           "reasons": [
-            "LLM-assisted supply-chain application/system evaluation, not a new mathematical proof."
+            "LLM supply-chain application/framework, not a bounded mathematical discovery."
           ]
         },
         {
@@ -799,9 +363,9 @@
             "https://arxiv.org/abs/2610.00549v1"
           ],
           "disposition": "exclude",
-          "reason": "The paper explicitly says its results were derived without LLMs; assistance was routine exposition/code/symbolic simplification.",
+          "reason": "The paper explicitly says its results were derived without LLMs; assistance was routine exposition, code and symbolic simplification.",
           "reasons": [
-            "The paper explicitly says its results were derived without LLMs; assistance was routine exposition/code/symbolic simplification."
+            "The paper explicitly says its results were derived without LLMs; assistance was routine exposition, code and symbolic simplification."
           ]
         },
         {
@@ -816,9 +380,26 @@
             "https://arxiv.org/abs/2610.00912v1"
           ],
           "disposition": "exclude",
-          "reason": "Operations-research LLM-routing framework and benchmark, not an AI-originated mathematical result.",
+          "reason": "LLM-routing operations-research framework/benchmark, not AI participation in a new mathematical result.",
           "reasons": [
-            "Operations-research LLM-routing framework and benchmark, not an AI-originated mathematical result."
+            "LLM-routing operations-research framework/benchmark, not AI participation in a new mathematical result."
+          ]
+        },
+        {
+          "lane": "arxiv",
+          "lanes": [
+            "arxiv"
+          ],
+          "identity": "arxiv:2610.02262",
+          "title": "Shuffle squares in smooth binary words and the Kolakoski sequence",
+          "url": "https://arxiv.org/abs/2610.02262v1",
+          "urls": [
+            "https://arxiv.org/abs/2610.02262v1"
+          ],
+          "disposition": "exclude",
+          "reason": "Exact arXiv duplicate of corpus record 3573.",
+          "reasons": [
+            "Exact arXiv duplicate of corpus record 3573."
           ]
         },
         {
@@ -833,9 +414,9 @@
             "https://arxiv.org/abs/2610.01093v1"
           ],
           "disposition": "exclude",
-          "reason": "Language-model grounding/application paper, outside mathematical-result scope.",
+          "reason": "Language-model grounding application for spacecraft planning, not a new mathematical result.",
           "reasons": [
-            "Language-model grounding/application paper, outside mathematical-result scope."
+            "Language-model grounding application for spacecraft planning, not a new mathematical result."
           ]
         },
         {
@@ -850,9 +431,9 @@
             "https://arxiv.org/abs/2610.01121v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3464; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3464.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3464; no separate row."
+            "Exact arXiv duplicate of corpus record 3464."
           ]
         },
         {
@@ -867,9 +448,9 @@
             "https://arxiv.org/abs/2610.01460v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3472; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3472.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3472; no separate row."
+            "Exact arXiv duplicate of corpus record 3472."
           ]
         },
         {
@@ -884,9 +465,9 @@
             "https://arxiv.org/abs/2610.01478v1"
           ],
           "disposition": "exclude",
-          "reason": "Control-theoretic model of LLM systems, not AI participation in mathematical discovery.",
+          "reason": "Theory/model of language-model dynamics, not AI participation in the result.",
           "reasons": [
-            "Control-theoretic model of LLM systems, not AI participation in mathematical discovery."
+            "Theory/model of language-model dynamics, not AI participation in the result."
           ]
         },
         {
@@ -901,9 +482,9 @@
             "https://arxiv.org/abs/2610.01731v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3457; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3457.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3457; no separate row."
+            "Exact arXiv duplicate of corpus record 3457."
           ]
         },
         {
@@ -918,9 +499,9 @@
             "https://arxiv.org/abs/2610.02071v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3476; no separate row.",
+          "reason": "Exact arXiv duplicate of corpus record 3476.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3476; no separate row."
+            "Exact arXiv duplicate of corpus record 3476."
           ]
         },
         {
@@ -935,9 +516,9 @@
             "https://arxiv.org/abs/2610.02128v1"
           ],
           "disposition": "exclude",
-          "reason": "Language-model mention is contextual; no direct AI role in the mathematical result.",
+          "reason": "Language models occur only as an application context for the sampling theory.",
           "reasons": [
-            "Language-model mention is contextual; no direct AI role in the mathematical result."
+            "Language models occur only as an application context for the sampling theory."
           ]
         },
         {
@@ -952,9 +533,9 @@
             "https://arxiv.org/abs/2610.02190v1"
           ],
           "disposition": "exclude",
-          "reason": "LLM fine-tuning optimization theory, not AI participation in mathematical discovery.",
+          "reason": "LLM fine-tuning optimization-method paper, outside result-level AI-in-mathematics scope.",
           "reasons": [
-            "LLM fine-tuning optimization theory, not AI participation in mathematical discovery."
+            "LLM fine-tuning optimization-method paper, outside result-level AI-in-mathematics scope."
           ]
         },
         {
@@ -969,9 +550,9 @@
             "https://arxiv.org/abs/2610.02199v1"
           ],
           "disposition": "exclude",
-          "reason": "LLM optimizer paper, not AI participation in mathematical discovery.",
+          "reason": "LLM optimizer paper, outside result-level AI-in-mathematics scope.",
           "reasons": [
-            "LLM optimizer paper, not AI participation in mathematical discovery."
+            "LLM optimizer paper, outside result-level AI-in-mathematics scope."
           ]
         },
         {
@@ -986,9 +567,9 @@
             "https://arxiv.org/abs/2610.02325v1"
           ],
           "disposition": "exclude",
-          "reason": "The authors explicitly state that no LLM was involved.",
+          "reason": "The full text explicitly states that no LLM was involved.",
           "reasons": [
-            "The authors explicitly state that no LLM was involved."
+            "The full text explicitly states that no LLM was involved."
           ]
         },
         {
@@ -1003,9 +584,9 @@
             "https://arxiv.org/abs/2610.02355v1"
           ],
           "disposition": "exclude",
-          "reason": "LLM-pretraining theory, not AI participation in mathematical discovery.",
+          "reason": "Theory about LLM pretraining, not AI participation in mathematical discovery.",
           "reasons": [
-            "LLM-pretraining theory, not AI participation in mathematical discovery."
+            "Theory about LLM pretraining, not AI participation in mathematical discovery."
           ]
         },
         {
@@ -1020,9 +601,9 @@
             "https://arxiv.org/abs/2610.02500v1"
           ],
           "disposition": "exclude",
-          "reason": "Primarily certifies/catalogues known finite-semigroup results via agentic formalization; no sufficiently bounded new AI-discovered theorem was isolated for this lane.",
+          "reason": "Agentic formalization/cataloguing of known universal-algebra results; no separately bounded new mathematical result isolated.",
           "reasons": [
-            "Primarily certifies/catalogues known finite-semigroup results via agentic formalization; no sufficiently bounded new AI-discovered theorem was isolated for this lane."
+            "Agentic formalization/cataloguing of known universal-algebra results; no separately bounded new mathematical result isolated."
           ]
         },
         {
@@ -1037,9 +618,9 @@
             "https://arxiv.org/abs/2610.03844v1"
           ],
           "disposition": "exclude",
-          "reason": "Education/proxy-problem paper, not a new mathematical result.",
+          "reason": "Mathematics-education paper, not a new mathematical result.",
           "reasons": [
-            "Education/proxy-problem paper, not a new mathematical result."
+            "Mathematics-education paper, not a new mathematical result."
           ]
         },
         {
@@ -1054,9 +635,9 @@
             "https://arxiv.org/abs/2610.03667v1"
           ],
           "disposition": "exclude",
-          "reason": "AI planning/learning paper, outside mathematical-result discovery scope.",
+          "reason": "Machine-learning/planning work, not a mathematical-result contribution.",
           "reasons": [
-            "AI planning/learning paper, outside mathematical-result discovery scope."
+            "Machine-learning/planning work, not a mathematical-result contribution."
           ]
         },
         {
@@ -1071,9 +652,26 @@
             "https://arxiv.org/abs/2610.04140v1"
           ],
           "disposition": "exclude",
-          "reason": "LLM optimizer/training paper, outside mathematical-result discovery scope.",
+          "reason": "Language-model training optimizer, outside result-level scope.",
           "reasons": [
-            "LLM optimizer/training paper, outside mathematical-result discovery scope."
+            "Language-model training optimizer, outside result-level scope."
+          ]
+        },
+        {
+          "lane": "arxiv",
+          "lanes": [
+            "arxiv"
+          ],
+          "identity": "arxiv:2610.04194",
+          "title": "Sparse coloring for isosceles-free grids: an AI-assisted proof case study",
+          "url": "https://arxiv.org/abs/2610.04194v1",
+          "urls": [
+            "https://arxiv.org/abs/2610.04194v1"
+          ],
+          "disposition": "exclude",
+          "reason": "Exact arXiv duplicate of corpus record 3574.",
+          "reasons": [
+            "Exact arXiv duplicate of corpus record 3574."
           ]
         },
         {
@@ -1088,9 +686,9 @@
             "https://arxiv.org/abs/2610.04603v1"
           ],
           "disposition": "exclude",
-          "reason": "The comment explicitly states no LLM was used.",
+          "reason": "The source explicitly states that no LLM was used.",
           "reasons": [
-            "The comment explicitly states no LLM was used."
+            "The source explicitly states that no LLM was used."
           ]
         },
         {
@@ -1105,9 +703,9 @@
             "https://arxiv.org/abs/2610.04631v1"
           ],
           "disposition": "exclude",
-          "reason": "Numerical-linear-algebra analysis of LLMs, not AI participation in mathematical discovery.",
+          "reason": "Numerical-linear-algebra analysis of LLMs, not AI participation in discovery.",
           "reasons": [
-            "Numerical-linear-algebra analysis of LLMs, not AI participation in mathematical discovery."
+            "Numerical-linear-algebra analysis of LLMs, not AI participation in discovery."
           ]
         },
         {
@@ -1115,16 +713,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2609.34460",
-          "title": "When Does Structured Knowledge Help Neural Theorem Proving?",
-          "url": "https://arxiv.org/abs/2609.34460v1",
+          "identity": "arxiv:2610.05169",
+          "title": "Ambiguity-Aware Multi-Agent Framework for Automated Operations Research under Logical Inconsistency",
+          "url": "https://arxiv.org/abs/2610.05169v1",
           "urls": [
-            "https://arxiv.org/abs/2609.34460v1"
+            "https://arxiv.org/abs/2610.05169v1"
           ],
           "disposition": "exclude",
-          "reason": "Benchmark/system study rather than a new mathematical result.",
+          "reason": "Automated operations-research system evaluation, not a separately bounded mathematical discovery.",
           "reasons": [
-            "Benchmark/system study rather than a new mathematical result."
+            "Automated operations-research system evaluation, not a separately bounded mathematical discovery."
           ]
         },
         {
@@ -1132,16 +730,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2609.35606",
-          "title": "TCSAlgBench: Benchmarking Automated Proving for Research-Level Theoretical Computer Science",
-          "url": "https://arxiv.org/abs/2609.35606v1",
+          "identity": "arxiv:2610.05221",
+          "title": "Harnessing LLMs with Direction-Scope Control for Combinatorial Solver Refinement",
+          "url": "https://arxiv.org/abs/2610.05221v1",
           "urls": [
-            "https://arxiv.org/abs/2609.35606v1"
+            "https://arxiv.org/abs/2610.05221v1"
           ],
           "disposition": "exclude",
-          "reason": "Benchmark, not a result-level mathematical contribution.",
+          "reason": "Combinatorial-solver refinement framework, not a separately claimed new theorem.",
           "reasons": [
-            "Benchmark, not a result-level mathematical contribution."
+            "Combinatorial-solver refinement framework, not a separately claimed new theorem."
           ]
         },
         {
@@ -1149,16 +747,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2609.36663",
-          "title": "GenLimitLib: A Formal Library for Language Generation in the Limit and AI-Assisted Mathematical Research",
-          "url": "https://arxiv.org/abs/2609.36663v1",
+          "identity": "arxiv:2610.05558",
+          "title": "An equality condition for the Dobrushin bound on attention rollout and how often it holds in trained transformers",
+          "url": "https://arxiv.org/abs/2610.05558v1",
           "urls": [
-            "https://arxiv.org/abs/2609.36663v1"
+            "https://arxiv.org/abs/2610.05558v1"
           ],
           "disposition": "exclude",
-          "reason": "Exact duplicate of live-corpus record 3285.",
+          "reason": "A theorem about transformer attention rollout; no direct AI contribution to the mathematics is claimed.",
           "reasons": [
-            "Exact duplicate of live-corpus record 3285."
+            "A theorem about transformer attention rollout; no direct AI contribution to the mathematics is claimed."
           ]
         },
         {
@@ -1166,16 +764,50 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2609.38369",
-          "title": "Can an AI Agent Rediscover a Blaschke-Curve Invariant?",
-          "url": "https://arxiv.org/abs/2609.38369v1",
+          "identity": "arxiv:2610.06724",
+          "title": "An FPRAS for Counting Common Bases of Two Matroids",
+          "url": "https://arxiv.org/abs/2610.06724v1",
           "urls": [
-            "https://arxiv.org/abs/2609.38369v1"
+            "https://arxiv.org/abs/2610.06724v1"
           ],
           "disposition": "exclude",
-          "reason": "Controlled numerical rediscovery case study; it expressly does not supply a new proof or establish an agent advantage.",
+          "reason": "Exact arXiv duplicate of corpus record 3577.",
           "reasons": [
-            "Controlled numerical rediscovery case study; it expressly does not supply a new proof or establish an agent advantage."
+            "Exact arXiv duplicate of corpus record 3577."
+          ]
+        },
+        {
+          "lane": "arxiv",
+          "lanes": [
+            "arxiv"
+          ],
+          "identity": "arxiv:2609.39081",
+          "title": "Coding Agents for Coding Theory",
+          "url": "https://arxiv.org/abs/2609.39081v1",
+          "urls": [
+            "https://arxiv.org/abs/2609.39081v1"
+          ],
+          "disposition": "exclude",
+          "reason": "Exact arXiv duplicate of corpus record 3568.",
+          "reasons": [
+            "Exact arXiv duplicate of corpus record 3568."
+          ]
+        },
+        {
+          "lane": "arxiv",
+          "lanes": [
+            "arxiv"
+          ],
+          "identity": "arxiv:2609.39544",
+          "title": "Growing an Agent/Prover Interface: Evolutionary Tool Design for Cost-Efficient Theorem Proving in Rocq and Lean",
+          "url": "https://arxiv.org/abs/2609.39544v1",
+          "urls": [
+            "https://arxiv.org/abs/2609.39544v1"
+          ],
+          "disposition": "exclude",
+          "reason": "Agent/prover interface and system evaluation, not a new mathematical result.",
+          "reasons": [
+            "Agent/prover interface and system evaluation, not a new mathematical result."
           ]
         },
         {
@@ -1190,9 +822,9 @@
             "https://arxiv.org/abs/2609.40324v1"
           ],
           "disposition": "exclude",
-          "reason": "Umbrella systems paper; four public result packages are represented separately and the fifth is quarantined, avoiding double counting.",
+          "reason": "Proof-discovery framework paper; its four identifiable result packages are already corpus records 3569-3572.",
           "reasons": [
-            "Umbrella systems paper; four public result packages are represented separately and the fifth is quarantined, avoiding double counting."
+            "Proof-discovery framework paper; its four identifiable result packages are already corpus records 3569-3572."
           ]
         },
         {
@@ -1200,16 +832,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2610.00885",
-          "title": "FORALL-LEAN-AGENT for Auditable Reasoning in Formal Mathematics and Software Verification",
-          "url": "https://arxiv.org/abs/2610.00885v1",
+          "identity": "arxiv:2610.00707",
+          "title": "Initialization Improves LLM-Driven Discovery",
+          "url": "https://arxiv.org/abs/2610.00707v1",
           "urls": [
-            "https://arxiv.org/abs/2610.00885v1"
+            "https://arxiv.org/abs/2610.00707v1"
           ],
           "disposition": "exclude",
-          "reason": "Agent/tool evaluation rather than a bounded new mathematical result.",
+          "reason": "Discovery-harness ablation/evaluation, not a separately identified new theorem or construction.",
           "reasons": [
-            "Agent/tool evaluation rather than a bounded new mathematical result."
+            "Discovery-harness ablation/evaluation, not a separately identified new theorem or construction."
           ]
         },
         {
@@ -1217,16 +849,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2610.03796",
-          "title": "ProsaBuddy: Assisting Mechanized Real-Time Schedulability Analysis with LLM-based Agents",
-          "url": "https://arxiv.org/abs/2610.03796v1",
+          "identity": "arxiv:2610.02444",
+          "title": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
+          "url": "https://arxiv.org/abs/2610.02444v1",
           "urls": [
-            "https://arxiv.org/abs/2610.03796v1"
+            "https://arxiv.org/abs/2610.02444v1"
           ],
           "disposition": "exclude",
-          "reason": "Formal-methods assistant/system paper, not a new mathematical theorem.",
+          "reason": "Counterexample-generation benchmark on synthetic undergraduate conjectures, not a qualifying new result.",
           "reasons": [
-            "Formal-methods assistant/system paper, not a new mathematical theorem."
+            "Counterexample-generation benchmark on synthetic undergraduate conjectures, not a qualifying new result."
           ]
         },
         {
@@ -1234,16 +866,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2610.03994",
-          "title": "Solving VeriContest with a Lean-Backed Rust Verifier",
-          "url": "https://arxiv.org/abs/2610.03994v1",
+          "identity": "arxiv:2610.04829",
+          "title": "Viva La Vida: Verification and Accumulation Failures in Multi-Agent Proof Search",
+          "url": "https://arxiv.org/abs/2610.04829v1",
           "urls": [
-            "https://arxiv.org/abs/2610.03994v1"
+            "https://arxiv.org/abs/2610.04829v1"
           ],
           "disposition": "exclude",
-          "reason": "Contest benchmark/verifier result, not a new mathematical contribution.",
+          "reason": "Empirical analysis of proof-search verification failures, not a new mathematical result.",
           "reasons": [
-            "Contest benchmark/verifier result, not a new mathematical contribution."
+            "Empirical analysis of proof-search verification failures, not a new mathematical result."
           ]
         },
         {
@@ -1251,16 +883,16 @@
           "lanes": [
             "arxiv"
           ],
-          "identity": "arxiv:2610.04862",
-          "title": "GitSwarm: Decentralized Compounding Inference",
-          "url": "https://arxiv.org/abs/2610.04862v1",
+          "identity": "arxiv:2610.05334",
+          "title": "AgentDiscover: Autonomous Discovery with Minimal Search Scaffolding",
+          "url": "https://arxiv.org/abs/2610.05334v1",
           "urls": [
-            "https://arxiv.org/abs/2610.04862v1"
+            "https://arxiv.org/abs/2610.05334v1"
           ],
           "disposition": "exclude",
-          "reason": "Agent framework/benchmark outside result-level mathematical discovery.",
+          "reason": "Discovery-framework benchmark across optimization tasks, with no separately identified new mathematical result.",
           "reasons": [
-            "Agent framework/benchmark outside result-level mathematical discovery."
+            "Discovery-framework benchmark across optimization tasks, with no separately identified new mathematical result."
           ]
         },
         {
@@ -1275,42 +907,23 @@
             "https://arxiv.org/abs/2610.05367v1"
           ],
           "disposition": "exclude",
-          "reason": "Autoformalization system/benchmark; no distinct new theorem row isolated.",
+          "reason": "Autoformalization system/benchmark; no separately bounded new theorem is claimed.",
           "reasons": [
-            "Autoformalization system/benchmark; no distinct new theorem row isolated."
-          ]
-        },
-        {
-          "lane": "arxiv",
-          "lanes": [
-            "arxiv"
-          ],
-          "identity": "arxiv:2610.06368",
-          "title": "Decreasing Diagrams are Complete for Confluence",
-          "url": "https://arxiv.org/abs/2610.06368v1",
-          "urls": [
-            "https://arxiv.org/abs/2610.06368v1"
-          ],
-          "disposition": "exclude",
-          "reason": "No direct generative-AI contribution to the mathematical result was established.",
-          "reasons": [
-            "No direct generative-AI contribution to the mathematical result was established."
+            "Autoformalization system/benchmark; no separately bounded new theorem is claimed."
           ]
         }
       ]
     },
     "retrievalFailures": [
       {
-        "lane": "arxiv",
-        "identity": "arxiv:2609.06455",
-        "url": "https://arxiv.org/html/2609.06455v2",
-        "accessDate": "2026-10-06",
-        "status": "HTTP 404",
-        "scope": "record",
-        "impact": "Full-text-specific attribution and line-level v2 checking remain unavailable; official dated OAI metadata establishes v2, its stronger three-point claim and AI-generated-construction wording. Candidate remains include_flagged, not confirmed.",
-        "nextCheck": "Retry the exact v2 HTML/PDF endpoint and compare with v1 before publication wording is finalized."
+        "lane": "recheck",
+        "recordId": "1390",
+        "source": "https://arxiv.org/html/2609.06455v2",
+        "scope": "record_local",
+        "mandatoryBroadFeed": false,
+        "effect": "The v2 abstract/PDF source remains available, but arXiv has no HTML rendering for this version. Preserve provisional status and scope the retrieval gap to ID 1390; it does not block other records or global cutoff advancement."
       }
     ]
   },
-  "description": "3591 source-included, AI-coded, unreviewed."
+  "description": "3605 source-included, AI-coded, unreviewed."
 }
