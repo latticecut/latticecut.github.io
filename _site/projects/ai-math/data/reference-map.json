@@ -16038,6 +16038,12 @@
       "title": "Finite time blowup for Navier–Stokes — supporting source 2",
       "url": "https://github.com/openai/NavierStokesAndEuler/tree/8937a8f4cbc7abaab5e9e97d1cc7f5d2319d9538",
       "accessed": "2026-09-08"
+    },
+    {
+      "key": "Daily20261008_1331_3",
+      "title": "Bastounis, Circelli and Hansen: Navier–Stokes lost in translation (v1)",
+      "url": "https://arxiv.org/html/2610.08144v1",
+      "accessed": "2026-10-08"
     }
   ],
   "1332": [
@@ -51250,6 +51256,24 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3595_4",
+      "title": "OpenAI revised catalogue family 001",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3595_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3595_6",
+      "title": "Current companion: Milne's rationality conjecture for abelian varieties",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Milnes-rationality-conjecture-for-abelian-varieties-October-7-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3596": [
@@ -51276,6 +51300,36 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3596_4",
+      "title": "OpenAI revised catalogue family 002",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3596_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3596_6",
+      "title": "Current companion: Exact Birch–Swinnerton-Dyer Formula from Low Selmer Corank",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Birch-Swinnerton-Dyer-Formula-from-Low-Selmer-Corank-October-7-2026/exact-bsd-low-selmer-corank.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3596_7",
+      "title": "Current companion: The Selmer converse for elliptic curves at every prime",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-Selmer-converse-for-elliptic-curves-at-every-prime-October-7-2026/main.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3596_8",
+      "title": "Current companion: The two-primary Birch–Swinnerton-Dyer formula in Selmer corank at most one",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-two-primary-Birch-Swinnerton-Dyer-formula-in-Selmer-corank-at-most-one-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3597": [
@@ -51308,6 +51362,12 @@
       "title": "OpenAI Mathematics family 003 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/003.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3597_5",
+      "title": "Dave Goldblatt: reported independent two-kernel zeta replay",
+      "url": "https://github.com/davegoldblatt/openai-zeta-proof-check/blob/3f11b2203b76902f1b6b234115437302a94b79c3/REPORT.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3598": [
@@ -51334,6 +51394,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3598_4",
+      "title": "OpenAI revised catalogue family 004",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3598_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3598_6",
+      "title": "Current companion: Hilbert’s tenth problem over the rational numbers",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Hilberts-tenth-problem-over-the-rational-numbers-October-6-2026/main.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3598_7",
+      "title": "Current companion: A pointwise 2-converse for elliptic curves with rational two-torsion",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-pointwise-2-converse-for-elliptic-curves-with-rational-two-torsion-October-7-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3599": [
@@ -51360,6 +51444,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3599_4",
+      "title": "OpenAI revised catalogue family 006",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3599_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3599_6",
+      "title": "Current companion: Goldfeld's analytic density conjecture and the 2-converse for elliptic curves",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Goldfelds-analytic-density-conjecture-and-the-2-converse-for-elliptic-curves-October-7-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3599_7",
+      "title": "Current companion: The mean analytic rank of quadratic twists of elliptic curves",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-mean-analytic-rank-of-quadratic-twists-of-elliptic-curves-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3600": [
@@ -51482,6 +51590,36 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3603_4",
+      "title": "OpenAI revised catalogue family 010",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3603_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3603_6",
+      "title": "Current companion: Unrestricted pro-modularity at the prime two",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Unrestricted-pro-modularity-at-the-prime-two-October-6-2026/two-adic-promodularity.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3603_7",
+      "title": "Current companion: The Dimension of the Two-Adic Hecke Algebra at Odd Level",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-Dimension-of-the-Two-Adic-Hecke-Algebra-at-Odd-Level-October-5-2026/two-adic-hecke.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3603_8",
+      "title": "Current companion: Fontaine–Mazur modularity at the prime 2",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Fontaine-Mazur-modularity-at-the-prime-2-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3604": [
@@ -51740,6 +51878,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3612_4",
+      "title": "OpenAI revised catalogue family 019",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3612_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3612_6",
+      "title": "Current companion: Étale covers with a prescribed exterior sheet",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Etale-covers-with-a-prescribed-exterior-sheet-September-24-2026/main.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3612_7",
+      "title": "Current companion: The p-adic section conjecture",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-p-adic-section-conjecture-October-6-2026/main.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3613": [
@@ -51984,6 +52146,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3620_4",
+      "title": "OpenAI revised catalogue family 027",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3620_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3620_6",
+      "title": "Current companion: Integral points on character varieties of curves",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Integral-points-on-character-varieties-of-curves-September-25-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3620_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/027.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3621": [
@@ -52105,7 +52291,7 @@
     },
     {
       "key": "Daily20261007_3625_support_0",
-      "title": "The rational Hodge conjecture for products of K3 surfaces — representative manuscript",
+      "title": "Archived withdrawn K3-products manuscript — historical evidence only",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/hodge-conjecture-products-k3.pdf",
       "accessed": "2026-10-07"
     },
@@ -52120,6 +52306,66 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3625_4",
+      "title": "OpenAI revised catalogue family 032",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_6",
+      "title": "Current companion: The rational Hodge conjecture for CM abelian varieties",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_7",
+      "title": "Current companion: Algebraic Kuga–Satake correspondences and Hodge conjectures on a K3 quadratic locus",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Algebraic-Kuga-Satake-correspondences-and-Hodge-conjectures-on-a-K3-quadratic-locus-September-30-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_8",
+      "title": "Current companion: Weil classes and Hodge classes on abelian powers",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Weil-classes-and-Hodge-classes-on-abelian-powers-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_9",
+      "title": "Current companion: Abelian covers, Gale correspondences, and the Hodge conjecture for powers",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Abelian-covers-Gale-correspondences-and-the-Hodge-conjecture-for-powers-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_10",
+      "title": "Current companion: A Conditional Reduction for Algebraic Kuga–Satake Correspondences",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Conditional-Reduction-for-Algebraic-Kuga-Satake-Correspondences-September-10-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_11",
+      "title": "Withdrawal notice (proof gap; not falsity)",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_12",
+      "title": "Withdrawal notice (proof gap; not falsity)",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026/README.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3625_13",
+      "title": "Withdrawal notice (proof gap; not falsity)",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/README.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3626": [
@@ -52178,6 +52424,102 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3627_4",
+      "title": "OpenAI revised catalogue family 034",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_6",
+      "title": "Current companion: Log abundance for compact Kähler spaces under logarithmic Iitaka subadditivity",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Log-abundance-for-compact-Kahler-spaces-under-logarithmic-Iitaka-subadditivity-October-6-2026/main.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_7",
+      "title": "Current companion: Uniform indices for semi-log-canonical log Calabi–Yau pairs",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-indices-for-semi-log-canonical-log-Calabi-Yau-pairs-October-5-2026/uniform-slc-index.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_8",
+      "title": "Current companion: Conditional good minimal models for compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Conditional-good-minimal-models-for-compact-Kahler-fourfolds-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_9",
+      "title": "Current companion: Log abundance in characteristic zero",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Log-abundance-in-characteristic-zero-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_10",
+      "title": "Current companion: Minimal metrics and interior injectivity for nef adjoints",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Minimal-metrics-and-interior-injectivity-for-nef-adjoints-September-27-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_11",
+      "title": "Current companion: Fourfold nonvanishing by minimal metrics and moving jets",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Fourfold-nonvanishing-by-minimal-metrics-and-moving-jets-September-27-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_12",
+      "title": "Current companion: Lifting sections from the reduced support of an adjoint",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Lifting-sections-from-the-reduced-support-of-an-adjoint-September-27-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_13",
+      "title": "Current companion: Schnell fiber spaces and good canonical models",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Schnell-fiber-spaces-and-good-canonical-models-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_14",
+      "title": "Current companion: Uniform log Iitaka fibrations and bounded moduli denominators",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-log-Iitaka-fibrations-and-bounded-moduli-denominators-October-4-2026/uniform-log-iitaka.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_15",
+      "title": "Current companion: Uniform Pluricanonical Iitaka Fibrations",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-Pluricanonical-Iitaka-Fibrations-October-3-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_16",
+      "title": "Current companion: Relative denominators and effective systems for log Calabi-Yau fibrations",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Relative-denominators-and-effective-systems-for-log-Calabi-Yau-fibrations-September-27-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_17",
+      "title": "Current companion: Arithmetic Stein-degree bounds for log Calabi–Yau pairs",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Arithmetic-Stein-degree-bounds-for-log-Calabi-Yau-pairs-September-25-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_18",
+      "title": "Current companion: Uniform effective log Iitaka fibrations for fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-effective-log-Iitaka-fibrations-for-fourfolds-September-26-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3627_19",
+      "title": "Current companion: Abundance after nonvanishing for compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Abundance-after-nonvanishing-for-compact-Kahler-fourfolds-September-27-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3628": [
@@ -52230,6 +52572,42 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3629_4",
+      "title": "OpenAI revised catalogue family 036",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3629_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3629_6",
+      "title": "Current companion: Numerical semiampleness of nef adjoint classes on compact Kähler manifolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Numerical-semiampleness-of-nef-adjoint-classes-on-compact-Kahler-manifolds-October-6-2026/numerical-generalized-abundance.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3629_7",
+      "title": "Current companion: Numerical Semiampleness of Nef Adjoint Divisors",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Numerical-Semiampleness-of-Nef-Adjoint-Divisors-October-3-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3629_8",
+      "title": "Current companion: Minimal models and Mori fibre spaces for generalized log canonical Q-pairs",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Minimal-models-and-Mori-fibre-spaces-for-generalized-log-canonical-Q-pairs-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3629_9",
+      "title": "Current companion: Minimal models in numerical dimension one",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Minimal-models-in-numerical-dimension-one-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3630": [
@@ -52754,6 +53132,48 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3648_4",
+      "title": "OpenAI revised catalogue family 056",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_6",
+      "title": "Current companion: Termination of generalized log canonical flips on compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Termination-of-generalized-log-canonical-flips-on-compact-Kahler-fourfolds-October-7-2026/termination-generalized-lc-kahler-fourfolds.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_7",
+      "title": "Current companion: Termination of generalized-canonical flips on compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Termination-of-generalized-canonical-flips-on-compact-Kahler-fourfolds-October-6-2026/termination-generalized-terminal-flips-compact-kahler-fourfolds.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_8",
+      "title": "Current companion: Termination for projective log canonical fourfolds with rational boundary",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Termination-for-projective-log-canonical-fourfolds-with-rational-boundary-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_9",
+      "title": "Current companion: Finite ordinary minimal model programs on compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3648_10",
+      "title": "Current companion: Finite ordinary minimal model programs on compact Kähler fourfolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Finite-ordinary-minimal-model-programs-on-compact-Kahler-fourfolds-September-24-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3649": [
@@ -52994,6 +53414,36 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3657_4",
+      "title": "OpenAI revised catalogue family 066",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3657_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3657_6",
+      "title": "Current companion: Bounded klt complements for Fano contractions",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Bounded-klt-complements-for-Fano-contractions-September-25-2026/Bounded-klt-complements-for-Fano-contractions-September-25-2026.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3657_7",
+      "title": "Current companion: Uniform Cartier sections for Fano type contractions",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-Cartier-sections-for-Fano-type-contractions-September-25-2026/Uniform-Cartier-sections-for-Fano-type-contractions-September-25-2026.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3657_8",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/066.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3658": [
@@ -53220,6 +53670,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3665_4",
+      "title": "OpenAI revised catalogue family 075",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3665_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3665_6",
+      "title": "Current companion: Almost-everywhere Fourier convergence in L log L",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Almost-everywhere-Fourier-convergence-in-L-log-L-September-23-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3665_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/075.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3666": [
@@ -54068,6 +54542,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3693_4",
+      "title": "OpenAI revised catalogue family 103",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3693_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3693_6",
+      "title": "Current companion: Exact derandomization of logarithmic space: L = RL = BPL",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Exact-Derandomization-of-Logarithmic-Space-L-equals-RL-equals-BPL-September-23-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3693_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/103.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3694": [
@@ -55100,6 +55598,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3726_4",
+      "title": "OpenAI revised catalogue family 137",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3726_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3726_6",
+      "title": "Current companion: Simulating One-Tape Time in Two-Fifths-Power Space",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Simulating-One-Tape-Time-in-Two-Fifths-Power-Space-September-25-2026/article.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3726_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/137.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3727": [
@@ -56852,6 +57374,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3783_4",
+      "title": "OpenAI revised catalogue family 195",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3783_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3783_6",
+      "title": "Current companion: A Complete Local Domain without a Small Cohen–Macaulay Module",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Complete-Local-Domain-Without-a-Small-Cohen-Macaulay-Module-September-23-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3783_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/195.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3784": [
@@ -57946,6 +58492,36 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3820_4",
+      "title": "OpenAI revised catalogue family 232",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3820_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3820_6",
+      "title": "Current companion: Gaussian free-field limits of weighted integer Lipschitz heights",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Gaussian-free-field-limits-of-weighted-integer-Lipschitz-heights-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3820_7",
+      "title": "Current companion: The Gaussian free field limit of integer Lipschitz heights with two-arc boundary data",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-Gaussian-free-field-limit-of-integer-Lipschitz-heights-with-two-arc-boundary-data-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3820_8",
+      "title": "Current companion: Uniform real Lipschitz surfaces on the triangular lattice",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Uniform-real-Lipschitz-surfaces-on-the-triangular-lattice-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3821": [
@@ -57972,6 +58548,24 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3821_4",
+      "title": "OpenAI revised catalogue family 233",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3821_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3821_6",
+      "title": "Current companion: The joint scaling limit of critical Ashkin-Teller currents",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-joint-scaling-limit-of-critical-Ashkin-Teller-currents-October-6-2026/main.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3822": [
@@ -60026,6 +60620,30 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3888_4",
+      "title": "OpenAI revised catalogue family 301",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3888_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3888_6",
+      "title": "Current companion: The trace cone classifies Razak–Jacelon stabilizations",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-trace-cone-classifies-Razak-Jacelon-stabilizations-September-25-2026/The-trace-cone-classifies-Razak-Jacelon-stabilizations-September-25-2026.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3888_7",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/301.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3889": [
@@ -61168,6 +61786,24 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3928_4",
+      "title": "OpenAI revised catalogue family 341",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3928_5",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3928_6",
+      "title": "Current companion: Deforming hypersymplectic four-manifolds to hyperkähler triples",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Deforming-hypersymplectic-four-manifolds-to-hyperkahler-triples-October-7-2026/paper.pdf",
+      "accessed": "2026-10-08"
     }
   ],
   "3929": [
@@ -61200,6 +61836,30 @@
       "title": "OpenAI Mathematics family 342 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/342.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3929_5",
+      "title": "OpenAI revised catalogue family 342",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3929_6",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3929_7",
+      "title": "Current companion: Taming implies compatibility on four-manifolds",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Taming-implies-compatibility-on-four-manifolds-October-6-2026/paper.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3929_8",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/342.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3930": [
@@ -62190,6 +62850,78 @@
       "title": "OpenAI Mathematics family 376 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/376.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261008_3962_5",
+      "title": "OpenAI revised catalogue family 376",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/CONTENTS.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_6",
+      "title": "OpenAI versioned withdrawals and proof-repair history",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/history.md",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_7",
+      "title": "Current companion: Finite Instructions and Solenoidal Shear Flows",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Finite-Instructions-and-Solenoidal-Shear-Flows-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_8",
+      "title": "Current companion: A Fixed Particle Test for Computation in a Forced Viscous Flow",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/A-Fixed-Particle-Test-for-Computation-in-a-Forced-Viscous-Flow-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_9",
+      "title": "Current companion: Universal Computation with Eventually Stationary Navier–Stokes Forcing",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Universal-Computation-with-Eventually-Stationary-Navier-Stokes-Forcing-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_10",
+      "title": "Current companion: Geometric Programs for Solenoidal Forcing",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Geometric-Programs-for-Solenoidal-Forcing-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_11",
+      "title": "Current companion: Prefix Instructions and Incompressible Flows",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Prefix-Instructions-and-Incompressible-Flows-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_12",
+      "title": "Current companion: Computation under Rapidly Vanishing Navier–Stokes Forcing",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Computation-under-Rapidly-Vanishing-Navier-Stokes-Forcing-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_13",
+      "title": "Current companion: Velocity-Field Detection of Computation in Forced Navier–Stokes Flows",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Velocity-Field-Detection-of-Computation-in-Forced-Navier-Stokes-Flows-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_14",
+      "title": "Current companion: Scalar Potentials and Slow Clocks for Forced Fluid Computation",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Scalar-Potentials-and-Slow-Clocks-for-Forced-Fluid-Computation-September-27-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_15",
+      "title": "Current companion: Incompressible Box Transport and Finite Computation",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/manuscript.pdf",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3962_16",
+      "title": "Current linked Lean document, not replayed",
+      "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/docs/376.md",
+      "accessed": "2026-10-08"
     }
   ],
   "3963": [
@@ -62216,6 +62948,90 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    }
+  ],
+  "3964": [
+    {
+      "key": "Daily20261008_3964",
+      "title": "An $n^{0.3+\\varepsilon}$-Approximation for Steiner $k$-Forest (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.09932v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3964_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.09932v1",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "3965": [
+    {
+      "key": "Daily20261008_3965",
+      "title": "Two-Variable Logic with Arbitrarily Many Successor Relations (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.09758v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3965_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.09758v1",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "3966": [
+    {
+      "key": "Daily20261008_3966",
+      "title": "Optimal (Parallel) Spooky Pebbling on Binary Trees (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.09434v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3966_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.09434v1",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "3967": [
+    {
+      "key": "Daily20261008_3967",
+      "title": "Network Coding Can Beat Routing in Undirected Multiple-Unicast Networks (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.09367v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3967_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.09367v1",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "3968": [
+    {
+      "key": "Daily20261008_3968",
+      "title": "Separating comb inequalities is NP-hard (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.09065v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3968_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.09065v1",
+      "accessed": "2026-10-08"
+    }
+  ],
+  "3969": [
+    {
+      "key": "Daily20261008_3969",
+      "title": "Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions (dated v1, claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.06944v1",
+      "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261008_3969_date",
+      "title": "Official arXiv submission/version history",
+      "url": "https://arxiv.org/abs/2610.06944v1",
+      "accessed": "2026-10-08"
     }
   ]
 }
