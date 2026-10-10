@@ -218532,5 +218532,70 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-09",
+    "snapshotHash": "c83088e7333de1304cb7a2aabb4dcc6ec4b4d30221c2fb97d6c0d29e45a76e35",
+    "changes": [
+      {
+        "id": "3970",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Best-current assessment conditional on the exact source-reported claim: Substantial extension of an existing integer-action result to restricted amenable actions and diagonal AH systems; the exact historical resistance and model task allocation are unresolved. Classification confidence is not a correctness probability; provisional concerns remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial extension of an existing integer-action result to restricted amenable actions and diagonal AH systems; the exact historical resistance and model task allocation are unresolved.",
+          "sourceHash": "bd2935fa386f0f74e368408116ceec1df833db527b8fc221519d9591d8eb87f7",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Establish the exact material ChatGPT role and model version; independently check the imported OpenAI torus-compression theorem, the global diagonal-map restrictions, and URP/COS hypotheses. Verify novelty of the amenable-action and AH extensions against prior Hirshberg/Phillips results. No independent proof review or artifact replay was performed. First public announcement is the 9 October arXiv listing; the 8 October submission timestamp is retained separately. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors directly acknowledge that the work was carried out using ChatGPT. Mathematical arguments adapt OpenAI torus compression and comparison constructions. The acknowledgement does not allocate theorem discovery, proof design or checking to particular model tasks."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-10",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 03:09:09 UTC.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "3971",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Best-current assessment conditional on the exact source-reported claim: Exact specialist conjecture settlement via an established grid-transfer method; available history does not establish a long-standing frontier threshold warranting Superhuman. Classification confidence is not a correctness probability; provisional concerns remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Exact specialist conjecture settlement via an established grid-transfer method; available history does not establish a long-standing frontier threshold warranting Superhuman.",
+          "sourceHash": "177cf23479d65e77ba2747ec8b0238118bfb573b7bcb89f771da24207e0c1479",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Independently replay the finite cases and transfer-matrix periodicity certificates using independently reviewed code; verify the reduction from band bounds to the all-n lower bound and authors audit provenance. The disclosed Claude computation is material, but model version and exact human/model proof design are unspecified. Confirm priority against the prior upper-bound conjecture. No downloaded code or certificate was executed. First public announcement is the 9 October arXiv listing; submission was 8 October. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors say Claude developed and ran Python/C computations and validation under their supervision. The computation supplies finite base cases and transfer-matrix periodicity checks in the lower-bound proof; figures and English editing are separate. The authors report auditing arguments and computations."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-10",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 05:22:45 UTC.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "unknown"
+          }
+        }
+      }
+    ]
   }
 ]

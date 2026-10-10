@@ -49030,5 +49030,83 @@
       "Added 3969: Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions"
     ],
     "artifactsExecuted": false
+  },
+  {
+    "id": "2026-10-09-record-local-inclusions",
+    "recordedAt": "2026-10-10",
+    "runDateEuropeLondon": "2026-10-09",
+    "refreshedThrough": "2026-10-09",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 3982,
+    "claimCount": 3984,
+    "evidenceCutoff": "2026-10-09T22:57:17.593Z",
+    "model": "OpenAI Codex, based on GPT-5",
+    "summary": "Two source-supported provisional inclusions: amenable/AH mean-dimension extension and exact path token-graph domination. Both best-current Difficult; no strict override.",
+    "coverageNote": "Rolling October3-9 and inherited August21-onward gaps remain only partially screened. Official API empty daily feed contradicts 504-entry October9 listing; no continuous-cutoff advancement. Mandatory Sendov and Palomar web retrieval failures recovered with inert curl fallback. OpenAI main unchanged fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb; prior corrections retained. Targeted searches and primary listing comments screened, not all full texts or cross-listed CS submissions.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "3970",
+      "3971"
+    ],
+    "recordDecisions": [
+      {
+        "sourceId": "3970",
+        "arxivId": "2610.11143",
+        "title": "Mean dimension and radius of comparison",
+        "boundedClaim": "The paper reports radius of comparison equal to half mean dimension for unital simple AH algebras with ordinary globally diagonal maps, and a reverse inequality for free minimal discrete amenable actions with uniform Rokhlin property, with equality when Cuntz comparison of open sets also holds. The result includes infinite values and extends the prior OpenAI integer-action package; it does not cover all amenable actions without these hypotheses.",
+        "aiContribution": "The authors directly acknowledge that the work was carried out using ChatGPT. Mathematical arguments adapt OpenAI torus compression and comparison constructions. The acknowledgement does not allocate theorem discovery, proof design or checking to particular model tasks.",
+        "furtherChecking": "Establish the exact material ChatGPT role and model version; independently check the imported OpenAI torus-compression theorem, the global diagonal-map restrictions, and URP/COS hypotheses. Verify novelty of the amenable-action and AH extensions against prior Hirshberg/Phillips results. No independent proof review or artifact replay was performed. First public announcement is the 9 October arXiv listing; the 8 October submission timestamp is retained separately. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "math.OA",
+        "msc2020": [],
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial extension of an existing integer-action result to restricted amenable actions and diagonal AH systems; the exact historical resistance and model task allocation are unresolved.",
+        "submissionDate": "2026-10-08",
+        "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 03:09:09 UTC.",
+        "primary": "https://arxiv.org/html/2610.11143v1",
+        "disposition": "include_flagged",
+        "verification": "Authors report checking; independent complete verification not established.",
+        "evidence": [
+          {
+            "path": "2026-10-09/decisions.json",
+            "pointer": "/0"
+          }
+        ]
+      },
+      {
+        "sourceId": "3971",
+        "arxivId": "2610.11265",
+        "title": "The domination number of the 2-token graph of path graphs",
+        "boundedClaim": "The paper reports gamma(F2(Pn))=(n^2+5n+c)/10 for every n>=13, with c=-30 for n mod 5=0, c=-36 for residues 1 or 4, and c=-34 for residues 2 or 3, settling the authors and Leanos conjecture by a computer-assisted lower bound. This is a path 2-token-graph result, not a formula for arbitrary token graphs.",
+        "aiContribution": "The authors say Claude developed and ran Python/C computations and validation under their supervision. The computation supplies finite base cases and transfer-matrix periodicity checks in the lower-bound proof; figures and English editing are separate. The authors report auditing arguments and computations.",
+        "furtherChecking": "Independently replay the finite cases and transfer-matrix periodicity certificates using independently reviewed code; verify the reduction from band bounds to the all-n lower bound and authors audit provenance. The disclosed Claude computation is material, but model version and exact human/model proof design are unspecified. Confirm priority against the prior upper-bound conjecture. No downloaded code or certificate was executed. First public announcement is the 9 October arXiv listing; submission was 8 October. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "math.CO",
+        "msc2020": [
+          "05C69",
+          "05C76"
+        ],
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Exact specialist conjecture settlement via an established grid-transfer method; available history does not establish a long-standing frontier threshold warranting Superhuman.",
+        "submissionDate": "2026-10-08",
+        "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 05:22:45 UTC.",
+        "primary": "https://arxiv.org/html/2610.11265v1",
+        "disposition": "include_flagged",
+        "verification": "Authors report checking; independent complete verification not established.",
+        "evidence": [
+          {
+            "path": "2026-10-09/decisions.json",
+            "pointer": "/1"
+          }
+        ]
+      }
+    ],
+    "quarantinedCandidates": [],
+    "existingRecordChanges": [],
+    "artifactsExecuted": false,
+    "changes": [
+      "Added provisional record 3970: Mean dimension and radius of comparison",
+      "Added provisional record 3971: The domination number of the 2-token graph of path graphs"
+    ]
   }
 ]
