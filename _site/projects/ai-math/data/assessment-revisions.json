@@ -218597,5 +218597,266 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-10",
+    "snapshotHash": "4b683d53b6bafcc34084f4e36da6a30728f027eb3ec3f59fc4161d1aa560afb4",
+    "changes": [
+      {
+        "id": "1527",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The primary source reports the bounded result in Nearly-minimax variance estimation under rough random design. Its specialist difficulty appears non-routine, but source history, scope, correctness, and exact AI materiality remain unresolved, so this is tentative.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded target under the source's assumptions.",
+          "sourceHash": "a10249736a0871453f7cd25c64ced72c59bada34cf585f3c9a05b368c12c3e18",
+          "assessedAt": "2026-09-12",
+          "inclusionConcern": "Further checking: independently verify Nearly-minimax variance estimation under rough random design's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, contributing to drafting and revision, and writing code for computational checks.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, contributing to drafting and revision, and writing code for computational checks. Exact stage-by-stage allocation remains unresolved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-12",
+            "reportedDate": "2026-09-11",
+            "dateBasis": "Official arXiv Friday 11 September 2026 replacement listing; the current pinned version is the first qualifying source observed in this pass.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Best-current assessment conditional on the bounded reported claim: Meaningful specialist upper/lower-rate refinement of an existing minimax result; not an established long-standing complete open-target settlement. Classification confidence is separate from correctness and unresolved verification.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Meaningful specialist upper/lower-rate refinement of an existing minimax result; not an established long-standing complete open-target settlement.",
+          "sourceHash": "15ddd83f1f00bbbab59b53bdc1a4d5ac8ed80a03fdd205081fc19f8472713c54",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Independently check matching stretched-exponential constants in upper/lower bounds, model nondegeneracy and extension-domain quantifiers, residual logarithmic gap, and priority of the strengthened bracket. Audit paper-to-Lean correspondence and independently replay the source-reported checks; obtain theorem-level human/model allocation and exact earliest public revised-manuscript date. No proof artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The revised primary manuscript acknowledges LLM suggestions of arguments, writing code for computational checks and drafting/revision under the authors’ supervision. The repository separately reports Sol 6.1 autoformalization and Codex preparation; this is not evidence that every mathematical step was AI-discovered."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-09-12",
+            "reportedDate": "2026-09-11",
+            "dateBasis": "Official arXiv Friday 11 September 2026 replacement listing; the current pinned version is the first qualifying source observed in this pass.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3360",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "The source reports the bounded result in An Exponent of 1.04273 for the Unit Distance Problem: Lean formalization at exponent 1.0427, conditional on one zeta inequality. Its likely human-comparison difficulty is conservatively tentative because target history, scope, correctness, novelty and exact AI contribution remain unresolved.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Specialist human researchers working on the same bounded mathematical target under the source's stated assumptions.",
+          "sourceHash": "5f2e4e8dca3688ea53145bdf32d41b44c6b55bc81b895d4e46d22dc2f417fd9c",
+          "assessedAt": "2026-10-03",
+          "inclusionConcern": "Further checking: The Lean theorem is conditional on the displayed zeta inequality and proves exponent 1.0427 only; the paper's unconditional 1.04273 uses an external certificate not formalized here. Independently replay the formal package, audit statement-to-source correspondence and novelty/priority, and obtain a claim-level human/model contribution map. Keep provisional=1, taxonomy reviewStatus unreviewed, conservative confidence, and no Superhuman override until these points are resolved. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Source metadata reports AI-assisted mathematical/formal proof work; the exact claim-level human/model allocation remains under review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-09-30",
+            "dateBasis": "The public owned repository was created at 00:33:40 Europe/London on 30 September.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Best-current assessment conditional on the bounded reported claim: A substantive but incremental refinement of the same already improved arithmetic construction, rather than a new settlement of the unit-distance conjecture. Classification confidence is separate from correctness and unresolved verification.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A substantive but incremental refinement of the same already improved arithmetic construction, rather than a new settlement of the unit-distance conjecture.",
+          "sourceHash": "a4756eb64d15f4a082d58358258a186e7825f8a40855230b28b7fab2f026f60f",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Independently replay the degree-8192 dihedral L-function and prime-census certificates and audit their rigorous tails, arithmetic tower/Frobenius caps and planar transfer. Distinguish unconditional reported paper exponent 1.043171 from conditional Lean exponent 1.04315 and unproved H_W. Check priority against prior unit-distance constructions and recover the exact first-public date of this revision. No downloaded certificate or Lean artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The manuscript directly says agents developed the mathematics and exact certificates: Claude Opus 5.5 through Claude Code produced the main refinement, reusing the earlier Claude/ChatGPT Sol 5.6/Astra 6 construction under Eric Naslund’s direction. Fresh-context AI reviews are not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-03",
+            "reportedDate": "2026-09-30",
+            "dateBasis": "The public owned repository was created at 00:33:40 Europe/London on 30 September.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3898",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3898",
+              "Daily20261007_3898_support_0",
+              "Daily20261007_3898_support_1",
+              "Daily20261007_3898_support_2"
+            ],
+            "sourceHash": "e414357ad4dffd28f27470dd3685bdd1877cfb4b8787e5b76ce9f89a3a456b6d",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 311: The Hovey–Strickland and Chai conjectures. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: The all-height invariant-ideal theorem and resulting thick-ideal classification settle Chai and Hovey–Strickland's named targets. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "e414357ad4dffd28f27470dd3685bdd1877cfb4b8787e5b76ce9f89a3a456b6d",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 311 (The Hovey–Strickland and Chai conjectures) for correctness, novelty, priority, imported hypotheses, and exact claim scope. The release provides no family-level Lean link for the main result. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 311: The Hovey–Strickland and Chai conjectures. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "tentative",
+          "frontierContribution": {
+            "status": "unclear",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI attributes its released result package to an internal model. Chenglong Ma’s dated primary paper reports that its proof strategy and specific notation match his preliminary proof uploaded to ChatGPT on 8 September; he says the conceptual route and general proof were human-originated, with a ChatGPT fixed-jet repair on 10 September rewritten and incorporated by him. These are author-attributed provenance statements, not established copying or a demonstrated data pathway. Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+            "evidenceSummary": "OpenAI attributes its released result package to an internal model. Chenglong Ma’s dated primary paper reports that its proof strategy and specific notation match his preliminary proof uploaded to ChatGPT on 8 September; he says the conceptual route and general proof were human-originated, with a ChatGPT fixed-jet repair on 10 September rewritten and incorporated by him. These are author-attributed provenance statements, not established copying or a demonstrated data pathway.",
+            "evidenceSourceIds": [
+              "Daily20261010_3898",
+              "Daily20261010_3898_support"
+            ],
+            "sourceHash": "3f419a75024e783117372105f05ffef37c758d7a70f371aa281b523c444ed251",
+            "assessedAt": "2026-10-10"
+          },
+          "rationale": "Best-current assessment conditional on the bounded reported claim: The exact all-height target is historically frontier-level, but the new dated human-origin account makes first-settlement chronology and original AI contribution substantively uncertain. Retain Superhuman as a tentative AI placement pending provenance evidence. Classification confidence is separate from correctness and unresolved verification.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The exact all-height target is historically frontier-level, but the new dated human-origin account makes first-settlement chronology and original AI contribution substantively uncertain. Retain Superhuman as a tentative AI placement pending provenance evidence.",
+          "sourceHash": "3f419a75024e783117372105f05ffef37c758d7a70f371aa281b523c444ed251",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI attributes its released result package to an internal model. Chenglong Ma’s dated primary paper reports that its proof strategy and specific notation match his preliminary proof uploaded to ChatGPT on 8 September; he says the conceptual route and general proof were human-originated, with a ChatGPT fixed-jet repair on 10 September rewritten and incorporated by him. These are author-attributed provenance statements, not established copying or a demonstrated data pathway. Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3972",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "rationale": "Best-current assessment conditional on the bounded reported claim: Nontrivial planar necessity and degenerate-case analysis for a conjecture posed in September 2026, not an all-dimensional or long-standing frontier settlement. Classification confidence is separate from correctness and unresolved verification.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Nontrivial planar necessity and degenerate-case analysis for a conjecture posed in September 2026, not an all-dimensional or long-standing frontier settlement.",
+          "sourceHash": "9cf805d13224e30ef75535c80dc113577919d9dde8ec714ea18b759031953398",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Independently check the canonical-geodesic midpoint correspondence, fourth-order obstruction and exceptional rank-deficient tensor certificates; replay the pinned Lean/Comparator development with independently reviewed configuration. Check novelty against Nielsen–Okamura and nearby Matkowski–Suto results, and establish the earliest public repository visibility. Author attribution is self-reported; no human expert review or artifact replay was performed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Disclosure.md says OpenAI GPT-6 Astra agents through Codex developed the mathematical arguments, exact polynomial certificates and Lean proofs, under JD Jones’s project direction. Separate agent reviews are not independent human expert review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-10",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Dated Palomar registration 9 October 22:55:50 UTC; repository commits dated 8 October, with exact earlier public visibility not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "3973",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The source adapts OpenAI’s model-produced finite affine barrier construction for weakly reversible networks. formalization.yaml directly discloses Codex AI-assisted proof development, porting, review and preparation; exact historical model identifiers and allocation of the new ordinary-endotactic drift argument are unavailable. Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+            "evidenceSummary": "The source adapts OpenAI’s model-produced finite affine barrier construction for weakly reversible networks. formalization.yaml directly discloses Codex AI-assisted proof development, porting, review and preparation; exact historical model identifiers and allocation of the new ordinary-endotactic drift argument are unavailable.",
+            "evidenceSourceIds": [
+              "Daily20261010_3973",
+              "Daily20261010_3973_support"
+            ],
+            "sourceHash": "2482fbcbc78a4b6f3f233065251dbd7bb25ea22e7d4a6f9c65c2e441909f4949",
+            "assessedAt": "2026-10-10"
+          },
+          "rationale": "Best-current assessment conditional on the bounded reported claim: Reported complete ordinary-endotactic permanence settles the exact 2014 target beyond known two-dimensional and strongly-endotactic cases. The source explicitly imports material model-produced mathematics; exact scope and priority require further specialist checks. Classification confidence is separate from correctness and unresolved verification.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Reported complete ordinary-endotactic permanence settles the exact 2014 target beyond known two-dimensional and strongly-endotactic cases. The source explicitly imports material model-produced mathematics; exact scope and priority require further specialist checks.",
+          "sourceHash": "2482fbcbc78a4b6f3f233065251dbd7bb25ea22e7d4a6f9c65c2e441909f4949",
+          "assessedAt": "2026-10-10",
+          "inclusionConcern": "Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The source adapts OpenAI’s model-produced finite affine barrier construction for weakly reversible networks. formalization.yaml directly discloses Codex AI-assisted proof development, porting, review and preparation; exact historical model identifiers and allocation of the new ordinary-endotactic drift argument are unavailable. Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-10",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Dated Palomar registration 9 October 19:55:24 UTC; repository commits dated 8 October, with exact earlier public visibility not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      }
+    ]
   }
 ]

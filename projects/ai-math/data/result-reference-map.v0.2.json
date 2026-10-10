@@ -19229,6 +19229,18 @@
       "title": "Nearly-minimax variance estimation under rough random design (v3, full text)",
       "url": "https://arxiv.org/html/2607.13170v3",
       "accessed": "2026-09-12"
+    },
+    {
+      "key": "Daily20261010_1527",
+      "title": "Nearly minimax variance estimation under rough random design — pinned primary claim",
+      "url": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/paper/body.tex",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261010_1527_support",
+      "title": "Nearly minimax variance estimation under rough random design — disclosure/version evidence",
+      "url": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/paper/main.tex",
+      "accessed": "2026-10-10"
     }
   ],
   "1528": [
@@ -47333,6 +47345,18 @@
       "title": "An Exponent of 1.04273 for the Unit Distance Problem: Lean formalization at exponent 1.0427, conditional on one zeta inequality — primary evidence 2",
       "url": "https://github.com/enaslund/unit-distance-bound-0.0427/commit/e0ac836176016dbefae28646bc91fc3a5aca30e8",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261010_3360",
+      "title": "An Exponent of 1.043 for the Unit Distance Problem — pinned primary claim",
+      "url": "https://github.com/enaslund/unit-distance-bound-0.0427/blob/edd88c0c175ab4d18cf6115e2f6ddf3865d36b12/papers/0.043171/main.tex",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261010_3360_support",
+      "title": "An Exponent of 1.043 for the Unit Distance Problem — disclosure/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-01-000018-v2.json",
+      "accessed": "2026-10-10"
     }
   ],
   "3361": [
@@ -60937,6 +60961,18 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261010_3898",
+      "title": "OpenAI Math family 311: Hovey–Strickland and Chai conjectures — priority and contribution concern — pinned primary claim",
+      "url": "https://arxiv.org/html/2610.10072v1",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261010_3898_support",
+      "title": "OpenAI Math family 311: Hovey–Strickland and Chai conjectures — priority and contribution concern — disclosure/version evidence",
+      "url": "https://arxiv.org/abs/2610.10072v1",
+      "accessed": "2026-10-10"
     }
   ],
   "3899": [
@@ -63080,6 +63116,34 @@
       "key": "Daily20261009_3971_date",
       "title": "Official arXiv version and submission history",
       "url": "https://arxiv.org/abs/2610.11265v1",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "3972": [
+    {
+      "key": "Daily20261010_3972",
+      "title": "Planar Euclidean dual-geodesic midpoint rigidity — pinned primary claim",
+      "url": "https://github.com/JD-Jones-ASES/PlanarMidpoint/blob/148b39618710caf576189cbdb75551cec1735201/README.md",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261010_3972_support",
+      "title": "Planar Euclidean dual-geodesic midpoint rigidity — disclosure/version evidence",
+      "url": "https://github.com/JD-Jones-ASES/PlanarMidpoint/blob/148b39618710caf576189cbdb75551cec1735201/Disclosure.md",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "3973": [
+    {
+      "key": "Daily20261010_3973",
+      "title": "Uniform permanence of endotactic reaction networks with measurable rates — pinned primary claim",
+      "url": "https://github.com/mmislan/palomar-endotactic-permanence/blob/c72c945264565397ecc3eee779e6bd5f3f3a061d/README.md",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261010_3973_support",
+      "title": "Uniform permanence of endotactic reaction networks with measurable rates — disclosure/version evidence",
+      "url": "https://github.com/mmislan/palomar-endotactic-permanence/blob/c72c945264565397ecc3eee779e6bd5f3f3a061d/formalization.yaml",
       "accessed": "2026-10-10"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-09",
+  "assessedAt": "2026-10-10",
   "samplingWeek": 2962,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -4635,12 +4635,11 @@
     {
       "id": "1527",
       "category": "Difficult",
-      "confidence": "low",
-      "placement": "tentative",
+      "confidence": "medium",
+      "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Further checking: independently verify Nearly-minimax variance estimation under rough random design's bounded claim, novelty, correctness, and statement-to-proof correspondence; reconstruct the exact retained AI-versus-human allocation behind the source disclosure (P.L. was partially supported by NSF grant DMS-2450004. This paper was written by the authors with the assistance of large language models, which included suggesting arguments, contributing to drafting and revision, and writing code for computational checks.). Missing at cutoff are independent specialist verification and a complete claim-level contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed.",
-        "AI contribution not established"
+        "Independently check matching stretched-exponential constants in upper/lower bounds, model nondegeneracy and extension-domain quantifiers, residual logarithmic gap, and priority of the strengthened bracket. Audit paper-to-Lean correspondence and independently replay the source-reported checks; obtain theorem-level human/model allocation and exact earliest public revised-manuscript date. No proof artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -24487,12 +24486,11 @@
     {
       "id": "3360",
       "category": "Difficult",
-      "confidence": "low",
-      "placement": "tentative",
+      "confidence": "medium",
+      "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Further checking: The Lean theorem is conditional on the displayed zeta inequality and proves exponent 1.0427 only; the paper's unconditional 1.04273 uses an external certificate not formalized here. Independently replay the formal package, audit statement-to-source correspondence and novelty/priority, and obtain a claim-level human/model contribution map. Keep provisional=1, taxonomy reviewStatus unreviewed, conservative confidence, and no Superhuman override until these points are resolved. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
-        "AI contribution not established"
+        "Independently replay the degree-8192 dihedral L-function and prime-census certificates and audit their rigorous tails, arithmetic tower/Frobenius caps and planar transfer. Distinguish unconditional reported paper exponent 1.043171 from conditional Lean exponent 1.04315 and unproved H_W. Check priority against prior unit-distance constructions and recover the exact first-public date of this revision. No downloaded certificate or Lean artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -30408,12 +30406,13 @@
     {
       "id": "3898",
       "category": "Superhuman",
-      "confidence": "high",
-      "placement": "best-estimate",
+      "confidence": "medium",
+      "placement": "tentative",
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 311 (The Hovey–Strickland and Chai conjectures) for correctness, novelty, priority, imported hypotheses, and exact claim scope. The release provides no family-level Lean link for the main result. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
       ]
     },
     {
@@ -31214,6 +31213,27 @@
       "priority": 1,
       "reasons": [
         "Independently replay the finite cases and transfer-matrix periodicity certificates using independently reviewed code; verify the reduction from band bounds to the all-n lower bound and authors audit provenance. The disclosed Claude computation is material, but model version and exact human/model proof design are unspecified. Confirm priority against the prior upper-bound conjecture. No downloaded code or certificate was executed. First public announcement is the 9 October arXiv listing; submission was 8 October. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3972",
+      "category": "Difficult",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently check the canonical-geodesic midpoint correspondence, fourth-order obstruction and exceptional rank-deficient tensor certificates; replay the pinned Lean/Comparator development with independently reviewed configuration. Check novelty against Nielsen–Okamura and nearby Matkowski–Suto results, and establish the earliest public repository visibility. Author attribution is self-reported; no human expert review or artifact replay was performed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3973",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override."
       ]
     },
     {
