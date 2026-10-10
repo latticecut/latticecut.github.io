@@ -49108,5 +49108,194 @@
       "Added provisional record 3970: Mean dimension and radius of comparison",
       "Added provisional record 3971: The domination number of the 2-token graph of path graphs"
     ]
+  },
+  {
+    "id": "2026-10-10-record-local-refresh",
+    "recordedAt": "2026-10-10",
+    "refreshedThrough": "2026-10-10",
+    "runDateEuropeLondon": "2026-10-10",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 3984,
+    "claimCount": 3986,
+    "evidenceCutoff": "2026-10-10T22:44:30.228Z",
+    "model": "OpenAI Codex, based on GPT-5",
+    "summary": "Two provisional new result packages and three existing-record revision/provenance updates.",
+    "coverageNote": "Rolling October 4–10 partial discovery, with inherited August 21-onward gaps not fully reconciled. Retained all 2578 math and 5858 CS recent-listing entries across five pages and keyword-screened metadata/comments; full-text coverage and candidate adjudication remain incomplete. No continuous-cutoff advance. Previous October 9 API/listing discrepancy was a submission-date versus announcement-date mismatch, not established contradiction. Mandatory sources checked; Sendov inert retrieval fallback hash unchanged, OpenAI main fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb and Goldblatt 3f11b2203b76902f1b6b234115437302a94b79c3 unchanged. The rotating ordinary-result review and complete provisional backlog are not claimed complete.",
+    "correctionSetId": "reviewed-source-corrections-2026-10-10",
+    "correctionSetSha256": "fbe3e286b5bea32218ec0f2c53820c6f9498c8bf9e99d3f4194417bfbfdd7117",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "3972",
+      "3973"
+    ],
+    "existingRecordChanges": [
+      "3360",
+      "1527",
+      "3898"
+    ],
+    "provisionalIds": [
+      "3972",
+      "3973",
+      "3360",
+      "1527",
+      "3898"
+    ],
+    "recordDecisions": [
+      {
+        "sourceId": "3972",
+        "title": "Planar Euclidean dual-geodesic midpoint rigidity",
+        "primary": "https://github.com/JD-Jones-ASES/PlanarMidpoint/blob/148b39618710caf576189cbdb75551cec1735201/README.md",
+        "support": "https://github.com/JD-Jones-ASES/PlanarMidpoint/blob/148b39618710caf576189cbdb75551cec1735201/Disclosure.md",
+        "publicationDate": "2026-10-09",
+        "dateBasis": "Dated Palomar registration 9 October 22:55:50 UTC; repository commits dated 8 October, with exact earlier public visibility not established.",
+        "boundedClaim": "The source reports the dimension-two necessity direction of Nielsen–Okamura Conjecture 9.1: on a connected open Euclidean planar domain, complementary canonical local geodesic midpoints of smooth dual torsion-free connections force their symmetric cubic tensor to be constant. It also reports differentiable obstruction rigidity and a five-direction test. This does not settle the conjecture in dimensions above two.",
+        "aiContribution": "Disclosure.md says OpenAI GPT-6 Astra agents through Codex developed the mathematical arguments, exact polynomial certificates and Lean proofs, under JD Jones’s project direction. Separate agent reviews are not independent human expert review.",
+        "furtherChecking": "Independently check the canonical-geodesic midpoint correspondence, fourth-order obstruction and exceptional rank-deficient tensor certificates; replay the pinned Lean/Comparator development with independently reviewed configuration. Check novelty against Nielsen–Okamura and nearby Matkowski–Suto results, and establish the earliest public repository visibility. Author attribution is self-reported; no human expert review or artifact replay was performed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "53B12",
+          "39B22"
+        ],
+        "categories": "math.DG;math.CA",
+        "bestCategory": "Difficult",
+        "bestConfidence": "high",
+        "comparator": "Nontrivial planar necessity and degenerate-case analysis for a conjecture posed in September 2026, not an all-dimensional or long-standing frontier settlement.",
+        "role": "AI-led (reported)",
+        "disposition": "include_flagged",
+        "verification": "Primary authors report checks; independent complete verification and statement correspondence unresolved. Independently check the canonical-geodesic midpoint correspondence, fourth-order obstruction and exceptional rank-deficient tensor certificates; replay the pinned Lean/Comparator development with independently reviewed configuration. Check novelty against Nielsen–Okamura and nearby Matkowski–Suto results, and establish the earliest public repository visibility. Author attribution is self-reported; no human expert review or artifact replay was performed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-10/decisions.json",
+            "pointer": "/0"
+          }
+        ]
+      },
+      {
+        "sourceId": "3973",
+        "title": "Uniform permanence of endotactic reaction networks with measurable rates",
+        "primary": "https://github.com/mmislan/palomar-endotactic-permanence/blob/c72c945264565397ecc3eee779e6bd5f3f3a061d/README.md",
+        "support": "https://github.com/mmislan/palomar-endotactic-permanence/blob/c72c945264565397ecc3eee779e6bd5f3f3a061d/formalization.yaml",
+        "publicationDate": "2026-10-09",
+        "dateBasis": "Dated Palomar registration 9 October 19:55:24 UTC; repository commits dated 8 October, with exact earlier public visibility not established.",
+        "boundedClaim": "The author reports uniform permanence for finite ordinary endotactic reaction networks with arbitrary real complexes and measurable rate coefficients bounded above and away from zero almost everywhere: each positive stoichiometric class has a compact convex forward-invariant absorbing set, uniformly over compact initial sets and rate histories within a fixed rate box. Positive Caratheodory solutions are global and unique among positive competitors, with continuous dependence for a common rate history. The source identifies this as settling Johnston–Pantea–Donnell Conjecture 1.3; equilibrium and feedback claims are not included.",
+        "aiContribution": "The source adapts OpenAI’s model-produced finite affine barrier construction for weakly reversible networks. formalization.yaml directly discloses Codex AI-assisted proof development, porting, review and preparation; exact historical model identifiers and allocation of the new ordinary-endotactic drift argument are unavailable.",
+        "furtherChecking": "Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "34A12",
+          "34D23",
+          "92C42"
+        ],
+        "categories": "math.DS;q-bio.MN",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "medium",
+        "comparator": "Reported complete ordinary-endotactic permanence settles the exact 2014 target beyond known two-dimensional and strongly-endotactic cases. The source explicitly imports material model-produced mathematics; exact scope and priority require further specialist checks.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Primary authors report checks; independent complete verification and statement correspondence unresolved. Independently verify ordinary-endotactic drift, the finite affine barrier transfer from weakly reversible networks, and the uniform absorbing-set quantifier order for signed complexes and measurable rates. Establish novelty and exact correspondence to the 2014 permanence conjecture; replay the pinned comparison/kernel evidence and corroborate claim-level human/model allocation and responsible author identity beyond the registered self-attribution. Recover earliest public repository visibility. No human expert review or artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-10/decisions.json",
+            "pointer": "/1"
+          }
+        ]
+      },
+      {
+        "sourceId": "3360",
+        "title": "An Exponent of 1.043 for the Unit Distance Problem",
+        "primary": "https://github.com/enaslund/unit-distance-bound-0.0427/blob/edd88c0c175ab4d18cf6115e2f6ddf3865d36b12/papers/0.043171/main.tex",
+        "support": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-01-000018-v2.json",
+        "boundedClaim": "The author reports unit-distance sets U_j with |U_j| tending to infinity and u(U_j)/|U_j|^1.043171 tending to infinity, using an external computer-assisted certificate. The October 8 manuscript improves the same package’s 1.04273 exponent. Registered Lean version 2 proves exponent 1.04315=20863/20000 conditional on the displayed zeta inequality H_W for a degree-8192 field. H_W is not proved in Lean; its external certificate is reported to bound the left side by 0.0509172. No bound for every sufficiently large cardinality is claimed.",
+        "aiContribution": "The manuscript directly says agents developed the mathematics and exact certificates: Claude Opus 5.5 through Claude Code produced the main refinement, reusing the earlier Claude/ChatGPT Sol 5.6/Astra 6 construction under Eric Naslund’s direction. Fresh-context AI reviews are not human peer review.",
+        "furtherChecking": "Independently replay the degree-8192 dihedral L-function and prime-census certificates and audit their rigorous tails, arithmetic tower/Frobenius caps and planar transfer. Distinguish unconditional reported paper exponent 1.043171 from conditional Lean exponent 1.04315 and unproved H_W. Check priority against prior unit-distance constructions and recover the exact first-public date of this revision. No downloaded certificate or Lean artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "A substantive but incremental refinement of the same already improved arithmetic construction, rather than a new settlement of the unit-distance conjecture.",
+        "role": "AI-led (reported)",
+        "disposition": "include_flagged",
+        "verification": "Primary authors report checks; independent complete verification and statement correspondence unresolved. Independently replay the degree-8192 dihedral L-function and prime-census certificates and audit their rigorous tails, arithmetic tower/Frobenius caps and planar transfer. Distinguish unconditional reported paper exponent 1.043171 from conditional Lean exponent 1.04315 and unproved H_W. Check priority against prior unit-distance constructions and recover the exact first-public date of this revision. No downloaded certificate or Lean artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "",
+        "evidence": [
+          {
+            "path": "2026-10-10/decisions.json",
+            "pointer": "/2"
+          }
+        ],
+        "dateBasis": "Existing first-public date preserved; this is a dated revision/provenance event, not another result package."
+      },
+      {
+        "sourceId": "1527",
+        "title": "Nearly minimax variance estimation under rough random design",
+        "primary": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/paper/body.tex",
+        "support": "https://github.com/pmaronow/ccv-palomar/blob/f3ef2ef312d44bbc693c1d5bea9cee654a29b598/paper/main.tex",
+        "boundedClaim": "The authors report a strengthened minimax root-mean-square bracket for constant conditional variance with rough bounded random-design density, covariate-dependent errors of uniformly bounded fourth moment, and s-Holder regression extensions. For 1<s<d/4, c Psi_n <= r_n <= C Psi_n (log n)^Gamma, where Psi_n=n^{-2(s+1)/(d+4)} exp(-kappa sqrt(log n)) (log n)^{(s-1)/(d+4)}, with the same explicit density-dependent kappa on both sides. The exact logarithmic power remains unresolved. The low-smoothness and parametric regimes are retained; the prior arXiv:2607.13170v3 package is not counted again.",
+        "aiContribution": "The revised primary manuscript acknowledges LLM suggestions of arguments, writing code for computational checks and drafting/revision under the authors’ supervision. The repository separately reports Sol 6.1 autoformalization and Codex preparation; this is not evidence that every mathematical step was AI-discovered.",
+        "furtherChecking": "Independently check matching stretched-exponential constants in upper/lower bounds, model nondegeneracy and extension-domain quantifiers, residual logarithmic gap, and priority of the strengthened bracket. Audit paper-to-Lean correspondence and independently replay the source-reported checks; obtain theorem-level human/model allocation and exact earliest public revised-manuscript date. No proof artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Meaningful specialist upper/lower-rate refinement of an existing minimax result; not an established long-standing complete open-target settlement.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Primary authors report checks; independent complete verification and statement correspondence unresolved. Independently check matching stretched-exponential constants in upper/lower bounds, model nondegeneracy and extension-domain quantifiers, residual logarithmic gap, and priority of the strengthened bracket. Audit paper-to-Lean correspondence and independently replay the source-reported checks; obtain theorem-level human/model allocation and exact earliest public revised-manuscript date. No proof artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "",
+        "evidence": [
+          {
+            "path": "2026-10-10/decisions.json",
+            "pointer": "/3"
+          }
+        ],
+        "dateBasis": "Existing first-public date preserved; this is a dated revision/provenance event, not another result package."
+      },
+      {
+        "sourceId": "3898",
+        "title": "OpenAI Math family 311: Hovey–Strickland and Chai conjectures — priority and contribution concern",
+        "primary": "https://arxiv.org/html/2610.10072v1",
+        "support": "https://arxiv.org/abs/2610.10072v1",
+        "boundedClaim": "OpenAI's catalogue reports: Proves Chai's invariant-ideal conjecture for Lubin–Tate deformation rings over finite residue fields, at every prime and positive height n. Through the implication of Barthel–Heard–Naumann, this proves the Hovey–Strickland conjecture: dualizable K(n)-local spectra have exactly n+2 thick tensor ideals, and their Balmer spectrum is a chain of n+1 points.",
+        "aiContribution": "OpenAI attributes its released result package to an internal model. Chenglong Ma’s dated primary paper reports that its proof strategy and specific notation match his preliminary proof uploaded to ChatGPT on 8 September; he says the conceptual route and general proof were human-originated, with a ChatGPT fixed-jet repair on 10 September rewritten and incorporated by him. These are author-attributed provenance statements, not established copying or a demonstrated data pathway.",
+        "furtherChecking": "Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "medium",
+        "comparator": "The exact all-height target is historically frontier-level, but the new dated human-origin account makes first-settlement chronology and original AI contribution substantively uncertain. Retain Superhuman as a tentative AI placement pending provenance evidence.",
+        "role": "AI-led (reported; disputed)",
+        "frontierStatus": "unclear",
+        "disposition": "include_flagged",
+        "verification": "Primary authors report checks; independent complete verification and statement correspondence unresolved. Resolve family-311 priority and provenance by comparing the dated Ma draft, Ningyi Li’s independent package and OpenAI’s pinned manuscript, including chronology and the fixed-jet repair. Seek an authoritative OpenAI response and auditable model-generation history; identical strategy/notation alleged by Ma is not proof of copying, access or training use. Preserve the reported all-height mathematical scope but do not treat original AI discovery as established. Independent correctness and statement correspondence remain pending. No artifact was executed here. Keep provisional=1, low strict coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "",
+        "evidence": [
+          {
+            "path": "2026-10-10/decisions.json",
+            "pointer": "/4"
+          }
+        ],
+        "dateBasis": "Existing first-public date preserved; this is a dated revision/provenance event, not another result package."
+      }
+    ],
+    "changes": [
+      "3972: Planar Euclidean dual-geodesic midpoint rigidity",
+      "3973: Uniform permanence of endotactic reaction networks with measurable rates",
+      "3360: An Exponent of 1.043 for the Unit Distance Problem",
+      "1527: Nearly minimax variance estimation under rough random design",
+      "3898: OpenAI Math family 311: Hovey–Strickland and Chai conjectures — priority and contribution concern"
+    ],
+    "quarantinedCandidates": [
+      {
+        "primary": "https://arxiv.org/html/2610.10072v1",
+        "reason": "Not counted as a separate new package: relationship to existing OpenAI family 311 is a disputed provenance/identity question; primary evidence updates ID3898 instead."
+      }
+    ],
+    "excludedCandidates": [
+      {
+        "primary": "https://arxiv.org/html/2610.10500v1",
+        "reason": "KATKA empirical software/index comparison using standard structures; no separately qualifying new mathematical theorem or material bound improvement established from inspected primary source."
+      },
+      {
+        "primary": "https://arxiv.org/html/2610.04603v1",
+        "reason": "Primary listing explicitly says no LLM used."
+      },
+      {
+        "primary": "https://arxiv.org/html/2610.08329v1",
+        "reason": "Known Poincare theorem formalization without a separate qualifying discovery."
+      }
+    ],
+    "artifactsExecuted": false
   }
 ]
