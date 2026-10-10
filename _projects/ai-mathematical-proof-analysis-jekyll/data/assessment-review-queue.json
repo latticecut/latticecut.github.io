@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-08",
+  "assessedAt": "2026-10-09",
   "samplingWeek": 2962,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -31194,6 +31194,26 @@
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
         "Independently check recurrence of the gap-harmonic Doob transform and the absolute-convergence/local-finiteness hypotheses, novelty against the 2017 extremal-gap result, and exact model contribution. The theorem does not cover exponents above two, general force laws or principal-value equilibria. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3970",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Establish the exact material ChatGPT role and model version; independently check the imported OpenAI torus-compression theorem, the global diagonal-map restrictions, and URP/COS hypotheses. Verify novelty of the amenable-action and AH extensions against prior Hirshberg/Phillips results. No independent proof review or artifact replay was performed. First public announcement is the 9 October arXiv listing; the 8 October submission timestamp is retained separately. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3971",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently replay the finite cases and transfer-matrix periodicity certificates using independently reviewed code; verify the reduction from band bounds to the all-n lower bound and authors audit provenance. The disclosed Claude computation is material, but model version and exact human/model proof design are unspecified. Confirm priority against the prior upper-bound conjecture. No downloaded code or certificate was executed. First public announcement is the 9 October arXiv listing; submission was 8 October. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override."
       ]
     },
     {

@@ -63033,5 +63033,33 @@
       "url": "https://arxiv.org/abs/2610.06944v1",
       "accessed": "2026-10-08"
     }
+  ],
+  "3970": [
+    {
+      "key": "Daily20261009_3970",
+      "title": "Mean dimension and radius of comparison (v1 claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.11143v1",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261009_3970_date",
+      "title": "Official arXiv version and submission history",
+      "url": "https://arxiv.org/abs/2610.11143v1",
+      "accessed": "2026-10-10"
+    }
+  ],
+  "3971": [
+    {
+      "key": "Daily20261009_3971",
+      "title": "The domination number of the 2-token graph of path graphs (v1 claim and AI disclosure)",
+      "url": "https://arxiv.org/html/2610.11265v1",
+      "accessed": "2026-10-10"
+    },
+    {
+      "key": "Daily20261009_3971_date",
+      "title": "Official arXiv version and submission history",
+      "url": "https://arxiv.org/abs/2610.11265v1",
+      "accessed": "2026-10-10"
+    }
   ]
 }

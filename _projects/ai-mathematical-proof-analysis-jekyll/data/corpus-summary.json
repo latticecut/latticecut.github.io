@@ -1,200 +1,82 @@
 {
-  "sourceCount": 3980,
+  "sourceCount": 3982,
   "latestRun": {
-    "id": "2026-10-08-six-independent-inclusions",
-    "recordedAt": "2026-10-09",
-    "runDateEuropeLondon": "2026-10-08",
-    "refreshedThrough": "2026-10-08",
+    "id": "2026-10-09-record-local-inclusions",
+    "recordedAt": "2026-10-10",
+    "runDateEuropeLondon": "2026-10-09",
+    "refreshedThrough": "2026-10-09",
     "collectionEnded": "2026-08-20",
+    "entryCount": 3982,
+    "claimCount": 3984,
+    "evidenceCutoff": "2026-10-09T22:57:17.593Z",
     "model": "OpenAI Codex, based on GPT-5",
-    "modelStatus": "recorded",
-    "entryCount": 3980,
-    "claimCount": 3982,
-    "evidenceCutoff": "2026-10-08T22:47:27.400Z",
-    "summary": "Six independently supportable new result packages published provisionally after record-local primary-source claim/AI-role/date/dedup review. Four best-current historical-frontier Superhuman estimates and two Difficult estimates; none receives the strict override.",
-    "coverageNote": "Continuation of the 8 October run across midnight BST; retained public snapshots were accessed on 8 October and assignments made on 9 October. Exact first announcement dates remain recorded record-local questions. Partial broad discovery adjudication and inherited gaps remain; continuous coverage does not advance.",
-    "recordDecisions": [
-      {
-        "sourceId": "3964",
-        "title": "An $n^{0.3+\\varepsilon}$-Approximation for Steiner $k$-Forest",
-        "boundedClaim": "The paper reports an n^(0.3+epsilon)-approximation for general Steiner k-Forest for every constant epsilon>0, improving the longstanding square-root-in-n general-case and n^0.448 uniform-weight bounds. It separately gives a conditional Densest-k-Subgraph/Sum-of-Squares barrier to improving the square-root-in-k dependence.",
-        "aiContribution": "The author reports that ChatGPT suggested tree embeddings for k-MST, inspiring their use for Steiner k-Forest, and supplied the height-reduction reference used in Lemma 2.2. The author expressly prohibited further model research ideas; later assistance was editorial. Do not attribute the full algorithm or proof to ChatGPT.",
-        "furtherChecking": "Check whether this disclosed strategy/reference suggestion was materially essential to the algorithm, independently verify the approximation exponent and explicit parameter restrictions, and keep the k-dependence obstruction conditional rather than an unconditional hardness theorem. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-07T12:17:15Z; exact announcement timing not independently established.",
-        "categories": "cs.DS",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/0"
-          }
-        ],
-        "arxivId": "2610.09932",
-        "primary": "https://arxiv.org/html/2610.09932v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-07T12:17:15Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "3eb97dbc766fc1d244ac3962332f03bb2a5b57104ab0fdce5ed0376edfa7b962",
-        "bestCategory": "Difficult",
-        "bestConfidence": "high",
-        "comparator": "Material improvement of a longstanding general approximation exponent, not a complete optimal solution of Steiner k-Forest.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      },
-      {
-        "sourceId": "3965",
-        "title": "Two-Variable Logic with Arbitrarily Many Successor Relations",
-        "boundedClaim": "The paper reports uniform 2NEXPTIME decidability of satisfiability and infinite satisfiability for two-variable first-order logic with an arbitrary finite input-dependent number of exact successor relations; arbitrary unary/binary predicates are permitted but the orders themselves are absent from the language. Finite satisfiability under a budget on lost reference adjacencies is NEXPTIME-complete.",
-        "aiContribution": "The authors directly credit GPT-6 Astra with a complex proof argument based on their initial notes; they deconstructed, simplified, rewrote and checked nearly the whole proof. GPT-6.1 Sol also helped editing. This is author-directed shared proof development, not intervention-free autonomy.",
-        "furtherChecking": "Independently verify the finite certificates, recovery of exact successors for arbitrary order types, complexity uniformity and bounded-loss finite-model restriction; do not extend the 2NEXPTIME claim to unrestricted finite satisfiability or languages containing the orders. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-07T09:45:43Z; exact announcement timing not independently established.",
-        "categories": "cs.LO",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/1"
-          }
-        ],
-        "arxivId": "2610.09758",
-        "primary": "https://arxiv.org/html/2610.09758v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-07T09:45:43Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "6a330e947d9d102745eec63efb0d6d8cfcc62a34cbb25542bf0966ddae8399fc",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Substantial uniform decidability and complexity theorem; this reading has not established an exact longstanding independently resistant target for a Superhuman placement.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      },
-      {
-        "sourceId": "3966",
-        "title": "Optimal (Parallel) Spooky Pebbling on Binary Trees",
-        "boundedClaim": "The paper reports asymptotically optimal work Theta(nh/log(s+1)) for spooky pebbling of the complete binary tree with n=2^h-1 and h+1<=s<=n, and matching optimal parallel depth Theta(h+(n/s) max{h/log(s+1),1+log-star(h)}). The minimum-space work becomes Theta(n log(n)/log log(n)), resolving the cited time-optimality question.",
-        "aiContribution": "The paper says the lower-bound proofs were developed through iterative exchanges with GPT-6 Astra and GPT-6.1 Sol. The authors take responsibility. Model-assisted text, application searches and computational experiments are separate from this directly disclosed mathematical contribution.",
-        "furtherChecking": "Independently check both work and depth lower bounds, the complete-tree upper-bound domain and full-tree lower-bound domain, the space-budget convention and the optimality comparator. Do not confuse reported application gate-count experiments with a proof for all circuits. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-07T04:43:00Z; exact announcement timing not independently established.",
-        "categories": "cs.CC",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/2"
-          }
-        ],
-        "arxivId": "2610.09434",
-        "primary": "https://arxiv.org/html/2610.09434v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-07T04:43:00Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "d24d3f893d6a4cfe664077340f0f99f51049bac858ad00a403cf8191ede6148d",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "medium",
-        "comparator": "Reported matching optimum settles the explicitly identified previously open binary-tree time-optimality question; placement is conditional on this restricted exact target, not all reversible computation.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      },
-      {
-        "sourceId": "3967",
-        "title": "Network Coding Can Beat Routing in Undirected Multiple-Unicast Networks",
-        "boundedClaim": "The paper reports a counterexample to the 2004 Li–Li conjecture: a finite connected simple undirected network with unit shared edge capacities, maximum degree three and distinct leaf terminals admits a binary linear block code with common rate strictly above fractional routing. It additionally reports unbounded simple subcubic bipartite high-girth families with coding rate approaching one and routing rate bounded by a negative power of log(n).",
-        "aiContribution": "The primary paper directly says GPT-6 Astra assisted in developing the mathematical proofs and Lean code. It reports standard-axiom formalizations of the finite counterexample and family theorem; this automation did not replay or inspect those artifacts.",
-        "furtherChecking": "Independently verify the shared-capacity communication convention, deterministic schedule/rate-region scope, strict routing bound and tensor amplification; replay the pinned formal development and establish exact paper/Lean correspondence. Author-reported standard axioms are not an independent kernel check. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-07T03:20:51Z; exact announcement timing not independently established.",
-        "categories": "cs.IT",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/3"
-          }
-        ],
-        "arxivId": "2610.09367",
-        "primary": "https://arxiv.org/html/2610.09367v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-07T03:20:51Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "15d2cff1210d6d6eb77d1df67d48df7c0dd7c70dc3804ec793e6a640a0f26ba4",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "high",
-        "comparator": "The precise source-reported finite counterexample would settle the Li–Li universal no-coding-advantage conjecture open since 2004, rather than merely improving a coding benchmark.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      },
-      {
-        "sourceId": "3968",
-        "title": "Separating comb inequalities is NP-hard",
-        "boundedClaim": "The paper reports NP-completeness of deciding whether a comb inequality is violated, hence NP-hardness of exact comb separation, even for vectors in the symmetric-TSP subtour elimination polytope with edge values 0, 1/2 or 1 and nonplanar maximum-degree-four support. The stated tooth-restricted variant is also hard.",
-        "aiContribution": "The authors credit GPT-6 and Claude Fable 5.1 with proposed reductions, graph constructions, candidate proof arguments, computational checks and counterexample searches. The humans formulated the question, directed the work, checked the arguments and simplified the results.",
-        "furtherChecking": "Independently verify the 3-SAT reduction, gadget consistency, subtour feasibility and NP-membership witness encoding. Establish exact novelty/priority for unrestricted versus restricted comb separation. Do not infer hardness for larger inequality families merely from comb separation. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-06T20:13:07Z; exact announcement timing not independently established.",
-        "categories": "cs.CC",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/4"
-          }
-        ],
-        "arxivId": "2610.09065",
-        "primary": "https://arxiv.org/html/2610.09065v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-06T20:13:07Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "2084322c82921995c713f042f988ea3564f2a29d56efe374ac876429530e9962",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "high",
-        "comparator": "The reported exact hardness settlement resolves the explicitly longstanding comb-separation question; historical-frontier classification is conditional on the precise restricted hard instance class and correct reduction.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      },
-      {
-        "sourceId": "3969",
-        "title": "Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions",
-        "boundedClaim": "The paper reports that any locally finite subset of the real line with at least two points, absolutely convergent total force at each point and zero net repulsive force for exponent 1<s<=2 is an arithmetic progression, without an extremal-gap assumption. In particular it reports a positive solution of Benjamini’s inverse-square equilibrium question.",
-        "aiContribution": "The author directly discloses AI-assisted problem identification, literature search, discovery of the proof and computational checks, and says the proofs and sources were reviewed by the author. The model identity and detailed allocation are not disclosed; material proof assistance is reported but autonomy is not established.",
-        "furtherChecking": "Independently check recurrence of the gap-harmonic Doob transform and the absolute-convergence/local-finiteness hypotheses, novelty against the 2017 extremal-gap result, and exact model contribution. The theorem does not cover exponents above two, general force laws or principal-value equilibria. Confirm the exact first-public announcement date and that the direct AI disclosure was present in v1; this record uses the first retained public qualifying snapshot on 8 October, not a submission timestamp as a verified publication date. No independent complete proof review or artifact replay was performed. Keep provisional=1, low taxonomy confidence, reviewStatus unreviewed and no strict Superhuman override.",
-        "verification": "Author-reported checking/formalization only; no independently established end-to-end verification in this run.",
-        "dateBasis": "First retained public qualifying v1 snapshot on 2026-10-08; arXiv lists submission 2026-10-03T09:46:28Z; exact announcement timing not independently established.",
-        "categories": "math.CA, math.CO, math.PR",
-        "msc2020": [],
-        "evidence": [
-          {
-            "path": "2026-10-08/six-independent-source-decisions.json",
-            "pointer": "/5"
-          }
-        ],
-        "arxivId": "2610.06944",
-        "primary": "https://arxiv.org/html/2610.06944v1",
-        "disposition": "include_flagged",
-        "submissionDate": "2026-10-03T09:46:28Z",
-        "publicationDate": "2026-10-08",
-        "fullTextSha256": "978d7d2d208e537b0464f5c9d46fbaf8e00de05708541ec5a8833a4ee6dbb607",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "high",
-        "comparator": "The reported unrestricted-gap inverse-square theorem settles the named 2015 question beyond the 2017 extremal-gap cases; it is not a claim about every repulsive force law.",
-        "deduplication": "No primary arXiv identity/title alias or matching bounded claim found in full 3974-package corpus; compared relevant network coding, comb separation, equilibrium, pebbling, successor logic and Steiner variants."
-      }
-    ],
+    "summary": "Two source-supported provisional inclusions: amenable/AH mean-dimension extension and exact path token-graph domination. Both best-current Difficult; no strict override.",
+    "coverageNote": "Rolling October3-9 and inherited August21-onward gaps remain only partially screened. Official API empty daily feed contradicts 504-entry October9 listing; no continuous-cutoff advancement. Mandatory Sendov and Palomar web retrieval failures recovered with inert curl fallback. OpenAI main unchanged fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb; prior corrections retained. Targeted searches and primary listing comments screened, not all full texts or cross-listed CS submissions.",
     "includeConfirmed": [],
     "includeFlagged": [
-      "3964",
-      "3965",
-      "3966",
-      "3967",
-      "3968",
-      "3969"
+      "3970",
+      "3971"
     ],
+    "recordDecisions": [
+      {
+        "sourceId": "3970",
+        "arxivId": "2610.11143",
+        "title": "Mean dimension and radius of comparison",
+        "boundedClaim": "The paper reports radius of comparison equal to half mean dimension for unital simple AH algebras with ordinary globally diagonal maps, and a reverse inequality for free minimal discrete amenable actions with uniform Rokhlin property, with equality when Cuntz comparison of open sets also holds. The result includes infinite values and extends the prior OpenAI integer-action package; it does not cover all amenable actions without these hypotheses.",
+        "aiContribution": "The authors directly acknowledge that the work was carried out using ChatGPT. Mathematical arguments adapt OpenAI torus compression and comparison constructions. The acknowledgement does not allocate theorem discovery, proof design or checking to particular model tasks.",
+        "furtherChecking": "Establish the exact material ChatGPT role and model version; independently check the imported OpenAI torus-compression theorem, the global diagonal-map restrictions, and URP/COS hypotheses. Verify novelty of the amenable-action and AH extensions against prior Hirshberg/Phillips results. No independent proof review or artifact replay was performed. First public announcement is the 9 October arXiv listing; the 8 October submission timestamp is retained separately. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "math.OA",
+        "msc2020": [],
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial extension of an existing integer-action result to restricted amenable actions and diagonal AH systems; the exact historical resistance and model task allocation are unresolved.",
+        "submissionDate": "2026-10-08",
+        "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 03:09:09 UTC.",
+        "primary": "https://arxiv.org/html/2610.11143v1",
+        "disposition": "include_flagged",
+        "verification": "Authors report checking; independent complete verification not established.",
+        "evidence": [
+          {
+            "path": "2026-10-09/decisions.json",
+            "pointer": "/0"
+          }
+        ]
+      },
+      {
+        "sourceId": "3971",
+        "arxivId": "2610.11265",
+        "title": "The domination number of the 2-token graph of path graphs",
+        "boundedClaim": "The paper reports gamma(F2(Pn))=(n^2+5n+c)/10 for every n>=13, with c=-30 for n mod 5=0, c=-36 for residues 1 or 4, and c=-34 for residues 2 or 3, settling the authors and Leanos conjecture by a computer-assisted lower bound. This is a path 2-token-graph result, not a formula for arbitrary token graphs.",
+        "aiContribution": "The authors say Claude developed and ran Python/C computations and validation under their supervision. The computation supplies finite base cases and transfer-matrix periodicity checks in the lower-bound proof; figures and English editing are separate. The authors report auditing arguments and computations.",
+        "furtherChecking": "Independently replay the finite cases and transfer-matrix periodicity certificates using independently reviewed code; verify the reduction from band bounds to the all-n lower bound and authors audit provenance. The disclosed Claude computation is material, but model version and exact human/model proof design are unspecified. Confirm priority against the prior upper-bound conjecture. No downloaded code or certificate was executed. First public announcement is the 9 October arXiv listing; submission was 8 October. Keep provisional=1, low coding confidence, unreviewed and no strict Superhuman override.",
+        "categories": "math.CO",
+        "msc2020": [
+          "05C69",
+          "05C76"
+        ],
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Exact specialist conjecture settlement via an established grid-transfer method; available history does not establish a long-standing frontier threshold warranting Superhuman.",
+        "submissionDate": "2026-10-08",
+        "dateBasis": "Official 9 October recent listing; v1 submitted 8 October 05:22:45 UTC.",
+        "primary": "https://arxiv.org/html/2610.11265v1",
+        "disposition": "include_flagged",
+        "verification": "Authors report checking; independent complete verification not established.",
+        "evidence": [
+          {
+            "path": "2026-10-09/decisions.json",
+            "pointer": "/1"
+          }
+        ]
+      }
+    ],
+    "quarantinedCandidates": [],
+    "existingRecordChanges": [],
+    "artifactsExecuted": false,
     "changes": [
-      "Added 3964: An $n^{0.3+\\varepsilon}$-Approximation for Steiner $k$-Forest",
-      "Added 3965: Two-Variable Logic with Arbitrarily Many Successor Relations",
-      "Added 3966: Optimal (Parallel) Spooky Pebbling on Binary Trees",
-      "Added 3967: Network Coding Can Beat Routing in Undirected Multiple-Unicast Networks",
-      "Added 3968: Separating comb inequalities is NP-hard",
-      "Added 3969: Equilibria of Inverse-Square Repulsion on the Line Are Arithmetic Progressions"
-    ],
-    "artifactsExecuted": false
+      "Added provisional record 3970: Mean dimension and radius of comparison",
+      "Added provisional record 3971: The domination number of the 2-token graph of path graphs"
+    ]
   },
-  "description": "3980 source-included, AI-coded, unreviewed."
+  "description": "3982 source-included, AI-coded, unreviewed."
 }
