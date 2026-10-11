@@ -49297,5 +49297,490 @@
       }
     ],
     "artifactsExecuted": false
+  },
+  {
+    "id": "2026-10-11-record-local-refresh",
+    "recordedAt": "2026-10-11",
+    "refreshedThrough": "2026-10-11",
+    "runDateEuropeLondon": "2026-10-11",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 3996,
+    "claimCount": 3998,
+    "evidenceCutoff": "2026-10-11T22:47:32.649Z",
+    "model": "OpenAI Codex, based on GPT-5; exact serving model not surfaced",
+    "modelStatus": "exact_runtime_not_surfaced",
+    "summary": "Twelve provisional new bounded packages and one source-supported modular-Schur correction.",
+    "coverageNote": "Rolling October5–11 metadata search plus partial inherited August21-onward reconciliation. All2578 math and5858 CS recent entries retained and keyword-screened; full-text screening, candidate adjudication, historical catchup and ordinary rotating review are incomplete. Continuous cutoff remains August20. Mandatory sources retrieved; web-tool Palomar/Zenodo failures scoped, direct primary fallback used where available. OpenAI and Goldblatt commits unchanged. Recent midpoint metadata-only revision has no substantive claim change; earlier five provisional flags retained.",
+    "correctionSetId": "reviewed-source-corrections-2026-10-11",
+    "correctionSetSha256": "ae57c1b73980c85d9414f41845daae8dfd358367344842c265c22ed6d886f29f",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "3974",
+      "3975",
+      "3976",
+      "3977",
+      "3978",
+      "3979",
+      "3980",
+      "3981",
+      "3982",
+      "3983",
+      "3984",
+      "3985"
+    ],
+    "existingRecordChanges": [
+      "513"
+    ],
+    "provisionalIds": [
+      "3974",
+      "3975",
+      "3976",
+      "3977",
+      "3978",
+      "3979",
+      "3980",
+      "3981",
+      "3982",
+      "3983",
+      "3984",
+      "3985",
+      "513"
+    ],
+    "recordDecisions": [
+      {
+        "sourceId": "3974",
+        "registryId": "PALOMAR-2026-10-11-000020",
+        "title": "Quantitative permanence and recovery with vanishing reverse rates",
+        "primary": "https://github.com/mmislan/palomar-quantitative-permanence/blob/e542422946035f4509e92c963b494e586105d09d/README.md",
+        "support": "https://github.com/mmislan/palomar-quantitative-permanence/blob/e542422946035f4509e92c963b494e586105d09d/formalization.yaml",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T16:49:33Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: For finite weakly reversible mass-action networks with rates proportional to powers of epsilon, quantitative eventual concentration bounds depend on the spread of rate exponents with geometric constants chosen before individual rates. In an explicit three-species prepared region, every prepared solution reaches and stays in the smaller target by (31/10)/(p^2 h^7), while an explicit witness cannot enter before 400/(1313 p^2 h^7). A continuous reverse-exponent family retains arbitrary admitted prefactors and matching worst-case recovery orders. These deterministic results do not certify the manuscript’s stochastic or numerical illustrations.",
+        "aiContribution": "Michael Mislan’s metadata discloses Codex AI-assisted mathematical analysis and proof drafting, and explicitly adapts OpenAI’s affine permanence construction. Exact serving identifiers are unavailable.",
+        "furtherChecking": "Check rate-box and prepared-region quantifiers, the two recovery constants and scaling, and separation from the earlier qualitative permanence result. The companion manuscript has blank author fields; the registered maintainer identifies responsibility, not peer review. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "37N25",
+          "92C42"
+        ],
+        "categories": "math.DS;q-bio.MN",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Check rate-box and prepared-region quantifiers, the two recovery constants and scaling, and separation from the earlier qualitative permanence result. The companion manuscript has blank author fields; the registered maintainer identifies responsibility, not peer review. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/0"
+          }
+        ]
+      },
+      {
+        "sourceId": "3975",
+        "registryId": "PALOMAR-2026-10-11-000019",
+        "title": "Exact robust gaps in finite open chiral chains",
+        "primary": "https://github.com/JD-Jones-ASES/chiral-gap/blob/3414bf564e0afd92d713ced8ba51c28db96834b2/README.md",
+        "support": "https://github.com/JD-Jones-ASES/chiral-gap/blob/3414bf564e0afd92d713ced8ba51c28db96834b2/Disclosure.md",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T16:33:06Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: For finite open chains with inhomogeneous positive strong-bond bounds and weak-bond ratio intervals, the worst squared scalar gap equals the minimum over ordered one-switch endpoint configurations and is positive. If every lower ratio is zero, two certificates suffice. With strictly positive lower ratios all minimizers form a point or a single transition edge. The sharp bound extends to arbitrary finite complex channels with an aligned-channel equality criterion and the finite chiral spectrum bridge. Cyclic, infinite-volume and interacting models are excluded.",
+        "aiContribution": "JD Jones’s Disclosure.md attributes the one-switch, two-certificate and sharp channel arguments to GPT 6 Pro, and optimizer/stability/equality extensions and Lean development to GPT-6 Astra agents through Codex.",
+        "furtherChecking": "Audit boundary indexing, positivity, one-switch reduction, zero-bound cases and the channel equality criterion. Supplementary boundary/stability statements are outside the selected Comparator contract; no worldwide priority or independent human specialist review is established. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "15A18",
+          "15A42",
+          "47A75",
+          "81Q10"
+        ],
+        "categories": "math.SP;math-ph",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Audit boundary indexing, positivity, one-switch reduction, zero-bound cases and the channel equality criterion. Supplementary boundary/stability statements are outside the selected Comparator contract; no worldwide priority or independent human specialist review is established. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/1"
+          }
+        ]
+      },
+      {
+        "sourceId": "3976",
+        "registryId": "PALOMAR-2026-10-11-000018",
+        "title": "Fröberg’s conjecture through degree 2d in sufficiently many variables",
+        "primary": "https://github.com/Vlado-V/froberg-2d/blob/b32bc82f7eea38479abab80b6b74649026c15d24/README.md",
+        "support": "https://github.com/Vlado-V/froberg-2d/blob/b32bc82f7eea38479abab80b6b74649026c15d24/formalization.yaml",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T15:58:52Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: For every positive generating degree d, one variable threshold depending only on d works for every infinite field and every number of general degree-d generators: the homogeneous quotient has Fröberg’s predicted positively truncated Hilbert function through degree 2d. The statement does not settle degrees above 2d, finite fields or an optimal explicit threshold.",
+        "aiContribution": "Vlado Vojdanovski’s primary metadata says GPT-6-family Codex agents produced substantial proof development, including a quadratic uniform defect recurrence in arbitrary characteristic, while the author supplied and revised the manuscript. Exact per-agent identities are incomplete.",
+        "furtherChecking": "Independently verify the simultaneous field/generator quantifiers, nonempty principal open and quadratic recurrence, and distinguish mathematical extensions from formalization of supplied human arguments. Full Palomar verification is pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "13D40",
+          "13F20",
+          "13D02"
+        ],
+        "categories": "math.AC",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Independently verify the simultaneous field/generator quantifiers, nonempty principal open and quadratic recurrence, and distinguish mathematical extensions from formalization of supplied human arguments. Full Palomar verification is pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/2"
+          }
+        ]
+      },
+      {
+        "sourceId": "3977",
+        "registryId": "PALOMAR-2026-10-11-000011",
+        "title": "Realizations and dynamics of shared-resource mass-action systems",
+        "primary": "https://github.com/mmislan/palomar-shared-resource-realizations/blob/d985d04a6cee575f8ac6dc32db98a390393d9b39/README.md",
+        "support": "https://github.com/mmislan/palomar-shared-resource-realizations/blob/d985d04a6cee575f8ac6dc32db98a390393d9b39/formalization.yaml",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T09:43:16Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: For the specified finite two-species module family coupled through a shared resource/buffer, every positive parameter vector admits a strongly connected realization. Complex balance at a prescribed state is equivalent to stationarity and two local flux inequalities, even allowing auxiliary complexes on the same species. The homogeneous sharing threshold is v <= n/8 including equality. The source also reports permanence, equilibrium/stability results under its stated regimes and a d=1/10 example with three positive equilibria. This is not a characterization of all reaction networks.",
+        "aiContribution": "Michael Mislan’s metadata directly discloses Codex AI-assisted source analysis, proof drafting and exact arithmetic; the permanence component builds on the earlier endotactic development. Model identifiers are incomplete.",
+        "furtherChecking": "Check auxiliary-complex quantification, local flux necessity, transport extensions, the equality threshold, stability regimes and the three-equilibrium example; separate imported permanence from new realizability mathematics. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "34D20",
+          "37N25",
+          "92C42"
+        ],
+        "categories": "math.DS;q-bio.MN",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Check auxiliary-complex quantification, local flux necessity, transport extensions, the equality threshold, stability regimes and the three-equilibrium example; separate imported permanence from new realizability mathematics. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/3"
+          }
+        ]
+      },
+      {
+        "sourceId": "3978",
+        "registryId": "PALOMAR-2026-10-11-000010",
+        "title": "Zero-density estimates with a uniform 39/17 coefficient",
+        "primary": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/README.md",
+        "support": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/formalization.yaml",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T09:00:10Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: For every epsilon>0 one constant C_epsilon, chosen before sigma and T, bounds the actual multiplicity-weighted Riemann-zeta zero count by C_epsilon*T^((39/17)(1-sigma)+epsilon), simultaneously for 1/2<=sigma<=1 and T>=2. A sharper piecewise exponent has coefficients 3/(2-sigma), 18/(7sigma+3), 9/4 and 3/(2sigma) on the source’s four intervals. That exact curve only has fixed-sigma constants or the stated restricted uniformity; no global 9/4 coefficient or whole-strip sharp-curve uniform constant is claimed.",
+        "aiContribution": "Mark Lewko’s metadata directly reports AI-assisted formal proof development and adaptation of attributed analytic sources; exact models and allocation of the new large-values improvement are not supplied.",
+        "furtherChecking": "Audit the actual zeta count and analytic input closure, comparison to Guth–Maynard 30/13, sharp-curve boundary at sigma=3/4 and all constant quantifiers. Establish whether the AI mathematics generated the new bound or primarily formalized a supplied argument. Hosted preflight remains pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [],
+        "categories": "math.NT",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Audit the actual zeta count and analytic input closure, comparison to Guth–Maynard 30/13, sharp-curve boundary at sigma=3/4 and all constant quantifiers. Establish whether the AI mathematics generated the new bound or primarily formalized a supplied argument. Hosted preflight remains pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/4"
+          }
+        ]
+      },
+      {
+        "sourceId": "3979",
+        "registryId": "PALOMAR-2026-10-09-000004",
+        "title": "Explicit uniformly bounded homogeneous holomorphic bases",
+        "primary": "https://github.com/mrklwk/uniformly-bounded-holomorphic-bases/blob/a91b7a0f08c5771f1c66435eac4a456a918ff384/README.md",
+        "support": "https://github.com/mrklwk/uniformly-bounded-holomorphic-bases/blob/a91b7a0f08c5771f1c66435eac4a456a918ff384/formalization.yaml",
+        "publicationDate": "2026-10-09",
+        "dateBasis": "Retained Palomar version1 was published2026-10-09T02:53:45Z at commit27da775062618a78ca3dc6273645d97bc66bcf15. Version2 is October11. The version1 endpoint was forbidden on fresh retrieval; retained prior primary feed establishes the earlier dated observation, not independently known earliest repository visibility.",
+        "boundedClaim": "The source reports: For every fixed complex dimension d>=2, an explicit Fourier-minor/quadratic-phase family is an orthonormal basis of every degree-N homogeneous polynomial block on the normalized complex unit sphere, with supremum on the closed unit ball bounded by C_d independently of N. No uniform-in-d bound, full Hardy-space completeness, arbitrary-SPD auxiliary theorem or integrated d=1 endpoint is claimed.",
+        "aiContribution": "Mark Lewko’s registered primary metadata directly attributes material formal proof generation and separate review to Codex and Claude. The underlying mathematical manuscript is nonpublic and original-text/PDF identity is unresolved.",
+        "furtherChecking": "Check exact correspondence to the homogeneous-basis open target in2511.02864v3 Section6.37, distinct from its spherical-harmonic formulation and known mixed-degree Hardy-space existence. Obtain the original manuscript, reconcile its exact formula and scope, and independently verify the coupled Poisson estimate, normalization and novelty against Bourgain/Rudin background. Determine whether AI contributes original mathematical construction or formalization only; the private source cannot itself be inspected here. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [],
+        "categories": "math.CV;math.FA",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "comparator": "The reported homogeneous degree-block theorem covers every fixed complex dimension, including the m>=4 range explicitly recorded as open in Georgiev–Gómez-Serrano–Tao–Wagner2511.02864v3 Section6.37. Bourgain’s1985/2016 results covered complex dimensions2/3. This is a complete claimed crossing of that historical homogeneous-basis frontier, not the already-known mixed-degree Hardy-space basis result. Exact AI contribution to the original mathematical construction is still unclear, so its AI-frontier placement remains tentative despite high difficulty confidence.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported checks are not independently verified here. Check exact correspondence to the homogeneous-basis open target in2511.02864v3 Section6.37, distinct from its spherical-harmonic formulation and known mixed-degree Hardy-space existence. Obtain the original manuscript, reconcile its exact formula and scope, and independently verify the coupled Poisson estimate, normalization and novelty against Bourgain/Rudin background. Determine whether AI contributes original mathematical construction or formalization only; the private source cannot itself be inspected here. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/5"
+          }
+        ],
+        "frontierStatus": "unclear"
+      },
+      {
+        "sourceId": "3980",
+        "registryId": "PALOMAR-2026-10-11-000006",
+        "title": "An N^(-7/10) bound for finite-size SK mean bias",
+        "primary": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/README.md",
+        "support": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/paper/main.tex",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T06:45:14Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: In the zero-field Gaussian Sherrington–Kirkpatrick model, for each fixed beta>1 there is C_beta>0 such that 0 <= P_beta-p_(N,beta) <= C_beta*N^(-7/10) for every N>=2, where P_beta is the all-probability-profile Parisi variational value. This yields a saving 1/30 over 2/3. It does not determine an exact exponent, a matching lower bound, a fluctuation law, ground-state behavior or uniform temperature constants.",
+        "aiContribution": "Aronow and Lopatto’s pinned manuscript says its text apart from the authors’ note and small abstract edits is machine written under supervision. Sol 6.1 autoformalized the original proof; Codex prepared and reviewed the release. The note does not establish complete human mathematical review.",
+        "furtherChecking": "Independently check the interpolation/cavity proof and the limit-to-Parisi bridge. Separate receipts of earlier snapshots from verification of this release, and resolve mathematical priority and model/theorem allocation. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "82B44",
+          "60K35",
+          "60G15"
+        ],
+        "categories": "math.PR;cond-mat.dis-nn",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Independently check the interpolation/cavity proof and the limit-to-Parisi bridge. Separate receipts of earlier snapshots from verification of this release, and resolve mathematical priority and model/theorem allocation. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/6"
+          }
+        ]
+      },
+      {
+        "sourceId": "3981",
+        "registryId": "PALOMAR-2026-10-11-000005",
+        "title": "Seven is the least tournament order with Sperner capacity above transitive number",
+        "primary": "https://github.com/JD-Jones-ASES/sperner-t7-lean/blob/0e846b6144d2c5954a983d2d97e90e02169d9809/README.md",
+        "support": "https://github.com/JD-Jones-ASES/sperner-t7-lean/blob/0e846b6144d2c5954a983d2d97e90e02169d9809/DISCLOSURE.md",
+        "publicationDate": "2026-10-11",
+        "dateBasis": "Earliest dated qualifying registration retained here: 2026-10-11T01:54:34Z. Repository commit dates do not establish prior public visibility; exact earlier release date remains to be checked.",
+        "boundedClaim": "The source reports: The exhibited seven-vertex subtournament T7 of Paley(23), on 0,1,2,3,9,14,18, has t(T7)=4 and sqrt(18)<=C(T7)<=5; every tournament on at most six vertices has C(T)=t(T). Thus seven is the least order of a counterexample to equality. The source’s uniqueness census and exact square value are certificate-level claims outside its selected Lean statements, and exact C(T7) is not determined.",
+        "aiContribution": "JD Jones’s DISCLOSURE.md says Claude produced the computations, proofs, searches and checkers under his direction; the witness was found by vertex deletion and independently programmed certificate searches. Agent/program agreement is not human expert review.",
+        "furtherChecking": "Audit capacity/lift/rank definitions and the complete census through six vertices. Recheck the claim that Alon’s 1998 smallest-counterexample question remained open, and distinguish the already disproved universal equality conjecture from the new minimum-order classification. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "05C20",
+          "05C35"
+        ],
+        "categories": "math.CO;cs.IT",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "medium",
+        "comparator": "The source reports an exact answer to Alon’s 1998 minimum-counterexample question, not a first disproof of the already-refuted equality conjecture; substantial priority uncertainty remains.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Audit capacity/lift/rank definitions and the complete census through six vertices. Recheck the claim that Alon’s 1998 smallest-counterexample question remained open, and distinguish the already disproved universal equality conjecture from the new minimum-order classification. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/7"
+          }
+        ]
+      },
+      {
+        "sourceId": "3982",
+        "registryId": "PALOMAR-2026-10-11-000002",
+        "title": "Nearly minimax functional estimation under rough random design",
+        "primary": "https://hexagonmath.org/2610.00157v1",
+        "support": "https://github.com/pmaronow/roughregime-palomar/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/formalization.yaml",
+        "publicationDate": "2026-10-08",
+        "dateBasis": "Dated primary public source 2026-10-08; current registry event 2026-10-11T00:11:04Z is a later observation, not a new first-public date. Earlier repository visibility remains uncertain where noted.",
+        "boundedClaim": "The source reports: For the source’s bilinear conditional-mean functional under bounded rough weighted design density and Holder smoothness alpha,beta, put theta=(alpha+beta)/d. The generic theorem has root-n upper/local lower rates for theta>=1/2; for theta<1/2 it gives a shared density-dependent stretched-exponential rate a_n with differing logarithmic factors, including a probability lower bound 1/4. The residual logarithmic gap is unresolved. This functional-estimation package is distinct from constant-variance estimation ID1527.",
+        "aiContribution": "The authors’ Hexagon v1 record identifies primarily AI-generated text with partial human understanding. Sol 6.1 autoformalization and subsequent Codex mathematical boundary/calculus bridges and preparation are separately disclosed by the pinned source.",
+        "furtherChecking": "Verify the common stretched-exponential coefficient, density and nondegeneracy hypotheses, upper/local-lower quantifier order and residual logarithmic gap. Reconcile literal Holder definitions and source-to-formal correspondence; do not infer every step’s AI origin from the AI-text label. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "62G05",
+          "62G08",
+          "62G20",
+          "62C20"
+        ],
+        "categories": "stat.ME",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Verify the common stretched-exponential coefficient, density and nondegeneracy hypotheses, upper/local-lower quantifier order and residual logarithmic gap. Reconcile literal Holder definitions and source-to-formal correspondence; do not infer every step’s AI origin from the AI-text label. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/8"
+          }
+        ]
+      },
+      {
+        "sourceId": "3983",
+        "registryId": "PALOMAR-2026-10-11-000001",
+        "title": "Döblin–Fourier cancellation and kinetic Aleksandrov estimates",
+        "primary": "https://arxiv.org/html/2610.03083v1",
+        "support": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/formalization.yaml",
+        "publicationDate": "2026-10-02",
+        "dateBasis": "Dated primary public source 2026-10-02; current registry event 2026-10-11T00:02:03Z is a later observation, not a new first-public date. Earlier repository visibility remains uncertain where noted.",
+        "boundedClaim": "The source reports: The 2 October paper reports exponential Fourier contraction for rough position-independent kinetic diffusion A(t,v), leading to the kinetic Aleksandrov estimate for p>2d+1 and spatial regularity. In dimension one with autonomous a(x,v), it obtains the estimate for p>4; these are thresholds uniform in ellipticity ratios for the stated coefficient classes. The sphere/torus application gives square-root frequency dissipation and quantitative mixing. The short paper does not settle the optimal threshold for fully general A(t,x,v); broader companion claims are not silently imported.",
+        "aiContribution": "Loher, Mooney and Mouhot explicitly say GPT-5.6 Sol through Codex produced the first probabilistic calculation underlying the cancellation estimate during author-directed interactive proof search. The authors checked and rewrote the arguments; subsequent proofreading and figures are separate roles.",
+        "furtherChecking": "Verify cancellation and Harnack comparison for measurable coefficients, maximum-principle boundary conventions, sharp threshold statements and sphere mixing. Distinguish the short paper from the non-publication companion’s stronger/general claims and formalization receipts. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "35K70",
+          "35B50",
+          "35B65",
+          "35Q84"
+        ],
+        "categories": "math.AP;math.PR",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Verify cancellation and Harnack comparison for measurable coefficients, maximum-principle boundary conventions, sharp threshold statements and sphere mixing. Distinguish the short paper from the non-publication companion’s stronger/general claims and formalization receipts. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/9"
+          }
+        ]
+      },
+      {
+        "sourceId": "3984",
+        "registryId": "PALOMAR-2026-10-11-000007",
+        "title": "Matrix multiplication exponent at most 9/4 over every ring",
+        "primary": "https://github.com/selanavot/omega_le_nine_quarters_all_rings/blob/9d10116c89f9bdcdaccd58aacea353d4b7ae6e90/README.md",
+        "support": "https://github.com/selanavot/omega_le_nine_quarters_all_rings/blob/9d10116c89f9bdcdaccd58aacea353d4b7ae6e90/formalization.yaml",
+        "publicationDate": "2026-10-10",
+        "dateBasis": "Zenodo DOI23268534 metadata reports publication_date October9, but the archive was created October9 23:17:25UTC, October10 in Europe/London; use the latter dated public release observation. Earlier repository visibility remains uncertain.",
+        "boundedClaim": "The source reports: The exact integer-coefficient tensor-rank exponent is at most 9/4, yielding division-free arithmetic programs over every associative unital ring, including noncommutative and trivial rings. For every positive epsilon one constant bounds costs for every positive matrix size by C*n^(9/4+epsilon). The numerical exponent and OpenAI proof architecture are inherited; no endpoint O(n^(9/4)), efficient uniform generator, bit-complexity or universal semiring extension is claimed.",
+        "aiContribution": "Sela Navot’s primary README and metadata explicitly attribute the extension’s mathematical development and paper to Codex under human direction; exact model identifiers are unavailable. OpenAI’s earlier complex bound and a prior all-fields extension are attributed, not claimed as new here.",
+        "furtherChecking": "Audit integral descent, coefficient extraction, coprime patching and noncommutative order of input factors. Check the trivial-ring infimum convention separately from the explicit zero-cost algorithm. Local kernel receipts do not equal Palomar sandbox/provenance preflight; confirm novelty beyond the prior field extension and exact archive chronology. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "68Q25",
+          "15A69",
+          "68W30"
+        ],
+        "categories": "cs.CC;cs.DS",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Audit integral descent, coefficient extraction, coprime patching and noncommutative order of input factors. Check the trivial-ring infimum convention separately from the explicit zero-cost algorithm. Local kernel receipts do not equal Palomar sandbox/provenance preflight; confirm novelty beyond the prior field extension and exact archive chronology. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/10"
+          }
+        ]
+      },
+      {
+        "sourceId": "3985",
+        "registryId": "PALOMAR-2026-10-11-000014",
+        "title": "An explicit computable transcendental Egyptian-fraction counterexample",
+        "primary": "https://github.com/yuhangshi888/erdos-206-explicit-counterexample/blob/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/README.md",
+        "support": "https://github.com/yuhangshi888/erdos-206-explicit-counterexample/blob/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/formalization.yaml",
+        "publicationDate": "2026-10-10",
+        "dateBasis": "Zenodo DOI23283007 published version1.0.0 on October10, created14:04:11UTC. Current Palomar registration October11 is later; earlier repository visibility remains uncertain.",
+        "boundedClaim": "The source reports: The source defines a specific transcendental x in (1/4,1/3) and a total rational algorithm q_n with |x-q_n|<=2^(-n-1), such that no strictly increasing infinite positive-denominator chain attains the best strict Egyptian underapproximation R_n(x) for all n beyond any finite start. It handles every competing chain and tied optimum. This is an effective explicit construction, not the first existence or measure-zero result, and no separate Turing-machine encoding or complexity bound is claimed.",
+        "aiContribution": "Yuhang Shi’s registered metadata says Codex AI tools assisted the counterexample construction as well as formalization, implementation and checks; models are not recorded.",
+        "furtherChecking": "Verify termination, complete prefix/polynomial enumeration, strict-underapproximation semantics and the precision guarantee. Determine whether the effective example is new beyond Kovač and effective Baire methods; problem-maintainer acceptance is not established. The Zenodo landing page failed in the web tool; its primary API date/abstract/ownership metadata was retrieved, but the full separately distributed manuscript was not read here. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "msc2020": [
+          "11D68",
+          "03D78"
+        ],
+        "categories": "math.NT;math.LO",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "comparator": "Substantial specialist progress on the bounded reported claim, rather than a complete settlement of an established long-standing conjecture.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "verification": "Source-reported local checks are not an independently established verification event. Verify termination, complete prefix/polynomial enumeration, strict-underapproximation semantics and the precision guarantee. Determine whether the effective example is new beyond Kovač and effective Baire methods; problem-maintainer acceptance is not established. The separately distributed Zenodo manuscript could not be retrieved through the web tool. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/11"
+          }
+        ]
+      },
+      {
+        "sourceId": "513",
+        "title": "Modular Schur numbers — current scope and verification limits",
+        "primary": "https://github.com/mysticflounder/modular-schur/blob/7c91cf3c5ca9b50354a74344dce71a28c9fefa01/README.md",
+        "support": "https://github.com/mysticflounder/modular-schur/blob/7c91cf3c5ca9b50354a74344dce71a28c9fefa01/formalization.yaml",
+        "publicationDate": "2026-04-17",
+        "dateBasis": "Existing first-public date preserved. Palomar version 2 dated 11 October is a later scope/provenance event.",
+        "boundedClaim": "The paper reports that, for m >= 2 and ell >= 2, with n = m/gcd(m,ell-1), S_m(k,ell) = n-1 for every k >= n-1. It also gives S_m(1,ell) = min(ell-1,floor(m/ell)) for 2 <= ell <= m and the stated prime-modulus threshold k_0(p,ell) = p-1 when ell >= p-1 and ell is not 1 modulo p. The composite threshold remains open. The author’s current draft correction note additionally reports that a published prime-power middle branch fails at S_8(3,8), and replaces it by S_(p^i)(k,ell)=p^i-1 for k>=i(p-1) when p does not divide ell-1; this prose correction is not formalized.",
+        "aiContribution": "Current owner metadata attributes informal structural proofs and paper work to Claude, Aristotle and GPT-5/Codex under Adam McKenna’s direction. The source distinguishes original structural work, later canonical-cover development and formal/audit roles.",
+        "furtherChecking": "Independently verify the draft prime-power correction and its relation to D’orville et al.; audit the exact current twelve-declaration surface against the earlier differently configured successful runs. The README records a failed companion conformance run and no recorded public run of the new toolchain comparator. Registry registration is not verification, acceptance or human peer review. Reconcile these source-qualified receipts before clearing provisional status; clarify theorem-level AI allocation. No artifact was executed here. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+        "bestCategory": "Expected",
+        "bestConfidence": "medium",
+        "comparator": "The source explicitly identifies the stable general formula as a short corollary of prior singleton results, with useful one-color and prime-power corrections. This is normal specialist progress rather than an established frontier crossing.",
+        "role": "Shared (reported)",
+        "disposition": "include_flagged",
+        "categories": "math.CO;math.NT",
+        "evidence": [
+          {
+            "path": "2026-10-11/decisions.json",
+            "pointer": "/12"
+          }
+        ],
+        "verification": "No new independently validated verification event is asserted. Independently verify the draft prime-power correction and its relation to D’orville et al.; audit the exact current twelve-declaration surface against the earlier differently configured successful runs. The README records a failed companion conformance run and no recorded public run of the new toolchain comparator. Registry registration is not verification, acceptance or human peer review. Reconcile these source-qualified receipts before clearing provisional status; clarify theorem-level AI allocation. No artifact was executed here. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+      }
+    ],
+    "changes": [
+      "3974: Quantitative permanence and recovery with vanishing reverse rates",
+      "3975: Exact robust gaps in finite open chiral chains",
+      "3976: Fröberg’s conjecture through degree 2d in sufficiently many variables",
+      "3977: Realizations and dynamics of shared-resource mass-action systems",
+      "3978: Zero-density estimates with a uniform 39/17 coefficient",
+      "3979: Explicit uniformly bounded homogeneous holomorphic bases",
+      "3980: An N^(-7/10) bound for finite-size SK mean bias",
+      "3981: Seven is the least tournament order with Sperner capacity above transitive number",
+      "3982: Nearly minimax functional estimation under rough random design",
+      "3983: Döblin–Fourier cancellation and kinetic Aleksandrov estimates",
+      "3984: Matrix multiplication exponent at most 9/4 over every ring",
+      "3985: An explicit computable transcendental Egyptian-fraction counterexample",
+      "513: Modular Schur numbers — current scope and verification limits"
+    ],
+    "excludedCandidates": [
+      {
+        "primary": "https://github.com/linrock/math-proofs/tree/b53791ff6294b4b90e3653970367f127a52fd16e",
+        "reason": "Known Borwein–Loring/Tengely–Ulas–Zygadlo results formalized; universal open parts remain open."
+      },
+      {
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/dac5d2d127d25d61e972fc5d9fc442146c67440d",
+        "reason": "Known Michael biquotient-map theorems formalized."
+      },
+      {
+        "primary": "https://github.com/selfreferencing/erdos993-palomar/tree/c020ce114a4b21ee164946547093e40452af898a",
+        "reason": "Second previously reported forest-unimodality proof formalized, no separately established qualifying new AI mathematical result."
+      },
+      {
+        "primary": "https://github.com/raphaeldelors-code/palomar-erdos607/tree/45ef2462f0a9f139734ac590238456229bca068b",
+        "reason": "Primary source assigns new geometric reduction to a human and LLM role to formalization/tactic search; no separate qualifying AI discovery established."
+      },
+      {
+        "primary": "https://github.com/scottnarmstrong/DOZZ/tree/5d770d1a6d69fac6dbb63060e8a89861bf3ee330",
+        "reason": "Known Kupiainen–Rhodes–Vargas 2020 DOZZ theorem formalized."
+      },
+      {
+        "primary": "https://github.com/sascha2718/lean-dual-analytic-ifs/tree/cf134207f9218a3eb3e0e4bcbd472af513eef9f6",
+        "reason": "Known 2025/2026 analytic-IFS paper formalized; no separate qualifying discovery established."
+      },
+      {
+        "primary": "https://github.com/scottnarmstrong/CoarseDeGiorgi/tree/200c40c9c55a5e19188739d27466ddffcb2660c4",
+        "reason": "Existing paper formalized by AI; no separate qualifying new result established from the inspected original/formalization sources."
+      },
+      {
+        "primary": "https://github.com/nitromannitol/subdiffusive-process/tree/4c6b8fa60357a07fd5713e5104a6cc70f8e432dc",
+        "reason": "Author-specified human manuscript formalized; a separate qualifying AI mathematical discovery is not established by the proof-development disclosure."
+      }
+    ],
+    "quarantinedCandidates": [
+      {
+        "primary": "https://arxiv.org/abs/2610.10072v1",
+        "reason": "Separate Ma/OpenAI family311 corpus identity and disputed provenance remain unresolved; yesterday’s existing3898 caveat retained."
+      }
+    ],
+    "artifactsExecuted": false,
+    "postMidnightReviewNote": "Oct11 run completed into Oct12 Europe/London; the additional3979 historical-target clarification is accessedOct12, without a discovery-window or continuous-cutoff advance."
   }
 ]
