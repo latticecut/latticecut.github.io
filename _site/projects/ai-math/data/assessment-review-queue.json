@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-10",
+  "assessedAt": "2026-10-11",
   "samplingWeek": 2962,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -986,6 +986,16 @@
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
         "AI contribution not established",
         "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "513",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently verify the draft prime-power correction and its relation to D’orville et al.; audit the exact current twelve-declaration surface against the earlier differently configured successful runs. The README records a failed companion conformance run and no recorded public run of the new toolchain comparator. Registry registration is not verification, acceptance or human peer review. Reconcile these source-qualified receipts before clearing provisional status; clarify theorem-level AI allocation. No artifact was executed here. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -31237,6 +31247,130 @@
       ]
     },
     {
+      "id": "3974",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check rate-box and prepared-region quantifiers, the two recovery constants and scaling, and separation from the earlier qualitative permanence result. The companion manuscript has blank author fields; the registered maintainer identifies responsibility, not peer review. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3975",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit boundary indexing, positivity, one-switch reduction, zero-bound cases and the channel equality criterion. Supplementary boundary/stability statements are outside the selected Comparator contract; no worldwide priority or independent human specialist review is established. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3976",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently verify the simultaneous field/generator quantifiers, nonempty principal open and quadratic recurrence, and distinguish mathematical extensions from formalization of supplied human arguments. Full Palomar verification is pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3977",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check auxiliary-complex quantification, local flux necessity, transport extensions, the equality threshold, stability regimes and the three-equilibrium example; separate imported permanence from new realizability mathematics. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3978",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the actual zeta count and analytic input closure, comparison to Guth–Maynard 30/13, sharp-curve boundary at sigma=3/4 and all constant quantifiers. Establish whether the AI mathematics generated the new bound or primarily formalized a supplied argument. Hosted preflight remains pending. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3979",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Check exact correspondence to the homogeneous-basis open target in2511.02864v3 Section6.37, distinct from its spherical-harmonic formulation and known mixed-degree Hardy-space existence. Obtain the original manuscript, reconcile its exact formula and scope, and independently verify the coupled Poisson estimate, normalization and novelty against Bourgain/Rudin background. Determine whether AI contributes original mathematical construction or formalization only; the private source cannot itself be inspected here. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "3980",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently check the interpolation/cavity proof and the limit-to-Parisi bridge. Separate receipts of earlier snapshots from verification of this release, and resolve mathematical priority and model/theorem allocation. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3981",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit capacity/lift/rank definitions and the complete census through six vertices. Recheck the claim that Alon’s 1998 smallest-counterexample question remained open, and distinguish the already disproved universal equality conjecture from the new minimum-order classification. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3982",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Verify the common stretched-exponential coefficient, density and nondegeneracy hypotheses, upper/local-lower quantifier order and residual logarithmic gap. Reconcile literal Holder definitions and source-to-formal correspondence; do not infer every step’s AI origin from the AI-text label. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "3983",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Verify cancellation and Harnack comparison for measurable coefficients, maximum-principle boundary conventions, sharp threshold statements and sphere mixing. Distinguish the short paper from the non-publication companion’s stronger/general claims and formalization receipts. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3984",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit integral descent, coefficient extraction, coprime patching and noncommutative order of input factors. Check the trivial-ring infimum convention separately from the explicit zero-cost algorithm. Local kernel receipts do not equal Palomar sandbox/provenance preflight; confirm novelty beyond the prior field extension and exact archive chronology. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "3985",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Verify termination, complete prefix/polynomial enumeration, strict-underapproximation semantics and the precision guarantee. Determine whether the effective example is new beyond Kovač and effective Baire methods; problem-maintainer acceptance is not established. The Zenodo landing page failed in the web tool; its primary API date/abstract/ownership metadata was retrieved, but the full separately distributed manuscript was not read here. Independently audit statement-to-manuscript correspondence and replay the exact pinned proof/certificate configuration. Establish novelty, earliest public visibility and claim-level human/model allocation; self-reported author/maintainer identity is not external endorsement. No downloaded artifact was executed here. Keep provisional=1, low strict coding confidence, reviewStatus unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
       "id": "gpt5-science-2025:erdos-848",
       "category": "Superhuman",
       "confidence": "high",
@@ -33821,16 +33955,6 @@
       "category": "Expected",
       "confidence": "high",
       "placement": "best-estimate",
-      "priority": 3,
-      "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "513",
-      "category": "Expected",
-      "confidence": "low",
-      "placement": "tentative",
       "priority": 3,
       "reasons": [
         "AI contribution not established"

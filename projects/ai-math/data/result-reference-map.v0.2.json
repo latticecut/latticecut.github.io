@@ -7067,6 +7067,18 @@
       "title": "Prime-power structure of the stable regime for modular Schur numbers — supporting source",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-09-01-000001-v1.json",
       "accessed": "2026-09-01"
+    },
+    {
+      "key": "Daily20261011_513",
+      "title": "Modular Schur numbers — current scope and verification limits — pinned scope",
+      "url": "https://github.com/mysticflounder/modular-schur/blob/7c91cf3c5ca9b50354a74344dce71a28c9fefa01/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_513_support",
+      "title": "Modular Schur numbers — current scope and verification limits — attribution",
+      "url": "https://github.com/mysticflounder/modular-schur/blob/7c91cf3c5ca9b50354a74344dce71a28c9fefa01/formalization.yaml",
+      "accessed": "2026-10-11"
     }
   ],
   "514": [
@@ -63145,6 +63157,276 @@
       "title": "Uniform permanence of endotactic reaction networks with measurable rates — disclosure/version evidence",
       "url": "https://github.com/mmislan/palomar-endotactic-permanence/blob/c72c945264565397ecc3eee779e6bd5f3f3a061d/formalization.yaml",
       "accessed": "2026-10-10"
+    }
+  ],
+  "3974": [
+    {
+      "key": "Daily20261011_3974",
+      "title": "Quantitative permanence and recovery with vanishing reverse rates — pinned primary claim",
+      "url": "https://github.com/mmislan/palomar-quantitative-permanence/blob/e542422946035f4509e92c963b494e586105d09d/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3974_support",
+      "title": "Quantitative permanence and recovery with vanishing reverse rates — source disclosure",
+      "url": "https://github.com/mmislan/palomar-quantitative-permanence/blob/e542422946035f4509e92c963b494e586105d09d/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3974_registration",
+      "title": "Quantitative permanence and recovery with vanishing reverse rates — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000020-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3975": [
+    {
+      "key": "Daily20261011_3975",
+      "title": "Exact robust gaps in finite open chiral chains — pinned primary claim",
+      "url": "https://github.com/JD-Jones-ASES/chiral-gap/blob/3414bf564e0afd92d713ced8ba51c28db96834b2/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3975_support",
+      "title": "Exact robust gaps in finite open chiral chains — source disclosure",
+      "url": "https://github.com/JD-Jones-ASES/chiral-gap/blob/3414bf564e0afd92d713ced8ba51c28db96834b2/Disclosure.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3975_registration",
+      "title": "Exact robust gaps in finite open chiral chains — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000019-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3976": [
+    {
+      "key": "Daily20261011_3976",
+      "title": "Fröberg’s conjecture through degree 2d in sufficiently many variables — pinned primary claim",
+      "url": "https://github.com/Vlado-V/froberg-2d/blob/b32bc82f7eea38479abab80b6b74649026c15d24/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3976_support",
+      "title": "Fröberg’s conjecture through degree 2d in sufficiently many variables — source disclosure",
+      "url": "https://github.com/Vlado-V/froberg-2d/blob/b32bc82f7eea38479abab80b6b74649026c15d24/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3976_registration",
+      "title": "Fröberg’s conjecture through degree 2d in sufficiently many variables — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000018-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3977": [
+    {
+      "key": "Daily20261011_3977",
+      "title": "Realizations and dynamics of shared-resource mass-action systems — pinned primary claim",
+      "url": "https://github.com/mmislan/palomar-shared-resource-realizations/blob/d985d04a6cee575f8ac6dc32db98a390393d9b39/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3977_support",
+      "title": "Realizations and dynamics of shared-resource mass-action systems — source disclosure",
+      "url": "https://github.com/mmislan/palomar-shared-resource-realizations/blob/d985d04a6cee575f8ac6dc32db98a390393d9b39/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3977_registration",
+      "title": "Realizations and dynamics of shared-resource mass-action systems — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000011-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3978": [
+    {
+      "key": "Daily20261011_3978",
+      "title": "Zero-density estimates with a uniform 39/17 coefficient — pinned primary claim",
+      "url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3978_support",
+      "title": "Zero-density estimates with a uniform 39/17 coefficient — source disclosure",
+      "url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/ee2a8a32be49a4f73c7386e9dffdea24d7e3d8c0/lean/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3978_registration",
+      "title": "Zero-density estimates with a uniform 39/17 coefficient — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000010-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3979": [
+    {
+      "key": "Daily20261011_3979",
+      "title": "Explicit uniformly bounded homogeneous holomorphic bases — pinned primary claim",
+      "url": "https://github.com/mrklwk/uniformly-bounded-holomorphic-bases/blob/a91b7a0f08c5771f1c66435eac4a456a918ff384/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3979_support",
+      "title": "Explicit uniformly bounded homogeneous holomorphic bases — source disclosure",
+      "url": "https://github.com/mrklwk/uniformly-bounded-holomorphic-bases/blob/a91b7a0f08c5771f1c66435eac4a456a918ff384/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3979_registration",
+      "title": "Explicit uniformly bounded homogeneous holomorphic bases — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-09-000004-v2.json",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3979_history",
+      "title": "Historical homogeneous-basis scope and AI contribution limitations",
+      "url": "https://github.com/mrklwk/uniformly-bounded-holomorphic-bases/blob/a91b7a0f08c5771f1c66435eac4a456a918ff384/docs/HISTORY.md",
+      "accessed": "2026-10-12"
+    },
+    {
+      "key": "Daily20261011_3979_open_target",
+      "title": "Dated primary open homogeneous-basis target, Section6.37",
+      "url": "https://arxiv.org/html/2511.02864v3",
+      "accessed": "2026-10-12"
+    },
+    {
+      "key": "Daily20261011_3979_first_registration",
+      "title": "Retained earlier dated registration; fresh endpoint inaccessible",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-09-000004-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3980": [
+    {
+      "key": "Daily20261011_3980",
+      "title": "An N^(-7/10) bound for finite-size SK mean bias — pinned primary claim",
+      "url": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3980_support",
+      "title": "An N^(-7/10) bound for finite-size SK mean bias — source disclosure",
+      "url": "https://github.com/pmaronow/sk-mean-bias-palomar/blob/7601a9d5ade08066632bc68b9a615e163f2dd02c/paper/main.tex",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3980_registration",
+      "title": "An N^(-7/10) bound for finite-size SK mean bias — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000006-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3981": [
+    {
+      "key": "Daily20261011_3981",
+      "title": "Seven is the least tournament order with Sperner capacity above transitive number — pinned primary claim",
+      "url": "https://github.com/JD-Jones-ASES/sperner-t7-lean/blob/0e846b6144d2c5954a983d2d97e90e02169d9809/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3981_support",
+      "title": "Seven is the least tournament order with Sperner capacity above transitive number — source disclosure",
+      "url": "https://github.com/JD-Jones-ASES/sperner-t7-lean/blob/0e846b6144d2c5954a983d2d97e90e02169d9809/DISCLOSURE.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3981_registration",
+      "title": "Seven is the least tournament order with Sperner capacity above transitive number — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000005-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3982": [
+    {
+      "key": "Daily20261011_3982",
+      "title": "Nearly minimax functional estimation under rough random design — pinned primary claim",
+      "url": "https://hexagonmath.org/2610.00157v1",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3982_support",
+      "title": "Nearly minimax functional estimation under rough random design — source disclosure",
+      "url": "https://github.com/pmaronow/roughregime-palomar/blob/ec97825d7539266fd3ebd9d0527c34b0ba5d0f65/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3982_registration",
+      "title": "Nearly minimax functional estimation under rough random design — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000002-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3983": [
+    {
+      "key": "Daily20261011_3983",
+      "title": "Döblin–Fourier cancellation and kinetic Aleksandrov estimates — pinned primary claim",
+      "url": "https://arxiv.org/html/2610.03083v1",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3983_support",
+      "title": "Döblin–Fourier cancellation and kinetic Aleksandrov estimates — source disclosure",
+      "url": "https://github.com/amelieloher/hypoelliptic-aleksandrov/blob/d7e0125892d7bbd013c86c9c5d6a04e39e0168a6/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3983_registration",
+      "title": "Döblin–Fourier cancellation and kinetic Aleksandrov estimates — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000001-v1.json",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3984": [
+    {
+      "key": "Daily20261011_3984",
+      "title": "Matrix multiplication exponent at most 9/4 over every ring — pinned primary claim",
+      "url": "https://github.com/selanavot/omega_le_nine_quarters_all_rings/blob/9d10116c89f9bdcdaccd58aacea353d4b7ae6e90/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3984_support",
+      "title": "Matrix multiplication exponent at most 9/4 over every ring — source disclosure",
+      "url": "https://github.com/selanavot/omega_le_nine_quarters_all_rings/blob/9d10116c89f9bdcdaccd58aacea353d4b7ae6e90/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3984_registration",
+      "title": "Matrix multiplication exponent at most 9/4 over every ring — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000007-v1.json",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3984_firstrelease",
+      "title": "Matrix multiplication exponent at most 9/4 over every ring — first dated archive",
+      "url": "https://doi.org/10.5281/zenodo.23268534",
+      "accessed": "2026-10-11"
+    }
+  ],
+  "3985": [
+    {
+      "key": "Daily20261011_3985",
+      "title": "An explicit computable transcendental Egyptian-fraction counterexample — pinned primary claim",
+      "url": "https://github.com/yuhangshi888/erdos-206-explicit-counterexample/blob/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/README.md",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3985_support",
+      "title": "An explicit computable transcendental Egyptian-fraction counterexample — source disclosure",
+      "url": "https://github.com/yuhangshi888/erdos-206-explicit-counterexample/blob/b0c255255c1b8ba45fd0ab6c693ecce747fd602f/formalization.yaml",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3985_registration",
+      "title": "An explicit computable transcendental Egyptian-fraction counterexample — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000014-v1.json",
+      "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261011_3985_firstrelease",
+      "title": "An explicit computable transcendental Egyptian-fraction counterexample — first dated archive",
+      "url": "https://doi.org/10.5281/zenodo.23283007",
+      "accessed": "2026-10-11"
     }
   ]
 }
