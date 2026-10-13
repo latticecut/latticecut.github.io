@@ -219623,5 +219623,504 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-13",
+    "snapshotHash": "0d8a0b4007fe88ce2a33ec8c7d9ce94c0b0462056c5681d6ff78a0c520505373",
+    "changes": [
+      {
+        "id": "3986",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSummary": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSourceIds": [
+              "Daily20261013_3986",
+              "Daily20261013_3986_support"
+            ],
+            "sourceHash": "047d7b0a68f79cc69d97a6ee7b224583c16fb01482b2a6d4cc64064b3ec09b23",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported.",
+          "sourceHash": "047d7b0a68f79cc69d97a6ee7b224583c16fb01482b2a6d4cc64064b3ec09b23",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check historical priority against the problem catalogue and Pratt’s exponent-four theorem; audit convergence, coprime dilation grids, progression means and the statement-to-proof correspondence. No independent human expert review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3987",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: Substantial specialist spin-glass dynamics results; the inspected scope does not establish a complete resolution of every aging conjecture. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial specialist spin-glass dynamics results; the inspected scope does not establish a complete resolution of every aging conjecture.",
+          "sourceHash": "59289bd9bc103f0022ab03370142613bd1553308958896c5a4c3a9965ade09d1",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check the complete-conclusions and every-raw-translated-cluster quantifiers, physical-response bridge, limit witnesses and temperature restrictions; distinguish proved aging bounds from interpretive physics claims. Only the manuscript entry point and registered scope were inspected, not every chapter. Clarify original mathematical model allocation. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors’ note explicitly says the manuscript is machine-written under human supervision. GPT-6 Codex agents implemented proofs, corrected mathematical assumptions and proof routes, and reviewed formal correspondence."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3988",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "JD Jones’s Disclosure.md credits GPT-6 Astra through Codex with mathematical arguments and extensions as well as Lean formalization, under human direction.",
+            "evidenceSummary": "JD Jones’s Disclosure.md credits GPT-6 Astra through Codex with mathematical arguments and extensions as well as Lean formalization, under human direction.",
+            "evidenceSourceIds": [
+              "Daily20261013_3988",
+              "Daily20261013_3988_support"
+            ],
+            "sourceHash": "b3103a8d5d03a29d95d578b3778cb043d3284cfb64c5e25e049e9c9502e2f130",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: The source reports the full smooth-convex specialization of Taylor–Hendrickx–Glineur Conjecture 3, left open by Chikhi’s September 2026 work; separate the still-unresolved positive-strong-convexity regime. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The source reports the full smooth-convex specialization of Taylor–Hendrickx–Glineur Conjecture 3, left open by Chikhi’s September 2026 work; separate the still-unresolved positive-strong-convexity regime.",
+          "sourceHash": "b3103a8d5d03a29d95d578b3778cb043d3284cfb64c5e25e049e9c9502e2f130",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check the uniform-divergence multiplier construction, scaling interpolation surplus, equality cases and proximal minimization bridge. Establish priority relative to Chikhi’s balancing-step certificate and Kim’s distinct normalization; do not describe the full strongly-convex conjecture as solved. No independent human specialist review is claimed. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "JD Jones’s Disclosure.md credits GPT-6 Astra through Codex with mathematical arguments and extensions as well as Lean formalization, under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3989",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: Source-reported specialist algebraic-geometric exact Hilbert-function and syzygy results; full global conjecture scope is not established by the inspected metadata. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Source-reported specialist algebraic-geometric exact Hilbert-function and syzygy results; full global conjecture scope is not established by the inspected metadata.",
+          "sourceHash": "c3a1e044970f8f49a6e046671a2519052a26a8587eb702be9149bd9b842884fe",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Read the separately distributed manuscript’s exact general-position quantifiers and Theorem 1.1/Corollary 5.1; establish novelty and original mathematical AI role rather than inferring discovery from formalization. The primary acknowledgement is explicit but theorem-level allocation is missing. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Vlado Vojdanovski’s README and metadata explicitly acknowledge GPT-6 Codex AI-assisted Lean proof development; whether AI materially originated the informal mathematical results is not established."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3990",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: A conditional structural implication, distinct from record 3976’s sufficiently-many-variables result; neither resolves all degrees of Fröberg’s conjecture. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A conditional structural implication, distinct from record 3976’s sufficiently-many-variables result; neither resolves all degrees of Fröberg’s conjecture.",
+          "sourceHash": "69651bcecc86d6d74e242484cbe602ed85e678f1467a5e9e6a2e678a0b002740",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Read the separately distributed manuscript and reconcile the Expected Syzygy premise with the chopped-plane theorem and existing record 3976. Establish original mathematical AI allocation and novelty of this conditional implication; neither full Fröberg nor all characteristics is proved by the reported statement. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author’s primary metadata explicitly attributes Lean proof development to coordinated GPT-6 Codex agents; the original informal proof’s AI contribution is not specified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3991",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: Reported improvement from the classical general-field lower bound 19 to 21; stronger F2 and integer-coefficient results do not imply the same bound over all fields. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Reported improvement from the classical general-field lower bound 19 to 21; stronger F2 and integer-coefficient results do not imply the same bound over all fields.",
+          "sourceHash": "6820e5ba10328d11be673adc2f67f4b4d6562fe6754ca032c5436f10eccbec3c",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Audit the algebraic-closure reduction, rank-minimizing replacement and atom/conductor cases; independently establish novelty relative to field-specific bounds and any earlier general-field improvement. Check the standard-Mathlib public interface and exact formal correspondence; no independent peer review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Andrey Ivanov’s pinned README/metadata credit substantial ChatGPT/Codex mathematical exploration and proof development, not only exposition. Exact historical model identities were not recorded."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3992",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+            "evidenceSummary": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+            "evidenceSourceIds": [
+              "Daily20261013_3992",
+              "Daily20261013_3992_support"
+            ],
+            "sourceHash": "2a9490e958e57ef99535a1d751c39379365c7670bb9aeabe22b74c54f753306a",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: A source-reported fixed zero-free half-plane for every number field crosses the classical quasi-generalized-Riemann frontier, but is much weaker than Re(s)=1/2. Classification is conditional on the exact reported theorem, not proof acceptance. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "A source-reported fixed zero-free half-plane for every number field crosses the classical quasi-generalized-Riemann frontier, but is much weaker than Re(s)=1/2. Classification is conditional on the exact reported theorem, not proof acceptance.",
+          "sourceHash": "2a9490e958e57ef99535a1d751c39379365c7670bb9aeabe22b74c54f753306a",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3993",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: Source-reported resolution of the higher-dimensional quasi-uniform digital-net construction problem, with substantive base and cardinality restrictions; historical breadth and priority still need checking. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Source-reported resolution of the higher-dimensional quasi-uniform digital-net construction problem, with substantive base and cardinality restrictions; historical breadth and priority still need checking.",
+          "sourceHash": "cfce5494b097034b358f4d286cb98775bbcd1ed3333f52f69d539b964ae8aa48",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check admissible-base restrictions, the Babai-rounded column construction, separation/covering and first-order sharpness. Read the complete historical open-problem source and establish priority; author signoff is for the headline statement, not independent peer review of every proof. External hypotheses in ancillary library claims are not premises of the headline theorem. The Zenodo creation timestamp is Oct12 London but its metadata publication date is Oct13; retain that discrepancy. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Leonhard Gruenschloss’s README explicitly states Claude Opus 5.5 produced the constructions, proofs and formalization under author direction, with early Claude Fable 5.1 exploration."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": "2026-10-13",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-13",
+    "snapshotHash": "0f68396e13d56982e07e7c872ac5056501c429beb23fb0ddac88a8082429ae2c",
+    "changes": [
+      {
+        "id": "3986",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSummary": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSourceIds": [
+              "Daily20261013_3986",
+              "Daily20261013_3986_support"
+            ],
+            "sourceHash": "047d7b0a68f79cc69d97a6ee7b224583c16fb01482b2a6d4cc64064b3ec09b23",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported.",
+          "sourceHash": "047d7b0a68f79cc69d97a6ee7b224583c16fb01482b2a6d4cc64064b3ec09b23",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check historical priority against the problem catalogue and Pratt’s exponent-four theorem; audit convergence, coprime dilation grids, progression means and the statement-to-proof correspondence. No independent human expert review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSummary": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
+            "evidenceSourceIds": [
+              "Daily20261013_3986",
+              "Daily20261013_3986_support"
+            ],
+            "sourceHash": "d406f043a4dc061d447c1d63ea2cfb96ea0b3824f75bbb87ff070f9e146c4d34",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported.",
+          "sourceHash": "d406f043a4dc061d447c1d63ea2cfb96ea0b3824f75bbb87ff070f9e146c4d34",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Check historical priority against the problem catalogue and Pratt’s exponent-four theorem; audit convergence, coprime dilation grids, progression means and the statement-to-proof correspondence. No independent human expert review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override. The Erdős252 problem-catalogue retrieval returned HTTP403; historical priority is not independently established by that inaccessible page.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3994",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The-Anh Vu-Le’s owner README and metadata say ChatGPT Pro 6 found the proof and first Lean draft; Claude Opus 5.5 compiled/repaired and simplified the formalization; GPT-6 Codex wrote the accompanying manuscript under human direction.",
+            "evidenceSummary": "The-Anh Vu-Le’s owner README and metadata say ChatGPT Pro 6 found the proof and first Lean draft; Claude Opus 5.5 compiled/repaired and simplified the formalization; GPT-6 Codex wrote the accompanying manuscript under human direction.",
+            "evidenceSourceIds": [
+              "Daily20261013_3994",
+              "Daily20261013_3994_support"
+            ],
+            "sourceHash": "cb0882b82a419cb8716919eba6f98c0845c72f82e0f074bc6701e316ffa77dd8",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: The exact Romik ambidextrous optimum, proposed in 2016 and still explicitly open in the 2025 exploration-at-scale paper §6.63, is reported completely settled, including uniqueness. Historical difficulty is distinct from correctness. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The exact Romik ambidextrous optimum, proposed in 2016 and still explicitly open in the 2025 exploration-at-scale paper §6.63, is reported completely settled, including uniqueness. Historical difficulty is distinct from correctness.",
+          "sourceHash": "cb0882b82a419cb8716919eba6f98c0845c72f82e0f074bc6701e316ffa77dd8",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Audit same-starting-orientation semantics, arbitrary continuous motions, the two-cap upper bound, equality reconstruction and imported Baek ordinary-sofa theorem. Inspect the original research notes and exact first-public history; no person has checked the proofs. Registration and reported kernel checks are not independent human specialist review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The-Anh Vu-Le’s owner README and metadata say ChatGPT Pro 6 found the proof and first Lean draft; Claude Opus 5.5 compiled/repaired and simplified the formalization; GPT-6 Codex wrote the accompanying manuscript under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3995",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: Source-reported mathematical extensions and quantitative stability beyond formalization of the known optimal cloning bound; novelty of the individual extensions remains open to checking. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Source-reported mathematical extensions and quantitative stability beyond formalization of the known optimal cloning bound; novelty of the individual extensions remains open to checking.",
+          "sourceHash": "a39324fdc03f2a37634677fa2b023a2d5f6f75b9c20cfc4338c0adf628444c56",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Verify which rigidity/signed-weight/stability extensions are genuinely new beyond Keyl–Werner, Hashagen and the full-region literature; audit the finite-average criterion, signed-weight domain, equality cases and constants. Exact model versions are not fully surfaced, and no independent human review or source-author endorsement is claimed. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "JD Jones’s DISCLOSURE.md credits Claude/Claude Code with proof development, certificates and prior-art review, and a GPT pre-submission consult with proposed extensions subsequently adopted after source-reported checks."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": null,
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3996",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Tejasvi Singh Tomar’s primary paper explicitly says generative AI tools found and proved the results, wrote programs and the Lean formalization, and drafted the text; exact model versions are not surfaced in this acknowledgement.",
+            "evidenceSummary": "Tejasvi Singh Tomar’s primary paper explicitly says generative AI tools found and proved the results, wrote programs and the Lean formalization, and drafted the text; exact model versions are not surfaced in this acknowledgement.",
+            "evidenceSourceIds": [
+              "Daily20261013_3996",
+              "Daily20261013_3996_support"
+            ],
+            "sourceHash": "fb5ea977bef754be992155b61ba27d1e904a9ddd41160c97fa2f950d03e2525b",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: An exact finite-field tensor-rank frontier previously bounded below by 22 and above by 23 is reported closed. This settles the F2 case, not the all-field Laderman optimality question. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "An exact finite-field tensor-rank frontier previously bounded below by 22 and above by 23 is reported closed. This settles the F2 case, not the all-field Laderman optimality question.",
+          "sourceHash": "fb5ea977bef754be992155b61ba27d1e904a9ddd41160c97fa2f950d03e2525b",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Independently audit completeness of the symmetry-class enumeration and rank-22 obstruction certificates. The largest formal checks use compiled native_decide evaluation, which adds trust assumptions distinct from kernel-only proofs. Establish historical priority for the exact F2 endpoint and theorem-level human/model allocation; do not generalize the field-specific conclusion. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Tejasvi Singh Tomar’s primary paper explicitly says generative AI tools found and proved the results, wrote programs and the Lean formalization, and drafted the text; exact model versions are not surfaced in this acknowledgement."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Versioned arXiv first submission date.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3997",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Conditional on the exact source-reported result: A material bounded improvement from 21 to 22 for integer-coefficient algorithms; it does not settle the full exact-rank question. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A material bounded improvement from 21 to 22 for integer-coefficient algorithms; it does not settle the full exact-rank question.",
+          "sourceHash": "108c769219fc338fcfcc26044d81f2be3f73456a9260ff84fed4eefa79dd1ec1",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "Audit quotient lower bounds, certificate completeness and the human-designed audit surface, and separate computational search from formal proof checks. Establish exact model allocation and independently replay the certificates; no independent verification is asserted by this refresh. Later Tomar F2 rank-23 is a distinct stronger package, not this paper’s claimed scope. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Isaac Rudich and Louis-Martin Rousseau’s paper explicitly says human-directed Claude agents wrote search code and Lean proofs; the audit surface was human-designed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-01",
+            "dateBasis": "Versioned arXiv first submission date.",
+            "originalPublicationDate": "2026-10-01",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]
