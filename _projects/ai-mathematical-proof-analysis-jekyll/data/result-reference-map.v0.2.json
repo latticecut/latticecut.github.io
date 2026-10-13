@@ -63428,5 +63428,257 @@
       "url": "https://doi.org/10.5281/zenodo.23283007",
       "accessed": "2026-10-11"
     }
+  ],
+  "3986": [
+    {
+      "key": "Daily20261013_3986",
+      "title": "Erdős 252: irrationality of factorial divisor-sum series — pinned primary claim",
+      "url": "https://github.com/tokengr1nder/Erdos252/blob/575f822540523120bcfc9e0d59fcbf731fa8b7b9/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3986_support",
+      "title": "Erdős 252: irrationality of factorial divisor-sum series — source disclosure",
+      "url": "https://github.com/tokengr1nder/Erdos252/blob/575f822540523120bcfc9e0d59fcbf731fa8b7b9/PALOMAR.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3986_registration",
+      "title": "Erdős 252: irrationality of factorial divisor-sum series — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-12-000001-v1.json",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3986_history",
+      "title": "Pratt 2022 — known exponents through four and all-exponent question",
+      "url": "https://arxiv.org/abs/2209.11124v1",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3987": [
+    {
+      "key": "Daily20261013_3987",
+      "title": "Aging in spherical spin-glass dynamics — pinned primary claim",
+      "url": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3987_support",
+      "title": "Aging in spherical spin-glass dynamics — source disclosure",
+      "url": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3987_registration",
+      "title": "Aging in spherical spin-glass dynamics — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-12-000002-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3988": [
+    {
+      "key": "Daily20261013_3988",
+      "title": "Sharp last-iterate gradient bounds and extremal trajectories — pinned primary claim",
+      "url": "https://github.com/JD-Jones-ASES/thg-gradient-curve/blob/134788107eb28be0459555383a482a350bc953a4/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3988_support",
+      "title": "Sharp last-iterate gradient bounds and extremal trajectories — source disclosure",
+      "url": "https://github.com/JD-Jones-ASES/thg-gradient-curve/blob/134788107eb28be0459555383a482a350bc953a4/Disclosure.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3988_registration",
+      "title": "Sharp last-iterate gradient bounds and extremal trajectories — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-12-000006-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3989": [
+    {
+      "key": "Daily20261013_3989",
+      "title": "Hilbert functions of chopped ideals of general plane points — pinned primary claim",
+      "url": "https://github.com/Vlado-V/chopped-plane-point-ideals/blob/4200d41342404e66f177d067763c0d1c1dd2d768/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3989_support",
+      "title": "Hilbert functions of chopped ideals of general plane points — source disclosure",
+      "url": "https://github.com/Vlado-V/chopped-plane-point-ideals/blob/4200d41342404e66f177d067763c0d1c1dd2d768/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3989_registration",
+      "title": "Hilbert functions of chopped ideals of general plane points — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-12-000009-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3990": [
+    {
+      "key": "Daily20261013_3990",
+      "title": "Expected syzygies imply Fröberg’s prediction through degree 2d — pinned primary claim",
+      "url": "https://github.com/Vlado-V/expected-syzygies-froberg/blob/9ec827c013a06e04623314cb1893d3dde52fcbbc/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3990_support",
+      "title": "Expected syzygies imply Fröberg’s prediction through degree 2d — source disclosure",
+      "url": "https://github.com/Vlado-V/expected-syzygies-froberg/blob/9ec827c013a06e04623314cb1893d3dde52fcbbc/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3990_registration",
+      "title": "Expected syzygies imply Fröberg’s prediction through degree 2d — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000002-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3991": [
+    {
+      "key": "Daily20261013_3991",
+      "title": "A lower bound of 21 for 3-by-3 matrix multiplication over every field — pinned primary claim",
+      "url": "https://github.com/AIV5/mmrank21/blob/cb1557b7ea80ea66fae4714628663d8c1df7a48d/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3991_support",
+      "title": "A lower bound of 21 for 3-by-3 matrix multiplication over every field — source disclosure",
+      "url": "https://github.com/AIV5/mmrank21/blob/cb1557b7ea80ea66fae4714628663d8c1df7a48d/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3991_registration",
+      "title": "A lower bound of 21 for 3-by-3 matrix multiplication over every field — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000009-v1.json",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3991_archive",
+      "title": "A lower bound of 21 for 3-by-3 matrix multiplication over every field — dated primary archive",
+      "url": "https://doi.org/10.5281/zenodo.23324839",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3992": [
+    {
+      "key": "Daily20261013_3992",
+      "title": "A uniform zero-free half-plane for every Dedekind zeta function — pinned primary claim",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3992_support",
+      "title": "A uniform zero-free half-plane for every Dedekind zeta function — source disclosure",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3992_registration",
+      "title": "A uniform zero-free half-plane for every Dedekind zeta function — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000010-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3993": [
+    {
+      "key": "Daily20261013_3993",
+      "title": "Low-discrepancy quasi-uniform digital nets in every dimension — pinned primary claim",
+      "url": "https://github.com/lgruen/separated-nets-lean/blob/d7b5f50530f21871c58c462a049385c1e1c1b1fa/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3993_support",
+      "title": "Low-discrepancy quasi-uniform digital nets in every dimension — source disclosure",
+      "url": "https://github.com/lgruen/separated-nets-lean/blob/d7b5f50530f21871c58c462a049385c1e1c1b1fa/palomar/headline/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3993_registration",
+      "title": "Low-discrepancy quasi-uniform digital nets in every dimension — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000011-v1.json",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3993_archive",
+      "title": "Low-discrepancy quasi-uniform digital nets in every dimension — dated primary archive",
+      "url": "https://doi.org/10.5281/zenodo.23327749",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3994": [
+    {
+      "key": "Daily20261013_3994",
+      "title": "Optimality and uniqueness of Romik’s ambidextrous sofa — pinned primary claim",
+      "url": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3994_support",
+      "title": "Optimality and uniqueness of Romik’s ambidextrous sofa — source disclosure",
+      "url": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/formalization.yaml",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3994_registration",
+      "title": "Optimality and uniqueness of Romik’s ambidextrous sofa — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000003-v1.json",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3994_history",
+      "title": "2025 open ambidextrous-sofa target, Problem 6.63",
+      "url": "https://arxiv.org/html/2511.02864v3",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3995": [
+    {
+      "key": "Daily20261013_3995",
+      "title": "Rigidity, signed-weight and stability extensions for qubit cloning — pinned primary claim",
+      "url": "https://github.com/JD-Jones-ASES/qubit-cloning-lean/blob/f619a52e67849f80205127e3ba7877f7f7658e50/README.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3995_support",
+      "title": "Rigidity, signed-weight and stability extensions for qubit cloning — source disclosure",
+      "url": "https://github.com/JD-Jones-ASES/qubit-cloning-lean/blob/f619a52e67849f80205127e3ba7877f7f7658e50/DISCLOSURE.md",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3995_registration",
+      "title": "Rigidity, signed-weight and stability extensions for qubit cloning — dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-13-000001-v1.json",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3996": [
+    {
+      "key": "Daily20261013_3996",
+      "title": "The rank of 3-by-3 matrix multiplication over F2 is 23 — pinned primary claim",
+      "url": "https://arxiv.org/abs/2610.11823v1",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3996_support",
+      "title": "The rank of 3-by-3 matrix multiplication over F2 is 23 — source disclosure",
+      "url": "https://arxiv.org/html/2610.11823v1",
+      "accessed": "2026-10-13"
+    }
+  ],
+  "3997": [
+    {
+      "key": "Daily20261013_3997",
+      "title": "A lower bound of 22 for integer-coefficient 3-by-3 matrix multiplication — pinned primary claim",
+      "url": "https://arxiv.org/abs/2610.01639v1",
+      "accessed": "2026-10-13"
+    },
+    {
+      "key": "Daily20261013_3997_support",
+      "title": "A lower bound of 22 for integer-coefficient 3-by-3 matrix multiplication — source disclosure",
+      "url": "https://arxiv.org/html/2610.01639v1",
+      "accessed": "2026-10-13"
+    }
   ]
 }
