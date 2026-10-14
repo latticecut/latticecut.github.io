@@ -63563,6 +63563,30 @@
   ],
   "3992": [
     {
+      "key": "Daily20261014_3992",
+      "title": "Revised Dedekind and finite-order Hecke zero-free half-plane — owner statement",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014_3992_support",
+      "title": "Revised scope, AI attribution and verification limitations",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/formalization.yaml",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014_3992_contract",
+      "title": "Two-theorem Comparator contract",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/comparator.json",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014_3992_statement",
+      "title": "Dedekind and ray-class-character theorem statements",
+      "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/Challenge/DedekindZetaChallenge.lean",
+      "accessed": "2026-10-14"
+    },
+    {
       "key": "Daily20261013_3992",
       "title": "A uniform zero-free half-plane for every Dedekind zeta function — pinned primary claim",
       "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/README.md",

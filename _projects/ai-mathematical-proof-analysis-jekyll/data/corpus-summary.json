@@ -1,385 +1,54 @@
 {
   "sourceCount": 4008,
   "latestRun": {
-    "id": "2026-10-13-record-local-refresh",
-    "recordedAt": "2026-10-13",
-    "refreshedThrough": "2026-10-13",
-    "runDateEuropeLondon": "2026-10-13",
+    "id": "2026-10-14-dedekind-scope-correction",
+    "recordedAt": "2026-10-14",
+    "refreshedThrough": "2026-10-14",
+    "runDateEuropeLondon": "2026-10-14",
     "collectionEnded": "2026-08-20",
     "entryCount": 4008,
     "claimCount": 4010,
-    "evidenceCutoff": "2026-10-13T19:28:14.877Z",
+    "evidenceCutoff": "2026-10-14T02:24:11Z",
     "model": null,
-    "modelStatus": "Runtime model identifier not surfaced",
-    "summary": "Twelve source-reported packages added provisionally, including five best-current Superhuman estimates; strict Superhuman unchanged. Prior corrections and verification caveats retained.",
-    "coverageNote": "Rolling window October7–13. Mandatory sources, full available recent mathematics/CS metadata listings and October12–13 registry entries retrieved. Listing retrieval is not complete full-text screening; historical replacement coverage since August20 and all recent full-text/AI-disclosure screening remain incomplete. The continuous collectionEnded cutoff is not advanced. Missing optional package files, Erdős252 catalogue403 and the Hexagon403 are record-local limitations. Two cited arXiv packages (Oct1 and Oct8) were read in full HTML and deduplicated. Recent feeds remain metadata snapshots, not proof that all Oct10–13 submissions were available. Exclusions are per-package, not a blanket exclusion of AI formal proof development.",
+    "modelStatus": "Runtime identifier not surfaced",
+    "summary": "Correct existing3992 to current reported31/32 Dedekind/finite-order-Hecke scope; no addition, no verification promotion.",
+    "coverageNote": "Trigger13October22:46UTC completed14OctoberLondon. Rolling8–14October plus inherited incomplete coverage sinceAugust20. Mandatory sources and recent arXivmath/CS feeds retrieved; registry/OpenAI/feed bytes unchanged since earlier13October scan. Anthropic visible text unchanged. No complete historical/full-text rescreen is claimed; retain continuous cutoff.",
     "includeConfirmed": [],
     "includeFlagged": [
-      "3986",
-      "3987",
-      "3988",
-      "3989",
-      "3990",
-      "3991",
-      "3992",
-      "3993",
-      "3994",
-      "3995",
-      "3996",
-      "3997"
+      "3992"
     ],
-    "existingRecordChanges": [],
+    "existingRecordChanges": [
+      "3992"
+    ],
     "provisionalIds": [
-      "3986",
-      "3987",
-      "3988",
-      "3989",
-      "3990",
-      "3991",
-      "3992",
-      "3993",
-      "3994",
-      "3995",
-      "3996",
-      "3997"
+      "3992"
     ],
     "recordDecisions": [
       {
-        "sourceId": "3986",
-        "registryId": "PALOMAR-2026-10-12-000001",
-        "title": "Erdős 252: irrationality of factorial divisor-sum series",
-        "primary": "https://github.com/tokengr1nder/Erdos252/blob/575f822540523120bcfc9e0d59fcbf731fa8b7b9/README.md",
-        "support": "https://github.com/tokengr1nder/Erdos252/blob/575f822540523120bcfc9e0d59fcbf731fa8b7b9/PALOMAR.md",
-        "publicationDate": "2026-10-12",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "For every natural exponent k, the convergent series sum over n of sigma_k(n)/n! is irrational, unconditionally. This covers the positive-exponent Erdős 252 question and exponent zero, but not transcendence or independence of the sums.",
-        "aiContribution": "User-directed OpenAI Codex and Claude/Opus agents made substantive mathematical proof-construction and Lean contributions, according to PALOMAR.md; exact model versions and per-agent allocation were not preserved.",
-        "furtherChecking": "Check historical priority against the problem catalogue and Pratt’s exponent-four theorem; audit convergence, coprime dilation grids, progression means and the statement-to-proof correspondence. No independent human expert review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override. The Erdős252 problem-catalogue retrieval returned HTTP403; historical priority is not independently established by that inaccessible page.",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "medium",
-        "comparator": "The source reports a complete all-exponent settlement of the Erdős 252 target, extending previously known individual exponents. Historical priority remains source-reported.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.NT"
-        ]
-      },
-      {
-        "sourceId": "3987",
-        "registryId": "PALOMAR-2026-10-12-000002",
-        "title": "Aging in spherical spin-glass dynamics",
-        "primary": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/README.md",
-        "support": "https://github.com/pmaronow/aging-palomar/blob/d3f09f56462be6f73eb20733cb7963410409fa06/formalization.yaml",
-        "publicationDate": "2026-10-12",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "The manuscript reports results for spherical Gaussian spin-glass dynamics and its positive-semidefinite Cugliandolo–Kurchan limit: physical response, entropy/Fisher estimates, stationary translated clusters, general-spin selection and aging bounds, and stationary relaxation. The reported all-spin forward theorem covers integers p >= 3 and beta > 0; strictly positive Fisher-cost conclusions require beta > beta_d, not the boundary.",
-        "aiContribution": "The authors’ note explicitly says the manuscript is machine-written under human supervision. GPT-6 Codex agents implemented proofs, corrected mathematical assumptions and proof routes, and reviewed formal correspondence.",
-        "furtherChecking": "Check the complete-conclusions and every-raw-translated-cluster quantifiers, physical-response bridge, limit witnesses and temperature restrictions; distinguish proved aging bounds from interpretive physics claims. Only the manuscript entry point and registered scope were inspected, not every chapter. Clarify original mathematical model allocation. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Substantial specialist spin-glass dynamics results; the inspected scope does not establish a complete resolution of every aging conjecture.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.PR",
-          "math.AP"
-        ]
-      },
-      {
-        "sourceId": "3988",
-        "registryId": "PALOMAR-2026-10-12-000006",
-        "title": "Sharp last-iterate gradient bounds and extremal trajectories",
-        "primary": "https://github.com/JD-Jones-ASES/thg-gradient-curve/blob/134788107eb28be0459555383a482a350bc953a4/README.md",
-        "support": "https://github.com/JD-Jones-ASES/thg-gradient-curve/blob/134788107eb28be0459555383a482a350bc953a4/Disclosure.md",
-        "publicationDate": "2026-10-12",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "For smooth convex functions with L-Lipschitz gradient on real Hilbert spaces, the source reports the exact constant-step final-gradient bound L||x_0-x_*|| max{1/(1+Nh),|1-h|^N}, for all horizons N >= 0 and nonnegative steps h. It classifies sampled equality trajectories and derives sharp residual/objective-residual bounds from actual constrained proximal minimizers. Positive strong convexity, changing preconditioners and arbitrary cocoercive operators are outside scope.",
-        "aiContribution": "JD Jones’s Disclosure.md credits GPT-6 Astra through Codex with mathematical arguments and extensions as well as Lean formalization, under human direction.",
-        "furtherChecking": "Check the uniform-divergence multiplier construction, scaling interpolation surplus, equality cases and proximal minimization bridge. Establish priority relative to Chikhi’s balancing-step certificate and Kim’s distinct normalization; do not describe the full strongly-convex conjecture as solved. No independent human specialist review is claimed. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "medium",
-        "comparator": "The source reports the full smooth-convex specialization of Taylor–Hendrickx–Glineur Conjecture 3, left open by Chikhi’s September 2026 work; separate the still-unresolved positive-strong-convexity regime.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.OC"
-        ]
-      },
-      {
-        "sourceId": "3989",
-        "registryId": "PALOMAR-2026-10-12-000009",
-        "title": "Hilbert functions of chopped ideals of general plane points",
-        "primary": "https://github.com/Vlado-V/chopped-plane-point-ideals/blob/4200d41342404e66f177d067763c0d1c1dd2d768/README.md",
-        "support": "https://github.com/Vlado-V/chopped-plane-point-ideals/blob/4200d41342404e66f177d067763c0d1c1dd2d768/formalization.yaml",
-        "publicationDate": "2026-10-13",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "The source reports the full Hilbert function of degree-d chopped ideals of general plane points over characteristic-zero fields, regular-sequence cases, least stabilization degree and its stated Expected Syzygy Conjecture consequence. No assertion for arbitrary nongeneral point configurations or positive characteristic is made.",
-        "aiContribution": "Vlado Vojdanovski’s README and metadata explicitly acknowledge GPT-6 Codex AI-assisted Lean proof development; whether AI materially originated the informal mathematical results is not established.",
-        "furtherChecking": "Read the separately distributed manuscript’s exact general-position quantifiers and Theorem 1.1/Corollary 5.1; establish novelty and original mathematical AI role rather than inferring discovery from formalization. The primary acknowledgement is explicit but theorem-level allocation is missing. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Source-reported specialist algebraic-geometric exact Hilbert-function and syzygy results; full global conjecture scope is not established by the inspected metadata.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.AG",
-          "math.AC"
-        ]
-      },
-      {
-        "sourceId": "3990",
-        "registryId": "PALOMAR-2026-10-13-000002",
-        "title": "Expected syzygies imply Fröberg’s prediction through degree 2d",
-        "primary": "https://github.com/Vlado-V/expected-syzygies-froberg/blob/9ec827c013a06e04623314cb1893d3dde52fcbbc/README.md",
-        "support": "https://github.com/Vlado-V/expected-syzygies-froberg/blob/9ec827c013a06e04623314cb1893d3dde52fcbbc/formalization.yaml",
-        "publicationDate": "2026-10-13",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "Over characteristic-zero fields, assuming the source’s Expected Syzygy Conjecture, Fröberg’s predicted positively truncated Hilbert function holds through degree 2d for general degree-d forms, every positive number of variables and degree and every number of generators, on one common nonempty open set. This is a conditional implication, not an unconditional all-degree proof of Fröberg’s conjecture.",
-        "aiContribution": "The author’s primary metadata explicitly attributes Lean proof development to coordinated GPT-6 Codex agents; the original informal proof’s AI contribution is not specified.",
-        "furtherChecking": "Read the separately distributed manuscript and reconcile the Expected Syzygy premise with the chopped-plane theorem and existing record 3976. Establish original mathematical AI allocation and novelty of this conditional implication; neither full Fröberg nor all characteristics is proved by the reported statement. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "A conditional structural implication, distinct from record 3976’s sufficiently-many-variables result; neither resolves all degrees of Fröberg’s conjecture.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.AC",
-          "math.AG"
-        ]
-      },
-      {
-        "sourceId": "3991",
-        "registryId": "PALOMAR-2026-10-13-000009",
-        "title": "A lower bound of 21 for 3-by-3 matrix multiplication over every field",
-        "primary": "https://github.com/AIV5/mmrank21/blob/cb1557b7ea80ea66fae4714628663d8c1df7a48d/README.md",
-        "support": "https://github.com/AIV5/mmrank21/blob/cb1557b7ea80ea66fae4714628663d8c1df7a48d/formalization.yaml",
-        "publicationDate": "2026-10-12",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "Every exact bilinear algorithm multiplying two 3-by-3 matrices over an arbitrary field uses at least 21 products of input linear forms, with unrestricted forms and output matrices, in every characteristic and for finite or infinite fields. This is not a border-rank or unrestricted arithmetic-circuit lower bound, nor an exact rank determination.",
-        "aiContribution": "Andrey Ivanov’s pinned README/metadata credit substantial ChatGPT/Codex mathematical exploration and proof development, not only exposition. Exact historical model identities were not recorded.",
-        "furtherChecking": "Audit the algebraic-closure reduction, rank-minimizing replacement and atom/conductor cases; independently establish novelty relative to field-specific bounds and any earlier general-field improvement. Check the standard-Mathlib public interface and exact formal correspondence; no independent peer review is documented. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Reported improvement from the classical general-field lower bound 19 to 21; stronger F2 and integer-coefficient results do not imply the same bound over all fields.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "cs.CC",
-          "math.RA"
-        ]
-      },
-      {
         "sourceId": "3992",
-        "registryId": "PALOMAR-2026-10-13-000010",
-        "title": "A uniform zero-free half-plane for every Dedekind zeta function",
-        "primary": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/README.md",
-        "support": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/formalization.yaml",
+        "disposition": "include_flagged",
+        "change": "Existing record correction, no new ID",
+        "primary": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/README.md",
+        "support": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/formalization.yaml",
+        "boundedClaim": "For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
+        "aiContribution": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
+        "furtherChecking": "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed.",
+        "provisional": 1,
         "publicationDate": "2026-10-12",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
-        "aiContribution": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
-        "furtherChecking": "The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "medium",
-        "comparator": "A source-reported fixed zero-free half-plane for every number field crosses the classical quasi-generalized-Riemann frontier, but is much weaker than Re(s)=1/2. Classification is conditional on the exact reported theorem, not proof acceptance.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.NT"
-        ]
-      },
-      {
-        "sourceId": "3993",
-        "registryId": "PALOMAR-2026-10-13-000011",
-        "title": "Low-discrepancy quasi-uniform digital nets in every dimension",
-        "primary": "https://github.com/lgruen/separated-nets-lean/blob/d7b5f50530f21871c58c462a049385c1e1c1b1fa/README.md",
-        "support": "https://github.com/lgruen/separated-nets-lean/blob/d7b5f50530f21871c58c462a049385c1e1c1b1fa/palomar/headline/formalization.yaml",
-        "publicationDate": "2026-10-13",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "For every s >= 3 and integer base q whose prime factors are at least s-1, explicit digital (0,sk,s)-nets with q^(sk) points have covering radius at most sqrt(s)N^(-1/s). For q >= 5a_s+4 they have toroidal and Euclidean separation at least (1-a_s/q)N^(-1/s), with the source’s explicit dimension-dependent a_s and restricted first-order sharpness. This does not assert the separation bound for every small admissible base or every arbitrary cardinality.",
-        "aiContribution": "Leonhard Gruenschloss’s README explicitly states Claude Opus 5.5 produced the constructions, proofs and formalization under author direction, with early Claude Fable 5.1 exploration.",
-        "furtherChecking": "Check admissible-base restrictions, the Babai-rounded column construction, separation/covering and first-order sharpness. Read the complete historical open-problem source and establish priority; author signoff is for the headline statement, not independent peer review of every proof. External hypotheses in ancillary library claims are not premises of the headline theorem. The Zenodo creation timestamp is Oct12 London but its metadata publication date is Oct13; retain that discrepancy. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Source-reported resolution of the higher-dimensional quasi-uniform digital-net construction problem, with substantive base and cardinality restrictions; historical breadth and priority still need checking.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.NT",
-          "math.NA"
-        ]
-      },
-      {
-        "sourceId": "3994",
-        "registryId": "PALOMAR-2026-10-13-000003",
-        "title": "Optimality and uniqueness of Romik’s ambidextrous sofa",
-        "primary": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/README.md",
-        "support": "https://github.com/vltanh/lean4-ambidextrous-sofa/blob/0f24fe48b4cadf02a442420e677b45a036136dbf/formalization.yaml",
-        "publicationDate": "2026-10-13",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "Every compact connected planar shape admitting continuous rigid motions through both left- and right-turning unit-width hallways from the same starting orientation has area at most M=1+4Y^2+arctan(Y), where 4Y^3+3Y=1 and Y>0. Equality holds exactly for rotations/translations of Romik’s sofa, whose feasible motions and area are also supplied. This is the ambidextrous problem, not a new solution of the already-solved ordinary moving-sofa problem.",
-        "aiContribution": "The-Anh Vu-Le’s owner README and metadata say ChatGPT Pro 6 found the proof and first Lean draft; Claude Opus 5.5 compiled/repaired and simplified the formalization; GPT-6 Codex wrote the accompanying manuscript under human direction.",
-        "furtherChecking": "Audit same-starting-orientation semantics, arbitrary continuous motions, the two-cap upper bound, equality reconstruction and imported Baek ordinary-sofa theorem. Inspect the original research notes and exact first-public history; no person has checked the proofs. Registration and reported kernel checks are not independent human specialist review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "high",
-        "comparator": "The exact Romik ambidextrous optimum, proposed in 2016 and still explicitly open in the 2025 exploration-at-scale paper §6.63, is reported completely settled, including uniqueness. Historical difficulty is distinct from correctness.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.MG",
-          "math.OC"
-        ]
-      },
-      {
-        "sourceId": "3995",
-        "registryId": "PALOMAR-2026-10-13-000001",
-        "title": "Rigidity, signed-weight and stability extensions for qubit cloning",
-        "primary": "https://github.com/JD-Jones-ASES/qubit-cloning-lean/blob/f619a52e67849f80205127e3ba7877f7f7658e50/README.md",
-        "support": "https://github.com/JD-Jones-ASES/qubit-cloning-lean/blob/f619a52e67849f80205127e3ba7877f7f7658e50/DISCLOSURE.md",
-        "publicationDate": "2026-10-13",
-        "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
-        "boundedClaim": "Beyond the classical 5/6 universal cloning and asymmetric trade-off bounds, the source reports uniqueness under the six-Pauli-state average-fidelity criterion, signed real-weight asymmetric inequalities with (2a+b)(a+2b)>=0 and equality classification, and stability: average fidelity at least 5/6-epsilon implies total squared Kraus distance to the Buzek–Hillery span at most 6epsilon and channel Frobenius distance at most 200sqrt(epsilon)||rho||_F. The result uses finite Kraus families; it does not newly discover the classical cloning bound, establish Choi–Kraus, or identify six-state averages with Bloch-sphere averages.",
-        "aiContribution": "JD Jones’s DISCLOSURE.md credits Claude/Claude Code with proof development, certificates and prior-art review, and a GPT pre-submission consult with proposed extensions subsequently adopted after source-reported checks.",
-        "furtherChecking": "Verify which rigidity/signed-weight/stability extensions are genuinely new beyond Keyl–Werner, Hashagen and the full-region literature; audit the finite-average criterion, signed-weight domain, equality cases and constants. Exact model versions are not fully surfaced, and no independent human review or source-author endorsement is claimed. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "Source-reported mathematical extensions and quantitative stability beyond formalization of the known optimal cloning bound; novelty of the individual extensions remains open to checking.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "quant-ph"
-        ]
-      },
-      {
-        "sourceId": "3996",
-        "registryId": "2610.11823v1",
-        "title": "The rank of 3-by-3 matrix multiplication over F2 is 23",
-        "primary": "https://arxiv.org/abs/2610.11823v1",
-        "support": "https://arxiv.org/html/2610.11823v1",
-        "publicationDate": "2026-10-08",
-        "dateBasis": "Versioned arXiv first submission date.",
-        "boundedClaim": "The paper reports exact tensor rank 23 for 3-by-3 matrix multiplication over the two-element field: Laderman’s upper bound is matched by a computer-assisted exclusion of rank-22 decompositions. It does not determine the exact rank over every field or border rank.",
-        "aiContribution": "Tejasvi Singh Tomar’s primary paper explicitly says generative AI tools found and proved the results, wrote programs and the Lean formalization, and drafted the text; exact model versions are not surfaced in this acknowledgement.",
-        "furtherChecking": "Independently audit completeness of the symmetry-class enumeration and rank-22 obstruction certificates. The largest formal checks use compiled native_decide evaluation, which adds trust assumptions distinct from kernel-only proofs. Establish historical priority for the exact F2 endpoint and theorem-level human/model allocation; do not generalize the field-specific conclusion. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Superhuman",
-        "bestConfidence": "medium",
-        "comparator": "An exact finite-field tensor-rank frontier previously bounded below by 22 and above by 23 is reported closed. This settles the F2 case, not the all-field Laderman optimality question.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.RA",
-          "cs.CC"
-        ]
-      },
-      {
-        "sourceId": "3997",
-        "registryId": "2610.01639v1",
-        "title": "A lower bound of 22 for integer-coefficient 3-by-3 matrix multiplication",
-        "primary": "https://arxiv.org/abs/2610.01639v1",
-        "support": "https://arxiv.org/html/2610.01639v1",
-        "publicationDate": "2026-10-01",
-        "dateBasis": "Versioned arXiv first submission date.",
-        "boundedClaim": "The paper reports at least 22 products for integer-coefficient bilinear 3-by-3 matrix multiplication, excluding an integer-constant 3-by-3 recursive algorithm that beats Strassen. Its computational proof uses field-specific quotient bounds and certificates; it is not an all-fields rank-22 theorem or an exact rank determination.",
-        "aiContribution": "Isaac Rudich and Louis-Martin Rousseau’s paper explicitly says human-directed Claude agents wrote search code and Lean proofs; the audit surface was human-designed.",
-        "furtherChecking": "Audit quotient lower bounds, certificate completeness and the human-designed audit surface, and separate computational search from formal proof checks. Establish exact model allocation and independently replay the certificates; no independent verification is asserted by this refresh. Later Tomar F2 rank-23 is a distinct stronger package, not this paper’s claimed scope. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
-        "bestCategory": "Difficult",
-        "bestConfidence": "medium",
-        "comparator": "A material bounded improvement from 21 to 22 for integer-coefficient algorithms; it does not settle the full exact-rank question.",
-        "role": "Shared (reported)",
-        "disposition": "include_flagged",
-        "categories": [
-          "math.RA",
-          "cs.CC"
-        ]
+        "revisionDate": "2026-10-13",
+        "accessed": "2026-10-14"
       }
     ],
-    "changes": [
-      "3986: Erdős 252: irrationality of factorial divisor-sum series",
-      "3987: Aging in spherical spin-glass dynamics",
-      "3988: Sharp last-iterate gradient bounds and extremal trajectories",
-      "3989: Hilbert functions of chopped ideals of general plane points",
-      "3990: Expected syzygies imply Fröberg’s prediction through degree 2d",
-      "3991: A lower bound of 21 for 3-by-3 matrix multiplication over every field",
-      "3992: A uniform zero-free half-plane for every Dedekind zeta function",
-      "3993: Low-discrepancy quasi-uniform digital nets in every dimension",
-      "3994: Optimality and uniqueness of Romik’s ambidextrous sofa",
-      "3995: Rigidity, signed-weight and stability extensions for qubit cloning",
-      "3996: The rank of 3-by-3 matrix multiplication over F2 is 23",
-      "3997: A lower bound of 22 for integer-coefficient 3-by-3 matrix multiplication"
-    ],
-    "excludedCandidates": [
-      {
-        "title": "Improved Sidorenko bound for hypergraph Turán densities",
-        "primary": "https://github.com/xliu2022/improved-sidorenko-lean/tree/ba6f109bf01436ca15e55fdf5d35dbea85ffd9c9",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Pure infinitely self-modifying code: a Lean formalization with minimal errata",
-        "primary": "https://github.com/GregoryMorse/smcTuring/tree/51198ac6ad1d1b4b2ad6e3751583e3c6d1c56b71/lean",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "The Hajnal–Szemerédi theorem on equitable colourings",
-        "primary": "https://github.com/jtraverso/hajnal-szemeredi/tree/ba34061e3cf12dfc8297610d5d7b3f0afac7ec54",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Erdős 1105: anti-Ramsey numbers for cycles and paths",
-        "primary": "https://github.com/linrock/math-proofs/tree/ba96303b34a95ac458958c1eb0bbdee54733484a/erdos-1105",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Grötzsch's theorem and Ore's conjecture for k = 4 (Kostochka–Yancey)",
-        "primary": "https://github.com/jtraverso/grotzsch-ore/tree/f923c459969d4a0a50d034cc02d558c7d4937436",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Perfect surjections and paracompactness",
-        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/984a610395e195b8d3ca0cd88282ef343e74d33d/topology/perfect-paracompact",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Formalization of Carleson's theorem via the Lacey-Thiele approach",
-        "primary": "https://github.com/roos-j/lean-lt-carleson/tree/a83052776113c6417432c594a29b98f3500091a4",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Classical theorems of Fröhlich and Spencer: the Kosterlitz–Thouless transition, massless phases of abelian gauge theories, and Anderson localization",
-        "primary": "https://github.com/scottnarmstrong/Frohlich-Spencer/tree/e01623b7347c272eac9480f04743f38b8d0df223",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Erdős 1180: representing residues as sums of modular inverses with small denominators",
-        "primary": "https://github.com/linrock/math-proofs/tree/ba96303b34a95ac458958c1eb0bbdee54733484a/erdos-1180",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Finitely generated positive cones in F_n × Z",
-        "primary": "https://github.com/homeowmorphism/finitely-generated-positive-cones-in-fnz/tree/20bfd7cb2abb773f2426af11cd0217b415f7497b",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      },
-      {
-        "title": "Dowker's countable paracompactness, product normality and strict insertion characterization",
-        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/ccc3ca43dc26c6774f2afd7f2b2223066451c362/topology/dowker-characterization",
-        "reason": "Inspected primary scope describes known mathematics formalization, or identifies AI only in formalizing/migrating an existing supplied proof, without a separately supported qualifying new AI mathematical contribution."
-      }
-    ],
+    "excludedCandidates": [],
     "quarantinedCandidates": [],
+    "correctionSetId": "reviewed-source-corrections-2026-10-14",
+    "correctionSetSha256": "4adbd8b5bde2dc2b7db06ecd565a3b8f037fc5d7d21b63286e289261bbd74331",
+    "sourceRechecks": "Sofa unchanged pinned commit; earlier registry snapshots are unchanged. Other repository default heads predate registered pinned commits and do not establish retraction or a new mathematical revision.",
+    "retrievalFailures": [],
     "artifactsExecuted": false,
-    "sourceRechecks": {
-      "OpenAI": "Main 1581d4cbdd69a0faf34b2089614fe2a814316a6a: only PR-locking workflow added since fd4aeeb; mathematical history unchanged.",
-      "Kato/Landis": "Retrieved current histories; both remain v1. Landis PDF retrieved.",
-      "Sendov": "Revision14 PDF and release metadata byte hashes unchanged; no new accepted-result or independent-review event established.",
-      "Recent": "Registry packages 3976,3979,3981,513,1527,3973 remain at previously inspected pinned versions. Unit-distance3360 now registry commit edd88c0c175ab4d18cf6115e2f6ddf3865d36b12; inspected README retains 1.043171 paper / 1.04315 conditional Lean, H_W unproved and sequence-only scope. No correction justified.",
-      "Ordinary sample": "Submission histories of 2607.16092 and2608.11366 read; no supported status change. Recent3970/3971 histories read, no new version."
-    },
-    "retrievalFailures": [
-      "Hexagon2610.00200v1: HTTP403; pinned Axiom owner README/metadata provide safe bounded claim and direct AI attribution.",
-      "Erdős252 catalogue: HTTP403; Pratt2022 primary abstract retrieved and the owner’s original-proof disclosure read.",
-      "Optional disclosure/manuscript paths absent404; actual owner README/formalization metadata retained.",
-      "Initial unit-distance guessed path404 was resolved to the registry’s correct repository/subdirectory; correct README retrieved."
-    ],
-    "validationDisclosure": "Classification is an individual AI assessment, not independent specialist review or execution of proof artifacts."
+    "changes": [
+      "3992: current owner revision reports31/32 Dedekind and finite-order-Hecke zero-free half-plane; both compared declarations now included. Provisional limitations and original first-public date retained."
+    ]
   },
   "description": "4008 source-included, AI-coded, unreviewed."
 }

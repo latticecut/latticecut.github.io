@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-13",
+  "assessedAt": "2026-10-14",
   "samplingWeek": 2962,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -31440,7 +31440,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+        "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed."
       ]
     },
     {
