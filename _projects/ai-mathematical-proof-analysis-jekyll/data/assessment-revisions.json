@@ -220208,5 +220208,496 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-14",
+    "snapshotHash": "3299b131f5f877fe5cb0d7727813e4a001bc64828329a2e4fa289385636b6ddc",
+    "changes": [
+      {
+        "id": "3953",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3953",
+              "Daily20261007_3953_support_0",
+              "Daily20261007_3953_support_1",
+              "Daily20261007_3953_support_2",
+              "Daily20261007_3953_support_3"
+            ],
+            "sourceHash": "af30793fdc42a89644b4b825204d8ea6a0e9c26719ae27f37e8e9d16b29a1ece",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 367: The critical dimension for the one-phase Bernoulli problem. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: The exact first singular dimension seven and sharp free-boundary regularity threshold resolve the stated Bernoulli minimization frontier. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "af30793fdc42a89644b4b825204d8ea6a0e9c26719ae27f37e8e9d16b29a1ece",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 367 (The critical dimension for the one-phase Bernoulli problem) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 367: The critical dimension for the one-phase Bernoulli problem. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3953",
+              "Daily20261007_3953_support_0",
+              "Daily20261007_3953_support_1",
+              "Daily20261007_3953_support_2",
+              "Daily20261007_3953_support_3",
+              "Daily20261014EOD_3953",
+              "Daily20261014EOD_3953_support"
+            ],
+            "sourceHash": "d1e0c364f8f4c892a1f2a6f6eb83c8a4e1574eaf60253956219e5a6436db75c3",
+            "assessedAt": "2026-10-14",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 367: The critical dimension for the one-phase Bernoulli problem. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing. The later Claude/William Feldman formalization is reported verification work, not a replacement of original OpenAI discovery attribution."
+          },
+          "rationale": "Best-current assessment of the reported claim: The exact first singular dimension seven and sharp free-boundary regularity threshold resolve the stated Bernoulli minimization frontier. Classification confidence is conditional on the claim and its stated scope, not a correctness probability. Reread Feldman’s new owner checkpoint: reported flatness-through-six formalization does not change original target difficulty or independently establish proof correctness.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "d1e0c364f8f4c892a1f2a6f6eb83c8a4e1574eaf60253956219e5a6436db75c3",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "New October14 owner checkpoint: William M. Feldman’s pinned d55068c8ca74db340bcb7b36c1f21a4ebf93a53c package reports formal flatness for nonnegative, nonzero, one-homogeneous global one-phase Bernoulli minimizers in dimensions1 through6, using the textbook H1/H10 comparison class and universal-certificate route. The owner states the original OpenAI formalization covered the known dimension7 nonflat example, not the new flatness-through6 half. Claude Opus5.5 wrote the new Lean proofs under Feldman’s direction; he checked the headline statement and definitions, not every proof. Independently audit dependency regularity, the certificate exclusion, statement correspondence and comparator receipt; no downloaded code was executed and no independent kernel replay or specialist proof review was performed here. This checkpoint does not independently verify every regularity/singular-set corollary of OpenAI family367. Preserve provisional1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 367: The critical dimension for the one-phase Bernoulli problem. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing. The later Claude/William Feldman formalization is reported verification work, not a replacement of original OpenAI discovery attribution."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3998",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The authors explicitly attribute the main proof ideas to ChatGPT-6 Astra; they wrote the paper after absorbing and interacting over those ideas.",
+            "evidenceSummary": "The authors explicitly attribute the main proof ideas to ChatGPT-6 Astra; they wrote the paper after absorbing and interacting over those ideas.",
+            "evidenceSourceIds": [
+              "Daily20261014EOD_3998",
+              "Daily20261014EOD_3998_support"
+            ],
+            "sourceHash": "49f65219ddd121d5093f4fe5a09acc5eed871c426c4b513304d0890f14e9855a",
+            "assessedAt": "2026-10-14"
+          },
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. The exact all-dimensional Euclidean initial-metric strong-uniqueness question attributed to Chen, not arbitrary initial geometry. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The exact all-dimensional Euclidean initial-metric strong-uniqueness question attributed to Chen, not arbitrary initial geometry.",
+          "sourceHash": "49f65219ddd121d5093f4fe5a09acc5eed871c426c4b513304d0890f14e9855a",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Audit entropy monotonicity, finiteness and time regularity without global curvature bounds, the point-picking/compactness passage and the flat-initial-metric corollary. Check exact correspondence to Chen’s historical question; this does not assert uniqueness from arbitrary complete initial metrics without the stated conditions. No independent specialist verification is established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The authors explicitly attribute the main proof ideas to ChatGPT-6 Astra; they wrote the paper after absorbing and interacting over those ideas."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-13",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3999",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "16509a03b96e3571f31856fcf18cbedffd63a6b4019a18a6e721559b7f55c410",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Audit the assumed II1-factor generation theorem and the precise small-corner compression hypothesis; a Haar unitary alone is explicitly insufficient. Establish theorem-level AI materiality, original priority and the claimed free-product applications. Do not generalize this to every separable C*-algebra or confuse two ordinary with two self-adjoint generators. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper directly states that the work was carried out using ChatGPT; mathematical stages and exact model are not specified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4000",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "405c40e25725b9084e6fca3e591e07529cda592bba9df8d05bae0b6e8635d250",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Audit decay, trace-class and transversality hypotheses and the elementary cochain argument. Compare against Martinian–Stoiber to establish genuine independent proof novelty and chronology, not priority for the identity itself; the earlier theorem was learned of late. No independent proof review is established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author explicitly credits Claude Opus 5.5 with almost the entire proof and describes his removal of an unnecessary part and subsequent organization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4001",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "7f8f6a616210746c76f5238af5779f4676f658961320f6e469ba9beac2613506",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Check main-term normalization, parity and fundamental-discriminant restrictions, Hecke relations and spectral inputs. These are weighted asymptotics, not unrestricted unweighted counts; conditional Lindelof/Ramanujan improvements are not unconditional conclusions. Reconcile the earlier paper’s corrected main term and establish independent verification. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Section 1.6 attributes the spectral/geodesic approach, Hecke reductions, principal theorems and parity/Eisenstein calculations to Claude Opus 5.5 High, under Baier’s problem setting, requirements and evaluation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-11",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-11",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4002",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "f18a5ba8b2fc8f00cf1e3f7e3f88f4dbe83b0e30d2d28e6d83b3395e4fe54b3a",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Identify exactly which results were AI-discovered; audit standing hypotheses, reconstruction and characteristic-class formulas. Keep graph restrictions, smooth realizability and positive-curvature realizability separate. The source expressly does not rule out arbitrary invariant metrics on all remaining candidate actions; author checks are not independent expert verification. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary abstract says some results were discovered by ChatGPT-6-astra and verified by the authors."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-10",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-10",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4003",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "124f45df3d5314397dd4e06dbab5a9966bb0e91dd492509f8931edd666ee5092",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Determine which technical fixes were adopted and whether AI’s mathematical contribution was material rather than only review or rewriting. Audit computational quantifiers, distribution assumptions and the additive-constant reductions. Exact models are not disclosed; do not infer AI discovery from the paper’s subject. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The disclosure says generative AI reviewed technical proof correctness and suggested fixes, as well as editing the overview; the authors retain origination of all results."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4004",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. Elementary sharpenings of the classical log-loss/Kraft prediction frontier, not a new universal-prediction algorithm. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Elementary sharpenings of the classical log-loss/Kraft prediction frontier, not a new universal-prediction algorithm.",
+          "sourceHash": "15734508b397edd4f21cb5dae4ef04fdc98ebc8173a878cab820b3a46bc7b727",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Compare Theorem 2.7 and Appendix B’s equality/converse and leakage ledger against Hutter, Wald and earlier complete-class/log-loss results, as mapped in Appendix H. Establish exact novelty and whether derivation checking changed any mathematical result; most of the discussion is known theory. Do not count the survey’s known results as new AI discoveries. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary disclosure explicitly includes AI checking derivations and proposing objections, with all theorem origination attributed to the authors; model names and adopted mathematical changes are not specified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-09-28",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-09-28",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4005",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Section 7 explicitly says Claude Opus 5.5 found all four examples under author prompting; the human authors wrote the paper and checked the examples by hand.",
+            "evidenceSummary": "Section 7 explicitly says Claude Opus 5.5 found all four examples under author prompting; the human authors wrote the paper and checked the examples by hand.",
+            "evidenceSourceIds": [
+              "Daily20261014EOD_4005",
+              "Daily20261014EOD_4005_support"
+            ],
+            "sourceHash": "21054fd176135490b6868b7984546fef922af70b4f108706147adc0e0f2fcd6d",
+            "assessedAt": "2026-10-14"
+          },
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. The exact 2012 eventual-digraph/freezing-or-pseudostability auxiliary conjectures and theorem, not convergence of every trajectory. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The exact 2012 eventual-digraph/freezing-or-pseudostability auxiliary conjectures and theorem, not convergence of every trajectory.",
+          "sourceHash": "21054fd176135490b6868b7984546fef922af70b4f108706147adc0e0f2fcd6d",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Independently verify the exact closed-neighborhood update inequalities and trajectories and compare the cited 2012 assertions. Do not promote auxiliary-conjecture disproofs to a disproof of convergence, or treat unverified background computations mentioned in Section 7 as established classifications. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Section 7 explicitly says Claude Opus 5.5 found all four examples under author prompting; the human authors wrote the paper and checked the examples by hand."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-02",
+            "dateBasis": "Primary version-one first-submission date, not manuscript drafting date.",
+            "originalPublicationDate": "2026-10-02",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4006",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "8e8fb0702a08205c1d60c256a3d4973cbefc53a5fcd2eb7d42af834ac21806ad",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Independently check the exact models, invariant neighborhoods, complex eigenmodes and near-homogeneous parameter limits. The four-agent lower bound and some all-n/rate statements are paper-only, not Lean endpoints; no global minimum for nonfreezing digraphs or equal-radius counterexample is claimed. Establish novelty relative to the original paper’s unpublished computations and first repository visibility. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner disclosure credits Claude Opus 5.5/Fable 5.1 with exact search, proofs and formalization, and GPT-6 Pro consultation with the complex-mode, near-homogeneous and lower-bound extensions."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-14",
+            "dateBasis": "Earliest supported primary public registration; earlier repository visibility not established.",
+            "originalPublicationDate": "2026-10-14",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4007",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "5eb237e83dcef19543f19676522204c3dabceb1ea1445c33997b0f093aef2bbd",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Check the no-affine-spanning extension, sphere/Lorentz domains and which circle corollaries are formal. The identification with all classical Möbius transformations for d>=2 is cited, not formalized; the analogous dimension-one identification fails. No arbitrary-sphere similarity reduction or cross-ratio triangle classification is established. Distinguish the new extension from inherited OpenAI modules and record 3760. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The disclosure credits Claude Opus 5.5 with exploratory theorem/proof work and formal extensions, with Sonnet 5.5 literature and reproduction assistance under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-14",
+            "dateBasis": "Earliest supported primary public registration; earlier repository visibility not established.",
+            "originalPublicationDate": "2026-10-14",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4008",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "6897e3f0fe5f616979bdd1f983aad12e0b56ba01b3626e895cbf9b4ab7ca0279",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Compare the precise differentiability, conservation and sourceful hypotheses against Fock, Collinson, Lovelock, Kerrighan and Anco–Pohjanpelto; some full historical pages were not retrieved by the author. Audit the finite certificates and the sourceful exchange-law route. Establish novelty of the narrowed routes rather than rediscovery of stress uniqueness or the smooth 17-parameter consequence; no curved-space or new physical coupling is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Primary metadata attributes mathematical research and proofs to human-directed OpenAI GPT-family Codex work, and Claude extraction/porting; exact model versions and theorem-level allocation are incomplete."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-14",
+            "dateBasis": "Earliest supported primary public registration; earlier repository visibility not established.",
+            "originalPublicationDate": "2026-10-14",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4009",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "d03e13518fc661eab695e61e8c2bc083426dff7d7afc91bbb9c9a2b09b546d1d",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Audit the fixed-dimension embedding, separation and explicit constants, and establish historical priority for this restricted Erdős 670 construction. Source-reported project rebuilds and compiled-import kernel replay on two machines do not establish source-only upstream builds or independent human review. Archive metadata says publication October12 but creation is October13; use October13 as first supported public archive observation unless earlier visibility is established. Do not create another row for the subsequent Palomar port. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The dated primary archive credits substantial OpenAI ChatGPT research/manuscript assistance under Tripodo’s direction; broader Claude use is disclosed without assigning particular proof steps."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Public archive created October13; metadata publication October12 retained as discrepancy.",
+            "originalPublicationDate": "2026-10-13",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4010",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual source-pinned estimate conditional on the bounded reported claim. A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems. Correctness and reported AI role are separate from historical task difficulty.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A specialist bounded advance in the stated mathematical problem, not a complete resolution of broader conjectures or rediscovery of inherited theorems.",
+          "sourceHash": "564b23b0de4648a2a5770bc1a4aac4a575def3727052f2103aaa42a13ccafb48",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "Establish novelty of the sharpened handshake and nine-edge/nine-vertex bounds and identify which mathematical extensions, rather than ports of Alon, Price and Lovasz, were AI-assisted. Audit non-2-colourability, active-vertex and intersection hypotheses and standard-axiom statement correspondence. Do not label this a newly AI-discovered settlement of the main Erdős 836 questions. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Primary metadata directly acknowledges AI-assisted proof development and statement/axiom audits; exact models and origination of each additional bound are not given."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-14",
+            "reportedDate": "2026-10-14",
+            "dateBasis": "Earliest supported primary public registration; earlier repository visibility not established.",
+            "originalPublicationDate": "2026-10-14",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

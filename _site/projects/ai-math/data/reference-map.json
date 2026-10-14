@@ -62622,6 +62622,18 @@
       "title": "OpenAI Mathematics family 367 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/367.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261014EOD_3953",
+      "title": "Owner-reported flatness-through-six checkpoint and scope",
+      "url": "https://github.com/willmfeldman/one-phase-critical-dim/blob/d55068c8ca74db340bcb7b36c1f21a4ebf93a53c/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_3953_support",
+      "title": "Flatness theorem manifest, dependencies and AI disclosure",
+      "url": "https://github.com/willmfeldman/one-phase-critical-dim/blob/d55068c8ca74db340bcb7b36c1f21a4ebf93a53c/formalization.yaml",
+      "accessed": "2026-10-14"
     }
   ],
   "3954": [
@@ -63682,6 +63694,218 @@
       "title": "A lower bound of 22 for integer-coefficient 3-by-3 matrix multiplication — source disclosure",
       "url": "https://arxiv.org/html/2610.01639v1",
       "accessed": "2026-10-13"
+    }
+  ],
+  "3998": [
+    {
+      "key": "Daily20261014EOD_3998",
+      "title": "Pseudolocality and strong uniqueness for complete Ricci flows — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.18364v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_3998_support",
+      "title": "Pseudolocality and strong uniqueness for complete Ricci flows — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.18364v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "3999": [
+    {
+      "key": "Daily20261014EOD_3999",
+      "title": "Generators of separable unital C*-algebras — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.17411v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_3999_support",
+      "title": "Generators of separable unital C*-algebras — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.17411v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4000": [
+    {
+      "key": "Daily20261014EOD_4000",
+      "title": "An elementary proof of geometric bulk conductances in even dimensions — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.16208v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4000_support",
+      "title": "An elementary proof of geometric bulk conductances in even dimensions — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.16208v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4001": [
+    {
+      "key": "Daily20261014EOD_4001",
+      "title": "Improved spectral counts for x1²+x2²−x3²=D — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.15706v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4001_support",
+      "title": "Improved spectral counts for x1²+x2²−x3²=D — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.15706v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4002": [
+    {
+      "key": "Daily20261014EOD_4002",
+      "title": "Orbit strata and smooth topology of positively curved six-manifolds — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.14582v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4002_support",
+      "title": "Orbit strata and smooth topology of positively curved six-manifolds — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.14582v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4003": [
+    {
+      "key": "Daily20261014EOD_4003",
+      "title": "Language modeling and monotone compression — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.11031v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4003_support",
+      "title": "Language modeling and monotone compression — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.11031v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4004": [
+    {
+      "key": "Daily20261014EOD_4004",
+      "title": "Exact regret-profile frontier and finite-window prediction refinements — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.14007v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4004_support",
+      "title": "Exact regret-profile frontier and finite-window prediction refinements — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.14007v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4005": [
+    {
+      "key": "Daily20261014EOD_4005",
+      "title": "Counterexamples in heterogeneous Hegselmann–Krause opinion dynamics — pinned primary result",
+      "url": "https://arxiv.org/abs/2610.03229v1",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4005_support",
+      "title": "Counterexamples in heterogeneous Hegselmann–Krause opinion dynamics — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.03229v1",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4006": [
+    {
+      "key": "Daily20261014EOD_4006",
+      "title": "Smaller and near-homogeneous Hegselmann–Krause counterexamples — pinned primary result",
+      "url": "https://github.com/JD-Jones-ASES/hk-heterogeneous-lean/blob/c2d4c0b790210870f2818fc52a1c572937644a4b/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4006_support",
+      "title": "Smaller and near-homogeneous Hegselmann–Krause counterexamples — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/hk-heterogeneous-lean/blob/c2d4c0b790210870f2818fc52a1c572937644a4b/formalization.yaml",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4006_registration",
+      "title": "Dated owner registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000005-v1.json",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4007": [
+    {
+      "key": "Daily20261014EOD_4007",
+      "title": "Möbius invariance of finite spherical Ramsey sets — pinned primary result",
+      "url": "https://github.com/wstrinz/mobius-ramsey/blob/52284ddf3db595776b0d651c844fbeaf7b34a641/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4007_support",
+      "title": "Möbius invariance of finite spherical Ramsey sets — scope and AI disclosure",
+      "url": "https://github.com/wstrinz/mobius-ramsey/blob/52284ddf3db595776b0d651c844fbeaf7b34a641/formalization.yaml",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4007_registration",
+      "title": "Dated owner registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000008-v1.json",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4008": [
+    {
+      "key": "Daily20261014EOD_4008",
+      "title": "Finite-regularity and certificate characterizations of electromagnetic source tensors — pinned primary result",
+      "url": "https://github.com/stalex444/pdt-em-source-selection/blob/7517011658ec52fc57669e8ce9daeb4150fdb3eb/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4008_support",
+      "title": "Finite-regularity and certificate characterizations of electromagnetic source tensors — scope and AI disclosure",
+      "url": "https://github.com/stalex444/pdt-em-source-selection/blob/7517011658ec52fc57669e8ce9daeb4150fdb3eb/formalization.yaml",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4008_registration",
+      "title": "Dated owner registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000009-v1.json",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4009": [
+    {
+      "key": "Daily20261014EOD_4009",
+      "title": "Separated Euclidean distances below 0.74 n² in a fixed dimension — pinned primary result",
+      "url": "https://doi.org/10.5281/zenodo.23329194",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4009_support",
+      "title": "Separated Euclidean distances below 0.74 n² in a fixed dimension — scope and AI disclosure",
+      "url": "https://github.com/jjtripodo-lgtm/erdos-670-fixed-dimension/blob/1e73a12ff1076dd11affadbf619ddbbef587133e/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4009_registration",
+      "title": "Dated owner registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000003-v1.json",
+      "accessed": "2026-10-14"
+    }
+  ],
+  "4010": [
+    {
+      "key": "Daily20261014EOD_4010",
+      "title": "Structural bounds for codimension-one avoiding intersecting hypergraphs — pinned primary result",
+      "url": "https://github.com/linrock/math-proofs/blob/2c2d2f773f1dde69452b0cde525ff6ee633c49d0/erdos-836/README.md",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4010_support",
+      "title": "Structural bounds for codimension-one avoiding intersecting hypergraphs — scope and AI disclosure",
+      "url": "https://github.com/linrock/math-proofs/blob/2c2d2f773f1dde69452b0cde525ff6ee633c49d0/erdos-836/formalization.yaml",
+      "accessed": "2026-10-14"
+    },
+    {
+      "key": "Daily20261014EOD_4010_registration",
+      "title": "Dated owner registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000004-v1.json",
+      "accessed": "2026-10-14"
     }
   ]
 }
