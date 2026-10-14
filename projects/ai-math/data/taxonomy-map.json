@@ -48,14 +48,14 @@
     "multiClaimSourceCount": 2,
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
-    "sourceCorpusRefreshedThrough": "2026-10-13",
-    "sourceCoverageNote": "Rolling window October7–13. Mandatory sources, full available recent mathematics/CS metadata listings and October12–13 registry entries retrieved. Listing retrieval is not complete full-text screening; historical replacement coverage since August20 and all recent full-text/AI-disclosure screening remain incomplete. The continuous collectionEnded cutoff is not advanced. Missing optional package files, Erdős252 catalogue403 and the Hexagon403 are record-local limitations. Two cited arXiv packages (Oct1 and Oct8) were read in full HTML and deduplicated. Recent feeds remain metadata snapshots, not proof that all Oct10–13 submissions were available. Exclusions are per-package, not a blanket exclusion of AI formal proof development.",
-    "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-11",
-    "reviewedCorrectionCount": 157,
+    "sourceCorpusRefreshedThrough": "2026-10-14",
+    "sourceCoverageNote": "Trigger13October22:46UTC completed14OctoberLondon. Rolling8–14October plus inherited incomplete coverage sinceAugust20. Mandatory sources and recent arXivmath/CS feeds retrieved; registry/OpenAI/feed bytes unchanged since earlier13October scan. Anthropic visible text unchanged. No complete historical/full-text rescreen is claimed; retain continuous cutoff.",
+    "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-14",
+    "reviewedCorrectionCount": 158,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "7a1fa5b766a7f223bebbd1209d71ca98e5040fe3bc841b3ef4a08c933382e13b",
-      "referenceMapSha256": "5e20339c7cf2a4416d8f6692ec2afb037e136bb92067bff82fb4ab05def2864e",
-      "analysisLogSha256": "c0179a4f63195229ce990b75803844f4edb932c4a505b894a8f4a59516e2d05f"
+      "scoredLedgerSha256": "32d4b01c3d7dc1f33aeb2ced48ddf5dc1228c09757ff721f64fc6c4dba7a6b12",
+      "referenceMapSha256": "f9b8e35386ceecbd1ea7963d04a326a05c6c72ce7ebeda4d948fc0ff800ce03a",
+      "analysisLogSha256": "fd3d956b8d1e8751e85019852f954c0238c0d5d7d639cb29ba79ace8f484b321"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -1233577,16 +1233577,52 @@
     "recordType": "result",
     "resultId": "result-3992",
     "sourceIncludedId": "3992",
-    "claim": "The source reports: For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
+    "claim": "The current owner source reports: For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
     "sources": [
+      {
+        "sourceId": "Daily20261014_3992",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Revised Dedekind and finite-order Hecke zero-free half-plane — owner statement",
+        "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/README.md",
+        "accessed": "2026-10-14",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261014_3992_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Revised scope, AI attribution and verification limitations",
+        "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/formalization.yaml",
+        "accessed": "2026-10-14",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261014_3992_contract",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Two-theorem Comparator contract",
+        "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/comparator.json",
+        "accessed": "2026-10-14",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261014_3992_statement",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Dedekind and ray-class-character theorem statements",
+        "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/Challenge/DedekindZetaChallenge.lean",
+        "accessed": "2026-10-14",
+        "evidenceRelation": "secondary_source"
+      },
       {
         "sourceId": "Daily20261013_3992",
         "sourceType": "repository",
-        "role": "Primary result and challenge-context evidence",
+        "role": "Supporting or independent evidence",
         "title": "A uniform zero-free half-plane for every Dedekind zeta function — pinned primary claim",
         "url": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/896b6774bdc04a2817877c333878d9b6738eb543/README.md",
         "accessed": "2026-10-13",
-        "evidenceRelation": "primary_source"
+        "evidenceRelation": "secondary_source"
       },
       {
         "sourceId": "Daily20261013_3992_support",
@@ -1233612,6 +1233648,10 @@
         "status": "unclassified",
         "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
         "evidenceSourceIds": [
+          "Daily20261014_3992",
+          "Daily20261014_3992_support",
+          "Daily20261014_3992_contract",
+          "Daily20261014_3992_statement",
           "Daily20261013_3992",
           "Daily20261013_3992_support",
           "Daily20261013_3992_registration"
@@ -1233622,8 +1233662,12 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: The source reports: For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The current owner source reports: For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233634,8 +1233678,12 @@
           "status": "coded",
           "polarity": "settled_yes",
           "completeness": "partial",
-          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported mathematical result: For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Conservative source-reported scope correction: For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233646,8 +1233694,12 @@
           "status": "coded",
           "primaryConceptId": "R3-DIRECT-PROOF",
           "additionalConceptIds": [],
-          "rationale": "The material argument forms are supported as follows: Conservative source-reported mathematical result: For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
+          "rationale": "The material argument forms are supported as follows: Conservative source-reported scope correction: For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233658,6 +1233710,10 @@
           "status": "not_reported",
           "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233668,8 +1233724,12 @@
       "production": {
         "p1HumanMachineMode": {
           "status": "not_reported",
-          "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+          "rationale": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233683,6 +1233743,10 @@
             "machineOperations": "not_reported",
             "reconstructible": false,
             "evidenceSourceIds": [
+              "Daily20261014_3992",
+              "Daily20261014_3992_support",
+              "Daily20261014_3992_contract",
+              "Daily20261014_3992_statement",
               "Daily20261013_3992",
               "Daily20261013_3992_support",
               "Daily20261013_3992_registration"
@@ -1233694,6 +1233758,10 @@
             "machineOperations": "not_reported",
             "reconstructible": false,
             "evidenceSourceIds": [
+              "Daily20261014_3992",
+              "Daily20261014_3992_support",
+              "Daily20261014_3992_contract",
+              "Daily20261014_3992_statement",
               "Daily20261013_3992",
               "Daily20261013_3992_support",
               "Daily20261013_3992_registration"
@@ -1233705,6 +1233773,10 @@
             "machineOperations": "not_reported",
             "reconstructible": false,
             "evidenceSourceIds": [
+              "Daily20261014_3992",
+              "Daily20261014_3992_support",
+              "Daily20261014_3992_contract",
+              "Daily20261014_3992_statement",
               "Daily20261013_3992",
               "Daily20261013_3992_support",
               "Daily20261013_3992_registration"
@@ -1233714,8 +1233786,12 @@
         "p2ReasoningRepresentation": {
           "status": "coded",
           "conceptId": "P2-MIXED-OR-NOT-REPORTED",
-          "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+          "rationale": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233726,6 +1233802,10 @@
           "status": "not_reported",
           "rationale": "The source material does not support a stable architecture-family assignment.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233736,6 +1233816,10 @@
           "status": "not_reported",
           "rationale": "No controlled P4 feature is established by the Minimal source pack.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233748,15 +1233832,19 @@
       "status": "unknown",
       "events": [],
       "replayedHere": false,
-      "rationale": "Source-reported verification not independently established here. The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+      "rationale": "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed."
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "The source reports: For every number field K, the source reports no zeros of its Dedekind zeta function in Re(s) > 5999/6000, excluding the pole s=1. The formal checkpoint asserts a holomorphic continuation away from 1 agreeing with Mathlib’s zeta function in Re(s)>1. The separate Hecke L-function corollary and the full generalized Riemann hypothesis are not included.",
+      "anchorClaim": "The current owner source reports: For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
         "evidenceSourceIds": [
+          "Daily20261014_3992",
+          "Daily20261014_3992_support",
+          "Daily20261014_3992_contract",
+          "Daily20261014_3992_statement",
           "Daily20261013_3992",
           "Daily20261013_3992_support",
           "Daily20261013_3992_registration"
@@ -1233769,6 +1233857,10 @@
           "evidenceState": "unknown",
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233779,6 +1233871,10 @@
           "evidenceState": "unknown",
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233789,6 +1233885,10 @@
           "evidenceState": "unknown",
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233799,6 +1233899,10 @@
           "evidenceState": "unknown",
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233807,8 +1233911,12 @@
       },
       "framingDate": {
         "status": "not_reported",
-        "rationale": "Further checking: The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+        "rationale": "Further checking: The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed.",
         "evidenceSourceIds": [
+          "Daily20261014_3992",
+          "Daily20261014_3992_support",
+          "Daily20261014_3992_contract",
+          "Daily20261014_3992_statement",
           "Daily20261013_3992",
           "Daily20261013_3992_support",
           "Daily20261013_3992_registration"
@@ -1233820,6 +1233928,10 @@
         "precision": "year",
         "rationale": "The source ledger records the first solution report.",
         "evidenceSourceIds": [
+          "Daily20261014_3992",
+          "Daily20261014_3992_support",
+          "Daily20261014_3992_contract",
+          "Daily20261014_3992_statement",
           "Daily20261013_3992",
           "Daily20261013_3992_support",
           "Daily20261013_3992_registration"
@@ -1233831,6 +1233943,10 @@
           "value": "unknown",
           "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233840,6 +1233956,10 @@
           "value": "unknown",
           "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
           "evidenceSourceIds": [
+            "Daily20261014_3992",
+            "Daily20261014_3992_support",
+            "Daily20261014_3992_contract",
+            "Daily20261014_3992_statement",
             "Daily20261013_3992",
             "Daily20261013_3992_support",
             "Daily20261013_3992_registration"
@@ -1233881,12 +1234001,12 @@
     },
     "coding": {
       "coder": "Mathematics Progress v0.2 corpus coding",
-      "assignmentDate": "2026-10-13",
+      "assignmentDate": "2026-10-14",
       "confidence": "low",
-      "rationale": "Individual primary-source reading; PALOMAR-2026-10-13-000010",
+      "rationale": "Individually reread current owner statement, disclosure, Challenge, Comparator and proof adapter; dated source-supported correction, not proof execution.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+      "notes": "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed."
     }
   },
   "3993": {

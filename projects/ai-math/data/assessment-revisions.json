@@ -220122,5 +220122,91 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-14",
+    "snapshotHash": "9816ec0cfe0b53f9ebfa079aad16a1d590a240981b3778561ed9be489ecdb68b",
+    "changes": [
+      {
+        "id": "3992",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+            "evidenceSummary": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization.",
+            "evidenceSourceIds": [
+              "Daily20261013_3992",
+              "Daily20261013_3992_support"
+            ],
+            "sourceHash": "2a9490e958e57ef99535a1d751c39379365c7670bb9aeabe22b74c54f753306a",
+            "assessedAt": "2026-10-13"
+          },
+          "rationale": "Conditional on the exact source-reported result: A source-reported fixed zero-free half-plane for every number field crosses the classical quasi-generalized-Riemann frontier, but is much weaker than Re(s)=1/2. Classification is conditional on the exact reported theorem, not proof acceptance. Classification confidence is separate from proof verification and AI allocation.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "A source-reported fixed zero-free half-plane for every number field crosses the classical quasi-generalized-Riemann frontier, but is much weaker than Re(s)=1/2. Classification is conditional on the exact reported theorem, not proof acceptance.",
+          "sourceHash": "2a9490e958e57ef99535a1d751c39379365c7670bb9aeabe22b74c54f753306a",
+          "assessedAt": "2026-10-13",
+          "inclusionConcern": "The versioned Hexagon manuscript retrieval returned HTTP 403; inspect Theorem 1.1 and Section 15 when accessible. Independently audit the Dedekind-zeta continuation, metaplectic/automorphic bridges, statement correspondence and reused source dependencies. Establish earliest visibility and historical priority; registry registration and source-reported builds are not independent peer review. Independently audit statement-to-manuscript correspondence and exact proof/certificate receipts; source-reported machine checks are not independent human review. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Dean Cureton and Jesse Thorner directed mathematical research and judgments; the Axiom Math owner README states AxiomProver generated the proofs and Lean formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
+            "evidenceSummary": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
+            "evidenceSourceIds": [
+              "Daily20261014_3992",
+              "Daily20261014_3992_support",
+              "Daily20261014_3992_contract",
+              "Daily20261014_3992_statement"
+            ],
+            "sourceHash": "5944068b9f47e06c9d8addfab7d169d53891761311c4f7992a803a2aced48c70",
+            "assessedAt": "2026-10-14"
+          },
+          "rationale": "Reread current owner revision: reported fixed31/32 zero-free half-plane for every number field and finite-order Hecke L-functions. This remains a source-reported quasi-generalized-Riemann frontier crossing, not full GRH. Historical difficulty and proof correctness remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The exact uniform31/32 Dedekind and finite-order-Hecke target, not the earlier5999/6000 checkpoint or fullGRH.",
+          "sourceHash": "5944068b9f47e06c9d8addfab7d169d53891761311c4f7992a803a2aced48c70",
+          "assessedAt": "2026-10-14",
+          "inclusionConcern": "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-13",
+            "reportedDate": "2026-10-12",
+            "dateBasis": "Earliest supported dated primary archive/manuscript report or public registration; earlier repository visibility is not established.",
+            "originalPublicationDate": "2026-10-12",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

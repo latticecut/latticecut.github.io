@@ -50163,5 +50163,55 @@
       "Initial unit-distance guessed path404 was resolved to the registry’s correct repository/subdirectory; correct README retrieved."
     ],
     "validationDisclosure": "Classification is an individual AI assessment, not independent specialist review or execution of proof artifacts."
+  },
+  {
+    "id": "2026-10-14-dedekind-scope-correction",
+    "recordedAt": "2026-10-14",
+    "refreshedThrough": "2026-10-14",
+    "runDateEuropeLondon": "2026-10-14",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4008,
+    "claimCount": 4010,
+    "evidenceCutoff": "2026-10-14T02:24:11Z",
+    "model": null,
+    "modelStatus": "Runtime identifier not surfaced",
+    "summary": "Correct existing3992 to current reported31/32 Dedekind/finite-order-Hecke scope; no addition, no verification promotion.",
+    "coverageNote": "Trigger13October22:46UTC completed14OctoberLondon. Rolling8–14October plus inherited incomplete coverage sinceAugust20. Mandatory sources and recent arXivmath/CS feeds retrieved; registry/OpenAI/feed bytes unchanged since earlier13October scan. Anthropic visible text unchanged. No complete historical/full-text rescreen is claimed; retain continuous cutoff.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "3992"
+    ],
+    "existingRecordChanges": [
+      "3992"
+    ],
+    "provisionalIds": [
+      "3992"
+    ],
+    "recordDecisions": [
+      {
+        "sourceId": "3992",
+        "disposition": "include_flagged",
+        "change": "Existing record correction, no new ID",
+        "primary": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/README.md",
+        "support": "https://github.com/AxiomMath/DedekindZetaZeroFree/blob/09afbb4ce6570c1615d58509dc197fc9f0956b7d/formalization.yaml",
+        "boundedClaim": "For every number field K, the current owner source reports that its Dedekind zeta function has no zeros in Re(s)>31/32, excluding the pole s=1. It also reports the same half-plane for finite-order Hecke L-functions represented by ray class characters with nonzero modulus; s=1 is included for nonprincipal characters, whose continuations are entire. The compared statements identify the continuations with the Dedekind zeta function or ideal Dirichlet series in Re(s)>1. This is not the full generalized Riemann hypothesis.",
+        "aiContribution": "Dean Cureton and Jesse Thorner directed the mathematical research and judgments; the reread owner README and metadata expressly attribute proof generation and Lean formalization to AxiomProver under human direction.",
+        "furtherChecking": "The pinned owner revision 09afbb4ce6570c1615d58509dc197fc9f0956b7d dated 13 October strengthens the earlier registered 5999/6000 checkpoint to 31/32 and adds heckeCorollary to comparator.json. The stale registry checkpoint is not the latest compared scope. Independently audit analytic continuation, the ray-class-character/finite-order-Hecke identification, principal-character pole exceptions and the metaplectic/automorphic and reused-source dependencies. The versioned Hexagon manuscript previously returned HTTP403; its exact revised informal correspondence and Section15 allocation have not been independently read here. Owner-reported builds, standard-axiom assertions and agent reviews are not independent verification or human peer review. Preserve the October12 first-public date and provisional=1, low strict confidence, reviewStatus unreviewed, no strict Superhuman override. No downloaded proof artifact was executed.",
+        "provisional": 1,
+        "publicationDate": "2026-10-12",
+        "revisionDate": "2026-10-13",
+        "accessed": "2026-10-14"
+      }
+    ],
+    "excludedCandidates": [],
+    "quarantinedCandidates": [],
+    "correctionSetId": "reviewed-source-corrections-2026-10-14",
+    "correctionSetSha256": "4adbd8b5bde2dc2b7db06ecd565a3b8f037fc5d7d21b63286e289261bbd74331",
+    "sourceRechecks": "Sofa unchanged pinned commit; earlier registry snapshots are unchanged. Other repository default heads predate registered pinned commits and do not establish retraction or a new mathematical revision.",
+    "retrievalFailures": [],
+    "artifactsExecuted": false,
+    "changes": [
+      "3992: current owner revision reports31/32 Dedekind and finite-order-Hecke zero-free half-plane; both compared declarations now included. Provisional limitations and original first-public date retained."
+    ]
   }
 ]
