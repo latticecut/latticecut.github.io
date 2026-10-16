@@ -15828,6 +15828,18 @@
       "title": "Explicit Positive-Density Collatz Convergence in Logarithmic Time — pinned evidence",
       "url": "https://www.proofatlas.ai/sources/positive-density-log-time-collatz/commits/830b9d3f38f2a8da8cd921bf6a9310dd69336fd0/artifact.collatz.positive_density_log_time.lean-package.v003.evidence.json",
       "accessed": "2026-09-07"
+    },
+    {
+      "key": "Daily20261016_1316",
+      "title": "Current owner scope and verification limitations",
+      "url": "https://github.com/AxiomMath/CollatzPositiveDensity/blob/3a38bfbb70379e051b51155def1423846fab3a90/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_1316_support",
+      "title": "Pinned owner metadata and attribution",
+      "url": "https://github.com/AxiomMath/CollatzPositiveDensity/blob/3a38bfbb70379e051b51155def1423846fab3a90/formalization.yaml",
+      "accessed": "2026-10-16"
     }
   ],
   "1317": [
@@ -50480,6 +50492,18 @@
       "title": "Dynamic MCS Ordering Maintenance — primary evidence 5",
       "url": "https://github.com/thonmay/thesis-lean/commit/a872fddca7025ae0ecedd654238fa0c06729dc2e",
       "accessed": "2026-10-04"
+    },
+    {
+      "key": "Daily20261016_3552",
+      "title": "Current owner scope and verification limitations",
+      "url": "https://github.com/thonmay/thesis-lean/blob/c4c2c0fb15adf42b8b584e4fc83d5cbe643d5819/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_3552_support",
+      "title": "Pinned owner metadata and attribution",
+      "url": "https://github.com/thonmay/thesis-lean/blob/c4c2c0fb15adf42b8b584e4fc83d5cbe643d5819/formalization.yaml",
+      "accessed": "2026-10-16"
     }
   ],
   "3553": [
@@ -63906,6 +63930,296 @@
       "title": "Dated owner registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-14-000004-v1.json",
       "accessed": "2026-10-14"
+    }
+  ],
+  "4011": [
+    {
+      "key": "Daily20261016_4011",
+      "title": "Tight value-oracle approximability of submodular facility location — primary statement",
+      "url": "https://arxiv.org/abs/2610.18828v1",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4011_support",
+      "title": "Tight value-oracle approximability of submodular facility location — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.18828v1",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4012": [
+    {
+      "key": "Daily20261016_4012",
+      "title": "Single generation of transformation-group C*-algebras — primary statement",
+      "url": "https://arxiv.org/abs/2610.21037v1",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4012_support",
+      "title": "Single generation of transformation-group C*-algebras — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.21037v1",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4013": [
+    {
+      "key": "Daily20261016_4013",
+      "title": "Equivariant noncommutative crepant resolutions and maximal modifying modules — primary statement",
+      "url": "https://arxiv.org/abs/2610.11708v2",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4013_support",
+      "title": "Equivariant noncommutative crepant resolutions and maximal modifying modules — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.11708v2",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4014": [
+    {
+      "key": "Daily20261016_4014",
+      "title": "A sharp universal support criterion for symmetric sub-Gaussian laws — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/support-criterion/blob/f6185744e26f5862fd704ef637ebef3fd068cef5/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4014_support",
+      "title": "A sharp universal support criterion for symmetric sub-Gaussian laws — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/support-criterion/blob/f6185744e26f5862fd704ef637ebef3fd068cef5/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4014_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-15-000001-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4015": [
+    {
+      "key": "Daily20261016_4015",
+      "title": "Depth-labeled substitution and interpolation in Sacchetti modal logics — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/modal-depth/blob/8c5fc2afd424a0fc593c97031ada788befdc5b10/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4015_support",
+      "title": "Depth-labeled substitution and interpolation in Sacchetti modal logics — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/modal-depth/blob/8c5fc2afd424a0fc593c97031ada788befdc5b10/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4015_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000009-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4016": [
+    {
+      "key": "Daily20261016_4016",
+      "title": "Finite counterexamples to a restricted-sumset inverse theorem — primary statement",
+      "url": "https://github.com/AItoBit/restricted-sumsets-counterexamples/blob/f2fec945b6c156edec290e15a7ab54bd3db2ba7c/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4016_support",
+      "title": "Finite counterexamples to a restricted-sumset inverse theorem — scope and AI disclosure",
+      "url": "https://github.com/AItoBit/restricted-sumsets-counterexamples/blob/f2fec945b6c156edec290e15a7ab54bd3db2ba7c/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4016_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000008-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4017": [
+    {
+      "key": "Daily20261016_4017",
+      "title": "Connected counterexamples to exact color-critical two-eigenvalue bounds — primary statement",
+      "url": "https://github.com/shaikidris/kkp-connected-spectral-counterexamples/blob/c611a4a733fe796809cd941f96ff8f2c294fd1ef/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4017_support",
+      "title": "Connected counterexamples to exact color-critical two-eigenvalue bounds — scope and AI disclosure",
+      "url": "https://github.com/shaikidris/kkp-connected-spectral-counterexamples/blob/c611a4a733fe796809cd941f96ff8f2c294fd1ef/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4017_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000012-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4018": [
+    {
+      "key": "Daily20261016_4018",
+      "title": "An edge-localized two-eigenvalue bound — primary statement",
+      "url": "https://github.com/shaikidris/kkp-localized-spectral-bound/blob/d3593f26e60c27d1cae1967f720f4dd59ad1c4d8/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4018_support",
+      "title": "An edge-localized two-eigenvalue bound — scope and AI disclosure",
+      "url": "https://github.com/shaikidris/kkp-localized-spectral-bound/blob/d3593f26e60c27d1cae1967f720f4dd59ad1c4d8/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4018_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-15-000015-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4019": [
+    {
+      "key": "Daily20261016_4019",
+      "title": "Finite observations and recognition of the compact Albert algebra — primary statement",
+      "url": "https://github.com/macgregor-sudo/compact-albert-recognition/blob/40d3b344180d9ddb78aaa2876873377c1e631515/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4019_support",
+      "title": "Finite observations and recognition of the compact Albert algebra — scope and AI disclosure",
+      "url": "https://github.com/macgregor-sudo/compact-albert-recognition/blob/40d3b344180d9ddb78aaa2876873377c1e631515/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4019_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000013-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4020": [
+    {
+      "key": "Daily20261016_4020",
+      "title": "The linear MDS conjecture over every even-order finite field — primary statement",
+      "url": "https://github.com/PranavaKCode/EvenOrderMDS/blob/1e7d9f0fc719de64230edd473411b23e2a8ed72b/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4020_support",
+      "title": "The linear MDS conjecture over every even-order finite field — scope and AI disclosure",
+      "url": "https://github.com/PranavaKCode/EvenOrderMDS/blob/1e7d9f0fc719de64230edd473411b23e2a8ed72b/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4020_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-15-000014-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4021": [
+    {
+      "key": "Daily20261016_4021",
+      "title": "Conditional exact-rank five, six and seven elliptic-curve constructions — primary statement",
+      "url": "https://github.com/pmaronow/ec567-palomar/blob/b1f2ded85275d67b78fada55212fefff54d7c35e/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4021_support",
+      "title": "Conditional exact-rank five, six and seven elliptic-curve constructions — scope and AI disclosure",
+      "url": "https://github.com/pmaronow/ec567-palomar/blob/b1f2ded85275d67b78fada55212fefff54d7c35e/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4021_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000002-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4022": [
+    {
+      "key": "Daily20261016_4022",
+      "title": "Distinguishing planar Brownian images of time sets and measures — primary statement",
+      "url": "https://arxiv.org/abs/2610.16339v1",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4022_support",
+      "title": "Distinguishing planar Brownian images of time sets and measures — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.16339v1",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4023": [
+    {
+      "key": "Daily20261016_4023",
+      "title": "Further spherical Ramsey constructions and classification corollaries — primary statement",
+      "url": "https://doi.org/10.5281/zenodo.23366344",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4023_support",
+      "title": "Further spherical Ramsey constructions and classification corollaries — scope and AI disclosure",
+      "url": "https://doi.org/10.5281/zenodo.23396387",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4023_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000018-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4024": [
+    {
+      "key": "Daily20261016_4024",
+      "title": "An independent integral-tail-signature Hilbert–Smith proof package — primary statement",
+      "url": "https://github.com/adbrw/HS_proof/blob/b75523f0036bc857f31620ee18af970151036311/README.md",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4024_support",
+      "title": "An independent integral-tail-signature Hilbert–Smith proof package — scope and AI disclosure",
+      "url": "https://github.com/adbrw/HS_proof/blob/b75523f0036bc857f31620ee18af970151036311/formalization.yaml",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4024_registration",
+      "title": "Dated source registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000006-v1.json",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4025": [
+    {
+      "key": "Daily20261016_4025",
+      "title": "New reversible quantum-circuit architectures and resource improvements — primary statement",
+      "url": "https://arxiv.org/abs/2610.22367v1",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4025_support",
+      "title": "New reversible quantum-circuit architectures and resource improvements — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.22367v1",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4025_lab",
+      "title": "Anthropic October16 model and contribution disclosure",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "4026": [
+    {
+      "key": "Daily20261016_4026",
+      "title": "Exact reconstruction of fourteen standardized elliptic-curve seeds and six base points — primary statement",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "accessed": "2026-10-16"
+    },
+    {
+      "key": "Daily20261016_4026_support",
+      "title": "Exact reconstruction of fourteen standardized elliptic-curve seeds and six base points — scope and AI disclosure",
+      "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "accessed": "2026-10-16"
     }
   ]
 }
