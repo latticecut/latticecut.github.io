@@ -64242,5 +64242,147 @@
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "accessed": "2026-10-16"
     }
+  ],
+  "4027": [
+    {
+      "key": "Daily20261017_4027",
+      "title": "An independent counting-hierarchy proof for real feasibility with a fourth-level bound — primary statement",
+      "url": "https://arxiv.org/abs/2610.10514v1",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4027_support",
+      "title": "An independent counting-hierarchy proof for real feasibility with a fourth-level bound — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.10514v1",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4028": [
+    {
+      "key": "Daily20261017_4028",
+      "title": "A conditional nonsmooth hot-spots extension for simple first eigenvalues — primary statement",
+      "url": "https://arxiv.org/abs/2610.12622v1",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4028_support",
+      "title": "A conditional nonsmooth hot-spots extension for simple first eigenvalues — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.12622v1",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4029": [
+    {
+      "key": "Daily20261017_4029",
+      "title": "Inverse resonance uniqueness and finite-data estimates with a complex Robin boundary condition — primary statement",
+      "url": "https://arxiv.org/abs/2610.14323v1",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4029_support",
+      "title": "Inverse resonance uniqueness and finite-data estimates with a complex Robin boundary condition — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.14323v1",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4030": [
+    {
+      "key": "Daily20261017_4030",
+      "title": "Sharp quartic Lyapunov boundaries and sextic degree separation for a planar cubic family — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/quartic-lyapunov/blob/6b9b50561cf076e003ecfe1b442594c31a613f9e/README.md",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4030_support",
+      "title": "Sharp quartic Lyapunov boundaries and sextic degree separation for a planar cubic family — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/quartic-lyapunov/blob/6b9b50561cf076e003ecfe1b442594c31a613f9e/formalization.yaml",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4030_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000007-v1.json",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4031": [
+    {
+      "key": "Daily20261017_4031",
+      "title": "Exact real dimension-three and complex dimension-two Recht–Ré counterexamples — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/rr-exact/blob/141bddb9f263aa99c0c6a8be4af469389d2afca2/README.md",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4031_support",
+      "title": "Exact real dimension-three and complex dimension-two Recht–Ré counterexamples — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/rr-exact/blob/141bddb9f263aa99c0c6a8be4af469389d2afca2/formalization.yaml",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4031_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000006-v1.json",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4032": [
+    {
+      "key": "Daily20261017_4032",
+      "title": "A strengthened asymptotic two-eigenvalue bound for forbidden subgraphs — primary statement",
+      "url": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/README.md",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4032_support",
+      "title": "A strengthened asymptotic two-eigenvalue bound for forbidden subgraphs — scope and AI disclosure",
+      "url": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/formalization.yaml",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4032_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000005-v1.json",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4033": [
+    {
+      "key": "Daily20261017_4033",
+      "title": "A converse to the discrete four-vertex theorem and realization continuity — primary statement",
+      "url": "https://github.com/kejace/cd4vt/blob/bfd433640794b11424be43ad4778566be9253ef4/README.md",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4033_support",
+      "title": "A converse to the discrete four-vertex theorem and realization continuity — scope and AI disclosure",
+      "url": "https://github.com/kejace/cd4vt/blob/bfd433640794b11424be43ad4778566be9253ef4/formalization.yaml",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4033_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000001-v1.json",
+      "accessed": "2026-10-17"
+    }
+  ],
+  "4034": [
+    {
+      "key": "Daily20261017_4034",
+      "title": "An explicit Hausdorff waist bound and repaired spherical localization argument — primary statement",
+      "url": "https://github.com/akopjan/Waist-inequalities-lean-formalizatoin/blob/e7823b4b1252ecf3cc9f9342529bad01cb3080fa/README.md",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4034_support",
+      "title": "An explicit Hausdorff waist bound and repaired spherical localization argument — scope and AI disclosure",
+      "url": "https://github.com/akopjan/Waist-inequalities-lean-formalizatoin/blob/e7823b4b1252ecf3cc9f9342529bad01cb3080fa/formalization.yaml",
+      "accessed": "2026-10-17"
+    },
+    {
+      "key": "Daily20261017_4034_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000023-v1.json",
+      "accessed": "2026-10-17"
+    }
   ]
 }

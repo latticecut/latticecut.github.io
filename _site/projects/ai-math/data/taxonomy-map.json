@@ -6,9 +6,9 @@
     "completionEnvelopeRuleVersion": "1.0.0",
     "legacyChallengePolicyVersion": "0.1.0 (legacy source-history fields only)",
     "classificationUnit": "mathematical result",
-    "corpusStatus": "4037 source-included, AI-coded, unreviewed",
+    "corpusStatus": "4045 source-included, AI-coded, unreviewed",
     "scope": "Source-included, AI-coded, unreviewed v0.2 result corpus with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "sourceIncludedCount": 4037,
+    "sourceIncludedCount": 4045,
     "sourceIdAliases": {
       "25--1": "deletion-codes-2025:binary-two-deletion",
       "25--2": "alphaevolve-2025:matrix-4x4",
@@ -31,14 +31,14 @@
       "25--19": "human-ai-itp-2025:grover-retraction",
       "25--20": "extremal-descendant-2025:integrals"
     },
-    "recordCount": 4039,
+    "recordCount": 4047,
     "fullRecordCount": 10,
-    "minimalRecordCount": 4029,
-    "pendingTaxonomyCount": 3636,
+    "minimalRecordCount": 4037,
+    "pendingTaxonomyCount": 3644,
     "substantivelyCodedRecordCount": 403,
     "replayedHereCount": 0,
     "completionInvariantIncompleteCount": 180,
-    "ambiguousIncompleteCount": 3759,
+    "ambiguousIncompleteCount": 3767,
     "structurallyIncompleteCount": 0,
     "superhumanAssignedCount": 47,
     "superhumanReachableIncompleteCount": 24,
@@ -48,14 +48,14 @@
     "multiClaimSourceCount": 2,
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
-    "sourceCorpusRefreshedThrough": "2026-10-16",
-    "sourceCoverageNote": "Rolling October10–16 and recovery since the latest October14 evidence event; continuous historical cutoff August20 retained. All available recent mathematics metadata pages (3081 entries), CS pages (6585 entries),45 changed registry entries and mandatory sources retrieved, with selected full-text/disclosure reading. Metadata screening is not complete full-text screening, and inherited historical coverage remains incomplete. Optional404 files and browser-tool failures are scoped to their records; direct primary retrieval recovered the two new Anthropic pages.",
+    "sourceCorpusRefreshedThrough": "2026-10-17",
+    "sourceCoverageNote": "Rolling October11–17 plus targeted recovery since the August20 continuous cutoff and October16 latest evidence event. Recent math/CS listing pages are byte-identical to the prior scan; all15 registry changes and selected primary texts/disclosures inspected. Not complete historical or recent full-text coverage; collectionEnded stays August20. Required primary feeds retrieved; optional disclosure404s are local. Browser retrieval of Star Fleet/Erdős662/Josefsson site failed; pinned owner metadata supports the Josefsson inclusion. Meiburg full HTML direct retrieval timed out; primary arXiv browser text supplied the statement/disclosure reading.",
     "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-16",
     "reviewedCorrectionCount": 161,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "938f33a76be74688277ad404d6604b493f78c057a331c3bc4c3db7258fa0b317",
-      "referenceMapSha256": "2511cb4b9c4f57402c7ada6057566ed2a7fc6e2546be4477a54b2f98e3befb7d",
-      "analysisLogSha256": "2f66f95752873380429b58ee36307094cf8a285c4403531b24ee1c24e4bc5098"
+      "scoredLedgerSha256": "fb6e1905a505cb88f786682d0b35d117b7777a4d628ac57ec11ddf6e4c62746c",
+      "referenceMapSha256": "3bf748f7f1152fa8c6c9aef5ffd0abc95082e461970d0ad71efc898cc21b976f",
+      "analysisLogSha256": "265b731d080a244d8e25e9072c3b64d55daf7f84feadb34585b97e1e7fa20cdb"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -66,16 +66,16 @@
       "transitionId": "source-corpus-transition-2026-08-20-519"
     },
     "defaultLeadingIds": [
+      "4034",
+      "4033",
+      "4032",
+      "4031",
+      "4030",
+      "4029",
+      "4028",
+      "4027",
       "4026",
-      "4025",
-      "4024",
-      "4023",
-      "4022",
-      "4021",
-      "4020",
-      "4019",
-      "4018",
-      "4017"
+      "4025"
     ],
     "migrationBoundary": "Legacy 0.1.0 and policy 1.0.0 categories remain labelled source history; browse output uses policy 1.1.0 mathematical-history categories with assurance displayed separately.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -1244691,6 +1244691,2478 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Independently compare the published standard values and recipes without treating matching code as historical documentation. Check the binary half-timestamp interpretation, candidate indexing and omitted cases. This is not an ECDSA break, a security recommendation or a claim that every standardized curve’s origins are known. No downloaded reproduction code was executed. No downloaded proof artifact was executed. Preserve provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+    }
+  },
+  "4027": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4027",
+    "sourceIncludedId": "4027",
+    "claim": "The primary source reports: Meiburg reports existential real feasibility in BPP^(C3P), hence C4P, and for fixed w alternating real quantifier blocks a C(9w+17)P upper bound. The paper gives additional explicitly modeled bounds for exact SDP, PosSLP and square-root sum. This is an independent proof package and a stronger reported level bound than OpenAI3730, not a second first-public settlement of the general CH containment.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4027",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "An independent counting-hierarchy proof for real feasibility with a fourth-level bound — primary statement",
+        "url": "https://arxiv.org/abs/2610.10514v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4027_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "An independent counting-hierarchy proof for real feasibility with a fourth-level bound — scope and AI disclosure",
+        "url": "https://arxiv.org/html/2610.10514v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4027",
+          "Daily20261017_4027_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Meiburg reports existential real feasibility in BPP^(C3P), hence C4P, and for fixed w alternating real quantifier blocks a C(9w+17)P upper bound. The paper gives additional explicitly modeled bounds for exact SDP, PosSLP and square-root sum. This is an independent proof package and a stronger reported level bound than OpenAI3730, not a second first-public settlement of the general CH containment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Meiburg reports existential real feasibility in BPP^(C3P), hence C4P, and for fixed w alternating real quantifier blocks a C(9w+17)P upper bound. The paper gives additional explicitly modeled bounds for exact SDP, PosSLP and square-root sum. This is an independent proof package and a stronger reported level bound than OpenAI3730, not a second first-public settlement of the general CH containment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Meiburg reports existential real feasibility in BPP^(C3P), hence C4P, and for fixed w alternating real quantifier blocks a C(9w+17)P upper bound. The paper gives additional explicitly modeled bounds for exact SDP, PosSLP and square-root sum. This is an independent proof package and a stronger reported level bound than OpenAI3730, not a second first-public settlement of the general CH containment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The primary paper says ChatGPT discovered the proofs during conversations ending September29 and wrote essentially all mathematical content; Meiburg reports no nontrivial mathematical development role and an ongoing human digestion/exposition effort. Exact model is not disclosed.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4027",
+              "Daily20261017_4027_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4027",
+              "Daily20261017_4027_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": [
+              "Writing or editorial work described in the production evidence"
+            ],
+            "machineOperations": "not_reported",
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20261017_4027",
+              "Daily20261017_4027_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The primary paper says ChatGPT discovered the proofs during conversations ending September29 and wrote essentially all mathematical content; Meiburg reports no nontrivial mathematical development role and an ongoing human digestion/exposition effort. Exact model is not disclosed.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Audit uniform bit-access and counting-oracle levels, randomized sign reconstruction, singular critical fibers and the input encodings/promises for each application. Independently compare the C4 bound with OpenAI3730's constituent manuscript and prior real-algebraic complexity work. September29 is an author-reported completion date, not established public visibility; first arXiv submission is October7. Human researchers had not completed the full proof digestion. Do not infer PSPACE=CH, deterministic C3 membership or a universal claim about every application. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Meiburg reports existential real feasibility in BPP^(C3P), hence C4P, and for fixed w alternating real quantifier blocks a C(9w+17)P upper bound. The paper gives additional explicitly modeled bounds for exact SDP, PosSLP and square-root sum. This is an independent proof package and a stronger reported level bound than OpenAI3730, not a second first-public settlement of the general CH containment.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4027",
+          "Daily20261017_4027_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Audit uniform bit-access and counting-oracle levels, randomized sign reconstruction, singular critical fibers and the input encodings/promises for each application. Independently compare the C4 bound with OpenAI3730's constituent manuscript and prior real-algebraic complexity work. September29 is an author-reported completion date, not established public visibility; first arXiv submission is October7. Human researchers had not completed the full proof digestion. Do not infer PSPACE=CH, deterministic C3 membership or a universal claim about every application. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4027",
+          "Daily20261017_4027_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4027",
+          "Daily20261017_4027_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4027",
+            "Daily20261017_4027_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: 2610.10514v1",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Audit uniform bit-access and counting-oracle levels, randomized sign reconstruction, singular critical fibers and the input encodings/promises for each application. Independently compare the C4 bound with OpenAI3730's constituent manuscript and prior real-algebraic complexity work. September29 is an author-reported completion date, not established public visibility; first arXiv submission is October7. Human researchers had not completed the full proof digestion. Do not infer PSPACE=CH, deterministic C3 membership or a universal claim about every application. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4028": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4028",
+    "sourceIncludedId": "4028",
+    "claim": "The primary source reports: Assuming the explicitly stated smooth-domain no-critical-point theorem, Burdzy reports non-strict boundary-layer supremum/infimum equalities for first positive Neumann eigenfunctions on bounded simply connected planar domains with compact Neumann resolvent and simple first positive eigenvalue, without boundary smoothness. Boundary maximum/minimum equalities follow when the eigenfunction extends continuously to the closure. Spectral convergence is proved separately without the smooth-domain input.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4028",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A conditional nonsmooth hot-spots extension for simple first eigenvalues — primary statement",
+        "url": "https://arxiv.org/abs/2610.12622v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4028_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "A conditional nonsmooth hot-spots extension for simple first eigenvalues — scope and AI disclosure",
+        "url": "https://arxiv.org/html/2610.12622v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4028",
+          "Daily20261017_4028_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Assuming the explicitly stated smooth-domain no-critical-point theorem, Burdzy reports non-strict boundary-layer supremum/infimum equalities for first positive Neumann eigenfunctions on bounded simply connected planar domains with compact Neumann resolvent and simple first positive eigenvalue, without boundary smoothness. Boundary maximum/minimum equalities follow when the eigenfunction extends continuously to the closure. Spectral convergence is proved separately without the smooth-domain input.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Assuming the explicitly stated smooth-domain no-critical-point theorem, Burdzy reports non-strict boundary-layer supremum/infimum equalities for first positive Neumann eigenfunctions on bounded simply connected planar domains with compact Neumann resolvent and simple first positive eigenvalue, without boundary smoothness. Boundary maximum/minimum equalities follow when the eigenfunction extends continuously to the closure. Spectral convergence is proved separately without the smooth-domain input.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Assuming the explicitly stated smooth-domain no-critical-point theorem, Burdzy reports non-strict boundary-layer supremum/infimum equalities for first positive Neumann eigenfunctions on bounded simply connected planar domains with compact Neumann resolvent and simple first positive eigenvalue, without boundary smoothness. Boundary maximum/minimum equalities follow when the eigenfunction extends continuously to the closure. Spectral convergence is proved separately without the smooth-domain input.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Burdzy says ChatGPT generated the note from multiple human prompts. He had not checked every detail, regards it as an obvious human-accessible corollary, and reports an almost identical simultaneous ChatGPT proof by Rodrigo Bañuelos, requesting equal credit rather than sole priority.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4028",
+              "Daily20261017_4028_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4028",
+              "Daily20261017_4028_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4028",
+              "Daily20261017_4028_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Burdzy says ChatGPT generated the note from multiple human prompts. He had not checked every detail, regards it as an obvious human-accessible corollary, and reports an almost identical simultaneous ChatGPT proof by Rodrigo Bañuelos, requesting equal credit rather than sole priority.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Keep the smooth-domain assertion as an explicit unverified external premise, not verification or unconditional extension of OpenAI3955. Audit conformal exhaustion, weighted square-integrability and spectral convergence. Retain compact resolvent, simplicity and non-strict conclusion; no assertion of a nonvanishing gradient or continuous boundary values for all rough domains. Resolve simultaneous credit and novelty without counting the unavailable Bañuelos note separately. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Assuming the explicitly stated smooth-domain no-critical-point theorem, Burdzy reports non-strict boundary-layer supremum/infimum equalities for first positive Neumann eigenfunctions on bounded simply connected planar domains with compact Neumann resolvent and simple first positive eigenvalue, without boundary smoothness. Boundary maximum/minimum equalities follow when the eigenfunction extends continuously to the closure. Spectral convergence is proved separately without the smooth-domain input.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4028",
+          "Daily20261017_4028_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Keep the smooth-domain assertion as an explicit unverified external premise, not verification or unconditional extension of OpenAI3955. Audit conformal exhaustion, weighted square-integrability and spectral convergence. Retain compact resolvent, simplicity and non-strict conclusion; no assertion of a nonvanishing gradient or continuous boundary values for all rough domains. Resolve simultaneous credit and novelty without counting the unavailable Bañuelos note separately. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4028",
+          "Daily20261017_4028_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4028",
+          "Daily20261017_4028_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4028",
+            "Daily20261017_4028_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: 2610.12622v1",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Keep the smooth-domain assertion as an explicit unverified external premise, not verification or unconditional extension of OpenAI3955. Audit conformal exhaustion, weighted square-integrability and spectral convergence. Retain compact resolvent, simplicity and non-strict conclusion; no assertion of a nonvanishing gradient or continuous boundary values for all rough domains. Resolve simultaneous credit and novelty without counting the unavailable Bañuelos note separately. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4029": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4029",
+    "sourceIncludedId": "4029",
+    "claim": "The primary source reports: Shterenberg reports a complex-Robin analogue of the Marletta–Shterenberg–Weikard half-line inverse-resonance method for complex L1 potentials supported in [0,1]. For a fixed known complex Robin parameter, the full zero set of the Robin characteristic function with multiplicities determines the potential; finite-data characteristic-function and potential estimates hold under the paper's stated bounds and integrability hypotheses. Constants can be uniform on bounded parameter sets; the boundary parameter is not jointly reconstructed.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4029",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Inverse resonance uniqueness and finite-data estimates with a complex Robin boundary condition — primary statement",
+        "url": "https://arxiv.org/abs/2610.14323v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4029_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Inverse resonance uniqueness and finite-data estimates with a complex Robin boundary condition — scope and AI disclosure",
+        "url": "https://arxiv.org/html/2610.14323v1",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4029",
+          "Daily20261017_4029_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Shterenberg reports a complex-Robin analogue of the Marletta–Shterenberg–Weikard half-line inverse-resonance method for complex L1 potentials supported in [0,1]. For a fixed known complex Robin parameter, the full zero set of the Robin characteristic function with multiplicities determines the potential; finite-data characteristic-function and potential estimates hold under the paper's stated bounds and integrability hypotheses. Constants can be uniform on bounded parameter sets; the boundary parameter is not jointly reconstructed.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Shterenberg reports a complex-Robin analogue of the Marletta–Shterenberg–Weikard half-line inverse-resonance method for complex L1 potentials supported in [0,1]. For a fixed known complex Robin parameter, the full zero set of the Robin characteristic function with multiplicities determines the potential; finite-data characteristic-function and potential estimates hold under the paper's stated bounds and integrability hypotheses. Constants can be uniform on bounded parameter sets; the boundary parameter is not jointly reconstructed.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Shterenberg reports a complex-Robin analogue of the Marletta–Shterenberg–Weikard half-line inverse-resonance method for complex L1 potentials supported in [0,1]. For a fixed known complex Robin parameter, the full zero set of the Robin characteristic function with multiplicities determines the potential; finite-data characteristic-function and potential estimates hold under the paper's stated bounds and integrability hypotheses. Constants can be uniform on bounded parameter sets; the boundary parameter is not jointly reconstructed.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The primary paper says the text was produced with help from ChatGPT for Academy. It does not identify mathematical discovery, retained theorem-level steps, exact model or a division between prose and substantive assistance.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4029",
+              "Daily20261017_4029_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4029",
+              "Daily20261017_4029_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4029",
+              "Daily20261017_4029_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The primary paper says the text was produced with help from ChatGPT for Academy. It does not identify mathematical discovery, retained theorem-level steps, exact model or a division between prose and substantive assistance.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Establish whether the explicit AI acknowledgement covers mathematical work rather than only writing; compare novelty with earlier Robin inverse-resonance literature. Audit high-energy normalization, Hadamard factors, boundary trace recovery, zero multiplicities and additional hypotheses of the quantitative estimates. Do not replace a fixed known a by joint recovery of a and q, or identify zeros in z with unsigned energy eigenvalues. Independent proof review is not established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Shterenberg reports a complex-Robin analogue of the Marletta–Shterenberg–Weikard half-line inverse-resonance method for complex L1 potentials supported in [0,1]. For a fixed known complex Robin parameter, the full zero set of the Robin characteristic function with multiplicities determines the potential; finite-data characteristic-function and potential estimates hold under the paper's stated bounds and integrability hypotheses. Constants can be uniform on bounded parameter sets; the boundary parameter is not jointly reconstructed.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4029",
+          "Daily20261017_4029_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Establish whether the explicit AI acknowledgement covers mathematical work rather than only writing; compare novelty with earlier Robin inverse-resonance literature. Audit high-energy normalization, Hadamard factors, boundary trace recovery, zero multiplicities and additional hypotheses of the quantitative estimates. Do not replace a fixed known a by joint recovery of a and q, or identify zeros in z with unsigned energy eigenvalues. Independent proof review is not established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4029",
+          "Daily20261017_4029_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4029",
+          "Daily20261017_4029_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4029",
+            "Daily20261017_4029_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: 2610.14323v1",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Establish whether the explicit AI acknowledgement covers mathematical work rather than only writing; compare novelty with earlier Robin inverse-resonance literature. Audit high-energy normalization, Hadamard factors, boundary trace recovery, zero multiplicities and additional hypotheses of the quantitative estimates. Do not replace a fixed known a by joint recovery of a and q, or identify zeros in z with unsigned energy eigenvalues. Independent proof review is not established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4030": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4030",
+    "sourceIncludedId": "4030",
+    "claim": "The primary source reports: Jones reports that for the displayed planar cubic field f_b=(-R+b(x²-y²))(x,y)+R(-y,x), R=x²+y², positive real homogeneous quartic Lyapunov certificates exist strictly exactly when |b|<B and weakly exactly when |b|<=B, B approximately2.128153533. At b=B the full cone of quartics with nonpositive derivative is one nonnegative ray. Integer certificates separate degrees2/4 at b=2 and4/6 at b=9/4. The all-degree variable-damping criterion is a written supplement, not part of the compared Lean endpoint.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4030",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Sharp quartic Lyapunov boundaries and sextic degree separation for a planar cubic family — primary statement",
+        "url": "https://github.com/JD-Jones-ASES/quartic-lyapunov/blob/6b9b50561cf076e003ecfe1b442594c31a613f9e/README.md",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4030_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Sharp quartic Lyapunov boundaries and sextic degree separation for a planar cubic family — scope and AI disclosure",
+        "url": "https://github.com/JD-Jones-ASES/quartic-lyapunov/blob/6b9b50561cf076e003ecfe1b442594c31a613f9e/formalization.yaml",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4030_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000007-v1.json",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4030",
+          "Daily20261017_4030_support",
+          "Daily20261017_4030_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Jones reports that for the displayed planar cubic field f_b=(-R+b(x²-y²))(x,y)+R(-y,x), R=x²+y², positive real homogeneous quartic Lyapunov certificates exist strictly exactly when |b|<B and weakly exactly when |b|<=B, B approximately2.128153533. At b=B the full cone of quartics with nonpositive derivative is one nonnegative ray. Integer certificates separate degrees2/4 at b=2 and4/6 at b=9/4. The all-degree variable-damping criterion is a written supplement, not part of the compared Lean endpoint.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Jones reports that for the displayed planar cubic field f_b=(-R+b(x²-y²))(x,y)+R(-y,x), R=x²+y², positive real homogeneous quartic Lyapunov certificates exist strictly exactly when |b|<B and weakly exactly when |b|<=B, B approximately2.128153533. At b=B the full cone of quartics with nonpositive derivative is one nonnegative ray. Integer certificates separate degrees2/4 at b=2 and4/6 at b=9/4. The all-degree variable-damping criterion is a written supplement, not part of the compared Lean endpoint.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Jones reports that for the displayed planar cubic field f_b=(-R+b(x²-y²))(x,y)+R(-y,x), R=x²+y², positive real homogeneous quartic Lyapunov certificates exist strictly exactly when |b|<B and weakly exactly when |b|<=B, B approximately2.128153533. At b=B the full cone of quartics with nonpositive derivative is one nonnegative ray. Integer certificates separate degrees2/4 at b=2 and4/6 at b=9/4. The all-degree variable-damping criterion is a written supplement, not part of the compared Lean endpoint.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Owner disclosure credits human-directed GPT6/GPT6 Astra via Codex/ChatGPT with mathematical arguments, exact certificate discovery, formal proofs and checking, with the underlying field and obstruction methods attributed to Liu–Fitzsimmons.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4030",
+              "Daily20261017_4030_support",
+              "Daily20261017_4030_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4030",
+              "Daily20261017_4030_support",
+              "Daily20261017_4030_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4030",
+              "Daily20261017_4030_support",
+              "Daily20261017_4030_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Owner disclosure credits human-directed GPT6/GPT6 Astra via Codex/ChatGPT with mathematical arguments, exact certificate discovery, formal proofs and checking, with the underlying field and obstruction methods attributed to Liu–Fitzsimmons.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Check the unrestricted real-coefficient quartic quantifiers, boundary polynomial/root isolation, derivative semantics and endpoint cone. Audit degree-separation identities independently; do not promote the written all-degree and damping supplements into verified formal coverage. Establish novelty against Liu–Fitzsimmons and other polynomial Lyapunov degree obstructions. No exact sextic feasibility boundary or independently reviewed ODE stability theorem is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Jones reports that for the displayed planar cubic field f_b=(-R+b(x²-y²))(x,y)+R(-y,x), R=x²+y², positive real homogeneous quartic Lyapunov certificates exist strictly exactly when |b|<B and weakly exactly when |b|<=B, B approximately2.128153533. At b=B the full cone of quartics with nonpositive derivative is one nonnegative ray. Integer certificates separate degrees2/4 at b=2 and4/6 at b=9/4. The all-degree variable-damping criterion is a written supplement, not part of the compared Lean endpoint.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4030",
+          "Daily20261017_4030_support",
+          "Daily20261017_4030_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Check the unrestricted real-coefficient quartic quantifiers, boundary polynomial/root isolation, derivative semantics and endpoint cone. Audit degree-separation identities independently; do not promote the written all-degree and damping supplements into verified formal coverage. Establish novelty against Liu–Fitzsimmons and other polynomial Lyapunov degree obstructions. No exact sextic feasibility boundary or independently reviewed ODE stability theorem is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4030",
+          "Daily20261017_4030_support",
+          "Daily20261017_4030_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4030",
+          "Daily20261017_4030_support",
+          "Daily20261017_4030_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4030",
+            "Daily20261017_4030_support",
+            "Daily20261017_4030_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-17-000007",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Check the unrestricted real-coefficient quartic quantifiers, boundary polynomial/root isolation, derivative semantics and endpoint cone. Audit degree-separation identities independently; do not promote the written all-degree and damping supplements into verified formal coverage. Establish novelty against Liu–Fitzsimmons and other polynomial Lyapunov degree obstructions. No exact sextic feasibility boundary or independently reviewed ODE stability theorem is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4031": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4031",
+    "sourceIncludedId": "4031",
+    "claim": "The primary source reports: Jones reports five real symmetric PSD3x3 integer matrices and five complex Hermitian PSD2x2 Gaussian-integer matrices, each tuple summing to100I, whose norm-of-averaged-product ratio at n=k=5 is10329/10000>1. These lower the real dimension of De Sa's explicit dimension-five benchmark; complex dimension two is minimal by scalar AM–GM. The unrestricted real symmetric2x2 case remains unresolved. The already-known universal disproof is not a new settlement here.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4031",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Exact real dimension-three and complex dimension-two Recht–Ré counterexamples — primary statement",
+        "url": "https://github.com/JD-Jones-ASES/rr-exact/blob/141bddb9f263aa99c0c6a8be4af469389d2afca2/README.md",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4031_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Exact real dimension-three and complex dimension-two Recht–Ré counterexamples — scope and AI disclosure",
+        "url": "https://github.com/JD-Jones-ASES/rr-exact/blob/141bddb9f263aa99c0c6a8be4af469389d2afca2/formalization.yaml",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4031_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000006-v1.json",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4031",
+          "Daily20261017_4031_support",
+          "Daily20261017_4031_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Jones reports five real symmetric PSD3x3 integer matrices and five complex Hermitian PSD2x2 Gaussian-integer matrices, each tuple summing to100I, whose norm-of-averaged-product ratio at n=k=5 is10329/10000>1. These lower the real dimension of De Sa's explicit dimension-five benchmark; complex dimension two is minimal by scalar AM–GM. The unrestricted real symmetric2x2 case remains unresolved. The already-known universal disproof is not a new settlement here.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Jones reports five real symmetric PSD3x3 integer matrices and five complex Hermitian PSD2x2 Gaussian-integer matrices, each tuple summing to100I, whose norm-of-averaged-product ratio at n=k=5 is10329/10000>1. These lower the real dimension of De Sa's explicit dimension-five benchmark; complex dimension two is minimal by scalar AM–GM. The unrestricted real symmetric2x2 case remains unresolved. The already-known universal disproof is not a new settlement here.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Jones reports five real symmetric PSD3x3 integer matrices and five complex Hermitian PSD2x2 Gaussian-integer matrices, each tuple summing to100I, whose norm-of-averaged-product ratio at n=k=5 is10329/10000>1. These lower the real dimension of De Sa's explicit dimension-five benchmark; complex dimension two is minimal by scalar AM–GM. The unrestricted real symmetric2x2 case remains unresolved. The already-known universal disproof is not a new settlement here.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Primary disclosure credits OpenAI GPT, Claude and Grok with research, computation, writing and formalization; OpenAI GPT prepared the final manuscript and formalization. De Sa's dimension-five matrices and19/16 ratio are explicitly reused background, not attributed to this AI discovery.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4031",
+              "Daily20261017_4031_support",
+              "Daily20261017_4031_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4031",
+              "Daily20261017_4031_support",
+              "Daily20261017_4031_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4031",
+              "Daily20261017_4031_support",
+              "Daily20261017_4031_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Primary disclosure credits OpenAI GPT, Claude and Grok with research, computation, writing and formalization; OpenAI GPT prepared the final manuscript and formalization. De Sa's dimension-five matrices and19/16 ratio are explicitly reused background, not attributed to this AI discovery.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Independently check PSD Gram factors, all120 ordered products, Euclidean operator norm and exact ratio. Complete a low-dimensional prior-art check; the owner's search is explicitly non-exhaustive. Separate two formal existential witnesses from written parameter-family/optimization and positive-definite extensions. Do not assert real2x2 impossibility, a palindromic variant, global optimality or a new disproof of the2012 universal conjecture. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Jones reports five real symmetric PSD3x3 integer matrices and five complex Hermitian PSD2x2 Gaussian-integer matrices, each tuple summing to100I, whose norm-of-averaged-product ratio at n=k=5 is10329/10000>1. These lower the real dimension of De Sa's explicit dimension-five benchmark; complex dimension two is minimal by scalar AM–GM. The unrestricted real symmetric2x2 case remains unresolved. The already-known universal disproof is not a new settlement here.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4031",
+          "Daily20261017_4031_support",
+          "Daily20261017_4031_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Independently check PSD Gram factors, all120 ordered products, Euclidean operator norm and exact ratio. Complete a low-dimensional prior-art check; the owner's search is explicitly non-exhaustive. Separate two formal existential witnesses from written parameter-family/optimization and positive-definite extensions. Do not assert real2x2 impossibility, a palindromic variant, global optimality or a new disproof of the2012 universal conjecture. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4031",
+          "Daily20261017_4031_support",
+          "Daily20261017_4031_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4031",
+          "Daily20261017_4031_support",
+          "Daily20261017_4031_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4031",
+            "Daily20261017_4031_support",
+            "Daily20261017_4031_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-17-000006",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Independently check PSD Gram factors, all120 ordered products, Euclidean operator norm and exact ratio. Complete a low-dimensional prior-art check; the owner's search is explicitly non-exhaustive. Separate two formal existential witnesses from written parameter-family/optimization and positive-definite extensions. Do not assert real2x2 impossibility, a palindromic variant, global optimality or a new disproof of the2012 universal conjecture. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4032": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4032",
+    "sourceIncludedId": "4032",
+    "claim": "The primary source reports: Shaik reports that for every fixed finite F with chromatic number r+1>=3 and every epsilon>0, all sufficiently large-edge finite simple F-free graphs satisfy F2(A)<=2(1-1/r)m-(2(1-1/r)-1)Delta+epsilon m. F2 sums the squares of the two largest positive adjacency eigenvalues, padding zeros. A companion proves eventual equality with the two largest ordered eigenvalue squares. Disconnected graphs are allowed; no explicit effective threshold is supplied.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4032",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A strengthened asymptotic two-eigenvalue bound for forbidden subgraphs — primary statement",
+        "url": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/README.md",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4032_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "A strengthened asymptotic two-eigenvalue bound for forbidden subgraphs — scope and AI disclosure",
+        "url": "https://github.com/shaikidris/kkp-asymptotic-spectral-bound/blob/8aa258c7a0b06ae96cfa56018bddd60ee643efd5/formalization.yaml",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4032_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000005-v1.json",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4032",
+          "Daily20261017_4032_support",
+          "Daily20261017_4032_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Shaik reports that for every fixed finite F with chromatic number r+1>=3 and every epsilon>0, all sufficiently large-edge finite simple F-free graphs satisfy F2(A)<=2(1-1/r)m-(2(1-1/r)-1)Delta+epsilon m. F2 sums the squares of the two largest positive adjacency eigenvalues, padding zeros. A companion proves eventual equality with the two largest ordered eigenvalue squares. Disconnected graphs are allowed; no explicit effective threshold is supplied.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Shaik reports that for every fixed finite F with chromatic number r+1>=3 and every epsilon>0, all sufficiently large-edge finite simple F-free graphs satisfy F2(A)<=2(1-1/r)m-(2(1-1/r)-1)Delta+epsilon m. F2 sums the squares of the two largest positive adjacency eigenvalues, padding zeros. A companion proves eventual equality with the two largest ordered eigenvalue squares. Disconnected graphs are allowed; no explicit effective threshold is supplied.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Shaik reports that for every fixed finite F with chromatic number r+1>=3 and every epsilon>0, all sufficiently large-edge finite simple F-free graphs satisfy F2(A)<=2(1-1/r)m-(2(1-1/r)-1)Delta+epsilon m. F2 sums the squares of the two largest positive adjacency eigenvalues, padding zeros. A companion proves eventual equality with the two largest ordered eigenvalue squares. Disconnected graphs are allowed; no explicit effective threshold is supplied.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Pinned owner metadata attributes AI-assisted formalization and package extraction to GPT6 Codex, reusing Shengtong Zhang's BN Gram and nonedge-interlacing developments and attributed Mathlib regularity infrastructure. The exact origin of the new informal argument is not independently established.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4032",
+              "Daily20261017_4032_support",
+              "Daily20261017_4032_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4032",
+              "Daily20261017_4032_support",
+              "Daily20261017_4032_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4032",
+              "Daily20261017_4032_support",
+              "Daily20261017_4032_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Pinned owner metadata attributes AI-assisted formalization and package extraction to GPT6 Codex, reusing Shengtong Zhang's BN Gram and nonedge-interlacing developments and attributed Mathlib regularity infrastructure. The exact origin of the new informal argument is not independently established.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "The informal source is a private manuscript and cannot be read independently. Audit weighted removal, hub separation, uniformity in graph size, maximum-degree penalty and eventual ordered-eigenvalue correspondence. Establish novelty/material AI argument allocation beyond inherited BN support; no blanket verification promotion of1308,4017 or4018. This asymptotic claim is distinct from the exact bounds refuted by4017 and the localized claim4018. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Shaik reports that for every fixed finite F with chromatic number r+1>=3 and every epsilon>0, all sufficiently large-edge finite simple F-free graphs satisfy F2(A)<=2(1-1/r)m-(2(1-1/r)-1)Delta+epsilon m. F2 sums the squares of the two largest positive adjacency eigenvalues, padding zeros. A companion proves eventual equality with the two largest ordered eigenvalue squares. Disconnected graphs are allowed; no explicit effective threshold is supplied.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4032",
+          "Daily20261017_4032_support",
+          "Daily20261017_4032_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: The informal source is a private manuscript and cannot be read independently. Audit weighted removal, hub separation, uniformity in graph size, maximum-degree penalty and eventual ordered-eigenvalue correspondence. Establish novelty/material AI argument allocation beyond inherited BN support; no blanket verification promotion of1308,4017 or4018. This asymptotic claim is distinct from the exact bounds refuted by4017 and the localized claim4018. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4032",
+          "Daily20261017_4032_support",
+          "Daily20261017_4032_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4032",
+          "Daily20261017_4032_support",
+          "Daily20261017_4032_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4032",
+            "Daily20261017_4032_support",
+            "Daily20261017_4032_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-17-000005",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "The informal source is a private manuscript and cannot be read independently. Audit weighted removal, hub separation, uniformity in graph size, maximum-degree penalty and eventual ordered-eigenvalue correspondence. Establish novelty/material AI argument allocation beyond inherited BN support; no blanket verification promotion of1308,4017 or4018. This asymptotic claim is distinct from the exact bounds refuted by4017 and the localized claim4018. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4033": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4033",
+    "sourceIncludedId": "4033",
+    "claim": "The primary source reports: Josefsson reports a solution of Tabachnikov's2007 Problem2: every admissible cyclic positive radius sequence with at least two distinct plateau maxima and minima, for every n>=4, is realized by a simple strictly convex coherent polygon. The paper gives the corresponding side-tangent characterization, local C1 choices near nonconstant data and an explicit hexagon obstruction to a global continuous realization choice. These are original results developed with the formalization, not only Dahlberg's established forward theorem.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4033",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "A converse to the discrete four-vertex theorem and realization continuity — primary statement",
+        "url": "https://github.com/kejace/cd4vt/blob/bfd433640794b11424be43ad4778566be9253ef4/README.md",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4033_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "A converse to the discrete four-vertex theorem and realization continuity — scope and AI disclosure",
+        "url": "https://github.com/kejace/cd4vt/blob/bfd433640794b11424be43ad4778566be9253ef4/formalization.yaml",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4033_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000001-v1.json",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4033",
+          "Daily20261017_4033_support",
+          "Daily20261017_4033_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Josefsson reports a solution of Tabachnikov's2007 Problem2: every admissible cyclic positive radius sequence with at least two distinct plateau maxima and minima, for every n>=4, is realized by a simple strictly convex coherent polygon. The paper gives the corresponding side-tangent characterization, local C1 choices near nonconstant data and an explicit hexagon obstruction to a global continuous realization choice. These are original results developed with the formalization, not only Dahlberg's established forward theorem.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Josefsson reports a solution of Tabachnikov's2007 Problem2: every admissible cyclic positive radius sequence with at least two distinct plateau maxima and minima, for every n>=4, is realized by a simple strictly convex coherent polygon. The paper gives the corresponding side-tangent characterization, local C1 choices near nonconstant data and an explicit hexagon obstruction to a global continuous realization choice. These are original results developed with the formalization, not only Dahlberg's established forward theorem.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Josefsson reports a solution of Tabachnikov's2007 Problem2: every admissible cyclic positive radius sequence with at least two distinct plateau maxima and minima, for every n>=4, is realized by a simple strictly convex coherent polygon. The paper gives the corresponding side-tangent characterization, local C1 choices near nonconstant data and an explicit hexagon obstruction to a global continuous realization choice. These are original results developed with the formalization, not only Dahlberg's established forward theorem.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Owner metadata says the mathematics and proofs were developed with Aristotle, Claude, Codex and DeepSeek assistance. It names Claude Opus4.8/Fable5/Opus5.5 through Claude Code/Archon and an Aristotle prover loop; the author takes responsibility and says paper and formalization were developed together.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4033",
+              "Daily20261017_4033_support",
+              "Daily20261017_4033_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4033",
+              "Daily20261017_4033_support",
+              "Daily20261017_4033_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4033",
+              "Daily20261017_4033_support",
+              "Daily20261017_4033_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Owner metadata says the mathematics and proofs were developed with Aristotle, Claude, Codex and DeepSeek assistance. It names Claude Opus4.8/Fable5/Opus5.5 through Claude Code/Archon and an Aristotle prover loop; the author takes responsibility and says paper and formalization were developed together.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Verify correspondence to Tabachnikov's exact Problem2 and the plateau convention, all-n realization and coherent-convex geometry. Check the signed-Menger-curvature regular-hexagon formulation underlying the global obstruction and the local C1 hypotheses; audit side-tangent endpoints separately. Establish earliest public paper visibility and later-prior-art history. Owner/compiler/comparator statements are not independent human proof review or replay here; forward classical theorems are not extra new records. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Josefsson reports a solution of Tabachnikov's2007 Problem2: every admissible cyclic positive radius sequence with at least two distinct plateau maxima and minima, for every n>=4, is realized by a simple strictly convex coherent polygon. The paper gives the corresponding side-tangent characterization, local C1 choices near nonconstant data and an explicit hexagon obstruction to a global continuous realization choice. These are original results developed with the formalization, not only Dahlberg's established forward theorem.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4033",
+          "Daily20261017_4033_support",
+          "Daily20261017_4033_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Verify correspondence to Tabachnikov's exact Problem2 and the plateau convention, all-n realization and coherent-convex geometry. Check the signed-Menger-curvature regular-hexagon formulation underlying the global obstruction and the local C1 hypotheses; audit side-tangent endpoints separately. Establish earliest public paper visibility and later-prior-art history. Owner/compiler/comparator statements are not independent human proof review or replay here; forward classical theorems are not extra new records. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4033",
+          "Daily20261017_4033_support",
+          "Daily20261017_4033_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4033",
+          "Daily20261017_4033_support",
+          "Daily20261017_4033_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4033",
+            "Daily20261017_4033_support",
+            "Daily20261017_4033_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-17-000001",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Verify correspondence to Tabachnikov's exact Problem2 and the plateau convention, all-n realization and coherent-convex geometry. Check the signed-Menger-curvature regular-hexagon formulation underlying the global obstruction and the local C1 hypotheses; audit side-tangent endpoints separately. Establish earliest public paper visibility and later-prior-art history. Owner/compiler/comparator statements are not independent human proof review or replay here; forward classical theorems are not extra new records. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4034": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4034",
+    "sourceIncludedId": "4034",
+    "claim": "The primary source reports: Akopyan's package reports that for every continuous map S^n to R^k with1<=k<=n, some fiber has Mathlib unnormalized chordal (n-k)-dimensional Hausdorff measure at least1/(12*4^n*3^k), via a modification of Klartag's localization. It also reports repairing a discontinuous center-selection step in Memarian's spherical proof by cap quasiconcavity and continuous selection. The other headline waist theorems are established mathematics; the sharp intermediate-dimensional Hausdorff constant remains open.",
+    "sources": [
+      {
+        "sourceId": "Daily20261017_4034",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "An explicit Hausdorff waist bound and repaired spherical localization argument — primary statement",
+        "url": "https://github.com/akopjan/Waist-inequalities-lean-formalizatoin/blob/e7823b4b1252ecf3cc9f9342529bad01cb3080fa/README.md",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4034_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "An explicit Hausdorff waist bound and repaired spherical localization argument — scope and AI disclosure",
+        "url": "https://github.com/akopjan/Waist-inequalities-lean-formalizatoin/blob/e7823b4b1252ecf3cc9f9342529bad01cb3080fa/formalization.yaml",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261017_4034_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000023-v1.json",
+        "accessed": "2026-10-17",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (none) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261017_4034",
+          "Daily20261017_4034_support",
+          "Daily20261017_4034_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: Akopyan's package reports that for every continuous map S^n to R^k with1<=k<=n, some fiber has Mathlib unnormalized chordal (n-k)-dimensional Hausdorff measure at least1/(12*4^n*3^k), via a modification of Klartag's localization. It also reports repairing a discontinuous center-selection step in Memarian's spherical proof by cap quasiconcavity and continuous selection. The other headline waist theorems are established mathematics; the sharp intermediate-dimensional Hausdorff constant remains open.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Akopyan's package reports that for every continuous map S^n to R^k with1<=k<=n, some fiber has Mathlib unnormalized chordal (n-k)-dimensional Hausdorff measure at least1/(12*4^n*3^k), via a modification of Klartag's localization. It also reports repairing a discontinuous center-selection step in Memarian's spherical proof by cap quasiconcavity and continuous selection. The other headline waist theorems are established mathematics; the sharp intermediate-dimensional Hausdorff constant remains open.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Akopyan's package reports that for every continuous map S^n to R^k with1<=k<=n, some fiber has Mathlib unnormalized chordal (n-k)-dimensional Hausdorff measure at least1/(12*4^n*3^k), via a modification of Klartag's localization. It also reports repairing a discontinuous center-selection step in Memarian's spherical proof by cap quasiconcavity and continuous selection. The other headline waist theorems are established mathematics; the sharp intermediate-dimensional Hausdorff constant remains open.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Primary metadata says Arseniy Akopyan prepared the formalization with Aristotle over several weeks. It does not establish whether Aristotle originated the explicit bound or gap repair, or only translated human mathematical modifications.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4034",
+              "Daily20261017_4034_support",
+              "Daily20261017_4034_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4034",
+              "Daily20261017_4034_support",
+              "Daily20261017_4034_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261017_4034",
+              "Daily20261017_4034_support",
+              "Daily20261017_4034_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Primary metadata says Arseniy Akopyan prepared the formalization with Aristotle over several weeks. It does not establish whether Aristotle originated the explicit bound or gap repair, or only translated human mathematical modifications.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: Akopyan's package reports that for every continuous map S^n to R^k with1<=k<=n, some fiber has Mathlib unnormalized chordal (n-k)-dimensional Hausdorff measure at least1/(12*4^n*3^k), via a modification of Klartag's localization. It also reports repairing a discontinuous center-selection step in Memarian's spherical proof by cap quasiconcavity and continuous selection. The other headline waist theorems are established mathematics; the sharp intermediate-dimensional Hausdorff constant remains open.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261017_4034",
+          "Daily20261017_4034_support",
+          "Daily20261017_4034_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261017_4034",
+          "Daily20261017_4034_support",
+          "Daily20261017_4034_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261017_4034",
+          "Daily20261017_4034_support",
+          "Daily20261017_4034_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261017_4034",
+            "Daily20261017_4034_support",
+            "Daily20261017_4034_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-17",
+      "confidence": "low",
+      "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-16-000023",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
     }
   }
 }

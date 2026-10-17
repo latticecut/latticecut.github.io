@@ -221303,5 +221303,257 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-17",
+    "snapshotHash": "0a0ad53582c2d17844bf0db7430d9ca663f68e042623a9d0a8532e45830d71e6",
+    "changes": [
+      {
+        "id": "4027",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. A new stronger level bound and independently generated proof after an earlier public general-containment claim, rather than a second first settlement of the long-standing general target. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A new stronger level bound and independently generated proof after an earlier public general-containment claim, rather than a second first settlement of the long-standing general target.",
+          "sourceHash": "d15b0b67ceb6ed91af8a9d885e88271e58583b4efeab1e0dc5bc058cb01840c7",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Audit uniform bit-access and counting-oracle levels, randomized sign reconstruction, singular critical fibers and the input encodings/promises for each application. Independently compare the C4 bound with OpenAI3730's constituent manuscript and prior real-algebraic complexity work. September29 is an author-reported completion date, not established public visibility; first arXiv submission is October7. Human researchers had not completed the full proof digestion. Do not infer PSPACE=CH, deterministic C3 membership or a universal claim about every application. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary paper says ChatGPT discovered the proofs during conversations ending September29 and wrote essentially all mathematical content; Meiburg reports no nontrivial mathematical development role and an ongoing human digestion/exposition effort. Exact model is not disclosed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-07",
+            "dateBasis": "First arXiv submission; manuscript completion dates do not establish prior public visibility.",
+            "originalPublicationDate": "2026-10-07",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4028",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. The author explicitly describes the conditional approximation argument as an obvious corollary that humans can readily prove; not another settlement of the original hot-spots frontier. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The author explicitly describes the conditional approximation argument as an obvious corollary that humans can readily prove; not another settlement of the original hot-spots frontier.",
+          "sourceHash": "121bce8a4e81f4e4d75e0d0202af5e08fc9c1d618bb534799a1c6263ac9abdac",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Keep the smooth-domain assertion as an explicit unverified external premise, not verification or unconditional extension of OpenAI3955. Audit conformal exhaustion, weighted square-integrability and spectral convergence. Retain compact resolvent, simplicity and non-strict conclusion; no assertion of a nonvanishing gradient or continuous boundary values for all rough domains. Resolve simultaneous credit and novelty without counting the unavailable Bañuelos note separately. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Burdzy says ChatGPT generated the note from multiple human prompts. He had not checked every detail, regards it as an obvious human-accessible corollary, and reports an almost identical simultaneous ChatGPT proof by Rodrigo Bañuelos, requesting equal credit rather than sole priority."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "First arXiv submission; manuscript completion dates do not establish prior public visibility.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4029",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. A specialist extension of an existing transformation-operator method, not a claimed resolution of a long-standing barrier. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "A specialist extension of an existing transformation-operator method, not a claimed resolution of a long-standing barrier.",
+          "sourceHash": "18362db62c69634a08aafa7bed2a0dfd9ecfefad73de543ab162b77909490e92",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Establish whether the explicit AI acknowledgement covers mathematical work rather than only writing; compare novelty with earlier Robin inverse-resonance literature. Audit high-energy normalization, Hadamard factors, boundary trace recovery, zero multiplicities and additional hypotheses of the quantitative estimates. Do not replace a fixed known a by joint recovery of a and q, or identify zeros in z with unsigned energy eigenvalues. Independent proof review is not established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary paper says the text was produced with help from ChatGPT for Academy. It does not identify mathematical discovery, retained theorem-level steps, exact model or a division between prose and substantive assistance."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "First arXiv submission; manuscript completion dates do not establish prior public visibility.",
+            "originalPublicationDate": "2026-10-09",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4030",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Exact finite-degree feasibility and obstruction classification for a fixed vector-field family, not general automated stability or all-degree solution. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Exact finite-degree feasibility and obstruction classification for a fixed vector-field family, not general automated stability or all-degree solution.",
+          "sourceHash": "85026783bc2564b9de98b32425f4da6698b01f7da862529986b7ac7e52a9e0f9",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Check the unrestricted real-coefficient quartic quantifiers, boundary polynomial/root isolation, derivative semantics and endpoint cone. Audit degree-separation identities independently; do not promote the written all-degree and damping supplements into verified formal coverage. Establish novelty against Liu–Fitzsimmons and other polynomial Lyapunov degree obstructions. No exact sextic feasibility boundary or independently reviewed ODE stability theorem is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Owner disclosure credits human-directed GPT6/GPT6 Astra via Codex/ChatGPT with mathematical arguments, exact certificate discovery, formal proofs and checking, with the underlying field and obstruction methods attributed to Liu–Fitzsimmons."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest supported dated primary registration; earlier repository/paper visibility remains an explicit unresolved date question.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4031",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. A concrete low-dimensional construction improving a known explicit benchmark, not the first universal counterexample. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A concrete low-dimensional construction improving a known explicit benchmark, not the first universal counterexample.",
+          "sourceHash": "e8df0ec95ff3439febd4b5241d0169fc6044ab0b56819779c5119d6a66054e6e",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Independently check PSD Gram factors, all120 ordered products, Euclidean operator norm and exact ratio. Complete a low-dimensional prior-art check; the owner's search is explicitly non-exhaustive. Separate two formal existential witnesses from written parameter-family/optimization and positive-definite extensions. Do not assert real2x2 impossibility, a palindromic variant, global optimality or a new disproof of the2012 universal conjecture. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Primary disclosure credits OpenAI GPT, Claude and Grok with research, computation, writing and formalization; OpenAI GPT prepared the final manuscript and formalization. De Sa's dimension-five matrices and19/16 ratio are explicitly reused background, not attributed to this AI discovery."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest supported dated primary registration; earlier repository/paper visibility remains an explicit unresolved date question.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4032",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Substantial asymptotic spectral extremal progress with a stated degree penalty; distinct from an exact counterexample or a second proof of the inherited BN theorem. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial asymptotic spectral extremal progress with a stated degree penalty; distinct from an exact counterexample or a second proof of the inherited BN theorem.",
+          "sourceHash": "1163a550fb083fa564e35c11e0ece7e95fdb8ec3fa9c5e3784fd4e66dda49eb8",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "The informal source is a private manuscript and cannot be read independently. Audit weighted removal, hub separation, uniformity in graph size, maximum-degree penalty and eventual ordered-eigenvalue correspondence. Establish novelty/material AI argument allocation beyond inherited BN support; no blanket verification promotion of1308,4017 or4018. This asymptotic claim is distinct from the exact bounds refuted by4017 and the localized claim4018. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Pinned owner metadata attributes AI-assisted formalization and package extraction to GPT6 Codex, reusing Shengtong Zhang's BN Gram and nonedge-interlacing developments and attributed Mathlib regularity infrastructure. The exact origin of the new informal argument is not independently established."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest supported dated primary registration; earlier repository/paper visibility remains an explicit unresolved date question.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4033",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Owner metadata says the mathematics and proofs were developed with Aristotle, Claude, Codex and DeepSeek assistance. It names Claude Opus4.8/Fable5/Opus5.5 through Claude Code/Archon and an Aristotle prover loop; the author takes responsibility and says paper and formalization were developed together.",
+            "evidenceSummary": "Owner metadata says the mathematics and proofs were developed with Aristotle, Claude, Codex and DeepSeek assistance. It names Claude Opus4.8/Fable5/Opus5.5 through Claude Code/Archon and an Aristotle prover loop; the author takes responsibility and says paper and formalization were developed together.",
+            "evidenceSourceIds": [
+              "Daily20261017_4033",
+              "Daily20261017_4033_support",
+              "Daily20261017_4033_registration"
+            ],
+            "sourceHash": "ed2e94cf724ff62b0ed011fe5414ab6c33088d0d41d8ece0debebb7f5d25d12e",
+            "assessedAt": "2026-10-17"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Reported complete solution for every n>=4 of the exact discrete realization problem posed by Tabachnikov in2007, rather than the already-known forward four-vertex theorem. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Reported complete solution for every n>=4 of the exact discrete realization problem posed by Tabachnikov in2007, rather than the already-known forward four-vertex theorem.",
+          "sourceHash": "ed2e94cf724ff62b0ed011fe5414ab6c33088d0d41d8ece0debebb7f5d25d12e",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Verify correspondence to Tabachnikov's exact Problem2 and the plateau convention, all-n realization and coherent-convex geometry. Check the signed-Menger-curvature regular-hexagon formulation underlying the global obstruction and the local C1 hypotheses; audit side-tangent endpoints separately. Establish earliest public paper visibility and later-prior-art history. Owner/compiler/comparator statements are not independent human proof review or replay here; forward classical theorems are not extra new records. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Owner metadata says the mathematics and proofs were developed with Aristotle, Claude, Codex and DeepSeek assistance. It names Claude Opus4.8/Fable5/Opus5.5 through Claude Code/Archon and an Aristotle prover loop; the author takes responsibility and says paper and formalization were developed together."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest supported dated primary registration; earlier repository/paper visibility remains an explicit unresolved date question.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4034",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. A bounded quantitative fiber estimate and source-reported repair within classical waist theory, not a claimed sharp solution of Gromov's conjecture. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded quantitative fiber estimate and source-reported repair within classical waist theory, not a claimed sharp solution of Gromov's conjecture.",
+          "sourceHash": "8bf42b70d9bbeac855f4fb1cabbea4dc89a85a18e5ace30177aa65f75286f777",
+          "assessedAt": "2026-10-17",
+          "inclusionConcern": "Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Primary metadata says Arseniy Akopyan prepared the formalization with Aristotle over several weeks. It does not establish whether Aristotle originated the explicit bound or gap repair, or only translated human mathematical modifications."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-17",
+            "reportedDate": "2026-10-16",
+            "dateBasis": "Earliest supported dated primary registration; earlier repository/paper visibility remains an explicit unresolved date question.",
+            "originalPublicationDate": "2026-10-16",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

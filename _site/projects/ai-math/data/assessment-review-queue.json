@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-16",
+  "assessedAt": "2026-10-17",
   "samplingWeek": 2963,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -31798,6 +31798,88 @@
       "priority": 1,
       "reasons": [
         "Independently compare the published standard values and recipes without treating matching code as historical documentation. Check the binary half-timestamp interpretation, candidate indexing and omitted cases. This is not an ECDSA break, a security recommendation or a claim that every standardized curve’s origins are known. No downloaded reproduction code was executed. No downloaded proof artifact was executed. Preserve provisional=1, low strict confidence, unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4027",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit uniform bit-access and counting-oracle levels, randomized sign reconstruction, singular critical fibers and the input encodings/promises for each application. Independently compare the C4 bound with OpenAI3730's constituent manuscript and prior real-algebraic complexity work. September29 is an author-reported completion date, not established public visibility; first arXiv submission is October7. Human researchers had not completed the full proof digestion. Do not infer PSPACE=CH, deterministic C3 membership or a universal claim about every application. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4028",
+      "category": "Expected",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Keep the smooth-domain assertion as an explicit unverified external premise, not verification or unconditional extension of OpenAI3955. Audit conformal exhaustion, weighted square-integrability and spectral convergence. Retain compact resolvent, simplicity and non-strict conclusion; no assertion of a nonvanishing gradient or continuous boundary values for all rough domains. Resolve simultaneous credit and novelty without counting the unavailable Bañuelos note separately. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4029",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Establish whether the explicit AI acknowledgement covers mathematical work rather than only writing; compare novelty with earlier Robin inverse-resonance literature. Audit high-energy normalization, Hadamard factors, boundary trace recovery, zero multiplicities and additional hypotheses of the quantitative estimates. Do not replace a fixed known a by joint recovery of a and q, or identify zeros in z with unsigned energy eigenvalues. Independent proof review is not established. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4030",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the unrestricted real-coefficient quartic quantifiers, boundary polynomial/root isolation, derivative semantics and endpoint cone. Audit degree-separation identities independently; do not promote the written all-degree and damping supplements into verified formal coverage. Establish novelty against Liu–Fitzsimmons and other polynomial Lyapunov degree obstructions. No exact sextic feasibility boundary or independently reviewed ODE stability theorem is claimed. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4031",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently check PSD Gram factors, all120 ordered products, Euclidean operator norm and exact ratio. Complete a low-dimensional prior-art check; the owner's search is explicitly non-exhaustive. Separate two formal existential witnesses from written parameter-family/optimization and positive-definite extensions. Do not assert real2x2 impossibility, a palindromic variant, global optimality or a new disproof of the2012 universal conjecture. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4032",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "The informal source is a private manuscript and cannot be read independently. Audit weighted removal, hub separation, uniformity in graph size, maximum-degree penalty and eventual ordered-eigenvalue correspondence. Establish novelty/material AI argument allocation beyond inherited BN support; no blanket verification promotion of1308,4017 or4018. This asymptotic claim is distinct from the exact bounds refuted by4017 and the localized claim4018. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4033",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Verify correspondence to Tabachnikov's exact Problem2 and the plateau convention, all-n realization and coherent-convex geometry. Check the signed-Menger-curvature regular-hexagon formulation underlying the global obstruction and the local C1 hypotheses; audit side-tangent endpoints separately. Establish earliest public paper visibility and later-prior-art history. Owner/compiler/comparator statements are not independent human proof review or replay here; forward classical theorems are not extra new records. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4034",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
