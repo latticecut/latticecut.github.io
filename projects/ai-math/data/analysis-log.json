@@ -51583,5 +51583,2207 @@
     ],
     "sourceRechecks": "Kato/Landis, Sendov14/release, ProofAtlas formalizations, OpenAI history/commits byte unchanged. Existing925 and4008 current sources reread; no stale bounded assertion or independent-proof upgrade identified. Recent arXiv revisions and ordinary samples read; assessment queue inspected, not a whole-corpus audit.",
     "artifactsExecuted": false
+  },
+  {
+    "id": "2026-10-20-record-local-refresh",
+    "recordedAt": "2026-10-20",
+    "refreshedThrough": "2026-10-20",
+    "runDateEuropeLondon": "2026-10-20",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4076,
+    "claimCount": 4078,
+    "evidenceCutoff": "2026-10-20T15:40:42.576Z",
+    "model": null,
+    "modelStatus": "Runtime model identifier not surfaced",
+    "summary": "31 independently identifiable provisional result packages, including source-dated backfills and grouped overlapping registry interfaces. No strict Superhuman promotions.",
+    "coverageNote": "Rolling October14–20 and targeted recovery since August20 continuous cutoff / October17 latest evidence event. All16 mandatory/feed retrievals succeeded;3329 math and7241 CS recent metadata entries screened,83 registry changes inspected with pinned owner statements/disclosures and eight independently dated Guo follow-up packages. Not complete historical or recent full-text coverage; collectionEnded stays August20. Optional absent metadata/disclosures are local; supplied/private manuscripts and exact source-checker replay remain record-specific gaps. First-public chronology conflicts are explicitly retained. No downloaded artifact executed.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "4035",
+      "4036",
+      "4037",
+      "4038",
+      "4039",
+      "4040",
+      "4041",
+      "4042",
+      "4043",
+      "4044",
+      "4045",
+      "4046",
+      "4047",
+      "4048",
+      "4049",
+      "4050",
+      "4051",
+      "4052",
+      "4053",
+      "4054",
+      "4055",
+      "4056",
+      "4057",
+      "4058",
+      "4059",
+      "4060",
+      "4061",
+      "4062",
+      "4063",
+      "4064",
+      "4065"
+    ],
+    "existingRecordChanges": [],
+    "provisionalIds": [
+      "4035",
+      "4036",
+      "4037",
+      "4038",
+      "4039",
+      "4040",
+      "4041",
+      "4042",
+      "4043",
+      "4044",
+      "4045",
+      "4046",
+      "4047",
+      "4048",
+      "4049",
+      "4050",
+      "4051",
+      "4052",
+      "4053",
+      "4054",
+      "4055",
+      "4056",
+      "4057",
+      "4058",
+      "4059",
+      "4060",
+      "4061",
+      "4062",
+      "4063",
+      "4064",
+      "4065"
+    ],
+    "recordDecisions": [
+      {
+        "key": "PALOMAR-2026-10-17-000010",
+        "title": "Rényi and Tsallis entropy monotonicity for Bernoulli sums",
+        "boundedClaim": "Coordinatewise monotonicity in coin parameters on the full closed half cube for every finite dimension and every entropy order q in [0,2], reported as the full Hillion–Johnson Conjecture 4.4. Quantitative gain and equality extensions are not claimed formally checked.",
+        "aiContribution": "JD Jones attributes mathematical arguments, extensions and Lean development to GPT-6 Astra through Codex, with human integration.",
+        "furtherChecking": "Check the 2018 conjecture correspondence, the closed-cube first-contact argument for q<1 and the full rather than historical association-only Comparator contract. Agent reviews and owner builds are not independent human verification. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-17",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4035",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/JD-Jones-ASES/renyi-monotonicity/blob/f990878ac03c85b08e80f8b169cbec5941d34e6a/README.md",
+        "support": "https://github.com/JD-Jones-ASES/renyi-monotonicity/blob/f990878ac03c85b08e80f8b169cbec5941d34e6a/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-17-000012",
+        "title": "The connected size-Ramsey number rhat_c(4K2,C4)=17",
+        "boundedClaim": "A connected 16-edge graph admits an avoiding coloring, while a specified 17-edge host does not. The proposed new content is the equality classification in the C4 transversal bound and resulting value17, not the classical upper construction.",
+        "aiContribution": "Ben Keene attributes the structural proof attempt and substantial Lean proof modules to GPT-6 Astra and Claude agents.",
+        "furtherChecking": "Check novelty against the 2025 conjecture and computational literature and exact equality cases. The universal arbitrary-bridge-endpoint reading is not formalized; only the fixed host is. The sixth statement postdates some agent reviews. No independent human expert audit is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-17",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4036",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/benkeene/size-ramsey/blob/3233dcdd4807cbc808f68582d913c4f463047de2/README.md",
+        "support": "https://github.com/benkeene/size-ramsey/blob/3233dcdd4807cbc808f68582d913c4f463047de2/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-17-000014",
+        "title": "First Betti numbers of a five-generated numerical-semigroup family",
+        "boundedClaim": "For k>=3,q>=k-1,m=2kq+1, the minimally five-generated family <m,m+1,m+k,m+2k-1,m+2k> has toric ideal minimal presentation of size4k+2. The finite-width universal bound W is conjectural and excluded.",
+        "aiContribution": "The owner reports GPT-6 Astra mathematical proof development and Claude-assisted Lean construction and review.",
+        "furtherChecking": "Audit the invariant/presentation equivalence and family minimality and check prior five-generator constructions. Do not count the admitted finite-width bound as proved, or automated lab acceptance as human peer review. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-17",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4037",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/benkeene/five-generator-betti/blob/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/README.md",
+        "support": "https://github.com/benkeene/five-generator-betti/blob/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-17-000016",
+        "title": "Multi-generator kernel windows and density asymptotics for Huang’s quadratic form",
+        "boundedClaim": "The package reports a breakpoint decomposition of the n-generator kernel, active-window bound w<=2^n-2 for distinct positive generators, and density asymptotics under strictly increasing generators. Classical Huang positivity is supporting material, not counted as new.",
+        "aiContribution": "Artur Flamandzki reports human-directed Claude proof-script development and later mathematical window-bound extensions; AxiomProver supplied an attributed older ingredient.",
+        "furtherChecking": "Recover the earlier Zenodo manuscript publication date and distinguish original May development from October extensions. Audit multiset versus subset conventions and stronger monotonicity hypotheses; runtime complexities are not formal conclusions. Novelty and exact retained mathematical AI allocation remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Expected",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+        "sourceId": "4038",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/Flaman55/NumericalSemigroups/blob/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/README.md",
+        "support": "https://github.com/Flaman55/NumericalSemigroups/blob/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-17-000017",
+        "title": "Optimal local decompression: conditional uniform finite-view reduction",
+        "boundedClaim": "Given one total finite-view orientation rule with the stated one-bit advice guarantee, a single decoder family at k-bit vertex budget works across sufficiently large connected Fin n graphs of maximum degree2k-1, arbitrary labelings and malformed markers.",
+        "aiContribution": "Lennart Rudolph discloses extensive ChatGPT/Codex mathematical and formal proof assistance, including cross-topology locality, padding and reconstruction.",
+        "furtherChecking": "The external orientation algorithm, normalization to its record, computability and small/disconnected-component assembly are not formalized. Do not advertise an unconditional operational LOCAL solution. Recover the Oct13 manuscript’s actual public deposit date. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4039",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/README.md",
+        "support": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-18-000008",
+        "title": "Planar Pólya–Szegő buckling inequality",
+        "boundedClaim": "Tang and Zhang report the sharp area inequality for the first buckling eigenvalue on positive finite-area open planar sets, with a disk equality characterization and the stated Sobolev/Bessel definitions.",
+        "aiContribution": "The authors explicitly acknowledge ChatGPT assistance in the original informal proof; Aristotle and Codex constructed and completed its formalization.",
+        "furtherChecking": "The informal target manuscript is private and unavailable here. Independently audit standard variational definitions, capacity-zero modifications and the exact-disk equality claim, dependency closure and exact-commit workflow results. Earlier PaperExternals assumptions must not be mistaken for the reported unconditional completion. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4040",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/README.md",
+        "support": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-18-000024",
+        "title": "Lossy distance-shell tomography on paths from mean and covariance",
+        "boundedClaim": "For known survival probability0<p<1, actual independent relay-deletion path laws have mean/covariance identifying the unordered pair of natural-valued leg populations; sparse covariance recovery and a weaker all-length testing lower bound are reported.",
+        "aiContribution": "Rudolph credits Claude and ChatGPT/Codex with model and proof development, exact computations and formalization.",
+        "furtherChecking": "Check first deposit/version chronology against related1309/3557 but this is a distinct stochastic two-leg model. Audit bypass law, sparse recovery and probability endpoint semantics; full finite-sample guarantees are not formalized and the selected lower-bound coefficient is n/2 rather than manuscript n. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4041",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/README.md",
+        "support": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-18-000026",
+        "title": "Pointwise convergence for two commuting transformations",
+        "boundedClaim": "For two everywhere-commuting measure-preserving transformations T,S of a probability space, f in L^p and g in L^q with p,q in[1,infinity] and1/p+1/q<=1, the source reports a.e. convergence of N^-1 sum(n=0..N-1) f(T^n x)g(S^n x). No ergodicity, invertibility, limit formula or rate is claimed.",
+        "aiContribution": "The owner attributes adapting OpenAI triangular-Hilbert methods and the mathematical blueprint to GPT-6 Astra Pro, and substantive formalization to Claude Opus5.5.",
+        "furtherChecking": "Read the Oct8 blueprint’s exact exponent and averaging conventions and audit the adaptation, infinite-exponent endpoints and everywhere commutation. This is pointwise, not Tao’s known norm convergence; norm conclusions are outside the selected formal scope. Earlier blueprint public visibility is not established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4042",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/roos-j/lean-twocommuting/blob/5abb8fad6c99fe19850cbdabe3096ed7745dda11/README.md",
+        "support": "https://github.com/roos-j/lean-twocommuting/blob/5abb8fad6c99fe19850cbdabe3096ed7745dda11/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-18-000028",
+        "title": "Systolic growth in every genus",
+        "boundedClaim": "For Sys(g) the supremal systole of closed oriented hyperbolic surfaces, liminf Sys(g)/log(g)>=4/3, using arithmetic surfaces, comparable-prime-cube representations and gluing.",
+        "aiContribution": "Gargava reports human-directed Codex proof development, reference use and adapted Lean mathematics.",
+        "furtherChecking": "Check the passage from arithmetic subsequences to every sufficiently large genus, at least33 prime-cube summands, chain gluing and conformal curvature normalization preserving the lower bound. No supremum attainment is claimed; separate novelty and exact-commit statement replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-18",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4043",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/README.md",
+        "support": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-18-000030",
+        "title": "Persistent failure of Euclidean quartic SOS exactness",
+        "boundedClaim": "A fixed rational25-term cubic in14 variables yields, for every positive regularization and positive quadratic/cubic strengths, an explicit attained global minimum whose shift is nonnegative but not SOS; a companion retains persistent failure with a unique nondegenerate minimizer.",
+        "aiContribution": "Jones credits Codex with mathematical construction, exact rational certificates and proof development, and GPT-6 Pro with the companion construction.",
+        "furtherChecking": "Audit ordinary-polynomial semantics, exact moment positivity, radial minimization and the unique-minimizer Hessian. No optimal SOS value, minimal dimension, higher-hierarchy result or independent human specialist review is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4044",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/JD-Jones-ASES/persistent-sos/blob/54dc5a01cc16e850e3350ba0aa1bd8a8e5b67c5d/README.md",
+        "support": "https://github.com/JD-Jones-ASES/persistent-sos/blob/54dc5a01cc16e850e3350ba0aa1bd8a8e5b67c5d/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000001",
+        "title": "Polynomial-time Hamiltonian s–t paths in solid grid graphs",
+        "boundedClaim": "A computable decideHamPath is reported correct for distinct endpoints in every finite solid grid graph. A separately proved library cost model bounds steps by5220000(|V|+3)^6; that bound is not the registered correctness statement.",
+        "aiContribution": "Zzyzek reports Claude Opus5.5 wrote nearly all algorithm, mathematical proof, paper and Lean development; the human posed and steered the problem.",
+        "furtherChecking": "Audit the 1982 open problem match, solid/no-hole definitions, endpoint phantom edges and vortex/slit repair. The polynomial bound uses costs attached to the algorithm, not a separately machine-verified conventional bit-complexity theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "ai-led",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4045",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/zzyzek/SolidGridGraphHamPath/blob/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/README.md",
+        "support": "https://github.com/zzyzek/SolidGridGraphHamPath/blob/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000002",
+        "title": "Unified Kalman-type stochastic controllability classification",
+        "boundedClaim": "The manuscript reports finite algebraic tests for approximate, approximate-null, exact-null and exact controllability of constant-coefficient finite-dimensional Brownian systems; exact controllability additionally needs full row rank of stacked diffusion-control matrices.",
+        "aiContribution": "Yu Wang explicitly discloses Codex-assisted proof development and separate AI statement reviews.",
+        "furtherChecking": "The current metadata records10 proof holes and five proof/scope revisions. Audit the decreasing-subspace obstruction, stochastic duality and each control notion against revised main.tex; historical384-module checks do not verify the current port or whole manuscript. Exact role, novelty and independent verification remain open. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4046",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/README.md",
+        "support": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000003",
+        "title": "Survival and transience above the compartment-division threshold",
+        "boundedClaim": "For the noncoagulating content-dependent compartment model with b,e,f>0,d>=0,bf>e(e+d), every finite nonempty family has positive eternal-survival probability. With positive immigration and arbitrary finite immigrant contents, finite expected state occupation yields transience without an immigrant-moment assumption.",
+        "aiContribution": "Michael Mislan discloses Codex-assisted formalization, migration and manuscript preparation; originating the barrier/eigenweight argument is not specifically attributed.",
+        "furtherChecking": "Audit the actual process construction, nonexplosion and arbitrary daughter allocations, the v4 Remark4.8 correspondence, occupation-time bound and unbounded immigrant contents. Establish material AI mathematics versus translating a completed human proof. The target dates to2025, not a long-standing historical frontier. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": false,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4047",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/mmislan/palomar-compartment-division-threshold/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/README.md",
+        "support": "https://github.com/mmislan/palomar-compartment-division-threshold/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000005",
+        "title": "Exact db2 cascade norms and the optimal uniform constant",
+        "boundedClaim": "For the specified undecimated periodic db2 cascade, exact norms are c_j^d in the no-alias support regime, and (1651/1395)^d is the least all-period uniform bound; dimension0 is exactly1.",
+        "aiContribution": "The owner discloses Grok-generated closed-form proof scripts and GPT-6 Astra inspection, proof drafting and exact checks.",
+        "furtherChecking": "Check filter normalization, level indexing, aliasing and the all-period lower-limit argument. Earlier empty-diagram skeletons are not proofs. Bibliographic priority is unresolved; persistence stability and supplied Lipschitz/seminorm comparisons remain hypotheses. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Expected",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+        "sourceId": "4048",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/jelincovil/tws-palomar/blob/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/README.md",
+        "support": "https://github.com/jelincovil/tws-palomar/blob/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000007",
+        "title": "Erdős111: bipartizing finite subgraphs of uncountably chromatic graphs",
+        "boundedClaim": "The source reports that if every m-vertex finite subgraph can be made bipartite by deleting at most Cm edges for a fixed real C, the graph is countably colorable. This resolves the catalog’s second question, not every question in111.",
+        "aiContribution": "Parish/Plasma AI report alternating GPT-6 Astra and Claude Opus5.5 research producing the mathematical proof, including countable Hilbert partitions and rooted-pattern cost bounds.",
+        "furtherChecking": "Audit arbitrary-product laws, singular-cardinal chains and the limit order. Check exact finite-density/catalog equivalence and historical attribution. Owner-reported Lean/agent reviews are not an independent expert validation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "ai-led",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4049",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/plasma-ai/erdos-111/blob/de72caf0e388c729697b6813f4ea90bfe1617c7b/README.md",
+        "support": "https://github.com/plasma-ai/erdos-111/blob/de72caf0e388c729697b6813f4ea90bfe1617c7b/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000008",
+        "title": "Erdős173: monochromatic triangles in two-colorings of the plane",
+        "boundedClaim": "Every two-coloring reportedly contains a monochromatic congruent copy of every non-equilateral three-distinct-point template, including collinear triples; at most one equilateral side length is missed and strip examples make that sharp.",
+        "aiContribution": "Plasma AI credits GPT-6 Astra and Claude Opus5.5 with original mathematical research, extending OpenAI’s carrier/rigidity machinery to algebraic closures of Q(x).",
+        "furtherChecking": "Audit arbitrary-to-measurable transfer, all real ratios including transcendental ones, circle exclusion and reflected/relabelled copies. Separate new extensions from34 vendored OpenAI modules and check exact claimed coverage of the historical conjecture. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "ai-led",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4050",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/plasma-ai/erdos-173/blob/4a368a652753fab53272f7a747755876f04bc2cc/README.md",
+        "support": "https://github.com/plasma-ai/erdos-173/blob/4a368a652753fab53272f7a747755876f04bc2cc/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000009",
+        "title": "Erdős408: normal order of iterated totient height",
+        "boundedClaim": "The source reports f(n)/log n tends to a constant alpha in[1/log3,1/log2] on a density-one set, with a quantitative second-moment error; thus the first two questions have affirmative answers, not a full solution of the third open-ended question.",
+        "aiContribution": "The primary metadata specifically attributes blueprint, statement-interface, extended-graph proof development and integration to Claude Opus5.5/Claude Code, with parallel proof subagents. Vendored OpenAI and totient-fibers AI provenance is separately credited; no GPT research attribution is inferred for this package.",
+        "furtherChecking": "Audit quantitative weighted extensions of PD, the rectangle extraction, spare-slot removal and renewal estimates. Printed qualitative PD statements alone do not imply the needed rates. Verify the vendored zero-free and graph dependencies and exact correspondence; do not call question3 solved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "ai-led",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "sourceId": "4051",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/plasma-ai/erdos-408/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/README.md",
+        "support": "https://github.com/plasma-ai/erdos-408/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000017",
+        "title": "Sharp continued-fraction bounds from exact digit runs",
+        "boundedClaim": "The package reports sharp rational four-corner bounds for both extrema of three consecutive approximation coefficients for exact central-digit runs>=2, unique extremizers, strict actual inequalities and fixed-word sharpness, with stated inverse/window refinements.",
+        "aiContribution": "Jones credits Codex/GPT-6 mathematical arguments and formal proofs, GPT-6 Pro feedback/extensions and preliminary Gemini discussion.",
+        "furtherChecking": "Audit finite past versus infinite future endpoints, attainability versus limit sharpness, exact digit classes and stability equality loci. Classical metallic thresholds are not new; worldwide priority and independent statement/kernel replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4052",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/JD-Jones-ASES/continued-fraction-bounds/blob/a7657a01aec49be60f36a2cda8e6c6bfcd3840c3/README.md",
+        "support": "https://github.com/JD-Jones-ASES/continued-fraction-bounds/blob/a7657a01aec49be60f36a2cda8e6c6bfcd3840c3/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000011",
+        "title": "Falconer distance sets for stretched logarithmic gauges",
+        "boundedClaim": "The source reports that compact planar E with positive Hausdorff measure for r exp(-(log(1/r))^theta),2/3<theta<1, has a distance set of positive Lebesgue measure.",
+        "aiContribution": "Yongxi Lin records Codex-drafted proof statements and Lean proofs from a supplied manuscript; the originating informal mathematical AI role is not established.",
+        "furtherChecking": "Retrieve the original supplied manuscript and establish its dated public visibility and novelty. Audit actual filtered energies, all four induction recurrences, gauge normalization and Fourier reconstruction; Comparator/registry checks are pending and AI mathematical allocation remains unclear. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": false,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4053",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/CoolRmal/falconer-theta-gauge/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/README.md",
+        "support": "https://github.com/CoolRmal/falconer-theta-gauge/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000019",
+        "title": "Sharp and weighted Bergman weak-type constants and bounded-domain rigidity",
+        "boundedClaim": "The source reports unweighted complex and positive disk weak constants1, weighted positive constant Gamma(alpha+1)/Gamma(1+alpha/2)^2, bounds rather than a general exact complex weighted constant, and positive-constant-one rigidity among bounded simply connected domains.",
+        "aiContribution": "Lin explicitly records Codex-assisted statement audits, Lean proof development and mathematical source analysis. Earlier informal proofs are owner-supplied; AI origination is not established.",
+        "furtherChecking": "Recover earlier unpublished proof chronology and check novelty, radial-weight normalization, strict superlevel convention and exact reproducing-kernel semantics. Boundedness is essential: the unrestricted simply-connected statement is false for the half-plane. Final Comparator checks are pending. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": false,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4054",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/CoolRmal/bergman-weak-type/blob/600df3646a6070299e831b565a3be0585483ee2c/README.md",
+        "support": "https://github.com/CoolRmal/bergman-weak-type/blob/600df3646a6070299e831b565a3be0585483ee2c/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-19-000010",
+        "title": "Exact fault images and guarded detection in priority controllers",
+        "boundedClaim": "One paper/package reports exact qualifier-set fault images, drive-zero exclusion, guarded-DAG detecting-witness/constrained-extension algorithms, canonical eligible-set enumeration and selected forest/Dual-Horn construction refinements under explicit interfaces. Six registrations are counted as one package.",
+        "aiContribution": "Shaik discloses GPT-6/Codex and Claude Opus5.5 assistance constructing proofs and formal implementations under human direction.",
+        "furtherChecking": "Audit literal XOR-mask physical recurrence, supplied versus constructible decoder assumptions, encoded size/tick/storage contracts and valid eligibility constraints. Do not turn selected interfaces into arbitrary-CNF recognition, unrestricted complexity classification or whole-paper completion. Recover DOI first-public date and mathematical AI allocation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Expected",
+        "bestConfidence": "medium",
+        "material": false,
+        "role": "shared",
+        "publicationDate": "2026-10-19",
+        "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+        "sourceId": "4055",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/shaikidris/priority-controller-phase1/blob/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/README.md",
+        "support": "https://github.com/shaikidris/priority-controller-phase1/blob/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/formalization.yaml",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "PALOMAR-2026-10-20-000011",
+        "title": "Mixed-level modular normalizers and corrected finite presentations",
+        "boundedClaim": "Najman’s owner source reports a determinant-constrained mixed-level normalizer/order formula for coprime levels and explicit corrections to published B(N) presentations. Classical Newman, Cartan and Zemel restatements are supporting formalizations, not new discoveries.",
+        "aiContribution": "The pinned README explicitly says two AI reviewer agents reviewed statements, blind and adversarial. It does not identify material AI discovery or prove independent human validation.",
+        "furtherChecking": "Locate the primary mathematical notes, original public dates, AI allocation and novelty of the mixed-level determinant correction and presentation repairs. Audit hypotheses on H1,H2 and distinguish modular from all curve automorphisms. The source’s classical theorem formalizations alone do not qualify. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "low",
+        "material": false,
+        "role": "shared",
+        "publicationDate": "2026-10-20",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "sourceId": "4056",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/F-Najman/normalizer-lean/blob/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/README.md",
+        "support": "https://github.com/F-Najman/normalizer-lean/blob/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/README.md",
+        "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates."
+      },
+      {
+        "key": "2610.22374v1",
+        "title": "Quadratic mixing for the Lee–Sidford Dikin walk",
+        "boundedClaim": "Lu reports chi-square mixing in polylog(m,d)*d^2 Markov-chain iterations for the specified lazy Gaussian Lee–Sidford Dikin walk on bounded full-dimensional polytopes with exponential tilts and finite-chi-square initialization. This is not an oracle/arithmetic-complexity claim.",
+        "aiContribution": "The abstract explicitly states ChatGPT5.6 Pro found the proof; the author reports checking it and plans draft refinement.",
+        "furtherChecking": "Audit the all-order frame/Wick contractions, reverse-proposal O(1/d) control and comparison with earlier unresolved quadratic proofs and the d^(9/4) bound. The primary history and HTML explicitly date v1 Aug15 despite its2610 identifier and October listing: preserve that source-reported date as uncertain chronology, not inferred October first-public. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "ai-led",
+        "publicationDate": "2026-08-15",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "dateBasis": "Primary arXiv history and HTML report August15; inconsistent2610 identifier/October listing retained as explicit chronology flag.",
+        "sourceId": "4057",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://arxiv.org/abs/2610.22374v1",
+        "support": "https://arxiv.org/html/2610.22374v1"
+      },
+      {
+        "key": "aster:almost-prime-pairs-reduction",
+        "title": "Liouville almost-prime reductions and two obstruction model sequences",
+        "boundedClaim": "A weighted reduction to a still-unproved two-point inequality, plus two constructed sign sequences meeting enumerated cancellation estimates but violating stronger sieve/operator bounds. The fixed-K Liouville conclusion is conditional, not proved.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit exact sequence quantifiers, sieve remainder versus averaged residue bound and balanced operator obstruction. Do not claim the missing two-point inequality or fixed-K almost-prime theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-10",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/almost-prime-pairs-reduction/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4058",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:cm-elliptic-curves",
+        "title": "Angular-type CM Hecke zero-free half-planes",
+        "boundedClaim": "Extending the cited OpenAI argument, the source reports Re(s)>11/12 zero-freeness for unitary Hecke characters of Q(sqrt(-3)) with nonzero angular type, arithmetic-normalized Re(s)>17/12 for y^2=x^3+D, and sector/Sato–Tate/least-prime refinements.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit angular cusp derivatives and uniformity in conductor/type, normalization and poles. Compare Yates’s earlier conditional note; do not count the already-stated zero-free conclusion alone as novel. Distribution/least-prime refinements form the separately reported contribution. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-08",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/cm-elliptic-curves/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4059",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:hot-spots-convex-planar",
+        "title": "Convex planar hot spots including double eigenvalues",
+        "boundedClaim": "Conditional on the named OpenAI smooth-domain theorem, all first Neumann eigenfunctions on bounded convex planar domains attain extrema on the boundary, including double eigenspaces; separately reported multiplicity<=2 and nodal-arc structure.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit reachability of every member of a double eigenspace and spectral/smooth-domain approximation. Compare existing4028 Burdzy’s rough-domain conditional proof; this independently attributed convex/double-eigenspace proof package is not a new first settlement of the parent hot-spots target. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-10",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/hot-spots-convex-planar/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4060",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:liouville-goldbach",
+        "title": "Goldbach-type Liouville sign equidistribution",
+        "boundedClaim": "The paper reports N/4+O(N/(log N)^c) occurrences of each ordered Liouville sign pattern in a+b=N for all large integersN, with c=10^-200, using explicitly named OpenAI inputs. It describes this as the Corrádi–Kátai Liouville conjecture.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit the named operator/column and transfer estimates, all-N rather than averaged quantifiers and the conditional Lean endpoint. Independently compare Meng/Pouly and the Corrádi–Kátai history. Zero-free-derived PartII bounds must not be counted as unrelated new settlements. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Superhuman",
+        "bestConfidence": "high",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-08",
+        "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/liouville-goldbach/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4061",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:rough-goldbach-parity",
+        "title": "Rough Goldbach summands with prescribed Liouville signs",
+        "boundedClaim": "Using the named release inputs, for every sufficiently large evenN each sign pair occurs at least cN/(log N)^(1/4) with both summands in[N/3,2N/3], free of primes below exp((log N)^(1/10)), optionally squarefree with <=ceil(2loglogN) prime factors.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit graph-estimate adaptations for displacements depending onN and removed prime factors. The prime-factor bound grows withN; neither fixed almost-prime order nor prime summands are proved, and thresholds are ineffective. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-09",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/rough-goldbach-parity/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4062",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:rough-pairs-fixed-distance",
+        "title": "Rough numbers at fixed distance with prescribed Liouville signs",
+        "boundedClaim": "For fixed evenh and2<=z<=exp((logX)^(1/3750)), each Liouville sign pattern on z-rough n,n+h is reported to have asymptotic density one quarter of XV_h(z), with squarefree and weighted extensions.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit modified padding/vertex/sieve operators and every re-proved bound rather than treating changed operators as immediate corollaries. h is fixed and the almost-prime count grows withX; no fixed-K or prime-pair theorem follows. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-10",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/rough-pairs-fixed-distance/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4063",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:shifted-prime-parity",
+        "title": "Shifted primes with prescribed prime-factor parity",
+        "boundedClaim": "Using the named prime-slot and graph estimates, every nonzero shift|h|<=log(X)^5 and each sign reportedly has >=cX/(logX)^300 primesp with p+h>0 squarefree and prescribed Liouville sign.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit general-shift coprimality and local factors at primes dividing2h, both projections and uniformity. Earlier h=-1 even-parity theorem is a credited input; this is a stated extension, not a fresh first solution of that parent result. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-09",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/shifted-prime-parity/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4064",
+        "disposition": "include_flagged",
+        "provisional": 1
+      },
+      {
+        "key": "aster:zero-free-beyond-7-8",
+        "title": "An independently parameter-optimized zero-free half-plane beyond7/8",
+        "boundedClaim": "Taking the cited OpenAI statements as input, zeta, all Dirichlet and finite-order Hecke L-functions over Q(sqrt(-3)) are reported zero-free for Re(s)>sigma_dagger≈0.8749570194, root of7884s^3-18819s^2+14643s-3686. Principal poles are allowed.",
+        "aiContribution": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+        "furtherChecking": "Audit extended fourth-moment range and skew optimization and compare independently reported Gao/Liu bounds. Hypothesis11.1 and its328/375 consequence remain unproved/conditional; exact arithmetic certificates are not independent verification of analytic inputs. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "publicationDate": "2026-10-08",
+        "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/zero-free-beyond-7-8/README.md",
+        "support": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+        "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+        "sourceId": "4065",
+        "disposition": "include_flagged",
+        "provisional": 1
+      }
+    ],
+    "changes": [
+      "4035: Rényi and Tsallis entropy monotonicity for Bernoulli sums",
+      "4036: The connected size-Ramsey number rhat_c(4K2,C4)=17",
+      "4037: First Betti numbers of a five-generated numerical-semigroup family",
+      "4038: Multi-generator kernel windows and density asymptotics for Huang’s quadratic form",
+      "4039: Optimal local decompression: conditional uniform finite-view reduction",
+      "4040: Planar Pólya–Szegő buckling inequality",
+      "4041: Lossy distance-shell tomography on paths from mean and covariance",
+      "4042: Pointwise convergence for two commuting transformations",
+      "4043: Systolic growth in every genus",
+      "4044: Persistent failure of Euclidean quartic SOS exactness",
+      "4045: Polynomial-time Hamiltonian s–t paths in solid grid graphs",
+      "4046: Unified Kalman-type stochastic controllability classification",
+      "4047: Survival and transience above the compartment-division threshold",
+      "4048: Exact db2 cascade norms and the optimal uniform constant",
+      "4049: Erdős111: bipartizing finite subgraphs of uncountably chromatic graphs",
+      "4050: Erdős173: monochromatic triangles in two-colorings of the plane",
+      "4051: Erdős408: normal order of iterated totient height",
+      "4052: Sharp continued-fraction bounds from exact digit runs",
+      "4053: Falconer distance sets for stretched logarithmic gauges",
+      "4054: Sharp and weighted Bergman weak-type constants and bounded-domain rigidity",
+      "4055: Exact fault images and guarded detection in priority controllers",
+      "4056: Mixed-level modular normalizers and corrected finite presentations",
+      "4057: Quadratic mixing for the Lee–Sidford Dikin walk",
+      "4058: Liouville almost-prime reductions and two obstruction model sequences",
+      "4059: Angular-type CM Hecke zero-free half-planes",
+      "4060: Convex planar hot spots including double eigenvalues",
+      "4061: Goldbach-type Liouville sign equidistribution",
+      "4062: Rough Goldbach summands with prescribed Liouville signs",
+      "4063: Rough numbers at fixed distance with prescribed Liouville signs",
+      "4064: Shifted primes with prescribed prime-factor parity",
+      "4065: An independently parameter-optimized zero-free half-plane beyond7/8"
+    ],
+    "excludedCandidates": [
+      {
+        "title": "The regionally proximal relation for commutative semigroup actions",
+        "primary": "https://github.com/dglasscockUML/NSF_LEAPS/tree/a3cf7072e465276748dd8522b1af92802c9f21b5",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Endpoint power weight inequalities for spherical maximal functions in Lean",
+        "primary": "https://github.com/roos-j/lean-spherical/tree/800b71afca91e42809c21e6e2fd9ae4f82467082",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Dual-Horn models and vertex covers in priority controllers",
+        "primary": "https://github.com/shaikidris/priority-controller-phase1/tree/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0",
+        "reason": "Grouped into the single priority-controller paper/package in this run; a selected formal interface is not another independent discovery."
+      },
+      {
+        "title": "Stephan 2026: superlinear complexity of the (3/2)^n steering word",
+        "primary": "https://github.com/rwst/Subspace-Theorems/tree/09835cb23557ae5ae0cf55a9c4ab9055f5d60338",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Forest detection and attained healthy-zero maximum weight",
+        "primary": "https://github.com/shaikidris/priority-controller-phase1/tree/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0",
+        "reason": "Grouped into the single priority-controller paper/package in this run; a selected formal interface is not another independent discovery."
+      },
+      {
+        "title": "Jin's theorem on dense triangle-free graphs",
+        "primary": "https://github.com/jtraverso/jin-triangle-free/tree/ae47df0ddb29c58a71afed658f9bf74aef1b6e90",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "FixedOrderFactor: the order-r correction factor for mean squares of L(1, chi), and the factor 35/34",
+        "primary": "https://github.com/jkfarland-bot/FixedOrderFactor-lean/tree/a2bd79e7be93d13fdc8125e55a3f983f5ea4f829",
+        "reason": "Owner explicitly assigns the mathematics, statements and completed paper proof to the human and Claude to subsequent formalization. No separately new AI mathematical result is identified."
+      },
+      {
+        "title": "The Baire product theorem for Choquet spaces",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/51def6feb5e4469cce2396dfa4c9fa4f3b933d82",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Oxtoby's Banach–Mazur characterization of Baire spaces",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/59d4a50df466480e88ab71bc1f3527bfe0bf1811",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Jaeger's 4-flow and 8-flow theorems",
+        "primary": "https://github.com/jtraverso/jaeger-four-flow/tree/fab4a8235df95dff73eb485fa04e31104fb22d17",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The normalizer of Γ_Δ(N) for every N and every Δ",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/a077781321ca0d52ba3a972a42e081f30534c4d2",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "Normalizers of the congruence subgroups Γ_H",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "Unrestricted Boolean multiplicative complexity of four-term polynomial multiplication",
+        "primary": "https://github.com/GregoryMorse/unrestricted-boolean-mul/tree/c014e498e51a98529877cc256b9bcdaf5faa2e4f",
+        "reason": "Existing872: revision preserves the bounded unrestricted Boolean multiplication result; interface/build changes do not establish a new mathematical result or independent verification upgrade."
+      },
+      {
+        "title": "Modular automorphisms of Cartan modular curves of prime level",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "Kneser's conjecture and the octahedral Tucker lemma",
+        "primary": "https://github.com/jtraverso/kneser-lovasz/tree/6699c87d87f4ddb159fc42271263fc429e63004a",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The normalizer of Γ₀(N): Newman's theorem, and the order and presentations of B(N)",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "DedekindSubgroups: a congruence modulo 16 for sums of Dedekind sums over subgroups of odd order",
+        "primary": "https://github.com/jkfarland-bot/DedekindSubgroups-lean/tree/cb87faf157821154dc1beef7aad753d889211ad9",
+        "reason": "Owner explicitly assigns the mathematics, statements and completed paper proof to the human and Claude to subsequent formalization. No separately new AI mathematical result is identified."
+      },
+      {
+        "title": "Write-Execute Computation and Self-Spectre",
+        "primary": "https://github.com/GregoryMorse/selfspectre/tree/0a59532e8bfdefc0b132aaebf8f609d6474b7cc9",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The Lovász Local Lemma and two applications",
+        "primary": "https://github.com/jtraverso/lovasz-local-lemma/tree/9d020fa8fb20e9426c2d6780a3cfab4a68794d89",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The Erdős–Pósa theorem for cycles",
+        "primary": "https://github.com/jtraverso/erdos-posa-cycles/tree/67bfea6b3893ffdf57e76cd83c9c3538647bdec8",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Kuratowski–Ulam category theorem for countable pi-base spaces",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/0e3676798fe19b23d17defe9d732977d9f913f11",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Formalization of L^3 boundedness of the trilinear Hilbert transform",
+        "primary": "https://github.com/roos-j/lean-trilinearht/tree/0fac9f4ed4aa3391931897a681ce547981fb5f46",
+        "reason": "Formalizes the already-public OpenAI trilinear-Hilbert result; this is a verification lead, not a second first-public discovery. No independent replay performed here."
+      },
+      {
+        "title": "Berge's theorem, the Tutte–Berge formula and the Gallai–Edmonds theorem",
+        "primary": "https://github.com/jtraverso/berge-matching/tree/f01d042c071c778fb3f432312356136a92369076",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Tamper-proofing with self-modifying code: threat model, security and necessity of the assumptions",
+        "primary": "https://github.com/GregoryMorse/SelfModTamper/tree/ae5d3f621e8e8e9d6d696c49d09c97337b93bf03",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Normalizers of Γ_Δ(N): the group M_Δ, finiteness, and a coset count",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/17c911351938f13d620262a54de45c275db9de57",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "Normalizers of Γ_Δ(N), Γ(N) and ±Γ₁(N)",
+        "primary": "https://github.com/F-Najman/normalizer-lean/tree/17c911351938f13d620262a54de45c275db9de57",
+        "reason": "The bounded new mixed-level/presentation-repair claims are grouped into one package; these classical or overlapping selected normalizer interfaces are not separately counted."
+      },
+      {
+        "title": "Brooks' theorem, degree-choosability and blocks",
+        "primary": "https://github.com/jtraverso/brooks/tree/b99e6f500256586626396de9c2d6fd4d96119d60",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "A certificate for the triangle variational problem",
+        "primary": "https://github.com/mkwn/triangle-free-probability/tree/2d3c19f579dc366a3cbe2083df58a51909a23af0",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Menger's theorem, Hamiltonian cycles, long cycles and pancyclicity",
+        "primary": "https://github.com/jtraverso/menger-hamiltonian/tree/35c5f684f9bfbd244bd0999ce725623ab571adb6",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Canonical streaming enumeration of eligible detections",
+        "primary": "https://github.com/shaikidris/priority-controller-phase1/tree/53db406ddcd8a5f9a68f22e75892dc4ad25cc161",
+        "reason": "Grouped into the single priority-controller paper/package in this run; a selected formal interface is not another independent discovery."
+      },
+      {
+        "title": "Barker sequences of odd length have length 1, 3, 5, 7, 11 or 13",
+        "primary": "https://github.com/JD-Jones-ASES/ob-lean/tree/7826a8c0249678cfcb4c606e88d9fb978b316989",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Guarded detection and constrained eligible-set extensions",
+        "primary": "https://github.com/shaikidris/priority-controller-phase1/tree/fc703dd3415e3a892536c0b624bf65b1ade2871d",
+        "reason": "Grouped into the single priority-controller paper/package in this run; a selected formal interface is not another independent discovery."
+      },
+      {
+        "title": "The Alon–Tarsi theorem and 3-choosability of planar bipartite graphs",
+        "primary": "https://github.com/jtraverso/alon-tarsi-choosability/tree/4ab98b11f340ea2160b34d0b57ef7102452b98cc",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Kuhn poker: the value −1/18, all optimal strategies, and the solution at every ante and bet",
+        "primary": "https://github.com/JD-Jones-ASES/kuhn-poker-lean/tree/352a870a3702229cd6823966940dbd8a92fb281b",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Countable cellularity of arbitrary products via finite subproducts",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/92f1a925329465c86a96b2f612fcd0d5345eed3b",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Omega-bounded Sigma-products and a sharp compactness criterion",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/0bdc86b6daf37e26dae68c451ed9d811247f075d",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Galvin's theorem, the Dinitz problem and stable matchings",
+        "primary": "https://github.com/jtraverso/galvin-dinitz/tree/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Pure infinitely self-modifying code",
+        "primary": "https://github.com/GregoryMorse/smcTuring/tree/a514ef4dbfdd85c0c91242722887177100c84a7f",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Paracompact expansion and collectionwise separation",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/5ad14f00d92275a9e782fb9491dbfd8d8d8f9faf",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "GromovMilman",
+        "primary": "https://github.com/akopjan/Dolnikov-Karasev-Gromov-Milman/tree/a32fae66a704d736f0c2c3ec9b14afd22979fe9f",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Robbins' theorem on strongly connected orientations",
+        "primary": "https://github.com/jtraverso/robbins-strong-orientation/tree/076e734e9949720d3e4fcc2cc3cad4284871442c",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Graham's bounds for list scheduling and LPT on identical machines: 2 − 1/m, 4/3 − 1/(3m) and their tight instances",
+        "primary": "https://github.com/JD-Jones-ASES/graham-lpt-lean/tree/c8ed035b407cc554faf4b68df0cf3edc70058977",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The radian nine-gon is Euclidean Ramsey iff e^(i theta) is algebraic",
+        "primary": "https://github.com/wstrinz/radian-ramsey/tree/37716c59241154354fcc23522253cac7416d6e2c",
+        "reason": "Existing4023: radian nine-gon registration/formalization follows the already ingested independently dated proof package; no additional discovery."
+      },
+      {
+        "title": "The Arithmetic of Time: the slowest settling clock on at most three letters is the Padovan substitution, unique up to mirror image, and both minimal rules are chiral",
+        "primary": "https://github.com/stalex444/arithmetic-of-time-slowest-clock/tree/49eafbab4af8899b2a66469697bf74683a88ce87",
+        "reason": "Source credits the minimum to Siegel and the substitution uniqueness to Mercat; a new kernel-checked proof/restatement alone is not a separately qualifying new mathematical result. Physical time identification is not a mathematical theorem."
+      },
+      {
+        "title": "Distinct prime divisors of central binomial coefficients",
+        "primary": "https://github.com/AItoBit/erdos-685-elementary-lower-bound/tree/c8618095373664c5c8ea35f78304abdd4ec41691",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Spectral bounds on the chromatic and independence numbers",
+        "primary": "https://github.com/jtraverso/spectral-graph-bounds/tree/8d8b4ce17e56165b5f1ad3b285fb141666804e1c",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The local dynamical structure of Δ* sets via a new Furstenberg family algebra",
+        "primary": "https://github.com/dglasscockUML/NSF_LEAPS/tree/e275c4e2bb477c110f542e606dac0519963e964c",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Fréchet–Urysohn Σ-products of first-countable spaces",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/359ec3c4a3fff77a68c29d89714bf8a03acc9829",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Dirac's theorem: k vertices of a k-connected graph lie on a common cycle",
+        "primary": "https://github.com/jtraverso/dirac-common-cycle/tree/3c9e9966662cb99c0e4f11d771011bc904dc627f",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Elementary bounds for Erdos problem 684",
+        "primary": "https://github.com/AItoBit/erdos-684-elementary-bounds/tree/a59cf65171b19dc7785b767d3b88ad8ef754f3eb",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Chordal, split, threshold and cograph structure",
+        "primary": "https://github.com/jtraverso/chordal-split-threshold-graphs/tree/ed65dcdc7339767d3e8e412420abbf54eae65ddb",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Tutte's f-factor theorem",
+        "primary": "https://github.com/jtraverso/tutte-f-factor/tree/dc3bbce463c80c499d3e9fa072d13f9145d907d0",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Additive strengthening of Erdos problem 679: a known refutation",
+        "primary": "https://github.com/AItoBit/erdos-679-additive-refutation/tree/4a53d358d1b7ade35d6f696f501c99b4d88c9e4c",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "The graph removal lemma for every fixed graph",
+        "primary": "https://github.com/jtraverso/graph-removal-lemma/tree/589cf03ef1e4c80ea8cdd6be77778232c62dd37c",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Chvátal's and Pósa's degree conditions for Hamiltonian cycles",
+        "primary": "https://github.com/jtraverso/chvatal-posa-hamiltonian/tree/6be0ebda7b457b85ad400f6d7f92ad156d6e7712",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Countable-density Hewitt–Marczewski–Pondiczery theorem",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/cd7ae6bc5f4a1e5569cbbe1a883b83e92eb07a0e",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Moore graphs of diameter two: the Hoffman–Singleton theorem",
+        "primary": "https://github.com/jtraverso/moore-graphs-hoffman-singleton/tree/8819ccfea5474fab3d1cbc17e703860a4e008254",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Countable-coordinate factorization for compact products",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/fc3f403c4d07356d2232e809f326f63a9ce9da45",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Formalization of Carleson's theorem via the Lacey-Thiele approach",
+        "primary": "https://github.com/roos-j/lean-lt-carleson/tree/1fde1f341dfdde6e69500bfe909ea1f77159d163",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Growth series of the triangle Coxeter groups (p, q, infinity), with the PGL(2,Z) instance: Padovan sphere sizes and growth rate the plastic number",
+        "primary": "https://github.com/stalex444/triangle-group-growth/tree/874b6a264e1eb8adf06141686eabab8a7afbe583",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Compact Hausdorff countable-network metrization",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/47aaba112beb17b7c0ca68f56356c5c829ee154d",
+        "reason": "Known mathematical theorem or source-directed formalization without a separately qualifying new AI mathematical contribution."
+      },
+      {
+        "title": "Human Exposition of Claude’s2/3 Theorem",
+        "primary": "https://arxiv.org/abs/2610.24612v1",
+        "reason": "Human exposition of existing140/2517 zeta-proportion proof, not another discovery or machine replay. Human specialist engagement is new context, not an automatic blanket verification promotion."
+      },
+      {
+        "title": "Guo: twelve consequences of the OpenAI release",
+        "primary": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/consequences/README.md",
+        "reason": "Catalogue explicitly composes named release results with known conditional implications and credits earlier identical corollaries. Retain as a source lead; do not count known deductions or parent settlements a second time."
+      },
+      {
+        "title": "FOMTools: Development and AI-Assisted Code Generation for First-Order Methods Vinit Ranjan , Daniel Deza , Anushka Acharya , Jisun Park , Bartolomeo Stellato",
+        "primary": "https://arxiv.org/abs/2610.26743",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "From Formulation to Articulation: Considerations for AI-Assisted Research in Information Theory Chao Tian , Krishna Narayanan",
+        "primary": "https://arxiv.org/abs/2610.25490",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Studying proof data with proof theory: the case of AI-generated mathematics Safal Raman Aryal",
+        "primary": "https://arxiv.org/abs/2610.25357",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "A Polynomial-Time Algorithm for the Minimal Input/Output Node Cardinality Disturbance Decoupling Problem via Output Feedback Luca Claude Gino Lebon , Jorke de Vlas , Johannes K. Fichte , Claudio Altafini Comments: MATLAB",
+        "primary": "https://arxiv.org/abs/2610.22735",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Dynamical Conservation Laws in Quantum Spin Systems Vojkan Jakšić , Claude-Alain Pillet , Anna Szczepanek Comments: 44 pages",
+        "primary": "https://arxiv.org/abs/2610.21489",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Approach to Equilibrium in Translation-Invariant Quantum Systems: Structural Results II Vojkan Jakšić , Claude-Alain Pillet , Anna Szczepanek Comments: 49 pages",
+        "primary": "https://arxiv.org/abs/2610.21475",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "What the Machine Invented: Mining New Mathematical Instruments from OpenAI's October 2026 Release of AI-Generated Mathematics Ying Xie",
+        "primary": "https://arxiv.org/abs/2610.17090",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Does AI-Assisted Development Homogenize Software? An Empirical Study of Code Similarity, Quality, and Evolution Luciano Marchezan , Romain Lefeuvre , Kevin Delcourt , Benoit Combemale , Houari Sahraoui",
+        "primary": "https://arxiv.org/abs/2610.24093",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Functionalizing AI-Generated 3D Shapes via Interior Geometry Construction Haoyu Tang , Fancheng Gao , Kan Chen , Peng Song",
+        "primary": "https://arxiv.org/abs/2610.23953",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Improving Fake Profile Detection Through Multimodal Learning and Research-Guided Feature Integration Jean Claude Hirwa , Jamiu Dahunsi , Candide Giramata , Lowami Uwimana , Thierry Henry Ishimwe",
+        "primary": "https://arxiv.org/abs/2610.23926",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Beyond Generator-Specific Shortcuts: Open-World AI-Generated Video Detection via Adversarial Training Qi Zhou , Yuanfan Li , Huiqi Deng , Hongbin Pei , Yazhe Tang Comments: 20 pages",
+        "primary": "https://arxiv.org/abs/2610.23906",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science Amirhossein Zohrehvand , Aldona Kapačinskaitė Comments: 27 pages, 7 tables",
+        "primary": "https://arxiv.org/abs/2610.24035",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Beyond Source Prompts: Towards Visually Grounded AI-Generated Video Quality Assessment Kehao Zhou , Yixuan Li , Yuxuan Jiang , Fan Zhang",
+        "primary": "https://arxiv.org/abs/2610.21758",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "MUSEBENCH: A Benchmark for AI-Generated Music Detection and Artifact Analysis Yi Chen Liu , Syed Irfan Ali Meerza , Jiawei Yu , Xi Guo , Samuel Bright , Jian Liu",
+        "primary": "https://arxiv.org/abs/2610.20310",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "From Semantic Editing Intentions to Persistent Parametric Controls for AI-Assisted Image Editing Rifat Mehreen Amin , Michelle Dutoit , Anton Rockenstein , Baptiste Caramiaux , Andreas Butz",
+        "primary": "https://arxiv.org/abs/2610.20283",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Likelihood Is Not Authorship: Can We Reliably Measure Human Contribution in AI-Assisted Writing? Hasan Amin , Zhuoran Lu , Ming Yin",
+        "primary": "https://arxiv.org/abs/2610.19767",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Personalising Deformable Image Registration with Clinical Context and Deformation History for Adaptive Radiotherapy Caiwen Jiang , Songlin Zhao , Yuzhen Ding , Jia Mi , Samir H. Patel , Alexandra Bennett , Keldon K. Lin ",
+        "primary": "https://arxiv.org/abs/2610.18926",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "How Safe Is ChatGPT Health Advice? Evidence from Real User Conversations in Four Global South Countries Shreyasi Roy Chowdhury , Kiran Garimella Comments: 25 pages, 17 figures, 8 tables",
+        "primary": "https://arxiv.org/abs/2610.18465",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "AI-Assisted Tumor-Growth Law Discovery from Sparse Data: Refitting and LLM-Based Ranking Yitian Lu , Weinan Wang",
+        "primary": "https://arxiv.org/abs/2610.16891",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Where Polanyi Meets Galois: Tacit Knowing as an Algebro-Deterministic Operation, Toward Re-rooting AI-Generated Science Hiroyuki Chuma , Kanji Otsuka , Yoichi Sato , Kodo Yamauchi Comments: 27 pages, 6 tables, 2 figures",
+        "primary": "https://arxiv.org/abs/2610.16102",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Unchecked or Falsely Accused? Evaluating AI-Generated Text Detectors on Kazakh Mansur Ozaman Comments: 16 pages (8 main + references and appendix), 1 figure, 9 tables. Code: this https URL data: this https URL detector: ",
+        "primary": "https://arxiv.org/abs/2610.15870",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Understanding ChatGPT Citations: Evidence from Production Web Search Across Model Generations Yunxuan Jiang , Shiqi Zhang , Anqi Xing , Xiangyu Chang , Xiaokui Xiao Comments: 10 pages, 5 figures",
+        "primary": "https://arxiv.org/abs/2610.15382",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Impact of Expertise and Trust on AI-assisted Work Qianou Ma , Pranav Khape , Rock Pang , Ken Koedinger , Tongshuang Wu , Siddarth Suri , Shamsi Iqbal",
+        "primary": "https://arxiv.org/abs/2610.14660",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "Rethinking SZZ Search Strategies: Lessons from Claude Code Inase Kondo , Masanari Kondo , Daniel M. German , Olivier Nourry , Yasutaka Kamei , Yoshiki Higo",
+        "primary": "https://arxiv.org/abs/2610.14462",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "An Edge-First Multimodal Asset Management Studio and Retrieval Engine for Heterogeneous AI-Generated Media Chaoyu Lin Comments: 8 pages, 1 figure, 4 tables. Source code and reproducibility artifacts are available at this",
+        "primary": "https://arxiv.org/abs/2610.14046",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      },
+      {
+        "title": "The Future of AI-assisted Physics: Discovering, Verifying and Organizing Results via Formalization Sven Krippendorf , Leopoldo Sarra , Joseph Tooby-Smith Comments: 19 pages, 2 figures",
+        "primary": "https://arxiv.org/abs/2610.14059",
+        "reason": "Metadata/full-text triage found no qualifying new bounded AI-assisted mathematical result: benchmark, empirical/software/overview work or a name-only false positive. Not an assertion that every acknowledgement has been exhaustively searched."
+      }
+    ],
+    "quarantinedCandidates": [
+      {
+        "title": "Original Star Fleet Erdős662 source",
+        "primary": "https://www.starfleetmath.com/solutions/24a9506e-d6a5-46c5-a2b0-01554eae5568",
+        "reason": "Original owner page is now retrievable and supports explicit shell counterexamples, but its visible text supplies no dated first-public event or original model/allocation identity. The corrupt historical statement still has multiple repairs. The dated port does not license assigning its date or model to this original. Obtain dated primary ownership/disclosure before publication; do not call a unique canonical Erdős statement resolved."
+      }
+    ],
+    "retrievalFailures": [
+      {
+        "file": "PALOMAR-2026-10-20-000017-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/a3cf7072e465276748dd8522b1af92802c9f21b5/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000017-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/a3cf7072e465276748dd8522b1af92802c9f21b5/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000017-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/a3cf7072e465276748dd8522b1af92802c9f21b5/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000016-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-spherical/800b71afca91e42809c21e6e2fd9ae4f82467082/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000016-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-spherical/800b71afca91e42809c21e6e2fd9ae4f82467082/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000015-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000015-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000014-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/rwst/Subspace-Theorems/09835cb23557ae5ae0cf55a9c4ab9055f5d60338/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000014-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/rwst/Subspace-Theorems/09835cb23557ae5ae0cf55a9c4ab9055f5d60338/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000013-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000013-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/4defc1bfee6f82a50c5d48e6ad4fe6e01df73cc0/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000012-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/jin-triangle-free/ae47df0ddb29c58a71afed658f9bf74aef1b6e90/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000012-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/jin-triangle-free/ae47df0ddb29c58a71afed658f9bf74aef1b6e90/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000011-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000011-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000011-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000010-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jkfarland-bot/FixedOrderFactor-lean/a2bd79e7be93d13fdc8125e55a3f983f5ea4f829/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000010-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jkfarland-bot/FixedOrderFactor-lean/a2bd79e7be93d13fdc8125e55a3f983f5ea4f829/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000009-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/51def6feb5e4469cce2396dfa4c9fa4f3b933d82/topology/choquet-baire-product/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000009-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/51def6feb5e4469cce2396dfa4c9fa4f3b933d82/topology/choquet-baire-product/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000008-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/59d4a50df466480e88ab71bc1f3527bfe0bf1811/topology/banach-mazur-baire/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000008-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/59d4a50df466480e88ab71bc1f3527bfe0bf1811/topology/banach-mazur-baire/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000009-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/jaeger-four-flow/fab4a8235df95dff73eb485fa04e31104fb22d17/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000009-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/jaeger-four-flow/fab4a8235df95dff73eb485fa04e31104fb22d17/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000007-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/a077781321ca0d52ba3a972a42e081f30534c4d2/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000007-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/a077781321ca0d52ba3a972a42e081f30534c4d2/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000007-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/a077781321ca0d52ba3a972a42e081f30534c4d2/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000017-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000017-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000017-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-09-21-000005-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/unrestricted-boolean-mul/c014e498e51a98529877cc256b9bcdaf5faa2e4f/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-09-21-000005-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/unrestricted-boolean-mul/c014e498e51a98529877cc256b9bcdaf5faa2e4f/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000013-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000013-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000013-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000006-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/kneser-lovasz/6699c87d87f4ddb159fc42271263fc429e63004a/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000006-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/kneser-lovasz/6699c87d87f4ddb159fc42271263fc429e63004a/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000012-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000012-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000012-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/e7ca694d9e349326e03e5acfa4e41ed823e4e2dc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000005-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jkfarland-bot/DedekindSubgroups-lean/cb87faf157821154dc1beef7aad753d889211ad9/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000005-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jkfarland-bot/DedekindSubgroups-lean/cb87faf157821154dc1beef7aad753d889211ad9/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-14-000007-README.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/selfspectre/0a59532e8bfdefc0b132aaebf8f609d6474b7cc9/lean/README.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-14-000007-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/selfspectre/0a59532e8bfdefc0b132aaebf8f609d6474b7cc9/lean/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-14-000007-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/selfspectre/0a59532e8bfdefc0b132aaebf8f609d6474b7cc9/lean/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000004-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/lovasz-local-lemma/9d020fa8fb20e9426c2d6780a3cfab4a68794d89/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000004-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/lovasz-local-lemma/9d020fa8fb20e9426c2d6780a3cfab4a68794d89/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000003-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/erdos-posa-cycles/67bfea6b3893ffdf57e76cd83c9c3538647bdec8/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000003-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/erdos-posa-cycles/67bfea6b3893ffdf57e76cd83c9c3538647bdec8/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000002-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/0e3676798fe19b23d17defe9d732977d9f913f11/topology/kuratowski-ulam/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000002-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/0e3676798fe19b23d17defe9d732977d9f913f11/topology/kuratowski-ulam/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000001-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-trilinearht/0fac9f4ed4aa3391931897a681ce547981fb5f46/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-20-000001-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-trilinearht/0fac9f4ed4aa3391931897a681ce547981fb5f46/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-16-000011-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/berge-matching/f01d042c071c778fb3f432312356136a92369076/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-16-000011-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/berge-matching/f01d042c071c778fb3f432312356136a92369076/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000004-README.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/SelfModTamper/ae5d3f621e8e8e9d6d696c49d09c97337b93bf03/lean/README.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000004-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/SelfModTamper/ae5d3f621e8e8e9d6d696c49d09c97337b93bf03/lean/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000004-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/SelfModTamper/ae5d3f621e8e8e9d6d696c49d09c97337b93bf03/lean/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000019-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/CoolRmal/bergman-weak-type/600df3646a6070299e831b565a3be0585483ee2c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000019-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/CoolRmal/bergman-weak-type/600df3646a6070299e831b565a3be0585483ee2c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000023-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000023-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000023-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000010-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000010-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000010-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/F-Najman/normalizer-lean/17c911351938f13d620262a54de45c275db9de57/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-16-000003-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/brooks/b99e6f500256586626396de9c2d6fd4d96119d60/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-16-000003-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/brooks/b99e6f500256586626396de9c2d6fd4d96119d60/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000018-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/mkwn/triangle-free-probability/2d3c19f579dc366a3cbe2083df58a51909a23af0/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000018-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/mkwn/triangle-free-probability/2d3c19f579dc366a3cbe2083df58a51909a23af0/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-15-000020-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/menger-hamiltonian/35c5f684f9bfbd244bd0999ce725623ab571adb6/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-15-000020-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/menger-hamiltonian/35c5f684f9bfbd244bd0999ce725623ab571adb6/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000017-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/continued-fraction-bounds/a7657a01aec49be60f36a2cda8e6c6bfcd3840c3/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000016-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/53db406ddcd8a5f9a68f22e75892dc4ad25cc161/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000016-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/53db406ddcd8a5f9a68f22e75892dc4ad25cc161/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000015-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/ob-lean/7826a8c0249678cfcb4c606e88d9fb978b316989/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000014-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/fc703dd3415e3a892536c0b624bf65b1ade2871d/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000014-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/fc703dd3415e3a892536c0b624bf65b1ade2871d/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000013-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/alon-tarsi-choosability/4ab98b11f340ea2160b34d0b57ef7102452b98cc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000013-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/alon-tarsi-choosability/4ab98b11f340ea2160b34d0b57ef7102452b98cc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000012-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/kuhn-poker-lean/352a870a3702229cd6823966940dbd8a92fb281b/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000011-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/CoolRmal/falconer-theta-gauge/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000011-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/CoolRmal/falconer-theta-gauge/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000010-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000010-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/shaikidris/priority-controller-phase1/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000009-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-408/4ea44bf911f8668aec10ec25c4b309e8ed476666/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000009-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-408/4ea44bf911f8668aec10ec25c4b309e8ed476666/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000008-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-173/4a368a652753fab53272f7a747755876f04bc2cc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000008-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-173/4a368a652753fab53272f7a747755876f04bc2cc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000007-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-111/de72caf0e388c729697b6813f4ea90bfe1617c7b/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000007-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/plasma-ai/erdos-111/de72caf0e388c729697b6813f4ea90bfe1617c7b/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000006-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/92f1a925329465c86a96b2f612fcd0d5345eed3b/topology/product-countable-chain-condition/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000006-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/92f1a925329465c86a96b2f612fcd0d5345eed3b/topology/product-countable-chain-condition/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000005-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jelincovil/tws-palomar/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000005-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jelincovil/tws-palomar/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000004-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/0bdc86b6daf37e26dae68c451ed9d811247f075d/topology/sigma-product-compactness/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000004-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/0bdc86b6daf37e26dae68c451ed9d811247f075d/topology/sigma-product-compactness/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000003-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/mmislan/palomar-compartment-division-threshold/c5dacf41f334ccc781c4bda691c388b6214befb2/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000003-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/mmislan/palomar-compartment-division-threshold/c5dacf41f334ccc781c4bda691c388b6214befb2/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000002-README.md",
+        "url": "https://raw.githubusercontent.com/MrGodfrey/LeanForCriteriaForLinearStochastic/c088eb9943197e88c4b046223239d4c4f0180513/formalization/README.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000002-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/MrGodfrey/LeanForCriteriaForLinearStochastic/c088eb9943197e88c4b046223239d4c4f0180513/formalization/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000002-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/MrGodfrey/LeanForCriteriaForLinearStochastic/c088eb9943197e88c4b046223239d4c4f0180513/formalization/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000001-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/zzyzek/SolidGridGraphHamPath/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-19-000001-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/zzyzek/SolidGridGraphHamPath/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000030-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/persistent-sos/54dc5a01cc16e850e3350ba0aa1bd8a8e5b67c5d/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000029-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/galvin-dinitz/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000029-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/galvin-dinitz/0aa98fc17e1e96ec408f7bad3198ce37a08d26fc/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-13-000008-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/smcTuring/a514ef4dbfdd85c0c91242722887177100c84a7f/lean/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-13-000008-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/GregoryMorse/smcTuring/a514ef4dbfdd85c0c91242722887177100c84a7f/lean/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000028-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/nihargargava/systole_bound/a54807b9bf6cbd61194c1fb78da380535ec8a871/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000028-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/nihargargava/systole_bound/a54807b9bf6cbd61194c1fb78da380535ec8a871/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000027-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/5ad14f00d92275a9e782fb9491dbfd8d8d8f9faf/topology/collectionwise-normal/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000027-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/5ad14f00d92275a9e782fb9491dbfd8d8d8f9faf/topology/collectionwise-normal/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000026-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-twocommuting/5abb8fad6c99fe19850cbdabe3096ed7745dda11/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000026-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-twocommuting/5abb8fad6c99fe19850cbdabe3096ed7745dda11/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000025-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/akopjan/Dolnikov-Karasev-Gromov-Milman/a32fae66a704d736f0c2c3ec9b14afd22979fe9f/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000025-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/akopjan/Dolnikov-Karasev-Gromov-Milman/a32fae66a704d736f0c2c3ec9b14afd22979fe9f/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000024-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/lennrt/palomar-formalizations/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000024-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/lennrt/palomar-formalizations/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000022-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/robbins-strong-orientation/076e734e9949720d3e4fcc2cc3cad4284871442c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000022-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/robbins-strong-orientation/076e734e9949720d3e4fcc2cc3cad4284871442c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000021-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/graham-lpt-lean/c8ed035b407cc554faf4b68df0cf3edc70058977/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000020-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/wstrinz/radian-ramsey/37716c59241154354fcc23522253cac7416d6e2c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000019-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/stalex444/arithmetic-of-time-slowest-clock/49eafbab4af8899b2a66469697bf74683a88ce87/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000019-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/stalex444/arithmetic-of-time-slowest-clock/49eafbab4af8899b2a66469697bf74683a88ce87/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000018-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-685-elementary-lower-bound/c8618095373664c5c8ea35f78304abdd4ec41691/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000018-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-685-elementary-lower-bound/c8618095373664c5c8ea35f78304abdd4ec41691/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000016-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/spectral-graph-bounds/8d8b4ce17e56165b5f1ad3b285fb141666804e1c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000016-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/spectral-graph-bounds/8d8b4ce17e56165b5f1ad3b285fb141666804e1c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000015-formalization.yaml",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/e275c4e2bb477c110f542e606dac0519963e964c/formalization.yaml",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000015-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/e275c4e2bb477c110f542e606dac0519963e964c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000015-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/dglasscockUML/NSF_LEAPS/e275c4e2bb477c110f542e606dac0519963e964c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000014-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/359ec3c4a3fff77a68c29d89714bf8a03acc9829/topology/sigma-product-frechet/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000014-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/359ec3c4a3fff77a68c29d89714bf8a03acc9829/topology/sigma-product-frechet/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000011-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/dirac-common-cycle/3c9e9966662cb99c0e4f11d771011bc904dc627f/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000011-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/dirac-common-cycle/3c9e9966662cb99c0e4f11d771011bc904dc627f/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000008-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/QuanyuTang/polya-szego-planar-unconditional-palomar/5311f47821b5da92e81e75b7da5091d176c8deb9/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000008-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/QuanyuTang/polya-szego-planar-unconditional-palomar/5311f47821b5da92e81e75b7da5091d176c8deb9/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000007-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-684-elementary-bounds/a59cf65171b19dc7785b767d3b88ad8ef754f3eb/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000007-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-684-elementary-bounds/a59cf65171b19dc7785b767d3b88ad8ef754f3eb/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000006-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/chordal-split-threshold-graphs/ed65dcdc7339767d3e8e412420abbf54eae65ddb/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000006-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/chordal-split-threshold-graphs/ed65dcdc7339767d3e8e412420abbf54eae65ddb/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000005-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/tutte-f-factor/dc3bbce463c80c499d3e9fa072d13f9145d907d0/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000005-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/tutte-f-factor/dc3bbce463c80c499d3e9fa072d13f9145d907d0/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000003-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-679-additive-refutation/4a53d358d1b7ade35d6f696f501c99b4d88c9e4c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000003-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/AItoBit/erdos-679-additive-refutation/4a53d358d1b7ade35d6f696f501c99b4d88c9e4c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000002-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/graph-removal-lemma/589cf03ef1e4c80ea8cdd6be77778232c62dd37c/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000002-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/graph-removal-lemma/589cf03ef1e4c80ea8cdd6be77778232c62dd37c/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000001-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/chvatal-posa-hamiltonian/6be0ebda7b457b85ad400f6d7f92ad156d6e7712/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-18-000001-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/chvatal-posa-hamiltonian/6be0ebda7b457b85ad400f6d7f92ad156d6e7712/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000019-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/cd7ae6bc5f4a1e5569cbbe1a883b83e92eb07a0e/topology/hewitt-marczewski-pondiczery/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000019-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/cd7ae6bc5f4a1e5569cbbe1a883b83e92eb07a0e/topology/hewitt-marczewski-pondiczery/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000018-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/moore-graphs-hoffman-singleton/8819ccfea5474fab3d1cbc17e703860a4e008254/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000018-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/jtraverso/moore-graphs-hoffman-singleton/8819ccfea5474fab3d1cbc17e703860a4e008254/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000017-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/lennrt/palomar-formalizations/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000017-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/lennrt/palomar-formalizations/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000016-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Flaman55/NumericalSemigroups/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000016-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Flaman55/NumericalSemigroups/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000015-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/fc3f403c4d07356d2232e809f326f63a9ce9da45/topology/countable-coordinate-factorization/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000015-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/fc3f403c4d07356d2232e809f326f63a9ce9da45/topology/countable-coordinate-factorization/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000014-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/benkeene/five-generator-betti/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000014-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/benkeene/five-generator-betti/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-12-000008-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-lt-carleson/1fde1f341dfdde6e69500bfe909ea1f77159d163/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-12-000008-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/roos-j/lean-lt-carleson/1fde1f341dfdde6e69500bfe909ea1f77159d163/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000013-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/stalex444/triangle-group-growth/874b6a264e1eb8adf06141686eabab8a7afbe583/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000013-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/stalex444/triangle-group-growth/874b6a264e1eb8adf06141686eabab8a7afbe583/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000012-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/benkeene/size-ramsey/3233dcdd4807cbc808f68582d913c4f463047de2/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000012-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/benkeene/size-ramsey/3233dcdd4807cbc808f68582d913c4f463047de2/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000011-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/47aaba112beb17b7c0ca68f56356c5c829ee154d/topology/compact-countable-network/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000011-Disclosure.md",
+        "url": "https://raw.githubusercontent.com/Arthur742Ramos/Math-Formalization/47aaba112beb17b7c0ca68f56356c5c829ee154d/topology/compact-countable-network/Disclosure.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "PALOMAR-2026-10-17-000010-DISCLOSURE.md",
+        "url": "https://raw.githubusercontent.com/JD-Jones-ASES/renyi-monotonicity/f990878ac03c85b08e80f8b169cbec5941d34e6a/DISCLOSURE.md",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "html-2610.24035",
+        "url": "https://arxiv.org/html/2610.24035v1",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "file": "html-2610.16102",
+        "url": "https://arxiv.org/html/2610.16102v1",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "sourceRechecks": "OpenAI history, Landis PDF, Sendov14/release and ProofAtlas formalizations unchanged; Anthropic visible statement unchanged. Kato/Landis abstract transport differences are not a claimed mathematical revision. Existing872 and4023 identities rechecked;140/2517 human exposition does not add a new result or independently replay every endpoint. Review queue and high-priority3953/3992/3998/4005 concerns retained; not a completed whole-corpus audit.",
+    "artifactsExecuted": false
   }
 ]

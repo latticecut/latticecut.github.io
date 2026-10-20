@@ -221555,5 +221555,1014 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-20",
+    "snapshotHash": "a6210ee696ecdcc6d2aa898f583b828486bc8826e26d2bf69c9114f72e5b609a",
+    "changes": [
+      {
+        "id": "4035",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "JD Jones attributes mathematical arguments, extensions and Lean development to GPT-6 Astra through Codex, with human integration.",
+            "evidenceSummary": "JD Jones attributes mathematical arguments, extensions and Lean development to GPT-6 Astra through Codex, with human integration.",
+            "evidenceSourceIds": [
+              "Daily20261020_4035",
+              "Daily20261020_4035_support",
+              "Daily20261020_4035_registration"
+            ],
+            "sourceHash": "fbefdc932163377af37af44fb1e907f35c66a07b5130d3ac039509b0372aa1df",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "fbefdc932163377af37af44fb1e907f35c66a07b5130d3ac039509b0372aa1df",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Check the 2018 conjecture correspondence, the closed-cube first-contact argument for q<1 and the full rather than historical association-only Comparator contract. Agent reviews and owner builds are not independent human verification. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "JD Jones attributes mathematical arguments, extensions and Lean development to GPT-6 Astra through Codex, with human integration."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4036",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "7447e63719bb7e9d49addd8cc40602a625c669655b443106a5ed7cbfad218aa1",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Check novelty against the 2025 conjecture and computational literature and exact equality cases. The universal arbitrary-bridge-endpoint reading is not formalized; only the fixed host is. The sixth statement postdates some agent reviews. No independent human expert audit is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Ben Keene attributes the structural proof attempt and substantial Lean proof modules to GPT-6 Astra and Claude agents."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4037",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "24e6c9cc2a76a092312a8d09c33259c0728e18557e4d546bf50303ffce14bdae",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the invariant/presentation equivalence and family minimality and check prior five-generator constructions. Do not count the admitted finite-width bound as proved, or automated lab acceptance as human peer review. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner reports GPT-6 Astra mathematical proof development and Claude-assisted Lean construction and review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4038",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+          "sourceHash": "0c3d3f0f223c7b49a1f46e749e08086401fb5d623b608e512085fc91105a0e90",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Recover the earlier Zenodo manuscript publication date and distinguish original May development from October extensions. Audit multiset versus subset conventions and stronger monotonicity hypotheses; runtime complexities are not formal conclusions. Novelty and exact retained mathematical AI allocation remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Artur Flamandzki reports human-directed Claude proof-script development and later mathematical window-bound extensions; AxiomProver supplied an attributed older ingredient."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4039",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "df93cb89186afd5a32c9292381c7c1bca4dc7af1274c14fae3dd27a792893853",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "The external orientation algorithm, normalization to its record, computability and small/disconnected-component assembly are not formalized. Do not advertise an unconditional operational LOCAL solution. Recover the Oct13 manuscript’s actual public deposit date. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Lennart Rudolph discloses extensive ChatGPT/Codex mathematical and formal proof assistance, including cross-topology locality, padding and reconstruction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4040",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The authors explicitly acknowledge ChatGPT assistance in the original informal proof; Aristotle and Codex constructed and completed its formalization.",
+            "evidenceSummary": "The authors explicitly acknowledge ChatGPT assistance in the original informal proof; Aristotle and Codex constructed and completed its formalization.",
+            "evidenceSourceIds": [
+              "Daily20261020_4040",
+              "Daily20261020_4040_support",
+              "Daily20261020_4040_registration"
+            ],
+            "sourceHash": "163641cecab0449735b601d5c766a54401e8faec629c7a8191150e10f86ecbda",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "163641cecab0449735b601d5c766a54401e8faec629c7a8191150e10f86ecbda",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "The informal target manuscript is private and unavailable here. Independently audit standard variational definitions, capacity-zero modifications and the exact-disk equality claim, dependency closure and exact-commit workflow results. Earlier PaperExternals assumptions must not be mistaken for the reported unconditional completion. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The authors explicitly acknowledge ChatGPT assistance in the original informal proof; Aristotle and Codex constructed and completed its formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4041",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "eb37876b8e2ea92ed381d68e736b9b2c7542055c035ae10d63a1ac4731594e58",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Check first deposit/version chronology against related1309/3557 but this is a distinct stochastic two-leg model. Audit bypass law, sparse recovery and probability endpoint semantics; full finite-sample guarantees are not formalized and the selected lower-bound coefficient is n/2 rather than manuscript n. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Rudolph credits Claude and ChatGPT/Codex with model and proof development, exact computations and formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4042",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The owner attributes adapting OpenAI triangular-Hilbert methods and the mathematical blueprint to GPT-6 Astra Pro, and substantive formalization to Claude Opus5.5.",
+            "evidenceSummary": "The owner attributes adapting OpenAI triangular-Hilbert methods and the mathematical blueprint to GPT-6 Astra Pro, and substantive formalization to Claude Opus5.5.",
+            "evidenceSourceIds": [
+              "Daily20261020_4042",
+              "Daily20261020_4042_support",
+              "Daily20261020_4042_registration"
+            ],
+            "sourceHash": "49ea7adbd6898f168678fd909d0edf0dcfacb3b60053d6d67e4b09fe1a83d475",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "49ea7adbd6898f168678fd909d0edf0dcfacb3b60053d6d67e4b09fe1a83d475",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Read the Oct8 blueprint’s exact exponent and averaging conventions and audit the adaptation, infinite-exponent endpoints and everywhere commutation. This is pointwise, not Tao’s known norm convergence; norm conclusions are outside the selected formal scope. Earlier blueprint public visibility is not established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The owner attributes adapting OpenAI triangular-Hilbert methods and the mathematical blueprint to GPT-6 Astra Pro, and substantive formalization to Claude Opus5.5."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4043",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "c08c601875c056b5373b8522c83400c4b857e101126c6d1ded8a6bb59c5b00ca",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Check the passage from arithmetic subsequences to every sufficiently large genus, at least33 prime-cube summands, chain gluing and conformal curvature normalization preserving the lower bound. No supremum attainment is claimed; separate novelty and exact-commit statement replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Gargava reports human-directed Codex proof development, reference use and adapted Lean mathematics."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4044",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "ffeceac8298c9e3b3e89706767db432a665ae6173b4d111e2aa57097d207eb00",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit ordinary-polynomial semantics, exact moment positivity, radial minimization and the unique-minimizer Hessian. No optimal SOS value, minimal dimension, higher-hierarchy result or independent human specialist review is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jones credits Codex with mathematical construction, exact rational certificates and proof development, and GPT-6 Pro with the companion construction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4045",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "Zzyzek reports Claude Opus5.5 wrote nearly all algorithm, mathematical proof, paper and Lean development; the human posed and steered the problem.",
+            "evidenceSummary": "Zzyzek reports Claude Opus5.5 wrote nearly all algorithm, mathematical proof, paper and Lean development; the human posed and steered the problem.",
+            "evidenceSourceIds": [
+              "Daily20261020_4045",
+              "Daily20261020_4045_support",
+              "Daily20261020_4045_registration"
+            ],
+            "sourceHash": "8926c9e25c3a7441739824c0e2ed731ecb552bb2a1d65cccf035c418a65e60f6",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "8926c9e25c3a7441739824c0e2ed731ecb552bb2a1d65cccf035c418a65e60f6",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the 1982 open problem match, solid/no-hole definitions, endpoint phantom edges and vortex/slit repair. The polynomial bound uses costs attached to the algorithm, not a separately machine-verified conventional bit-complexity theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Zzyzek reports Claude Opus5.5 wrote nearly all algorithm, mathematical proof, paper and Lean development; the human posed and steered the problem."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4046",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "074c867ed6cde1c4b3e41cf7803881f4b91e81b1e5af2093e7be5de61721c70c",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "The current metadata records10 proof holes and five proof/scope revisions. Audit the decreasing-subspace obstruction, stochastic duality and each control notion against revised main.tex; historical384-module checks do not verify the current port or whole manuscript. Exact role, novelty and independent verification remain open. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Yu Wang explicitly discloses Codex-assisted proof development and separate AI statement reviews."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4047",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "13998031b13d561a66099de6ca18ffd924eb2c59af77402c0c6c6a2f895b351b",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the actual process construction, nonexplosion and arbitrary daughter allocations, the v4 Remark4.8 correspondence, occupation-time bound and unbounded immigrant contents. Establish material AI mathematics versus translating a completed human proof. The target dates to2025, not a long-standing historical frontier. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Michael Mislan discloses Codex-assisted formalization, migration and manuscript preparation; originating the barrier/eigenweight argument is not specifically attributed."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4048",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+          "sourceHash": "c252628e6df2f41c12dd4c2355266cc2f116bb201a8ffef42ac19307f7bf2067",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Check filter normalization, level indexing, aliasing and the all-period lower-limit argument. Earlier empty-diagram skeletons are not proofs. Bibliographic priority is unresolved; persistence stability and supplied Lipschitz/seminorm comparisons remain hypotheses. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner discloses Grok-generated closed-form proof scripts and GPT-6 Astra inspection, proof drafting and exact checks."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4049",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "Parish/Plasma AI report alternating GPT-6 Astra and Claude Opus5.5 research producing the mathematical proof, including countable Hilbert partitions and rooted-pattern cost bounds.",
+            "evidenceSummary": "Parish/Plasma AI report alternating GPT-6 Astra and Claude Opus5.5 research producing the mathematical proof, including countable Hilbert partitions and rooted-pattern cost bounds.",
+            "evidenceSourceIds": [
+              "Daily20261020_4049",
+              "Daily20261020_4049_support",
+              "Daily20261020_4049_registration"
+            ],
+            "sourceHash": "1e03cb42063081f3ce9a9059af1473a81f5d2076ceb0d6574cbc154fc380f26c",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "1e03cb42063081f3ce9a9059af1473a81f5d2076ceb0d6574cbc154fc380f26c",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit arbitrary-product laws, singular-cardinal chains and the limit order. Check exact finite-density/catalog equivalence and historical attribution. Owner-reported Lean/agent reviews are not an independent expert validation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Parish/Plasma AI report alternating GPT-6 Astra and Claude Opus5.5 research producing the mathematical proof, including countable Hilbert partitions and rooted-pattern cost bounds."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4050",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "Plasma AI credits GPT-6 Astra and Claude Opus5.5 with original mathematical research, extending OpenAI’s carrier/rigidity machinery to algebraic closures of Q(x).",
+            "evidenceSummary": "Plasma AI credits GPT-6 Astra and Claude Opus5.5 with original mathematical research, extending OpenAI’s carrier/rigidity machinery to algebraic closures of Q(x).",
+            "evidenceSourceIds": [
+              "Daily20261020_4050",
+              "Daily20261020_4050_support",
+              "Daily20261020_4050_registration"
+            ],
+            "sourceHash": "7b25edff14197b91a14861579f7d709c19fbaa4c4d4fdb39a478376691633b4a",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "7b25edff14197b91a14861579f7d709c19fbaa4c4d4fdb39a478376691633b4a",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit arbitrary-to-measurable transfer, all real ratios including transcendental ones, circle exclusion and reflected/relabelled copies. Separate new extensions from34 vendored OpenAI modules and check exact claimed coverage of the historical conjecture. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Plasma AI credits GPT-6 Astra and Claude Opus5.5 with original mathematical research, extending OpenAI’s carrier/rigidity machinery to algebraic closures of Q(x)."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4051",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The primary metadata specifically attributes blueprint, statement-interface, extended-graph proof development and integration to Claude Opus5.5/Claude Code, with parallel proof subagents. Vendored OpenAI and totient-fibers AI provenance is separately credited; no GPT research attribution is inferred for this package.",
+            "evidenceSummary": "The primary metadata specifically attributes blueprint, statement-interface, extended-graph proof development and integration to Claude Opus5.5/Claude Code, with parallel proof subagents. Vendored OpenAI and totient-fibers AI provenance is separately credited; no GPT research attribution is inferred for this package.",
+            "evidenceSourceIds": [
+              "Daily20261020_4051",
+              "Daily20261020_4051_support",
+              "Daily20261020_4051_registration"
+            ],
+            "sourceHash": "384c125299f06b1b1f03198c01f80b2518ce64d393d79be8279fd38ac23d92a1",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "384c125299f06b1b1f03198c01f80b2518ce64d393d79be8279fd38ac23d92a1",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit quantitative weighted extensions of PD, the rectangle extraction, spare-slot removal and renewal estimates. Printed qualitative PD statements alone do not imply the needed rates. Verify the vendored zero-free and graph dependencies and exact correspondence; do not call question3 solved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The primary metadata specifically attributes blueprint, statement-interface, extended-graph proof development and integration to Claude Opus5.5/Claude Code, with parallel proof subagents. Vendored OpenAI and totient-fibers AI provenance is separately credited; no GPT research attribution is inferred for this package."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4052",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "aab687a019de3373846a5d27ed59c87d8f3a6ad07fe9fe7d4a09b4b9e915e1f1",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit finite past versus infinite future endpoints, attainability versus limit sharpness, exact digit classes and stability equality loci. Classical metallic thresholds are not new; worldwide priority and independent statement/kernel replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jones credits Codex/GPT-6 mathematical arguments and formal proofs, GPT-6 Pro feedback/extensions and preliminary Gemini discussion."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4053",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "760b21dd8f1401616c602832aa95c8ef0668475a005ed153bf16f7c3d780f795",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Retrieve the original supplied manuscript and establish its dated public visibility and novelty. Audit actual filtered energies, all four induction recurrences, gauge normalization and Fourier reconstruction; Comparator/registry checks are pending and AI mathematical allocation remains unclear. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Yongxi Lin records Codex-drafted proof statements and Lean proofs from a supplied manuscript; the originating informal mathematical AI role is not established."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4054",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "56ae1ed5df02a44e4698e5caee382fcf263dd94bb660c9712b363b8fe42390f6",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Recover earlier unpublished proof chronology and check novelty, radial-weight normalization, strict superlevel convention and exact reproducing-kernel semantics. Boundedness is essential: the unrestricted simply-connected statement is false for the half-plane. Final Comparator checks are pending. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Lin explicitly records Codex-assisted statement audits, Lean proof development and mathematical source analysis. Earlier informal proofs are owner-supplied; AI origination is not established."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4055",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: this is a useful specialist extension or conditional deduction, not a fresh settlement of the parent historical target.",
+          "sourceHash": "3b085ef2ea658befc450109da1c9677e93647e1472149900857e3201edf5e266",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit literal XOR-mask physical recurrence, supplied versus constructible decoder assumptions, encoded size/tick/storage contracts and valid eligibility constraints. Do not turn selected interfaces into arbitrary-CNF recognition, unrestricted complexity classification or whole-paper completion. Recover DOI first-public date and mathematical AI allocation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Shaik discloses GPT-6/Codex and Claude Opus5.5 assistance constructing proofs and formal implementations under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-19",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-19",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4056",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "f398e3e834f4d65d5dd1893968a951c012a11e42491bfa2b2eff7939d3b0eae0",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Locate the primary mathematical notes, original public dates, AI allocation and novelty of the mixed-level determinant correction and presentation repairs. Audit hypotheses on H1,H2 and distinguish modular from all curve automorphisms. The source’s classical theorem formalizations alone do not qualify. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The pinned README explicitly says two AI reviewer agents reviewed statements, blind and adversarial. It does not identify material AI discovery or prove independent human validation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-20",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-20",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4057",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "ad29d07446ca366a2d6a582c4340fbee8f92ff29a2ec1e4a42d10e287e791eef",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the all-order frame/Wick contractions, reverse-proposal O(1/d) control and comparison with earlier unresolved quadratic proofs and the d^(9/4) bound. The primary history and HTML explicitly date v1 Aug15 despite its2610 identifier and October listing: preserve that source-reported date as uncertain chronology, not inferred October first-public. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The abstract explicitly states ChatGPT5.6 Pro found the proof; the author reports checking it and plans draft refinement."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-08-15",
+            "dateBasis": "Primary arXiv history and HTML report August15; inconsistent2610 identifier/October listing retained as explicit chronology flag.",
+            "originalPublicationDate": "2026-08-15",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4058",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "f7874de187ede9bf7415d673c603afd3513615752197134faebf00d499f4fdd2",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit exact sequence quantifiers, sieve remainder versus averaged residue bound and balanced operator obstruction. Do not claim the missing two-point inequality or fixed-K almost-prime theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-10",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-10",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4059",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "9151d2bf5110782500dafe3b1a8949755890dd6cb30bd2df1e4325881babfac7",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit angular cusp derivatives and uniformity in conductor/type, normalization and poles. Compare Yates’s earlier conditional note; do not count the already-stated zero-free conclusion alone as novel. Distribution/least-prime refinements form the separately reported contribution. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4060",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "9a376a03ef7eda845e8b6afeaa6d2589ea592ccb035c118dc209607100da16bb",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit reachability of every member of a double eigenspace and spectral/smooth-domain approximation. Compare existing4028 Burdzy’s rough-domain conditional proof; this independently attributed convex/double-eigenspace proof package is not a new first settlement of the parent hot-spots target. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-10",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-10",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4061",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+            "evidenceSummary": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review.",
+            "evidenceSourceIds": [
+              "Daily20261020_4061",
+              "Daily20261020_4061_support"
+            ],
+            "sourceHash": "b5265c0337b56f4262c390e19521160982b578ea419304d44b35c1ceda346049",
+            "assessedAt": "2026-10-20"
+          },
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Relative to the human frontier before the report: the source reports a full resolution of the specified historical open target; this is task-specific, conditional on its exact scope.",
+          "sourceHash": "b5265c0337b56f4262c390e19521160982b578ea419304d44b35c1ceda346049",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the named operator/column and transfer estimates, all-N rather than averaged quantifiers and the conditional Lean endpoint. Independently compare Meng/Pouly and the Corrádi–Kátai history. Zero-free-derived PartII bounds must not be counted as unrelated new settlements. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4062",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "02e6c20e1a5dc2697b6d7554fe74627bddbd651c4a937ad501408aeb1ee05abb",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit graph-estimate adaptations for displacements depending onN and removed prime factors. The prime-factor bound grows withN; neither fixed almost-prime order nor prime summands are proved, and thresholds are ineffective. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-09",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4063",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "85d0f9d95ece24c5280d3653650c1550b680959ddbdf2bc80947c837bc5ed55e",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit modified padding/vertex/sieve operators and every re-proved bound rather than treating changed operators as immediate corollaries. h is fixed and the almost-prime count grows withX; no fixed-K or prime-pair theorem follows. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-10",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-10",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4064",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "c28859a60a8924b8ee1b08368bf1d3c3bd4c511d7c0aab00025b51e1a0106755",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit general-shift coprimality and local factors at primes dividing2h, both projections and uniformity. Earlier h=-1 even-parity theorem is a credited input; this is a stated extension, not a fresh first solution of that parent result. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-09",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-09",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4065",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "c987806403693b39601c9626d2712ebe5cdf8ffe0696f199bbc1d84b332535ec",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit extended fourth-moment range and skew optimization and compare independently reported Gao/Liu bounds. Hypothesis11.1 and its328/375 consequence remain unproved/conditional; exact arithmetic certificates are not independent verification of analytic inputs. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jizhou Guo’s pinned owner README directly attributes proofs and texts to GPT-6 Astra, GPT-6.1 Sol, Claude Opus5.5 and Sonnet5.5 under human direction; AI review is reported, not human peer review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Earliest path-specific repository commit observed in the complete returned history; manuscript date and public visibility may differ.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "backfill"
+          }
+        }
+      }
+    ]
   }
 ]
