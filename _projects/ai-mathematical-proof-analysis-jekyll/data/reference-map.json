@@ -64363,5 +64363,571 @@
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-16-000023-v1.json",
       "accessed": "2026-10-17"
     }
+  ],
+  "4035": [
+    {
+      "key": "Daily20261020_4035",
+      "title": "Rényi and Tsallis entropy monotonicity for Bernoulli sums — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/renyi-monotonicity/blob/f990878ac03c85b08e80f8b169cbec5941d34e6a/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4035_support",
+      "title": "Rényi and Tsallis entropy monotonicity for Bernoulli sums — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/renyi-monotonicity/blob/f990878ac03c85b08e80f8b169cbec5941d34e6a/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4035_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000010-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4036": [
+    {
+      "key": "Daily20261020_4036",
+      "title": "The connected size-Ramsey number rhat_c(4K2,C4)=17 — primary statement",
+      "url": "https://github.com/benkeene/size-ramsey/blob/3233dcdd4807cbc808f68582d913c4f463047de2/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4036_support",
+      "title": "The connected size-Ramsey number rhat_c(4K2,C4)=17 — scope and AI disclosure",
+      "url": "https://github.com/benkeene/size-ramsey/blob/3233dcdd4807cbc808f68582d913c4f463047de2/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4036_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000012-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4037": [
+    {
+      "key": "Daily20261020_4037",
+      "title": "First Betti numbers of a five-generated numerical-semigroup family — primary statement",
+      "url": "https://github.com/benkeene/five-generator-betti/blob/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4037_support",
+      "title": "First Betti numbers of a five-generated numerical-semigroup family — scope and AI disclosure",
+      "url": "https://github.com/benkeene/five-generator-betti/blob/65cd1b7289ed27ff6ffec32c5644a8b4323918d2/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4037_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000014-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4038": [
+    {
+      "key": "Daily20261020_4038",
+      "title": "Multi-generator kernel windows and density asymptotics for Huang’s quadratic form — primary statement",
+      "url": "https://github.com/Flaman55/NumericalSemigroups/blob/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4038_support",
+      "title": "Multi-generator kernel windows and density asymptotics for Huang’s quadratic form — scope and AI disclosure",
+      "url": "https://github.com/Flaman55/NumericalSemigroups/blob/a872b68c6a0d0f09fba702347fdc75b3b5ec8491/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4038_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000016-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4039": [
+    {
+      "key": "Daily20261020_4039",
+      "title": "Optimal local decompression: conditional uniform finite-view reduction — primary statement",
+      "url": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4039_support",
+      "title": "Optimal local decompression: conditional uniform finite-view reduction — scope and AI disclosure",
+      "url": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23346565/palomar/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4039_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000017-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4040": [
+    {
+      "key": "Daily20261020_4040",
+      "title": "Planar Pólya–Szegő buckling inequality — primary statement",
+      "url": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4040_support",
+      "title": "Planar Pólya–Szegő buckling inequality — scope and AI disclosure",
+      "url": "https://github.com/QuanyuTang/polya-szego-planar-unconditional-palomar/blob/5311f47821b5da92e81e75b7da5091d176c8deb9/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4040_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000008-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4041": [
+    {
+      "key": "Daily20261020_4041",
+      "title": "Lossy distance-shell tomography on paths from mean and covariance — primary statement",
+      "url": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4041_support",
+      "title": "Lossy distance-shell tomography on paths from mean and covariance — scope and AI disclosure",
+      "url": "https://github.com/lennrt/palomar-formalizations/blob/9a61a84e3a2e1494bc08b8eaf714c42f3f918325/zenodo-23304384/palomar/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4041_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000024-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4042": [
+    {
+      "key": "Daily20261020_4042",
+      "title": "Pointwise convergence for two commuting transformations — primary statement",
+      "url": "https://github.com/roos-j/lean-twocommuting/blob/5abb8fad6c99fe19850cbdabe3096ed7745dda11/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4042_support",
+      "title": "Pointwise convergence for two commuting transformations — scope and AI disclosure",
+      "url": "https://github.com/roos-j/lean-twocommuting/blob/5abb8fad6c99fe19850cbdabe3096ed7745dda11/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4042_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000026-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4043": [
+    {
+      "key": "Daily20261020_4043",
+      "title": "Systolic growth in every genus — primary statement",
+      "url": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4043_support",
+      "title": "Systolic growth in every genus — scope and AI disclosure",
+      "url": "https://github.com/nihargargava/systole_bound/blob/a54807b9bf6cbd61194c1fb78da380535ec8a871/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4043_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000028-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4044": [
+    {
+      "key": "Daily20261020_4044",
+      "title": "Persistent failure of Euclidean quartic SOS exactness — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/persistent-sos/blob/54dc5a01cc16e850e3350ba0aa1bd8a8e5b67c5d/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4044_support",
+      "title": "Persistent failure of Euclidean quartic SOS exactness — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/persistent-sos/blob/54dc5a01cc16e850e3350ba0aa1bd8a8e5b67c5d/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4044_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-18-000030-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4045": [
+    {
+      "key": "Daily20261020_4045",
+      "title": "Polynomial-time Hamiltonian s–t paths in solid grid graphs — primary statement",
+      "url": "https://github.com/zzyzek/SolidGridGraphHamPath/blob/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4045_support",
+      "title": "Polynomial-time Hamiltonian s–t paths in solid grid graphs — scope and AI disclosure",
+      "url": "https://github.com/zzyzek/SolidGridGraphHamPath/blob/2bacb1aa9851ed6c653dbc8b33044e898f0baecc/lean/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4045_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000001-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4046": [
+    {
+      "key": "Daily20261020_4046",
+      "title": "Unified Kalman-type stochastic controllability classification — primary statement",
+      "url": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4046_support",
+      "title": "Unified Kalman-type stochastic controllability classification — scope and AI disclosure",
+      "url": "https://github.com/MrGodfrey/LeanForCriteriaForLinearStochastic/blob/c088eb9943197e88c4b046223239d4c4f0180513/formalization/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4046_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000002-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4047": [
+    {
+      "key": "Daily20261020_4047",
+      "title": "Survival and transience above the compartment-division threshold — primary statement",
+      "url": "https://github.com/mmislan/palomar-compartment-division-threshold/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4047_support",
+      "title": "Survival and transience above the compartment-division threshold — scope and AI disclosure",
+      "url": "https://github.com/mmislan/palomar-compartment-division-threshold/blob/c5dacf41f334ccc781c4bda691c388b6214befb2/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4047_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000003-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4048": [
+    {
+      "key": "Daily20261020_4048",
+      "title": "Exact db2 cascade norms and the optimal uniform constant — primary statement",
+      "url": "https://github.com/jelincovil/tws-palomar/blob/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4048_support",
+      "title": "Exact db2 cascade norms and the optimal uniform constant — scope and AI disclosure",
+      "url": "https://github.com/jelincovil/tws-palomar/blob/eb2e7a7e48a5c96450bd514fb9346f3be1119e70/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4048_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000005-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4049": [
+    {
+      "key": "Daily20261020_4049",
+      "title": "Erdős111: bipartizing finite subgraphs of uncountably chromatic graphs — primary statement",
+      "url": "https://github.com/plasma-ai/erdos-111/blob/de72caf0e388c729697b6813f4ea90bfe1617c7b/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4049_support",
+      "title": "Erdős111: bipartizing finite subgraphs of uncountably chromatic graphs — scope and AI disclosure",
+      "url": "https://github.com/plasma-ai/erdos-111/blob/de72caf0e388c729697b6813f4ea90bfe1617c7b/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4049_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000007-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4050": [
+    {
+      "key": "Daily20261020_4050",
+      "title": "Erdős173: monochromatic triangles in two-colorings of the plane — primary statement",
+      "url": "https://github.com/plasma-ai/erdos-173/blob/4a368a652753fab53272f7a747755876f04bc2cc/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4050_support",
+      "title": "Erdős173: monochromatic triangles in two-colorings of the plane — scope and AI disclosure",
+      "url": "https://github.com/plasma-ai/erdos-173/blob/4a368a652753fab53272f7a747755876f04bc2cc/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4050_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000008-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4051": [
+    {
+      "key": "Daily20261020_4051",
+      "title": "Erdős408: normal order of iterated totient height — primary statement",
+      "url": "https://github.com/plasma-ai/erdos-408/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4051_support",
+      "title": "Erdős408: normal order of iterated totient height — scope and AI disclosure",
+      "url": "https://github.com/plasma-ai/erdos-408/blob/4ea44bf911f8668aec10ec25c4b309e8ed476666/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4051_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000009-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4052": [
+    {
+      "key": "Daily20261020_4052",
+      "title": "Sharp continued-fraction bounds from exact digit runs — primary statement",
+      "url": "https://github.com/JD-Jones-ASES/continued-fraction-bounds/blob/a7657a01aec49be60f36a2cda8e6c6bfcd3840c3/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4052_support",
+      "title": "Sharp continued-fraction bounds from exact digit runs — scope and AI disclosure",
+      "url": "https://github.com/JD-Jones-ASES/continued-fraction-bounds/blob/a7657a01aec49be60f36a2cda8e6c6bfcd3840c3/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4052_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000017-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4053": [
+    {
+      "key": "Daily20261020_4053",
+      "title": "Falconer distance sets for stretched logarithmic gauges — primary statement",
+      "url": "https://github.com/CoolRmal/falconer-theta-gauge/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4053_support",
+      "title": "Falconer distance sets for stretched logarithmic gauges — scope and AI disclosure",
+      "url": "https://github.com/CoolRmal/falconer-theta-gauge/blob/98d3222b42ba5fcaeb56068cf2d542c3d4851d80/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4053_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000011-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4054": [
+    {
+      "key": "Daily20261020_4054",
+      "title": "Sharp and weighted Bergman weak-type constants and bounded-domain rigidity — primary statement",
+      "url": "https://github.com/CoolRmal/bergman-weak-type/blob/600df3646a6070299e831b565a3be0585483ee2c/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4054_support",
+      "title": "Sharp and weighted Bergman weak-type constants and bounded-domain rigidity — scope and AI disclosure",
+      "url": "https://github.com/CoolRmal/bergman-weak-type/blob/600df3646a6070299e831b565a3be0585483ee2c/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4054_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000019-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4055": [
+    {
+      "key": "Daily20261020_4055",
+      "title": "Exact fault images and guarded detection in priority controllers — primary statement",
+      "url": "https://github.com/shaikidris/priority-controller-phase1/blob/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4055_support",
+      "title": "Exact fault images and guarded detection in priority controllers — scope and AI disclosure",
+      "url": "https://github.com/shaikidris/priority-controller-phase1/blob/f4c18653ccc2590ff6d2fe7ca2ff1d904d62681d/formalization.yaml",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4055_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000010-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4056": [
+    {
+      "key": "Daily20261020_4056",
+      "title": "Mixed-level modular normalizers and corrected finite presentations — primary statement",
+      "url": "https://github.com/F-Najman/normalizer-lean/blob/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4056_support",
+      "title": "Mixed-level modular normalizers and corrected finite presentations — scope and AI disclosure",
+      "url": "https://github.com/F-Najman/normalizer-lean/blob/ced09d036011ea091d0f2a4acb681cf2a43dbb7e/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4056_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-20-000011-v1.json",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4057": [
+    {
+      "key": "Daily20261020_4057",
+      "title": "Quadratic mixing for the Lee–Sidford Dikin walk — primary statement",
+      "url": "https://arxiv.org/abs/2610.22374v1",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4057_support",
+      "title": "Quadratic mixing for the Lee–Sidford Dikin walk — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.22374v1",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4058": [
+    {
+      "key": "Daily20261020_4058",
+      "title": "Liouville almost-prime reductions and two obstruction model sequences — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/almost-prime-pairs-reduction/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4058_support",
+      "title": "Liouville almost-prime reductions and two obstruction model sequences — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4059": [
+    {
+      "key": "Daily20261020_4059",
+      "title": "Angular-type CM Hecke zero-free half-planes — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/cm-elliptic-curves/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4059_support",
+      "title": "Angular-type CM Hecke zero-free half-planes — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4060": [
+    {
+      "key": "Daily20261020_4060",
+      "title": "Convex planar hot spots including double eigenvalues — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/hot-spots-convex-planar/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4060_support",
+      "title": "Convex planar hot spots including double eigenvalues — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4061": [
+    {
+      "key": "Daily20261020_4061",
+      "title": "Goldbach-type Liouville sign equidistribution — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/liouville-goldbach/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4061_support",
+      "title": "Goldbach-type Liouville sign equidistribution — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4062": [
+    {
+      "key": "Daily20261020_4062",
+      "title": "Rough Goldbach summands with prescribed Liouville signs — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/rough-goldbach-parity/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4062_support",
+      "title": "Rough Goldbach summands with prescribed Liouville signs — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4063": [
+    {
+      "key": "Daily20261020_4063",
+      "title": "Rough numbers at fixed distance with prescribed Liouville signs — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/rough-pairs-fixed-distance/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4063_support",
+      "title": "Rough numbers at fixed distance with prescribed Liouville signs — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4064": [
+    {
+      "key": "Daily20261020_4064",
+      "title": "Shifted primes with prescribed prime-factor parity — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/shifted-prime-parity/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4064_support",
+      "title": "Shifted primes with prescribed prime-factor parity — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
+  ],
+  "4065": [
+    {
+      "key": "Daily20261020_4065",
+      "title": "An independently parameter-optimized zero-free half-plane beyond7/8 — primary statement",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/zero-free-beyond-7-8/README.md",
+      "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261020_4065_support",
+      "title": "An independently parameter-optimized zero-free half-plane beyond7/8 — scope and AI disclosure",
+      "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
+      "accessed": "2026-10-20"
+    }
   ]
 }

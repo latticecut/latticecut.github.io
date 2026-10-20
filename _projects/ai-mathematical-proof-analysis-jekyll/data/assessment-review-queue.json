@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-17",
+  "assessedAt": "2026-10-20",
   "samplingWeek": 2963,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -31880,6 +31880,329 @@
       "priority": 1,
       "reasons": [
         "Establish novelty/materiality of the explicit positive bound and repaired proof route, as distinct from known waist formalizations. Audit spherical versus chordal metric, unnormalized Hausdorff measure and conversion factor omega_d/2^d, fiber quantifiers and selection continuity. Do not claim the sharp Gromov Hausdorff conjecture, or count all nine classical endpoints as new discoveries. Exact human/AI allocation and independent proof/statement replay remain unresolved. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4035",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Check the 2018 conjecture correspondence, the closed-cube first-contact argument for q<1 and the full rather than historical association-only Comparator contract. Agent reviews and owner builds are not independent human verification. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4036",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check novelty against the 2025 conjecture and computational literature and exact equality cases. The universal arbitrary-bridge-endpoint reading is not formalized; only the fixed host is. The sixth statement postdates some agent reviews. No independent human expert audit is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4037",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the invariant/presentation equivalence and family minimality and check prior five-generator constructions. Do not count the admitted finite-width bound as proved, or automated lab acceptance as human peer review. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4038",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Recover the earlier Zenodo manuscript publication date and distinguish original May development from October extensions. Audit multiset versus subset conventions and stronger monotonicity hypotheses; runtime complexities are not formal conclusions. Novelty and exact retained mathematical AI allocation remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4039",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "The external orientation algorithm, normalization to its record, computability and small/disconnected-component assembly are not formalized. Do not advertise an unconditional operational LOCAL solution. Recover the Oct13 manuscript’s actual public deposit date. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4040",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "The informal target manuscript is private and unavailable here. Independently audit standard variational definitions, capacity-zero modifications and the exact-disk equality claim, dependency closure and exact-commit workflow results. Earlier PaperExternals assumptions must not be mistaken for the reported unconditional completion. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4041",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check first deposit/version chronology against related1309/3557 but this is a distinct stochastic two-leg model. Audit bypass law, sparse recovery and probability endpoint semantics; full finite-sample guarantees are not formalized and the selected lower-bound coefficient is n/2 rather than manuscript n. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4042",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Read the Oct8 blueprint’s exact exponent and averaging conventions and audit the adaptation, infinite-exponent endpoints and everywhere commutation. This is pointwise, not Tao’s known norm convergence; norm conclusions are outside the selected formal scope. Earlier blueprint public visibility is not established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4043",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the passage from arithmetic subsequences to every sufficiently large genus, at least33 prime-cube summands, chain gluing and conformal curvature normalization preserving the lower bound. No supremum attainment is claimed; separate novelty and exact-commit statement replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4044",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit ordinary-polynomial semantics, exact moment positivity, radial minimization and the unique-minimizer Hessian. No optimal SOS value, minimal dimension, higher-hierarchy result or independent human specialist review is established. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4045",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit the 1982 open problem match, solid/no-hole definitions, endpoint phantom edges and vortex/slit repair. The polynomial bound uses costs attached to the algorithm, not a separately machine-verified conventional bit-complexity theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4046",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "The current metadata records10 proof holes and five proof/scope revisions. Audit the decreasing-subspace obstruction, stochastic duality and each control notion against revised main.tex; historical384-module checks do not verify the current port or whole manuscript. Exact role, novelty and independent verification remain open. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4047",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the actual process construction, nonexplosion and arbitrary daughter allocations, the v4 Remark4.8 correspondence, occupation-time bound and unbounded immigrant contents. Establish material AI mathematics versus translating a completed human proof. The target dates to2025, not a long-standing historical frontier. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4048",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check filter normalization, level indexing, aliasing and the all-period lower-limit argument. Earlier empty-diagram skeletons are not proofs. Bibliographic priority is unresolved; persistence stability and supplied Lipschitz/seminorm comparisons remain hypotheses. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4049",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit arbitrary-product laws, singular-cardinal chains and the limit order. Check exact finite-density/catalog equivalence and historical attribution. Owner-reported Lean/agent reviews are not an independent expert validation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4050",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit arbitrary-to-measurable transfer, all real ratios including transcendental ones, circle exclusion and reflected/relabelled copies. Separate new extensions from34 vendored OpenAI modules and check exact claimed coverage of the historical conjecture. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4051",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit quantitative weighted extensions of PD, the rectangle extraction, spare-slot removal and renewal estimates. Printed qualitative PD statements alone do not imply the needed rates. Verify the vendored zero-free and graph dependencies and exact correspondence; do not call question3 solved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4052",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit finite past versus infinite future endpoints, attainability versus limit sharpness, exact digit classes and stability equality loci. Classical metallic thresholds are not new; worldwide priority and independent statement/kernel replay remain unresolved. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4053",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Retrieve the original supplied manuscript and establish its dated public visibility and novelty. Audit actual filtered energies, all four induction recurrences, gauge normalization and Fourier reconstruction; Comparator/registry checks are pending and AI mathematical allocation remains unclear. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4054",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Recover earlier unpublished proof chronology and check novelty, radial-weight normalization, strict superlevel convention and exact reproducing-kernel semantics. Boundedness is essential: the unrestricted simply-connected statement is false for the half-plane. Final Comparator checks are pending. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4055",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit literal XOR-mask physical recurrence, supplied versus constructible decoder assumptions, encoded size/tick/storage contracts and valid eligibility constraints. Do not turn selected interfaces into arbitrary-CNF recognition, unrestricted complexity classification or whole-paper completion. Recover DOI first-public date and mathematical AI allocation. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4056",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Locate the primary mathematical notes, original public dates, AI allocation and novelty of the mixed-level determinant correction and presentation repairs. Audit hypotheses on H1,H2 and distinguish modular from all curve automorphisms. The source’s classical theorem formalizations alone do not qualify. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4057",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the all-order frame/Wick contractions, reverse-proposal O(1/d) control and comparison with earlier unresolved quadratic proofs and the d^(9/4) bound. The primary history and HTML explicitly date v1 Aug15 despite its2610 identifier and October listing: preserve that source-reported date as uncertain chronology, not inferred October first-public. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4058",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit exact sequence quantifiers, sieve remainder versus averaged residue bound and balanced operator obstruction. Do not claim the missing two-point inequality or fixed-K almost-prime theorem. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4059",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit angular cusp derivatives and uniformity in conductor/type, normalization and poles. Compare Yates’s earlier conditional note; do not count the already-stated zero-free conclusion alone as novel. Distribution/least-prime refinements form the separately reported contribution. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4060",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit reachability of every member of a double eigenspace and spectral/smooth-domain approximation. Compare existing4028 Burdzy’s rough-domain conditional proof; this independently attributed convex/double-eigenspace proof package is not a new first settlement of the parent hot-spots target. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4061",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit the named operator/column and transfer estimates, all-N rather than averaged quantifiers and the conditional Lean endpoint. Independently compare Meng/Pouly and the Corrádi–Kátai history. Zero-free-derived PartII bounds must not be counted as unrelated new settlements. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4062",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit graph-estimate adaptations for displacements depending onN and removed prime factors. The prime-factor bound grows withN; neither fixed almost-prime order nor prime summands are proved, and thresholds are ineffective. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4063",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit modified padding/vertex/sieve operators and every re-proved bound rather than treating changed operators as immediate corollaries. h is fixed and the almost-prime count grows withX; no fixed-K or prime-pair theorem follows. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4064",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit general-shift coprimality and local factors at primes dividing2h, both projections and uniformity. Earlier h=-1 even-parity theorem is a credited input; this is a stated extension, not a fresh first solution of that parent result. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4065",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit extended fourth-moment range and skew optimization and compare independently reported Gao/Liu bounds. Hypothesis11.1 and its328/375 consequence remain unproved/conditional; exact arithmetic certificates are not independent verification of analytic inputs. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
