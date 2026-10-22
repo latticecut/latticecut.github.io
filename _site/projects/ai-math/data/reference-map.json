@@ -39576,6 +39576,12 @@
       "title": "Weighted support criteria for reciprocal Mersenne subseries — supporting primary evidence 2",
       "url": "https://palomar-registry.org/entry.html?id=PALOMAR-2026-09-25-000009&version=1",
       "accessed": "2026-09-26"
+    },
+    {
+      "key": "Daily20261022_2894",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/52f29ad173b04e3bac941b3663f2b9aebe5de0bb/README.md",
+      "accessed": "2026-10-22"
     }
   ],
   "2895": [
@@ -63272,6 +63278,12 @@
       "title": "Zero-density estimates with a uniform 39/17 coefficient — dated registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-11-000010-v1.json",
       "accessed": "2026-10-11"
+    },
+    {
+      "key": "Daily20261022_3978",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/mrklwk/zeta-density-39-over-17-lean/blob/c55fc0088bd4d7e61c5934abc5dd9153e8cb2f5d/README.md",
+      "accessed": "2026-10-22"
     }
   ],
   "3979": [
@@ -64782,6 +64794,12 @@
       "title": "Dated primary registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-19-000010-v1.json",
       "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261022_4055",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/shaikidris/priority-controller-phase1/blob/a510ea7e76d9b10e21e7f4db8f57fd3a3468a090/README.md",
+      "accessed": "2026-10-22"
     }
   ],
   "4056": [
@@ -64928,6 +64946,376 @@
       "title": "An independently parameter-optimized zero-free half-plane beyond7/8 — scope and AI disclosure",
       "url": "https://github.com/aster2024/openai-math-followups/blob/a371d874a63222dd662a2ce4ce0562df0c210eb2/README.md",
       "accessed": "2026-10-20"
+    }
+  ],
+  "4066": [
+    {
+      "key": "Daily20261022_4066",
+      "title": "A New Bound for the Gauss Circle Problem — primary statement",
+      "url": "https://arxiv.org/abs/2610.21730v1",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4066_support",
+      "title": "A New Bound for the Gauss Circle Problem — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.21730v1",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4067": [
+    {
+      "key": "Daily20261022_4067",
+      "title": "Optimally large cuts in both directions — primary statement",
+      "url": "https://arxiv.org/abs/2610.21381v1",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4067_support",
+      "title": "Optimally large cuts in both directions — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.21381v1",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4068": [
+    {
+      "key": "Daily20261022_4068",
+      "title": "Disproof of Wright’s Problems14 and15 on lacunary maximal functions — primary statement",
+      "url": "https://arxiv.org/abs/2610.23563v1",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4068_support",
+      "title": "Disproof of Wright’s Problems14 and15 on lacunary maximal functions — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.23563v1",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4069": [
+    {
+      "key": "Daily20261022_4069",
+      "title": "Sphere-preserving non-expansive maps of Banach unit balls — primary statement",
+      "url": "https://arxiv.org/abs/2610.28111v1",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4069_support",
+      "title": "Sphere-preserving non-expansive maps of Banach unit balls — scope and AI disclosure",
+      "url": "https://arxiv.org/pdf/2610.28111v1",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4070": [
+    {
+      "key": "Daily20261022_4070",
+      "title": "Proof of the Erdős–Szemerédi sunflower conjecture — primary statement",
+      "url": "https://arxiv.org/abs/2610.26686v1",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4070_support",
+      "title": "Proof of the Erdős–Szemerédi sunflower conjecture — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.26686v1",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4071": [
+    {
+      "key": "Daily20261022_4071",
+      "title": "Noncrossing two-nearest-predecessor orders on nearly circular ellipses — primary statement",
+      "url": "https://github.com/jfairfaxball-348/ellipse-theorem/blob/4c9357026442675255c69bb823edf76a3f47cb86/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4071_support",
+      "title": "Noncrossing two-nearest-predecessor orders on nearly circular ellipses — scope and AI disclosure",
+      "url": "https://github.com/jfairfaxball-348/ellipse-theorem/blob/4c9357026442675255c69bb823edf76a3f47cb86/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4071_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000027-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4072": [
+    {
+      "key": "Daily20261022_4072",
+      "title": "The LSBGCD sum-of-squares conjecture — primary statement",
+      "url": "https://github.com/jasondavies/lsbgcd/blob/8423f4e77e1ab3a13423530151d69a1ef7125510/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4072_support",
+      "title": "The LSBGCD sum-of-squares conjecture — scope and AI disclosure",
+      "url": "https://github.com/jasondavies/lsbgcd/blob/8423f4e77e1ab3a13423530151d69a1ef7125510/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4072_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000018-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4073": [
+    {
+      "key": "Daily20261022_4073",
+      "title": "Fixed-force anomalous dissipation with near-total energy loss — primary statement",
+      "url": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean/blob/52985f1bb56a05c107523d2265445d0cd38f5619/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4073_support",
+      "title": "Fixed-force anomalous dissipation with near-total energy loss — scope and AI disclosure",
+      "url": "https://github.com/geogleswift-glitch/fixed-force-anomalous-dissipation-lean/blob/52985f1bb56a05c107523d2265445d0cd38f5619/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4073_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000013-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4074": [
+    {
+      "key": "Daily20261022_4074",
+      "title": "Strict fourth consecutive Dirichlet-eigenvalue ratio bound — primary statement",
+      "url": "https://github.com/RGConj/fourth-consecutive-ratio-palomar/blob/55ff1f42612a01b2fbe4a1eafc618cdcf83c3b75/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4074_support",
+      "title": "Strict fourth consecutive Dirichlet-eigenvalue ratio bound — scope and AI disclosure",
+      "url": "https://github.com/RGConj/fourth-consecutive-ratio-palomar/blob/55ff1f42612a01b2fbe4a1eafc618cdcf83c3b75/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4074_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000012-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4075": [
+    {
+      "key": "Daily20261022_4075",
+      "title": "A two-generator thirteen-relator universal group — primary statement",
+      "url": "https://github.com/32805433/Universal-Group/blob/6416dd36ad22f3684583457f234519bafc851396/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4075_support",
+      "title": "A two-generator thirteen-relator universal group — scope and AI disclosure",
+      "url": "https://github.com/32805433/Universal-Group/blob/6416dd36ad22f3684583457f234519bafc851396/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4075_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000010-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4076": [
+    {
+      "key": "Daily20261022_4076",
+      "title": "Explicit Liénard systems with many limit cycles — primary statement",
+      "url": "https://github.com/mmislan/palomar-lienard-limit-cycles/blob/7da225327c6cd62a3dc63926525377764ea8f454/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4076_support",
+      "title": "Explicit Liénard systems with many limit cycles — scope and AI disclosure",
+      "url": "https://github.com/mmislan/palomar-lienard-limit-cycles/blob/7da225327c6cd62a3dc63926525377764ea8f454/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4076_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000008-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4077": [
+    {
+      "key": "Daily20261022_4077",
+      "title": "An XP maximum-weight independent-set algorithm parameterized by surface topology and odd faces — primary statement",
+      "url": "https://github.com/RBarish-UTokyo/MaxWeightIS-XP-EulerGenusOddFaces-Lean4/blob/00f581e7401feedce30699ae94763d4afbfb2f6f/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4077_support",
+      "title": "An XP maximum-weight independent-set algorithm parameterized by surface topology and odd faces — scope and AI disclosure",
+      "url": "https://github.com/RBarish-UTokyo/MaxWeightIS-XP-EulerGenusOddFaces-Lean4/blob/00f581e7401feedce30699ae94763d4afbfb2f6f/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4077_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000006-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4078": [
+    {
+      "key": "Daily20261022_4078",
+      "title": "A general filtered-algebra Stafford identity — primary statement",
+      "url": "https://github.com/itpplasma/symplectic-stafford-formal/blob/0e55a8059cc923ef39d6ddb66c5b6f6a2682b46b/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4078_support",
+      "title": "A general filtered-algebra Stafford identity — scope and AI disclosure",
+      "url": "https://github.com/itpplasma/symplectic-stafford-formal/blob/0e55a8059cc923ef39d6ddb66c5b6f6a2682b46b/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4078_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000024-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4079": [
+    {
+      "key": "Daily20261022_4079",
+      "title": "A two-scale Kakeya upper-Minkowski dimension bound — primary statement",
+      "url": "https://github.com/mrklwk/kakeya-two-scale-lean/blob/1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4079_support",
+      "title": "A two-scale Kakeya upper-Minkowski dimension bound — scope and AI disclosure",
+      "url": "https://github.com/mrklwk/kakeya-two-scale-lean/blob/1eba4ec16c6894aa2390b1c1bcb7d2c0e1c5a46c/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4079_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000006-v2.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4080": [
+    {
+      "key": "Daily20261022_4080",
+      "title": "A finite template-free chemical-heredity model with explicit mission bound — primary statement",
+      "url": "https://github.com/mmislan/palomar-template-free-heredity/blob/771a4dbad576d336e7e054a2d6a71958ea547711/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4080_support",
+      "title": "A finite template-free chemical-heredity model with explicit mission bound — scope and AI disclosure",
+      "url": "https://github.com/mmislan/palomar-template-free-heredity/blob/771a4dbad576d336e7e054a2d6a71958ea547711/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4080_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000010-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4081": [
+    {
+      "key": "Daily20261022_4081",
+      "title": "An induced regular-subgraph edge threshold — primary statement",
+      "url": "https://github.com/mbucic4/Induced-Erdos-Sauer/blob/6990e58d8ec5f771ac3a3a76adfdfd341702bdfe/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4081_support",
+      "title": "An induced regular-subgraph edge threshold — scope and AI disclosure",
+      "url": "https://github.com/mbucic4/Induced-Erdos-Sauer/blob/6990e58d8ec5f771ac3a3a76adfdfd341702bdfe/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4081_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000017-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4082": [
+    {
+      "key": "Daily20261022_4082",
+      "title": "Least physical dimension for nonsingular integer inflation matrices — primary statement",
+      "url": "https://github.com/stalex444/pdt-inflation-model-set-dimension/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4082_support",
+      "title": "Least physical dimension for nonsingular integer inflation matrices — scope and AI disclosure",
+      "url": "https://github.com/stalex444/pdt-inflation-model-set-dimension/blob/c41d9d29f9c86fb0f849df79b03e713d3405a5eb/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4082_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000030-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4083": [
+    {
+      "key": "Daily20261022_4083",
+      "title": "Three-prime running-LCM structure and infinite kernel rank — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/c39cea6a976747d132a848d26f110b9c608d5a45/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4083_support",
+      "title": "Three-prime running-LCM structure and infinite kernel rank — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/c39cea6a976747d132a848d26f110b9c608d5a45/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4083_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000019-v1.json",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4084": [
+    {
+      "key": "Daily20261022_4084",
+      "title": "All-base finite-level bases for the totient kernel — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/9ab395cda99d13f8fcd16cf655fc17458b3eaa38/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4084_support",
+      "title": "All-base finite-level bases for the totient kernel — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/9ab395cda99d13f8fcd16cf655fc17458b3eaa38/README.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4084_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000021-v1.json",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4084_ai",
+      "title": "Same owner research programme and direct AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/c39cea6a976747d132a848d26f110b9c608d5a45/README.md",
+      "accessed": "2026-10-22"
+    }
+  ],
+  "4085": [
+    {
+      "key": "Daily20261022_4085",
+      "title": "A repaired combinatorial double-sieve inequality in Wu2008 and Li2024",
+      "url": "https://github.com/sthubbar/goldbach-lean/blob/4501f42c25c951fc2e461801ec661fdb3969a022/entries/wu2008/formalization.yaml",
+      "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261022_4085_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000002-v2.json",
+      "accessed": "2026-10-22"
     }
   ]
 }
