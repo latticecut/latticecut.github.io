@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-22",
+  "assessedAt": "2026-10-23",
   "samplingWeek": 2964,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -27431,7 +27431,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "OpenAI withdrew the split-abelian-eightfold Weil-class construction and its all-projective-K3 Hodge and Kuga–Satake dependents because a sign error invalidates signed-double-point cancellation. Do not retain the arbitrary-K3 or eightfold assertions as established results. The current catalogue retains the CM-abelian claim and restricted or conditional companion claims; this correction does not validate those surviving proofs or assert the withdrawn mathematical statements false. Independently establish surviving-claim correctness, novelty/priority, exact imported hypotheses and family-specific AI/human generation and checking roles. The repository directly attributes model production at portfolio level, not reconstructible per-family process logs. Keep provisional=1, low coding confidence, unreviewed taxonomy and no strict Superhuman override. No downloaded artifact was executed or independently replayed here."
+        "Check the sign/obstruction diagnosis and distinguish those withdrawn dependencies from the surviving CM theorem; neither this specialist critique nor surviving formal interfaces establish the full CM result independently. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -27883,7 +27883,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 076 (Real ultraflat Littlewood polynomials and unbounded binary merit factors) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with all 3 constituent manuscripts; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Resolve the exact growth hypothesis and which family076 subclaim depends on the disputed counterexample; do not promote the overall package to verified or dismiss all of it from this limited critique. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -29005,7 +29005,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 180 (Barnette’s Hamiltonian-cycle conjecture) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Audit the involutions, hypotheses of the stronger G−e assertion and correspondence with the original OpenAI package. Human exposition alone does not resolve all correctness or formal-dependency questions. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -31913,7 +31913,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Audit the invariant/presentation equivalence and family minimality and check prior five-generator constructions. Do not count the admitted finite-width bound as proved, or automated lab acceptance as human peer review. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Check the witness monomial argument and pinned statement correspondence rather than the superseded quotient-modulo explanation. A neutral mechanical review is not mathematical acceptance. Do not claim the admitted W bound or a complete betaFiber identity. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -32401,7 +32401,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Check all minor/index hypotheses and whether the structural identities or infinite-rank result are already known. This does not prove irrationality or transcendence and leaves Erdős269 open. Other theorem families in the shared README are not automatically counted. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Check the exact matrix scalings, index thresholds and selected13 statements. Preserve the distinction between the approximation and an original-kernel lower bound; this is the same evolving running-LCM packet, not another discovery or an irrationality proof. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
@@ -32423,6 +32423,326 @@
       "reasons": [
         "Ask the original authors or an independent sieve specialist to check the altered range, sifted sets, error and weakened boundary hypothesis. The printed pointwise-counterexample test is outside this selected proof closure; do not infer a disproof of the final Goldbach or Chen bounds. No human expert review or independent artifact replay is claimed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
         "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4086",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Independently check the lens and higher-dimensional construction, weighted norm, spectral averaging and the exact positive-energy meaning. Human responsibility and rewriting are not independent end-to-end proof verification. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4087",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit tightness, centering, uniqueness of the limiting law, SHF measurability and non-Gaussianity, including the failed intermediate strategies described in AppendixC. Do not extend Gaussian-polymer hypotheses to an unrestricted universality theorem. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4088",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Separate the general cyclotomic-free degree construction from the finite verified measure sweep. Independently check irreducibility certificates, degree conventions, parameter bounds, alpha1 comparison and baseline-record ownership. Do not infer a universal Mahler gap or a disproof of Lehmer. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4089",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check degeneracy normalization, the boundary blow-up and ellipticity hypotheses, and novelty relative to the Monge–Ampère and prior k-Hessian cases. This does not cover arbitrary nonconvex domains. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4090",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the exceptional-angle set, normalizations, limsup versus all-eigenfunction quantifiers, hole-size hypotheses and local-boundary-information comparison. Do not claim all curvilinear polygons or every angle satisfy this lower bound. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4091",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check infidelity and diamond-error dependence, resource/ancilla costs, circuit-model assumptions and comparison to earlier PBT circuits. Count the new protocol, not the already-known unitary-parallelization theorem as another first settlement. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4092",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check thin-shell and shrinking-hole uniformity, frequency thresholds and weighted inverse-action estimates. Separate the new shell extension from known ball cases; no independently checked proof or isolated decisive AI step is supplied. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4093",
+      "category": "Difficult",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently verify finite classifications, imported code databases and exact certificate correspondence; clarify how much the AI-generated programs contribute to the discovery. Do not state that all dimensions, all primes or the remaining64-point case are settled. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4094",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check parameter-family specializations, orbit/nondegeneration certificates, variety dimension and all formal statements. Isolate whether AI corrected or simplified research-level mathematics beyond after-the-fact formalization; no whole-package independent replay was performed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4095",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the exceptional even-characteristic cases and compare first-public chronology and proof scope with Chen–Huang2610.29429. The acknowledgement does not establish original AI discovery or a decisive mathematical contribution; retain that exact question rather than inferring an autonomous proof. The earlier Chen–Huang primary paper has now been retrieved; compare its large-field restriction with Fang’s small-field completion rather than conflating independent proof chronology. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4096",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the retraction consistency, dimension independence, consecutive-case asymptotic and precise barycentric-space assumptions. Identify the exact AI mathematical step and compare the stated2019/2021 open questions. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4097",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the conditioning/Fourier estimate, gamma-variable independence, progressions and the gcd normalization retained in the finite-set theorem. Identify material AI input; do not silently remove the source’s normalization or claim a general unproved finite-set lemma. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4098",
+      "category": "Difficult",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the size/exponent hypotheses in both concatenated parts, prior results and the remaining3/4 cases. The disclosure does not identify a decisive AI step; do not report all cases of the unrestricted Linearity Conjecture solved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4099",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit exact symmetry, Hölder, sign, density and elliptic-coefficient conditions. Attribute mathematical input to Gemini, not to the editorial ChatGPT role. This is not unrestricted global well-posedness for2D inhomogeneous Euler. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4100",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Determine whether the minor checks changed any proof or research-level result rather than being ancillary after-the-fact assistance. Independently check the generalized criterion and its Milnor specialization; retain this attribution caveat. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4101",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the imported small-graph verification, plane/projective-plane discharging and floor/end-case conventions. Distinguish the source’s proof-development disclosure from secondary descriptions that mention only double-checking; no artifacts were replayed here. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4102",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check base-field versus extension uniformity, dependence of constants and conductor/discriminant conventions. Compare the generalization to Kerr/OpenAI and the earlier number-field zero-free corpus; this is not an independent replay of all upstream analytic inputs. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4103",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit the same selected arithmetic/analytic minor, origin-chart closure and every classical input; reconcile the intermediate sections explicitly marked remaining with the final endpoints. Determine novelty/chronology of exponent2 and exact AI contribution rather than treating a conditional compiled interface as an unconditional proof. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "4104",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the finite-subset transfer, flat-torus lower bounds and quotient metric. The source explicitly gives no quality guarantee for every ancillary Lean file; check statement/dependency correspondence before any verification promotion. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4105",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Treat only the completed conditional criterion as this record’s bounded result. Obtain PartII and independently check the interval-arithmetic hypothesis before claiming the full unforced nonuniqueness construction verified; do not erase that dependency or call PartI a complete unconditional settlement. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4106",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Recover claim-level human/model allocation from the original paper and audit random-matrix, local-prime and rational-orthogonal reductions. The original collaboration acknowledgement alone does not isolate the decisive mathematical contribution; later formalization is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Tentative AI-frontier placement: material mathematical contribution is not established"
+      ]
+    },
+    {
+      "id": "4107",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit Gao-refined moment inputs, family/conductor conventions and common-probe error closure. The owner’s native-judge-adapter replays and the merged tracker PR are not independent proof execution here. Resolve novelty against preceding quartic/Gao/Liu bounds; this is not full RH. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4108",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Check the free selection of stored values, uniform-process/certificate versus algorithm distinction and exact weakening of the book’s refuted statement. The best-uniform-process theorem is cited rather than formalized; no optimality of the leading6 or whole-algorithm conjecture settlement is claimed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4109",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check Gibbs/product-measure normalization, signed couplings and uniformity. The selected result excludes algebraic quadrupolar decay only in this scope; it does not prove all-temperature exponential decay or exclude every phase transition. The port’s full official preflight is outstanding. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4110",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Count only the source-reported mathematical countermodels/repairs, not the known Tarjan, AES or circuit-minimization background as new discoveries. Check each cited erratum and threat-model assumption; no generic real-attacker security or empirical tool resistance follows. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4111",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the scaled cubic-rate hypothesis, zero/one-index transport, convergence witness and number-field exclusion. Establish novelty and whether AI supplied original mathematical reasoning rather than only formalization; no external proof audit is claimed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4112",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the allowance, common-support and modulus quantifiers and the exact finite-block regime. Do not infer that corrected positions are prime or that the original prime series is irrational; novelty and the original AI mathematical allocation remain unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4113",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Read the exact F and contour-constant definitions and compare the sufficient region with Zudilin/Duverney prior work. Do not replace the strict threshold by decimal shorthand or claim the later sharp fixed-base/all-rank Hankel results selected. Original AI mathematics versus formal translation and novelty remain open. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4114",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the exact carry/congruence equivalences and certificate hypotheses. The general theorems do not certify the large denominator-exclusion computation: the source says the original full executable/payload were not supplied or authenticated. Isolate novelty and original AI mathematical contribution. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4115",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the exact imported zero-free statement and dependency in the stronger endpoint and distinguish it from the human-derived55/42 result. Resolve corpus materiality of upstream AI mathematics versus mere editorial assistance; do not attribute the new derivation to ChatGPT or treat the upstream result as independently verified. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
       ]
     },
     {
