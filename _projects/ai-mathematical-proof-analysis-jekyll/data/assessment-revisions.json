@@ -223366,5 +223366,1316 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-23",
+    "snapshotHash": "9f0bdbc06c75758cda6bd2be3d68e625f45a3f109386faed5b37cb1b4b67529b",
+    "changes": [
+      {
+        "id": "3625",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13"
+            ],
+            "sourceHash": "a8e9462d23e3c484a2396a87af57d710f0ba3cd4cc99aed71c370f7e7e14cdaa",
+            "assessedAt": "2026-10-08",
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 032: Hodge and Kuga–Satake results for all projective K3 surfaces. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. This family is an explicit exception to the standard generation procedure; retain shared reported attribution and make no fixed-run or autonomy claim. The 8 October reread retains this portfolio-attributed role for the surviving bounded claim, not the withdrawn companion assertions; no new autonomy or per-family production logs are inferred."
+          },
+          "rationale": "Best-current Superhuman estimate applies only to the surviving reported rational Hodge theorem for all complex CM abelian varieties, a major pre-result human frontier. The withdrawn all-projective-K3, Kuga–Satake and eightfold constructions no longer support this assessment. The derived Tate and Hodge-standard consequences remain source-attributed and provisional. This is not full Hodge for arbitrary smooth projective varieties or a correctness judgment.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "a8e9462d23e3c484a2396a87af57d710f0ba3cd4cc99aed71c370f7e7e14cdaa",
+          "assessedAt": "2026-10-08",
+          "inclusionConcern": "OpenAI withdrew the split-abelian-eightfold Weil-class construction and its all-projective-K3 Hodge and Kuga–Satake dependents because a sign error invalidates signed-double-point cancellation. Do not retain the arbitrary-K3 or eightfold assertions as established results. The current catalogue retains the CM-abelian claim and restricted or conditional companion claims; this correction does not validate those surviving proofs or assert the withdrawn mathematical statements false. Independently establish surviving-claim correctness, novelty/priority, exact imported hypotheses and family-specific AI/human generation and checking roles. The repository directly attributes model production at portfolio level, not reconstructible per-family process logs. Keep provisional=1, low coding confidence, unreviewed taxonomy and no strict Superhuman override. No downloaded artifact was executed or independently replayed here.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 032: Hodge and Kuga–Satake results for all projective K3 surfaces. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. This family is an explicit exception to the standard generation procedure; retain shared reported attribution and make no fixed-run or autonomy claim. The 8 October reread retains this portfolio-attributed role for the surviving bounded claim, not the withdrawn companion assertions; no new autonomy or per-family production logs are inferred."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13",
+              "Daily20261023_3625"
+            ],
+            "sourceHash": "fb5517634623ad17ac8d521bba0636bf1416e298ce25b0808d399307a79d70c7",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim.",
+          "sourceHash": "fb5517634623ad17ac8d521bba0636bf1416e298ce25b0808d399307a79d70c7",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the sign/obstruction diagnosis and distinguish those withdrawn dependencies from the surviving CM theorem; neither this specialist critique nor surviving formal interfaces establish the full CM result independently. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3666",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3666",
+              "Daily20261007_3666_support_0",
+              "Daily20261007_3666_support_1",
+              "Daily20261007_3666_support_2",
+              "Daily20261007_3666_support_3"
+            ],
+            "sourceHash": "1399dbabd045aff6390116694a3fda911e4611af17e3597aa6e355f9f6f335ec",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 076: Real ultraflat Littlewood polynomials and unbounded binary merit factors. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: Uniform real ultraflatness and unbounded binary merit factors refute the bounded-merit-factor target; whole-circle and all-large-length scope distinguish the claimed advance. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "1399dbabd045aff6390116694a3fda911e4611af17e3597aa6e355f9f6f335ec",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 076 (Real ultraflat Littlewood polynomials and unbounded binary merit factors) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with all 3 constituent manuscripts; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 076: Real ultraflat Littlewood polynomials and unbounded binary merit factors. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-23; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-23",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3666",
+              "Daily20261007_3666_support_0",
+              "Daily20261007_3666_support_1",
+              "Daily20261007_3666_support_2",
+              "Daily20261007_3666_support_3",
+              "Daily20261023_3666"
+            ],
+            "sourceHash": "c117bc1d3353a736cf029fe50147c9a29617b8e93d4e92c4a54f82b70afa6470",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: A specialist critique by el Abdalaoui argues that a particular hyperlacunary counterexample violates the implicit growth hypothesis in the cited Littlewood theorem and thus only supports a narrower refutation. This interpretation dispute is not an owner withdrawal or a demonstration that every ultraflat-polynomial claim in family076 is false. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: A specialist critique by el Abdalaoui argues that a particular hyperlacunary counterexample violates the implicit growth hypothesis in the cited Littlewood theorem and thus only supports a narrower refutation. This interpretation dispute is not an owner withdrawal or a demonstration that every ultraflat-polynomial claim in family076 is false.",
+          "sourceHash": "c117bc1d3353a736cf029fe50147c9a29617b8e93d4e92c4a54f82b70afa6470",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Resolve the exact growth hypothesis and which family076 subclaim depends on the disputed counterexample; do not promote the overall package to verified or dismiss all of it from this limited critique. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-23; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-23",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3768",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3768",
+              "Daily20261007_3768_support_0",
+              "Daily20261007_3768_support_1",
+              "Daily20261007_3768_support_2",
+              "Daily20261007_3768_support_3"
+            ],
+            "sourceHash": "774ed1462c2f84c7ebed5c3d62c4bd5a156e2defa7f482583b1a6dacdf4900b8",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 180: Barnette’s Hamiltonian-cycle conjecture. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: Hamiltonicity for every graph in Barnette's class directly settles that long-standing target. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "774ed1462c2f84c7ebed5c3d62c4bd5a156e2defa7f482583b1a6dacdf4900b8",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 180 (Barnette’s Hamiltonian-cycle conjecture) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 180: Barnette’s Hamiltonian-cycle conjecture. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3768",
+              "Daily20261007_3768_support_0",
+              "Daily20261007_3768_support_1",
+              "Daily20261007_3768_support_2",
+              "Daily20261007_3768_support_3",
+              "Daily20261023_3768"
+            ],
+            "sourceHash": "716a171283da4bf306c26bb36cde8a944aa9c2ca625229b8bde2f2591d9c88b6",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Zhentao Li supplies a handwritten exposition of the OpenAI Barnette proof using two sign-reversing involutions, including a stronger Hamiltonian statement for G−e in the stated class. This is human engagement with the existing proof package, not another AI discovery or complete independent formal verification. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Zhentao Li supplies a handwritten exposition of the OpenAI Barnette proof using two sign-reversing involutions, including a stronger Hamiltonian statement for G−e in the stated class. This is human engagement with the existing proof package, not another AI discovery or complete independent formal verification.",
+          "sourceHash": "716a171283da4bf306c26bb36cde8a944aa9c2ca625229b8bde2f2591d9c88b6",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the involutions, hypotheses of the stronger G−e assertion and correspondence with the original OpenAI package. Human exposition alone does not resolve all correctness or formal-dependency questions. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4037",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individual primary-source estimate conditional on the bounded mathematical claim. Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Proof correctness and task difficulty remain separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability.",
+          "sourceHash": "24e6c9cc2a76a092312a8d09c33259c0728e18557e4d546bf50303ffce14bdae",
+          "assessedAt": "2026-10-20",
+          "inclusionConcern": "Audit the invariant/presentation equivalence and family minimality and check prior five-generator constructions. Do not count the admitted finite-width bound as proved, or automated lab acceptance as human peer review. Earliest public chronology and novelty require rechecking where noted. No downloaded proof artifact was executed. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner reports GPT-6 Astra mathematical proof development and Claude-assisted Lean construction and review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Current scoped reading: The repository was public at the October17 registration. Palomar v1 pins65cd1b and a mechanical run whose review is neutral, not acceptance. October21 PROOF.md corrects the informal H-only nonredundancy explanation to the actual witness-monomial-divisibility Lean argument; no Lean source changed. The finite-width W bound and reverse fiber bridge remain unproved and are not required for the selected F endpoint. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Relative to the human frontier before the report: the bounded construction or proof is substantial non-routine research, not a general claim of beyond-human capability. Current scoped reading: The repository was public at the October17 registration. Palomar v1 pins65cd1b and a mechanical run whose review is neutral, not acceptance. October21 PROOF.md corrects the informal H-only nonredundancy explanation to the actual witness-monomial-divisibility Lean argument; no Lean source changed. The finite-width W bound and reverse fiber bridge remain unproved and are not required for the selected F endpoint.",
+          "sourceHash": "d9f83da4002de90247d0dcda2c3bcc9b51675e76493f42d573cb3ded4b14a732",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the witness monomial argument and pinned statement correspondence rather than the superseded quotient-modulo explanation. A neutral mechanical review is not mathematical acceptance. Do not claim the admitted W bound or a complete betaFiber identity. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner reports GPT-6 Astra mathematical proof development and Claude-assisted Lean construction and review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-20",
+            "reportedDate": "2026-10-17",
+            "dateBasis": "Earliest dated primary registration supported here; earlier linked manuscript/deposit visibility is unresolved and must not be inferred from preparation dates.",
+            "originalPublicationDate": "2026-10-17",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4083",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem.",
+          "sourceHash": "83d39e788e117df373a2c434cbacc4466a9102ac2d302a5d8d7af89c7a96a3c8",
+          "assessedAt": "2026-10-22",
+          "inclusionConcern": "Check all minor/index hypotheses and whether the structural identities or infinite-rank result are already known. This does not prove irrationality or transcendence and leaves Erdős269 open. Other theorem families in the shared README are not automatically counted. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Will Cook explicitly describes human-led AI-assisted mathematical exploration, proof search and formalization of this bounded research programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: A later selected13-statement interface adds injective row/column maps for every third exponent, an exact threshold column-rank identity, the dyadic2,3,5 recurrence and an approximation by rescaled real carry matrices. The approximation does not give the missing lower bound for the original summable kernel; the unit-determinant minors from E269_08 are outside this selected checkpoint. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: A later selected13-statement interface adds injective row/column maps for every third exponent, an exact threshold column-rank identity, the dyadic2,3,5 recurrence and an approximation by rescaled real carry matrices. The approximation does not give the missing lower bound for the original summable kernel; the unit-determinant minors from E269_08 are outside this selected checkpoint.",
+          "sourceHash": "359eb93e678612a9c831f72380f27354aa0f11bb48742e435189f6a853517071",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the exact matrix scalings, index thresholds and selected13 statements. Preserve the distinction between the approximation and an original-kernel lower bound; this is the same evolving running-LCM packet, not another discovery or an irrationality proof. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Will Cook explicitly describes human-led AI-assisted mathematical exploration, proof search and formalization of this bounded research programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4086",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Becker and Yang describe developing the initial construction with ChatGPT, which supplied the point-spectrum parameter adjustment, spectral averaging and extension from a bounded interval to the full positive spectrum; humans rewrote and checked the argument.",
+            "evidenceSummary": "Becker and Yang describe developing the initial construction with ChatGPT, which supplied the point-spectrum parameter adjustment, spectral averaging and extension from a bounded interval to the full positive spectrum; humans rewrote and checked the argument.",
+            "evidenceSourceIds": [
+              "Daily20261023_4086",
+              "Daily20261023_4086_support"
+            ],
+            "sourceHash": "092e00f53c1133395977eaa6f8192d91fe3f9867ddaa6fbc803cc604e86de7fe",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Reported full disproof of the exact multidimensional Simon2000 Problem8, with directly attributed material AI construction and proof steps. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Reported full disproof of the exact multidimensional Simon2000 Problem8, with directly attributed material AI construction and proof steps.",
+          "sourceHash": "092e00f53c1133395977eaa6f8192d91fe3f9867ddaa6fbc803cc604e86de7fe",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Independently check the lens and higher-dimensional construction, weighted norm, spectral averaging and the exact positive-energy meaning. Human responsibility and rewriting are not independent end-to-end proof verification. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Becker and Yang describe developing the initial construction with ChatGPT, which supplied the point-spectrum parameter adjustment, spectral averaging and extension from a bounded interval to the full positive spectrum; humans rewrote and checked the argument."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4087",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The eleven authors disclose extensive ChatGPT5.5/5.6/6 contributions to tightness, convergence to a unique limit and non-Gaussianity, within human-supplied strategies and a decade-long research programme; AppendixC also records failed AI approaches and subsequent corrections.",
+            "evidenceSummary": "The eleven authors disclose extensive ChatGPT5.5/5.6/6 contributions to tightness, convergence to a unique limit and non-Gaussianity, within human-supplied strategies and a decade-long research programme; AppendixC also records failed AI approaches and subsequent corrections.",
+            "evidenceSourceIds": [
+              "Daily20261023_4087",
+              "Daily20261023_4087_support"
+            ],
+            "sourceHash": "a5dbde19209bdd6a20c4ad8c732f5665470d73e4e675a93941af6588fbfd8e90",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A reported first construction at the long-standing critical2D KPZ frontier; medium confidence concerns precise historical target and scope, not a demand for independent proof checking. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "A reported first construction at the long-standing critical2D KPZ frontier; medium confidence concerns precise historical target and scope, not a demand for independent proof checking.",
+          "sourceHash": "a5dbde19209bdd6a20c4ad8c732f5665470d73e4e675a93941af6588fbfd8e90",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit tightness, centering, uniqueness of the limiting law, SHF measurability and non-Gaussianity, including the failed intermediate strategies described in AppendixC. Do not extend Gaussian-polymer hypotheses to an unrestricted universality theorem. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The eleven authors disclose extensive ChatGPT5.5/5.6/6 contributions to tightness, convergence to a unique limit and non-Gaussianity, within human-supplied strategies and a decade-long research programme; AppendixC also records failed AI approaches and subsequent corrections."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4088",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "f3048e4953d34bfa2e651d76e10c51d5e1df90c399a13401a73c23585408a256",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Separate the general cyclotomic-free degree construction from the finite verified measure sweep. Independently check irreducibility certificates, degree conventions, parameter bounds, alpha1 comparison and baseline-record ownership. Do not infer a universal Mahler gap or a disproof of Lehmer. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Chervonyi, Gukov and Luong describe a human–AI discovery loop using internal Gemini models including Gemini4Argon in Google Antigravity, which built numerical/symbolic search infrastructure, distributed searches and analytical conjecture extraction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4089",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "f94a45afd3825dcc495bdb1d53687adad13ab0af4bb9299bfc5723ee7718f713",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check degeneracy normalization, the boundary blow-up and ellipticity hypotheses, and novelty relative to the Monge–Ampère and prior k-Hessian cases. This does not cover arbitrary nonconvex domains. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Qiu and Yan state that month-long discussions with GPT6Astra resolved analytic difficulties and that most blow-up techniques in the proof were suggested by GPT; humans verified and accept responsibility."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4090",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "21f266709fbc351920afef494624501cabd057bb35fa8470435fc0c65a6c8b54",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the exceptional-angle set, normalizations, limsup versus all-eigenfunction quantifiers, hole-size hypotheses and local-boundary-information comparison. Do not claim all curvilinear polygons or every angle satisfy this lower bound. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Galkowski and Wang attribute the regularized-trace and corner-kernel proof ideas to ChatGPT6Astra; humans supplied the domain construction, conformal simplification and small-angle method."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4091",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "e251692afaf6075da8c420e0e246c9e4bfb3b9fe89c2b2c1338d7b47b6cd9c87",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check infidelity and diamond-error dependence, resource/ancilla costs, circuit-model assumptions and comparison to earlier PBT circuits. Count the new protocol, not the already-known unitary-parallelization theorem as another first settlement. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Anshu and Nguyen supplied the PBT and eigenvalue-extraction connection; ChatGPTAstra supplied the protocol, particularly the single-reflection construction, and humans improved and checked the exposition."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4092",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "b42e9aa07ed073420409f6bb50e2749609c7f7826426eba592bcf4e9b6331ff2",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check thin-shell and shrinking-hole uniformity, frequency thresholds and weighted inverse-action estimates. Separate the new shell extension from known ball cases; no independently checked proof or isolated decisive AI step is supplied. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Yutian Li discloses ChatGPT and Claude mathematical exploration and proof development, intermediate argument/calculation checks, literature work and drafting."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4093",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "0bdce83d6deabbb4c2a1ae6b2ef6be1f60d4ceedf2d9e58f478e6c17f9fa6fbe",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Independently verify finite classifications, imported code databases and exact certificate correspondence; clarify how much the AI-generated programs contribute to the discovery. Do not state that all dimensions, all primes or the remaining64-point case are settled. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Ferguson and Iosevich acknowledge ChatGPT help writing programs used for the exact finite computations and collaborating on the manuscript. The finite computations are load-bearing parts of the proof."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4094",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "a435af948e275697f1b4ad7251e157c0b8ce37782f2b0ec42d13192e9cd36495",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check parameter-family specializations, orbit/nondegeneration certificates, variety dimension and all formal statements. Isolate whether AI corrected or simplified research-level mathematics beyond after-the-fact formalization; no whole-package independent replay was performed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The paper credits the human authors with the concept, theoretical framework and primary results, and Aristotle with error verification and proof simplification, alongside reported Lean4 verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4095",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The earlier human Chen–Huang2610.29429v1, October21, already reports the large-field q>19683 classification. Fang extends the remaining small-field scope and offers a new proof; this is not an unqualified first AI settlement of the entire historical target. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The earlier human Chen–Huang2610.29429v1, October21, already reports the large-field q>19683 classification. Fang extends the remaining small-field scope and offers a new proof; this is not an unqualified first AI settlement of the entire historical target.",
+          "sourceHash": "896d1ca81c1cf6f5dc1ea456f1a254205478f412e6b106086e2c42f03f74adaf",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the exceptional even-characteristic cases and compare first-public chronology and proof scope with Chen–Huang2610.29429. The acknowledgement does not establish original AI discovery or a decisive mathematical contribution; retain that exact question rather than inferring an autonomous proof. The earlier Chen–Huang primary paper has now been retrieved; compare its large-field restriction with Fang’s small-field completion rather than conflating independent proof chronology. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Weijun Fang discloses GPT6 assistance in polishing exposition and checking some main proofs; the paper notes independent Chen–Huang work on the same conjecture."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4096",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "6f3715354c18469fa77d75068cdb970554af2bd7b32a333192629972533341a2",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the retraction consistency, dimension independence, consecutive-case asymptotic and precise barycentric-space assumptions. Identify the exact AI mathematical step and compare the stated2019/2021 open questions. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Kovalev acknowledges ChatGPT and Claude mathematical exploration and manuscript preparation, with human review and verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4097",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "160bd6c4f66ebbb90bf42895a0084f55af4838e2912b48c157387c39635ae2ec",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the conditioning/Fourier estimate, gamma-variable independence, progressions and the gcd normalization retained in the finite-set theorem. Identify material AI input; do not silently remove the source’s normalization or claim a general unproved finite-set lemma. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The authors acknowledge ChatGPT exploratory discussions about the mathematical arguments, besides language and exposition help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4098",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "dce73ac3b8aa8fe5cb55907458c5f51624ced2b5ab829ba2223e8055bb4f0cf2",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the size/exponent hypotheses in both concatenated parts, prior results and the remaining3/4 cases. The disclosure does not identify a decisive AI step; do not report all cases of the unrestricted Linearity Conjecture solved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Sziklai acknowledges OpenAIChatGPT assistance with mathematical exploration, computations and drafting."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4099",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "99522007da69156eb2a6047a315a04655887e41e6306890872abdd5ae5ea928e",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit exact symmetry, Hölder, sign, density and elliptic-coefficient conditions. Attribute mathematical input to Gemini, not to the editorial ChatGPT role. This is not unrestricted global well-posedness for2D inhomogeneous Euler. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Suleiman says the quasiconformal-mapping approach and a key reference were found in conversation with GeminiPro; ChatGPT5.6Sol was used only for editorial work and figures."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4100",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "1aa3b1abd7f11144cb55dca32b30fef3f277e0163171edd2707cca5994a23c6d",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Determine whether the minor checks changed any proof or research-level result rather than being ancillary after-the-fact assistance. Independently check the generalized criterion and its Milnor specialization; retain this attribution caveat. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "After the initial draft was complete, ChatGPT assisted with proofreading, minor mathematical checks and figures."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4101",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "977e952a4955753eb00faa2d794168ff218134edfb48ec79fe39085456f183b7",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the imported small-graph verification, plane/projective-plane discharging and floor/end-case conventions. Distinguish the source’s proof-development disclosure from secondary descriptions that mention only double-checking; no artifacts were replayed here. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary disclosure states GPT6.1Sol assisted in developing the proof, checking references and independent computational checks, as well as figures and text."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4102",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "579e25d65eb0d27df72d2e7441d967850112554d52e4079a0045981e74e67704",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check base-field versus extension uniformity, dependence of constants and conductor/discriminant conventions. Compare the generalization to Kerr/OpenAI and the earlier number-field zero-free corpus; this is not an independent replay of all upstream analytic inputs. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Banks says he supplied the key ideas, question and prior papers to Claude, which produced an initial argument; he then checked every mathematical line and wrote the final version."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4103",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "tentative",
+          "frontierContribution": {
+            "status": "unclear",
+            "role": "Shared (reported)",
+            "rationale": "The Chudnovskys disclose ChatGPT mathematical exploration, proof exposition, Lean development, manuscript consolidation and internal review, inspired by OpenAI’s separated-weight interpolation programme.",
+            "evidenceSummary": "The Chudnovskys disclose ChatGPT mathematical exploration, proof exposition, Lean development, manuscript consolidation and internal review, inspired by OpenAI’s separated-weight interpolation programme.",
+            "evidenceSourceIds": [
+              "Daily20261023_4103",
+              "Daily20261023_4103_support"
+            ],
+            "sourceHash": "b354d33982debb87ddddb4aec58651a6306b1a40525f409ca76fecca8812ed43",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The reported optimal exponent2 for real CM periods is a strong frontier signal; precise prior history, dependency closure and the original AI mathematical role need separate checking. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The reported optimal exponent2 for real CM periods is a strong frontier signal; precise prior history, dependency closure and the original AI mathematical role need separate checking.",
+          "sourceHash": "b354d33982debb87ddddb4aec58651a6306b1a40525f409ca76fecca8812ed43",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the same selected arithmetic/analytic minor, origin-chart closure and every classical input; reconcile the intermediate sections explicitly marked remaining with the final endpoints. Determine novelty/chronology of exponent2 and exact AI contribution rather than treating a conditional compiled interface as an unconditional proof. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The Chudnovskys disclose ChatGPT mathematical exploration, proof exposition, Lean development, manuscript consolidation and internal review, inspired by OpenAI’s separated-weight interpolation programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4104",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "a6985f3e50cbed59e9fe2118bffea0c7a0284a722cdf5086357f3d729d8d359c",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit the finite-subset transfer, flat-torus lower bounds and quotient metric. The source explicitly gives no quality guarantee for every ancillary Lean file; check statement/dependency correspondence before any verification promotion. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Das and Rosendal state that ChatGPT5.5 found the main proof; Codex and GPT5.5Pro were used for formalization, with the authors checking the headline Lean statements."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4105",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "b8f9cd071ed41a3dce66520f7ab59f940d774a5852b90e79d3ce4cfd576f8771",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Treat only the completed conditional criterion as this record’s bounded result. Obtain PartII and independently check the interval-arithmetic hypothesis before claiming the full unforced nonuniqueness construction verified; do not erase that dependency or call PartI a complete unconditional settlement. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Coiculescu credits the human mechanism and overall strategy, while ClaudeOpus5.5 largely produced detailed proofs, estimates, computational code and text under direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4106",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "tentative",
+          "frontierContribution": {
+            "status": "unclear",
+            "role": "Shared (reported)",
+            "rationale": "Xiang’s October8 paper explicitly calls the research a collaboration with ClaudeOpus5.5. The later owner metadata credits Claude with the full Lean development under human statement and scope direction.",
+            "evidenceSummary": "Xiang’s October8 paper explicitly calls the research a collaboration with ClaudeOpus5.5. The later owner metadata credits Claude with the full Lean development under human statement and scope direction.",
+            "evidenceSourceIds": [
+              "Daily20261023_4106",
+              "Daily20261023_4106_support"
+            ],
+            "sourceHash": "0fc2b14efcb40b043edf2becc191007ee1c1a7b75cca1a187802b1015264556d",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Reported complete settlement of the exact long-standing generalized-spectrum Haemers target; keep ordinary-spectrum scope distinct and AI-frontier materiality tentative. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Reported complete settlement of the exact long-standing generalized-spectrum Haemers target; keep ordinary-spectrum scope distinct and AI-frontier materiality tentative.",
+          "sourceHash": "0fc2b14efcb40b043edf2becc191007ee1c1a7b75cca1a187802b1015264556d",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Recover claim-level human/model allocation from the original paper and audit random-matrix, local-prime and rational-orthogonal reductions. The original collaboration acknowledgement alone does not isolate the decisive mathematical contribution; later formalization is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Xiang’s October8 paper explicitly calls the research a collaboration with ClaudeOpus5.5. The later owner metadata credits Claude with the full Lean development under human statement and scope direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-08",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-08",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4107",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "365a3f0af1fd750171516925b3e6451482e4f84ba20b5678c3f9ff8de1aa4754",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Audit Gao-refined moment inputs, family/conductor conventions and common-probe error closure. The owner’s native-judge-adapter replays and the merged tracker PR are not independent proof execution here. Resolve novelty against preceding quartic/Gao/Liu bounds; this is not full RH. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "HaileyCollet’s dated public PR and owner paper distinguish human research direction/source integration from AI-produced detailed derivations, substantial drafting and Astra/GPT6.1Sol formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-13",
+            "dateBasis": "Owner-authored public PR42 created2026-10-13T16:56:38Z supplies the exact bound, responsible author and AI contribution; source commit preparation time alone was not used as first-public evidence.",
+            "originalPublicationDate": "2026-10-13",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4108",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "JasonDavies states GPT6Astra identified the result and wrote all mathematics, Lean and manuscript under human research direction; ClaudeOpus5.5 reviewed and packaged it.",
+            "evidenceSummary": "JasonDavies states GPT6Astra identified the result and wrote all mathematics, Lean and manuscript under human research direction; ClaudeOpus5.5 reviewed and packaged it.",
+            "evidenceSourceIds": [
+              "Daily20261023_4108",
+              "Daily20261023_4108_support",
+              "Daily20261023_4108_registration"
+            ],
+            "sourceHash": "c2bd10457bc030a04adecfa33f24c292968a31f1a63036fcd5cc24fef3c1f38f",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Complete reported refutation of the exact2012 uniform-process conjecture with material AI proof discovery; the different algorithmic Main Conjecture remains open. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Complete reported refutation of the exact2012 uniform-process conjecture with material AI proof discovery; the different algorithmic Main Conjecture remains open.",
+          "sourceHash": "c2bd10457bc030a04adecfa33f24c292968a31f1a63036fcd5cc24fef3c1f38f",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the free selection of stored values, uniform-process/certificate versus algorithm distinction and exact weakening of the book’s refuted statement. The best-uniform-process theorem is cited rather than formalized; no optimality of the leading6 or whole-algorithm conjecture settlement is claimed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "JasonDavies states GPT6Astra identified the result and wrote all mathematics, Lean and manuscript under human research direction; ClaudeOpus5.5 reviewed and packaged it."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-23",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-23",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4109",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "986a9d9597cdbfc367ab383bb5f5589800c8fe388049bf09da23ab03b030ba0d",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check Gibbs/product-measure normalization, signed couplings and uniformity. The selected result excludes algebraic quadrupolar decay only in this scope; it does not prove all-temperature exponential decay or exclude every phase transition. The port’s full official preflight is outstanding. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Oshikawa credits GPT6AstraUltra with the original mathematical/formal development, human target/context direction, Claude review and Codex port/interface work."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Primary Zenodo23549037 publication date and public creation are October22; the preparation tag alone was not used as a first-public date.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4110",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "9c1174e886bff28d2d2bfcd32a6de040720249630a1f07f4ce7637327129ac00",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Count only the source-reported mathematical countermodels/repairs, not the known Tarjan, AES or circuit-minimization background as new discoveries. Check each cited erratum and threat-model assumption; no generic real-attacker security or empirical tool resistance follows. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The author-directed ClaudeOpus5.5/Sonnet5.5 development includes proof construction, errata and statement audits, with author review of the resulting claims."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-23",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-23",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4111",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "fefb8fae13c11fe89380f3755822b3c9ebd99fdac363b14b3fc8d436514ab1be",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the scaled cubic-rate hypothesis, zero/one-index transport, convergence witness and number-field exclusion. Establish novelty and whether AI supplied original mathematical reasoning rather than only formalization; no external proof audit is claimed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "WillCook’s owner metadata directly credits Claude/Codex AI-assisted formalization and exposition within his human-directed AI mathematical research programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4112",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "b16ca64ebaa547aae6b6100d1d2b11e4b59fa2afa07f3b4ddc0f961d1e42c53a",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the allowance, common-support and modulus quantifiers and the exact finite-block regime. Do not infer that corrected positions are prime or that the original prime series is irrational; novelty and the original AI mathematical allocation remain unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "WillCook’s primary programme/entry metadata credits Claude/Codex assistance to formalization, proof work and exposition under human direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4113",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "472cbca8afbf39cf6f162c5c8c56d3ae97dea551ce2953b54a8c4c728f3bf6e6",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Read the exact F and contour-constant definitions and compare the sufficient region with Zudilin/Duverney prior work. Do not replace the strict threshold by decimal shorthand or claim the later sharp fixed-base/all-rank Hankel results selected. Original AI mathematics versus formal translation and novelty remain open. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "WillCook’s metadata attributes Claude/Codex formalization of an adaptation of Zudilin’s forms to rational bases within the AI-assisted programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4114",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "36a9f820de2bff944831827d7329d601ff36faba37b36f4649a7acb4a653a7be",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the exact carry/congruence equivalences and certificate hypotheses. The general theorems do not certify the large denominator-exclusion computation: the source says the original full executable/payload were not supplied or authenticated. Isolate novelty and original AI mathematical contribution. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "WillCook’s primary entry metadata credits human-directed Claude/Codex formalization, verification packaging and exposition in the AI-assisted programme."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4115",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial bounded specialist progress, not a full settlement of every parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial bounded specialist progress, not a full settlement of every parent conjecture.",
+          "sourceHash": "14947ec7ef2587ebf37e3eebf345b7f7d09d70145d72342668d9440368c78021",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the exact imported zero-free statement and dependency in the stronger endpoint and distinguish it from the human-derived55/42 result. Resolve corpus materiality of upstream AI mathematics versus mere editorial assistance; do not attribute the new derivation to ChatGPT or treat the upstream result as independently verified. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "Bellotti and Kerr explicitly import the OpenAI quasi-GRH for the stronger bound; their own ChatGPT acknowledgement is editing/proofreading, not original proof discovery."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-23",
+            "reportedDate": "2026-10-21",
+            "dateBasis": "Dated arXiv v1 submission history; later formalization is not another first-public paper.",
+            "originalPublicationDate": "2026-10-21",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

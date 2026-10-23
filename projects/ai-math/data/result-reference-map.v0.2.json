@@ -52453,6 +52453,12 @@
       "title": "Withdrawal notice (proof gap; not falsity)",
       "url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/README.md",
       "accessed": "2026-10-08"
+    },
+    {
+      "key": "Daily20261023_3625",
+      "title": "Current owner revision and limits",
+      "url": "https://arxiv.org/abs/2610.30976v1",
+      "accessed": "2026-10-23"
     }
   ],
   "3626": [
@@ -53813,6 +53819,12 @@
       "title": "OpenAI Mathematics family 076 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/076.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261023_3666",
+      "title": "Current owner revision and limits",
+      "url": "https://arxiv.org/abs/2610.30797v1",
+      "accessed": "2026-10-23"
     }
   ],
   "3667": [
@@ -56993,6 +57005,12 @@
       "title": "OpenAI Mathematics family 180 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/180.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261023_3768",
+      "title": "Current owner revision and limits",
+      "url": "https://arxiv.org/abs/2610.30490v1",
+      "accessed": "2026-10-23"
     }
   ],
   "3769": [
@@ -64455,6 +64473,12 @@
       "title": "Dated primary registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-17-000014-v1.json",
       "accessed": "2026-10-20"
+    },
+    {
+      "key": "Daily20261023_4037",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/benkeene/five-generator-betti/blob/8c57c1eaf991f5dbb1001fbc5f18835388787453/README.md",
+      "accessed": "2026-10-23"
     }
   ],
   "4038": [
@@ -65297,6 +65321,12 @@
       "title": "Dated primary registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000019-v1.json",
       "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261023_4083",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/80024c64bc77a95249e34824a36bf43989f62ae6/README.md",
+      "accessed": "2026-10-23"
     }
   ],
   "4084": [
@@ -65337,6 +65367,474 @@
       "title": "Dated primary registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-21-000002-v2.json",
       "accessed": "2026-10-22"
+    }
+  ],
+  "4086": [
+    {
+      "key": "Daily20261023_4086",
+      "title": "Lenses make many points: pure point spectrum disproves Simon’s L² conjecture — primary statement",
+      "url": "https://arxiv.org/abs/2610.31637v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4086_support",
+      "title": "Lenses make many points: pure point spectrum disproves Simon’s L² conjecture — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31637v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4087": [
+    {
+      "key": "Daily20261023_4087",
+      "title": "The Critical 2D KPZ Process — primary statement",
+      "url": "https://arxiv.org/abs/2610.31614v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4087_support",
+      "title": "The Critical 2D KPZ Process — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31614v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4088": [
+    {
+      "key": "Daily20261023_4088",
+      "title": "Generalized Boyd constructions of small-Mahler-measure polynomials — primary statement",
+      "url": "https://arxiv.org/abs/2610.30277v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4088_support",
+      "title": "Generalized Boyd constructions of small-Mahler-measure polynomials — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30277v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4089": [
+    {
+      "key": "Daily20261023_4089",
+      "title": "Boundary regularity of k-Hessian eigenfunctions — primary statement",
+      "url": "https://arxiv.org/abs/2610.31445v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4089_support",
+      "title": "Boundary regularity of k-Hessian eigenfunctions — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31445v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4090": [
+    {
+      "key": "Daily20261023_4090",
+      "title": "Sharp lower bounds for Steklov decay on curvilinear polygons — primary statement",
+      "url": "https://arxiv.org/abs/2610.31387v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4090_support",
+      "title": "Sharp lower bounds for Steklov decay on curvilinear polygons — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31387v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4091": [
+    {
+      "key": "Daily20261023_4091",
+      "title": "An elementary low-depth port-based teleportation circuit — primary statement",
+      "url": "https://arxiv.org/abs/2610.30761v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4091_support",
+      "title": "An elementary low-depth port-based teleportation circuit — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30761v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4092": [
+    {
+      "key": "Daily20261023_4092",
+      "title": "Pólya’s Neumann inequality for spherical shells — primary statement",
+      "url": "https://arxiv.org/abs/2610.31464v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4092_support",
+      "title": "Pólya’s Neumann inequality for spherical shells — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31464v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4093": [
+    {
+      "key": "Daily20261023_4093",
+      "title": "Finite-field Fuglede cases F₂⁸ and F₁₁³ — primary statement",
+      "url": "https://arxiv.org/abs/2610.30712v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4093_support",
+      "title": "Finite-field Fuglede cases F₂⁸ and F₁₁³ — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30712v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4094": [
+    {
+      "key": "Daily20261023_4094",
+      "title": "Degenerations of low-dimensional Jordan algebras — primary statement",
+      "url": "https://arxiv.org/abs/2610.31179v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4094_support",
+      "title": "Degenerations of low-dimensional Jordan algebras — scope and AI disclosure",
+      "url": "https://arxiv.org/pdf/2610.31179v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4095": [
+    {
+      "key": "Daily20261023_4095",
+      "title": "The Cheng–Murray conjecture for full-length Reed–Solomon codes — primary statement",
+      "url": "https://arxiv.org/abs/2610.31531v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4095_support",
+      "title": "The Cheng–Murray conjecture for full-length Reed–Solomon codes — scope and AI disclosure",
+      "url": "https://arxiv.org/pdf/2610.31531v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4096": [
+    {
+      "key": "Daily20261023_4096",
+      "title": "Lipschitz clustering in normed and barycentric spaces — primary statement",
+      "url": "https://arxiv.org/abs/2610.31555v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4096_support",
+      "title": "Lipschitz clustering in normed and barycentric spaces — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31555v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4097": [
+    {
+      "key": "Daily20261023_4097",
+      "title": "Partition biases for disjoint arithmetic progressions — primary statement",
+      "url": "https://arxiv.org/abs/2610.30700v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4097_support",
+      "title": "Partition biases for disjoint arithmetic progressions — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30700v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4098": [
+    {
+      "key": "Daily20261023_4098",
+      "title": "The blocking-set Linearity Conjecture outside p^e=3,4 — primary statement",
+      "url": "https://arxiv.org/abs/2610.30503v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4098_support",
+      "title": "The blocking-set Linearity Conjecture outside p^e=3,4 — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30503v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4099": [
+    {
+      "key": "Daily20261023_4099",
+      "title": "Critical-regularity inhomogeneous planar Euler under rotational symmetry — primary statement",
+      "url": "https://arxiv.org/abs/2610.30096v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4099_support",
+      "title": "Critical-regularity inhomogeneous planar Euler under rotational symmetry — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30096v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4100": [
+    {
+      "key": "Daily20261023_4100",
+      "title": "Gamma conjectures for Milnor hypersurfaces — primary statement",
+      "url": "https://arxiv.org/abs/2610.31150v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4100_support",
+      "title": "Gamma conjectures for Milnor hypersurfaces — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31150v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4101": [
+    {
+      "key": "Daily20261023_4101",
+      "title": "A four-thirds upper bound for planar thrackles — primary statement",
+      "url": "https://arxiv.org/abs/2610.31589v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4101_support",
+      "title": "A four-thirds upper bound for planar thrackles — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31589v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4102": [
+    {
+      "key": "Daily20261023_4102",
+      "title": "Effective relative Landau–Siegel exclusion and uniform Chebotarev sums — primary statement",
+      "url": "https://arxiv.org/abs/2610.31402v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4102_support",
+      "title": "Effective relative Landau–Siegel exclusion and uniform Chebotarev sums — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31402v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4103": [
+    {
+      "key": "Daily20261023_4103",
+      "title": "Irrationality exponents of real CM elliptic periods and lemniscate powers — primary statement",
+      "url": "https://arxiv.org/abs/2610.31112v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4103_support",
+      "title": "Irrationality exponents of real CM elliptic periods and lemniscate powers — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31112v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4104": [
+    {
+      "key": "Daily20261023_4104",
+      "title": "A sphere obstruction for the Hilbert shift quotient — primary statement",
+      "url": "https://arxiv.org/abs/2610.31468v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4104_support",
+      "title": "A sphere obstruction for the Hilbert shift quotient — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.31468v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4105": [
+    {
+      "key": "Daily20261023_4105",
+      "title": "A compactness criterion for unforced2D Euler nonuniqueness — primary statement",
+      "url": "https://arxiv.org/abs/2610.30655v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4105_support",
+      "title": "A compactness criterion for unforced2D Euler nonuniqueness — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.30655v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4106": [
+    {
+      "key": "Daily20261023_4106",
+      "title": "Almost all graphs are determined by their generalized spectrum — primary statement",
+      "url": "https://arxiv.org/abs/2610.11047v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4106_support",
+      "title": "Almost all graphs are determined by their generalized spectrum — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.11047v1",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4107": [
+    {
+      "key": "Daily20261023_4107",
+      "title": "A zero-free half-plane with boundary874861/1000000 — primary statement",
+      "url": "https://github.com/GTimG/QuasiRiemannTracker/pull/42",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4107_support",
+      "title": "A zero-free half-plane with boundary874861/1000000 — scope and AI disclosure",
+      "url": "https://haileystorm.github.io/research/cycle61-qrh-boundary/paper.md",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4108": [
+    {
+      "key": "Daily20261023_4108",
+      "title": "Sublogarithmic remainder-only gcd derivations for uniform processes — primary statement",
+      "url": "https://github.com/jasondavies/euclid-uniform-processes/blob/40279dd42196cc2f9dd6c14ecc3844b6822bff44/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4108_support",
+      "title": "Sublogarithmic remainder-only gcd derivations for uniform processes — scope and AI disclosure",
+      "url": "https://github.com/jasondavies/euclid-uniform-processes/blob/40279dd42196cc2f9dd6c14ecc3844b6822bff44/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4108_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-23-000012-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4109": [
+    {
+      "key": "Daily20261023_4109",
+      "title": "Log-square quadrupolar correlation decay in2D RP² and RP³ models — primary statement",
+      "url": "https://github.com/masakioshikawa/rp2-rp3-lean/blob/ab120db3ae50756b2f640400aeca757a0ff9dbb5/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4109_support",
+      "title": "Log-square quadrupolar correlation decay in2D RP² and RP³ models — scope and AI disclosure",
+      "url": "https://github.com/masakioshikawa/rp2-rp3-lean/blob/ab120db3ae50756b2f640400aeca757a0ff9dbb5/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4109_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-23-000010-v1.json",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4109_doi",
+      "title": "Dated primary Zenodo release",
+      "url": "https://doi.org/10.5281/zenodo.23549037",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4110": [
+    {
+      "key": "Daily20261023_4110",
+      "title": "Countermodels and corrected contracts for a control-flow obfuscation paper — primary statement",
+      "url": "https://github.com/GregoryMorse/smcdynirredloops/blob/41400824a9980a186a4f481c9a9075d44dea42fc/lean/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4110_support",
+      "title": "Countermodels and corrected contracts for a control-flow obfuscation paper — scope and AI disclosure",
+      "url": "https://github.com/GregoryMorse/smcdynirredloops/blob/41400824a9980a186a4f481c9a9075d44dea42fc/lean/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4110_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-23-000008-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4111": [
+    {
+      "key": "Daily20261023_4111",
+      "title": "Cubic-rate irrationality for reciprocal sums — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/eb6cd7ceae9ff5c5bceeb514cac749c30861d8c6/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4111_support",
+      "title": "Cubic-rate irrationality for reciprocal sums — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/eb6cd7ceae9ff5c5bceeb514cac749c30861d8c6/PalomarCorpus/E243_01/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4111_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000036-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4112": [
+    {
+      "key": "Daily20261023_4112",
+      "title": "Uniform sparse rationalisation of dyadic series — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/34ab2ba6304c936a3537fd1cd8a91f23bbf2e575/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4112_support",
+      "title": "Uniform sparse rationalisation of dyadic series — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/34ab2ba6304c936a3537fd1cd8a91f23bbf2e575/PalomarCorpus/E251_01/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4112_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000037-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4113": [
+    {
+      "key": "Daily20261023_4113",
+      "title": "A rational-base irrationality region for Zudilin’s Lambert series — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/8d47efd230e041b76b8233a49164ca798977053c/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4113_support",
+      "title": "A rational-base irrationality region for Zudilin’s Lambert series — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/8d47efd230e041b76b8233a49164ca798977053c/PalomarCorpus/E1049_01/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4113_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000039-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4114": [
+    {
+      "key": "Daily20261023_4114",
+      "title": "Carry and divisor-channel criteria for the factorial-minus-one series — primary statement",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/d8db022f33199491ba88d47fac6d66f8690f2c1a/README.md",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4114_support",
+      "title": "Carry and divisor-channel criteria for the factorial-minus-one series — scope and AI disclosure",
+      "url": "https://github.com/wcook04/plectis-erdos-lean/blob/d8db022f33199491ba88d47fac6d66f8690f2c1a/PalomarCorpus/E68_05/formalization.yaml",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4114_registration",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000040-v1.json",
+      "accessed": "2026-10-23"
+    }
+  ],
+  "4115": [
+    {
+      "key": "Daily20261023_4115",
+      "title": "A Gauss sphere bound using the OpenAI quasi-GRH input — primary statement",
+      "url": "https://arxiv.org/abs/2610.29636v1",
+      "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261023_4115_support",
+      "title": "A Gauss sphere bound using the OpenAI quasi-GRH input — scope and AI disclosure",
+      "url": "https://arxiv.org/html/2610.29636v1",
+      "accessed": "2026-10-23"
     }
   ]
 }
