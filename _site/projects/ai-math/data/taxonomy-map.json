@@ -6,9 +6,9 @@
     "completionEnvelopeRuleVersion": "1.0.0",
     "legacyChallengePolicyVersion": "0.1.0 (legacy source-history fields only)",
     "classificationUnit": "mathematical result",
-    "corpusStatus": "4126 source-included, AI-coded, unreviewed",
+    "corpusStatus": "4130 source-included, AI-coded, unreviewed",
     "scope": "Source-included, AI-coded, unreviewed v0.2 result corpus with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "sourceIncludedCount": 4126,
+    "sourceIncludedCount": 4130,
     "sourceIdAliases": {
       "25--1": "deletion-codes-2025:binary-two-deletion",
       "25--2": "alphaevolve-2025:matrix-4x4",
@@ -31,14 +31,14 @@
       "25--19": "human-ai-itp-2025:grover-retraction",
       "25--20": "extremal-descendant-2025:integrals"
     },
-    "recordCount": 4128,
+    "recordCount": 4132,
     "fullRecordCount": 10,
-    "minimalRecordCount": 4118,
-    "pendingTaxonomyCount": 3725,
+    "minimalRecordCount": 4122,
+    "pendingTaxonomyCount": 3729,
     "substantivelyCodedRecordCount": 403,
     "replayedHereCount": 0,
     "completionInvariantIncompleteCount": 180,
-    "ambiguousIncompleteCount": 3848,
+    "ambiguousIncompleteCount": 3852,
     "structurallyIncompleteCount": 0,
     "superhumanAssignedCount": 47,
     "superhumanReachableIncompleteCount": 24,
@@ -48,14 +48,14 @@
     "multiClaimSourceCount": 2,
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
-    "sourceCorpusRefreshedThrough": "2026-10-23",
-    "sourceCoverageNote": "Rolling October17–23 plus targeted recovery since August20. All16 mandatory/feed endpoints retrieved;2345 math and5058 CS metadata entries,22 registry changes and722 metadata matches screened,17 selected math/proof hits and25 targeted primary leads followed. The latter metadata triage is not completed full-text screening. Five changed-source packages reread; not the entire assessment queue. Continuous historical coverage remains incomplete, so collectionEnded stays August20. Optional missing files are record-local, with nested metadata recovered where available. No downloaded proof code executed.",
-    "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-23",
-    "reviewedCorrectionCount": 169,
+    "sourceCorpusRefreshedThrough": "2026-10-24",
+    "sourceCoverageNote": "Rolling October18–24 plus targeted recovery since August20 continuous cutoff and October23 evidence event. All mandatory endpoints and feeds retrieved;2345 mathematics and5058 CS metadata entries are byte-identical to yesterday, with722 AI metadata hits and15 remaining math/proof leads. Six new registry events and selected older primary texts were read. This is not exhaustive full-text or complete historical coverage; cutoff remains August20. A guessed secondary sweep URL returned404; it was only a discovery lead, and all proposed records have retrieved primary evidence. No downloaded proof, checker, certificate or macro executed.",
+    "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-24",
+    "reviewedCorrectionCount": 171,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "857a596ef4d14bd637cf40b485dd175c040c2fccd849c67db28979644853cfa0",
-      "referenceMapSha256": "22d82045f9495049ed814d2c3b6903a98379e693d96f7340b8376144e58c0422",
-      "analysisLogSha256": "ef410e6307898108a55fddc0c830bf03123a933fdb59bca37c00b0a39d3f2a18"
+      "scoredLedgerSha256": "30e1c8fda3c0a7fbf7bd9ce9c06315646612ef0984ea1f2ad4f15d3ec0980a27",
+      "referenceMapSha256": "fc148a8072e6a02354e5d2ff9d3454c97497d4a6297411a337a4f9fda11a4ee0",
+      "analysisLogSha256": "be6dbbece7c5722255754283d261d86a853bab5a160dc65ac7ed4d39b36768ce"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -66,16 +66,16 @@
       "transitionId": "source-corpus-transition-2026-08-20-519"
     },
     "defaultLeadingIds": [
+      "4119",
+      "4118",
+      "4117",
+      "4116",
       "4115",
       "4114",
       "4113",
       "4112",
       "4111",
-      "4110",
-      "4109",
-      "4108",
-      "4107",
-      "4106"
+      "4110"
     ],
     "migrationBoundary": "Legacy 0.1.0 and policy 1.0.0 categories remain labelled source history; browse output uses policy 1.1.0 mathematical-history categories with assurance displayed separately.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -59386,7 +59386,7 @@
     "recordType": "result",
     "resultId": "result-140",
     "sourceIncludedId": "140",
-    "claim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
+    "claim": "The source reports: Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively. Current revision: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
     "sources": [
       {
         "sourceId": "Claude2026ZetaTwoThirds",
@@ -59513,6 +59513,15 @@
         "url": "https://arxiv.org/abs/2609.02882v2",
         "accessed": "2026-09-10",
         "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261024_140",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Current owner revision and limits",
+        "url": "https://arxiv.org/abs/2610.24612v1",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -59550,7 +59559,8 @@
           "Anthropic2026ZetaComparatorConsolidation",
           "RiemannLabs2026ZetaFormalVerification",
           "RiemannLabs2026ZetaFormalReplayRun",
-          "Lamzouri2026ZetaNewProofV2"
+          "Lamzouri2026ZetaNewProofV2",
+          "Daily20261024_140"
         ],
         "confidence": "high"
       },
@@ -59558,7 +59568,7 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The source reports: Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively. Current revision: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -59573,7 +59583,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         },
@@ -59581,7 +59592,7 @@
           "status": "coded",
           "polarity": "settled_yes",
           "completeness": "frontier_moved",
-          "rationale": "The reported bound or algorithm is established affirmatively and moves the quantitative frontier. A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions.",
+          "rationale": "The reported bound or algorithm is established affirmatively and moves the quantitative frontier. A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions. Current revision: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -59596,7 +59607,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         },
@@ -59606,7 +59618,7 @@
           "additionalConceptIds": [
             "R3-REDUCTION-OR-CHARACTERISATION"
           ],
-          "rationale": "The material argument forms are supported as follows: A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions.",
+          "rationale": "The material argument forms are supported as follows: A pair-correlation reduction, Hermitian-form analysis, and optimized test families prove materially stronger unconditional zeta and xi-prime lower bounds and extend the zeta proportions verbatim to every fixed primitive Dirichlet character, without claiming the Riemann hypothesis or sharp proportions. Current revision: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
           "evidenceSourceIds": [
             "Claude2026ZetaTwoThirds",
             "Anthropic2026RiemannZeta",
@@ -59621,7 +59633,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         },
@@ -59642,7 +59655,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "unknown"
         }
@@ -59666,7 +59680,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high",
           "sourceClaimed": false
@@ -59761,7 +59776,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         },
@@ -59783,7 +59799,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         },
@@ -59811,7 +59828,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "confidence": "high"
         }
@@ -59846,7 +59864,8 @@
               "Anthropic2026ZetaComparatorConsolidation",
               "RiemannLabs2026ZetaFormalVerification",
               "RiemannLabs2026ZetaFormalReplayRun",
-              "Lamzouri2026ZetaNewProofV2"
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
             ]
           },
           "replayedHere": false,
@@ -59866,7 +59885,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "notes": "This is source-reported internal model checking and is not treated as independent verification."
         },
@@ -59896,7 +59916,8 @@
               "Anthropic2026ZetaComparatorConsolidation",
               "RiemannLabs2026ZetaFormalVerification",
               "RiemannLabs2026ZetaFormalReplayRun",
-              "Lamzouri2026ZetaNewProofV2"
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
             ]
           },
           "replayedHere": false,
@@ -59916,7 +59937,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "notes": "The source reports an independent expert re-derivation and checking; this is not peer review."
         },
@@ -59946,7 +59968,8 @@
               "Anthropic2026ZetaComparatorConsolidation",
               "RiemannLabs2026ZetaFormalVerification",
               "RiemannLabs2026ZetaFormalReplayRun",
-              "Lamzouri2026ZetaNewProofV2"
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
             ]
           },
           "replayedHere": false,
@@ -59966,7 +59989,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "notes": "The public tagged source and xi-prime comparator commit were inspected as untrusted evidence, but this automation did not download, execute, or independently replay the formal artifact."
         },
@@ -59996,7 +60020,8 @@
               "Anthropic2026ZetaComparatorConsolidation",
               "RiemannLabs2026ZetaFormalVerification",
               "RiemannLabs2026ZetaFormalReplayRun",
-              "Lamzouri2026ZetaNewProofV2"
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
             ]
           },
           "replayedHere": false,
@@ -60016,7 +60041,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "notes": "This is organizationally independent formal-statement verification, not external analytic peer review. The workflow attempts Nanoda first but falls back to Lean, so its successful status independently guarantees at least the Lean-kernel path; the public verifier description reports acceptance by both kernels. The overlay itself credits Claude Opus 4.8. The untrusted artifact and logs were not executed in this audit."
         },
@@ -60046,7 +60072,8 @@
               "Anthropic2026ZetaComparatorConsolidation",
               "RiemannLabs2026ZetaFormalVerification",
               "RiemannLabs2026ZetaFormalReplayRun",
-              "Lamzouri2026ZetaNewProofV2"
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
             ]
           },
           "replayedHere": false,
@@ -60066,16 +60093,69 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ],
           "notes": "No full-claim computational verification is inferred from component checks."
+        },
+        {
+          "eventId": "verification-140-6",
+          "familyId": "VF-HUMAN",
+          "methodId": "VM-HUMAN-EXPERT-MATHEMATICAL-REVIEW",
+          "target": "The repaired Riemann-zeta proportion argument, not the entire Dirichlet/xi-prime package",
+          "verifier": "J. Arias de Reyna, arXiv2610.24612v1",
+          "independence": "independent_party",
+          "scope": "specified_components",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "partial",
+            "rationale": "Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
+            "evidenceSourceIds": [
+              "Claude2026ZetaTwoThirds",
+              "Anthropic2026RiemannZeta",
+              "FurmanAlpoge2026ZetaNote",
+              "Anthropic2026ZetaLeanInitialCommit",
+              "Anthropic2026ZetaRepositoryEvents",
+              "Anthropic2026ZetaLean",
+              "Anthropic2026XiPrimeLeanCommit",
+              "Anthropic2026ZetaIssue7",
+              "Anthropic2026ZetaIssue8",
+              "ClaudeEtAl2026ZetaArxivV2",
+              "Anthropic2026ZetaComparatorConsolidation",
+              "RiemannLabs2026ZetaFormalVerification",
+              "RiemannLabs2026ZetaFormalReplayRun",
+              "Lamzouri2026ZetaNewProofV2",
+              "Daily20261024_140"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "not_reported",
+          "assumptions": [],
+          "evidenceSourceIds": [
+            "Claude2026ZetaTwoThirds",
+            "Anthropic2026RiemannZeta",
+            "FurmanAlpoge2026ZetaNote",
+            "Anthropic2026ZetaLeanInitialCommit",
+            "Anthropic2026ZetaRepositoryEvents",
+            "Anthropic2026ZetaLean",
+            "Anthropic2026XiPrimeLeanCommit",
+            "Anthropic2026ZetaIssue7",
+            "Anthropic2026ZetaIssue8",
+            "ClaudeEtAl2026ZetaArxivV2",
+            "Anthropic2026ZetaComparatorConsolidation",
+            "RiemannLabs2026ZetaFormalVerification",
+            "RiemannLabs2026ZetaFormalReplayRun",
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
+          ],
+          "notes": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
         }
       ],
       "replayedHere": false
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively.",
+      "anchorClaim": "The source reports: Unconditionally, the optimized test families give liminf proportions at least 0.6725 for distinct and simple critical-line zeros of the Riemann zeta function and 0.83625 for distinct zeta zeros overall. The same zeta proportion bounds hold verbatim for L(s,χ) for every fixed primitive Dirichlet character χ. For xi-prime they give at least 0.85838 for simple critical-line zeros and 0.92919 for distinct zeros overall, improved by the quartic variant to 0.86864 and 0.93432 respectively. Current revision: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
@@ -60093,7 +60173,8 @@
           "Anthropic2026ZetaComparatorConsolidation",
           "RiemannLabs2026ZetaFormalVerification",
           "RiemannLabs2026ZetaFormalReplayRun",
-          "Lamzouri2026ZetaNewProofV2"
+          "Lamzouri2026ZetaNewProofV2",
+          "Daily20261024_140"
         ],
         "confidence": "unknown"
       },
@@ -60116,7 +60197,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         },
         "advance": {
@@ -60137,7 +60219,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         },
         "scope": {
@@ -60158,7 +60241,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         },
         "resistance": {
@@ -60179,7 +60263,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         }
       },
@@ -60187,7 +60272,7 @@
         "status": "coded",
         "value": "2020",
         "precision": "year",
-        "rationale": "Using the 2020 critical-line frontier as the central package baseline, the improvement follows after six years or 0.6 decades; the duration override does not apply because this is a bound improvement rather than a complete settlement.",
+        "rationale": "Further checking: Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
         "evidenceSourceIds": [
           "Claude2026ZetaTwoThirds",
           "Anthropic2026RiemannZeta",
@@ -60202,7 +60287,8 @@
           "Anthropic2026ZetaComparatorConsolidation",
           "RiemannLabs2026ZetaFormalVerification",
           "RiemannLabs2026ZetaFormalReplayRun",
-          "Lamzouri2026ZetaNewProofV2"
+          "Lamzouri2026ZetaNewProofV2",
+          "Daily20261024_140"
         ]
       },
       "solutionDate": {
@@ -60224,10 +60310,11 @@
           "Anthropic2026ZetaComparatorConsolidation",
           "RiemannLabs2026ZetaFormalVerification",
           "RiemannLabs2026ZetaFormalReplayRun",
-          "Lamzouri2026ZetaNewProofV2"
+          "Lamzouri2026ZetaNewProofV2",
+          "Daily20261024_140"
         ]
       },
-      "provisional": false,
+      "provisional": true,
       "superhumanEvidence": {
         "exactTargetCorrespondence": {
           "value": "probable",
@@ -60246,7 +60333,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         },
         "substantivePriorAttempts": {
@@ -60266,7 +60354,8 @@
             "Anthropic2026ZetaComparatorConsolidation",
             "RiemannLabs2026ZetaFormalVerification",
             "RiemannLabs2026ZetaFormalReplayRun",
-            "Lamzouri2026ZetaNewProofV2"
+            "Lamzouri2026ZetaNewProofV2",
+            "Daily20261024_140"
           ]
         }
       },
@@ -60281,12 +60370,12 @@
     },
     "coding": {
       "coder": "Mathematics Progress v0.2 corpus coding",
-      "assignmentDate": "2026-09-10",
-      "confidence": "high",
+      "assignmentDate": "2026-10-24",
+      "confidence": "low",
       "rationale": "The official paper and announcement provide claim-specific Claude attribution, bounded zeta, primitive-Dirichlet-L and xi-prime theorem statements, and several explicitly scoped verification routes, with a public formal companion.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Theorem B extends every Theorem A zeta proportion and optimized constant verbatim to L(s,χ) for each fixed primitive Dirichlet character. Remark 7.3 supplies the xi-prime bounds 0.85838/0.92919 and the quartic 0.86864/0.93432 refinement; commit c77974d adds six associated Lean comparator statements, and commit d431dbcf consolidates the comparator to seventeen A-E and six xi-prime statements without changing theorem content. The independent Riemann Labs workflow is scoped to the formal statements and does not constitute analytic peer review. The exact research-model snapshot is not surfaced. The automation did not execute downloaded proof artifacts. The August 13 replacement paper narrows Lemma 3.2 to the c=2 form used in the proof and supplies a corrected, clearer derivation; the headline bounds are unchanged. Issue 8 concerns an unavailable external certificate for the ancillary PairCeiling claim, which remains excluded from this record's anchor. The current Claude and Lamzouri arXiv v2 sources were read on 10 September 2026. Their two overlapping zeta constants are unchanged; Lamzouri's two additional human-derived estimates are outside ID 140's AI-result anchor. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
+      "notes": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
     }
   },
   "138": {
@@ -1260417,7 +1260506,7 @@
     "recordType": "result",
     "resultId": "result-4077",
     "sourceIncludedId": "4077",
-    "claim": "The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included.",
+    "claim": "The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included. Current revision: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
     "sources": [
       {
         "sourceId": "Daily20261022_4077",
@@ -1260445,6 +1260534,15 @@
         "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000006-v1.json",
         "accessed": "2026-10-22",
         "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4077",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Current owner revision and limits",
+        "url": "https://github.com/RBarish-UTokyo/MaxWeightIS-FPT-EulerGenusOddFaces-Lean4/blob/9d427d31eec04c5762495c296c846a5992bdb724/README.md",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -1260454,7 +1260552,8 @@
         "evidenceSourceIds": [
           "Daily20261022_4077",
           "Daily20261022_4077_support",
-          "Daily20261022_4077_registration"
+          "Daily20261022_4077_registration",
+          "Daily20261024_4077"
         ],
         "confidence": "unknown"
       },
@@ -1260462,11 +1260561,12 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included. Current revision: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "low"
         },
@@ -1260474,11 +1260574,12 @@
           "status": "coded",
           "polarity": "settled_yes",
           "completeness": "partial",
-          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included.",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included. Current revision: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "low"
         },
@@ -1260486,11 +1260587,12 @@
           "status": "coded",
           "primaryConceptId": "R3-DIRECT-PROOF",
           "additionalConceptIds": [],
-          "rationale": "The material argument forms are supported as follows: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included.",
+          "rationale": "The material argument forms are supported as follows: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included. Current revision: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "low"
         },
@@ -1260500,7 +1260602,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "unknown"
         }
@@ -1260512,7 +1260615,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "unknown"
         },
@@ -1260525,7 +1260629,8 @@
             "evidenceSourceIds": [
               "Daily20261022_4077",
               "Daily20261022_4077_support",
-              "Daily20261022_4077_registration"
+              "Daily20261022_4077_registration",
+              "Daily20261024_4077"
             ]
           },
           {
@@ -1260536,7 +1260641,8 @@
             "evidenceSourceIds": [
               "Daily20261022_4077",
               "Daily20261022_4077_support",
-              "Daily20261022_4077_registration"
+              "Daily20261022_4077_registration",
+              "Daily20261024_4077"
             ]
           },
           {
@@ -1260547,7 +1260653,8 @@
             "evidenceSourceIds": [
               "Daily20261022_4077",
               "Daily20261022_4077_support",
-              "Daily20261022_4077_registration"
+              "Daily20261022_4077_registration",
+              "Daily20261024_4077"
             ]
           }
         ],
@@ -1260558,7 +1260665,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "low"
         },
@@ -1260568,7 +1260676,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "unknown"
         },
@@ -1260578,7 +1260687,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ],
           "confidence": "unknown"
         }
@@ -1260588,18 +1260698,19 @@
       "status": "unknown",
       "events": [],
       "replayedHere": false,
-      "rationale": "The originating human paper is forthcoming. Check whether AI contributed new mathematics rather than only translation, the embedding input representation and the full bit-cost theorem; novelty versus prior algorithms is unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      "rationale": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included.",
+      "anchorClaim": "The primary source reports: The source reports an explicit rational-weight program for embedded graphs of Euler genus gamma and k odd regions with bit complexity f(gamma+k)N^(D+C)(L+1)^b, D=max(0,gamma+k−2,gamma−1), or max(0,gamma+k−2) in the orientable case. Its stated disconnected, noncellular and negative-weight cases are included. Current revision: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
         "evidenceSourceIds": [
           "Daily20261022_4077",
           "Daily20261022_4077_support",
-          "Daily20261022_4077_registration"
+          "Daily20261022_4077_registration",
+          "Daily20261024_4077"
         ],
         "confidence": "unknown"
       },
@@ -1260611,7 +1260722,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         },
         "advance": {
@@ -1260621,7 +1260733,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         },
         "scope": {
@@ -1260631,7 +1260744,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         },
         "resistance": {
@@ -1260641,17 +1260755,19 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         }
       },
       "framingDate": {
         "status": "not_reported",
-        "rationale": "Further checking: The originating human paper is forthcoming. Check whether AI contributed new mathematics rather than only translation, the embedding input representation and the full bit-cost theorem; novelty versus prior algorithms is unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "rationale": "Further checking: The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
         "evidenceSourceIds": [
           "Daily20261022_4077",
           "Daily20261022_4077_support",
-          "Daily20261022_4077_registration"
+          "Daily20261022_4077_registration",
+          "Daily20261024_4077"
         ]
       },
       "solutionDate": {
@@ -1260662,7 +1260778,8 @@
         "evidenceSourceIds": [
           "Daily20261022_4077",
           "Daily20261022_4077_support",
-          "Daily20261022_4077_registration"
+          "Daily20261022_4077_registration",
+          "Daily20261024_4077"
         ]
       },
       "provisional": true,
@@ -1260673,7 +1260790,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         },
         "substantivePriorAttempts": {
@@ -1260682,7 +1260800,8 @@
           "evidenceSourceIds": [
             "Daily20261022_4077",
             "Daily20261022_4077_support",
-            "Daily20261022_4077_registration"
+            "Daily20261022_4077_registration",
+            "Daily20261024_4077"
           ]
         }
       },
@@ -1260721,12 +1260840,12 @@
     },
     "coding": {
       "coder": "Mathematics Progress v0.2 corpus coding",
-      "assignmentDate": "2026-10-22",
+      "assignmentDate": "2026-10-24",
       "confidence": "low",
       "rationale": "Individual primary statement and disclosure reading: PALOMAR-2026-10-22-000006",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "The originating human paper is forthcoming. Check whether AI contributed new mathematics rather than only translation, the embedding input representation and the full bit-cost theorem; novelty versus prior algorithms is unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      "notes": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
     }
   },
   "4078": {
@@ -1272289,6 +1272408,1228 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Check the exact imported zero-free statement and dependency in the stronger endpoint and distinguish it from the human-derived55/42 result. Resolve corpus materiality of upstream AI mathematics versus mere editorial assistance; do not attribute the new derivation to ChatGPT or treat the upstream result as independently verified. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4116": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4116",
+    "sourceIncludedId": "4116",
+    "claim": "The primary source reports: For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+    "sources": [
+      {
+        "sourceId": "Daily20261024_4116",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Local-height asymptotics without the Hodge-conjecture hypothesis — dated primary statement",
+        "url": "https://arxiv.org/abs/2610.30574v1",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4116_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Claim scope and direct AI disclosure",
+        "url": "https://arxiv.org/html/2610.30574v1",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (14) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261024_4116",
+          "Daily20261024_4116_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Nakayama explicitly attributes the argument outline and identification of Scholl’s p-adic analogue to ChatGPT6Astra; the author supplied the remaining details and wrote the manuscript.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4116",
+              "Daily20261024_4116_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4116",
+              "Daily20261024_4116_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": [
+              "Writing or editorial work described in the production evidence"
+            ],
+            "machineOperations": "not_reported",
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20261024_4116",
+              "Daily20261024_4116_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Nakayama explicitly attributes the argument outline and identification of Scholl’s p-adic analogue to ChatGPT6Astra; the author supplied the remaining details and wrote the manuscript.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261024_4116",
+          "Daily20261024_4116_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261024_4116",
+          "Daily20261024_4116_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261024_4116",
+          "Daily20261024_4116_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261024_4116",
+            "Daily20261024_4116_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-24",
+      "confidence": "low",
+      "rationale": "Individual primary scope/disclosure reading: 2610.30574v1",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4117": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4117",
+    "sourceIncludedId": "4117",
+    "claim": "The primary source reports: The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+    "sources": [
+      {
+        "sourceId": "Daily20261024_4117",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Robust absorption for typed triangle decompositions — dated primary statement",
+        "url": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/README.md",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4117_support",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Claim scope and direct AI disclosure",
+        "url": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/formalization.yaml",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4117_date",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated primary manuscript release",
+        "url": "https://doi.org/10.5281/zenodo.23502224",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4117_registration",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Dated registration",
+        "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-23-000013-v1.json",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (05) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261024_4117",
+          "Daily20261024_4117_support",
+          "Daily20261024_4117_date",
+          "Daily20261024_4117_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The author’s pinned disclosure directly credits Aristotle, Claude and ChatGPT/Codex with mathematical exploration, counterexample search and proof development, not just formal translation; the author directed scope and research.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4117",
+              "Daily20261024_4117_support",
+              "Daily20261024_4117_date",
+              "Daily20261024_4117_registration"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4117",
+              "Daily20261024_4117_support",
+              "Daily20261024_4117_date",
+              "Daily20261024_4117_registration"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4117",
+              "Daily20261024_4117_support",
+              "Daily20261024_4117_date",
+              "Daily20261024_4117_registration"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The author’s pinned disclosure directly credits Aristotle, Claude and ChatGPT/Codex with mathematical exploration, counterexample search and proof development, not just formal translation; the author directed scope and research.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261024_4117",
+          "Daily20261024_4117_support",
+          "Daily20261024_4117_date",
+          "Daily20261024_4117_registration"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261024_4117",
+          "Daily20261024_4117_support",
+          "Daily20261024_4117_date",
+          "Daily20261024_4117_registration"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261024_4117",
+          "Daily20261024_4117_support",
+          "Daily20261024_4117_date",
+          "Daily20261024_4117_registration"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261024_4117",
+            "Daily20261024_4117_support",
+            "Daily20261024_4117_date",
+            "Daily20261024_4117_registration"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-24",
+      "confidence": "low",
+      "rationale": "Individual primary scope/disclosure reading: PALOMAR-2026-10-23-000013",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4118": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4118",
+    "sourceIncludedId": "4118",
+    "claim": "The primary source reports: The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+    "sources": [
+      {
+        "sourceId": "Daily20261024_4118",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "All-cardinality spanning-tree maximizers in the square lattice — dated primary statement",
+        "url": "https://arxiv.org/abs/2605.23773v3",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4118_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Claim scope and direct AI disclosure",
+        "url": "https://arxiv.org/html/2605.23773v3",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (05) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261024_4118",
+          "Daily20261024_4118_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "Zhang credits GPT5.6Sol and GPT6AstraPro with mathematical exploration and proof development; GPT6-assisted refinements reduced the uniform threshold from65281 to18 and replaced computer-assisted steps by explicit recurrences. Codex separately helped formalization.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4118",
+              "Daily20261024_4118_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4118",
+              "Daily20261024_4118_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4118",
+              "Daily20261024_4118_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Zhang credits GPT5.6Sol and GPT6AstraPro with mathematical exploration and proof development; GPT6-assisted refinements reduced the uniform threshold from65281 to18 and replaced computer-assisted steps by explicit recurrences. Codex separately helped formalization.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261024_4118",
+          "Daily20261024_4118_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "evidenceSourceIds": [
+          "Daily20261024_4118",
+          "Daily20261024_4118_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261024_4118",
+          "Daily20261024_4118_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261024_4118",
+            "Daily20261024_4118_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-24",
+      "confidence": "low",
+      "rationale": "Individual primary scope/disclosure reading: 2605.23773v3",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+    }
+  },
+  "4119": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4119",
+    "sourceIncludedId": "4119",
+    "claim": "The primary source reports: The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+    "sources": [
+      {
+        "sourceId": "Daily20261024_4119",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Épi: certified mathematical bounds, constructions and a restricted Tuza theorem — dated primary statement",
+        "url": "https://arxiv.org/abs/2610.24944v1",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261024_4119_support",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "Claim scope and direct AI disclosure",
+        "url": "https://arxiv.org/html/2610.24944v1",
+        "accessed": "2026-10-24",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (05) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261024_4119",
+          "Daily20261024_4119_support"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The primary source reports: The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "partial",
+          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4119",
+              "Daily20261024_4119_support"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4119",
+              "Daily20261024_4119_support"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261024_4119",
+              "Daily20261024_4119_support"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The primary source reports: The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261024_4119",
+          "Daily20261024_4119_support"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Further checking: Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication.",
+        "evidenceSourceIds": [
+          "Daily20261024_4119",
+          "Daily20261024_4119_support"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261024_4119",
+          "Daily20261024_4119_support"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261024_4119",
+            "Daily20261024_4119_support"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-10-24",
+      "confidence": "low",
+      "rationale": "Individual primary scope/disclosure reading: 2610.24944v1",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication."
     }
   }
 }

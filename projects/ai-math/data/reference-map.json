@@ -1638,6 +1638,12 @@
       "title": "A new proof that more than two thirds of the zeros of the Riemann zeta function are simple and on the critical line (arXiv v2)",
       "url": "https://arxiv.org/abs/2609.02882v2",
       "accessed": "2026-09-10"
+    },
+    {
+      "key": "Daily20261024_140",
+      "title": "Current owner revision and limits",
+      "url": "https://arxiv.org/abs/2610.24612v1",
+      "accessed": "2026-10-24"
     }
   ],
   "141": [
@@ -65180,6 +65186,12 @@
       "title": "Dated primary registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-22-000006-v1.json",
       "accessed": "2026-10-22"
+    },
+    {
+      "key": "Daily20261024_4077",
+      "title": "Current owner revision and limits",
+      "url": "https://github.com/RBarish-UTokyo/MaxWeightIS-FPT-EulerGenusOddFaces-Lean4/blob/9d427d31eec04c5762495c296c846a5992bdb724/README.md",
+      "accessed": "2026-10-24"
     }
   ],
   "4078": [
@@ -65814,6 +65826,74 @@
       "title": "A Gauss sphere bound using the OpenAI quasi-GRH input — scope and AI disclosure",
       "url": "https://arxiv.org/html/2610.29636v1",
       "accessed": "2026-10-23"
+    }
+  ],
+  "4116": [
+    {
+      "key": "Daily20261024_4116",
+      "title": "Local-height asymptotics without the Hodge-conjecture hypothesis — dated primary statement",
+      "url": "https://arxiv.org/abs/2610.30574v1",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4116_support",
+      "title": "Claim scope and direct AI disclosure",
+      "url": "https://arxiv.org/html/2610.30574v1",
+      "accessed": "2026-10-24"
+    }
+  ],
+  "4117": [
+    {
+      "key": "Daily20261024_4117",
+      "title": "Robust absorption for typed triangle decompositions — dated primary statement",
+      "url": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/README.md",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4117_support",
+      "title": "Claim scope and direct AI disclosure",
+      "url": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/formalization.yaml",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4117_date",
+      "title": "Dated primary manuscript release",
+      "url": "https://doi.org/10.5281/zenodo.23502224",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4117_registration",
+      "title": "Dated registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-23-000013-v1.json",
+      "accessed": "2026-10-24"
+    }
+  ],
+  "4118": [
+    {
+      "key": "Daily20261024_4118",
+      "title": "All-cardinality spanning-tree maximizers in the square lattice — dated primary statement",
+      "url": "https://arxiv.org/abs/2605.23773v3",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4118_support",
+      "title": "Claim scope and direct AI disclosure",
+      "url": "https://arxiv.org/html/2605.23773v3",
+      "accessed": "2026-10-24"
+    }
+  ],
+  "4119": [
+    {
+      "key": "Daily20261024_4119",
+      "title": "Épi: certified mathematical bounds, constructions and a restricted Tuza theorem — dated primary statement",
+      "url": "https://arxiv.org/abs/2610.24944v1",
+      "accessed": "2026-10-24"
+    },
+    {
+      "key": "Daily20261024_4119_support",
+      "title": "Claim scope and direct AI disclosure",
+      "url": "https://arxiv.org/html/2610.24944v1",
+      "accessed": "2026-10-24"
     }
   ]
 }

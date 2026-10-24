@@ -224677,5 +224677,401 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-24",
+    "snapshotHash": "0f22d2a56d9356973eef80b072c0885cc2562b8d578c41fd35dcd20fc053356d",
+    "changes": [
+      {
+        "id": "140",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The original record reports material unconditional zero-proportion improvements. Lamzouri v2 independently corroborates the two Riemann-zeta constants by a different route; its two additional human results are outside this AI package, while the primitive-Dirichlet-L and xi-prime components retain their existing evidence scope.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function.",
+          "sourceHash": "253bdae0edd2d55b03891017df1a84df37451e1d42134c617e725dca594cff2e",
+          "assessedAt": "2026-09-10",
+          "inclusionConcern": "Independent support is scoped to the two Riemann-zeta constants; it does not verify the primitive-Dirichlet-L or xi-prime extensions.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The original retained sources report that an unreleased Claude research system led the mathematical discovery; Lamzouri's later alternative proof is human work and changes verification evidence, not the original production attribution."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
+          "sourceHash": "b9cd2a0c972e96863a49eaa453ff26396ceb8c9de350926176583c2ba0db4375",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "4077",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem.",
+          "sourceHash": "98cc4508dbe4ec3bc971e85daca2a49c9360c30a0b26029d084c341499cebbd2",
+          "assessedAt": "2026-10-22",
+          "inclusionConcern": "The originating human paper is forthcoming. Check whether AI contributed new mathematics rather than only translation, the embedding input representation and the full bit-cost theorem; novelty versus prior algorithms is unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The owner discloses GPT6Astra and ClaudeOpus5.5 work on definitions, proofs, the machine program and documentation under author direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
+          "sourceHash": "4d63aacb5987683353b474bd6fb9bb54ec553762eb76496690c1938f8cf1126a",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The owner discloses GPT6Astra and ClaudeOpus5.5 work on definitions, proofs, the machine program and documentation under author direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4116",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Removal of a major conjectural assumption from a specific arithmetic-geometric height theorem is substantive specialist progress, not settlement of Hodge itself. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Removal of a major conjectural assumption from a specific arithmetic-geometric height theorem is substantive specialist progress, not settlement of Hodge itself.",
+          "sourceHash": "1ed7225b176e102cf4e2e212c53e96343ecb4056d251b11843efaed5e1fb9400",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Nakayama explicitly attributes the argument outline and identification of Scholl’s p-adic analogue to ChatGPT6Astra; the author supplied the remaining details and wrote the manuscript."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated arXiv first-public submission history and primary full text; subsequent formalization is not counted twice.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4117",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Substantial specialist mathematical progress, not a complete settlement of the unrestricted parent conjecture. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Substantial specialist mathematical progress, not a complete settlement of the unrestricted parent conjecture.",
+          "sourceHash": "0a87642b5a3a2a00aa86e9f2fed480d11d8c332bc5388a0be75b016fa9827f1d",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author’s pinned disclosure directly credits Aristotle, Claude and ChatGPT/Codex with mathematical exploration, counterexample search and proof development, not just formal translation; the author directed scope and research."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-20",
+            "dateBasis": "Dated primary Zenodo23502224 public release on October20 identifies PaperII; later October23 registration and pinned owner metadata supply the exact scope and direct AI disclosure. Earlier manuscript preparation dates alone were not used.",
+            "originalPublicationDate": "2026-10-20",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4118",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A broad new extremal classification and sharp threshold refinement with source-specific AI mathematics, rather than merely formalizing the earlier rectangle/square theorem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A broad new extremal classification and sharp threshold refinement with source-specific AI mathematics, rather than merely formalizing the earlier rectangle/square theorem.",
+          "sourceHash": "303b2112b83d7dcdc46a3d0f3c217c44e15ba41612f8c9e5cd9d4e42f8d079f5",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Zhang credits GPT5.6Sol and GPT6AstraPro with mathematical exploration and proof development; GPT6-assisted refinements reduced the uniform threshold from65281 to18 and replaced computer-assisted steps by explicit recurrences. Codex separately helped formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-14",
+            "dateBasis": "arXiv v3 public October14 contains the expanded all-cardinality classification and explicit material AI refinements. May22 v1 and June22 v2 only addressed rectangular balancing; preserve May22 as original-paper date, not the date of this expanded result.",
+            "originalPublicationDate": "2026-05-22",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4119",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems.",
+          "sourceHash": "41db469e9d492095bf99be2dddb97ae0476c92f45b0e2a969e4a90b0fdc5ea27",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Dated arXiv first-public submission history and primary full text; subsequent formalization is not counted twice.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-24",
+    "snapshotHash": "57363164eb6c596491ae2d72d5e1d8f4dfdf0297c9aa3ef8f9ce901509a4d56d",
+    "changes": [
+      {
+        "id": "140",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
+          "sourceHash": "b9cd2a0c972e96863a49eaa453ff26396ceb8c9de350926176583c2ba0db4375",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Analytic-number-theory specialists advancing the unconditional zero-density and simplicity frontiers for the Riemann zeta function. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants. Current scoped reading: Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
+          "sourceHash": "b9cd2a0c972e96863a49eaa453ff26396ceb8c9de350926176583c2ba0db4375",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public."
+          },
+          "collection": {
+            "firstCollectedDate": null,
+            "reportedDate": "2026-08-07",
+            "dateBasis": "Existing ledger publication date; source-specific first-collection and publication-date basis were not reconstructed from retained baseline evidence.",
+            "originalPublicationDate": null,
+            "collectionKind": "unknown"
+          }
+        }
+      },
+      {
+        "id": "4077",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
+          "sourceHash": "4d63aacb5987683353b474bd6fb9bb54ec553762eb76496690c1938f8cf1126a",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The owner discloses GPT6Astra and ClaudeOpus5.5 work on definitions, proofs, the machine program and documentation under author direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "A bounded research theorem or construction, rather than a full settlement of its broader parent problem. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized. Current scoped reading: The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
+          "sourceHash": "4d63aacb5987683353b474bd6fb9bb54ec553762eb76496690c1938f8cf1126a",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The owner discloses GPT6Astra and ClaudeOpus5.5 work on definitions, proofs, the machine program and documentation under author direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-22",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Earliest dated primary registration supported in this run; earlier manuscript visibility and novelty remain subject to the explicit further-checking note.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4119",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems.",
+          "sourceHash": "41db469e9d492095bf99be2dddb97ae0476c92f45b0e2a969e4a90b0fdc5ea27",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Dated arXiv first-public submission history and primary full text; subsequent formalization is not counted twice.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems.",
+          "sourceHash": "fa7803dfdb090f5ede8ded5b8bb31c3deb417bfd03ca2bcaec2edccd58fde8f1",
+          "assessedAt": "2026-10-24",
+          "inclusionConcern": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-24",
+            "reportedDate": "2026-10-18",
+            "dateBasis": "Dated arXiv v1 report on October18; earlier repository preparation commits exist, but their first-public visibility is unresolved and is not inferred from commit/creation dates.",
+            "originalPublicationDate": "2026-10-18",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]

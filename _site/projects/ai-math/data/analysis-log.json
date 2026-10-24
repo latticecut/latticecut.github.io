@@ -63195,5 +63195,207 @@
     "artifactsExecuted": false,
     "correctionSetId": "reviewed-source-corrections-2026-10-23",
     "correctionSetSha256": "9145259bd560dcaf23df30ccd4e4c856f6582090a64e708d55ab513ea7c8e7e4"
+  },
+  {
+    "id": "2026-10-24-record-local-refresh",
+    "recordedAt": "2026-10-24",
+    "refreshedThrough": "2026-10-24",
+    "runDateEuropeLondon": "2026-10-24",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4130,
+    "claimCount": 4132,
+    "evidenceCutoff": "2026-10-24T18:35:37.462Z",
+    "model": null,
+    "modelStatus": "Runtime model identifier not surfaced",
+    "summary": "Four individually supported provisional additions and scoped existing-record updates; no strict Superhuman overrides.",
+    "coverageNote": "Rolling October18–24 plus targeted recovery since August20 continuous cutoff and October23 evidence event. All mandatory endpoints and feeds retrieved;2345 mathematics and5058 CS metadata entries are byte-identical to yesterday, with722 AI metadata hits and15 remaining math/proof leads. Six new registry events and selected older primary texts were read. This is not exhaustive full-text or complete historical coverage; cutoff remains August20. A guessed secondary sweep URL returned404; it was only a discovery lead, and all proposed records have retrieved primary evidence. No downloaded proof, checker, certificate or macro executed.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "4116",
+      "4117",
+      "4118",
+      "4119",
+      "140",
+      "4077"
+    ],
+    "existingRecordChanges": [
+      "140",
+      "4077"
+    ],
+    "provisionalIds": [
+      "4116",
+      "4117",
+      "4118",
+      "4119",
+      "140",
+      "4077"
+    ],
+    "recordDecisions": [
+      {
+        "key": "2610.30574v1",
+        "title": "Local-height asymptotics without the Hodge-conjecture hypothesis",
+        "publicationDate": "2026-10-22",
+        "boundedClaim": "For the stated flat projective family over a smooth complex curve, with smooth total space and generically disjoint complementary cycles homologically trivial on general fibers, the Archimedean height minus the local intersection index times log|t| extends continuously across the degeneration. The Hodge conjecture and the earlier additional intersection/semistability assumptions are not needed for this theorem. This does not prove the Hodge conjecture.",
+        "aiContribution": "Nakayama explicitly attributes the argument outline and identification of Scholl’s p-adic analogue to ChatGPT6Astra; the author supplied the remaining details and wrote the manuscript.",
+        "furtherChecking": "Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "comparator": "Removal of a major conjectural assumption from a specific arithmetic-geometric height theorem is substantive specialist progress, not settlement of Hodge itself.",
+        "sourceId": "4116",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://arxiv.org/abs/2610.30574v1",
+        "support": "https://arxiv.org/html/2610.30574v1",
+        "dateBasis": "Dated arXiv first-public submission history and primary full text; subsequent formalization is not counted twice."
+      },
+      {
+        "key": "PALOMAR-2026-10-23-000013",
+        "title": "Robust absorption for typed triangle decompositions",
+        "publicationDate": "2026-10-20",
+        "boundedClaim": "The paper reports typical-host triangle decomposition theorems for admissible four-label families, including a finite-census theorem, their nearly complete/balanced consequences with explicit type weights, a semidense two-label mixed-triangle case, and a terminal absorber under bounded signed certificates and physical hinge supply. It retains typicality, local/global divisibility, extension and non-extremality hypotheses; arbitrary divisible hosts are not covered.",
+        "aiContribution": "The author’s pinned disclosure directly credits Aristotle, Claude and ChatGPT/Codex with mathematical exploration, counterexample search and proof development, not just formal translation; the author directed scope and research.",
+        "furtherChecking": "Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "comparator": "Substantial specialist mathematical progress, not a complete settlement of the unrestricted parent conjecture.",
+        "dateBasis": "Dated primary Zenodo23502224 public release on October20 identifies PaperII; later October23 registration and pinned owner metadata supply the exact scope and direct AI disclosure. Earlier manuscript preparation dates alone were not used.",
+        "sourceId": "4117",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/README.md",
+        "support": "https://github.com/jtraverso/typed-triangle-absorption/blob/673c6d4118b5679783bafa7606fd2c611161a254/formalization.yaml"
+      },
+      {
+        "key": "2605.23773v3",
+        "title": "All-cardinality spanning-tree maximizers in the square lattice",
+        "publicationDate": "2026-10-14",
+        "boundedClaim": "The revised paper reports the maximum spanning-tree count and all maximizing isometry classes for every positive cardinality of connected induced square-lattice domains. Canonical corner-strip domains are uniquely maximizing for N>=18; nonuniqueness is confined to N=3,8,10,13, while canonical-count exceptions occur at7,14,17. It also reports sharp square-cardinality stability, exact strip formulas and extremal asymptotics.",
+        "aiContribution": "Zhang credits GPT5.6Sol and GPT6AstraPro with mathematical exploration and proof development; GPT6-assisted refinements reduced the uniform threshold from65281 to18 and replaced computer-assisted steps by explicit recurrences. Codex separately helped formalization.",
+        "furtherChecking": "Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "shared",
+        "comparator": "A broad new extremal classification and sharp threshold refinement with source-specific AI mathematics, rather than merely formalizing the earlier rectangle/square theorem.",
+        "dateBasis": "arXiv v3 public October14 contains the expanded all-cardinality classification and explicit material AI refinements. May22 v1 and June22 v2 only addressed rectangular balancing; preserve May22 as original-paper date, not the date of this expanded result.",
+        "originalPublicationDate": "2026-05-22",
+        "sourceId": "4118",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://arxiv.org/abs/2605.23773v3",
+        "support": "https://arxiv.org/html/2605.23773v3"
+      },
+      {
+        "key": "2610.24944v1",
+        "title": "Épi: certified mathematical bounds, constructions and a restricted Tuza theorem",
+        "publicationDate": "2026-10-18",
+        "boundedClaim": "The technical report supplies exact or interval-certified improvements in twelve numerical families and explicit geometric constructions. Highlights include Cohn–Elkies LP non-sharpness in dimensions10 and11, n-queens constant enclosure[1.9440010223327,1.9440010262694], polyomino growth upper bound4.29569, quartic Feigenbaum dimension enclosure[0.6425750638035370,0.6425750659339700], and Tuza’s inequality for split graphs with an eight-vertex clique and at most three triangle-active neighborhood types with arbitrary multiplicities. This is one paper package, not120 independently counted corpus papers; solver benchmarks and generic performance metrics are excluded.",
+        "aiContribution": "The authors attribute the discoveries, computational search, method evolution and retained witnesses to their persistent autonomous Épi agent powered by GPT5.6Sol/GPT6Astra, with human task and verifier design and independent agent review.",
+        "furtherChecking": "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication.",
+        "bestCategory": "Difficult",
+        "bestConfidence": "medium",
+        "material": true,
+        "role": "ai-led",
+        "comparator": "Material certified bound improvements, constructions and a bounded theorem extension are strong mathematical signals but do not settle the full parent packing, discrepancy or Tuza problems.",
+        "sourceId": "4119",
+        "disposition": "include_flagged",
+        "provisional": 1,
+        "primary": "https://arxiv.org/abs/2610.24944v1",
+        "support": "https://arxiv.org/html/2610.24944v1",
+        "dateBasis": "Dated arXiv v1 report on October18; earlier repository preparation commits exist, but their first-public visibility is unresolved and is not inferred from commit/creation dates."
+      },
+      {
+        "sourceId": "140",
+        "key": "2610.24612v1",
+        "title": "riemann-zeta, primitive-dirichlet-l and xi-prime zero proportions",
+        "disposition": "include_flagged",
+        "publicationDate": "2026-08-07",
+        "primary": "https://arxiv.org/abs/2610.24612v1",
+        "boundedClaim": "Arias de Reyna supplies an independent specialist exposition and accepts the repaired0.67250 simple-critical-line and0.83625 distinct-overall Riemann-zeta proportions after a month of study. He also says the cited Claude v2 paper has false statements and does not work as written without modifications. This is supporting human mathematical engagement and an exposition-level correction concern, not a refutation of the headline zeta constants and not verification of the primitive-Dirichlet-L or xi-prime extensions. Lamzouri’s distinct independent route remains separate support for the zeta constants.",
+        "aiContribution": "Anthropic reports that an unreleased research version of Claude led the mathematical discovery through parallel agents, internal critics and verifiers, and human mathematician interaction; a separate Lean 4 companion formalizes the headline theorem package. The exact model snapshot is not public.",
+        "furtherChecking": "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+        "provisional": 1,
+        "change": "Existing package scope, checkpoint or priority clarification; no new package"
+      },
+      {
+        "sourceId": "4077",
+        "key": "PALOMAR-2026-10-23-000015",
+        "title": "An XP maximum-weight independent-set algorithm parameterized by surface topology and odd faces",
+        "disposition": "include_flagged",
+        "publicationDate": "2026-10-22",
+        "primary": "https://github.com/RBarish-UTokyo/MaxWeightIS-FPT-EulerGenusOddFaces-Lean4/blob/9d427d31eec04c5762495c296c846a5992bdb724/README.md",
+        "boundedClaim": "The same author’s later integer-weight fixed-parameter interface strengthens the earlier XP programme: one fixed sixteen-register pointer-machine program solves maximum-weight independent set in embedded graphs within2^O(p log(p+1))*poly(N,log(M+1)), p=Euler genus+number of odd regions, with an absolute polynomial exponent and explicit stack/bit costs. Disconnected/noncellular drawings, loops, negative weights and combinatorial flag maps are included. The rational-weight FPT extension and a flag-map/topological-surface realization theorem are not formalized.",
+        "aiContribution": "The owner discloses GPT6Astra and ClaudeOpus5.5 work on definitions, proofs, the machine program and documentation under author direction.",
+        "furtherChecking": "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+        "provisional": 1,
+        "change": "Existing package scope, checkpoint or priority clarification; no new package"
+      }
+    ],
+    "changes": [
+      "4116: Local-height asymptotics without the Hodge-conjecture hypothesis",
+      "4117: Robust absorption for typed triangle decompositions",
+      "4118: All-cardinality spanning-tree maximizers in the square lattice",
+      "4119: Épi: certified mathematical bounds, constructions and a restricted Tuza theorem",
+      "140: Existing package scope, checkpoint or priority clarification; no new package",
+      "4077: Existing package scope, checkpoint or priority clarification; no new package"
+    ],
+    "excludedCandidates": [
+      {
+        "key": "PALOMAR-2026-10-23-000018",
+        "title": "Lavrentieff's Gδ homeomorphism extension theorem",
+        "primary": "https://github.com/Arthur742Ramos/Math-Formalization/tree/a8c08adf51ec122bff60955a260a3b2f772ea0ac",
+        "reason": "Classical Lavrentieff extension theorem; source explicitly disclaims mathematical novelty."
+      },
+      {
+        "key": "PALOMAR-2026-10-23-000016",
+        "title": "Mader's theorem on highly connected subgraphs",
+        "primary": "https://github.com/jtraverso/mader-connectivity/tree/b471abcdfbb303aabc1af26f4531e080729bb469",
+        "reason": "Classical Mader1972 connectivity theorem, formalization without a separately new mathematical result."
+      },
+      {
+        "key": "PALOMAR-2026-10-23-000014",
+        "title": "Erdős Problem 1063: a lower bound for n_k and the structure of the exceptional index",
+        "primary": "https://github.com/Paulee314/erdos1063-lean/tree/ba104cbcf0bb7c555a8b2f0d58018989a08c638e",
+        "reason": "The selected Erdos1063 lower bound and exceptional-index divisibility are explicitly attributed to prior human forum proofs. Re-formalization and an independent reconstruction are not another original AI settlement; any separately new density claim in the linked preprint needs distinct dated evidence."
+      },
+      {
+        "title": "Épi-turbo solver benchmarks and generic empirical performance",
+        "primary": "https://arxiv.org/abs/2610.24944v1",
+        "reason": "Benchmark-only claims are excluded from the qualifying mathematical package;120 records are not120 corpus papers."
+      },
+      {
+        "title": "Arias de Reyna zeta exposition as a separate discovery",
+        "primary": "https://arxiv.org/abs/2610.24612v1",
+        "reason": "A scoped human exposition/critique of existing record140; incorporated as an existing-record evidence update, not a new AI discovery."
+      }
+    ],
+    "quarantinedCandidates": [
+      {
+        "title": "Other unregistered Plectis theorem families",
+        "primary": "https://github.com/wcook04/plectis-erdos-lean",
+        "reason": "Remaining family first-public identities and full-corpus claim overlaps unresolved; no new evidence resolves this shared-programme quarantine in this run."
+      },
+      {
+        "title": "Any separately new Erdos1063 density theorem beyond the selected known bounds",
+        "primary": "https://github.com/Paulee314/erdos1063",
+        "reason": "The retrieved formalization selects two already-human-proved results. A new density theorem in the separate preprint is not yet bounded, dated and deduplicated here; do not infer it from formalization or an unproved growth conjecture."
+      }
+    ],
+    "retrievalFailures": [
+      {
+        "file": "sweep",
+        "url": "https://postcutoff.com/e/2026-10-24-ai-assisted-results-sweep/",
+        "status": "failed",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "sourceRechecks": "OpenAI history/commits, Landis PDF, Sendov14/release, ProofAtlas formalizations and Collet owner page unchanged. Anthropic visible text identical; Kato remainsv1 with only navigation/footer changes. Review queue read; selected record140 and4077 sources followed, not the whole queue.",
+    "artifactsExecuted": false,
+    "correctionSetId": "reviewed-source-corrections-2026-10-24",
+    "correctionSetSha256": "0bdafab30ebb15cb4b57bb540b7d85de3935cb160cde82aad3f9d36973634a84"
   }
 ]
