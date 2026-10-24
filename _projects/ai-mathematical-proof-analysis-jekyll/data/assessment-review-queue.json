@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-23",
+  "assessedAt": "2026-10-24",
   "samplingWeek": 2964,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -678,8 +678,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "Possible breakthrough / disputed difficulty",
-        "Independent support is scoped to the two Riemann-zeta constants; it does not verify the primitive-Dirichlet-L or xi-prime extensions.",
+        "Map the exact false statements and required modifications to the cited Claude v2 and the formal interfaces; reconcile this with earlier reported full-argument checking. Do not infer that a human-readable reconstruction validates every formal interface, all Dirichlet/xi-prime components or the unrepaired original text. The zeta bounds remain source-reported; the larger package retains a material scope/correctness question. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
         "Rotating ordinary-result sample"
       ]
     },
@@ -32337,7 +32336,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "The originating human paper is forthcoming. Check whether AI contributed new mathematics rather than only translation, the embedding input representation and the full bit-cost theorem; novelty versus prior algorithms is unresolved. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "The originating manuscript remains forthcoming and absent. Compare the selected integer-weight FPT theorem with the earlier rational-weight XP theorem without transferring rational-weight scope. Check the exact machine encoding and cost model, flag-map witness assumptions, originality and whether AI supplied new mathematics or only formal translation. No independent human mathematical review is asserted. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
         "AI contribution not established"
       ]
     },
@@ -32743,6 +32742,46 @@
       "reasons": [
         "Check the exact imported zero-free statement and dependency in the stronger endpoint and distinguish it from the human-derived55/42 result. Resolve corpus materiality of upstream AI mathematics versus mere editorial assistance; do not attribute the new derivation to ChatGPT or treat the upstream result as independently verified. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4116",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the cohomological comparison, sign conventions, monodromy passage and precise cycle/family hypotheses against Theorem4.1 and the earlier conditional theorem. No independent expert review or proof artifact replay was found; do not generalize removal of one theorem’s Hodge assumption into a solution of Hodge. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4117",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check the765-family census, seventeen conserved families, ordered versus unordered normalization and physical hinge budgets. Compare combined statements with prior labelled-complex work and PaperI. Source-reported local/archived checks and an agent review are not independent human verification or replay here; priority remains provisional. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4118",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the geometric determinant comparisons, exceptional small cases, sharp stability normalization and analytic remainder estimates. Distinguish this October14 all-cardinality expansion from the May/June rectangular-balancing paper and the earlier square-maximality stage. Formalization registration on October23 is not another discovery. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4119",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication."
       ]
     },
     {
