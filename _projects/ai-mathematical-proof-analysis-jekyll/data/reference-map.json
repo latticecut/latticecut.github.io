@@ -52444,6 +52444,12 @@
       "title": "Current owner revision and limits",
       "url": "https://arxiv.org/abs/2610.30976v1",
       "accessed": "2026-10-23"
+    },
+    {
+      "key": "Daily20261028_3625",
+      "title": "Rational Hodge conjecture for CM abelian varieties — formal scope",
+      "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean/docs/032.md",
+      "accessed": "2026-10-28"
     }
   ],
   "3626": [
@@ -53888,6 +53894,12 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261028_3669",
+      "title": "Local smoothing for the Euclidean wave equation",
+      "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean/docs/079.md",
+      "accessed": "2026-10-28"
     }
   ],
   "3670": [
@@ -59682,6 +59694,12 @@
       "title": "OpenAI Mathematics family 266 — linked Lean document",
       "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/266.md",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261028_3854",
+      "title": "Six-dimensional mutually unbiased bases — restored computation artifacts",
+      "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/history.md",
+      "accessed": "2026-10-28"
     }
   ],
   "3855": [
@@ -65894,6 +65912,328 @@
       "title": "Claim scope and direct AI disclosure",
       "url": "https://arxiv.org/html/2610.24944v1",
       "accessed": "2026-10-24"
+    }
+  ],
+  "4120": [
+    {
+      "key": "Daily20261028_4120",
+      "title": "Exact Walsh–Hadamard circuits with improved operation-count constants — primary dated scope/disclosure",
+      "url": "https://github.com/jacobalansussman/wht-fewer-operations/blob/bbb7f830d8c5612465a9922ace566750ce6d09d2/README.md",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4120_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://github.com/mathcommunity/oai-math-revised/issues/8",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4121": [
+    {
+      "key": "Daily20261028_4121",
+      "title": "Counterexamples to Tokareva’s bent-sum conjecture — primary dated scope/disclosure",
+      "url": "https://arxiv.org/abs/2610.32239v1",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4121_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://arxiv.org/html/2610.32239v1",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4122": [
+    {
+      "key": "Daily20261028_4122",
+      "title": "OpenAI: the Exponential Time Hypothesis is false — primary dated scope/disclosure",
+      "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/README.md",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4122_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/CONTENTS.md",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4123": [
+    {
+      "key": "Daily20261028_4123",
+      "title": "Anthropic: a subexponential-time algorithm for3SAT — primary dated scope/disclosure",
+      "url": "https://github.com/anthropics/formal-math/blob/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth/README.md",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4123_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://github.com/anthropics/formal-math/blob/16a5ce41304fcdaea4e0be7c132e1c361dc26da5/eth/README.md",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4124": [
+    {
+      "key": "Daily20261028_4124",
+      "title": "On Khovanov local equivalence groups — primary dated scope/disclosure",
+      "url": "https://arxiv.org/abs/2610.37595v1",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4124_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://arxiv.org/html/2610.37595v1",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4125": [
+    {
+      "key": "Daily20261028_4125",
+      "title": "Approximate counting for mixed p-spin glasses in weak external fields — primary dated scope/disclosure",
+      "url": "https://arxiv.org/abs/2610.37630v1",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4125_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://arxiv.org/html/2610.37630v1",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4126": [
+    {
+      "key": "Daily20261028_4126",
+      "title": "Convex-like submanifolds, caps and volume comparison — primary dated scope/disclosure",
+      "url": "https://arxiv.org/abs/2610.31332v1",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4126_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://arxiv.org/html/2610.31332v1",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4127": [
+    {
+      "key": "Daily20261028_4127",
+      "title": "Group constructions cannot refute the Set Cover Conjecture, including tensor powers — primary dated scope/disclosure",
+      "url": "https://github.com/Eyali1001/scc-group-barrier/blob/6e572ed4367b37cfd89830f2fa99f4705d300c93/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4127_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000017-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4128": [
+    {
+      "key": "Daily20261028_4128",
+      "title": "Deterministic factoring in time N^{o(1)} — primary dated scope/disclosure",
+      "url": "https://github.com/IsaacRudich/SubexponentialDeterministicFactoring/blob/5f5ff8f3823fa8fef8ee02a6f29049db3c76a0ce/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4128_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000015-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4129": [
+    {
+      "key": "Daily20261028_4129",
+      "title": "Finite uniform Bernoulli shifts with unequal base entropy — primary dated scope/disclosure",
+      "url": "https://github.com/peterburton1728/bernoulli-iso-1/blob/80241ef9354deaa4e787431f5e0692d8d757308e/lean/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4129_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000030-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4130": [
+    {
+      "key": "Daily20261028_4130",
+      "title": "Weak and strong βη-normalization in pure type systems with βη-conversion — primary dated scope/disclosure",
+      "url": "https://github.com/localmotiveproofs/PTS-beta-eta/blob/9d0b54a7d5f6747410212c40acf53d12544eb2e6/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4130_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000027-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4131": [
+    {
+      "key": "Daily20261028_4131",
+      "title": "The Number of Polytope Trees and Beyond — Lean 4 formalization — primary dated scope/disclosure",
+      "url": "https://github.com/alialiev78/Polytope_Trees_Lean_Formalization/blob/523f4f928843b4e867a91702d2aea5599a1d126b/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4131_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000024-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4132": [
+    {
+      "key": "Daily20261028_4132",
+      "title": "The critical Almost Stacked Hypothesis fails on a nine-vertex graph — primary dated scope/disclosure",
+      "url": "https://github.com/jfairfaxball-348/Almost-Stacked-Proof/blob/358729c65c198db3a6a6973c666d3d9de4009bb7/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4132_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000023-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4133": [
+    {
+      "key": "Daily20261028_4133",
+      "title": "A Cauchy-Schwarz inequality for real powers: proof, equality cases and weighted forms — primary dated scope/disclosure",
+      "url": "https://github.com/pragyaangaur/Real-Power-Cauchy-Schwarz/blob/8b7b39288079ad5b778b616efebd385816bf03d2/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4133_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000021-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4134": [
+    {
+      "key": "Daily20261028_4134",
+      "title": "Erdős Problem 699: every counterexample has n ≤ j² — primary dated scope/disclosure",
+      "url": "https://github.com/Paulee314/erdos699-lean/blob/814f545f5f6475786aa5a04e4e795a25cda3670c/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4134_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000020-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4135": [
+    {
+      "key": "Daily20261028_4135",
+      "title": "BandParity: the band-parity sum of a quartic character, two laws modulo 4 — primary dated scope/disclosure",
+      "url": "https://github.com/jkfarland-bot/Bandparity/blob/890a306dcb94aaf290ca390e553f9c2ba39de246/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4135_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000018-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4136": [
+    {
+      "key": "Daily20261028_4136",
+      "title": "Bounds for the iteration x ↦ a mod x — primary dated scope/disclosure",
+      "url": "https://github.com/jasondavies/pierce-length-bound/blob/6da6511cea9f8526054dd5ad60d77164f45de52e/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4136_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000017-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4137": [
+    {
+      "key": "Daily20261028_4137",
+      "title": "Proofs and corrections of OEIS conjectures — primary dated scope/disclosure",
+      "url": "https://github.com/dvgyl/oeis-proofs/blob/55ad2bd4804b6bcefeeb6c21eb06eac8b09c45d8/lean/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4137_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000006-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4138": [
+    {
+      "key": "Daily20261028_4138",
+      "title": "Chain returns and lower bounds for superpermutations — primary dated scope/disclosure",
+      "url": "https://github.com/jaypantone/2026-10-superpermutation-lower-palomar/blob/8cc371be7ad7dc47252e45ffbda633a85776d596/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4138_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000005-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4139": [
+    {
+      "key": "Daily20261028_4139",
+      "title": "A smaller upper bound for superpermutations — primary dated scope/disclosure",
+      "url": "https://github.com/jaypantone/2026-10-superpermutation-upper-palomar/blob/b24e151fdf30ccdbae0e6fe5ab56fa325771722d/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4139_support",
+      "title": "Primary statement and publication evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000002-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4140": [
+    {
+      "key": "Daily20261028_4140",
+      "title": "Slow Equilibration and Persistent Stationary Correlations in Spherical Spin Glasses",
+      "url": "https://github.com/pmaronow/slowequilibration-palomar/blob/a28aaa336343c4caf43791ababd8ed0ee5c7b58e/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4140_support",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000003-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4141": [
+    {
+      "key": "Daily20261028_4141",
+      "title": "The Art Gallery Problem is ∃ℝ-complete: point-point, boundary-point and point-boundary variants, in Lean 4",
+      "url": "https://github.com/RBarish-UTokyo/ArtGalleryProblem-ExistsR-Lean4/blob/7bfe29cbdad3b057fc5e83397973d554773282e6/formalization.yaml",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4141_support",
+      "title": "Dated primary registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-27-000025-v1.json",
+      "accessed": "2026-10-28"
+    }
+  ],
+  "4143": [
+    {
+      "key": "Daily20261028_4143",
+      "title": "Agent-designed black-box algorithms with proved runtime bounds",
+      "url": "https://arxiv.org/abs/2610.35595v1",
+      "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261028_4143_support",
+      "title": "Primary mathematical construction and AI disclosure",
+      "url": "https://arxiv.org/html/2610.35595v1",
+      "accessed": "2026-10-28"
     }
   ]
 }

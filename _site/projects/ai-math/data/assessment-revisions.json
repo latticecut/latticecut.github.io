@@ -225073,5 +225073,1345 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-28",
+    "snapshotHash": "4df7150db2a79b885ec3ab1510bd397235d32656c7863d39b6c02acb8bddcb25",
+    "changes": [
+      {
+        "id": "3625",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13",
+              "Daily20261023_3625"
+            ],
+            "sourceHash": "fb5517634623ad17ac8d521bba0636bf1416e298ce25b0808d399307a79d70c7",
+            "assessedAt": "2026-10-23"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim.",
+          "sourceHash": "fb5517634623ad17ac8d521bba0636bf1416e298ce25b0808d399307a79d70c7",
+          "assessedAt": "2026-10-23",
+          "inclusionConcern": "Check the sign/obstruction diagnosis and distinguish those withdrawn dependencies from the surviving CM theorem; neither this specialist critique nor surviving formal interfaces establish the full CM result independently. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13",
+              "Daily20261023_3625",
+              "Daily20261028_3625"
+            ],
+            "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument.",
+          "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the CM/Hodge/cohomological definitions and paper-to-formal correspondence. Do not treat this owner-reported formal release as independent verification or as validation of the excluded Tate/Hodge-standard corollaries or withdrawn K3 claims. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3669",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3669",
+              "Daily20261007_3669_support_0",
+              "Daily20261007_3669_support_1",
+              "Daily20261007_3669_support_2"
+            ],
+            "sourceHash": "f20e9da2cb66396f54f7eb5e28b30cadd8cc0e355a11a2b778adafaa617305af",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 079: Local smoothing in three dimensions. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: The complete strict local-smoothing range in three spatial dimensions settles Sogge's stated target, including arbitrarily small loss at p=3. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "f20e9da2cb66396f54f7eb5e28b30cadd8cc0e355a11a2b778adafaa617305af",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 079 (Local smoothing in three dimensions) for correctness, novelty, priority, imported hypotheses, and exact claim scope. The release provides no family-level Lean link for the main result. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 079: Local smoothing in three dimensions. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3669",
+              "Daily20261007_3669_support_0",
+              "Daily20261007_3669_support_1",
+              "Daily20261007_3669_support_2",
+              "Daily20261028_3669"
+            ],
+            "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package.",
+          "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the auxiliary PDE argument, all-dimensional/endpoint quantifiers and consequences against the new formal interface. No loss-free endpoint or independent proof replay is inferred. Keep first-public package date October6; the expansion event is October26. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3854",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "evidenceSourceIds": [
+              "Daily20261007_3854",
+              "Daily20261007_3854_support_0",
+              "Daily20261007_3854_support_1",
+              "Daily20261007_3854_support_2",
+              "Daily20261007_3854_support_3"
+            ],
+            "sourceHash": "6747da48c4e548db6682d3c3fcb305a82002cd0e1d9e33a605566929d00c994a",
+            "assessedAt": "2026-10-07",
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 266: Exactly three mutually unbiased bases in dimension six. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "rationale": "Best-current assessment of the reported claim: The claimed certified exclusion of four unbiased bases in dimension six settles the exact Zauner target; arithmetic and compiler conditions remain verification caveats. Classification confidence is conditional on the claim and its stated scope, not a correctness probability.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results.",
+          "sourceHash": "6747da48c4e548db6682d3c3fcb305a82002cd0e1d9e33a605566929d00c994a",
+          "assessedAt": "2026-10-07",
+          "inclusionConcern": "Independently review OpenAI family 266 (Exactly three mutually unbiased bases in dimension six) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with all 2 constituent manuscripts; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The pinned catalogue identifies this result family: OpenAI Mathematics catalogue family 266: Exactly three mutually unbiased bases in dimension six. OpenAI directly attributes the released manuscripts and mathematical results to its internal model. Best guess: a material model contribution to this individually identified claim, inferred from that explicit collection-level disclosure rather than a reconstructed family-stage history. The standard procedure is reported for most families, not established separately for this one; do not infer a family-specific runtime or absence of human editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3854",
+              "Daily20261007_3854_support_0",
+              "Daily20261007_3854_support_1",
+              "Daily20261007_3854_support_2",
+              "Daily20261007_3854_support_3",
+              "Daily20261028_3854"
+            ],
+            "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery.",
+          "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Independently inspect interval/rounding soundness, search coverage and exact linkage of saved records to the theorem; no downloaded source, checker or computation was run. Do not infer completed independent verification from restored files. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4120",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "b8175517874fb2a94fc8c440ffe1f9c3570064bbe9dc48c47a40d6b1fae7e7b2",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check novelty versus Alman–Rao2023 and Coppersmith–Feig–Linzer1994 in identical cost models. Determine whether October12 preparation/initial commit was public before the dated October22 author announcement; October22 is the first public report anchored here. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Jacob Sussman directly credits Anthropic Claude agents under his direction with circuit discovery, search programs and proofs."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4121",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "MiniMax authors directly credit M3.1-Flash-Preview agents with counterexamples and proofs,19 rounds/1889 reports and227 audit reports, followed by author checks.",
+            "evidenceSummary": "MiniMax authors directly credit M3.1-Flash-Preview agents with counterexamples and proofs,19 rounds/1889 reports and227 audit reports, followed by author checks.",
+            "evidenceSourceIds": [
+              "Daily20261028_4121",
+              "Daily20261028_4121_support"
+            ],
+            "sourceHash": "2f66c6a053be7bf2f18949017a01a0342885d8c14f7579a5a1979583539b0629",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics.",
+          "sourceHash": "2f66c6a053be7bf2f18949017a01a0342885d8c14f7579a5a1979583539b0629",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the support-weight divisibility proof, all-dimension extension and derivative-period argument, including retained proof after a rejected false Walsh-additivity attempt. Match claimed Lean4 Theorems4.2/4.7. The bent-sum target dates to2011; competition origin does not negate this separately qualifying open-problem result. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "MiniMax authors directly credit M3.1-Flash-Preview agents with counterexamples and proofs,19 rounds/1889 reports and227 audit reports, followed by author checks."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-23",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-23",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4122",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI attributes the manuscripts and supporting proofs to an unnamed internal model; the repository reports its research generation procedure. The announced outside working group is not completed verification.",
+            "evidenceSummary": "OpenAI attributes the manuscripts and supporting proofs to an unnamed internal model; the repository reports its research generation procedure. The announced outside working group is not completed verification.",
+            "evidenceSourceIds": [
+              "Daily20261028_4122",
+              "Daily20261028_4122_support"
+            ],
+            "sourceHash": "c04f9a7aa506ae0f4659e3a9b3d0951add89b9172efa58e59318eded0b80bfa5",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics.",
+          "sourceHash": "c04f9a7aa506ae0f4659e3a9b3d0951add89b9172efa58e59318eded0b80bfa5",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Read the fixed-width uniformity, machine encoding, tensor-contraction counting engine, polynomial-space proof and circuit-lower-bound deduction. An announced external review is not certification. Keep distinct from Anthropic’s separately released route. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI attributes the manuscripts and supporting proofs to an unnamed internal model; the repository reports its research generation procedure. The announced outside working group is not completed verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-26",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-26",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4123",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "Anthropic directly attributes discovery to an internal research Claude model and its formalization to AI models.",
+            "evidenceSummary": "Anthropic directly attributes discovery to an internal research Claude model and its formalization to AI models.",
+            "evidenceSourceIds": [
+              "Daily20261028_4123",
+              "Daily20261028_4123_support"
+            ],
+            "sourceHash": "da726425efceca50488217aed3f4039a7767f004d28f03cb2797bf3349631a7b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "Conditional on the source-reported result: complete resolution of the exact previously open historical target, with material AI mathematics.",
+          "sourceHash": "da726425efceca50488217aed3f4039a7767f004d28f03cb2797bf3349631a7b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Audit tensor-network contraction, uniform machine quantifiers, encoding costs and paper-to-MainResults correspondence. Owner-reported Lean/comparator/nanoda checks are not independently replayed. This independent package is not a second row for a revision of OpenAI’s proof. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Anthropic directly attributes discovery to an internal research Claude model and its formalization to AI models."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4124",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "153323ba7fc6012eb78b87c9e6f22786d3dc7f00a792308fae129a7984dbbcfe",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Distinguish proved abstract local-equivalence constructions from explicitly unchecked knot computations and open questions. This resolves the previously unbounded seminar lead. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Lipshitz reports research largely carried out by Claude Fable5, Opus5/5.5 and supporting Sonnet sessions; he rewrote the paper and checked the retained proofs by hand."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4125",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "649c287b7c3d1d27027cbeefaa893a8922ad5399a3ade94b6681731d947f9b97",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check exact versus bit complexity, high-temperature margin, disorder/failure quantifiers and the claimed polynomial dependence; no low-temperature or arbitrary-field result is implied. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Wu directly credits GPT5.6Pro/GPT6Pro with algorithm proposals, SK color-coding/truncation and lower-tail arguments; Codex also assisted formalization."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4126",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "316b1655b9d0885a2bbe97e87db4ed99a458fe6ba81f97a140e18be9e7c360d7",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "The precise mathematical materiality remains unclear; check these four proof refinements and geometric hypotheses. Earlier metadata-only exclusion as writing help is superseded by this specific full-text disclosure. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The paper names ChatGPT assistance in reviewing and refining proofs of Proposition3.1, Theorem6.1, Proposition7.1 and LemmaA.2, not merely language editing."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-22",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-22",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4127",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "1cfbd8aa0aa6320ac8c0a82d1de4cf11fd7fa254e221e1531676f1588e27e3a5",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The theorems, the informal proofs and the Lean proofs were produced by AI coding agents (Anthropic Claude) working under the direction of the human author, who chose the problem, steered the research and takes responsibility for the submission. The informal proofs were cross-checked by independent agent runs and by computation (exhaustive SAT searches over all groups of order at most 31 for k = 2). No independent human mathematical review was performed. "
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-28",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-28",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4128",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "f909a30ff78f0160ab7f594a28d44c6ccd2488eaf93e2d0cb127ee8f36624b57",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. This uses a re-proved form of the new Claude counting engine; audit that dependency. The stronger exp(O(logN/sqrt(loglogN))) statement is only a conjecture, not proved. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "AI-generated. Some files (FactoringAux/Copied) are adapted from the authors' related, also AI-generated, Lean work."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-28",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-28",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4129",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "0443b6644d63e5f4d6c8eb81d165acc4d4dfbd0fdd131ad965e7d412cbefd111",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "No precise cost or total time is reconstructed. AI systems are credited here rather than listed as human project authors or maintainers."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4130",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "c80e60fc48e772f8cbe4731c2a41378123e596e063909acb233b450678ff132b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": " Claude Opus 5.5 (Anthropic) in Claude Code, with shell, Lean/Lake and file-editing tools, under the direction of the human authors. It adapted the proof to βη and wrote all the Lean code except OpenAI's 33 files in PTSBetaEta/Beta. It also ported those files to the Lean module system."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4131",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "c9a1489e03b550e77b9e14c47742cba771eb27ac5a43d1b85889be30de9a69fb",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "AI assistance was material. Exact model identifiers for all development stages are not available. The human author and maintainer retain responsibility for the mathematical scope."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4132",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "427899a56c19efcec91dd56afccbb3dfce866c3abce085811ecdc350e0e352fe",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The owner set the research direction and approved each session; AI agents carried out the mathematics, computation and Lean work under a written protocol (preregistered computations, dual independent checkers, fresh-session cold re-checks)."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4133",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "92350a4832fb5791a99300aa103186de9809f352b9db33c901f559476e337452",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. The main inequality and equality cases have a separately reported concurrent human proof; do not count them as uniquely AI-first. The weighted characterization is retained as a separately material extension. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The problem was chosen by the author from the Principia Math problem list. The first informal proof of the main inequality came from the Principia Math automated system. The author then used Claude through Claude Code to find and prove the equality cases and the weighted characterisation and to write the whole Lean development. The author checked the mathematics, read the statements in Challenge.lean against the paper, and is responsible for the content. No AI system is listed as an author."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4134",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "8031d12e9106113efbd72e5c57c9dfb0f96ef98e65214051938af5233459ad29",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Novelty may be folklore and the unrestricted Erdős699 problem remains open; no full settlement is asserted. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author is not a professional mathematician and did not write the Lean code by hand. The informal argument was also produced with Claude at the author's direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4135",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "16fc15028f34ed76227dbd913a7f01494ec5da1c856f914f35f3915804edd2bd",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author chose the scope (the Theorem A core and Theorem B, with the completeness computation left as a computation) and reviewed the formal statements in Challenge.lean against the paper."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4136",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "7c42d375ccbbf49693a799609e018422c5d98775b7de149c1090948ee0c39c5e",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The work was produced entirely by AI systems. GPT-6-Astra found the results during an investigation initiated by the human author, who then directed GPT-6-Astra (via Codex) and Claude Opus 5.5 (via Claude Code) to formalise them in Lean and to write the manuscript; both contributed to the formalisation and to the review and revision of the manuscript. The author wrote no part of the text or the Lean code. Correctness of the formal results rests on Lean's kernel; the statements compared by Palomar's comparator are also checked by its independent kernels. The paper carries the same disclosure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4137",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "ad87046f10504d4c67510521eeb25595c9723d28c0b99fa96d4ad86d870771c1",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Dev D. Goyal directed the project, chose the problems, requested proofs, formal verification and revisions, and reviewed the results, but did not supply proof strategies. AUTHORSHIP.md at the repository root records each contribution."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4138",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "e9979a773175e04a6e2676c99931d7ae751fda4c6241d6cfadfd65c1ff047746",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The research presented here, the Lean formalization, and the accompanying documents were generated entirely by AI systems under Jay Pantone's direction. Inherited mathematical work and software retain their original credits. Independent AI review is not human peer review. Exact historical model versions and total compute cost were not comprehensively recorded; no estimates are supplied."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4139",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "Conditional on the source-reported result: bounded specialist mathematical progress, not evidence of universal AI superiority or settlement of the unrestricted parent problem.",
+          "sourceHash": "48793c7208fcecb449a425dd815cbac92a5f4a4cc3f779946dfb2c64e1f390a7",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The research presented here, the Lean formalization, and this document were generated entirely by AI systems under Jay Pantone's direction. The inherited mathematical work and software retain their original credits. Independent AI review is not human peer review. The research, proof code, computational tools, and exposition were generated using OpenAI Codex. Exact historical model versions and total compute cost were not comprehensively recorded; no estimates are supplied."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4140",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain.",
+          "sourceHash": "66b68135866a2e1b70084bbb1c3117efdbd8cd7fc0e0b7d6141352c3968f1478",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "{\"methods\": [{\"method\": \"agent\", \"models\": [\"GPT-6\"], \"framework\": \"OpenAI Codex with parallel collaborating agents\", \"tool_setup\": \"Lean 4.35.0-rc2, pinned Mathlib, toolchain-bundled Comparator, and Linux verification tools. Agents constructed proofs, audited manuscript correspondence, reviewed the universal pressure-tail argument, and prepared the submission interfaces.\"}, {\"method\": \"agent\", \"models\": [\"Claude Opus 5.5\", \"GPT-6.1-Sol\", \"GPT-6-Luna\"], \"framework\": \"Claude Code orchestrating OpenAI Codex agents\", \"notes\": \"Historical source development recorded these models for proof repairs, audits, and mechanical edits. The current package does not transfer historical comparator or independent-checker certificates to a changed statement surface.\"}]}"
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4141",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain.",
+          "sourceHash": "25b1c1272d5633f5b56337031a34da8abbd67ce192b3c1767b4b326c3cbf9257",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "{\"methods\": [{\"method\": \"agent\", \"models\": [\"Claude Opus 5.5 (Anthropic)\"], \"framework\": \"AI coding agents\", \"tool_setup\": \"Claude Opus 5.5 (Anthropic) was used, as agents under the direction of the author, both for the Lean formalization and to assist with the documentation. The author set the task, the target statements and the requirements. Tools: Lean v4.35.0-rc2 and Lake, Mathlib, Python programs with exact rational arithmetic (used during development to compute the construction data and generate the certificate files; not part of this repository), the toolchain's lake comparator and independent kernels.\", \"cost\": {\"wall_time\": \"not tracked\", \"spend_usd\": \"not tracked\", \"hardware\": \"cloud container\"}, \"prompting_notes\": \"n/a\"}], \"spend_usd\": \"not tracked\", \"notes\": \"The author directed the work. Claude Opus 5.5 (Anthropic) assisted with the Lean definitions, statements, proofs, the development-time certificate generators (not part of this repository; the generated Lean files are checked by the kernel), and the documentation (README.md, this file, the Challenge.lean header, the design notes in docs/ and the verification record). Reused files from the author's earlier entries are listed in docs/PROVENANCE.md.\"}"
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4142",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain.",
+          "sourceHash": "5814921dcfc2b25961ca7526cf5f457044354c12580c059e4e04e3eaa3a526ba",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "{\"methods\": [{\"method\": \"agent\", \"models\": [\"Claude Opus 5.5\"], \"framework\": \"Claude Code\", \"tool_setup\": \"Lean 4, Mathlib, shell, the sources of DenseSetsWithoutLargeSumsets, APAP and Tau Ceti.\", \"cost\": {\"wall_time\": \"not tracked\", \"spend_usd\": \"not tracked\", \"hardware\": \"local machine\"}, \"prompting_notes\": \"The work began inside the formalization of Campos, Dahia and Marciano, Counting sets with given doubling via dimension: one instruction to state Chang's theorem as in DenseSetsWithoutLargeSumsets, one to use Minkowski's second theorem from Tau Ceti and to import APAP, and one to move the result to this repository in a form that can be imported next to PFR. Later, one instruction to move the bound of the dimension by the Freiman dimension from DenseSetsWithoutLargeSumsets to this repository, without adding it to Challenge.lean. Later, one instruction to make the proof work for sets of integers by carrying back to the integers the progression inside 2X - 2X, instead of the final progression. Later, one instruction to state the main theorems with dimension at most the Freiman dimension, as in Green and Tao, and to deduce from them and the bound on the Freiman dimension the statements with dimension at most 2 kappa - 1. Later, one instruction to lower the exponent of the size bound from kappa^20 to kappa^7. Later, one instruction to remove the copies of APAP modules that allowed importing this library next to PFR. Later, one instruction to compare the definitions of proper and 2-proper progressions with those of Chang, Green and Tao and other sources, and to record the numbering of Chang's results; one to make 2-proper mean that P + P is proper, with a structure for which P + P is the sum of progressions; and one to use the 2-dilate of the coefficient box in properization. Later, one instruction to adjust the project to the style rules of the maintainer, one to check the documentation and one to drop the direct dependency on AddCombi. Later, one instruction to carry the removal of redundant casts in Challenge.lean over to the library and to drop the definition of 2-properness. Later, one instruction to add the Bogolyubov-Ruzsa statements to Challenge.lean and Solution.lean. Later, one instruction to use the bound on the Freiman dimension added to SumOfSetsInSeveralDimensions to deduce the bound on the dimension in the form of Green and Tao for sets that are large in terms of the doubling.\"}], \"spend_usd\": \"not tracked\", \"notes\": \"An AI agent directed by Gabriel Dahia ported the copied modules, rewrote the Bohr step with Minkowski's second theorem, removed unused declarations, and wrote the statements for ZMod q and for integers, the bounds for the exponents, Challenge.lean and Solution.lean. The proofs in the copied modules are those of DenseSetsWithoutLargeSumsets, which were written by Codex agents. The agent also rewrote the modules that bound the dimension by the Freiman dimension, keeping the argument and the definition of the Freiman dimension. For the statement for integers with a bound linear in |X|, the agent restated the covering argument and the properization for general abelian groups, replaced the successive minima of the lattice of relations by the number of independent short relations, and rewrote Integers.lean. Later, agents rewrote the proofs and docstrings of the library to follow Mathlib style: they split long proofs into lemmas, replaced local definitions by those of Mathlib and APAP, and renamed auxiliary declarations, without changing the main statements. Later, the agent derived the main statements with dimension at most the Freiman dimension, for every finite set of integers, and replaced the bounds on the dimension in Challenge.lean by 2 kappa - 1. Later, agents lowered the exponent from kappa^20 to kappa^7: they sharpened the estimates of the Bohr progression, of Chang's lemma and of properization, and added the elements of the last packing set as steps of the progression instead of covering by their differences. Later, the agent replaced the structure GAP by an origin and a finitely supported bound, defined the sum of two progressions and 2-properness as the properness of P + P, and adapted the proofs; properization now uses the 2-dilate of the coefficient box, no longer doubles the lengths, and has the exponent 2 (d + 2)^3 log (d + 2) in place of 3 (d + 2)^3 log (d + 2). Later, the agent replaced the import of all of Mathlib in Challenge.lean by the modules its statements need, and made the headers, spelling and notation of the docstrings uniform. It also replaced the indicator notation and the two lemmas on indicator functions taken from AddCombi by a local notation and lemmas of Mathlib, so that AddCombi is only a dependency of APAP. Later, the agent removed the definition of 2-properness, which the statements now write as (P + P).Proper, and the casts that Lean inserts itself. Later, the agent stated the Bogolyubov-Ruzsa lemma with explicit bounds, bounding the dimension bohrGAPDim kappa and the loss 8 bohrLoss (bohrGAPDim kappa), and added it to Challenge.lean and Solution.lean. Later, the agent deduced the statements with dimension at most floor(kappa - 1 + epsilon) for kappa (2 kappa - 1) <= epsilon |X| from the bound on the Freiman dimension of SumOfSetsInSeveralDimensions, and added them to Challenge.lean and Solution.lean. Every proof is checked by Lean.\"}"
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-28",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-28",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-10-28",
+    "snapshotHash": "f48fabdd14f609361eba8c002474ecfd2e88aa05e163c4176c969b06c74d35ab",
+    "changes": [
+      {
+        "id": "3625",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13",
+              "Daily20261023_3625",
+              "Daily20261028_3625"
+            ],
+            "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument.",
+          "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the CM/Hodge/cohomological definitions and paper-to-formal correspondence. Do not treat this owner-reported formal release as independent verification or as validation of the excluded Tate/Hodge-standard corollaries or withdrawn K3 claims. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure.",
+            "evidenceSourceIds": [
+              "Daily20261007_3625",
+              "Daily20261007_3625_support_0",
+              "Daily20261007_3625_support_1",
+              "Daily20261007_3625_support_2",
+              "Daily20261008_3625_4",
+              "Daily20261008_3625_5",
+              "Daily20261008_3625_6",
+              "Daily20261008_3625_7",
+              "Daily20261008_3625_8",
+              "Daily20261008_3625_9",
+              "Daily20261008_3625_10",
+              "Daily20261008_3625_11",
+              "Daily20261008_3625_12",
+              "Daily20261008_3625_13",
+              "Daily20261023_3625",
+              "Daily20261028_3625"
+            ],
+            "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: Lekili and Sheridan diagnose the withdrawn split-abelian-eightfold and all-projective-K3/Kuga–Satake arguments: unavoidable degree-two self-intersection and the holomorphic-disc obstruction invalidate the proposed elimination, with opposite sign conventions. Their criticism is scoped to those three withdrawn arguments, not a refutation of the surviving CM claim. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument. Current scoped reading: OpenAI’s October26 release adds a formalization asserting algebraicity of rational Hodge classes on complex CM abelian varieties in every dimension/codimension, with CM encoded on geometric rational H1 by a sum of rank-one CM-field spaces preserving filtration. The selected formal statement does not include Tate or Hodge-standard consequences and does not restore the withdrawn all-projective-K3 argument.",
+          "sourceHash": "bff319ccdd5f1d53532a7833859727d0f9b06cd6856c0028aa9e45ea777bf07b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the CM/Hodge/cohomological definitions and paper-to-formal correspondence. Do not treat this owner-reported formal release as independent verification or as validation of the excluded Tate/Hodge-standard corollaries or withdrawn K3 claims. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue. The repository says the CM-abelian-variety Hodge-conjecture work was an exception to the dominant fixed procedure."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-10; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-10",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3669",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3669",
+              "Daily20261007_3669_support_0",
+              "Daily20261007_3669_support_1",
+              "Daily20261007_3669_support_2",
+              "Daily20261028_3669"
+            ],
+            "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package.",
+          "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the auxiliary PDE argument, all-dimensional/endpoint quantifiers and consequences against the new formal interface. No loss-free endpoint or independent proof replay is inferred. Keep first-public package date October6; the expansion event is October26. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3669",
+              "Daily20261007_3669_support_0",
+              "Daily20261007_3669_support_1",
+              "Daily20261007_3669_support_2",
+              "Daily20261028_3669"
+            ],
+            "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package. Current scoped reading: OpenAI’s October26 public revision expands the former3D package to every spatial dimension n>=2, with s=max(0,(n-1)/2-n/p)+epsilon for all2<=p<infinity (s=0 at p=2), and reports strict-range Bochner–Riesz, spherical extension and square-function consequences, Kakeya maximal delta^-epsilon loss and full Hausdorff dimension. This is a revision of family079, not another source package.",
+          "sourceHash": "7f7cb5c9e443eea5a93037b5c3aae7a99f91c3ed1fddb2f6fb3b06d6a03a4d3f",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check the auxiliary PDE argument, all-dimensional/endpoint quantifiers and consequences against the new formal interface. No loss-free endpoint or independent proof replay is inferred. Keep first-public package date October6; the expansion event is October26. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "3854",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3854",
+              "Daily20261007_3854_support_0",
+              "Daily20261007_3854_support_1",
+              "Daily20261007_3854_support_2",
+              "Daily20261007_3854_support_3",
+              "Daily20261028_3854"
+            ],
+            "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery.",
+          "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Independently inspect interval/rounding soundness, search coverage and exact linkage of saved records to the theorem; no downloaded source, checker or computation was run. Do not infer completed independent verification from restored files. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSummary": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue.",
+            "evidenceSourceIds": [
+              "Daily20261007_3854",
+              "Daily20261007_3854_support_0",
+              "Daily20261007_3854_support_1",
+              "Daily20261007_3854_support_2",
+              "Daily20261007_3854_support_3",
+              "Daily20261028_3854"
+            ],
+            "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+            "assessedAt": "2026-10-28"
+          },
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human mathematical frontier immediately before this exact reported result, distinguishing first settlement, material bound improvement, restricted cases and already-known results. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery. Current scoped reading: OpenAI’s October26 history says it restored C++ source and saved numerical records for the computation excluding a fourth mutually unbiased basis, plus a Python consistency/coverage checker. This is availability of artifacts for the existing claim, not a replay, certification of numerical soundness, or new discovery.",
+          "sourceHash": "5c0f3e1323d820089c8417aca975b0906337ddb503ae48e5e68586aef5165c7b",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Independently inspect interval/rounding soundness, search coverage and exact linkage of saved records to the theorem; no downloaded source, checker or computation was run. Do not infer completed independent verification from restored files. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed.",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI states at repository level that an internal model produced the manuscripts using a procedure averaging about three hours of ChatGPT Pro thinking per result. Family-specific generation/checking/write-up stages are not reconstructible from the catalogue."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-07",
+            "reportedDate": "2026-10-06",
+            "dateBasis": "OpenAI's dated release page and pinned initial public commit adc7f1241b42e322a6451854ab7e4b4c146bf78a at 2026-10-06T21:58:50Z establish the shared first-public date. The earliest date encoded in this family's manuscript directory names is 2026-09-24; that label is manuscript metadata and does not establish prior public availability.",
+            "originalPublicationDate": "2026-09-24",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4140",
+        "from": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain.",
+          "sourceHash": "66b68135866a2e1b70084bbb1c3117efdbd8cd7fc0e0b7d6141352c3968f1478",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "{\"methods\": [{\"method\": \"agent\", \"models\": [\"GPT-6\"], \"framework\": \"OpenAI Codex with parallel collaborating agents\", \"tool_setup\": \"Lean 4.35.0-rc2, pinned Mathlib, toolchain-bundled Comparator, and Linux verification tools. Agents constructed proofs, audited manuscript correspondence, reviewed the universal pressure-tail argument, and prepared the submission interfaces.\"}, {\"method\": \"agent\", \"models\": [\"Claude Opus 5.5\", \"GPT-6.1-Sol\", \"GPT-6-Luna\"], \"framework\": \"Claude Code orchestrating OpenAI Codex agents\", \"notes\": \"Historical source development recorded these models for proof repairs, audits, and mechanical edits. The current package does not transfer historical comparator or independent-checker certificates to a changed statement surface.\"}]}"
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "low",
+          "placement": "tentative",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The package reports a bounded extension/repair, but novelty relative to the earlier human theorem and exact original AI mathematical role remain uncertain.",
+          "sourceHash": "a337500d70040fd0d10a218ecdcb29de53e1c14035912094f4859c04ed6ce7eb",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "{\"methods\": [{\"method\": \"agent\", \"models\": [\"GPT-6\"], \"framework\": \"OpenAI Codex with parallel collaborating agents\", \"tool_setup\": \"Lean 4.35.0-rc2, pinned Mathlib, toolchain-bundled Comparator, and Linux verification tools. Agents constructed proofs, audited manuscript correspondence, reviewed the universal pressure-tail argument, and prepared the submission interfaces.\"}, {\"method\": \"agent\", \"models\": [\"Claude Opus 5.5\", \"GPT-6.1-Sol\", \"GPT-6-Luna\"], \"framework\": \"Claude Code orchestrating OpenAI Codex agents\", \"notes\": \"Historical source development recorded these models for proof repairs, audits, and mechanical edits. The current package does not transfer historical comparator or independent-checker certificates to a changed statement surface.\"}]}"
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-27",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-27",
+            "collectionKind": "contemporary"
+          }
+        }
+      },
+      {
+        "id": "4143",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Individually reread primary scope and disclosure, conditional on the reported claim: New bounded algorithm and runtime constructions with explicit agent mathematics; the selected artificial problem and comparison model limit broader capability inferences. Correctness, original AI allocation and task difficulty are separate.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "New bounded algorithm and runtime constructions with explicit agent mathematics; the selected artificial problem and comparison model limit broader capability inferences.",
+          "sourceHash": "657a3235fb1e94eca9ee5a4fd1639fc5601bf617e859e1a9982566c7c0b059bb",
+          "assessedAt": "2026-10-28",
+          "inclusionConcern": "Check exact CycleUncover definition and black-box/oracle restrictions, the exponent parameter c and value-range assumptions in submodular minimization, and whether generated algorithms are genuinely new rather than re-encodings of known algorithms. Source code was promised for later release and was not available in the source comment; no claimed Lean proof was executed here. Exclude known-bound reproductions and incomplete pipeline fragments. Retain provisional1, low strict confidence, taxonomy unreviewed, no strict Superhuman override.",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Lehre directly attributes algorithm design, potential functions and drift/runtime proofs to LLM agents with Lean-filtered specifications; the paper names Claude frontier models for the completed constructions."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-10-28",
+            "reportedDate": "2026-10-26",
+            "dateBasis": "Dated primary source anchors this reported-result date. Earlier manuscript preparation and later formalization dates are not automatically public-discovery dates.",
+            "originalPublicationDate": "2026-10-26",
+            "collectionKind": "contemporary"
+          }
+        }
+      }
+    ]
   }
 ]
