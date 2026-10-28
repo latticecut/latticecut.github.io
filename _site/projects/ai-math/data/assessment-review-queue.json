@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-24",
+  "assessedAt": "2026-10-28",
   "samplingWeek": 2964,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -27430,7 +27430,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Check the sign/obstruction diagnosis and distinguish those withdrawn dependencies from the surviving CM theorem; neither this specialist critique nor surviving formal interfaces establish the full CM result independently. No downloaded artifact was executed. Retain provisional=1, conservative strict coding, taxonomy unreviewed and no strict Superhuman override."
+        "Check the CM/Hodge/cohomological definitions and paper-to-formal correspondence. Do not treat this owner-reported formal release as independent verification or as validation of the excluded Tate/Hodge-standard corollaries or withdrawn K3 claims. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed."
       ]
     },
     {
@@ -27915,7 +27915,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 079 (Local smoothing in three dimensions) for correctness, novelty, priority, imported hypotheses, and exact claim scope. The release provides no family-level Lean link for the main result. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Check the auxiliary PDE argument, all-dimensional/endpoint quantifiers and consequences against the new formal interface. No loss-free endpoint or independent proof replay is inferred. Keep first-public package date October6; the expansion event is October26. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed."
       ]
     },
     {
@@ -29950,7 +29950,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 266 (Exactly three mutually unbiased bases in dimension six) for correctness, novelty, priority, imported hypotheses, and exact claim scope. A family-level Lean document is linked, but its scope and statement correspondence have not been independently checked. Reconcile the catalogue summary with all 2 constituent manuscripts; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Independently inspect interval/rounding soundness, search coverage and exact linkage of saved records to the theorem; no downloaded source, checker or computation was run. Do not infer completed independent verification from restored files. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed."
       ]
     },
     {
@@ -32782,6 +32782,241 @@
       "priority": 1,
       "reasons": [
         "Independently check every exact witness, interval-rounding convention and comparison baseline; inspect the finite reduction covering all Tuza multiplicities. Cohn–Elkies non-sharpness is about the LP method, not optimal packing density. Separate rigorous certificates and feasible constructions from empirical numerical objectives; do not infer120 new mathematical theorems or full Tuza settlement. No downloaded certificate or checker was executed. No downloaded proof artifact was executed. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. Chronology check: October18 is the dated first paper report retrieved here. The source repository has September preparation/creation dates, but the event history does not establish when those results first became publicly readable. Verify any earlier public release before moving this reported-result date backward; commit dates alone are not evidence of publication."
+      ]
+    },
+    {
+      "id": "4120",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check novelty versus Alman–Rao2023 and Coppersmith–Feig–Linzer1994 in identical cost models. Determine whether October12 preparation/initial commit was public before the dated October22 author announcement; October22 is the first public report anchored here. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4121",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Check the support-weight divisibility proof, all-dimension extension and derivative-period argument, including retained proof after a rejected false Walsh-additivity attempt. Match claimed Lean4 Theorems4.2/4.7. The bent-sum target dates to2011; competition origin does not negate this separately qualifying open-problem result. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4122",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Read the fixed-width uniformity, machine encoding, tensor-contraction counting engine, polynomial-space proof and circuit-lower-bound deduction. An announced external review is not certification. Keep distinct from Anthropic’s separately released route. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4123",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Audit tensor-network contraction, uniform machine quantifiers, encoding costs and paper-to-MainResults correspondence. Owner-reported Lean/comparator/nanoda checks are not independently replayed. This independent package is not a second row for a revision of OpenAI’s proof. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4124",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Distinguish proved abstract local-equivalence constructions from explicitly unchecked knot computations and open questions. This resolves the previously unbounded seminar lead. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4125",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check exact versus bit complexity, high-temperature margin, disorder/failure quantifiers and the claimed polynomial dependence; no low-temperature or arbitrary-field result is implied. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4126",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "The precise mathematical materiality remains unclear; check these four proof refinements and geometric hypotheses. Earlier metadata-only exclusion as writing help is superseded by this specific full-text disclosure. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4127",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4128",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. This uses a re-proved form of the new Claude counting engine; audit that dependency. The stronger exp(O(logN/sqrt(loglogN))) statement is only a conjecture, not proved. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4129",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4130",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4131",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4132",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4133",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. The main inequality and equality cases have a separately reported concurrent human proof; do not count them as uniquely AI-first. The weighted characterization is retained as a separately material extension. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4134",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Novelty may be folklore and the unrestricted Erdős699 problem remains open; no full settlement is asserted. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4135",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4136",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4137",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4138",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4139",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every imported hypothesis, finite certificate and selected formal interface in the bounded primary description. Registry acceptance is not independent mathematical peer review. Reconstruct earliest public availability before backdating: registration is the dated public observation used here, and preparation dates are not proved publication dates. Independently assess correctness, novelty and priority of this bounded claim; map the primary AI disclosure to retained mathematical steps and any formal statement to the paper. Source-reported author or agent checks are not independent expert verification; no proof, code, certificate or macro was executed here. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4140",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4141",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Resolve whether the selected extension or repaired argument supplies separately new mathematics rather than only translating a known human proof. For Art Gallery count only the2g-variable reduction as candidate new contribution, not the known completeness theorems; for spin glass retain the Chen finite-Parisi premise and all threshold/mixture hypotheses; for Chang compare the new explicit exponent bounds to prior literature under identical conventions. Missing primary claim-level allocation and priority audit remain material questions. No artifact executed; provisional1, unreviewed, low strict confidence, no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4143",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check exact CycleUncover definition and black-box/oracle restrictions, the exponent parameter c and value-range assumptions in submodular minimization, and whether generated algorithms are genuinely new rather than re-encodings of known algorithms. Source code was promised for later release and was not available in the source comment; no claimed Lean proof was executed here. Exclude known-bound reproductions and incomplete pipeline fragments. Retain provisional1, low strict confidence, taxonomy unreviewed, no strict Superhuman override."
       ]
     },
     {
