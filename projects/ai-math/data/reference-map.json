@@ -66235,5 +66235,313 @@
       "url": "https://arxiv.org/html/2610.35595v1",
       "accessed": "2026-10-28"
     }
+  ],
+  "4144": [
+    {
+      "key": "Daily20261029_4144",
+      "title": "Extremal Sidon sets: Fourier uniformity and partition regularity — pinned primary scope/disclosure",
+      "url": "https://github.com/TomasOrtega/Sidon/blob/735de6d7c67b81a28b1e07e3f2661dbc17bb89d6/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4144_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000036-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4145": [
+    {
+      "key": "Daily20261029_4145",
+      "title": "On the local geometry of the tight 39-point code in 𝕆P² — pinned primary scope/disclosure",
+      "url": "https://github.com/macgregor-sudo/tight-39-code/blob/46f01c135aacea9003435e7f1dc99b4a69568e83/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4145_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000034-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4146": [
+    {
+      "key": "Daily20261029_4146",
+      "title": "An explicit version of Chen's theorem assuming the Generalized Riemann Hypothesis — pinned primary scope/disclosure",
+      "url": "https://github.com/sthubbar/goldbach-lean/blob/dda6b8b6ae7facde041f6c61f152e7be2b9771d4/entries/bordignonstarichkova2024grh/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4146_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000016-v2.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4147": [
+    {
+      "key": "Daily20261029_4147",
+      "title": "QuadraticFloor: quadratic floor sums and the trace of a quartic Bernoulli number — pinned primary scope/disclosure",
+      "url": "https://github.com/jkfarland-bot/QuadraticFloor/blob/7e51a19db5a27cf064bf5d2f8845812fe1070077/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4147_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000013-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4148": [
+    {
+      "key": "Daily20261029_4148",
+      "title": "Affine profile reduction for fractional triangle packings in split graphs — pinned primary scope/disclosure",
+      "url": "https://github.com/jtraverso/erdos81-fractional-split-profiles/blob/f8690bcba57bddc5deefd8626f5b07e0d63e6086/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4148_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000028-v2.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4149": [
+    {
+      "key": "Daily20261029_4149",
+      "title": "Linear-error clique partitions of split graphs — pinned primary scope/disclosure",
+      "url": "https://github.com/jtraverso/erdos81-split-clique-partitions/blob/a98dfa413428b3c532174575a39f89eb32b268b8/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4149_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000006-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4150": [
+    {
+      "key": "Daily20261029_4150",
+      "title": "Complete-split extremizers for the fractional triangle-cover deficit on chordal graphs — pinned primary scope/disclosure",
+      "url": "https://github.com/jtraverso/erdos81-complete-split-extremizers/blob/7961c3aba6062b03de3df28f42d339c1aec145d8/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4150_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000004-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4151": [
+    {
+      "key": "Daily20261029_4151",
+      "title": "Self-similar counterexamples to three conjectures of Lorentz — pinned primary scope/disclosure",
+      "url": "https://github.com/lowrank/LorentzLean/blob/2a1df3648ae31700b94dabd6aa4f81ebb57842b9/lean/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4151_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000002-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4152": [
+    {
+      "key": "Daily20261029_4152",
+      "title": "A proof of the spectral isometry conjecture for C*-algebras — pinned primary scope/disclosure",
+      "url": "https://github.com/MColbrook/Proof-of-the-spectral-isometry-conjecture-for-C-star-algebras/blob/e08ba6700e58aff2ba00565b83ee24b71b226ed8/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4152_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000031-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4153": [
+    {
+      "key": "Daily20261029_4153",
+      "title": "CONDITIONAL on Perelli-Pintz-Salerno 1984 and Perelli-Pintz 1993: Halupczok's ternary Goldbach mean value theorem with primes in progressions and short intervals, repaired — pinned primary scope/disclosure",
+      "url": "https://github.com/sthubbar/goldbach-lean/blob/12f09bfeca2ae00988fa039e2e82c6de4d147108/entries/halupczok2012/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4153_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000026-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4154": [
+    {
+      "key": "Daily20261029_4154",
+      "title": "Zero-Sum Quartet Incidence and Sharp Maximal-Independent-Set Witnesses on Eight Vertices — pinned primary scope/disclosure",
+      "url": "https://github.com/jfairfaxball-348/Pan-Disciplinary-Invariance-Conjecture/blob/54cb32b0400e000990db37b83e805a3f44cb13cc/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4154_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-28-000025-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4155": [
+    {
+      "key": "Daily20261029_4155",
+      "title": "Linked-site block laws of all lengths identify the collapsed mutation-scaled genealogy — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/CollapsedGenealogy/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4155_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000003-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4156": [
+    {
+      "key": "Daily20261029_4156",
+      "title": "A prespecified betting test of panmixia against a two-deme history: size and power — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/ConcreteBettingTest/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4156_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000010-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4157": [
+    {
+      "key": "Daily20261029_4157",
+      "title": "An upper bound on the denominators of solutions of the two-locus sampling recursion — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/DenominatorLaw/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4157_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000011-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4158": [
+    {
+      "key": "Daily20261029_4158",
+      "title": "An explicit block-recursive formula for solutions of the two-locus sampling recursion — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/ExplicitFormula/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4158_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000017-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4159": [
+    {
+      "key": "Daily20261029_4159",
+      "title": "Block determinants of the two-locus sampling recursion: degree, positivity, squarefreeness, coprimality, and Galois groups — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/GaloisObstruction/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4159_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000018-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4160": [
+    {
+      "key": "Daily20261029_4160",
+      "title": "Linked-pair panels: panel laws are determined by finitely many Laplace values — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/LinkedPairPanel/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4160_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000021-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4161": [
+    {
+      "key": "Daily20261029_4161",
+      "title": "No formula with denominators of bounded degree, in the total mutation parameter or in rho, for the two-locus sampling recursion — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/NoEwensFormula/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4161_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000024-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4162": [
+    {
+      "key": "Daily20261029_4162",
+      "title": "A partition-pair decomposition of the two-locus sampling probability with Ewens marginals — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/PartitionPair/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4162_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000026-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4163": [
+    {
+      "key": "Daily20261029_4163",
+      "title": "Seven linked sites separate a two-island history from every panmictic history — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/SevenSiteSeparator/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4163_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000028-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4164": [
+    {
+      "key": "Daily20261029_4164",
+      "title": "Total variation bound between an unpruned ancestral recombination process and SMC' on pairwise coalescence times — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/SmcPrimeBound/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4164_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000029-v1.json",
+      "accessed": "2026-10-29"
+    }
+  ],
+  "4165": [
+    {
+      "key": "Daily20261029_4165",
+      "title": "When one finite block of linked sites separates a three-sample genealogy from every panmictic history — pinned primary scope/disclosure",
+      "url": "https://github.com/cenozoic-works/rhone-theory/blob/babec8449a724c270450c7c0e2cd3985ccc2a989/Palomar/WeakRegularSeparation/formalization.yaml",
+      "accessed": "2026-10-29"
+    },
+    {
+      "key": "Daily20261029_4165_support",
+      "title": "Dated public registration",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000031-v1.json",
+      "accessed": "2026-10-29"
+    }
   ]
 }
