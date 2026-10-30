@@ -52450,6 +52450,12 @@
       "title": "Rational Hodge conjecture for CM abelian varieties — formal scope",
       "url": "https://github.com/openai/math/blob/7ef5c0cc5ca4b0e072b7a050fca09ab24bc6fa3a/lean/docs/032.md",
       "accessed": "2026-10-28"
+    },
+    {
+      "key": "Daily20261030_3625",
+      "title": "OpenAI CM-Hodge Comparator namespace repair",
+      "url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/history.md",
+      "accessed": "2026-10-30"
     }
   ],
   "3626": [
@@ -63080,6 +63086,12 @@
       "title": "openai/math initial public release commit",
       "url": "https://github.com/openai/math/commit/adc7f1241b42e322a6451854ab7e4b4c146bf78a",
       "accessed": "2026-10-07"
+    },
+    {
+      "key": "Daily20261030_3963",
+      "title": "Manfredi owner-reported formalization of family377",
+      "url": "https://github.com/na0b/infharmonic-lean/blob/e8710101271a529a8bd84fe0e610c3ab10de85b3/formalization.yaml",
+      "accessed": "2026-10-30"
     }
   ],
   "3964": [
@@ -66542,6 +66554,1112 @@
       "title": "Dated public registration",
       "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000031-v1.json",
       "accessed": "2026-10-29"
+    }
+  ],
+  "4166": [
+    {
+      "key": "Daily20261030_4166",
+      "title": "SmallRatio: Dedekind sums along Euclid's algorithm and the small-ratio formula — primary dated statement/disclosure",
+      "url": "https://github.com/jkfarland-bot/SmallRatios/blob/7e757a973e1297239400c90182e1b507ea48b7c0/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4166_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000011-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4167": [
+    {
+      "key": "Daily20261030_4167",
+      "title": "Short sums of certain arithmetic functions (Nair–Tenenbaum) — primary dated statement/disclosure",
+      "url": "https://github.com/jasondavies/nair-tenenbaum-short-sums/blob/9c3c9236a66f9ba1e04a237089ff836adde0cd6c/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4167_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000010-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4168": [
+    {
+      "key": "Daily20261030_4168",
+      "title": "Proof of WOWII Conjecture 96 (DeLaVina, Graffiti.pc) — primary dated statement/disclosure",
+      "url": "https://github.com/v3ai/openmath/blob/a5525a12ad7c35c64ac14839f505ee2624016401/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4168_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000006-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4169": [
+    {
+      "key": "Daily20261030_4169",
+      "title": "The two-qubit Hardy ladder: the closed form P_K*(q) and its unique maximiser for every K, Hardy's optimum at K = 1, and the optimum (8 rho^2 + rho - 11)/25 in the cubic field Q(rho) at K = 2 — primary dated statement/disclosure",
+      "url": "https://github.com/stalex444/hardy-ladder/blob/5764ec4a239fcb14f8de263372fc906bd217f349/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4169_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000005-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4170": [
+    {
+      "key": "Daily20261030_4170",
+      "title": "PCF all the way down — primary dated statement/disclosure",
+      "url": "https://github.com/tdupu/pcfawd-formalization/blob/05890ba0b0453c289157df45c5bbe472551b1025/char-zero/lean/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4170_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000004-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4171": [
+    {
+      "key": "Daily20261030_4171",
+      "title": "Sharp reset thresholds for bounded-response synchronization games with a sink — primary dated statement/disclosure",
+      "url": "https://github.com/benkeene/sink-reset-thresholds/blob/517b2cd82a8f3ee66476b90ee38a34d6cb9843f6/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4171_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000003-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4172": [
+    {
+      "key": "Daily20261030_4172",
+      "title": "Determination Patterns in Infinite Dependency Models — primary dated statement/disclosure",
+      "url": "https://github.com/Arthur742Ramos/Math-Formalization/blob/72f60228093835438744c37babc68d80e330f755/causal-efficacy/determination-patterns/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4172_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000001-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4173": [
+    {
+      "key": "Daily20261030_4173",
+      "title": "A finite two-temperature lower bound for the GHR sum-difference constant — primary dated statement/disclosure",
+      "url": "https://github.com/carson-olaf/c3a-two-temperature-bound/blob/033952dc1ca04e62a7b2a341561d07c9809437b9/formalization/lean/formalization.yaml",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4173_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000038-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4174": [
+    {
+      "key": "Daily20261030_4174",
+      "title": "Low-discrepancy quasi-uniform digital sequences in every dimension (Halton-type failure and residue sequences) — primary dated statement/disclosure",
+      "url": "https://github.com/lgruen/quasi-uniform-sequences-lean/blob/96081a746079c3440ddf1ad0329cd5ebaeb09ab5/README.md",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4174_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-29-000041-v1.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4175": [
+    {
+      "key": "Daily20261030_4175",
+      "title": "Van der Waerden’s problem for cubic surfaces — primary dated statement/disclosure",
+      "url": "https://arxiv.org/abs/2610.37945v1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4175_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://arxiv.org/html/2610.37945v1",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4176": [
+    {
+      "key": "Daily20261030_4176",
+      "title": "Metropolized backward sampling for conditional sequential Monte Carlo — primary dated statement/disclosure",
+      "url": "https://arxiv.org/abs/2610.38753v1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4176_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://arxiv.org/html/2610.38753v1",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4177": [
+    {
+      "key": "Daily20261030_4177",
+      "title": "A total variation threshold for initial coordinates of uniform parking functions — primary dated statement/disclosure",
+      "url": "https://arxiv.org/abs/2610.40082v1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4177_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://arxiv.org/html/2610.40082v1",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4178": [
+    {
+      "key": "Daily20261030_4178",
+      "title": "Dimension-free weak-type Gaussian Riesz-transform bound — primary dated statement/disclosure",
+      "url": "https://arxiv.org/abs/2610.26478v1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4178_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://arxiv.org/html/2610.26478v1",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4179": [
+    {
+      "key": "Daily20261030_4179",
+      "title": "Reported proof of the Ramanujan Challenge knot-integral conjecture — primary dated statement/disclosure",
+      "url": "https://arxiv.org/abs/2610.40551v1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4179_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://arxiv.org/html/2610.40551v1",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4180": [
+    {
+      "key": "Daily20261030_4180",
+      "title": "Four-cell tails after an alternating stripe in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261020-81df0e",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4180_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4181": [
+    {
+      "key": "Daily20261030_4181",
+      "title": "The white end: no column of rule 30 settles into 1 0^q, for any q ≥ 10 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-c27323",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4181_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4182": [
+    {
+      "key": "Daily20261030_4182",
+      "title": "Forbidden suffixes and arbitrary-length tail families for Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-8fe04c",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4182_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4183": [
+    {
+      "key": "Daily20261030_4183",
+      "title": "Six-bit core exclusions at padding 74 by backward vacuum certificates — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-524848",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4183_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4184": [
+    {
+      "key": "Daily20261030_4184",
+      "title": "White Padding before 10111 and Eighty-Seven Periodic Words in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-7a9ed3",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4184_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4185": [
+    {
+      "key": "Daily20261030_4185",
+      "title": "Distinct spatial column traces with an explicit uniform bound — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-ad6cac",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4185_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4186": [
+    {
+      "key": "Daily20261030_4186",
+      "title": "Every Run of the Center Column Is Shorter Than Its Start Time — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-03b551",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4186_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4187": [
+    {
+      "key": "Daily20261030_4187",
+      "title": "The Period-3 Ether Erodes: No Period-3 Wall of Any Width — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-1fc962",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4187_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4188": [
+    {
+      "key": "Daily20261030_4188",
+      "title": "Exact XOR Superposition Rigidity for Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-ddbfbd",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4188_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4189": [
+    {
+      "key": "Daily20261030_4189",
+      "title": "Problem 2 is exactly one nearly-geometric sequence of nearly-balanced scales — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-5105a7",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4189_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4190": [
+    {
+      "key": "Daily20261030_4190",
+      "title": "Single-cell period-4 absorption for the word 0001 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-b572b3",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4190_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4191": [
+    {
+      "key": "Daily20261030_4191",
+      "title": "Unconditional Four-Cell and Five-Cell Stripe-Tail Mortality in Zero-Boundary Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-017d83",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4191_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4192": [
+    {
+      "key": "Daily20261030_4192",
+      "title": "All finite right halves supported above 30 are absorbed by the period-4 ether-and-wall family — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-a02087",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4192_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4193": [
+    {
+      "key": "Daily20261030_4193",
+      "title": "The White End of Rule 30 from q = 9, by One Pumped Certificate — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-c389d5",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4193_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4194": [
+    {
+      "key": "Daily20261030_4194",
+      "title": "Short Blocks Before Long White Runs in the Center Column of Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-4d375d",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4194_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4195": [
+    {
+      "key": "Daily20261030_4195",
+      "title": "Long White Runs in the Center Column of Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-196859",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4195_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4196": [
+    {
+      "key": "Daily20261030_4196",
+      "title": "A Four-Category Block Grammar for the Center Column of Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-d611aa",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4196_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4197": [
+    {
+      "key": "Daily20261030_4197",
+      "title": "A Half-Rate Exponent Bound for Right-Diagonal Periods in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-1b82d8",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4197_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4198": [
+    {
+      "key": "Daily20261030_4198",
+      "title": "A finite-depth right edge follows the single-cell ruler with a fixed cap — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-61e435",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4198_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4199": [
+    {
+      "key": "Daily20261030_4199",
+      "title": "Staircases near the single cell's right edge end; the rain rows keep a two-step edge patch for ever — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-196370",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4199_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4200": [
+    {
+      "key": "Daily20261030_4200",
+      "title": "A seven-cell rewrite beside the white wall that merges in two steps, for every tail and every finite cut — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-352e5d",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4200_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4201": [
+    {
+      "key": "Daily20261030_4201",
+      "title": "Explicit log log margins for constant runs of the Rule 30 center — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-e324b6",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4201_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4202": [
+    {
+      "key": "Daily20261030_4202",
+      "title": "Clone-Ray Transfer Laws, the Backward 00 <-> 1^infty Avalanche Dichotomy, and Survivor Pullback Characterization for Zero-Boundary Stripe Front Windows — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261028-8abb51",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4202_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4203": [
+    {
+      "key": "Daily20261030_4203",
+      "title": "White runs beside two periodic columns of rule 30 are at most two periods long — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-8131b1",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4203_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4204": [
+    {
+      "key": "Daily20261030_4204",
+      "title": "The 101 shift law for the right diagonals of rule 30, with its mod-4 forms — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-7d47a9",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4204_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4205": [
+    {
+      "key": "Daily20261030_4205",
+      "title": "The universal start of the right diagonals of rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-3ca86f",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4205_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4206": [
+    {
+      "key": "Daily20261030_4206",
+      "title": "Light-speed periodic rings of rule 30 as closed walks of periodic profiles — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a96cee",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4206_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4207": [
+    {
+      "key": "Daily20261030_4207",
+      "title": "The left diagonals of rule 30: their periods are unbounded, and the settled band has no long white run — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-0616de",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4207_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4208": [
+    {
+      "key": "Daily20261030_4208",
+      "title": "A repeat on the center column cannot put its white run inside the settled band of left diagonals — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-1d5070",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4208_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4209": [
+    {
+      "key": "Daily20261030_4209",
+      "title": "Under a period-2 center column, a right neighbour that starts with near-squares has no left edge — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-91b0b0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4209_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4210": [
+    {
+      "key": "Daily20261030_4210",
+      "title": "Q001 up to Width 37, and the Words 0^(P-1)1 of Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-0cac94",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4210_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4211": [
+    {
+      "key": "Daily20261030_4211",
+      "title": "Rule 210 beside the period-2 clock: the one-sided question is false and the left half is linear — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-920c1b",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4211_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4212": [
+    {
+      "key": "Daily20261030_4212",
+      "title": "Every Sturmian word, of every slope and every intercept, is excluded as the right neighbour of a period-2 center column — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-8084e6",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4212_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4213": [
+    {
+      "key": "Daily20261030_4213",
+      "title": "Rule 210, the two-sided statement: no finite configuration keeps the period-2 clock on its center column — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-1bf4dc",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4213_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4214": [
+    {
+      "key": "Daily20261030_4214",
+      "title": "The channel bound at width 14: explicit automaton states, one kernel check per state — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-4d1a54",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4214_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4215": [
+    {
+      "key": "Daily20261030_4215",
+      "title": "Two More Eventual Words Excluded from the Center Column of Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-521830",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4215_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4216": [
+    {
+      "key": "Daily20261030_4216",
+      "title": "Sparse16: A Finite Obstruction to an Alternating Center in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-60d213",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4216_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4217": [
+    {
+      "key": "Daily20261030_4217",
+      "title": "The death time at width 52 is exactly 96, with witnesses at widths 56 and 60 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-8e6bd3",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4217_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4218": [
+    {
+      "key": "Daily20261030_4218",
+      "title": "The death time at width 56 is exactly 100: a complete chunk certificate and its witness — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-ac3898",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4218_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4219": [
+    {
+      "key": "Daily20261030_4219",
+      "title": "Right-sealed shield cascades, multi-parameter strip fixed points, Kleene block absorption, and Problem 2/3 degree-density bridges for Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-603218",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4219_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4220": [
+    {
+      "key": "Daily20261030_4220",
+      "title": "Left-Cone Reconstruction Lemmas and Complete Classification of Jen's Left-Permutive Class in Rule30Realization — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261023-7e9e6e",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4220_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4221": [
+    {
+      "key": "Daily20261030_4221",
+      "title": "Death-time lower bounds at widths 64 to 72, with witnesses from a complete GPU census — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-b16332",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4221_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4222": [
+    {
+      "key": "Daily20261030_4222",
+      "title": "Telling left edges apart from the center column: exact deadlines for three edge pairs — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-991a71",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4222_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4223": [
+    {
+      "key": "Daily20261030_4223",
+      "title": "A death-time lower bound at width 74, with a witness from a complete GPU census — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-a129c3",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4223_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4224": [
+    {
+      "key": "Daily20261030_4224",
+      "title": "A death-time lower bound at width 76, with a witness from a complete GPU census — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-4dcf69",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4224_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4225": [
+    {
+      "key": "Daily20261030_4225",
+      "title": "Two infinite families of right halves absorbed by the ether: CQ01 for every right half with one of two prefixes — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-8d7751",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4225_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4226": [
+    {
+      "key": "Daily20261030_4226",
+      "title": "A three-fifths bound on black runs in the rule 30 center column — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-0554f7",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4226_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4227": [
+    {
+      "key": "Daily20261030_4227",
+      "title": "Period-32 two-phase shielding rigidity for finite Rule 30 moving-front states — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-0ef9c8",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4227_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4228": [
+    {
+      "key": "Daily20261030_4228",
+      "title": "Unconditional Six-Cell and Seven-Cell Stripe-Tail Mortality and Sparse Return-Map Completion of (97, 0) in Zero-Boundary Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-1910d0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4228_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4229": [
+    {
+      "key": "Daily20261030_4229",
+      "title": "Least Period 4 of Rule 30: a Weaker Sufficient Condition, and Why the Left Half Must Be Finite — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-c137e0",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4229_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4230": [
+    {
+      "key": "Daily20261030_4230",
+      "title": "Rule 30, Period 2: a Closed Trap for the Right Half Driven from the Empty Row — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-230bc7",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4230_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4231": [
+    {
+      "key": "Daily20261030_4231",
+      "title": "Rule 30: Self-Shielded Black Runs, Sharper White-Run Bounds, and Q01 as an Integer Iteration — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-317c64",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4231_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4232": [
+    {
+      "key": "Daily20261030_4232",
+      "title": "Left-Diagonal Defect Spectra, Sublinear Monochromatic Run Bounds, and Semigroup Saturation in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261028-e34744",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4232_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4233": [
+    {
+      "key": "Daily20261030_4233",
+      "title": "Partial structural results toward Rule 30 Problem 1: a truncation bridge, first kernel-checked Q001 instances, and a coupled golden-mean source constraint — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261026-e67465",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4233_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4234": [
+    {
+      "key": "Daily20261030_4234",
+      "title": "Excluded column words of length 11 to 16, beyond the kit's table — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-5e2b66",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4234_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4235": [
+    {
+      "key": "Daily20261030_4235",
+      "title": "Excluded column words of length 17 and 18, beyond the kit's table — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-f7ace9",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4235_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4236": [
+    {
+      "key": "Daily20261030_4236",
+      "title": "Periodic temporal profiles of rule 30: pulse holes, source weights and rooted returns — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a94f21",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4236_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4237": [
+    {
+      "key": "Daily20261030_4237",
+      "title": "Finite-arc rotation codes beside a Rule 30 clock — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-0ef6e2",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4237_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4238": [
+    {
+      "key": "Daily20261030_4238",
+      "title": "Finite-support exclusions for eventually simple traces in Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-99db76",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4238_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4239": [
+    {
+      "key": "Daily20261030_4239",
+      "title": "A period-free finite-defect elimination for Rule 30 — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-23ac1b",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4239_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4240": [
+    {
+      "key": "Daily20261030_4240",
+      "title": "An explicit finite horizon for mechanical words beside a Rule 30 clock — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-dc3d17",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4240_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4241": [
+    {
+      "key": "Daily20261030_4241",
+      "title": "Constructive Backward Operators, the Period-3 NOR Wave Trichotomy, and Projective Orbit Laws for Zero-Boundary Stripe Primitive Roots — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a4691a",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4241_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4242": [
+    {
+      "key": "Daily20261030_4242",
+      "title": "An All-Time Forbidden Return-Gap Pattern in the Alternating-Driven Rule 30 Right Orbit — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261030-60990f",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4242_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4243": [
+    {
+      "key": "Daily20261030_4243",
+      "title": "The Universal Backward Wave Cascade, Clone-Ray Disjointness, and 16-Ray All-Length Mortality for Zero-Boundary Stripe Prefixes — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261030-5beddc",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4243_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
+    }
+  ],
+  "4244": [
+    {
+      "key": "Daily20261030_4244",
+      "title": "The death time at width 60 is exactly 114: a complete chunk certificate and its witness — primary dated statement/disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261024-71f858",
+      "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261030_4244_support",
+      "title": "Primary publication and scope evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-10-30"
     }
   ]
 }
