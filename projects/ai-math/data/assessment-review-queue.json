@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-29",
+  "assessedAt": "2026-10-30",
   "samplingWeek": 2965,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -27422,7 +27422,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Check the CM/Hodge/cohomological definitions and paper-to-formal correspondence. Do not treat this owner-reported formal release as independent verification or as validation of the excluded Tate/Hodge-standard corollaries or withdrawn K3 claims. Retain provisional1, low strict confidence, unreviewed taxonomy; no strict Superhuman override and no downloaded artifact executed."
+        "Earlier comparator correspondence must not be assumed to certify the repaired namespace closure. Independently replay the fixed challenge/solution comparison, inspect the definition bodies and verify paper-to-formal CM/Hodge/cohomological meanings. Preserve the narrower CM-absolutely-complex abelian-variety scope; no Tate/Hodge-standard corollaries or withdrawn K3 claims are restored. Owner-reported repair is not independent human verification. The history label is October29 but public main merge is October30UTC; first-public package date remains October6. Retain provisional1, low strict confidence, taxonomy unreviewed and no strict Superhuman override; no downloaded proof was executed."
       ]
     },
     {
@@ -31141,7 +31141,7 @@
       "priority": 1,
       "reasons": [
         "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
-        "Independently review OpenAI family 377 (Interior C^{1,\\alpha} regularity for infinity-harmonic functions) for correctness, novelty, priority, imported hypotheses, and exact claim scope. The release provides no family-level Lean link for the main result. Reconcile the catalogue summary with the constituent manuscript; reconstruct family-specific human/model generation, checking, and write-up roles; and monitor OpenAI's promised versioned corrections. The repository-level production statement and catalogue grouping do not by themselves establish correctness, novelty, family-level attribution, or end-to-end verification. No downloaded proof, code, certificate, macro, PDF, or Lean artifact was executed or independently replayed in this run. Keep provisional=1, coding confidence low, taxonomy reviewStatus unreviewed, strict P/A/S/R unknown, and no strict Superhuman override."
+        "Independently check viscosity, regularity, dimensional/constants and Liouville hypotheses and paper-to-formal correspondence. The formalization author reports no independent human mathematical review or source-author endorsement; owner and model checks do not settle correctness or novelty. Preserve October6 first-public package date; October29 is the separate formalization event. Retain provisional1, low strict confidence, unreviewed taxonomy, no strict Superhuman override; no downloaded artifact executed."
       ]
     },
     {
@@ -33236,6 +33236,805 @@
       "priority": 1,
       "reasons": [
         "Primary owner describes an original result relative to its cited sources, but explicitly makes no priority certification. Treat established model/recursion/moment machinery as background, not new discoveries. Exact model hypotheses and source-to-proof correspondence need independent audit. The result first presented by this formalization. What is new relative to the cited sources: necessary and sufficient criteria for separation by the law of one finite block of linked finite-alphabet sites, uniformly over alphabet sizes, panmictic histories, and panmictic mutation scales, for general three-sample laws with a regular first-coalescence profile, for symmetric island models with time-varying rates and any admissible initial configuration, and for finite-phase histories. The established mathematics the entry builds on is the structured coalescent of three lineages in a symmetric island model (the symmetric island model of Grusea et al., sec. 2.2.1, eq. (2), used here with time-varying rates and the parameterization stated under scope) and the coalescent with a time-varying population size; the coalescence-time analogue of the island criterion is the result of Grusea et al. No cited source supplies the finite-block criteria or their proofs. Novelty unknown; no claim of priority. Independently check correctness, novelty, priority, exact AI mathematical contribution and paper-to-formal-statement correspondence. Owner/agent and registry checks are not independent expert verification; no proof artifact, program, certificate or macro was executed. Determine earliest public availability: registry registration is the dated public observation used here, not proof that earlier preparation commits or manuscripts were already public. Keep provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4166",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Only the claimed exact uv<p/2 cutoff, explicit summed error and subgroup-sum form qualify; reciprocity, Barkan–Hickerson–Knuth, Legendre pairing and per-pair asymptotics are classical. The L-function conversion and Burgess bounds are not formalized. Check overlap with the2026 smoothed identity and exact AI role. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4167",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only the Q=X counterexample to printed Lemma1, constant-coordinate obstruction and required repairs qualify; the1998 main theorems are known. Check the arithmetic witness and exact repaired replacements; do not claim the principal Nair–Tenenbaum theorems were disproved. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4168",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Source lists WOWII96 as open and supplies a stronger vertexwise bound sharp for stars. Check target history and prior solutions, copied definitions and proof fidelity before stronger difficulty confidence. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override. The original DeLaVina conjecture-list page could not be retrieved (connection timeout); the pinned owner metadata and copied formal-conjectures statement identify the target, but original-list status/history remain unchecked."
+      ]
+    },
+    {
+      "id": "4169",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Collect only the claimed new exact K=2 cubic-field optimum, maximizer and weights; the general ladder formula, uniqueness claim and K=1 optimum are established antecedents. Real Schmidt states and real projective settings only; not complex settings, mixed states, POVMs or higher dimensions. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4170",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Characteristic zero only, with normalized critical/branch loci. The manuscript is private; independently check that the public finite/dominant normalization interface faithfully matches the intended PCF conjecture and the restriction statement. Do not infer characteristic-p results. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4171",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only new k>=2 cases n=k+2 and n=k+3, including nondivisible cases, qualify. The endpoints were known; general Lipin–Volkov conjecture remains open. Agent agreement scores are not independent verification. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4172",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "One package for October29/30 registrations, not two discoveries. Earlier Isabelle development is a substantive source, not merely a kernel import. Private manuscript bytes cannot be independently read. Context-independent attainable families need not share one witness mechanism; no independent ambiguous-coordinate variation or whole-paper formal coverage is asserted. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4173",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only strict C3a>60709/50000=1.21418 is collected. The general limiting theorem is outside formal scope; compare the masked-digit predecessor in the identical constant definition. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4174",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check every-N versus net cardinalities, prime/base hypotheses, class exclusions and whether earlier manuscript versions were public; no full hand verification or independent expert review is reported. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4175",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Audit the square-value and projective-thin-set inputs and discriminant conventions. Do not present this partial quantitative result as the full cubic-surface conjecture or ordinary van der Waerden conjecture settlement. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4176",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Check which alternate proof routes are substantive advances versus formalization of the pre-existing human draft. AppendixF excludes experiments, several comparison remarks, some resampling justifications and certain almost-sure positivity claims; do not imply these were all formalized. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4177",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check uniform constants, critical endpoints, occupation log-concavity and entropy interfaces and imported results. Registry formalization is the same paper package, not a second result. Owner hand checks and stated multiple kernel checks do not remove all novelty/correspondence concerns here. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4178",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check exact Gaussian/operator normalization, obstacle height restriction, locality and endpoint extension against earlier results. First public arXiv date is October19, not manuscriptOctober12 or registryOctober30; the exact AI contribution to retained arguments remains to be mapped. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4179",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Locate the successful submission, first-public proof date, exact author/model attribution and formal statement matching the integral and endpoints. Organizer assessment is positive but Conjecture1 evaluation is expressly incomplete; do not count all submissions as discoveries. Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4180",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4181",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4182",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4183",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4184",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4185",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4186",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261024-801153; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4187",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4188",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4189",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261025-eb3b91; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4190",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4191",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261025-82d00b; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4192",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4193",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261026-0c810b; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4194",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261026-8cca17; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4195",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4196",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4197",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4198",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4199",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4200",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4201",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4202",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4203",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4204",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4205",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4206",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4207",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4208",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4209",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4210",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4211",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4212",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261023-234c71; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4213",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261023-b5421a; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4214",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4215",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261023-30531b; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4216",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4217",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4218",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4219",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. Do not infer fixed-single-seed time lower bounds from general-input ANF/query-complexity statements or infer prize solutions from degree/density equivalences.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4220",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261023-d669b6; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4221",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4222",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4223",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4224",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4225",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4226",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4227",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4228",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4229",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4230",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4231",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4232",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. The advertised a-2 bound improves the three-fifths bound only at a=4,5; title wording “sublinear” is not supported by those linear inequalities. The white a-5 bound is conditional and not a bound on all center runs.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4233",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4234",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261022-5c4fbf; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4235",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261022-70d23b; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4236",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4237",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4238",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261029-f98be4; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4239",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4240",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4241",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4242",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4243",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4244",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. Current submission is Lean Unverified; the headline remains a source claim without a completed platform replay.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
       ]
     },
     {
