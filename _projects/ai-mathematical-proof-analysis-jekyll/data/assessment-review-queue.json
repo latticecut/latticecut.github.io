@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-10-30",
+  "assessedAt": "2026-11-02",
   "samplingWeek": 2965,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -1046,6 +1046,17 @@
       "priority": 1,
       "reasons": [
         "Obtain independent mathematical review of the four Version 4 theorem families, check novelty and exact statement-to-source correspondence, and replay the registered Lean package and mechanical report rather than treating registry verification as independent proof validation."
+      ]
+    },
+    {
+      "id": "568",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Verification event only, no new discovery count. Preserve original first-public mathematical claim and its source version. None in the statements, which are Formal Conjectures' own, copied verbatim. Formal Conjectures' bracket has {X_i, X_(i+n)} = 1, the opposite sign to Long's {p, x} = 1; with x, q, p, z = X_1, X_2, X_3, X_4 the map X_1, X_2, X_3, X_4 -> R, T, D, S is a Poisson endomorphism for Formal Conjectures' bracket, as its docstring states. The six identities are proved in Long's source coordinates (x, y, beta, D_0); the change to those coordinates is not itself formalised as an automorphism, because the proof does not need it. Of Long's Theorem 1.1 only the non-automorphism is formalised, using two points of his fibre; the determinant-one claim and the exactness of the three-point fibre are not. Independently check all explicit hypotheses, correspondence, source author involvement and replay. Only stated subset of original results is formalized; this does not supersede or weaken the original mathematical claims. Retain provisional1, low strict confidence, unreviewed taxonomy and no strict Superhuman override; no artifact executed.",
+        "AI contribution not established"
       ]
     },
     {
@@ -22444,7 +22455,7 @@
       "placement": "tentative",
       "priority": 1,
       "reasons": [
-        "Further checking required: map the reported AI role in arXiv:2609.35689v1 to the exact theorem, proof, construction, computation, formalization, benchmark item, or check; determine the human/model allocation and materiality; independently assess the bounded claim, novelty, and statement correspondence. Inspect any cited code, computation, certificate, formal development, transcript, benchmark trace, or macro only in a controlled independent review; none was executed here. Until resolved, keep provisional=1, production confidence low, reviewStatus unreviewed, and do not assign the Superhuman override. Missing at the cutoff are any further independent specialist review needed for the stated question, an independent end-to-end replay where an artifact is claimed, and a complete claim-level human/model contribution map. This source-attributed record remains provisional=1 with conservative confidence; taxonomy reviewStatus unreviewed; no Superhuman override is assigned; no artifact was executed, and no source-reported program, proof artifact, certificate, macro, formal development, or computation was independently replayed by this automation.",
+        "Verification event only, no new discovery count. Preserve original first-public mathematical claim and its source version. No significant mathematical divergences known. Independently check all explicit hypotheses, correspondence, source author involvement and replay. Only stated subset of original results is formalized; this does not supersede or weaken the original mathematical claims. Retain provisional1, low strict confidence, unreviewed taxonomy and no strict Superhuman override; no artifact executed.",
         "AI contribution not established"
       ]
     },
@@ -33622,7 +33633,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33632,7 +33643,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33642,7 +33653,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33652,7 +33663,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33693,7 +33704,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33854,7 +33865,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33884,7 +33895,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33894,7 +33905,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33904,7 +33915,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. Registry explicitly reports human review and kit incorporation, but novelty and scope still require comparison with the dated prior kit. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33934,7 +33945,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261022-5c4fbf; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33944,7 +33955,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261022-70d23b; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33954,7 +33965,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33974,7 +33985,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. This revision supersedes R30-20261029-f98be4; the earlier dated package is counted once, while wording is pinned to this corrected version.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -33984,7 +33995,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -34004,7 +34015,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -34014,7 +34025,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -34024,7 +34035,7 @@
       "placement": "best-estimate",
       "priority": 1,
       "reasons": [
-        "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+        "Further checking remains record-local: confirm the exact human-review scope and incorporated module/commit against the submitted declarations; independently check novelty and full mathematical correspondence. Platform Human Verified/Kit Contribution labels are source-attributed, not an independent expert audit by this automation. Retain existing provisional flag and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -34035,6 +34046,837 @@
       "priority": 1,
       "reasons": [
         "This is a bounded partial result only, not a solution to any Rule30 Prize problem. The platform’s Lean Verified label is a source report about submitted declarations, not human proof/scope review or a prize award. Compare overlapping word families, bound improvements and antecedents exactly; independently inspect the actual submission and finite certificate scope. Keep only the new scoped contribution, not known background or numerical observations. Current submission is Lean Unverified; the headline remains a source claim without a completed platform replay.  Independently check correctness, novelty, priority, exact AI mathematical contribution and statement correspondence. Source-reported author/agent, kernel or registry checks are not an independent expert audit here; no downloaded proof artifact, certificate, program or macro was executed. Registry/submission dates are dated public observations; reconstruct any earlier public manuscript or artifact release before backdating. Retain provisional=1, low strict confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4245",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Strictly hyperbolic generic case only; the full generalized Lax conjecture remains open. Compare later OpenAI counterexample scope and preserve this independent proof package. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4246",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Odd-characteristic extension of prior group-algebra constructions, not rediscovery of the characteristic-two case. Check identity coefficient, cancellation and dependence on unrefereed bounded-path inputs; no torsion-freeness is claimed. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4247",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Convex planar complement, fixed area and a negative second disk eigenvalue are required. The nonconvex and fixed-perimeter versions remain open. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4248",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Map AI assistance specifically to Theorem4.1 and its retained elementary modification; not every geometric consequence was AI-discovered. Verify branch ranks, every-field assertion and motivic normalizations. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4249",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Distinguish new universality theorems from standard Weil/equidistribution inputs. Initial sketches via ChatGPT do not specify exactly which retained mathematical steps it supplied. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4250",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Retain unbiased, uniformly Lipschitz sampled gradients, bounded variance and budget-proportional batches; verify sample-dependent stepsize handling in Lemma3. Complexity orders themselves are not new. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4251",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check all-codimension span equality and dimension>=10 Picard generation, coarse quotient/pullback norms and the new finite-family-overlattice step. Exact LLM model is not disclosed. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4252",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Three constructions complete possible weight-enumerator occurrence, not a classification of all length60 codes. Recheck Magma certificates and prior catalogues. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4253",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Every finite helix segment must satisfy general position as well as distance multiplicities. Do not infer a planar construction; check integer-coordinate bit bound and earlier configurations. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4254",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "One package with Hexagon2610.00599; exact AI proof-development disclosure is there. Verify arbitrary finite abelian groups, stabilizers and klogk error, not just leading constant. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4255",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Collect the new Nash-entropy estimate and G2-flow extension; a new proof of known Ricci backward pseudolocality alone is not counted. Scale depends on torsion/deviation and scalar curvature. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4256",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Vague primary OpenAI acknowledgement leaves materiality and exact role unresolved. Check fixed odd p-group versus varying groups and the logarithmic correction; do not conflate with known D*. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4257",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Worst-case O(1) order maintenance is known; retained contribution is the explicit new gradual-label/RAM construction and proved magnitude interface, not merely proof replay. Check word-size/memory allocation model and novelty. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4258",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Source limits AI to auxiliary searches/editing/preliminary mathematical checks. Material mathematical contribution to the homogeneity theorem remains unclear; compare prior LeBrun-Salamon package3653 and the independent authors earlier result. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4259",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Sharp bounds eight/four concern finite-volume and entirely ideal polytopes, not compact case already known. Lean uses explicit geometric premises; verify reduction to sphere bounds and all-vertex-type scope. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4260",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Prime p>5 and pre-modularity are essential. Primary acknowledgement credits discussion/proof suggestions/corrections but does not identify a decisive retained AI step. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4261",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check generalized growth-scale class, Hankel least singular values/determinants and convergence hypotheses. The model found reverse inequality; this is distinct from classical entire-function coefficient order. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4262",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Odd degrees settle the stated targets; even degrees have restricted exact cases and counterexamples for k>=18, not a universal affirmative formula. Map Codex contributions to retained proofs. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4263",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Formal coverage is n>=12,m>=24 plus specified constructions/finite bounds, not every finite exclusion. Audit certificate completeness and waiting/interception conventions. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4264",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Exact leading coefficients hold for most star sizes, with bounds only in the remaining congruence class. Codex proof contribution is acknowledged but not individually allocated. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4265",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Reported proof found before the later OpenAI proof but first public arXiv date is October29. Keep independent argument separate; verify chronological independence, reproducibility and even-p/symmetry assumptions. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4266",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Source identifies Erdős’s1982 question and matching full asymptotic. Verify codegree deferral/container bound, uniform error and exact prior target; author checks are source-reported. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4267",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Exclude two answers that follow directly from known examples from the novelty claim. Check Kronecker-only main proof, k infinite summands, density conventions and formal theorem correspondence. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4268",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Poisson, conforming Lagrange elements, stated refinement assumptions and theta<1 only. Check framework and endpoint dependence; human/AI initial contributions deliberately inseparable. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4269",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only new dimension8 minima, dimension9 bounds and related nonexistence/divisibility qualify, not reclassification<=7. AI-found rational-certificate proofs for97,8,46 and90,8,42 not yet human-expert reviewed. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4270",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Local neighborhood of noncompact solvable representations, genus>=3 and nontrivial elliptic separating image only; not Bowditch/Goldman in full. AI supplied retained elementary Proposition2.4. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4271",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Map AI credit to saturation argument and Proposition2.2 counterexample; other applications were found by authors. Verify matrix-cone hypotheses and do not claim original Fajtlowicz energy conjecture. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4272",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Odd p Clifford-defined examples obstruct arbitrary stabilized circuits; not just Clifford circuits. AI-assisted computations and proof checks do not establish an independently reviewed invariant. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4273",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Distinguish real Denjoy-Carleman classes from sectorial AppendixD; non-Noetherian examples d>=2 coexist with Noetherian dimension2 examples. Check weight growth and division-to-ideal inference. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4274",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Three exact open questions1992/2004/2019 answered negatively, not first disproof of Halin1964 already solved. Verify countable-degree ends and refined thin-end obstruction. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4275",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Two-valued iid environments and random mixtures, without ellipticity; not arbitrary iid environments. Coupling adaptation credited to GPT-6 Astra Pro. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4276",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Phase-covariant generalization is new; all-qubit result is recovered background. Check Schur-weighted entropy inequality, tensor-product scope and Lean input correspondence. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4277",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "AI used for routine moment/concentration proof calculations only; architecture is human and rejected Codex draft was not retained. Check materiality, Kesten-Stigum parameter range and independent Chen-Wang-Zhang chronology. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4278",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Only finite ultraviolet proper-time window and stated joint scaling regimes. AI proof/calculation checking acknowledged but exact material contribution unclear. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4279",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Exact h65..71 rely on exhaustive upper exclusions, not just covering witnesses. Search records are not standalone UNSAT certificates; re-run/check independently before confirmed status. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4280",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Finite verification to2.15e29 is not RH; the Suzuki equivalence is prior. Combined synthesis00688 is not counted again. Check all-real interpolation, zero-density inputs and ball-arithmetic certificates. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4281",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Established transfer methods are background; retain exact boundary asymptotic/error, adjacency correction and varying-base conditions only. No independent human verification and novelty review pending. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4282",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Integral progressions only, height-dependent additive error, not a uniform bound on arbitrary rational progressions. Author understands local half; spectral-cap/local-kernel cancellation remains unchecked by humans. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4283",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Pressure nondifferentiability/density jump for sufficiently thin rods; not a claimed proof of continuous symmetry breaking. Submitter explicitly says NOT HUMAN VERIFIED. Audit auxiliary-field representation and interface estimates. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4284",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Log-concavity and theta-constant counterexamples typeA5 only; separately retained00670 adds a distinct nonunimodal family, not duplicate count of the same counterexample. Check Laurent coefficients and exact conjecture hypotheses. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4285",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "C13,7,4 optimum relies on1995 minimum/classification as explicit premises; no fresh compile of packaged Lean. Check complete class coverage and finite obstruction, not only class52. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4286",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Retain nonunimodality family beyond00668 log-concavity examples; compare overlap and explicit coefficients. Recent2026 conjectures do not by themselves justify Superhuman. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4287",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Same exponent log2(7); only lower-order arithmetic count improves under the specified basis-change regime and n power2. Verify addition conventions and previous term3/2 versus3/4. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4288",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check definition of small index, variable-r almost-linear bound and fixed-r unbounded ratio; not a solution of every index-one conjecture. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4289",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Conditional stipulated normalized backward-channel model, not physical retrocausal communication. Resource exclusions and one-use scalar-feasibility claim are essential; human originality/proof review pending. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4290",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Real Wigner bulk full Poisson result, complex case only sketch. Check resampling local limit, arithmetic eigenvector exclusion and all distribution assumptions. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4291",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Contributors have not checked all auxiliary steps. Keep LOCAL/measurable/Baire/Borel hypotheses distinct; asymptotic separation index needed for Borel conclusion. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4292",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Only det(-Einstein)>0 local/global cases and explicitly stated variations. Source tools acknowledge Claude but exact mathematical role is unspecified; existing rigidity/convexity theorems are background, not new discoveries. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4293",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Elementary/local affine/contact constructions under declared AES hypotheses; verify novel finite-puncture construction separately from standard Bruhat/contact identities and prior private/repository history. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4294",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Conjecture3.7 sufficient noncancellation/generic hyperplane condition, not all Anderson motives uniformizable. Independent AI reviews are not human verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4295",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Parallelizable n>=3 or stated closed stably-parallelizable/Euler conditions only. Human contributors have not checked detailed proof. Verify metric correction/transversality and small-image embedding versus immersion. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4296",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Verify earlier upper bound and complete Ramsey catalogue hypotheses, rational multipliers and all inequality derivations. Supplied program checks and partial author review do not establish independent complete verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4297",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only new relevant-variable bound4.1225323803 and37 certificate exclusions; degree4/5 bounds and Fourier granularity are known. Check recurrence passage to every degree and upstream certificate overlap. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4298",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Only trace upper certificate1.80697883; two complex-root auxiliaries are known2009/2011. Audit Smith criterion, rational measure, all23 auxiliaries and prior competing bounds. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4299",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Korenblum lower bound0.44667 for unweighted Bergman space; flux input inherited. Audit contact-moment correction and rational measure; source revision placeholder requires stable pin follow-up. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4300",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Not first polynomial primality test or improvement on best general complexity. Single-binomial construction depends on new unrefereed Dedekind-zero-free input; fixed-base modification is a conjecture, not proved. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4301",
+      "category": "Difficult",
+      "confidence": "low",
+      "placement": "tentative",
+      "priority": 1,
+      "reasons": [
+        "Positive lower density only, not Serre full density asymptotic. Analytic inputs/OpenAI TypeII/Cureton-Thorner are unrefereed and explicit Lean hypotheses. GPT added details/formalization, exact material discovery role unclear. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4302",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. Graphs are Mathlib SimpleGraphs on a finite vertex type; degrees are Mathlib's degree. A plane graph is a graph with a genus-zero rotation system (the registered Kuratowski entry's plane map) rather than a topological embedding, and minimum face size five is stated as: no power (rot * dartSymm)^k with 1 ≤ k ≤ 4 fixes a dart. The article's class G(3,5) consists of 3-connected plane graphs; neither connectivity nor 3-connectedness is assumed here, so faces are the orbits of the face permutation. The star is stated as a vertex of degree three with three distinct neighbours; the statement assumes a nonempty vertex type. Check whether removal of3-connectivity follows from known reductions; new discharging proof alone is not a new target. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4303",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Check source/repository first-public chronology and overlap with the full corpus. The three maximality declarations retain the manuscript's nonempty-variable hypothesis. PrimitiveCongruence is an equivalence relation on parallel typed arrow terms that contains every defining equation and is preserved by composition, conjunction and disjunction. Its Closed property requires preservation under uniform formula substitution on the terms and both endpoints. Derives is the equivalence relation generated by the defining equations and closed under those three arrow operations.\n\nDosenPetric/PalomarCorrespondence.lean proves descent from terms to the quotient by Derives, restriction of full proof congruences to terms, pointwise relation correspondence, preservation of substitution closure and totality, correspondence of distinctness, and preservation by derived negation. The extension from a congruence closed under substitution to a full proof congruence uses the proved fragment dichotomy. The short proof uses occurrence isolation, ContextualCollapse.all_contexts and ShortProof.total with the q_A/e_A arrows. All quantification over parallel arrows preserves empty hom-sets, and repeated occurrences retain distinct tags. The metadata makes no priority claim or claim to an exhaustive novelty assessment. Full maximality contradicts source2007 nonmaximality conjecture; verify exact zero-identity Boolean category, nonempty variables and substitution-closed congruence. Metadata does not establish exhaustive novelty. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4304",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. Graphs are SimpleGraphs (on Fin n in the asymptotic statements). Note I: conflict systems, certificates and costs are Paper V's definitions; the physical system has as objects the copies of K₃ and K₄ in G; a clique partition has pieces of order at least two whose edge sets partition E(G); a certified fractional optimum is a pair of a feasible fractional packing and a feasible dual of the same rational value; the near branch states its hypothesis as the negation of the strict far inequality with η = 10⁻¹⁶. Note II: cp is the registered clique partition number (cliques covering every edge exactly once), cp_{≤4} uses blocks of order between two and four, B(n,p) = p(n − p) − C(p,2) and A, m are integers counted from the root, and the edit distance is the number of edges of G △ (K_P ∨ I_O); the natural subtraction M(n) − cp(G) in the hypothesis is justified by cp(G) ≤ M(n). Count the exact near-extremal stability/adapter extension only, not a new solution of Erdős81. NoteI assembles earlier papers and is not an independent discovery. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4305",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. Multisets are multiplicity functions X : O → ℕ and the conflict graph lives on the copies Σ o, Fin (X o). Theorems 3.3 and 3.4 take the optimum as an explicit maximizing point of a resource-dominated relaxation (a structure recording the resources, the feasible region inside the resource-capacity polyhedron and the characterization of its 0/1 points; convexity is not used) and assume all its coordinates are at most one. Theorem 4.4 and Example 5.5 state the realizability defect for the admissibility classes of identity and host realizers. In Corollary 5.3 the host system restricted to B has the triangles (e, h) with e ∈ B as objects. Theorems 6.2 and 7.3 (integral) hold for arbitrary maximum (maximum-weight) packings P' of G_{v→u} and P'' of G_{u→v}, given as feasible sets of the conflict systems: the multiset is their image in G (mappedTri, mappedMixed), each member of P' and P'' counted at its image under the copy map. ν₃* is a supremum over fractional triangle packings (registered definition), proved equal to the library's linear-programming form. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override.",
+        "Rotating ordinary-result sample"
+      ]
+    },
+    {
+      "id": "4306",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. The source conjecture concerns sets of distinct varieties. The theorem is stronger: arbitrary natural-number multiplicities are allowed and minimum inventories are proved to contain no repeats. Counts use fixed face-colour labels, not equivalence under colour permutations. Cube varieties identify proper rotations, not reflections. Only exterior faces must match. The geometric model is finite signed-axis geometry, not a development of Euclidean solids in real coordinates. The formal proof uses a different route from the written support-graph and general construction arguments. After the symbolic row-sum reduction, the classification uses label permutations to normalize the first row. Arithmetic proofs exclude a doubled edge and force two neighbours to close a triangle; the degree equations then determine both triangles. Sufficiency checks explicit witnesses for all 300 minimum-set-target pairs. No generated classification branches are used. Lower bound12 is known; only ten-inventory classification with repetitions and exact geometric witnesses is new. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4307",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. Lattice paper: Theorem 1.1 has exactly the hypotheses (W) and (Curv), with the constants of (Curv) quantified before epsilon and C, and the unit direction and the point after them, as in the paper; the Lean writes M and c for the paper's Lambda and lambda; \"within distance |x|^(3/4) of the ray\" is the existence of a point beta xi with beta >= 0 at that distance from x, which is the same condition since the ray is closed; the constant C is a positive real number; the expectation of the exponential is a Lebesgue integral with values in [0, infinity]; the theorem also concludes that the passage time is almost everywhere measurable; the independent weights and the time constant enter as predicates on the law of the configuration and on a norm, both proved to exist and to be unique; the variance bounds that follow are also proved, for the extended variance. Continuum paper: the noise lives on a standard Borel probability space; Theorem 1.2 is stated as two theorems, one for each noise; the time constant enters by its defining limit, which each main theorem asserts to exist; the constant C is a positive real number; the expectation of the exponential is a Lebesgue integral with values in [0, infinity]; the main theorems also conclude that the passage time is almost everywhere measurable; the variance bounds that follow are also proved, at the points t e_1 and at every point x with |x| large. Cited results are formalized in the form the papers use, some specialized to the papers' hypotheses, and some with explicit constants where the source computes an optimal one that the papers do not use. Every divergence, and every difference of route between the formal and the printed proofs, is listed in docs/FORMALIZATION-NOTES.md. The owner explicitly says this direction-dependent statement is not a corollary of sourceTheorem1.1. Check genuine additional generality and whether it is known elsewhere; AI contribution to discovery versus formal proof remains unclear. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4308",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. Bridge time is normalized to [0,1], with paper time s represented by s/beta; the sqrt(2*beta) factor preserves the generator-Delta convention. Paper coordinates 1,2,3 are Lean coordinates 0,1,2. Dyadic left and midpoint polygonal area sums coincide because an increment crossed with itself is zero. The winding comparison entry supplies upper bounds; the V4 stiffness package supplies the corresponding two-sided thermodynamic bound. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4309",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. The three principal manuscript results M01, M02 and M03, with their original domains and quantifier order. M01: one finite C>0 before every n>0 and compact convex Euclidean body K with nonempty interior; there exists a literal real special-linear matrix S with finite actual H0 Rayleigh infimum on interior(S K) and lambda_1(interior(S K))*volume(K)^(2/n)<=C*n. M02: one finite C>0 before every n>0 and origin-symmetric compact convex volume-one K with nonempty interior in maximal Gaussian measure position; its actual H0 Rayleigh infimum is at most C*n. M03: for each real P>=2 one finite C(P)>0 precedes every n>0, every even isotropic probability law nu satisfying the conventional compact-set IsLogConcaveMeasure condition, least Poincare constant at most P and finite actual Gaussian-relative Fisher information, and every origin-symmetric compact convex body D with nonempty interior supporting nu almost everywhere; lambda_1(interior D)<=C(P)*(n+sqrt(n*I(nu|gamma))). The log-concave density is derived from the law's original finite-information hypothesis; no density witness, covariance lower bound, ellipsoid-existence conclusion or desired spectral estimate is an additional premise. See docs/correspondence.md for exact source-to-Lean clauses and docs/proof-departures.md for material argument changes. The manuscript strategy through information decay, Gaussian dilation, a dyadic bridge and Rayleigh bounds is retained. The weaker geometric volume-product input is obtained from a genuinely reused stronger sharp symmetric Mahler proof, with complete attribution. At the terminal bridge-to-spectrum step, an actual H0 killed-density-row competitor, free-heat approximation, logarithmic-grid energy estimates and compactness replace the classical killed-heat-kernel spectral identification. Its weaker intermediate constants still give the stated unspecified C(p)(A+n); the manuscript's sharper intermediate display is not certified by that alternative. One normalized even nonnegative log-concave weak first minimizer is constructed from Gaussian killing iterations and compactness; universal strict positivity, simplicity and all-groundstate log-concavity are not inferred. These departures preserve the three complete principal conclusions and introduce no replacement conclusion as an input hypothesis. Full arbitrary-law Borell affine-support equivalence is not claimed; the actual finite-information law-to-density theorem needed by M03 is proved. Private manuscript, only principal M01/M02/M03 interfaces. Full manuscript not verified; exact math AI role versus formalization remains unclear. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4310",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Check source/repository first-public chronology and overlap with the full corpus. - Machine model, polynomial time and reductions are those of PALOMAR-2026-10-02-000013: deterministic single-tape Turing machines over {blank, 0, 1, separator}, time = number of steps, polynomial bounds c * (n + 1)^k, polynomial-time many-one (Karp) reductions. ∃ℝ is the class of languages that reduce to ETR; invariance under other machine models is not proved.\n- ETR formulas are quantifier-free formulas with constants 0, 1, operations +, −, · and relations =, <, ≤ under ¬, ∧, ∨, read existentially; variable indices are coded in unary. Art gallery instances are coded with numerators, denominators and g in binary.\n- Polygons are lists of corners; simple means at least three distinct corners and any two distinct edges meeting exactly in common endpoints (collinear consecutive corners allowed); orthogonal means every edge is horizontal or vertical. The region is the boundary plus the bounded components of its complement; seeing means the closed segment lies in the region. The problems ask for a guard set with exactly g points, which is equivalent to at most g points since guards can be added.\n- The orthogonal problems are not treated in the sources; AGPOrth and AGPOrthPointBoundary are the restrictions of the point-point problem of [AAM] and of the point-boundary problem of [S] to orthogonal polygons. Hardness is proved by a construction of our own (the forthcoming manuscript): Stade's polygon with every non-axis-parallel edge replaced, extra helper guards counted in the guard number, and a preprocessing step that replaces each constraint x = 1 by x · x ≥ 1 and x + x ≤ y with a fresh variable y.\n- Stade's construction is formalized with explicit coordinates designed for the formalization rather than the coordinates of the paper. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4311",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Partial bounded theorem only; no Rule30 Prize target solved. Combined earlier and later declarations in one package, not two counts. Check gate families/finite canonical windows/model-local step bounds and prior kit overlap. Source Lean Verified is not independent mathematical/prize verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4312",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Partial bounded theorem only; no Rule30 Prize target solved. Combined earlier and later declarations in one package, not two counts. Check gate families/finite canonical windows/model-local step bounds and prior kit overlap. Source Lean Verified is not independent mathematical/prize verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4313",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Partial bounded theorem only; no Rule30 Prize target solved. Check gate families/finite canonical windows/model-local step bounds and prior kit overlap. Source Lean Verified is not independent mathematical/prize verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4314",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4315",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4316",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4317",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4318",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4319",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4320",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4321",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4322",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Bounded partial theorem only; no central-column density, nonperiodicity or unrestricted computational lower bound follows from these diagonal, model-local, conditional or finite-window statements. Check overlap with same-author earlier cascade/anti-periodic/frontier packages and exact quantified hypotheses; source Lean verification is not independent expert verification. Independently check correctness, novelty/priority and precise AI allocation against the pinned primary statement. Source-reported author, AI, computational, kernel and registry checks are not an independent expert audit here. No downloaded proof, certificate, code or macro was executed. Retain provisional=1, low strict coding confidence, taxonomy unreviewed and no strict Superhuman override."
+      ]
+    },
+    {
+      "id": "4323",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Verify the full all-n edge bound and uniqueness equality proof against the prior sufficiently-large-n theorem. Paper credits GPT-5.6 Sol with the bound and even-n equality; odd-n equality is the authors’ new argument. August11 is reported private discovery, not first public release; use arXiv October28. The November1 formalization is the same package, not a second result. Independently check the exact formal scope and author-independent replay. Keep provisional1, low strict confidence, unreviewed taxonomy and no strict Superhuman override; no downloaded artifact executed."
+      ]
+    },
+    {
+      "id": "4324",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution",
+        "Independently check the generalized Artin criterion, iterated right duals, two-sided flags and the implication from the constructed division-ring extension to the triangular ring counterexample. Verify whether the Lean main theorem covers the full ring-theoretic conclusion or only its criterion; inspect all hypotheses and statement correspondence. Author-reported fresh kernel replay is not independent expert verification here. Preserve October29 public arXiv date. Retain provisional1, low strict confidence, unreviewed taxonomy and no strict Superhuman override; no artifact executed."
+      ]
+    },
+    {
+      "id": "4325",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "The underlying dense-model existence theorem is known. Only the source-reported new constructive fingerprint/container proof package is collected, not a new solution of the original existence problem. Compare previous constructive dense-model methods and exact hypotheses before confirming novelty; distinguish AI container suggestion from author-supplied counting/deletion inputs. Independent correctness/priority review remains open. Retain provisional1, low strict confidence, unreviewed taxonomy and no strict Superhuman override; no artifact executed."
       ]
     },
     {
@@ -37202,17 +38044,6 @@
       "placement": "best-estimate",
       "priority": 3,
       "reasons": [
-        "AI contribution not established"
-      ]
-    },
-    {
-      "id": "568",
-      "category": "Difficult",
-      "confidence": "low",
-      "placement": "tentative",
-      "priority": 3,
-      "reasons": [
-        "Possible breakthrough / disputed difficulty",
         "AI contribution not established"
       ]
     },

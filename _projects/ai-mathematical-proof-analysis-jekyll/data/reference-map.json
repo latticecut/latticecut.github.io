@@ -7762,6 +7762,12 @@
       "title": "An Explicit Counterexample to the Rank-Two Poisson Conjecture",
       "url": "https://arxiv.org/abs/2608.23777v1",
       "accessed": "2026-08-27"
+    },
+    {
+      "key": "Daily20261102_568",
+      "title": "fc-poisson-2 — scoped formalization update",
+      "url": "https://github.com/zblore/fc-poisson-2/blob/aa723b8e6d5d5fcc8b87ea7116816c0f29ed6312/formalization.yaml",
+      "accessed": "2026-11-02"
     }
   ],
   "569": [
@@ -44140,6 +44146,12 @@
       "title": "Linearity bounds for APN functions — versioned full text",
       "url": "https://arxiv.org/html/2609.35689v1",
       "accessed": "2026-10-03"
+    },
+    {
+      "key": "Daily20261102_3172",
+      "title": "Linearity bounds for APN functions — scoped formalization update",
+      "url": "https://github.com/cbe90/Linearity-bounds-for-APN-functions/blob/d470936098c6cb9671da7eae0dacd1871eeba262/formalization.yaml",
+      "accessed": "2026-11-02"
     }
   ],
   "3173": [
@@ -67086,6 +67098,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4203",
+      "title": "White runs beside two periodic columns of rule 30 are at most two periods long — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-8131b1",
+      "accessed": "2026-11-02"
     }
   ],
   "4204": [
@@ -67100,6 +67118,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4204",
+      "title": "The 101 shift law for the right diagonals of rule 30, with its mod-4 forms — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-7d47a9",
+      "accessed": "2026-11-02"
     }
   ],
   "4205": [
@@ -67114,6 +67138,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4205",
+      "title": "The universal start of the right diagonals of rule 30 — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-3ca86f",
+      "accessed": "2026-11-02"
     }
   ],
   "4206": [
@@ -67128,6 +67158,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4206",
+      "title": "Light-speed periodic rings of rule 30 as closed walks of periodic profiles — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a96cee",
+      "accessed": "2026-11-02"
     }
   ],
   "4207": [
@@ -67184,6 +67220,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4210",
+      "title": "Q001 up to Width 37, and the Words 0^(P-1)1 of Rule 30 — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261022-0cac94",
+      "accessed": "2026-11-02"
     }
   ],
   "4211": [
@@ -67408,6 +67450,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4226",
+      "title": "A three-fifths bound on black runs in the rule 30 center column — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261025-0554f7",
+      "accessed": "2026-11-02"
     }
   ],
   "4227": [
@@ -67450,6 +67498,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4229",
+      "title": "Least Period 4 of Rule 30: a Weaker Sufficient Condition, and Why the Left Half Must Be Finite — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-c137e0",
+      "accessed": "2026-11-02"
     }
   ],
   "4230": [
@@ -67464,6 +67518,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4230",
+      "title": "Rule 30, Period 2: a Closed Trap for the Right Half Driven from the Empty Row — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-230bc7",
+      "accessed": "2026-11-02"
     }
   ],
   "4231": [
@@ -67478,6 +67538,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4231",
+      "title": "Rule 30: Self-Shielded Black Runs, Sharper White-Run Bounds, and Q01 as an Integer Iteration — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261027-317c64",
+      "accessed": "2026-11-02"
     }
   ],
   "4232": [
@@ -67520,6 +67586,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4234",
+      "title": "Excluded column words of length 11 to 16, beyond the kit's table — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-5e2b66",
+      "accessed": "2026-11-02"
     }
   ],
   "4235": [
@@ -67534,6 +67606,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4235",
+      "title": "Excluded column words of length 17 and 18, beyond the kit's table — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-f7ace9",
+      "accessed": "2026-11-02"
     }
   ],
   "4236": [
@@ -67548,6 +67626,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4236",
+      "title": "Periodic temporal profiles of rule 30: pulse holes, source weights and rooted returns — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a94f21",
+      "accessed": "2026-11-02"
     }
   ],
   "4237": [
@@ -67576,6 +67660,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4238",
+      "title": "Finite-support exclusions for eventually simple traces in Rule 30 — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-99db76",
+      "accessed": "2026-11-02"
     }
   ],
   "4239": [
@@ -67590,6 +67680,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4239",
+      "title": "A period-free finite-defect elimination for Rule 30 — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-23ac1b",
+      "accessed": "2026-11-02"
     }
   ],
   "4240": [
@@ -67618,6 +67714,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4241",
+      "title": "Constructive Backward Operators, the Period-3 NOR Wave Trichotomy, and Projective Orbit Laws for Zero-Boundary Stripe Primitive Roots — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261029-a4691a",
+      "accessed": "2026-11-02"
     }
   ],
   "4242": [
@@ -67632,6 +67734,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4242",
+      "title": "An All-Time Forbidden Return-Gap Pattern in the Alternating-Driven Rule 30 Right Orbit — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261030-60990f",
+      "accessed": "2026-11-02"
     }
   ],
   "4243": [
@@ -67646,6 +67754,12 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    },
+    {
+      "key": "Daily20261102_4243",
+      "title": "The Universal Backward Wave Cascade, Clone-Ray Disjointness, and 16-Ray All-Length Mortality for Zero-Boundary Stripe Prefixes — primary platform status update",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261030-5beddc",
+      "accessed": "2026-11-02"
     }
   ],
   "4244": [
@@ -67660,6 +67774,1152 @@
       "title": "Primary publication and scope evidence",
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
+    }
+  ],
+  "4245": [
+    {
+      "key": "Daily20261102_4245",
+      "title": "The Generalized Lax Conjecture for Strictly Hyperbolic Polynomials — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2609.24542v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4245_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2609.24542v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4246": [
+    {
+      "key": "Daily20261102_4246",
+      "title": "Failure of direct finiteness for group algebras in every odd characteristic — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.22536v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4246_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.22536v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4247": [
+    {
+      "key": "Daily20261102_4247",
+      "title": "Optimization of the second Robin eigenvalue on a planar exterior domain under fixed area constraint — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.34320v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4247_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.34320v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4248": [
+    {
+      "key": "Daily20261102_4248",
+      "title": "Sheaves on nodal singularities I — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.34676v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4248_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.34676v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4249": [
+    {
+      "key": "Daily20261102_4249",
+      "title": "Proofs of strong forms of the Bovdi--Geche universality conjecture and a complex analogue — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.35645v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4249_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.35645v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4250": [
+    {
+      "key": "Daily20261102_4250",
+      "title": "A Stochastic LineseArch Method (SLAM) for Minimizing Expectation Residuals: Weakening Boundedness of Gradient — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.37947v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4250_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.37947v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4251": [
+    {
+      "key": "Daily20261102_4251",
+      "title": "Special cycles and Picard groups of Baily--Borel compactifications — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38187v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4251_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38187v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4252": [
+    {
+      "key": "Daily20261102_4252",
+      "title": "Determination of weight enumerators of binary extremal self-dual codes of length 60 — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38323v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4252_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38323v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4253": [
+    {
+      "key": "Daily20261102_4253",
+      "title": "Crescent configurations in three dimensions — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38368v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4253_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38368v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4254": [
+    {
+      "key": "Daily20261102_4254",
+      "title": "A logarithmic error term for subset sums of zero-sum-free sets — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38373v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4254_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00599v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4255": [
+    {
+      "key": "Daily20261102_4255",
+      "title": "Backward Pseudolocality of $G_2$-Laplacian Flow — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38418v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4255_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38418v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4256": [
+    {
+      "key": "Daily20261102_4256",
+      "title": "Davenport constants with growing binary rank — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38447v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4256_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38447v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4257": [
+    {
+      "key": "Daily20261102_4257",
+      "title": "Order Maintenance in Worst-Case Constant Time, Verified — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38616v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4257_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38616v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4258": [
+    {
+      "key": "Daily20261102_4258",
+      "title": "Transverse rational curves and the homogeneity of contact Fano manifolds — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38736v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4258_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38736v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4259": [
+    {
+      "key": "Daily20261102_4259",
+      "title": "Sharp dimension bounds for right-angled hyperbolic polytopes — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.38900v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4259_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.38900v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4260": [
+    {
+      "key": "Daily20261102_4260",
+      "title": "Pre-modular fusion categories of global dimension $2p$ — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39318v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4260_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39318v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4261": [
+    {
+      "key": "Daily20261102_4261",
+      "title": "Meromorphic order from Taylor coefficients, least singular values of Hankel matrices and rational approximants — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39453v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4261_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39453v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4262": [
+    {
+      "key": "Daily20261102_4262",
+      "title": "The maximum number of triangles in regular graphs — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39461v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4262_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39461v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4263": [
+    {
+      "key": "Daily20261102_4263",
+      "title": "Guaranteed indirect delivery in directed networks: The joint extremal function and explicit attaining constructions — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39469v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4263_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39469v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4264": [
+    {
+      "key": "Daily20261102_4264",
+      "title": "On the Tur\\'an Number of the Cartesian Product of Two Stars — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39486v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4264_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39486v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4265": [
+    {
+      "key": "Daily20261102_4265",
+      "title": "The M\\'ezard-Parisi formula — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39545v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4265_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39545v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4266": [
+    {
+      "key": "Daily20261102_4266",
+      "title": "The number of $C_4$-free graphs — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39595v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4266_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39595v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4267": [
+    {
+      "key": "Daily20261102_4267",
+      "title": "Solutions to several problems on infinite sumset configurations — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39637v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4267_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39637v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4268": [
+    {
+      "key": "Daily20261102_4268",
+      "title": "Optimal AFEM convergence for any bulk parameter smaller than one — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39719v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4268_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39719v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4269": [
+    {
+      "key": "Daily20261102_4269",
+      "title": "Optimal self-orthogonal binary linear codes — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.39870v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4269_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.39870v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4270": [
+    {
+      "key": "Daily20261102_4270",
+      "title": "The Torelli Group and Euler Class Zero $\\mathrm{PSL}(2,\\mathbb{R})$ Representations — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40040v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4270_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40040v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4271": [
+    {
+      "key": "Daily20261102_4271",
+      "title": "A lifted entropy splitting lemma and applications — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40145v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4271_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40145v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4272": [
+    {
+      "key": "Daily20261102_4272",
+      "title": "Three-dimensional QCA that are not stably circuits — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40235v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4272_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40235v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4273": [
+    {
+      "key": "Daily20261102_4273",
+      "title": "Division and noetherianity in quasianalytic Denjoy-Carleman classes — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40265v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4273_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40265v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4274": [
+    {
+      "key": "Daily20261102_4274",
+      "title": "Thin ends and topological spanning trees — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40458v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4274_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40458v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4275": [
+    {
+      "key": "Daily20261102_4275",
+      "title": "The velocity is deterministic in random walk in 2-valued i.i.d. random environment — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40464v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4275_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40464v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4276": [
+    {
+      "key": "Daily20261102_4276",
+      "title": "Classical communication over quantum channels: does entanglement help in nature? — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40585v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4276_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40585v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4277": [
+    {
+      "key": "Daily20261102_4277",
+      "title": "On Zeros and Algorithms for Disordered Systems II: The Antiferromagnetic Ising Model up to Kesten-Stigum — dated primary statement and disclosure",
+      "url": "https://arxiv.org/abs/2610.40598v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4277_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://arxiv.org/html/2610.40598v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4278": [
+    {
+      "key": "Daily20261102_4278",
+      "title": "Near-Null Limits and Contact Distributions for Maxwell Composite Operators — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00642v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4278_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00642v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4279": [
+    {
+      "key": "Daily20261102_4279",
+      "title": "Computing Jacobsthal’s Function on Primorials: Exact Values and Constructive Bounds — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00660v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4279_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00660v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4280": [
+    {
+      "key": "Daily20261102_4280",
+      "title": "A two-sided criterion for the Riemann hypothesis from weighted prime sums, verified up to 2·10^29 — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00661v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4280_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00661v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4281": [
+    {
+      "key": "Daily20261102_4281",
+      "title": "Maximal Independent Sets in Long Graph Subdivisions — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00663v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4281_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00663v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4282": [
+    {
+      "key": "Daily20261102_4282",
+      "title": "A Linear In Rank Bound For Integral Arithmetic Progressions On Elliptic Curves — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00665v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4282_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00665v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4283": [
+    {
+      "key": "Daily20261102_4283",
+      "title": "First-order phase transition in Onsager's model of hard rods in $\\mathbb R^3$ — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00667v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4283_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00667v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4284": [
+    {
+      "key": "Daily20261102_4284",
+      "title": "Counterexamples to log-concavity of cluster monomials and theta structure constants — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00668v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4284_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00668v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4285": [
+    {
+      "key": "Daily20261102_4285",
+      "title": "The covering number C(13,7,4) is 30: A classification-assisted exact proof — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00669v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4285_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00669v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4286": [
+    {
+      "key": "Daily20261102_4286",
+      "title": "Nonunimodal Laurent coefficients of cluster monomials — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00670v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4286_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00670v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4287": [
+    {
+      "key": "Daily20261102_4287",
+      "title": "Improved basis-change transformations for $2 \\times 2$ matrix multiplication — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00671v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4287_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00671v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4288": [
+    {
+      "key": "Daily20261102_4288",
+      "title": "Small-index subsequences in finite cyclic groups — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00673v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4288_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00673v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4289": [
+    {
+      "key": "Daily20261102_4289",
+      "title": "Finite Alphabet Communication with Noisy Forward Memory in a Normalized Loop — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00674v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4289_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00674v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4290": [
+    {
+      "key": "Daily20261102_4290",
+      "title": "Smallest Gaps between Eigenvalues of Wigner Matrices without Smoothness Assumptions — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00675v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4290_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00675v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4291": [
+    {
+      "key": "Daily20261102_4291",
+      "title": "Local independent sets and colourings of triangle-free graphs — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00677v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4291_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00677v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4292": [
+    {
+      "key": "Daily20261102_4292",
+      "title": "Closed three-manifolds as hypersurfaces of Euclidean fourspace: compactness, the homogeneous geometries, and total absolute curvature — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00680v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4292_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00680v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4293": [
+    {
+      "key": "Daily20261102_4293",
+      "title": "Arithmetic Expression Spaces: Expansion and Motion, Eikonal Equation, Horocycle Pullbacks, Commutativization, Contact Structure, and Tearing — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00682v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4293_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00682v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4294": [
+    {
+      "key": "Daily20261102_4294",
+      "title": "Uniformizability of elementary Anderson $t$-motives of dimension $2$ — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00686v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4294_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00686v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4295": [
+    {
+      "key": "Daily20261102_4295",
+      "title": "Isometric embeddings of parallelizable and stably parallelizable Riemannian manifolds — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00690v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4295_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00690v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4296": [
+    {
+      "key": "Daily20261102_4296",
+      "title": "An exact computer-assisted certificate for R(5,6)≤84 — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00693v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4296_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00693v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4297": [
+    {
+      "key": "Daily20261102_4297",
+      "title": "Fourier granularity and block sensitivity in the relevant-variable recurrence — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00694v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4297_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00694v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4298": [
+    {
+      "key": "Daily20261102_4298",
+      "title": "A trace upper-bound certificate with complex-root auxiliaries — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00695v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4298_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00695v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4299": [
+    {
+      "key": "Daily20261102_4299",
+      "title": "A contact and coefficient correction for Korenblum's constant — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00696v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4299_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00696v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4300": [
+    {
+      "key": "Daily20261102_4300",
+      "title": "Deterministic Polynomial-Time Primality Testing with a Single Binomial Congruence — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00697v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4300_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00697v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4301": [
+    {
+      "key": "Daily20261102_4301",
+      "title": "Cyclic reductions of elliptic curves at a positive proportion of primes — dated primary statement and disclosure",
+      "url": "https://hexagonmath.org/abs/2610.00699v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4301_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://hexagonmath.org/abs/2610.00699v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4302": [
+    {
+      "key": "Daily20261102_4302",
+      "title": "Light 3-stars in plane graphs of minimum face size five (Madaras) — dated primary statement and disclosure",
+      "url": "https://github.com/jtraverso/madaras-light-stars/blob/053a5caff546c2f700025081e5d3e0b7bf873f62/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4302_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000033-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4303": [
+    {
+      "key": "Daily20261102_4303",
+      "title": "Maximality of the Došen–Petrić Boolean Category — dated primary statement and disclosure",
+      "url": "https://github.com/flengyel/Dosen-Petric-Maximality/blob/5dbee39bea09539bd130f729e82636419f71f920/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4303_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000014-v2.json",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4303_first",
+      "title": "First dated public registration, before November1 v13 packaging",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-10-30-000014-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4304": [
+    {
+      "key": "Daily20261102_4304",
+      "title": "Two application notes of the Erdős #81 series: realizability transfer and exact chordal stability — dated primary statement and disclosure",
+      "url": "https://github.com/jtraverso/erdos81-series-notes/blob/01be11e33fc4f416d5ef5df4d71aec936bc48023/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4304_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000022-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4305": [
+    {
+      "key": "Daily20261102_4305",
+      "title": "Colorability and realizability defects in resource-dominated packing relaxations — dated primary statement and disclosure",
+      "url": "https://github.com/jtraverso/erdos81-colorability-realizability-defects/blob/0c2f7dff52e5c578f39191c4905dd12248e7bb9a/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4305_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000020-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4306": [
+    {
+      "key": "Daily20261102_4306",
+      "title": "The ten minimum universal sets of MacMahon cubes — dated primary statement and disclosure",
+      "url": "https://github.com/jasondavies/macmahon-min-universal-sets/blob/d8856c97e43e6fa66383c81b8ac4f5bd1c285bc8/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4306_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000019-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4307": [
+    {
+      "key": "Daily20261102_4307",
+      "title": "Fluctuation bounds for first-passage percolation — dated primary statement and disclosure",
+      "url": "https://github.com/nitromannitol/FPP-variance/blob/cfe58d1d241d86bd831c2e1b3c61273200fb780b/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4307_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000017-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4308": [
+    {
+      "key": "Daily20261102_4308",
+      "title": "Superfluid stiffness and nonclassical rotational inertia of the dilute hard-sphere Bose gas — dated primary statement and disclosure",
+      "url": "https://github.com/pmaronow/superfluidity-palomar/blob/5baea1d13edcb17ec0d7746c8c7ad23ae7ddcd35/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4308_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000016-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4309": [
+    {
+      "key": "Daily20261102_4309",
+      "title": "A formal proof of an affine reverse Faber-Krahn inequality — dated primary statement and disclosure",
+      "url": "https://github.com/MColbrook/Affine-reverse-Faber-Krahn-problem/blob/8da3a495c1e4ca178ae216c01ae44826fbe1a7cc/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4309_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000009-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4310": [
+    {
+      "key": "Daily20261102_4310",
+      "title": "The orthogonal art gallery problem is ∃ℝ-complete (point-point and point-boundary), in Lean 4 — dated primary statement and disclosure",
+      "url": "https://github.com/RBarish-UTokyo/OrthogonalArtGalleryProblem-ExistsR-Lean4/blob/88aa383397d3c8a896ba127307a6073cf9765f2b/formalization.yaml",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4310_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://data.palomar-registry.org/entries/PALOMAR-2026-11-01-000004-v1.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4311": [
+    {
+      "key": "Daily20261102_4311",
+      "title": "Half-rate prefix clocks for every two-input gate — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261030-7b0d12",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4311_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261031-9861e5",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4312": [
+    {
+      "key": "Daily20261102_4312",
+      "title": "Head-Cone Locality, 2-Adic Transient Elimination, and Unconditional Step Lower Bounds for Prize Problem 3 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261031-b58e66",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4312_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261031-781b70",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4313": [
+    {
+      "key": "Daily20261102_4313",
+      "title": "The longest ether-pair episode behind a black right edge of rule 30 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261031-7c1f96",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4313_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4314": [
+    {
+      "key": "Daily20261102_4314",
+      "title": "Right-Head Horizon (ScansBelow), Input-Scan Span (RightSpan), and Canonical-Root Time-Space Collapse for Prize Problem 3 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-18ba2f",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4314_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-18ba2f",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4315": [
+    {
+      "key": "Daily20261102_4315",
+      "title": "Left-Diagonal Anti-Periodicity and Unbounded Asymptotic Density-1/2 Diagonals for Prize Problem 2 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-5da074",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4315_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-5da074",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4316": [
+    {
+      "key": "Daily20261102_4316",
+      "title": "Universal 010-Synchronizing Complement Waves, 2-Step Period-Doubling, and Mod-3 Shift-Template Laws in Rule30ZeroBoundaryStripeCascade — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-f0127e",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4316_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-f0127e",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4317": [
+    {
+      "key": "Daily20261102_4317",
+      "title": "Two-Diagonal Period Descent, the 9-Diagonal White-Reset Neighborhood, Sharp White-Gap 5 Bounds, and Right-Diagonal Density 1/2 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-0f0c09",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4317_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-0f0c09",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4318": [
+    {
+      "key": "Daily20261102_4318",
+      "title": "The 3-Level Backward Transducer State-Collapse Hierarchy: 010 Causal Firewalls, 00 Period-Doubling, and Universal 6L Period Bounds — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-c6ff55",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4318_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-c6ff55",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4319": [
+    {
+      "key": "Daily20261102_4319",
+      "title": "Finite-Vessel Tape Invariance, Box-Repeat Periodicity, and Non-Halting Propagation on Dyadic Rays — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-c646f6",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4319_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-c646f6",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4320": [
+    {
+      "key": "Daily20261102_4320",
+      "title": "Antiperiodic Spin-Momentum Annihilation, Block-Energy Vanishing, and Diagonal Energy Bridges for Prize Problem 2 — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-a2fefb",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4320_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261101-a2fefb",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4321": [
+    {
+      "key": "Daily20261102_4321",
+      "title": "Left-Prefix Causality, 1-Step Memory Erasure, and Left-Front / Right-Terminal Causal Cone Collision in Rule30SurvivalBridge — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261102-715db1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4321_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261102-715db1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4322": [
+    {
+      "key": "Daily20261102_4322",
+      "title": "Exact Conjugacy Between Rule30SurvivalBridge Frontier Scans and Rule 30 Left Diagonals — dated primary statement and disclosure",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261102-121ada",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4322_support",
+      "title": "Primary scope/version evidence",
+      "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/status/R30-20261102-121ada",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4323": [
+    {
+      "key": "Daily20261102_4323",
+      "title": "A proof of the Murty–Simon conjecture on diameter-2-critical graphs",
+      "url": "https://arxiv.org/html/2610.39032v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4323_support",
+      "title": "First public arXiv version",
+      "url": "https://arxiv.org/abs/2610.39032v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4323_formal",
+      "title": "November1 scoped formalization of the same result",
+      "url": "https://github.com/jtraverso/murty-simon-conjecture/blob/adadd2fbd0ba9e9c71faadd105f357f7b12a814f/formalization.yaml",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4324": [
+    {
+      "key": "Daily20261102_4324",
+      "title": "A counterexample to the pure semisimplicity conjecture",
+      "url": "https://arxiv.org/html/2610.39883v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4324_support",
+      "title": "Dated primary first public version",
+      "url": "https://arxiv.org/abs/2610.39883v1",
+      "accessed": "2026-11-02"
+    }
+  ],
+  "4325": [
+    {
+      "key": "Daily20261102_4325",
+      "title": "Constructive dense-model proof from small fingerprints",
+      "url": "https://arxiv.org/html/2610.39176v1",
+      "accessed": "2026-11-02"
+    },
+    {
+      "key": "Daily20261102_4325_support",
+      "title": "Dated first public paper version",
+      "url": "https://arxiv.org/abs/2610.39176v1",
+      "accessed": "2026-11-02"
     }
   ]
 }
