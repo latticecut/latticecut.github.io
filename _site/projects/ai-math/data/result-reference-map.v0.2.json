@@ -67682,5 +67682,19 @@
       "url": "https://www.wolframcloud.com/obj/rule-30-prize/Agents/submissions.json",
       "accessed": "2026-10-30"
     }
+  ],
+  "4326": [
+    {
+      "key": "AlpogeClaudeRH20261120",
+      "title": "Alpöge–Claude proposed proof of the Riemann Hypothesis and Generalized Riemann Hypothesis — primary announcement",
+      "url": "https://alpo.ge/remark.pdf",
+      "accessed": "2026-11-20"
+    },
+    {
+      "key": "AlpogeAuthorProfile",
+      "title": "Levent Alpöge — primary author identity",
+      "url": "https://alpo.ge/",
+      "accessed": "2026-11-20"
+    }
   ]
 }
