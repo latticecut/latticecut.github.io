@@ -67019,5 +67019,37 @@
     "artifactsExecuted": false,
     "correctionSetId": "reviewed-source-corrections-2026-10-30",
     "correctionSetSha256": "0b960911dbe3e1ec8ffe49f404d18e49cbdbe28731577193f4854735ffbe06f6"
+  },
+  {
+    "id": "2026-11-20-riemann-claim",
+    "changes": ["4326: Add the Alpöge–Claude proposed RH/GRH proof package with provisional status and explicit independent-verification limitations; Extended RH is not recorded as proved."],
+    "recordedAt": "2026-11-20",
+    "refreshedThrough": "2026-11-20",
+    "runDateEuropeLondon": "2026-11-20",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4255,
+    "claimCount": 4257,
+    "evidenceCutoff": "2026-11-20",
+    "model": null,
+    "modelStatus": "Runtime model identifier not surfaced",
+    "summary": "One provisional author-announced RH/GRH proof package with material Claude contribution; no independent proof verification.",
+    "coverageNote": "User-requested targeted update, not a systematic daily coverage advance. Preserve August20 continuous cutoff and all earlier history. November2 pending release is separate;4326 avoids its reserved IDs.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "4326"
+    ],
+    "existingRecordChanges": [],
+    "provisionalIds": [
+      "4326"
+    ],
+    "recordDecisions": [
+      {
+        "id": "4326",
+        "disposition": "include_flagged",
+        "primary": "https://alpo.ge/remark.pdf",
+        "reason": "Further checking: independently reconstruct and replay the fourteen-part Lean archive; inspect the exact RH/GRH theorem statements, all dependencies and axioms, and correspondence with the intended mathematical claims. A readable complete proof and independent specialist verification have not been established here. The author reports assumption-free formalization; this project has not verified that assertion or executed any downloaded artifact. Do not describe RH or GRH as accepted or independently verified, and do not include Extended RH as proved."
+      }
+    ],
+    "artifactsExecuted": false
   }
 ]

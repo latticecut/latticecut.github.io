@@ -230918,5 +230918,51 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-20",
+    "snapshotHash": "8fbd2f4a27dbdbf7b61066e8a344cd2ab930f35e1690407c01c55da9daa13d67",
+    "changes": [
+      {
+        "id": "4326",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "c079ec56ef2d1d68c30df151caac8dc7e0f1b659cd494ab4c78cd69b01909e34",
+            "assessedAt": "2026-11-20",
+            "evidenceSummary": "Primary author announcement credits shared proof discovery and formalization; independent correctness not established."
+          },
+          "rationale": "The announced package targets full RH and GRH, exact long-standing open targets rather than a zero-free-region improvement. This is historical-task classification confidence, not proof acceptance.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-announcement human frontier on RH, formulated1859, and GRH.",
+          "sourceHash": "c079ec56ef2d1d68c30df151caac8dc7e0f1b659cd494ab4c78cd69b01909e34",
+          "assessedAt": "2026-11-20",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
   }
 ]
