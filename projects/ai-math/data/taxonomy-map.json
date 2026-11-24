@@ -48,14 +48,14 @@
     "multiClaimSourceCount": 2,
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
-    "sourceCorpusRefreshedThrough": "2026-11-20",
-    "sourceCoverageNote": "User-requested targeted update, not a systematic daily coverage advance. Preserve August20 continuous cutoff and all earlier history. November2 pending release is separate;4326 avoids its reserved IDs.",
+    "sourceCorpusRefreshedThrough": "2026-11-24",
+    "sourceCoverageNote": "Rolling window 2026-11-18 through 2026-11-24. Mandatory source interfaces and recent metadata retrieved; exhaustive full-text screening and historical reconciliation since 2026-08-20 remain incomplete. No continuous cutoff advance.",
     "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-30",
     "reviewedCorrectionCount": 176,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "70ea565cc568441b3012c47a97c26c739dfc1d345ae5c8dfe71364738fbb267c",
-      "referenceMapSha256": "0c093ed5564216486f5114b3b509cb6ca42f3611713e14d0403d293ff8f0d8ac",
-      "analysisLogSha256": "da83eca70eecf3d5e92dd5eee95cb92610012a3464878969507ada848c0857d6"
+      "scoredLedgerSha256": "073974b3109c690547b9c8e6502ebbcd8c8cecafaeace1b758b200387abbe3b4",
+      "referenceMapSha256": "2bafc4f756c54baab4814b48c5a3adbe0890fffb4e376136c61fc1994b229c10",
+      "analysisLogSha256": "818c4c655e861dcd53e77e99bb261d61998103fc8ce3f44f1afb3858dc7698fd"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -1309810,7 +1309810,7 @@
     "recordType": "result",
     "resultId": "result-4326",
     "sourceIncludedId": "4326",
-    "claim": "Alpöge announces a proposed proof of RH and GRH developed with Claude; Extended RH is an expectation for future work, not a claimed completed result.",
+    "claim": "RH and GRH for all Dirichlet characters, with independently reported formal verification and statement matching.",
     "sources": [
       {
         "sourceId": "AlpogeClaudeRH20261120",
@@ -1309829,6 +1309829,24 @@
         "url": "https://alpo.ge/",
         "accessed": "2026-11-20",
         "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "LeanCommunityRH20261121",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Lean FRO and Mathlib Initiative: Lean verification of the Riemann Hypothesis (21 November 2026)",
+        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "accessed": "2026-11-24",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "SutherlandRHVerification20261124",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Andrew Sutherland: RH Lean proof verification files (updated 24 November 2026)",
+        "url": "https://math.mit.edu/~drew/grh/",
+        "accessed": "2026-11-24",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -1309837,7 +1309855,9 @@
         "rationale": "The supplied MSC path (11) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
         "evidenceSourceIds": [
           "AlpogeClaudeRH20261120",
-          "AlpogeAuthorProfile"
+          "AlpogeAuthorProfile",
+          "LeanCommunityRH20261121",
+          "SutherlandRHVerification20261124"
         ],
         "confidence": "unknown"
       },
@@ -1309845,21 +1309865,25 @@
         "r1ContributionFamily": {
           "status": "coded",
           "conceptId": "R1-MATHEMATICAL-RESULT",
-          "rationale": "This record contributes a mathematical result whose canonical claim is: Alpöge announces a proposed proof of RH and GRH developed with Claude; Extended RH is an expectation for future work, not a claimed completed result.",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: RH and GRH for all Dirichlet characters, with independently reported formal verification and statement matching.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "low"
         },
         "r2Outcome": {
           "status": "coded",
           "polarity": "settled_yes",
-          "completeness": "partial",
-          "rationale": "The bounded theorem or construction is established affirmatively as material partial progress. Alpöge announces a proposed proof of RH and GRH developed with Claude; Extended RH is an expectation for future work, not a claimed completed result.",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. Complete RH and Dirichlet L-function GRH proof package; no claim of completed Extended RH.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "low"
         },
@@ -1309867,10 +1309891,12 @@
           "status": "coded",
           "primaryConceptId": "R3-DIRECT-PROOF",
           "additionalConceptIds": [],
-          "rationale": "The material argument forms are supported as follows: Alpöge announces a proposed proof of RH and GRH developed with Claude; Extended RH is an expectation for future work, not a claimed completed result.",
+          "rationale": "The material argument forms are supported as follows: Complete RH and Dirichlet L-function GRH proof package; no claim of completed Extended RH.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "low"
         },
@@ -1309879,7 +1309905,9 @@
           "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "unknown"
         }
@@ -1309890,7 +1309918,9 @@
           "rationale": "The primary announcement directly credits joint mathematical work with Claude, including the theta-lift chain-length idea and substantial proof development; exact Claude model version is not surfaced.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "unknown"
         },
@@ -1309902,17 +1309932,23 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "AlpogeClaudeRH20261120",
-              "AlpogeAuthorProfile"
+              "AlpogeAuthorProfile",
+              "LeanCommunityRH20261121",
+              "SutherlandRHVerification20261124"
             ]
           },
           {
             "stage": "checking",
             "humanOperations": "not_reported",
-            "machineOperations": "not_reported",
-            "reconstructible": false,
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
             "evidenceSourceIds": [
               "AlpogeClaudeRH20261120",
-              "AlpogeAuthorProfile"
+              "AlpogeAuthorProfile",
+              "LeanCommunityRH20261121",
+              "SutherlandRHVerification20261124"
             ]
           },
           {
@@ -1309922,7 +1309958,9 @@
             "reconstructible": false,
             "evidenceSourceIds": [
               "AlpogeClaudeRH20261120",
-              "AlpogeAuthorProfile"
+              "AlpogeAuthorProfile",
+              "LeanCommunityRH20261121",
+              "SutherlandRHVerification20261124"
             ]
           }
         ],
@@ -1309932,7 +1309970,9 @@
           "rationale": "The primary announcement directly credits joint mathematical work with Claude, including the theta-lift chain-length idea and substantial proof development; exact Claude model version is not surfaced.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "low"
         },
@@ -1309941,7 +1309981,9 @@
           "rationale": "The source material does not support a stable architecture-family assignment.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "unknown"
         },
@@ -1309950,27 +1309992,83 @@
           "rationale": "No controlled P4 feature is established by the Minimal source pack.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ],
           "confidence": "unknown"
         }
       }
     },
     "verification": {
-      "status": "unknown",
-      "events": [],
-      "replayedHere": false,
-      "rationale": "Further checking: independently reconstruct and replay the fourteen-part Lean archive; inspect the exact RH/GRH theorem statements, all dependencies and axioms, and correspondence with the intended mathematical claims. A readable complete proof and independent specialist verification have not been established here. The author reports assumption-free formalization; this project has not verified that assertion or executed any downloaded artifact. Do not describe RH or GRH as accepted or independently verified, and do not include Extended RH as proved."
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-4326-rh-statement",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-STATEMENT-CORRESPONDENCE-REVIEW",
+          "target": "Mathlib RH statement and correspondence",
+          "verifier": "Lean FRO and Mathlib Initiative",
+          "independence": "independent_party",
+          "scope": "formal_statement",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "equivalent",
+            "rationale": "Correspondence to the scoped Mathlib challenge statements reported by the cited source.",
+            "evidenceSourceIds": [
+              "LeanCommunityRH20261121"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-11-21",
+          "assumptions": [
+            "Standard Lean axioms: propext, Classical.choice, Quot.sound; checker and foundational assumptions."
+          ],
+          "evidenceSourceIds": [
+            "LeanCommunityRH20261121"
+          ],
+          "notes": "Source-reported independent check; not executed by this project."
+        },
+        {
+          "eventId": "verification-4326-rh-grh-kernel",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "Five RH and Dirichlet L-function GRH targets",
+          "verifier": "Andrew Sutherland and independent checker implementations",
+          "independence": "independent_party",
+          "scope": "complete_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "equivalent",
+            "rationale": "Correspondence to the scoped Mathlib challenge statements reported by the cited source.",
+            "evidenceSourceIds": [
+              "SutherlandRHVerification20261124"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-11-23",
+          "assumptions": [
+            "Standard Lean axioms: propext, Classical.choice, Quot.sound; checker and foundational assumptions."
+          ],
+          "evidenceSourceIds": [
+            "SutherlandRHVerification20261124"
+          ],
+          "notes": "Source-reported independent check; not executed by this project."
+        }
+      ],
+      "replayedHere": false
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
-      "anchorClaim": "Alpöge announces a proposed proof of RH and GRH developed with Claude; Extended RH is an expectation for future work, not a claimed completed result.",
+      "anchorClaim": "RH and GRH for all Dirichlet characters, with independently reported formal verification and statement matching.",
       "significance": {
         "status": "not_reported",
         "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
         "evidenceSourceIds": [
           "AlpogeClaudeRH20261120",
-          "AlpogeAuthorProfile"
+          "AlpogeAuthorProfile",
+          "LeanCommunityRH20261121",
+          "SutherlandRHVerification20261124"
         ],
         "confidence": "unknown"
       },
@@ -1309981,7 +1310079,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         },
         "advance": {
@@ -1309990,7 +1310090,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         },
         "scope": {
@@ -1309999,7 +1310101,9 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         },
         "resistance": {
@@ -1310008,16 +1310112,20 @@
           "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         }
       },
       "framingDate": {
         "status": "not_reported",
-        "rationale": "Further checking: independently reconstruct and replay the fourteen-part Lean archive; inspect the exact RH/GRH theorem statements, all dependencies and axioms, and correspondence with the intended mathematical claims. A readable complete proof and independent specialist verification have not been established here. The author reports assumption-free formalization; this project has not verified that assertion or executed any downloaded artifact. Do not describe RH or GRH as accepted or independently verified, and do not include Extended RH as proved.",
+        "rationale": "First public announcement remains 2026-11-20; verification updates dated 2026-11-21 through 2026-11-24 do not create a second discovery.",
         "evidenceSourceIds": [
           "AlpogeClaudeRH20261120",
-          "AlpogeAuthorProfile"
+          "AlpogeAuthorProfile",
+          "LeanCommunityRH20261121",
+          "SutherlandRHVerification20261124"
         ]
       },
       "solutionDate": {
@@ -1310027,17 +1310135,21 @@
         "rationale": "The source ledger records the first solution report.",
         "evidenceSourceIds": [
           "AlpogeClaudeRH20261120",
-          "AlpogeAuthorProfile"
+          "AlpogeAuthorProfile",
+          "LeanCommunityRH20261121",
+          "SutherlandRHVerification20261124"
         ]
       },
-      "provisional": true,
+      "provisional": false,
       "superhumanEvidence": {
         "exactTargetCorrespondence": {
           "value": "unknown",
           "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         },
         "substantivePriorAttempts": {
@@ -1310045,7 +1310157,9 @@
           "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
           "evidenceSourceIds": [
             "AlpogeClaudeRH20261120",
-            "AlpogeAuthorProfile"
+            "AlpogeAuthorProfile",
+            "LeanCommunityRH20261121",
+            "SutherlandRHVerification20261124"
           ]
         }
       },
@@ -1310085,11 +1310199,11 @@
     "coding": {
       "coder": "Mathematics Progress v0.2 corpus coding",
       "assignmentDate": "2026-11-20",
-      "confidence": "low",
-      "rationale": "Primary RH/GRH announcement and AI attribution read; author-reported formalization is not independently verified here.",
+      "confidence": "medium",
+      "rationale": "Dated primary announcement and independent formal verification reports read; scope and axioms checked against the reports.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Further checking: independently reconstruct and replay the fourteen-part Lean archive; inspect the exact RH/GRH theorem statements, all dependencies and axioms, and correspondence with the intended mathematical claims. A readable complete proof and independent specialist verification have not been established here. The author reports assumption-free formalization; this project has not verified that assertion or executed any downloaded artifact. Do not describe RH or GRH as accepted or independently verified, and do not include Extended RH as proved."
+      "notes": "Rechecked 2026-11-24. The recorded independent-verification concern is resolved by the Lean FRO/Mathlib joint certification and Sutherland verification report. Scope is narrowed to RH and Dirichlet L-function GRH; no Extended RH or general Dedekind/Hecke/automorphic claim. Additional Comparator v4.36.0 end-to-end check remains running; completed independent checks already support this status. No downloaded artifact was executed here. Exact Claude model version remains not surfaced; shared material mathematical attribution is directly reported."
     }
   }
 }
