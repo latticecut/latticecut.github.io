@@ -1,37 +1,39 @@
 {
   "sourceCount": 4255,
   "latestRun": {
-    "id": "2026-11-20-riemann-claim",
+    "id": "2026-11-24-riemann-verification",
     "changes": [
-      "4326: Add the Alpöge–Claude proposed RH/GRH proof package with provisional status and explicit independent-verification limitations; Extended RH is not recorded as proved."
+      "4326: narrow GRH scope to Dirichlet L-functions, record independent formal verification and clear provisional flag."
     ],
-    "recordedAt": "2026-11-20",
-    "refreshedThrough": "2026-11-20",
-    "runDateEuropeLondon": "2026-11-20",
+    "recordedAt": "2026-11-24",
+    "refreshedThrough": "2026-11-24",
+    "runDateEuropeLondon": "2026-11-24",
     "collectionEnded": "2026-08-20",
     "entryCount": 4255,
     "claimCount": 4257,
-    "evidenceCutoff": "2026-11-20",
+    "evidenceCutoff": "2026-11-24",
     "model": null,
     "modelStatus": "Runtime model identifier not surfaced",
-    "summary": "One provisional author-announced RH/GRH proof package with material Claude contribution; no independent proof verification.",
-    "coverageNote": "User-requested targeted update, not a systematic daily coverage advance. Preserve August20 continuous cutoff and all earlier history. November2 pending release is separate;4326 avoids its reserved IDs.",
-    "includeConfirmed": [],
-    "includeFlagged": [
+    "summary": "Existing RH package independently verified in cited primary reports; Dirichlet GRH scope made explicit. No new discovery row.",
+    "coverageNote": "Rolling window 2026-11-18 through 2026-11-24. Mandatory source interfaces and recent metadata retrieved; exhaustive full-text screening and historical reconciliation since 2026-08-20 remain incomplete. No continuous cutoff advance.",
+    "includeConfirmed": [
       "4326"
     ],
-    "existingRecordChanges": [],
-    "provisionalIds": [
+    "includeFlagged": [],
+    "existingRecordChanges": [
       "4326"
     ],
+    "provisionalIds": [],
     "recordDecisions": [
       {
         "id": "4326",
-        "disposition": "include_flagged",
-        "primary": "https://alpo.ge/remark.pdf",
-        "reason": "Further checking: independently reconstruct and replay the fourteen-part Lean archive; inspect the exact RH/GRH theorem statements, all dependencies and axioms, and correspondence with the intended mathematical claims. A readable complete proof and independent specialist verification have not been established here. The author reports assumption-free formalization; this project has not verified that assertion or executed any downloaded artifact. Do not describe RH or GRH as accepted or independently verified, and do not include Extended RH as proved."
+        "disposition": "include_confirmed",
+        "primary": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "reason": "Rechecked 2026-11-24. The recorded independent-verification concern is resolved by the Lean FRO/Mathlib joint certification and Sutherland verification report. Scope is narrowed to RH and Dirichlet L-function GRH; no Extended RH or general Dedekind/Hecke/automorphic claim. Additional Comparator v4.36.0 end-to-end check remains running; completed independent checks already support this status. No downloaded artifact was executed here. Exact Claude model version remains not surfaced; shared material mathematical attribution is directly reported."
       }
     ],
+    "quarantinedCandidates": [],
+    "excludedCandidates": [],
     "artifactsExecuted": false
   },
   "description": "4255 source-included, AI-coded, unreviewed."

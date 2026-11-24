@@ -230964,5 +230964,165 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-24",
+    "snapshotHash": "30310016d4dc1f63c7d2c8ccb70974e4b434c45fe2d84adcb9aaca7e9a28aafd",
+    "changes": [
+      {
+        "id": "4326",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "c079ec56ef2d1d68c30df151caac8dc7e0f1b659cd494ab4c78cd69b01909e34",
+            "assessedAt": "2026-11-20",
+            "evidenceSummary": "Primary author announcement credits shared proof discovery and formalization; independent correctness not established."
+          },
+          "rationale": "The announced package targets full RH and GRH, exact long-standing open targets rather than a zero-free-region improvement. This is historical-task classification confidence, not proof acceptance.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-announcement human frontier on RH, formulated1859, and GRH.",
+          "sourceHash": "c079ec56ef2d1d68c30df151caac8dc7e0f1b659cd494ab4c78cd69b01909e34",
+          "assessedAt": "2026-11-20",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "5057945155a7feedd446c7ffc80498d3d18bfd728bff48fba7c0f0e48b9d26d7",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Primary author attribution supports material shared mathematical contribution; independent verification now reported separately. Exact Claude version not surfaced."
+          },
+          "rationale": "The source package settles the exact long-standing RH and Dirichlet L-function GRH targets, not merely a zero-free-region improvement. Historical-frontier confidence is high; independent verification is separately recorded from the Lean/Mathlib and MIT reports.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-20-November-2026 human frontier on RH (1859) and GRH for Dirichlet L-functions.",
+          "sourceHash": "5057945155a7feedd446c7ffc80498d3d18bfd728bff48fba7c0f0e48b9d26d7",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-24",
+    "snapshotHash": "440d31192f82be7a88b803f2ea9f4925da445721ce911a5bf382f1eaa78efe9b",
+    "changes": [
+      {
+        "id": "4326",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "5057945155a7feedd446c7ffc80498d3d18bfd728bff48fba7c0f0e48b9d26d7",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Primary author attribution supports material shared mathematical contribution; independent verification now reported separately. Exact Claude version not surfaced."
+          },
+          "rationale": "The source package settles the exact long-standing RH and Dirichlet L-function GRH targets, not merely a zero-free-region improvement. Historical-frontier confidence is high; independent verification is separately recorded from the Lean/Mathlib and MIT reports.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-20-November-2026 human frontier on RH (1859) and GRH for Dirichlet L-functions.",
+          "sourceHash": "5057945155a7feedd446c7ffc80498d3d18bfd728bff48fba7c0f0e48b9d26d7",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "04a592b2bb582474f42ec88a220ef204e8d06a6e8ac86277e45c9150c1be702a",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Primary author attribution supports material shared mathematical contribution; independent verification now reported separately. Exact Claude version not surfaced."
+          },
+          "rationale": "The source package settles the exact long-standing RH and Dirichlet L-function GRH targets, not merely a zero-free-region improvement. Historical-frontier confidence is high; independent verification is separately recorded from the Lean/Mathlib and MIT reports.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-20-November-2026 human frontier on RH (1859) and GRH for Dirichlet L-functions.",
+          "sourceHash": "04a592b2bb582474f42ec88a220ef204e8d06a6e8ac86277e45c9150c1be702a",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
   }
 ]

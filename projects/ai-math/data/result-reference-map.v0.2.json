@@ -67695,6 +67695,18 @@
       "title": "Levent Alpöge — primary author identity",
       "url": "https://alpo.ge/",
       "accessed": "2026-11-20"
+    },
+    {
+      "key": "LeanCommunityRH20261121",
+      "title": "Lean FRO and Mathlib Initiative: Lean verification of the Riemann Hypothesis (21 November 2026)",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "SutherlandRHVerification20261124",
+      "title": "Andrew Sutherland: RH Lean proof verification files (updated 24 November 2026)",
+      "url": "https://math.mit.edu/~drew/grh/",
+      "accessed": "2026-11-24"
     }
   ]
 }
