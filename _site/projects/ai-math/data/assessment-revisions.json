@@ -231124,5 +231124,526 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-24",
+    "snapshotHash": "a3db4bace16d807a27718a77a601243088e15de411cc2c9c80ae9f28af21f74d",
+    "changes": [
+      {
+        "id": "4327",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The primary Anthropic release directly attributes discovery to an internal research Claude model and both manuscript and Lean proof to AI models, rather than presentation help. This is source-reported allocation, not independently reconstructed autonomy.",
+            "evidenceSourceIds": [
+              "AnthropicVPVNPReadme20261123",
+              "AnthropicVPVNP20261123"
+            ],
+            "sourceHash": "1b328e19b136678c8ddcb79bc7a9b4cc40e8b0d873fabb1b38204ea040d37f6c",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Source-reported material AI discovery; no human mathematical proof review reported. Provisional correctness and formal correspondence concerns remain."
+          },
+          "rationale": "The paper claims complete separation of Valiant arithmetic classes over every field through explicit superpolynomial lower bounds, settling the exact longstanding 1979/1982 target rather than only improving a polynomial bound. High historical-target classification confidence is separate from the unresolved correctness and statement-correspondence review.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-23-November-2026 human frontier on VP versus VNP and unrestricted arithmetic-circuit lower bounds for the permanent and Hamiltonian cycle polynomial.",
+          "sourceHash": "1b328e19b136678c8ddcb79bc7a9b4cc40e8b0d873fabb1b38204ea040d37f6c",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The primary Anthropic release directly attributes discovery to an internal research Claude model and both manuscript and Lean proof to AI models, rather than presentation help. This is source-reported allocation, not independently reconstructed autonomy."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "First path commit918c8e2778aee18b0283dc5a33ed39ab3cd63a96 at2026-11-23T20:04:44Z in primary Anthropic repository.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-24",
+    "snapshotHash": "fe1f14a06de32b7ffb92a12d72615ba9bcb456945e973d18e67ba26444704e7d",
+    "changes": [
+      {
+        "id": "4328",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Matching a prior upper bound7 with a new finite invariant/exhaustion lower bound for two specified Fermat-character quotient classes is a substantial exact result. It does not settle the Hodge conjecture or the untreated degree51; a Difficult estimate with medium confidence fits that narrow scope.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Two exceptional Fermat Hodge classes have length exactly seven; compare only the stated restricted or bounded target.",
+          "sourceHash": "5fa55b51dd1e25a2ef64e7b3de6c7b3207f88f7b4eafae060b7b8d0c99f79cd4",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Joel Cruz Cabrera reports Claude Code (Claude Opus5.5) found the parity invariant and exhaustive check and wrote the Lean code under human direction. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4329",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source extends restricted equal-exponent exclusions to all odd primes through167, including cases identified as previously unresolved, while arbitrary odd perfect numbers remain outside scope. This is a substantive arithmetic/computational advance, not a full odd-perfect-number settlement; Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Odd perfect numbers with equal non-special exponents: prime cases through167; compare only the stated restricted or bounded target.",
+          "sourceHash": "55de6cffb725db8bb08929ddf8b974d0128f99b39b9870f0b878c9ddef72aa62",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Tyler B. Hughes attributes discovery and checking to AI research agents he built and directed; no human mathematical referee is reported. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4330",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed exact two-permutation classification covers every odd k via Lee-sphere rigidity, with only a factorial lower bound for even k. It is an unbounded combinatorial classification but not the full even-k exactness question; Difficult with medium confidence reflects the restricted historical comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Minimal k-prolific permutations for odd k: exact classification; compare only the stated restricted or bounded target.",
+          "sourceHash": "a693bbae1090161540df68b244c56fb2e5d81b84e224b374ef800efc605d1291",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Tyler B. Hughes attributes discovery and checking to directed AI research agents; no human mathematician has refereed the proof. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4331",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Primary metadata credits ChatGPT (Astra6.2, as reported) with finding the diagonal argument and Claude Opus5.5 with generalization, Lean and Agda formalizations and drafting under Peter Zhang direction.",
+            "evidenceSourceIds": [
+              "Daily20261124_4331_metadata"
+            ],
+            "sourceHash": "6e4645099fb5bd57b3bc3ddcc144dba3cdb1f4da2d619e1a49f80b3a5a78aa2d",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Primary metadata credits the diagonal idea to ChatGPT and its generalization to Claude under human direction; no human peer review reported."
+          },
+          "rationale": "The source claims a complete no-model resolution for the exact DEST axioms introduced in1998 and analyzed in2005. This is a historical-frontier judgment, not proof acceptance. Confidence is medium because fidelity of the parameter-quantifier reading and the first-order semantic bridge remain substantive scope questions.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report consistency question for Kisielewicz/Holmes weak double extension set theory.",
+          "sourceHash": "6e4645099fb5bd57b3bc3ddcc144dba3cdb1f4da2d619e1a49f80b3a5a78aa2d",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Primary metadata credits ChatGPT (Astra6.2, as reported) with finding the diagonal argument and Claude Opus5.5 with generalization, Lean and Agda formalizations and drafting under Peter Zhang direction."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-18",
+            "dateBasis": "First dated qualifying result commit; later primary revision and formal registry date kept distinct.",
+            "originalPublicationDate": "2026-11-18",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4332",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed approximation ratio concerns a specific three-occurrence Horn image class obtained from graph reductions. It does not cross the general MAX-CUT or all-instance Unique Games frontier; the constructive restricted-class result supports Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Paloma:83/84 approximation on a restricted three-occurrence Horn image class; compare only the stated restricted or bounded target.",
+          "sourceHash": "a85cb0eaf4354da1a69cf8d0a841036ae9f603efd3a2a4430814342749436d19",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The primary manuscript says Claude Sonnet5.5 assisted in deriving the proofs, writing the Lean formalization and preparing the manuscript; Frank Vega reviewed and edited the work. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-19",
+            "dateBasis": "First dated qualifying result commit; later primary revision and formal registry date kept distinct.",
+            "originalPublicationDate": "2026-11-19",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-25",
+    "snapshotHash": "183c1e1d11bd00cfd5ecf007cc1fdd14e41c8587dca03f5dd2a295a043136677",
+    "changes": [
+      {
+        "id": "4333",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The package claims a genuinely new elementary sieve/smooth-number proof of the full unbounded normalized almost-prime-gap statement. Its own primary account acknowledges a June2026 proof claim, so this is not a first-solution frontier crossing. Difficult with medium confidence reflects the reported new route while novelty and correctness remain provisional.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The previously claimed June2026 solution of Erdős1139, and partial-bound corpus package3590; compare the new elementary proof route rather than crediting a first solution.",
+          "sourceHash": "0731b0360500cae08251e13e6cc808ea2d28a2d9f73aba83df5a82b930bd7c2c",
+          "assessedAt": "2026-11-25",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-25",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First primary proof-path commit166ce4f4643779f058a9660c13e2b221af5e60a5; this is not the earlier original problem-solution date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-25",
+    "snapshotHash": "815becb2c561bc47d0a6d977c350ec5e1f787455edceeab220f755117aaa157b",
+    "changes": [
+      {
+        "id": "4333",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The package claims a genuinely new elementary sieve/smooth-number proof of the full unbounded normalized almost-prime-gap statement. Its own primary account acknowledges a June2026 proof claim, so this is not a first-solution frontier crossing. Difficult with medium confidence reflects the reported new route while novelty and correctness remain provisional.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The previously claimed June2026 solution of Erdős1139, and partial-bound corpus package3590; compare the new elementary proof route rather than crediting a first solution.",
+          "sourceHash": "0731b0360500cae08251e13e6cc808ea2d28a2d9f73aba83df5a82b930bd7c2c",
+          "assessedAt": "2026-11-25",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-25",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First primary proof-path commit166ce4f4643779f058a9660c13e2b221af5e60a5; this is not the earlier original problem-solution date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The package claims a genuinely new elementary sieve/smooth-number proof of the full unbounded normalized almost-prime-gap statement. Its own primary account acknowledges a June2026 proof claim, so this is not a first-solution frontier crossing. Difficult with medium confidence reflects the reported new route while novelty and correctness remain provisional.",
+          "alternatives": [
+            "Expected"
+          ],
+          "comparator": "The previously claimed June2026 solution of Erdős1139, and partial-bound corpus package3590; compare the new elementary proof route rather than crediting a first solution.",
+          "sourceHash": "0731b0360500cae08251e13e6cc808ea2d28a2d9f73aba83df5a82b930bd7c2c",
+          "assessedAt": "2026-11-25",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First primary proof-path commit166ce4f4643779f058a9660c13e2b221af5e60a5; this is not the earlier original problem-solution date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-25",
+    "snapshotHash": "be0c4d46fc3db578fae0e505512657bcfaa4f62c09ae9a619fbd7eeb4c66c226",
+    "changes": [
+      {
+        "id": "4328",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Matching a prior upper bound7 with a new finite invariant/exhaustion lower bound for two specified Fermat-character quotient classes is a substantial exact result. It does not settle the Hodge conjecture or the untreated degree51; a Difficult estimate with medium confidence fits that narrow scope.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Two exceptional Fermat Hodge classes have length exactly seven; compare only the stated restricted or bounded target.",
+          "sourceHash": "5fa55b51dd1e25a2ef64e7b3de6c7b3207f88f7b4eafae060b7b8d0c99f79cd4",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Joel Cruz Cabrera reports Claude Code (Claude Opus5.5) found the parity invariant and exhaustive check and wrote the Lean code under human direction. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "Matching a prior upper bound7 with a new finite invariant/exhaustion lower bound for two specified Fermat-character quotient classes is a substantial exact result. It does not settle the Hodge conjecture or the untreated degree51; a Difficult estimate with medium confidence fits that narrow scope.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Two exceptional Fermat Hodge classes have length exactly seven; compare only the stated restricted or bounded target.",
+          "sourceHash": "5fa55b51dd1e25a2ef64e7b3de6c7b3207f88f7b4eafae060b7b8d0c99f79cd4",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary metadata credits Claude Code with finding the parity invariant and exhaustive check and writing all Lean code, with the human directing the work. Preserve that reported substantive collaboration separately from conservative strict generation-stage coding."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4329",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source extends restricted equal-exponent exclusions to all odd primes through167, including cases identified as previously unresolved, while arbitrary odd perfect numbers remain outside scope. This is a substantive arithmetic/computational advance, not a full odd-perfect-number settlement; Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Odd perfect numbers with equal non-special exponents: prime cases through167; compare only the stated restricted or bounded target.",
+          "sourceHash": "55de6cffb725db8bb08929ddf8b974d0128f99b39b9870f0b878c9ddef72aa62",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Tyler B. Hughes attributes discovery and checking to AI research agents he built and directed; no human mathematical referee is reported. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source extends restricted equal-exponent exclusions to all odd primes through167, including cases identified as previously unresolved, while arbitrary odd perfect numbers remain outside scope. This is a substantive arithmetic/computational advance, not a full odd-perfect-number settlement; Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Odd perfect numbers with equal non-special exponents: prime cases through167; compare only the stated restricted or bounded target.",
+          "sourceHash": "55de6cffb725db8bb08929ddf8b974d0128f99b39b9870f0b878c9ddef72aa62",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary author page says results were discovered by AI research agents built and directed by Tyler B.Hughes; this is reported AI-led mathematical generation, not independently reconstructed autonomy."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4330",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed exact two-permutation classification covers every odd k via Lee-sphere rigidity, with only a factorial lower bound for even k. It is an unbounded combinatorial classification but not the full even-k exactness question; Difficult with medium confidence reflects the restricted historical comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Minimal k-prolific permutations for odd k: exact classification; compare only the stated restricted or bounded target.",
+          "sourceHash": "a693bbae1090161540df68b244c56fb2e5d81b84e224b374ef800efc605d1291",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Tyler B. Hughes attributes discovery and checking to directed AI research agents; no human mathematician has refereed the proof. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed exact two-permutation classification covers every odd k via Lee-sphere rigidity, with only a factorial lower bound for even k. It is an unbounded combinatorial classification but not the full even-k exactness question; Difficult with medium confidence reflects the restricted historical comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Minimal k-prolific permutations for odd k: exact classification; compare only the stated restricted or bounded target.",
+          "sourceHash": "a693bbae1090161540df68b244c56fb2e5d81b84e224b374ef800efc605d1291",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary author page attributes discovery and checking to directed AI research agents. Preserve the reported AI mathematical generation while leaving correctness and exact allocation provisional."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "Dated primary author result page and/or first repository commit; later Palomar registration is not substituted for first-public date.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4332",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed approximation ratio concerns a specific three-occurrence Horn image class obtained from graph reductions. It does not cross the general MAX-CUT or all-instance Unique Games frontier; the constructive restricted-class result supports Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Paloma:83/84 approximation on a restricted three-occurrence Horn image class; compare only the stated restricted or bounded target.",
+          "sourceHash": "a85cb0eaf4354da1a69cf8d0a841036ae9f603efd3a2a4430814342749436d19",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The primary manuscript says Claude Sonnet5.5 assisted in deriving the proofs, writing the Lean formalization and preparing the manuscript; Frank Vega reviewed and edited the work. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-19",
+            "dateBasis": "First dated qualifying result commit; later primary revision and formal registry date kept distinct.",
+            "originalPublicationDate": "2026-11-19",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The claimed approximation ratio concerns a specific three-occurrence Horn image class obtained from graph reductions. It does not cross the general MAX-CUT or all-instance Unique Games frontier; the constructive restricted-class result supports Difficult with medium confidence.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report frontier for Paloma:83/84 approximation on a restricted three-occurrence Horn image class; compare only the stated restricted or bounded target.",
+          "sourceHash": "a85cb0eaf4354da1a69cf8d0a841036ae9f603efd3a2a4430814342749436d19",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary manuscript directly credits Claude Sonnet5.5 with assisting proof derivation, with Frank Vega reviewing and editing. Preserve source-reported human/AI mathematical collaboration separately from strict conservative allocation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-24",
+            "reportedDate": "2026-11-19",
+            "dateBasis": "First dated qualifying result commit; later primary revision and formal registry date kept distinct.",
+            "originalPublicationDate": "2026-11-19",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
   }
 ]

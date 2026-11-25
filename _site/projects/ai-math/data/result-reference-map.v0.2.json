@@ -67708,5 +67708,157 @@
       "url": "https://math.mit.edu/~drew/grh/",
       "accessed": "2026-11-24"
     }
+  ],
+  "4327": [
+    {
+      "key": "AnthropicVPVNP20261123",
+      "title": "Claude (Anthropic), VP != VNP over every field: primary paper",
+      "url": "https://github.com/anthropics/formal-math/blob/918c8e2778aee18b0283dc5a33ed39ab3cd63a96/vp-vnp/paper.pdf",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "AnthropicVPVNPReadme20261123",
+      "title": "Anthropic VP/VNP release: AI attribution and verification limitations",
+      "url": "https://github.com/anthropics/formal-math/blob/918c8e2778aee18b0283dc5a33ed39ab3cd63a96/vp-vnp/README.md",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "AnthropicVPVNPStatement20261123",
+      "title": "Mathlib-only VP/VNP formal statement definitions",
+      "url": "https://github.com/anthropics/formal-math/blob/918c8e2778aee18b0283dc5a33ed39ab3cd63a96/vp-vnp/Statement.lean",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "AnthropicVPVNPCI20261123",
+      "title": "Owner-run verify (vp-vnp) successful CI check",
+      "url": "https://github.com/anthropics/formal-math/actions/runs/45266217321/job/138013752301",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4328": [
+    {
+      "key": "Daily20261124_4328",
+      "title": "Two exceptional Fermat Hodge classes have length exactly seven — primary author release",
+      "url": "https://github.com/joelcanary/fermat-hodge-length-lean/blob/171ab57fa15974f2bf28c7da6530877368790381/README.md",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4328_commit",
+      "title": "Pinned primary formalization commit",
+      "url": "https://github.com/joelcanary/fermat-hodge-length-lean/commit/171ab57fa15974f2bf28c7da6530877368790381",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4328_metadata",
+      "title": "Primary AI discovery disclosure and review limitations",
+      "url": "https://github.com/joelcanary/fermat-hodge-length-lean/blob/171ab57fa15974f2bf28c7da6530877368790381/formalization.yaml",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4329": [
+    {
+      "key": "Daily20261124_4329",
+      "title": "Odd perfect numbers with equal non-special exponents: prime cases through167 — primary author release",
+      "url": "https://mathdiscoveries.org/results/odd-perfect-equal-exponents",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4329_commit",
+      "title": "Pinned primary formalization commit",
+      "url": "https://github.com/mathdiscoveries/odd-perfect-equal-exponents/commit/24fca5f8a84461cf1413cc9c1b78f02da009b834",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4329_readme",
+      "title": "Primary repository AI attribution and scope",
+      "url": "https://github.com/mathdiscoveries/odd-perfect-equal-exponents/blob/24fca5f8a84461cf1413cc9c1b78f02da009b834/README.md",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4330": [
+    {
+      "key": "Daily20261124_4330",
+      "title": "Minimal k-prolific permutations for odd k: exact classification — primary author release",
+      "url": "https://mathdiscoveries.org/results/minimal-prolific-permutations",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4330_commit",
+      "title": "Pinned primary formalization commit",
+      "url": "https://github.com/mathdiscoveries/minimal-prolific-permutations/commit/32409cdec4b707ee494ccdbe6795a1f72cbe1394",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4330_readme",
+      "title": "Primary repository AI attribution and scope",
+      "url": "https://github.com/mathdiscoveries/minimal-prolific-permutations/blob/32409cdec4b707ee494ccdbe6795a1f72cbe1394/README.md",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4331": [
+    {
+      "key": "Daily20261124_4331",
+      "title": "Weak double extension set theory: no model of mixed extensionality and comprehension — primary release",
+      "url": "https://github.com/BedrockInstitute/DESTInconsistency/blob/b0c169aa689c090f32eb62eee1e05a872b882b5b/README.md",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4331_metadata",
+      "title": "Primary mathematical AI attribution, scope and review disclosure",
+      "url": "https://github.com/BedrockInstitute/DESTInconsistency/blob/b0c169aa689c090f32eb62eee1e05a872b882b5b/lean/formalization.yaml",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4331_first",
+      "title": "First public qualifying result version",
+      "url": "https://github.com/BedrockInstitute/DESTInconsistency/commit/72748435027636bbdec159db16181e4cbe42ecd1",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4332": [
+    {
+      "key": "Daily20261124_4332",
+      "title": "Paloma:83/84 approximation on a restricted three-occurrence Horn image class — primary release",
+      "url": "https://github.com/frankvegadelgado/paloma/blob/b5e6527c7215bdc1f0d50f369183afe1bd091b70/README.md",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4332_metadata",
+      "title": "Primary mathematical AI attribution, scope and review disclosure",
+      "url": "https://github.com/frankvegadelgado/paloma/blob/b5e6527c7215bdc1f0d50f369183afe1bd091b70/formalization.yaml",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4332_first",
+      "title": "First public qualifying result version",
+      "url": "https://github.com/frankvegadelgado/paloma/commit/a226cb24a380ca3f55bd6681ea0248addfecdacd",
+      "accessed": "2026-11-24"
+    },
+    {
+      "key": "Daily20261124_4332_paper",
+      "title": "Revised primary manuscript with Claude Sonnet5.5 acknowledgement",
+      "url": "https://github.com/frankvegadelgado/paloma/blob/b5e6527c7215bdc1f0d50f369183afe1bd091b70/doc/paper.tex",
+      "accessed": "2026-11-24"
+    }
+  ],
+  "4333": [
+    {
+      "key": "Erdos1139Elementary20261124",
+      "title": "Bruce Lee: Erdős1139 proof, prior work and automated search disclosure",
+      "url": "https://github.com/BruceLoveLee000/erdos-lean-proofs/blob/80247e42e2e54148667da9bd5cfe6ff62e633569/ErdosProofs/Erdos1139/README.md",
+      "accessed": "2026-11-25"
+    },
+    {
+      "key": "Erdos1139ElementaryMetadata",
+      "title": "Responsible author, GPT-6.2-sol contribution and review limitations",
+      "url": "https://github.com/BruceLoveLee000/erdos-lean-proofs/blob/80247e42e2e54148667da9bd5cfe6ff62e633569/palomar/erdos1139/formalization.yaml",
+      "accessed": "2026-11-25"
+    },
+    {
+      "key": "Erdos1139ElementaryFirst",
+      "title": "First public proof-path commit24November",
+      "url": "https://github.com/BruceLoveLee000/erdos-lean-proofs/commit/166ce4f4643779f058a9660c13e2b221af5e60a5",
+      "accessed": "2026-11-25"
+    }
   ]
 }

@@ -67089,5 +67089,108 @@
     "quarantinedCandidates": [],
     "excludedCandidates": [],
     "artifactsExecuted": false
+  },
+  {
+    "id": "2026-11-24-vp-vnp-eod",
+    "changes": [
+      "Add provisional record 4327 for the Claude-authored VP/VNP separation claim; preserve verified RH record4326.",
+      "Add provisional4328–4330 with source-specific scope and review limitations.",
+      "Add provisional4331–4332: DEST no-model claim and restricted Horn approximation; retain exact review questions.",
+      "Resolve primary ownership/first-public identity for4333 and include its reported new elementary proof provisionally, not as first solution."
+    ],
+    "recordedAt": "2026-11-25",
+    "refreshedThrough": "2026-11-25",
+    "runDateEuropeLondon": "2026-11-24",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4262,
+    "claimCount": 4264,
+    "evidenceCutoff": "2026-11-25",
+    "model": null,
+    "modelStatus": "Runtime model identifier not surfaced",
+    "summary": "Seven flagged primary-source result or independently claimed proof packages, with individual review questions.",
+    "coverageNote": "Scheduled24November end-of-day scan began with18–24November window and continued25November with targeted checks (current rolling window19–25November). All fourteen initial retrievals succeeded. Exhaustive full-text and historical reconciliation since20August remain incomplete; no continuous cutoff advance.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "4327",
+      "4328",
+      "4329",
+      "4330",
+      "4331",
+      "4332",
+      "4333"
+    ],
+    "existingRecordChanges": [],
+    "provisionalIds": [
+      "4327",
+      "4328",
+      "4329",
+      "4330",
+      "4331",
+      "4332",
+      "4333"
+    ],
+    "recordDecisions": [
+      {
+        "id": "4327",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/anthropics/formal-math/blob/918c8e2778aee18b0283dc5a33ed39ab3cd63a96/vp-vnp/paper.pdf",
+        "reason": "Further checking: obtain independent specialist review of correctness and of correspondence between Statement.lean definitions, Appendix Q and the intended arithmetic-circuit and VP/VNP claims. The repository explicitly reports no human mathematical proof check. Passing owner-run CI and Comparator/nanoda checks do not independently certify that correspondence; no proof artifact was executed here. Exact internal Claude model version is not surfaced."
+      },
+      {
+        "id": "4328",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/joelcanary/fermat-hodge-length-lean/commit/171ab57fa15974f2bf28c7da6530877368790381",
+        "reason": "Further checking: independently review the quotient-group definitions, exact finite lower-bound certificates and correspondence to the intended two representatives, including whether the degree52 representative is in the claimed exceptional class (checked outside Lean). No separate human code review or original-paper author endorsement is reported. This project did not replay artifacts."
+      },
+      {
+        "id": "4329",
+        "disposition": "include_flagged",
+        "primary": "https://mathdiscoveries.org/results/odd-perfect-equal-exponents",
+        "reason": "Further checking: independent specialist review of the number-theoretic reductions, novelty of the newly excluded cases, and certificate-format soundness for79<=r<=167. The two upper-range exact-arithmetic checkers share an author and parser, so are not independent verification. Only the through73 range is retained as source-reported Lean verification; no downloaded code or certificates were executed here."
+      },
+      {
+        "id": "4330",
+        "disposition": "include_flagged",
+        "primary": "https://mathdiscoveries.org/results/minimal-prolific-permutations",
+        "reason": "Further checking: independently review novelty and mathematical correspondence between taxicab breadth, the original prolific-permutation conjecture, and the Lee-tiling rigidity proof. Mechanical checks and falsifier agents are source-reported, not independent human review or replay by this project. Keep the odd-k exact classification separate from the even-k lower bound."
+      },
+      {
+        "id": "4331",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/BedrockInstitute/DESTInconsistency/commit/b0c169aa689c090f32eb62eee1e05a872b882b5b",
+        "reason": "Further checking: independent specialist review of the axiom interpretation, in particular the order of parameter quantifiers in comprehension, and correspondence to Kisielewicz/Holmes DEST. The first-order completeness bridge from no models to syntactic inconsistency is not formalized. Agent reviews, blind formalizations and owner-reported kernel checks are not human peer review; no artifacts were executed here."
+      },
+      {
+        "id": "4332",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/frankvegadelgado/paloma/commit/b5e6527c7215bdc1f0d50f369183afe1bd091b70",
+        "reason": "Further checking: independent review of novelty, exact image-class hypotheses, reduction and running-time claims, and scope correspondence between manuscript and formalization. Goemans-Williamson and other algorithm guarantees are cited hypotheses, and polynomial running times are not modeled in Lean. Earlier broader hard-consistency claims were revised; use only the current restricted scope. The exact historical AI contribution allocation is not independently reconstructed; no artifacts were executed here."
+      },
+      {
+        "id": "4333",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/BruceLoveLee000/erdos-lean-proofs/blob/80247e42e2e54148667da9bd5cfe6ff62e633569/ErdosProofs/Erdos1139/README.md",
+        "reason": "Further checking: independently verify the claimed genuinely new elementary proof route and its difference from the repository-acknowledged June2026 GPT Pro proof, rather than treating this as a first solution or mere formalization of known mathematics. Recheck full unbounded-gap scope, formal statement correspondence, artifact correctness and corpus separation from partial-bound package3590. No human mathematical argument review is reported and no artifacts were replayed here."
+      }
+    ],
+    "quarantinedCandidates": [],
+    "excludedCandidates": [
+      {
+        "primary": "https://github.com/jkfarland-bot/MeanResidue",
+        "reason": "Primary README disclaims priority and describes formalization of previously proved conjectures; no separately qualifying AI mathematical discovery established."
+      },
+      {
+        "primary": "https://github.com/xliu2022/GHZ-unbounded-lean/blob/main/PRODUCTION.md",
+        "reason": "Primary production account explicitly says results are source-based, not new results introduced by formalization."
+      }
+    ],
+    "retrievalFailures": [
+      {
+        "url": "https://github.com/anthropics/formal-math/blob/918c8e2778aee18b0283dc5a33ed39ab3cd63a96/vp-vnp/paper.pdf",
+        "error": "Web parser rejected octet-stream; direct PDF download and local text extraction succeeded."
+      }
+    ],
+    "sourceRechecks": "RH MIT page updated05:25 still reports extra Comparator run in progress; earlier independently verified status unchanged. Mandatory zeta/Kato/Landis/Sendov sources retrieved; no safe correction identified. Review queue read, not fully adjudicated.",
+    "artifactsExecuted": false
   }
 ]

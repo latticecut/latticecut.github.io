@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "assessedAt": "2026-11-24",
+  "assessedAt": "2026-11-25",
   "samplingWeek": 2968,
   "status": "pending selective review; not completed verification",
   "items": [
@@ -34061,6 +34061,26 @@
       ]
     },
     {
+      "id": "4327",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
+      "id": "4331",
+      "category": "Superhuman",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
       "id": "gpt5-science-2025:erdos-848",
       "category": "Superhuman",
       "confidence": "high",
@@ -43042,6 +43062,46 @@
       "priority": 3,
       "reasons": [
         "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4328",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4329",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4330",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4332",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
       ]
     },
     {
