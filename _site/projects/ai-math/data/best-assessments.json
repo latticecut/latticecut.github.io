@@ -151198,9 +151198,9 @@
       "method": "individual-AI-assessment",
       "placement": "best-estimate",
       "contribution": {
-        "label": "Human-led / AI assisting",
-        "basis": "coded allocation",
-        "rationale": "Joel Cruz Cabrera reports Claude Code (Claude Opus5.5) found the parity invariant and exhaustive check and wrote the Lean code under human direction. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+        "label": "Shared (reported)",
+        "basis": "source-pinned reported attribution; not reconstructed",
+        "rationale": "The primary metadata credits Claude Code with finding the parity invariant and exhaustive check and writing all Lean code, with the human directing the work. Preserve that reported substantive collaboration separately from conservative strict generation-stage coding."
       },
       "collection": {
         "firstCollectedDate": "2026-11-24",
@@ -151230,9 +151230,9 @@
       "method": "individual-AI-assessment",
       "placement": "best-estimate",
       "contribution": {
-        "label": "Human-led / AI assisting",
-        "basis": "coded allocation",
-        "rationale": "Tyler B. Hughes attributes discovery and checking to AI research agents he built and directed; no human mathematical referee is reported. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+        "label": "AI-led (reported)",
+        "basis": "source-pinned reported attribution; not reconstructed",
+        "rationale": "The primary author page says results were discovered by AI research agents built and directed by Tyler B.Hughes; this is reported AI-led mathematical generation, not independently reconstructed autonomy."
       },
       "collection": {
         "firstCollectedDate": "2026-11-24",
@@ -151262,9 +151262,9 @@
       "method": "individual-AI-assessment",
       "placement": "best-estimate",
       "contribution": {
-        "label": "Human-led / AI assisting",
-        "basis": "coded allocation",
-        "rationale": "Tyler B. Hughes attributes discovery and checking to directed AI research agents; no human mathematician has refereed the proof. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+        "label": "AI-led (reported)",
+        "basis": "source-pinned reported attribution; not reconstructed",
+        "rationale": "The primary author page attributes discovery and checking to directed AI research agents. Preserve the reported AI mathematical generation while leaving correctness and exact allocation provisional."
       },
       "collection": {
         "firstCollectedDate": "2026-11-24",
@@ -151338,9 +151338,9 @@
       "method": "individual-AI-assessment",
       "placement": "best-estimate",
       "contribution": {
-        "label": "Human-led / AI assisting",
-        "basis": "coded allocation",
-        "rationale": "The primary manuscript says Claude Sonnet5.5 assisted in deriving the proofs, writing the Lean formalization and preparing the manuscript; Frank Vega reviewed and edited the work. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+        "label": "Shared (reported)",
+        "basis": "source-pinned reported attribution; not reconstructed",
+        "rationale": "The primary manuscript directly credits Claude Sonnet5.5 with assisting proof derivation, with Frank Vega reviewing and editing. Preserve source-reported human/AI mathematical collaboration separately from strict conservative allocation."
       },
       "collection": {
         "firstCollectedDate": "2026-11-24",
@@ -151375,7 +151375,7 @@
         "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
       },
       "collection": {
-        "firstCollectedDate": "2026-11-25",
+        "firstCollectedDate": "2026-11-24",
         "reportedDate": "2026-11-24",
         "dateBasis": "First primary proof-path commit166ce4f4643779f058a9660c13e2b221af5e60a5; this is not the earlier original problem-solution date.",
         "originalPublicationDate": "2026-11-24",
