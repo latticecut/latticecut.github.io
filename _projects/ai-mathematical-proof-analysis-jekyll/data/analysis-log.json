@@ -67192,5 +67192,160 @@
     ],
     "sourceRechecks": "RH MIT page updated05:25 still reports extra Comparator run in progress; earlier independently verified status unchanged. Mandatory zeta/Kato/Landis/Sendov sources retrieved; no safe correction identified. Review queue read, not fully adjudicated.",
     "artifactsExecuted": false
+  },
+  {
+    "id": "2026-11-26-primary-refresh",
+    "changes": [
+      "Add14 independently supportable flagged source packages4334–4347; publisher OpenAI families379/380 count once each, not once per companion manuscript.",
+      "Update existing4326 completed verification, preserving original date and provisional0; no duplicate discovery for derivative shorter editions."
+    ],
+    "recordedAt": "2026-11-26",
+    "refreshedThrough": "2026-11-26",
+    "runDateEuropeLondon": "2026-11-26",
+    "collectionEnded": "2026-08-20",
+    "entryCount": 4276,
+    "claimCount": 4278,
+    "evidenceCutoff": "2026-11-26",
+    "model": null,
+    "modelStatus": "Runtime model identifier not surfaced",
+    "summary": "Fourteen flagged primary-source packages and one safe RH verification correction.",
+    "coverageNote": "Rolling20–26November plus supported backfill since20August. Fourteen collector requests succeeded; mandatory sources, new publisher releases and recent provisional records rechecked. Exhaustive full-text/historical reconciliation and remaining registry/workbench inventory are incomplete, so continuous cutoff remains20August.",
+    "includeConfirmed": [],
+    "includeFlagged": [
+      "4334",
+      "4335",
+      "4336",
+      "4337",
+      "4338",
+      "4339",
+      "4340",
+      "4341",
+      "4342",
+      "4343",
+      "4344",
+      "4345",
+      "4346",
+      "4347"
+    ],
+    "existingRecordChanges": [
+      "4326"
+    ],
+    "provisionalIds": [
+      "4334",
+      "4335",
+      "4336",
+      "4337",
+      "4338",
+      "4339",
+      "4340",
+      "4341",
+      "4342",
+      "4343",
+      "4344",
+      "4345",
+      "4346",
+      "4347"
+    ],
+    "recordDecisions": [
+      {
+        "id": "4334",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/bimatrix_nash_equilibrium/paper.pdf",
+        "reason": "Further checking: Audit the algorithm, regret argument, rational encoding and polynomial-time accounting, including enormous fixed constants; do not imply practical efficiency. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4335",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/ce_convex_games/CE_in_Convex_Games.pdf",
+        "reason": "Further checking: Check oracle construction, equilibrium definition and dimension/Lipschitz dependencies. Exact mathematical AI contribution and model version are not specified by the brief README. Reconcile publisher release label30October, paper date27October and first pinned repository commit17November. No qualifying formal verification or independent specialist review was established from the retrieved primary evidence. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4336",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/deterministic_factoring_l34/paper.pdf",
+        "reason": "Further checking: Audit number-theoretic lemmas, exponent-annihilation construction and uniform worst-case bit complexity; distinguish the supplied order-multiple hypothesis of the splitting subroutine from the unconditional complete algorithm. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4337",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/discrete_logarithm/paper.pdf",
+        "reason": "Further checking: Audit elimination, field presentation, subgroup-membership certification and uniformity. Retain the fixed/specified slowly-growing characteristic conditions and enormous asymptotic thresholds; no practical cryptanalytic speedup is established here. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4338",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/edge_reconstruction/paper.pdf",
+        "reason": "Further checking: Audit the reconstruction argument, unlabelled edge-deck correspondence and threshold scope, and novelty relative to earlier density bounds. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4339",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/fictitious_play_convergence/Fictitious_Play_Convergence.pdf",
+        "reason": "Further checking: Verify the gadget and tie-free recurrence, and reconcile novelty with the explicitly cited concurrent Abernethy-Lazarsfeld-Wibisono result. Publisher release label23November differs from the first repository timestamp/current PDF24November; exact first-public chronology needs checking. No qualifying formal verification or independent specialist review was established from the retrieved primary evidence. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4340",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/integer_factorization/paper.pdf",
+        "reason": "Further checking: Audit the unconditional number-theoretic reductions, probability/termination analysis, certification and bit/space constants. Matching an asymptotic exponent does not establish practical factoring or an RSA break. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4341",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/logrank_conjecture/paper.pdf",
+        "reason": "Further checking: Audit rectangle-to-protocol reduction, Gaussian/biasing argument, constants and thresholds; preserve the distinction between this bound and the full log-rank conjecture. The README claims a completed Lean formalization for future companion release; the artifact and independent replay were not retrieved. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4342",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/subadditive_prophet_inequalities/Subadditive_Prophet_Inequalities.pdf",
+        "reason": "Further checking: Audit pricing/model assumptions, both bounds and extensions; compare the explicitly acknowledged concurrent Fotakis-Kritharidis-Platanos-Tolias work before assigning novelty. Publisher release label23November precedes the first pinned repository timestamp24November; verify chronology. No qualifying formal verification or independent specialist review was established from the retrieved primary evidence. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4343",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/vc_sample_compression/Near_Quadratic_Sample_Compression.pdf",
+        "reason": "Further checking: Audit the compression/reconstruction definitions, side information and proof; retain the weak-versus-linear distinction. Publisher release label18November precedes the first repository timestamp19November; verify first-public chronology. No qualifying formal verification or independent specialist review was established from the retrieved primary evidence. No downloaded proof material was executed here."
+      },
+      {
+        "id": "4344",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/CONTENTS.md#family-379",
+        "reason": "Further checking: independent correctness and novelty review of each constituent result and shared dependencies; reconcile formal statements with the papers. Published Lean scope is partial: finite-dimensional tensor pricing, weaker superpolynomial HC/permanent bounds, and fixed-base uniform sunflower statements do not establish every printed quantitative/generalized claim. Several explicit rates, polynomial-multiplication lower bounds, division/square-root extensions and finite-size matrix bounds remain unformalized. No public replay was performed here. Treat the family as one source package, distinct from Anthropic4327, with no priority judgment."
+      },
+      {
+        "id": "4345",
+        "disposition": "include_flagged",
+        "primary": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/CONTENTS.md#family-380",
+        "reason": "Further checking: independent optimization/polyhedral correctness and novelty review, exact computational model and formal-to-paper correspondence. The documented Lean LP scope is rational RAM programs, not every real-coefficient or companion extension claimed by the paper. Formalization availability is not an independently replayed check, and no downloaded artifact was executed here. Keep the algorithm and diameter claims separately bounded within this source family."
+      },
+      {
+        "id": "4346",
+        "disposition": "include_flagged",
+        "primary": "https://hexagonmath.org/pdf/2611.01041v1",
+        "reason": "Further checking: Independently review transfer theorem, signed invariant measures, ring hypotheses and novelty. The project corrected eleven check/provenance rows that confused original proofs with independent re-proofs. AI-only checks do not constitute human or formal verification; the deposit is in moderation. No downloaded program was executed here."
+      },
+      {
+        "id": "4347",
+        "disposition": "include_flagged",
+        "primary": "https://hexagonmath.org/pdf/2611.01042v1",
+        "reason": "Further checking: Independently check the finite-group-to-monoid K-theory argument, realization input, examples and novelty. The realization input is an unrefereed preprint. Nothing is formalized and no human has checked the text; AI re-proofs and program reports are not independent specialist verification. The deposit is in moderation. No downloaded program was executed here."
+      },
+      {
+        "id": "4326",
+        "disposition": "include_confirmed",
+        "primary": "https://math.mit.edu/~drew/grh/",
+        "reason": "All original-proof checks completed; remove stale running status. Derivative shorter editions are verification/representation updates, not new mathematical discoveries."
+      }
+    ],
+    "quarantinedCandidates": [],
+    "excludedCandidates": [
+      {
+        "primary": "https://github.com/lsernau/grh-lean/commit/72fead102f663d5c7a407964a13dc0cf9d977207",
+        "reason": "Shorter derivative proof of already included RH/Dirichlet-GRH result, not a separately qualifying new discovery; verification evidence attached to4326."
+      }
+    ],
+    "sourceRechecks": "Seven recent provisional primary interfaces rechecked without a safely supported flag clearance; current flags retained. VP/VNP primary README still reports no human mathematical check. Mandatory zeta/Kato/Landis/Sendov14 retrieved. Review queue read, not fully adjudicated.",
+    "artifactsExecuted": false
   }
 ]

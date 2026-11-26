@@ -67704,9 +67704,15 @@
     },
     {
       "key": "SutherlandRHVerification20261124",
-      "title": "Andrew Sutherland: RH Lean proof verification files (updated 24 November 2026)",
+      "title": "Andrew Sutherland: original RH proof, all checks finished25November2026",
       "url": "https://math.mit.edu/~drew/grh/",
-      "accessed": "2026-11-24"
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "SutherlandShortRH20261126",
+      "title": "Shorter RH and Dirichlet-GRH proof: independent verification, all checks complete26November",
+      "url": "https://math.mit.edu/~drew/shortgrh/",
+      "accessed": "2026-11-26"
     }
   ],
   "4327": [
@@ -67859,6 +67865,298 @@
       "title": "First public proof-path commit24November",
       "url": "https://github.com/BruceLoveLee000/erdos-lean-proofs/commit/166ce4f4643779f058a9660c13e2b221af5e60a5",
       "accessed": "2026-11-25"
+    }
+  ],
+  "4334": [
+    {
+      "key": "Daily20261126_4334",
+      "title": "An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/bimatrix_nash_equilibrium/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4334_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4334_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/bimatrix_nash_equilibrium/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4335": [
+    {
+      "key": "Daily20261126_4335",
+      "title": "Intractability of Approximate Correlated Equilibria in Two-Player Convex Games — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/ce_convex_games/CE_in_Convex_Games.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4335_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/7117df5f368e1301e34bd014be9c93e24a4e73c6",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4335_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/ce_convex_games/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4336": [
+    {
+      "key": "Daily20261126_4336",
+      "title": "Unconditional Deterministic Subexponential Integer Factoring and Quadratic Nonresidue Construction — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/deterministic_factoring_l34/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4336_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4336_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/deterministic_factoring_l34/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4337": [
+    {
+      "key": "Daily20261126_4337",
+      "title": "Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial Time — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/discrete_logarithm/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4337_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4337_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/discrete_logarithm/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4338": [
+    {
+      "key": "Daily20261126_4338",
+      "title": "Unconditional Edge Reconstruction of Simple Graphs of Linear Density — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/edge_reconstruction/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4338_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4338_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/edge_reconstruction/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4339": [
+    {
+      "key": "Daily20261126_4339",
+      "title": "Polynomial Dimension Dependence for Fictitious Play Convergence — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/fictitious_play_convergence/Fictitious_Play_Convergence.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4339_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/d138870bc3cacf73e75b9d31d9bbbed3fa135658",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4339_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/fictitious_play_convergence/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4340": [
+    {
+      "key": "Daily20261126_4340",
+      "title": "Unconditional Integer Factorization in Time L_N[1/3, O(1)] — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/integer_factorization/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4340_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4340_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/integer_factorization/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4341": [
+    {
+      "key": "Daily20261126_4341",
+      "title": "Breaking the Square-Root Barrier for the Log-Rank Conjecture — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/logrank_conjecture/paper.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4341_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/4a7bc8ab0bc770e71a259b7966c500496b99010a",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4341_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/logrank_conjecture/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4342": [
+    {
+      "key": "Daily20261126_4342",
+      "title": "Nearly Tight O(log log log m) Prophet Inequalities for Subadditive Combinatorial Auctions — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/subadditive_prophet_inequalities/Subadditive_Prophet_Inequalities.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4342_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/ee4298226f21649f45c0d0427f7c0f3f682d2a20",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4342_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/subadditive_prophet_inequalities/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4343": [
+    {
+      "key": "Daily20261126_4343",
+      "title": "Near-Quadratic Sample Compression for All VC Classes — primary result",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/vc_sample_compression/Near_Quadratic_Sample_Compression.pdf",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4343_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/google-research/google-research/commit/f4598eb0d4f8947b880cad470e157d37bd2f858b",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4343_role",
+      "title": "Direct Cogentic AI attribution and limitations",
+      "url": "https://github.com/google-research/google-research/blob/3f540f420bfae7e6ce48365a68d0ae003feb2f87/cogentic_research_papers/vc_sample_compression/README.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4344": [
+    {
+      "key": "Daily20261126_4344",
+      "title": "OpenAI family379: Euclidean tensor geometry and applications — primary result",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/CONTENTS.md#family-379",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4344_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/openai/math/commit/e07100d36b22bcf8bb759f2f1abc7976ba472e47",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4344_role",
+      "title": "OpenAI research-output attribution and warning",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/README.md",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4344_scope",
+      "title": "Published partial Lean scope for family379",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/lean/docs/379.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4345": [
+    {
+      "key": "Daily20261126_4345",
+      "title": "OpenAI family380: strongly polynomial LP and superpolynomial polytope diameter — primary result",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/CONTENTS.md#family-380",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4345_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://github.com/openai/math/commit/92b516ef8e2abf66c3db7aa31438d3010bc7956f",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4345_role",
+      "title": "OpenAI research-output attribution and warning",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/README.md",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4345_scope",
+      "title": "Published partial Lean scope for family380",
+      "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/lean/docs/380.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4346": [
+    {
+      "key": "Daily20261126_4346",
+      "title": "Exactness of colimits and amenability are independent — primary result",
+      "url": "https://hexagonmath.org/pdf/2611.01041v1",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4346_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://hexagonmath.org/2611.01041",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4346_role",
+      "title": "Primary workbench ownership, AI attribution and deposit record",
+      "url": "https://github.com/KokunoYumeto/mathematics-workbenches/blob/6855514dd6542a3dc8495ad3ec52a4cfdd96063d/works/WB-0012.md",
+      "accessed": "2026-11-26"
+    }
+  ],
+  "4347": [
+    {
+      "key": "Daily20261126_4347",
+      "title": "Classifying spaces of finite monoids with bounded homology — primary result",
+      "url": "https://hexagonmath.org/pdf/2611.01042v1",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4347_first",
+      "title": "Primary first-public source/date basis",
+      "url": "https://hexagonmath.org/2611.01042",
+      "accessed": "2026-11-26"
+    },
+    {
+      "key": "Daily20261126_4347_role",
+      "title": "Primary workbench ownership, AI attribution and deposit record",
+      "url": "https://github.com/KokunoYumeto/mathematics-workbenches/blob/6855514dd6542a3dc8495ad3ec52a4cfdd96063d/works/WB-0013.md",
+      "accessed": "2026-11-26"
     }
   ]
 }

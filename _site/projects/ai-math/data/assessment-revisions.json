@@ -231645,5 +231645,524 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-26",
+    "snapshotHash": "e0e8c4698853ec8dd975e764e2200e190ae242e94a471ea1aa506aa4072c5ed9",
+    "changes": [
+      {
+        "id": "4326",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "04a592b2bb582474f42ec88a220ef204e8d06a6e8ac86277e45c9150c1be702a",
+            "assessedAt": "2026-11-24",
+            "evidenceSummary": "Primary author attribution supports material shared mathematical contribution; independent verification now reported separately. Exact Claude version not surfaced."
+          },
+          "rationale": "The source package settles the exact long-standing RH and Dirichlet L-function GRH targets, not merely a zero-free-region improvement. Historical-frontier confidence is high; independent verification is separately recorded from the Lean/Mathlib and MIT reports.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-20-November-2026 human frontier on RH (1859) and GRH for Dirichlet L-functions.",
+          "sourceHash": "04a592b2bb582474f42ec88a220ef204e8d06a6e8ac86277e45c9150c1be702a",
+          "assessedAt": "2026-11-24",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help.",
+            "evidenceSourceIds": [
+              "AlpogeClaudeRH20261120"
+            ],
+            "sourceHash": "ec6d37cda16de3b1eaa19a163f5598b30a7d7b2c0be952934624a07994999c04",
+            "assessedAt": "2026-11-26",
+            "evidenceSummary": "Primary author attribution supports material shared mathematical contribution; independent verification now reported separately. Exact Claude version not surfaced."
+          },
+          "rationale": "RH and Dirichlet-GRH remain the exact long-standing targets of the original20November shared Claude result. Independent verification was re-read26November: all original checks are complete and shorter derivative editions checked. This status update does not create a new discovery or change the historical-frontier category.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-20-November-2026 human frontier on RH (1859) and GRH for Dirichlet L-functions.",
+          "sourceHash": "ec6d37cda16de3b1eaa19a163f5598b30a7d7b2c0be952934624a07994999c04",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "Alpöge directly credits joint work with Claude and mathematical ideas including theta-lift chain length; this is material mathematical contribution, not writing help."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-20",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "Primary author-hosted announcement publicly observed20November; contemporaneous reporting dates its release to today. Discovery date is not proof acceptance.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4334",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for An Exact Polynomial-Time Algorithm for 1/5-Approximate Nash Equilibria in Bimatrix Games; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "8ec48cc0165d545fe33ed285c8b1cad5d231ca1f795eb16f3b33e6883d219aac",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4335",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Intractability of Approximate Correlated Equilibria in Two-Player Convex Games; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "007b4e6fbf997c671781f089e1eeb5c9689f214b8b94d4c1892d05d671a0bc51",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The primary README says the paper was generated by the Cogentic harness; the exact mathematical versus drafting role is not specified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-10-30",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-17T17:46:03Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-10-30",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4336",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Unconditional Deterministic Subexponential Integer Factoring and Quadratic Nonresidue Construction; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "32d357a10f82230c11b4bad5cb55bb1113fb4e79a1d523f648f42676f52ec69a",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4337",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Discrete Logarithms in Finite Fields of Fixed Characteristic in Sub-Quasi-Polynomial Time; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "ae13a1d8b82f9e4f39b0e76c8362fbccaff167d89b51322186b426786fe7aa9e",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4338",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Unconditional Edge Reconstruction of Simple Graphs of Linear Density; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "2c256d65840247018f89c214210c3c87086a16eca2ea96862a018bf3a9b9aba6",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4339",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Polynomial Dimension Dependence for Fictitious Play Convergence; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "4e48099e3eedb1cbf780598963f92d66aa1c2c0b935ab2997f2c0b636a4e600f",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-24T00:40:20Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4340",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Unconditional Integer Factorization in Time L_N[1/3, O(1)]; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "d007e59a48b1b0b3b911bec075e6e60181cc262a597fb891e868aacee55cc735",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4341",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Breaking the Square-Root Barrier for the Log-Rank Conjecture; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "7ac9048c1d321fcb06455c2a6bdf671e3fb4dbb4c580cfc08a8cf2a7540c048b",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-25T10:11:06Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4342",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Nearly Tight O(log log log m) Prophet Inequalities for Subadditive Combinatorial Auctions; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "9a3cb25fa1ace918a8d46add75becef22f796a315cf68b2b67a484e1aec4bac0",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-23",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-24T04:12:09Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-23",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4343",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "The primary PDF credits the main result to Cogentic using Gemini4. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4343",
+              "Daily20261126_4343_role"
+            ],
+            "sourceHash": "6a12ce4d07279c23498d057e419fded4b09ebe9f7b203c9258180ef873b45758",
+            "assessedAt": "2026-11-26",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged."
+          },
+          "rationale": "The source claims the polynomial-size weak sample-compression conjecture for every VC class, replacing an exponential dimension bound. This is a complete settlement of the exact long-standing weak target, not the stronger linear-size conjecture. Historical-target confidence is high; correctness and chronology remain provisional.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for Near-Quadratic Sample Compression for All VC Classes; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "6a12ce4d07279c23498d057e419fded4b09ebe9f7b203c9258180ef873b45758",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The primary PDF credits the main result to Cogentic using Gemini4. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-18",
+            "dateBasis": "Publisher-labelled release date in the primary directory index; earliest pinned public Git timestamp 2026-11-19T07:04:17Z retained separately. Chronology discrepancies are flagged, not silently equated.",
+            "originalPublicationDate": "2026-11-18",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4344",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4344",
+              "Daily20261126_4344_role"
+            ],
+            "sourceHash": "87d5a616fbc5a04a2bcd27a16abbab4b72dcc9a8600bb80455370368e99986d5",
+            "assessedAt": "2026-11-26",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged."
+          },
+          "rationale": "The publisher family claims full long-standing arithmetic hierarchy separations, exact matrix-multiplication exponent and the fixed-petal uniform sunflower conjecture, not merely a modest bound improvement. High historical-frontier confidence is separate from proof acceptance and the documented partial formal scope.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family379: Euclidean tensor geometry and applications; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "87d5a616fbc5a04a2bcd27a16abbab4b72dcc9a8600bb80455370368e99986d5",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First public VP/VNP commit at2026-11-24T01:14:20Z; the seven-manuscript extension was committed2026-11-25T00:04:41Z. Publisher local November23/24 labels are kept distinct from Europe/London dates.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4345",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI attributes the released manuscripts/proof artifacts to an unnamed internal research model and explicitly warns that some outputs may have issues. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4345",
+              "Daily20261126_4345_role"
+            ],
+            "sourceHash": "6f79cccf3161eedb1a170fc8f72e517197db6273ad875714501de5983baa260f",
+            "assessedAt": "2026-11-26",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged."
+          },
+          "rationale": "The package claims both Smale9 strongly polynomial LP and a counterexample family to polynomial Hirsch, exact longstanding targets. This supports high historical-frontier classification, conditional on the stated model/scope; independent correctness remains flagged.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family380: strongly polynomial LP and superpolynomial polytope diameter; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "6f79cccf3161eedb1a170fc8f72e517197db6273ad875714501de5983baa260f",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI attributes the released manuscripts/proof artifacts to an unnamed internal research model and explicitly warns that some outputs may have issues. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "First dated primary release commit2026-11-25T00:04:41Z; publisher labels November24 use a different date basis.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4346",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Exactness of colimits and amenability are independent; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "235a76673e41c56a89dd96df3fb92ae7eb4200350a9ce89ecc31275bfb123d14",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Dated primary PDF v1 and project WB-0012/WB-0013 record say deposited25November2026; AI research run dates are not substituted for publication dates.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4347",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The source reports a substantial bounded construction, quantitative bound, classification or structural counterexample, rather than a complete settlement of a broader famous parent conjecture. A Difficult estimate with medium confidence follows the stated scope. Concurrent/earlier results, where acknowledged, are not credited as a first solution.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The pre-report human frontier for Classifying spaces of finite monoids with bounded homology; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "91ca315ff96f2154a6532eaa7fe7562f0d61c84c60e6a829375fb693e10a8a7b",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source attribution; not reconstructed",
+            "rationale": "The retained source attribution reports AI-led or autonomous mathematical work. This allocation has not been independently reconstructed; the strict coding and its rationale remain available separately."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "Dated primary PDF v1 and project WB-0012/WB-0013 record say deposited25November2026; AI research run dates are not substituted for publication dates.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
   }
 ]
