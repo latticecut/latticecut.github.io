@@ -232164,5 +232164,429 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-27",
+    "snapshotHash": "24a5cb48d63b30252ad6782672027f59a22d9fb35ee53614cb05195084ab56c8",
+    "changes": [
+      {
+        "id": "4348",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper reports non-routine real/complex certificate and interaction separations by extending graph-to-border-complexity machinery. The permanent lower bound is imported, not a fresh settlement of the parent VP/VNP target. Exact historical novelty and model correspondence remain substantive questions; Difficult is the likely bounded-task comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before NP_R versus PAR_R: permanent certificate and interactive-proof separations; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "d29c388efc0a67f7eb684f0580bb226c5a94b21d788198042b120f95f09c284e",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Samuel Everett reports that Claude Fable5.2 found the proofs in conversation under his guidance, extending earlier ChatGPT Astra6.2 ideas; Claude also drafted the paper. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-26",
+            "dateBasis": "Earliest repository paper commit26November01:46:58UTC; public repository created02:36:13UTC. First-public day26November is supported without equating author timestamp with public availability. Owner profile links samueleverett.com and the pinned repository.",
+            "originalPublicationDate": "2026-11-26",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4349",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "A deterministic oracle equivalence is substantial progress beyond the cited randomized single-divisor-sum reconstruction, not an unconditional fast factoring algorithm. Human-supplied geometric-series ideas and model-formulated abundance are shared research; Difficult is a medium-confidence estimate for this bounded reduction.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic integer factorization from abundance decisions; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "953131e7bc1ba57edbbd69c18606160f0b1b1cb4fb5d3e779cecf028dfa373d7",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The author reports GPT-6.2 Astra identified the abundance formulation from his earlier notes and helped develop the proof after his geometric-series suggestion; direction and decisive human input are explicit. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 12:06:26UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4350",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper targets deterministic graph-verification complexity in exact real arithmetic, extending earlier graph-verification and bilinear reduction work. The same-exponent claim is substantial non-routine progress; the numerical9/4 value is imported. Difficult with medium confidence reflects model/novelty scope, not a proof-correctness estimate.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "a945ab14ec12f9ca6956dd5ec11f4d5f45319975837fcd28887811a9031e9beb",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Xiangle Chen states that he initiated and organized the research while generative AI developed the core proof and assisted drafting/revision; the exact model is not surfaced. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 18:01:25UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-27",
+    "snapshotHash": "ba31547fcc2447303f9438747a0839e15143b87e0e347a435f32156978826ba6",
+    "changes": [
+      {
+        "id": "4344",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4344",
+              "Daily20261126_4344_role"
+            ],
+            "sourceHash": "87d5a616fbc5a04a2bcd27a16abbab4b72dcc9a8600bb80455370368e99986d5",
+            "assessedAt": "2026-11-26",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged."
+          },
+          "rationale": "The publisher family claims full long-standing arithmetic hierarchy separations, exact matrix-multiplication exponent and the fixed-petal uniform sunflower conjecture, not merely a modest bound improvement. High historical-frontier confidence is separate from proof acceptance and the documented partial formal scope.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family379: Euclidean tensor geometry and applications; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "87d5a616fbc5a04a2bcd27a16abbab4b72dcc9a8600bb80455370368e99986d5",
+          "assessedAt": "2026-11-26",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First public VP/VNP commit at2026-11-24T01:14:20Z; the seven-manuscript extension was committed2026-11-25T00:04:41Z. Publisher local November23/24 labels are kept distinct from Europe/London dates.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4344",
+              "Daily20261126_4344_role"
+            ],
+            "sourceHash": "a2cf888a9cee0137949c9c614614a4fb458aa56ee025af194f6ed24f270aa130",
+            "assessedAt": "2026-11-27",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged. Partial independent machine-check evidence read from Toledo; no human review or local replay, no change to direct OpenAI model attribution."
+          },
+          "rationale": "The publisher family claims full long-standing arithmetic hierarchy separations, exact matrix-multiplication exponent and the fixed-petal uniform sunflower conjecture, not merely a modest bound improvement. High historical-frontier confidence is separate from proof acceptance and the documented partial formal scope. Re-read the independent Toledo audit: formal machine checks and statement bridges cover the matrix component, not the entire family, with no human mathematical review. Historical-frontier classification and provisional status remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family379: Euclidean tensor geometry and applications; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "a2cf888a9cee0137949c9c614614a4fb458aa56ee025af194f6ed24f270aa130",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First public VP/VNP commit at2026-11-24T01:14:20Z; the seven-manuscript extension was committed2026-11-25T00:04:41Z. Publisher local November23/24 labels are kept distinct from Europe/London dates.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-27",
+    "snapshotHash": "64e0a9935b72f53d9f2fa5806e64756d9390546fb1f96e58fe3eeffe3669a2b1",
+    "changes": [
+      {
+        "id": "4348",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper reports non-routine real/complex certificate and interaction separations by extending graph-to-border-complexity machinery. The permanent lower bound is imported, not a fresh settlement of the parent VP/VNP target. Exact historical novelty and model correspondence remain substantive questions; Difficult is the likely bounded-task comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before NP_R versus PAR_R: permanent certificate and interactive-proof separations; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "d29c388efc0a67f7eb684f0580bb226c5a94b21d788198042b120f95f09c284e",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Samuel Everett reports that Claude Fable5.2 found the proofs in conversation under his guidance, extending earlier ChatGPT Astra6.2 ideas; Claude also drafted the paper. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-26",
+            "dateBasis": "Earliest repository paper commit26November01:46:58UTC; public repository created02:36:13UTC. First-public day26November is supported without equating author timestamp with public availability. Owner profile links samueleverett.com and the pinned repository.",
+            "originalPublicationDate": "2026-11-26",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper reports non-routine real/complex certificate and interaction separations by extending graph-to-border-complexity machinery. The permanent lower bound is imported, not a fresh settlement of the parent VP/VNP target. Exact historical novelty and model correspondence remain substantive questions; Difficult is the likely bounded-task comparator.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before NP_R versus PAR_R: permanent certificate and interactive-proof separations; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "d29c388efc0a67f7eb684f0580bb226c5a94b21d788198042b120f95f09c284e",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Samuel Everett reports that Claude Fable5.2 found the proofs in conversation under his guidance, extending earlier ChatGPT Astra6.2 ideas; Claude also drafted the paper. Direct primary mathematical generation and human direction were read separately from the conservative strict allocation; no autonomy or independent verification is inferred."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-26",
+            "dateBasis": "Earliest repository paper commit26November01:46:58UTC; public repository created02:36:13UTC. First-public day26November is supported without equating author timestamp with public availability. Owner profile links samueleverett.com and the pinned repository.",
+            "originalPublicationDate": "2026-11-26",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4349",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "A deterministic oracle equivalence is substantial progress beyond the cited randomized single-divisor-sum reconstruction, not an unconditional fast factoring algorithm. Human-supplied geometric-series ideas and model-formulated abundance are shared research; Difficult is a medium-confidence estimate for this bounded reduction.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic integer factorization from abundance decisions; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "953131e7bc1ba57edbbd69c18606160f0b1b1cb4fb5d3e779cecf028dfa373d7",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "The author reports GPT-6.2 Astra identified the abundance formulation from his earlier notes and helped develop the proof after his geometric-series suggestion; direction and decisive human input are explicit. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 12:06:26UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "A deterministic oracle equivalence is substantial progress beyond the cited randomized single-divisor-sum reconstruction, not an unconditional fast factoring algorithm. Human-supplied geometric-series ideas and model-formulated abundance are shared research; Difficult is a medium-confidence estimate for this bounded reduction.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic integer factorization from abundance decisions; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "953131e7bc1ba57edbbd69c18606160f0b1b1cb4fb5d3e779cecf028dfa373d7",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The author reports GPT-6.2 Astra identified the abundance formulation from his earlier notes and helped develop the proof after his geometric-series suggestion; direction and decisive human input are explicit. Direct primary mathematical generation and human direction were read separately from the conservative strict allocation; no autonomy or independent verification is inferred."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 12:06:26UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4350",
+        "from": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper targets deterministic graph-verification complexity in exact real arithmetic, extending earlier graph-verification and bilinear reduction work. The same-exponent claim is substantial non-routine progress; the numerical9/4 value is imported. Difficult with medium confidence reflects model/novelty scope, not a proof-correctness estimate.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "a945ab14ec12f9ca6956dd5ec11f4d5f45319975837fcd28887811a9031e9beb",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Xiangle Chen states that he initiated and organized the research while generative AI developed the core proof and assisted drafting/revision; the exact model is not surfaced. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 18:01:25UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The paper targets deterministic graph-verification complexity in exact real arithmetic, extending earlier graph-verification and bilinear reduction work. The same-exponent claim is substantial non-routine progress; the numerical9/4 value is imported. Difficult with medium confidence reflects model/novelty scope, not a proof-correctness estimate.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The specialist human frontier immediately before Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent; exclude the difficulty of imported lower bounds and broader classical P versus NP.",
+          "sourceHash": "a945ab14ec12f9ca6956dd5ec11f4d5f45319975837fcd28887811a9031e9beb",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "Xiangle Chen states that he initiated and organized the research while generative AI developed the core proof and assisted drafting/revision; the exact model is not surfaced. Direct primary mathematical generation and human direction were read separately from the conservative strict allocation; no autonomy or independent verification is inferred."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-25",
+            "dateBasis": "arXiv v1 submitted25November2026 18:01:25UTC; first observed in this retained scan after midnight27November.",
+            "originalPublicationDate": "2026-11-25",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-27",
+    "snapshotHash": "56e55607f13e632575d918a4bc08a83d072466bbdb8e3505a5b007c1ea544ba0",
+    "changes": [
+      {
+        "id": "4344",
+        "from": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4344",
+              "Daily20261126_4344_role"
+            ],
+            "sourceHash": "a2cf888a9cee0137949c9c614614a4fb458aa56ee025af194f6ed24f270aa130",
+            "assessedAt": "2026-11-27",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged. Partial independent machine-check evidence read from Toledo; no human review or local replay, no change to direct OpenAI model attribution."
+          },
+          "rationale": "The publisher family claims full long-standing arithmetic hierarchy separations, exact matrix-multiplication exponent and the fixed-petal uniform sunflower conjecture, not merely a modest bound improvement. High historical-frontier confidence is separate from proof acceptance and the documented partial formal scope. Re-read the independent Toledo audit: formal machine checks and statement bridges cover the matrix component, not the entire family, with no human mathematical review. Historical-frontier classification and provisional status remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family379: Euclidean tensor geometry and applications; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "a2cf888a9cee0137949c9c614614a4fb458aa56ee025af194f6ed24f270aa130",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First public VP/VNP commit at2026-11-24T01:14:20Z; the seven-manuscript extension was committed2026-11-25T00:04:41Z. Publisher local November23/24 labels are kept distinct from Europe/London dates.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        },
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "AI-led (reported)",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification.",
+            "evidenceSourceIds": [
+              "Daily20261126_4344",
+              "Daily20261126_4344_role"
+            ],
+            "sourceHash": "3e66e346231ef312674fd79a2f867c88c2e5ec1fdf63377f62e18c8c36183c82",
+            "assessedAt": "2026-11-27",
+            "evidenceSummary": "Direct primary mathematical AI attribution read; correctness, formal scope and any chronology questions remain separately flagged. Partial independent machine-check evidence read from Toledo; no human review or local replay, no change to direct OpenAI model attribution."
+          },
+          "rationale": "The publisher family claims full long-standing arithmetic hierarchy separations, exact matrix-multiplication exponent and the fixed-petal uniform sunflower conjecture, not merely a modest bound improvement. High historical-frontier confidence is separate from proof acceptance and the documented partial formal scope. Re-read the independent Toledo audit: formal machine checks and statement bridges cover the matrix component, not the entire family, with no human mathematical review. Historical-frontier classification and provisional status remain separate.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The pre-report human frontier for OpenAI family379: Euclidean tensor geometry and applications; compare only the explicitly bounded model, parameter range or weak target.",
+          "sourceHash": "3e66e346231ef312674fd79a2f867c88c2e5ec1fdf63377f62e18c8c36183c82",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "OpenAI identifies the collection as outputs of an unnamed internal research model, warns that validity varies, and calls the manuscripts raw research data. This is source-reported mathematical generation, not independently reconstructed autonomy or proof verification."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-26",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "First public VP/VNP commit at2026-11-24T01:14:20Z; the seven-manuscript extension was committed2026-11-25T00:04:41Z. Publisher local November23/24 labels are kept distinct from Europe/London dates.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      }
+    ]
   }
 ]
