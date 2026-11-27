@@ -6,9 +6,9 @@
     "completionEnvelopeRuleVersion": "1.0.0",
     "legacyChallengePolicyVersion": "0.1.0 (legacy source-history fields only)",
     "classificationUnit": "mathematical result",
-    "corpusStatus": "4276 source-included, AI-coded, unreviewed",
+    "corpusStatus": "4279 source-included, AI-coded, unreviewed",
     "scope": "Source-included, AI-coded, unreviewed v0.2 result corpus with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "sourceIncludedCount": 4276,
+    "sourceIncludedCount": 4279,
     "sourceIdAliases": {
       "25--1": "deletion-codes-2025:binary-two-deletion",
       "25--2": "alphaevolve-2025:matrix-4x4",
@@ -31,14 +31,14 @@
       "25--19": "human-ai-itp-2025:grover-retraction",
       "25--20": "extremal-descendant-2025:integrals"
     },
-    "recordCount": 4278,
+    "recordCount": 4281,
     "fullRecordCount": 10,
-    "minimalRecordCount": 4268,
-    "pendingTaxonomyCount": 3875,
+    "minimalRecordCount": 4271,
+    "pendingTaxonomyCount": 3878,
     "substantivelyCodedRecordCount": 403,
     "replayedHereCount": 0,
     "completionInvariantIncompleteCount": 180,
-    "ambiguousIncompleteCount": 3998,
+    "ambiguousIncompleteCount": 4001,
     "structurallyIncompleteCount": 0,
     "superhumanAssignedCount": 47,
     "superhumanReachableIncompleteCount": 24,
@@ -48,14 +48,14 @@
     "multiClaimSourceCount": 2,
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
-    "sourceCorpusRefreshedThrough": "2026-11-26",
-    "sourceCoverageNote": "Rolling20–26November plus supported backfill since20August. Fourteen collector requests succeeded; mandatory sources, new publisher releases and recent provisional records rechecked. Exhaustive full-text/historical reconciliation and remaining registry/workbench inventory are incomplete, so continuous cutoff remains20August.",
+    "sourceCorpusRefreshedThrough": "2026-11-27",
+    "sourceCoverageNote": "Search rolling20–26November and rollover27November plus gap rechecks since20August. Fourteen primary feed requests succeeded after a sandbox DNS failure was resolved with approved network access. Recent arXiv math/cs metadata, targeted AI/model searches, required zeta/Kato/Landis/Sendov14 and recent publisher history checked. Full-text and historical screening incomplete; continuous cutoff unchanged. The web tool could not retrieve Toledo omega, but direct inert HTTP retrieval succeeded. Read its dated verdict, scope and amendments; attach partial source-reported verification to4344, preserving all unresolved family concerns.",
     "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-30",
     "reviewedCorrectionCount": 176,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "dd64e66b6b2395514c253b416487575ae4abda6c84a5f74e0e3cb2da5c300638",
-      "referenceMapSha256": "6408c1cf82d77c0de7dd3d8166b3677bdcb7a9fdda1dd46ec9558eb52fe7c118",
-      "analysisLogSha256": "8f7ee9761556efc8ddc1468a7b3f46371c0778f19925dbdd69793930d37e0402"
+      "scoredLedgerSha256": "dbc24f7cd0e2755b77e264e2a03359a1bb38fe4c891d17d36901751e78dceef0",
+      "referenceMapSha256": "7ec0f01172e417460ba29834c95937aaf392bb7d90c508da9427d255a29bfa53",
+      "analysisLogSha256": "297b011b2a2877dbd3026e1cb5eb0865802fb9f44fa46292d2cb4ab8c85162e7"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -66,16 +66,16 @@
       "transitionId": "source-corpus-transition-2026-08-20-519"
     },
     "defaultLeadingIds": [
+      "4350",
+      "4349",
+      "4348",
       "4347",
       "4346",
       "4345",
       "4344",
       "4343",
       "4342",
-      "4341",
-      "4340",
-      "4339",
-      "4338"
+      "4341"
     ],
     "migrationBoundary": "Legacy 0.1.0 and policy 1.0.0 categories remain labelled source history; browse output uses policy 1.1.0 mathematical-history categories with assurance displayed separately.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -1315879,6 +1315879,15 @@
         "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/lean/docs/379.md",
         "accessed": "2026-11-26",
         "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "ToledoOmega20261125",
+        "sourceType": "paper",
+        "role": "Supporting or independent evidence",
+        "title": "Independent AI-assisted matrix-exponent audit; partial family scope, no human review",
+        "url": "https://carlostoledo.co/omega/",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
       }
     ],
     "facets": {
@@ -1315889,7 +1315898,8 @@
           "Daily20261126_4344",
           "Daily20261126_4344_first",
           "Daily20261126_4344_role",
-          "Daily20261126_4344_scope"
+          "Daily20261126_4344_scope",
+          "ToledoOmega20261125"
         ],
         "confidence": "unknown"
       },
@@ -1315902,7 +1315912,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "low"
         },
@@ -1315915,7 +1315926,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "low"
         },
@@ -1315928,7 +1315940,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "low"
         },
@@ -1315939,7 +1315952,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "unknown"
         }
@@ -1315953,7 +1315967,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "medium",
           "sourceClaimed": false
@@ -1315968,19 +1315983,23 @@
               "Daily20261126_4344",
               "Daily20261126_4344_first",
               "Daily20261126_4344_role",
-              "Daily20261126_4344_scope"
+              "Daily20261126_4344_scope",
+              "ToledoOmega20261125"
             ]
           },
           {
             "stage": "checking",
             "humanOperations": "not_reported",
-            "machineOperations": "not_reported",
-            "reconstructible": false,
+            "machineOperations": [
+              "Mechanical or model checking described by a verification event"
+            ],
+            "reconstructible": true,
             "evidenceSourceIds": [
               "Daily20261126_4344",
               "Daily20261126_4344_first",
               "Daily20261126_4344_role",
-              "Daily20261126_4344_scope"
+              "Daily20261126_4344_scope",
+              "ToledoOmega20261125"
             ]
           },
           {
@@ -1315992,7 +1316011,8 @@
               "Daily20261126_4344",
               "Daily20261126_4344_first",
               "Daily20261126_4344_role",
-              "Daily20261126_4344_scope"
+              "Daily20261126_4344_scope",
+              "ToledoOmega20261125"
             ]
           }
         ],
@@ -1316004,7 +1316024,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "medium"
         },
@@ -1316015,7 +1316036,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "unknown"
         },
@@ -1316026,17 +1316048,44 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ],
           "confidence": "unknown"
         }
       }
     },
     "verification": {
-      "status": "unknown",
-      "events": [],
-      "replayedHere": false,
-      "rationale": "Further checking: independent correctness and novelty review of each constituent result and shared dependencies; reconcile formal statements with the papers. Published Lean scope is partial: finite-dimensional tensor pricing, weaker superpolynomial HC/permanent bounds, and fixed-base uniform sunflower statements do not establish every printed quantitative/generalized claim. Several explicit rates, polynomial-multiplication lower bounds, division/square-root extensions and finite-size matrix bounds remain unformalized. No public replay was performed here. Treat the family as one source package, distinct from Anthropic4327, with no priority judgment."
+      "status": "events_recorded",
+      "events": [
+        {
+          "eventId": "verification-4344-toledo-matrix-component",
+          "familyId": "VF-FORMAL",
+          "methodId": "VM-FORMAL-PROOF-ASSISTANT-KERNEL-CHECK",
+          "target": "Matrix exponent formal statements and independently written statement bridges only, not the full publisher family",
+          "verifier": "Carlos Toledo AI-assisted audit",
+          "independence": "independent_party",
+          "scope": "partial_claim",
+          "outcome": "passed",
+          "statementCorrespondence": {
+            "relation": "equivalent",
+            "rationale": "Auditor reports blind statement bridges for the specified exponent definitions; this attribution does not establish correspondence for every manuscript.",
+            "evidenceSourceIds": [
+              "ToledoOmega20261125"
+            ]
+          },
+          "replayedHere": false,
+          "eventDate": "2026-11-25",
+          "assumptions": [
+            "Standard Lean axioms, kernels and referenced Mathlib definitions; audit-reported independence is procedural, not vendor independence."
+          ],
+          "evidenceSourceIds": [
+            "ToledoOmega20261125"
+          ],
+          "notes": "Carlos Toledo's25November audit reports independent kernel checks and blind-statement bridges for the matrix-exponent component, with later formal corollaries checked separately. This is partial-family, source-reported verification, not human mathematical review or a local replay; other family claims and correctness/novelty questions remain open."
+        }
+      ],
+      "replayedHere": false
     },
     "challengeContext": {
       "policyVersion": "1.1.0",
@@ -1316048,7 +1316097,8 @@
           "Daily20261126_4344",
           "Daily20261126_4344_first",
           "Daily20261126_4344_role",
-          "Daily20261126_4344_scope"
+          "Daily20261126_4344_scope",
+          "ToledoOmega20261125"
         ],
         "confidence": "unknown"
       },
@@ -1316061,7 +1316111,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         },
         "advance": {
@@ -1316072,7 +1316123,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         },
         "scope": {
@@ -1316083,7 +1316135,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         },
         "resistance": {
@@ -1316094,7 +1316147,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         }
       },
@@ -1316105,7 +1316159,8 @@
           "Daily20261126_4344",
           "Daily20261126_4344_first",
           "Daily20261126_4344_role",
-          "Daily20261126_4344_scope"
+          "Daily20261126_4344_scope",
+          "ToledoOmega20261125"
         ]
       },
       "solutionDate": {
@@ -1316117,7 +1316172,8 @@
           "Daily20261126_4344",
           "Daily20261126_4344_first",
           "Daily20261126_4344_role",
-          "Daily20261126_4344_scope"
+          "Daily20261126_4344_scope",
+          "ToledoOmega20261125"
         ]
       },
       "provisional": true,
@@ -1316129,7 +1316185,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         },
         "substantivePriorAttempts": {
@@ -1316139,7 +1316196,8 @@
             "Daily20261126_4344",
             "Daily20261126_4344_first",
             "Daily20261126_4344_role",
-            "Daily20261126_4344_scope"
+            "Daily20261126_4344_scope",
+            "ToledoOmega20261125"
           ]
         }
       },
@@ -1316183,7 +1316241,7 @@
       "rationale": "Dated primary result, AI connection and corpus identity read; provisional source claim, not independently verified here.",
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
-      "notes": "Further checking: independent correctness and novelty review of each constituent result and shared dependencies; reconcile formal statements with the papers. Published Lean scope is partial: finite-dimensional tensor pricing, weaker superpolynomial HC/permanent bounds, and fixed-base uniform sunflower statements do not establish every printed quantitative/generalized claim. Several explicit rates, polynomial-multiplication lower bounds, division/square-root extensions and finite-size matrix bounds remain unformalized. No public replay was performed here. Treat the family as one source package, distinct from Anthropic4327, with no priority judgment. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
+      "notes": "Further checking: independent correctness and novelty review of each constituent result and shared dependencies; reconcile formal statements with the papers. Published Lean scope is partial: finite-dimensional tensor pricing, weaker superpolynomial HC/permanent bounds, and fixed-base uniform sunflower statements do not establish every printed quantitative/generalized claim. Several explicit rates, polynomial-multiplication lower bounds, division/square-root extensions and finite-size matrix bounds remain unformalized. No public replay was performed here. Treat the family as one source package, distinct from Anthropic4327, with no priority judgment. Carlos Toledo's25November audit reports independent kernel checks and blind-statement bridges for the matrix-exponent component, with later formal corollaries checked separately. This is partial-family, source-reported verification, not human mathematical review or a local replay; other family claims and correctness/novelty questions remain open. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
     }
   },
   "4345": {
@@ -1317180,6 +1317238,946 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Further checking: Independently check the finite-group-to-monoid K-theory argument, realization input, examples and novelty. The realization input is an unrefereed preprint. Nothing is formalized and no human has checked the text; AI re-proofs and program reports are not independent specialist verification. The deposit is in moderation. No downloaded program was executed here. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
+    }
+  },
+  "4348": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4348",
+    "sourceIncludedId": "4348",
+    "claim": "The authors report: Conditional on the cited permanent border-complexity lower bound and other stated literature inputs, the paper reports that permanent graphs separate NP_R, coNP_R, Sigma2_R and Boolean-message BIP_R from PAR_R, with analogous complex existential/universal separations. It also reports graph-to-border-complexity transfer theorems and AM_R[O(1)]=NP_R. These are BSS real/complex-model claims, not classical P versus NP.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127_4348",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "NP_R versus PAR_R: permanent certificate and interactive-proof separations — primary result and AI contribution",
+        "url": "https://github.com/samueleverett01/bss-permanent-separations/blob/2d755f1e57269cf8629fee84d16d66453b06e369/README.md",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127_4348_first",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version and date basis",
+        "url": "https://github.com/samueleverett01/bss-permanent-separations/commit/0c14458fa32e9e066a5e08bde76c5109ed17a6ee",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261127_4348_scope",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Conditional Lean scope and exact imported hypotheses",
+        "url": "https://github.com/samueleverett01/bss-permanent-separations/blob/2d755f1e57269cf8629fee84d16d66453b06e369/lean/README.md",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261127_4348_owner",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Author profile linking personal site and repository",
+        "url": "https://github.com/samueleverett01",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (68) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127_4348",
+          "Daily20261127_4348_first",
+          "Daily20261127_4348_scope",
+          "Daily20261127_4348_owner"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: Conditional on the cited permanent border-complexity lower bound and other stated literature inputs, the paper reports that permanent graphs separate NP_R, coNP_R, Sigma2_R and Boolean-message BIP_R from PAR_R, with analogous complex existential/universal separations. It also reports graph-to-border-complexity transfer theorems and AM_R[O(1)]=NP_R. These are BSS real/complex-model claims, not classical P versus NP.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. Conditional on the cited permanent border-complexity lower bound and other stated literature inputs, the paper reports that permanent graphs separate NP_R, coNP_R, Sigma2_R and Boolean-message BIP_R from PAR_R, with analogous complex existential/universal separations. It also reports graph-to-border-complexity transfer theorems and AM_R[O(1)]=NP_R. These are BSS real/complex-model claims, not classical P versus NP.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: Conditional on the cited permanent border-complexity lower bound and other stated literature inputs, the paper reports that permanent graphs separate NP_R, coNP_R, Sigma2_R and Boolean-message BIP_R from PAR_R, with analogous complex existential/universal separations. It also reports graph-to-border-complexity transfer theorems and AM_R[O(1)]=NP_R. These are BSS real/complex-model claims, not classical P versus NP.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "Samuel Everett reports that Claude Fable5.2 found the proofs in conversation under his guidance, extending earlier ChatGPT Astra6.2 ideas; Claude also drafted the paper. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4348",
+              "Daily20261127_4348_first",
+              "Daily20261127_4348_scope",
+              "Daily20261127_4348_owner"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4348",
+              "Daily20261127_4348_first",
+              "Daily20261127_4348_scope",
+              "Daily20261127_4348_owner"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": [
+              "Drafting or write-up assistance described in the production evidence"
+            ],
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20261127_4348",
+              "Daily20261127_4348_first",
+              "Daily20261127_4348_scope",
+              "Daily20261127_4348_owner"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Samuel Everett reports that Claude Fable5.2 found the proofs in conversation under his guidance, extending earlier ChatGPT Astra6.2 ideas; Claude also drafted the paper.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently audit the graph-transfer arguments, model definitions, uniformity and claimed separations; verify every cited hypothesis, especially the recent Anthropic permanent border lower bound. The reported Lean formalization takes SAFacts, PermLowerBound, BurgisserThm, EffectiveQE, CountingBound and ClassFacts as explicit hypotheses; it is not an unconditional end-to-end proof of those inputs. The squarefree-part side result is unformalized. The paper is unrefereed and some bibliographic attributions remain unchecked; no artifact was executed here."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: Conditional on the cited permanent border-complexity lower bound and other stated literature inputs, the paper reports that permanent graphs separate NP_R, coNP_R, Sigma2_R and Boolean-message BIP_R from PAR_R, with analogous complex existential/universal separations. It also reports graph-to-border-complexity transfer theorems and AM_R[O(1)]=NP_R. These are BSS real/complex-model claims, not classical P versus NP.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127_4348",
+          "Daily20261127_4348_first",
+          "Daily20261127_4348_scope",
+          "Daily20261127_4348_owner"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Earliest repository paper commit26November01:46:58UTC; public repository created02:36:13UTC. First-public day26November is supported without equating author timestamp with public availability. Owner profile links samueleverett.com and the pinned repository.",
+        "evidenceSourceIds": [
+          "Daily20261127_4348",
+          "Daily20261127_4348_first",
+          "Daily20261127_4348_scope",
+          "Daily20261127_4348_owner"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127_4348",
+          "Daily20261127_4348_first",
+          "Daily20261127_4348_scope",
+          "Daily20261127_4348_owner"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127_4348",
+            "Daily20261127_4348_first",
+            "Daily20261127_4348_scope",
+            "Daily20261127_4348_owner"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated primary claim and direct mathematical AI attribution; provisional pending the stated checks.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently audit the graph-transfer arguments, model definitions, uniformity and claimed separations; verify every cited hypothesis, especially the recent Anthropic permanent border lower bound. The reported Lean formalization takes SAFacts, PermLowerBound, BurgisserThm, EffectiveQE, CountingBound and ClassFacts as explicit hypotheses; it is not an unconditional end-to-end proof of those inputs. The squarefree-part side result is unformalized. The paper is unrefereed and some bibliographic attributions remain unchecked; no artifact was executed here."
+    }
+  },
+  "4349": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4349",
+    "sourceIncludedId": "4349",
+    "claim": "The authors report: The paper reports deterministic polynomial-time Turing equivalence between complete integer factorization and deciding abundance, with O(log^4 n) adaptive abundance queries on O(log^6 n)-bit integers. This is an oracle reduction, not a polynomial-time factoring algorithm without the oracle.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127_4349",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Deterministic integer factorization from abundance decisions — primary result and AI contribution",
+        "url": "https://arxiv.org/html/2611.34242v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127_4349_first",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version and date basis",
+        "url": "https://arxiv.org/abs/2611.34242v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (11) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127_4349",
+          "Daily20261127_4349_first"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: The paper reports deterministic polynomial-time Turing equivalence between complete integer factorization and deciding abundance, with O(log^4 n) adaptive abundance queries on O(log^6 n)-bit integers. This is an oracle reduction, not a polynomial-time factoring algorithm without the oracle.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. The paper reports deterministic polynomial-time Turing equivalence between complete integer factorization and deciding abundance, with O(log^4 n) adaptive abundance queries on O(log^6 n)-bit integers. This is an oracle reduction, not a polynomial-time factoring algorithm without the oracle.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The paper reports deterministic polynomial-time Turing equivalence between complete integer factorization and deciding abundance, with O(log^4 n) adaptive abundance queries on O(log^6 n)-bit integers. This is an oracle reduction, not a polynomial-time factoring algorithm without the oracle.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The author reports GPT-6.2 Astra identified the abundance formulation from his earlier notes and helped develop the proof after his geometric-series suggestion; direction and decisive human input are explicit. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4349",
+              "Daily20261127_4349_first"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4349",
+              "Daily20261127_4349_first"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4349",
+              "Daily20261127_4349_first"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The author reports GPT-6.2 Astra identified the abundance formulation from his earlier notes and helped develop the proof after his geometric-series suggestion; direction and decisive human input are explicit.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently verify coprime-multiplier construction, deterministic uniformity, divisor-sum recurrence reconstruction and bit/query bounds, and novelty against earlier divisor-sum factoring reductions. No formal proof or independent specialist verification was established from the retrieved evidence; retain the oracle qualification and shared human/model role."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: The paper reports deterministic polynomial-time Turing equivalence between complete integer factorization and deciding abundance, with O(log^4 n) adaptive abundance queries on O(log^6 n)-bit integers. This is an oracle reduction, not a polynomial-time factoring algorithm without the oracle.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127_4349",
+          "Daily20261127_4349_first"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "arXiv v1 submitted25November2026 12:06:26UTC; first observed in this retained scan after midnight27November.",
+        "evidenceSourceIds": [
+          "Daily20261127_4349",
+          "Daily20261127_4349_first"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127_4349",
+          "Daily20261127_4349_first"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127_4349",
+            "Daily20261127_4349_first"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated primary claim and direct mathematical AI attribution; provisional pending the stated checks.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently verify coprime-multiplier construction, deterministic uniformity, divisor-sum recurrence reconstruction and bit/query bounds, and novelty against earlier divisor-sum factoring reductions. No formal proof or independent specialist verification was established from the retrieved evidence; retain the oracle qualification and shared human/model role."
+    }
+  },
+  "4350": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4350",
+    "sourceIncludedId": "4350",
+    "claim": "The authors report: For exact real arithmetic decision trees charging arithmetic operations and tests, the paper reports deterministic matrix-product verification has the same optimal exponent omega_C as multiplication. The numerical Omega(n^(9/4)) corollary assumes OpenAI's exponent and fixed-size border-rank claims; the general bilinear graph theorem reports real border rank O(s) for a cost-s verifier. Fixed positive characteristic is not covered.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127_4350",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent — primary result and AI contribution",
+        "url": "https://arxiv.org/html/2611.34814v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127_4350_first",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version and date basis",
+        "url": "https://arxiv.org/abs/2611.34814v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (68) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127_4350",
+          "Daily20261127_4350_first"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: For exact real arithmetic decision trees charging arithmetic operations and tests, the paper reports deterministic matrix-product verification has the same optimal exponent omega_C as multiplication. The numerical Omega(n^(9/4)) corollary assumes OpenAI's exponent and fixed-size border-rank claims; the general bilinear graph theorem reports real border rank O(s) for a cost-s verifier. Fixed positive characteristic is not covered.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. For exact real arithmetic decision trees charging arithmetic operations and tests, the paper reports deterministic matrix-product verification has the same optimal exponent omega_C as multiplication. The numerical Omega(n^(9/4)) corollary assumes OpenAI's exponent and fixed-size border-rank claims; the general bilinear graph theorem reports real border rank O(s) for a cost-s verifier. Fixed positive characteristic is not covered.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: For exact real arithmetic decision trees charging arithmetic operations and tests, the paper reports deterministic matrix-product verification has the same optimal exponent omega_C as multiplication. The numerical Omega(n^(9/4)) corollary assumes OpenAI's exponent and fixed-size border-rank claims; the general bilinear graph theorem reports real border rank O(s) for a cost-s verifier. Fixed positive characteristic is not covered.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "Xiangle Chen states that he initiated and organized the research while generative AI developed the core proof and assisted drafting/revision; the exact model is not surfaced. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4350",
+              "Daily20261127_4350_first"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127_4350",
+              "Daily20261127_4350_first"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": [
+              "Drafting or write-up assistance described in the production evidence"
+            ],
+            "reconstructible": true,
+            "evidenceSourceIds": [
+              "Daily20261127_4350",
+              "Daily20261127_4350_first"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Xiangle Chen states that he initiated and organized the research while generative AI developed the core proof and assisted drafting/revision; the exact model is not surfaced.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently reconstruct the accepting-path perturbation, derivative convergence and shared-circuit rank argument; check exact model and formal-to-standard statement correspondence. The9/4 corollary depends on the recent OpenAI lower bound, not an independently established input here. Verify novelty against the cited1992 graph-verification question and later reductions. No formal or independent specialist verification was established; model version is not surfaced."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: For exact real arithmetic decision trees charging arithmetic operations and tests, the paper reports deterministic matrix-product verification has the same optimal exponent omega_C as multiplication. The numerical Omega(n^(9/4)) corollary assumes OpenAI's exponent and fixed-size border-rank claims; the general bilinear graph theorem reports real border rank O(s) for a cost-s verifier. Fixed positive characteristic is not covered.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127_4350",
+          "Daily20261127_4350_first"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "arXiv v1 submitted25November2026 18:01:25UTC; first observed in this retained scan after midnight27November.",
+        "evidenceSourceIds": [
+          "Daily20261127_4350",
+          "Daily20261127_4350_first"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127_4350",
+          "Daily20261127_4350_first"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127_4350",
+            "Daily20261127_4350_first"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated primary claim and direct mathematical AI attribution; provisional pending the stated checks.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently reconstruct the accepting-path perturbation, derivative convergence and shared-circuit rank argument; check exact model and formal-to-standard statement correspondence. The9/4 corollary depends on the recent OpenAI lower bound, not an independently established input here. Verify novelty against the cited1992 graph-verification question and later reductions. No formal or independent specialist verification was established; model version is not surfaced."
     }
   }
 }

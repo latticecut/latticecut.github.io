@@ -68091,6 +68091,12 @@
       "title": "Published partial Lean scope for family379",
       "url": "https://github.com/openai/math/blob/92b516ef8e2abf66c3db7aa31438d3010bc7956f/lean/docs/379.md",
       "accessed": "2026-11-26"
+    },
+    {
+      "key": "ToledoOmega20261125",
+      "title": "Independent AI-assisted matrix-exponent audit; partial family scope, no human review",
+      "url": "https://carlostoledo.co/omega/",
+      "accessed": "2026-11-27"
     }
   ],
   "4345": [
@@ -68157,6 +68163,60 @@
       "title": "Primary workbench ownership, AI attribution and deposit record",
       "url": "https://github.com/KokunoYumeto/mathematics-workbenches/blob/6855514dd6542a3dc8495ad3ec52a4cfdd96063d/works/WB-0013.md",
       "accessed": "2026-11-26"
+    }
+  ],
+  "4348": [
+    {
+      "key": "Daily20261127_4348",
+      "title": "NP_R versus PAR_R: permanent certificate and interactive-proof separations — primary result and AI contribution",
+      "url": "https://github.com/samueleverett01/bss-permanent-separations/blob/2d755f1e57269cf8629fee84d16d66453b06e369/README.md",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127_4348_first",
+      "title": "First-public version and date basis",
+      "url": "https://github.com/samueleverett01/bss-permanent-separations/commit/0c14458fa32e9e066a5e08bde76c5109ed17a6ee",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127_4348_scope",
+      "title": "Conditional Lean scope and exact imported hypotheses",
+      "url": "https://github.com/samueleverett01/bss-permanent-separations/blob/2d755f1e57269cf8629fee84d16d66453b06e369/lean/README.md",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127_4348_owner",
+      "title": "Author profile linking personal site and repository",
+      "url": "https://github.com/samueleverett01",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4349": [
+    {
+      "key": "Daily20261127_4349",
+      "title": "Deterministic integer factorization from abundance decisions — primary result and AI contribution",
+      "url": "https://arxiv.org/html/2611.34242v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127_4349_first",
+      "title": "First-public version and date basis",
+      "url": "https://arxiv.org/abs/2611.34242v1",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4350": [
+    {
+      "key": "Daily20261127_4350",
+      "title": "Deterministic Verification and Computation of Real Matrix Products Have the Same Arithmetic Exponent — primary result and AI contribution",
+      "url": "https://arxiv.org/html/2611.34814v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127_4350_first",
+      "title": "First-public version and date basis",
+      "url": "https://arxiv.org/abs/2611.34814v1",
+      "accessed": "2026-11-27"
     }
   ]
 }
