@@ -34116,6 +34116,16 @@
       ]
     },
     {
+      "id": "4355",
+      "category": "Superhuman",
+      "confidence": "high",
+      "placement": "best-estimate",
+      "priority": 1,
+      "reasons": [
+        "Apparent breakthrough: check human comparator, novelty, proof scope and AI contribution"
+      ]
+    },
+    {
       "id": "gpt5-science-2025:erdos-848",
       "category": "Superhuman",
       "confidence": "high",
@@ -43318,6 +43328,46 @@
     },
     {
       "id": "4350",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4351",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4352",
+      "category": "Expected",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "AI contribution not established"
+      ]
+    },
+    {
+      "id": "4353",
+      "category": "Difficult",
+      "confidence": "medium",
+      "placement": "best-estimate",
+      "priority": 3,
+      "reasons": [
+        "Possible breakthrough / disputed difficulty"
+      ]
+    },
+    {
+      "id": "4354",
       "category": "Difficult",
       "confidence": "medium",
       "placement": "best-estimate",
