@@ -68197,5 +68197,87 @@
       "url": "https://arxiv.org/abs/2611.34814v1",
       "accessed": "2026-11-27"
     }
+  ],
+  "4351": [
+    {
+      "key": "Daily20261127eod_4351",
+      "title": "Normal Homogeneous Counterexamples to Wolf's Homogeneity Conjecture — primary claim and AI attribution",
+      "url": "https://arxiv.org/html/2611.28771v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4351_first",
+      "title": "First-public version/date basis",
+      "url": "https://arxiv.org/abs/2611.28771v1",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4352": [
+    {
+      "key": "Daily20261127eod_4352",
+      "title": "Vanishing bond-percolation threshold implies vanishing contact-process threshold — primary claim and AI attribution",
+      "url": "https://arxiv.org/html/2611.27354v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4352_first",
+      "title": "First-public version/date basis",
+      "url": "https://arxiv.org/abs/2611.27354v1",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4353": [
+    {
+      "key": "Daily20261127eod_4353",
+      "title": "AlphaProof Nexus tensor-algebraic GHZ obstruction for D at least N — primary claim and AI attribution",
+      "url": "https://arxiv.org/html/2611.26300v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4353_first",
+      "title": "First-public version/date basis",
+      "url": "https://github.com/google-deepmind/formal-conjectures/pull/3843",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4353_formal",
+      "title": "Pinned April partial formal proof",
+      "url": "https://github.com/google-deepmind/formal-conjectures/blob/b52731511180879ddf8020c60b35493599591c10/FormalConjectures/Paper/MonochromaticQuantumGraph.lean",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4354": [
+    {
+      "key": "Daily20261127eod_4354",
+      "title": "Generic lattice Hohenberg-Kohn and time-dependent density-potential results — primary claim and AI attribution",
+      "url": "https://arxiv.org/html/2611.32370v1",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4354_first",
+      "title": "First-public version/date basis",
+      "url": "https://arxiv.org/abs/2611.32370v1",
+      "accessed": "2026-11-27"
+    }
+  ],
+  "4355": [
+    {
+      "key": "Daily20261127eod_4355",
+      "title": "Full complex-weighted Krenn-Gu conjecture for even N at least six — primary claim and AI attribution",
+      "url": "https://github.com/rrajasek95/krenn-conjecture/blob/ae4d76b08a6d59c1f134de0b52bed2f44cb844b6/README.md",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4355_first",
+      "title": "First-public version/date basis",
+      "url": "https://github.com/rrajasek95/krenn-conjecture/commit/e66211d22978927f1c761997472fa9f5cf8f9421",
+      "accessed": "2026-11-27"
+    },
+    {
+      "key": "Daily20261127eod_4355_role",
+      "title": "Author AI roles, external proof and independent replay reports",
+      "url": "https://github.com/google-deepmind/formal-conjectures/pull/6627",
+      "accessed": "2026-11-27"
+    }
   ]
 }

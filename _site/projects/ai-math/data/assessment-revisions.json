@@ -232588,5 +232588,167 @@
         }
       }
     ]
+  },
+  {
+    "version": "1.2.0",
+    "assessedAt": "2026-11-27",
+    "snapshotHash": "c3d34bb5585d4bf1b9a47200a5a9268df82a9dbfad9f3a4de7f6b4d3273fd20e",
+    "changes": [
+      {
+        "id": "4351",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "New normal-homogeneous examples and full centralizer calculations are non-routine, but the general Wolf conjecture was already false. Difficult describes only the narrower construction.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human frontier before Normal Homogeneous Counterexamples to Wolf's Homogeneity Conjecture; only the stated model and range, not a broader parent conjecture.",
+          "sourceHash": "c7fde89c85850a41e03647b499e6b4bf729ee34cf51c63a586935385c003ef37",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The authors directly attribute discovery of the examples to ChatGPT6 Astra; proof-writing and checking allocation is not reconstructed. Preserve direct mathematical attribution separately from conservative strict allocation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-21",
+            "dateBasis": "arXiv v1 submitted21November2026 12:29:25UTC; dated primary paper supports this report day.",
+            "originalPublicationDate": "2026-11-21",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4352",
+        "from": null,
+        "to": {
+          "category": "Expected",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "A quantitative proof of an implication previously asserted informally is useful normal-specialist research. Expected is a medium-confidence comparator, not a triviality or correctness verdict.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human frontier before Vanishing bond-percolation threshold implies vanishing contact-process threshold; only the stated model and range, not a broader parent conjecture.",
+          "sourceHash": "acf0c87fbd0c297700cf8c7c28d7a1914c0c9988935cd4a53f0f49afe8e9a99b",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Not established",
+            "basis": "insufficient allocation evidence",
+            "rationale": "The authors acknowledge substantial Claude and ChatGPT/Codex assistance and say they checked all statements and proofs; exact models and mathematical-versus-expository allocation are not specified."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-20",
+            "dateBasis": "arXiv v1 submitted20November2026 09:25:37UTC; metadata observed27November, a current-window/backfill check.",
+            "originalPublicationDate": "2026-11-20",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4353",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "The April unrestricted complex-weight D>=N obstruction was substantial partial progress but left the intermediate D>=3 range open. Difficult refers to that bounded prior frontier, not the later November exposition.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human frontier before AlphaProof Nexus tensor-algebraic GHZ obstruction for D at least N; only the stated model and range, not a broader parent conjecture.",
+          "sourceHash": "055e1f054d4517cbbc72b51d800c003f227f394cf8e9a7c3771e888b7824c179",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "AI-led (reported)",
+            "basis": "source-pinned reported attribution; not reconstructed",
+            "rationale": "The primary paper attributes discovery of the formal proof and its tensor-algebraic argument to AlphaProof Nexus, followed by human mathematical/physical interpretation. Preserve direct mathematical attribution separately from conservative strict allocation."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-04-27",
+            "dateBasis": "Official first full D=N proof PR3843 opened27April2026 07:41:40UTC, merged28April; head b52731511180879ddf8020c60b35493599591c10. The19November arXiv paper retrospectively labels this April work. Discovery and exposition dates remain distinct.",
+            "originalPublicationDate": "2026-04-27",
+            "collectionKind": "backfill"
+          }
+        }
+      },
+      {
+        "id": "4354",
+        "from": null,
+        "to": {
+          "category": "Difficult",
+          "confidence": "medium",
+          "placement": "best-estimate",
+          "rationale": "New generic finite-lattice and TDDFT results go beyond known counterexamples and known-result formalization. Difficult reflects structural progress under finite/sign/local hypotheses.",
+          "alternatives": [
+            "Expected",
+            "Superhuman"
+          ],
+          "comparator": "The human frontier before Generic lattice Hohenberg-Kohn and time-dependent density-potential results; only the stated model and range, not a broader parent conjecture.",
+          "sourceHash": "9c383575d9b12f934c2d018f7dfbca60b8371c2d227c9881e3b0f68fc0b2ed82",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Human-led / AI assisting",
+            "basis": "coded allocation",
+            "rationale": "Claude assisted writing the Lean proofs and initial manuscript; the authors retain problem selection, mathematical strategy and statement-to-physics checking. The exact Claude version is not surfaced."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-11-24",
+            "dateBasis": "arXiv v1 submitted24November2026 10:40:24UTC; classify only the new results marked by the paper, not its known-mathematics formalizations.",
+            "originalPublicationDate": "2026-11-24",
+            "collectionKind": "new"
+          }
+        }
+      },
+      {
+        "id": "4355",
+        "from": null,
+        "to": {
+          "category": "Superhuman",
+          "confidence": "high",
+          "placement": "best-estimate",
+          "frontierContribution": {
+            "status": "material",
+            "role": "Shared (reported)",
+            "rationale": "The author says GPT6 Astra completed the proof after earlier Claude/GPT attempts; Claude Fable5.2 ported and packaged it. Work was human-directed, with no human expert mathematical review claimed. The official primary thread attributes proof completion, not just editing, to GPT6 Astra.",
+            "evidenceSourceIds": [
+              "Daily20261127eod_4355",
+              "Daily20261127eod_4355_role"
+            ],
+            "sourceHash": "4a5a88ff524dad92702e65ad3df03430a901c283957bb8a86b52705673c856e6",
+            "assessedAt": "2026-11-27",
+            "evidenceSummary": "Direct mathematical AI attribution read; September proof distinguished from November port/registration. No human expert review or local replay inferred."
+          },
+          "rationale": "Full resolution of the explicit2017 unrestricted complex-weight conjecture for all evenN>=6 andD>=3, with the known four-vertex exception, is an exact multi-year frontier settlement. High historical classification confidence is separate from correctness, expert review and provisional status.",
+          "alternatives": [
+            "Difficult"
+          ],
+          "comparator": "The human frontier before Full complex-weighted Krenn-Gu conjecture for even N at least six; only the stated model and range, not a broader parent conjecture.",
+          "sourceHash": "4a5a88ff524dad92702e65ad3df03430a901c283957bb8a86b52705673c856e6",
+          "assessedAt": "2026-11-27",
+          "contribution": {
+            "label": "Shared (reported)",
+            "basis": "individual source reading; reported allocation, not reconstructed",
+            "rationale": "The author says GPT6 Astra completed the proof after earlier Claude/GPT attempts; Claude Fable5.2 ported and packaged it. Work was human-directed, with no human expert mathematical review claimed. The official primary thread attributes proof completion, not just editing, to GPT6 Astra."
+          },
+          "collection": {
+            "firstCollectedDate": "2026-11-27",
+            "reportedDate": "2026-09-26",
+            "dateBasis": "First all-orders written proof commit26September2026 23:33:16UTC; initial formalization23:56. Complete Lean proof commit7f78a17ecedd245bd1c17b0dce3f6a9ea2afd66f is27September02:49. Official PR6627 and November paper corroborate the September origin; November27 registration is a verification event.",
+            "originalPublicationDate": "2026-09-26",
+            "collectionKind": "backfill"
+          }
+        }
+      }
+    ]
   }
 ]

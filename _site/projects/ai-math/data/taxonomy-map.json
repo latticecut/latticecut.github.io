@@ -6,9 +6,9 @@
     "completionEnvelopeRuleVersion": "1.0.0",
     "legacyChallengePolicyVersion": "0.1.0 (legacy source-history fields only)",
     "classificationUnit": "mathematical result",
-    "corpusStatus": "4279 source-included, AI-coded, unreviewed",
+    "corpusStatus": "4284 source-included, AI-coded, unreviewed",
     "scope": "Source-included, AI-coded, unreviewed v0.2 result corpus with ten retained Full profiles and evidence-backed Minimal profiles for every other result.",
-    "sourceIncludedCount": 4279,
+    "sourceIncludedCount": 4284,
     "sourceIdAliases": {
       "25--1": "deletion-codes-2025:binary-two-deletion",
       "25--2": "alphaevolve-2025:matrix-4x4",
@@ -31,14 +31,14 @@
       "25--19": "human-ai-itp-2025:grover-retraction",
       "25--20": "extremal-descendant-2025:integrals"
     },
-    "recordCount": 4281,
+    "recordCount": 4286,
     "fullRecordCount": 10,
-    "minimalRecordCount": 4271,
-    "pendingTaxonomyCount": 3878,
+    "minimalRecordCount": 4276,
+    "pendingTaxonomyCount": 3883,
     "substantivelyCodedRecordCount": 403,
     "replayedHereCount": 0,
     "completionInvariantIncompleteCount": 180,
-    "ambiguousIncompleteCount": 4001,
+    "ambiguousIncompleteCount": 4006,
     "structurallyIncompleteCount": 0,
     "superhumanAssignedCount": 47,
     "superhumanReachableIncompleteCount": 24,
@@ -49,13 +49,13 @@
     "unusedFutureOverlayCount": 0,
     "sourceCorpusCollectionEnded": "2026-08-20",
     "sourceCorpusRefreshedThrough": "2026-11-27",
-    "sourceCoverageNote": "Search rolling20–26November and rollover27November plus gap rechecks since20August. Fourteen primary feed requests succeeded after a sandbox DNS failure was resolved with approved network access. Recent arXiv math/cs metadata, targeted AI/model searches, required zeta/Kato/Landis/Sendov14 and recent publisher history checked. Full-text and historical screening incomplete; continuous cutoff unchanged. The web tool could not retrieve Toledo omega, but direct inert HTTP retrieval succeeded. Read its dated verdict, scope and amendments; attach partial source-reported verification to4344, preserving all unresolved family concerns.",
+    "sourceCoverageNote": "Rolling21–27November plus supported backfill since20August and earlier first-public pins recovered from current papers. All14 mandatory/feed requests succeeded; recent arXiv metadata and targeted AI/model searches checked. Six prior metadata leads adjudicated: four qualifying results and two exclusions, plus one full-range GHZ package discovered from the partial-result paper. Full-text/historical/registry and Rule30 screening remain incomplete; continuous cutoff unchanged.",
     "reviewedCorrectionSetId": "reviewed-source-corrections-2026-10-30",
     "reviewedCorrectionCount": 176,
     "sourceSnapshot": {
-      "scoredLedgerSha256": "dbc24f7cd0e2755b77e264e2a03359a1bb38fe4c891d17d36901751e78dceef0",
-      "referenceMapSha256": "7ec0f01172e417460ba29834c95937aaf392bb7d90c508da9427d255a29bfa53",
-      "analysisLogSha256": "297b011b2a2877dbd3026e1cb5eb0865802fb9f44fa46292d2cb4ab8c85162e7"
+      "scoredLedgerSha256": "285e9b86e92a68dbf4b8b210f9d3f94cf12615552fa95913476ea554859ae989",
+      "referenceMapSha256": "6e7610d38eb1c79f0fc7dfe253939cd03e585e22585811b2b47a7edfc10f66e2",
+      "analysisLogSha256": "a6cf2ed027f9bd9680e01b3a4b7c6cb87521e1ef533e599cf124a2aad96ab406"
     },
     "growthValidationBaseline": {
       "baselineId": "source-corpus-2026-08-15",
@@ -66,16 +66,16 @@
       "transitionId": "source-corpus-transition-2026-08-20-519"
     },
     "defaultLeadingIds": [
+      "4355",
+      "4354",
+      "4353",
+      "4352",
+      "4351",
       "4350",
       "4349",
       "4348",
       "4347",
-      "4346",
-      "4345",
-      "4344",
-      "4343",
-      "4342",
-      "4341"
+      "4346"
     ],
     "migrationBoundary": "Legacy 0.1.0 and policy 1.0.0 categories remain labelled source history; browse output uses policy 1.1.0 mathematical-history categories with assurance displayed separately.",
     "reviewBoundary": "All AI-assisted corpus codings remain unreviewed until the published two-human-coder release gate is completed."
@@ -1318178,6 +1318178,1524 @@
       "reviewStatus": "unreviewed",
       "reviewer": "unknown",
       "notes": "Further checking: Independently reconstruct the accepting-path perturbation, derivative convergence and shared-circuit rank argument; check exact model and formal-to-standard statement correspondence. The9/4 corollary depends on the recent OpenAI lower bound, not an independently established input here. Verify novelty against the cited1992 graph-verification question and later reductions. No formal or independent specialist verification was established; model version is not surfaced."
+    }
+  },
+  "4351": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4351",
+    "sourceIncludedId": "4351",
+    "claim": "The authors report: The paper reports free order-two Clifford-Wolf actions on SO(N)/product SO(d_i), with the normal Killing metric, whose quotients are nonhomogeneous, for N>=4, odd q>=3 and at least one d_i>=2. It computes centralizers and cohomogeneity. This is a new normal-homogeneous family, not the first refutation of the general conjecture.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127eod_4351",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Normal Homogeneous Counterexamples to Wolf's Homogeneity Conjecture — primary claim and AI attribution",
+        "url": "https://arxiv.org/html/2611.28771v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4351_first",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version/date basis",
+        "url": "https://arxiv.org/abs/2611.28771v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (53) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4351",
+          "Daily20261127eod_4351_first"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: The paper reports free order-two Clifford-Wolf actions on SO(N)/product SO(d_i), with the normal Killing metric, whose quotients are nonhomogeneous, for N>=4, odd q>=3 and at least one d_i>=2. It computes centralizers and cohomogeneity. This is a new normal-homogeneous family, not the first refutation of the general conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. The paper reports free order-two Clifford-Wolf actions on SO(N)/product SO(d_i), with the normal Killing metric, whose quotients are nonhomogeneous, for N>=4, odd q>=3 and at least one d_i>=2. It computes centralizers and cohomogeneity. This is a new normal-homogeneous family, not the first refutation of the general conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The paper reports free order-two Clifford-Wolf actions on SO(N)/product SO(d_i), with the normal Killing metric, whose quotients are nonhomogeneous, for N>=4, odd q>=3 and at least one d_i>=2. It computes centralizers and cohomogeneity. This is a new normal-homogeneous family, not the first refutation of the general conjecture.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The authors directly attribute discovery of the examples to ChatGPT6 Astra; proof-writing and checking allocation is not reconstructed. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4351",
+              "Daily20261127eod_4351_first"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4351",
+              "Daily20261127eod_4351_first"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4351",
+              "Daily20261127eod_4351_first"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The authors directly attribute discovery of the examples to ChatGPT6 Astra; proof-writing and checking allocation is not reconstructed.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently verify global displacement, full connected isometry-group/centralizer calculations and all dimension exceptions. Compare novelty with the prior Xu-Deng counterexamples explicitly acknowledged by the paper; do not claim first disproof of the general conjecture. Clarify which construction and proof steps came from the model and whether any independent specialist review exists."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: The paper reports free order-two Clifford-Wolf actions on SO(N)/product SO(d_i), with the normal Killing metric, whose quotients are nonhomogeneous, for N>=4, odd q>=3 and at least one d_i>=2. It computes centralizers and cohomogeneity. This is a new normal-homogeneous family, not the first refutation of the general conjecture.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4351",
+          "Daily20261127eod_4351_first"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "arXiv v1 submitted21November2026 12:29:25UTC; dated primary paper supports this report day.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4351",
+          "Daily20261127eod_4351_first"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4351",
+          "Daily20261127eod_4351_first"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4351",
+            "Daily20261127eod_4351_first"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated identifiable primary result and direct AI connection; unresolved scope/novelty/verification questions are explicit.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently verify global displacement, full connected isometry-group/centralizer calculations and all dimension exceptions. Compare novelty with the prior Xu-Deng counterexamples explicitly acknowledged by the paper; do not claim first disproof of the general conjecture. Clarify which construction and proof steps came from the model and whether any independent specialist review exists. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
+    }
+  },
+  "4352": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4352",
+    "sourceIncludedId": "4352",
+    "claim": "The authors report: On every infinite locally finite connected graph, for0<p<=1/2 and infection rate lambda>=20p, contact-process survival probability is at least three quarters of bond-percolation probability. Thus pc=0 implies lambdac=0. The paper distinguishes SIR, for which the implication fails.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127eod_4352",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Vanishing bond-percolation threshold implies vanishing contact-process threshold — primary claim and AI attribution",
+        "url": "https://arxiv.org/html/2611.27354v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4352_first",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version/date basis",
+        "url": "https://arxiv.org/abs/2611.27354v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (60) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4352",
+          "Daily20261127eod_4352_first"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: On every infinite locally finite connected graph, for0<p<=1/2 and infection rate lambda>=20p, contact-process survival probability is at least three quarters of bond-percolation probability. Thus pc=0 implies lambdac=0. The paper distinguishes SIR, for which the implication fails.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. On every infinite locally finite connected graph, for0<p<=1/2 and infection rate lambda>=20p, contact-process survival probability is at least three quarters of bond-percolation probability. Thus pc=0 implies lambdac=0. The paper distinguishes SIR, for which the implication fails.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: On every infinite locally finite connected graph, for0<p<=1/2 and infection rate lambda>=20p, contact-process survival probability is at least three quarters of bond-percolation probability. Thus pc=0 implies lambdac=0. The paper distinguishes SIR, for which the implication fails.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "not_reported",
+          "rationale": "The authors acknowledge substantial Claude and ChatGPT/Codex assistance and say they checked all statements and proofs; exact models and mathematical-versus-expository allocation are not specified.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "unknown"
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4352",
+              "Daily20261127eod_4352_first"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4352",
+              "Daily20261127eod_4352_first"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4352",
+              "Daily20261127eod_4352_first"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The authors acknowledge substantial Claude and ChatGPT/Codex assistance and say they checked all statements and proofs; exact models and mathematical-versus-expository allocation are not specified.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "low"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Establish the exact mathematical AI contribution and model versions behind the broad acknowledgement. Independently review the cluster submartingale, finite-ball limits and treatment of explosion, and novelty relative to the authors' earlier informal claim. Author checking is not independent verification; absence of intended journal submission is not a correctness verdict."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: On every infinite locally finite connected graph, for0<p<=1/2 and infection rate lambda>=20p, contact-process survival probability is at least three quarters of bond-percolation probability. Thus pc=0 implies lambdac=0. The paper distinguishes SIR, for which the implication fails.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4352",
+          "Daily20261127eod_4352_first"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "arXiv v1 submitted20November2026 09:25:37UTC; metadata observed27November, a current-window/backfill check.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4352",
+          "Daily20261127eod_4352_first"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4352",
+          "Daily20261127eod_4352_first"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4352",
+            "Daily20261127eod_4352_first"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated identifiable primary result and direct AI connection; unresolved scope/novelty/verification questions are explicit.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Establish the exact mathematical AI contribution and model versions behind the broad acknowledgement. Independently review the cluster submartingale, finite-ball limits and treatment of explosion, and novelty relative to the authors' earlier informal claim. Author checking is not independent verification; absence of intended journal submission is not a correctness verdict."
+    }
+  },
+  "4353": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4353",
+    "sourceIncludedId": "4353",
+    "claim": "The authors report: The paper reports no unrestricted complex-weighted monochromatic quantum graph for even N>=4 and D>=N. The published Lean target handles D=N; colour restriction yields D>N. The full D>=3 conjecture is a distinct later result, not attributed to this package.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127eod_4353",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "AlphaProof Nexus tensor-algebraic GHZ obstruction for D at least N — primary claim and AI attribution",
+        "url": "https://arxiv.org/html/2611.26300v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4353_first",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version/date basis",
+        "url": "https://github.com/google-deepmind/formal-conjectures/pull/3843",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4353_formal",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Pinned April partial formal proof",
+        "url": "https://github.com/google-deepmind/formal-conjectures/blob/b52731511180879ddf8020c60b35493599591c10/FormalConjectures/Paper/MonochromaticQuantumGraph.lean",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (05) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4353",
+          "Daily20261127eod_4353_first",
+          "Daily20261127eod_4353_formal"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: The paper reports no unrestricted complex-weighted monochromatic quantum graph for even N>=4 and D>=N. The published Lean target handles D=N; colour restriction yields D>N. The full D>=3 conjecture is a distinct later result, not attributed to this package.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. The paper reports no unrestricted complex-weighted monochromatic quantum graph for even N>=4 and D>=N. The published Lean target handles D=N; colour restriction yields D>N. The full D>=3 conjecture is a distinct later result, not attributed to this package.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The paper reports no unrestricted complex-weighted monochromatic quantum graph for even N>=4 and D>=N. The published Lean target handles D=N; colour restriction yields D>N. The full D>=3 conjecture is a distinct later result, not attributed to this package.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The primary paper attributes discovery of the formal proof and its tensor-algebraic argument to AlphaProof Nexus, followed by human mathematical/physical interpretation. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4353",
+              "Daily20261127eod_4353_first",
+              "Daily20261127eod_4353_formal"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4353",
+              "Daily20261127eod_4353_first",
+              "Daily20261127eod_4353_formal"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4353",
+              "Daily20261127eod_4353_first",
+              "Daily20261127eod_4353_formal"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The primary paper attributes discovery of the formal proof and its tensor-algebraic argument to AlphaProof Nexus, followed by human mathematical/physical interpretation.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Reconcile the April formal theorem and November human-readable interpretation, check exact edge-weight/matching definitions and the D>N restriction argument, and confirm statement correspondence and independent replay scope. Do not date the discovery to the November arXiv exposition or claim this partial range resolves the full conjecture. No downloaded proof was executed here."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: The paper reports no unrestricted complex-weighted monochromatic quantum graph for even N>=4 and D>=N. The published Lean target handles D=N; colour restriction yields D>N. The full D>=3 conjecture is a distinct later result, not attributed to this package.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4353",
+          "Daily20261127eod_4353_first",
+          "Daily20261127eod_4353_formal"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "Official first full D=N proof PR3843 opened27April2026 07:41:40UTC, merged28April; head b52731511180879ddf8020c60b35493599591c10. The19November arXiv paper retrospectively labels this April work. Discovery and exposition dates remain distinct.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4353",
+          "Daily20261127eod_4353_first",
+          "Daily20261127eod_4353_formal"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4353",
+          "Daily20261127eod_4353_first",
+          "Daily20261127eod_4353_formal"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4353",
+            "Daily20261127eod_4353_first",
+            "Daily20261127eod_4353_formal"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated identifiable primary result and direct AI connection; unresolved scope/novelty/verification questions are explicit.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Reconcile the April formal theorem and November human-readable interpretation, check exact edge-weight/matching definitions and the D>N restriction argument, and confirm statement correspondence and independent replay scope. Do not date the discovery to the November arXiv exposition or claim this partial range resolves the full conjecture. No downloaded proof was executed here. Migration provenance: the source-layer P1 attribution was P1-AI-LED; the published P1 assignment was conservatively downgraded because the decisive generation stage is not reconstructible."
+    }
+  },
+  "4354": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4354",
+    "sourceIncludedId": "4354",
+    "claim": "The authors report: For finite connected lattices of spinless fermions, nonempty/nonfull filling, common-sign real hopping and density-density interactions, the paper reports exceptional potentials lie in a closed nowhere-dense null set and nondegenerate shared-state densities have codimension at least two. It also gives a square-ground-state counterexample to unrestricted TDDFT initialization and generic local existence for real ground states. Known-result formalizations are not separately counted.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127eod_4354",
+        "sourceType": "preprint",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Generic lattice Hohenberg-Kohn and time-dependent density-potential results — primary claim and AI attribution",
+        "url": "https://arxiv.org/html/2611.32370v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4354_first",
+        "sourceType": "preprint",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version/date basis",
+        "url": "https://arxiv.org/abs/2611.32370v1",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (81) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4354",
+          "Daily20261127eod_4354_first"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: For finite connected lattices of spinless fermions, nonempty/nonfull filling, common-sign real hopping and density-density interactions, the paper reports exceptional potentials lie in a closed nowhere-dense null set and nondegenerate shared-state densities have codimension at least two. It also gives a square-ground-state counterexample to unrestricted TDDFT initialization and generic local existence for real ground states. Known-result formalizations are not separately counted.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. For finite connected lattices of spinless fermions, nonempty/nonfull filling, common-sign real hopping and density-density interactions, the paper reports exceptional potentials lie in a closed nowhere-dense null set and nondegenerate shared-state densities have codimension at least two. It also gives a square-ground-state counterexample to unrestricted TDDFT initialization and generic local existence for real ground states. Known-result formalizations are not separately counted.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: For finite connected lattices of spinless fermions, nonempty/nonfull filling, common-sign real hopping and density-density interactions, the paper reports exceptional potentials lie in a closed nowhere-dense null set and nondegenerate shared-state densities have codimension at least two. It also gives a square-ground-state counterexample to unrestricted TDDFT initialization and generic local existence for real ground states. Known-result formalizations are not separately counted.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "Claude assisted writing the Lean proofs and initial manuscript; the authors retain problem selection, mathematical strategy and statement-to-physics checking. The exact Claude version is not surfaced.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": true
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4354",
+              "Daily20261127eod_4354_first"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4354",
+              "Daily20261127eod_4354_first"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4354",
+              "Daily20261127eod_4354_first"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "Claude assisted writing the Lean proofs and initial manuscript; the authors retain problem selection, mathematical strategy and statement-to-physics checking. The exact Claude version is not surfaced.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently review novelty and formal-to-physics definitions for the new results. Preserve finite lattice, hopping-sign, interaction, real-state, gauge and local-time restrictions. The paper identifies unformalized phase extensions, density-identification steps and side remarks. Audit the public Lean dependency closure and theorem correspondence; source-reported kernel acceptance is not a local replay or independent human review. Clarify theorem-level AI roles."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: For finite connected lattices of spinless fermions, nonempty/nonfull filling, common-sign real hopping and density-density interactions, the paper reports exceptional potentials lie in a closed nowhere-dense null set and nondegenerate shared-state densities have codimension at least two. It also gives a square-ground-state counterexample to unrestricted TDDFT initialization and generic local existence for real ground states. Known-result formalizations are not separately counted.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4354",
+          "Daily20261127eod_4354_first"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "arXiv v1 submitted24November2026 10:40:24UTC; classify only the new results marked by the paper, not its known-mathematics formalizations.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4354",
+          "Daily20261127eod_4354_first"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4354",
+          "Daily20261127eod_4354_first"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4354",
+            "Daily20261127eod_4354_first"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated identifiable primary result and direct AI connection; unresolved scope/novelty/verification questions are explicit.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently review novelty and formal-to-physics definitions for the new results. Preserve finite lattice, hopping-sign, interaction, real-state, gauge and local-time restrictions. The paper identifies unformalized phase extensions, density-identification steps and side remarks. Audit the public Lean dependency closure and theorem correspondence; source-reported kernel acceptance is not a local replay or independent human review. Clarify theorem-level AI roles."
+    }
+  },
+  "4355": {
+    "schemaVersion": "0.2.0",
+    "profile": "minimal",
+    "taxonomyVersion": "0.2.0",
+    "recordRevision": 2,
+    "recordType": "result",
+    "resultId": "result-4355",
+    "sourceIncludedId": "4355",
+    "claim": "The authors report: The author reports no complex endpoint-coloured weighted graph satisfying monochromatic GHZ matching amplitudes for any even N>=6 and D>=3, settling the stated unrestricted2017 conjecture; N=4 admits the known D=3 exception. This full-range package is distinct from the April D>=N result.",
+    "sources": [
+      {
+        "sourceId": "Daily20261127eod_4355",
+        "sourceType": "repository",
+        "role": "Primary result and challenge-context evidence",
+        "title": "Full complex-weighted Krenn-Gu conjecture for even N at least six — primary claim and AI attribution",
+        "url": "https://github.com/rrajasek95/krenn-conjecture/blob/ae4d76b08a6d59c1f134de0b52bed2f44cb844b6/README.md",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "primary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4355_first",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "First-public version/date basis",
+        "url": "https://github.com/rrajasek95/krenn-conjecture/commit/e66211d22978927f1c761997472fa9f5cf8f9421",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      },
+      {
+        "sourceId": "Daily20261127eod_4355_role",
+        "sourceType": "repository",
+        "role": "Supporting or independent evidence",
+        "title": "Author AI roles, external proof and independent replay reports",
+        "url": "https://github.com/google-deepmind/formal-conjectures/pull/6627",
+        "accessed": "2026-11-27",
+        "evidenceRelation": "secondary_source"
+      }
+    ],
+    "facets": {
+      "mathematics": {
+        "status": "unclassified",
+        "rationale": "The supplied MSC path (05) does not reach a supported M3 code; the former shallow assignment is unpublished until claim-level classification is completed.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4355",
+          "Daily20261127eod_4355_first",
+          "Daily20261127eod_4355_role"
+        ],
+        "confidence": "unknown"
+      },
+      "resultApproach": {
+        "r1ContributionFamily": {
+          "status": "coded",
+          "conceptId": "R1-MATHEMATICAL-RESULT",
+          "rationale": "This record contributes a mathematical result whose canonical claim is: The authors report: The author reports no complex endpoint-coloured weighted graph satisfying monochromatic GHZ matching amplitudes for any even N>=6 and D>=3, settling the stated unrestricted2017 conjecture; N=4 admits the known D=3 exception. This full-range package is distinct from the April D>=N result.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "low"
+        },
+        "r2Outcome": {
+          "status": "coded",
+          "polarity": "settled_yes",
+          "completeness": "settled",
+          "rationale": "The evidence supports an affirmative settlement of the bounded anchor claim. The author reports no complex endpoint-coloured weighted graph satisfying monochromatic GHZ matching amplitudes for any even N>=6 and D>=3, settling the stated unrestricted2017 conjecture; N=4 admits the known D=3 exception. This full-range package is distinct from the April D>=N result.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "low"
+        },
+        "r3ArgumentForms": {
+          "status": "coded",
+          "primaryConceptId": "R3-DIRECT-PROOF",
+          "additionalConceptIds": [],
+          "rationale": "The material argument forms are supported as follows: The author reports no complex endpoint-coloured weighted graph satisfying monochromatic GHZ matching amplitudes for any even N>=6 and D>=3, settling the stated unrestricted2017 conjecture; N=4 admits the known D=3 exception. This full-range package is distinct from the April D>=N result.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "low"
+        },
+        "r4SpecialistTechniques": {
+          "status": "not_reported",
+          "rationale": "The Minimal coding pass did not promote a specialist technique into the controlled R4 registry.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "unknown"
+        }
+      },
+      "production": {
+        "p1HumanMachineMode": {
+          "status": "coded",
+          "conceptId": "P1-HUMAN-LED-AI-ASSISTED",
+          "rationale": "The author says GPT6 Astra completed the proof after earlier Claude/GPT attempts; Claude Fable5.2 ported and packaged it. Work was human-directed, with no human expert mathematical review claimed. No explicit generation-stage table with concrete operations and evidence makes the decisive stage reconstructible, so conservative precedence codes this row human-led.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "medium",
+          "sourceClaimed": false
+        },
+        "stageTable": [
+          {
+            "stage": "generation",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4355",
+              "Daily20261127eod_4355_first",
+              "Daily20261127eod_4355_role"
+            ]
+          },
+          {
+            "stage": "checking",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4355",
+              "Daily20261127eod_4355_first",
+              "Daily20261127eod_4355_role"
+            ]
+          },
+          {
+            "stage": "write_up",
+            "humanOperations": "not_reported",
+            "machineOperations": "not_reported",
+            "reconstructible": false,
+            "evidenceSourceIds": [
+              "Daily20261127eod_4355",
+              "Daily20261127eod_4355_first",
+              "Daily20261127eod_4355_role"
+            ]
+          }
+        ],
+        "p2ReasoningRepresentation": {
+          "status": "coded",
+          "conceptId": "P2-MIXED-OR-NOT-REPORTED",
+          "rationale": "The author says GPT6 Astra completed the proof after earlier Claude/GPT attempts; Claude Fable5.2 ported and packaged it. Work was human-directed, with no human expert mathematical review claimed.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "medium"
+        },
+        "p3ArchitectureFamily": {
+          "status": "not_reported",
+          "rationale": "The source material does not support a stable architecture-family assignment.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "unknown"
+        },
+        "p4ArchitectureFeatures": {
+          "status": "not_reported",
+          "rationale": "No controlled P4 feature is established by the Minimal source pack.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ],
+          "confidence": "unknown"
+        }
+      }
+    },
+    "verification": {
+      "status": "unknown",
+      "events": [],
+      "replayedHere": false,
+      "rationale": "Further checking: Independently review the two-replica argument, novelty, exact source chronology and formal-to-physical graph correspondence. The upstream PR is still open and its challenge theorem remains a sorry stub referring to an external proof, not a proof in the challenge itself. The primary thread reports independent replays and Palomar comparison, but no artifact was replayed here and no human expert review is reported. Do not mistake November registration/porting for the September discovery."
+    },
+    "challengeContext": {
+      "policyVersion": "1.1.0",
+      "anchorClaim": "The authors report: The author reports no complex endpoint-coloured weighted graph satisfying monochromatic GHZ matching amplitudes for any even N>=6 and D>=3, settling the stated unrestricted2017 conjecture; N=4 admits the known D=3 exception. This full-range package is distinct from the April D>=N result.",
+      "significance": {
+        "status": "not_reported",
+        "rationale": "The source pack does not contain a separate exercise, minor, or publishable significance assessment.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4355",
+          "Daily20261127eod_4355_first",
+          "Daily20261127eod_4355_role"
+        ],
+        "confidence": "unknown"
+      },
+      "inputs": {
+        "priorTarget": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        },
+        "advance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        },
+        "scope": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        },
+        "resistance": {
+          "value": "unknown",
+          "evidenceState": "unknown",
+          "rationale": "This refresh has not adjudicated this challenge-history component; unknown is not a score of zero.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        }
+      },
+      "framingDate": {
+        "status": "not_reported",
+        "rationale": "First all-orders written proof commit26September2026 23:33:16UTC; initial formalization23:56. Complete Lean proof commit7f78a17ecedd245bd1c17b0dce3f6a9ea2afd66f is27September02:49. Official PR6627 and November paper corroborate the September origin; November27 registration is a verification event.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4355",
+          "Daily20261127eod_4355_first",
+          "Daily20261127eod_4355_role"
+        ]
+      },
+      "solutionDate": {
+        "status": "coded",
+        "value": "2026",
+        "precision": "year",
+        "rationale": "The source ledger records the first solution report.",
+        "evidenceSourceIds": [
+          "Daily20261127eod_4355",
+          "Daily20261127eod_4355_first",
+          "Daily20261127eod_4355_role"
+        ]
+      },
+      "provisional": true,
+      "superhumanEvidence": {
+        "exactTargetCorrespondence": {
+          "value": "unknown",
+          "rationale": "Target correspondence has not been independently confirmed in the unreviewed v0.2 coding pass.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        },
+        "substantivePriorAttempts": {
+          "value": "unknown",
+          "rationale": "The resistance judgment does not yet supply a second-coder-confirmed count of independent prior attempts.",
+          "evidenceSourceIds": [
+            "Daily20261127eod_4355",
+            "Daily20261127eod_4355_first",
+            "Daily20261127eod_4355_role"
+          ]
+        }
+      },
+      "derived": {
+        "score": "unknown",
+        "baseCategory": "incomplete",
+        "category": "incomplete",
+        "elapsedYears": "not_reported",
+        "superhumanEligible": false,
+        "qualifyingVerificationEventIds": [],
+        "completionEnvelope": {
+          "policyVersion": "1.1.0",
+          "ruleVersion": "1.0.0",
+          "missingInputs": [
+            "priorTarget",
+            "advance",
+            "scope",
+            "resistance"
+          ],
+          "scoreRange": {
+            "minimum": 0,
+            "maximum": 5
+          },
+          "possibleBaseCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "possibleFinalCategories": [
+            "Expected",
+            "Difficult"
+          ],
+          "resolution": "ambiguous",
+          "completionInvariantCategory": null
+        }
+      }
+    },
+    "coding": {
+      "coder": "Mathematics Progress v0.2 corpus coding",
+      "assignmentDate": "2026-11-27",
+      "confidence": "low",
+      "rationale": "Dated identifiable primary result and direct AI connection; unresolved scope/novelty/verification questions are explicit.",
+      "reviewStatus": "unreviewed",
+      "reviewer": "unknown",
+      "notes": "Further checking: Independently review the two-replica argument, novelty, exact source chronology and formal-to-physical graph correspondence. The upstream PR is still open and its challenge theorem remains a sorry stub referring to an external proof, not a proof in the challenge itself. The primary thread reports independent replays and Palomar comparison, but no artifact was replayed here and no human expert review is reported. Do not mistake November registration/porting for the September discovery."
     }
   }
 }
